@@ -21,6 +21,11 @@ export default function App() {
           position: "relative"
         }}
       >
+        humoral is best ?
+        https://news-medical.net/news/20210222/Some-SARS-CoV-2-variants-evade-mRNA-vaccine-induced-humoral-immune-says-study.aspx
+        latent tb rises w condensation
+        <br />
+        <br />
         Cory Andre: "you’re not a doctor so shut the fuck up"
         <br />
         <br />
