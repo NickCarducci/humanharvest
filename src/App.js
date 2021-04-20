@@ -21,9 +21,33 @@ export default function App() {
           position: "relative"
         }}
       >
-        humoral is best ?
-        https://news-medical.net/news/20210222/Some-SARS-CoV-2-variants-evade-mRNA-vaccine-induced-humoral-immune-says-study.aspx
+        condensation (98.6deg/72deg) brings the virus up. Employment has been
+        back to normal and old people are still getting checks from
+        youth-dollar-equity
+        <br />
+        <br />
+        From my calculations that leaves no one helped and fraud is employment
+        back to normal. People don’t look for work & pick up the phone if
+        getting the prisoner-dilemma-duress-pool
+        <br />
+        <br />
+        humoral response is better and doesn’t create dependency.&nbsp;
+        <a href="https://www.baltimoresun.com/coronavirus/ct-aud-nw-nyt--20210416-c6wkb3yucncerkrydtt7bsixmy-story.html">
+          This article
+        </a>
+        &nbsp; moves to prove this... you’re only as good as your creativity
+        in&nbsp;
+        <a href="https://news-medical.net/news/20210222/Some-SARS-CoV-2-variants-evade-mRNA-vaccine-induced-humoral-immune-says-study.aspx">
+          making your own mRNA
+        </a>
+        <br />
+        <br />
         latent tb rises w condensation
+        <br />
+        <br />
+        Couple that with the fact that condensation happens, you can boot the
+        duress of entry without having to weigh the rights of individuals to
+        business.......
         <br />
         <br />
         Cory Andre: "you’re not a doctor so shut the fuck up"
