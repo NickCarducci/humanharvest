@@ -21,6 +21,31 @@ export default function App() {
           position: "relative"
         }}
       >
+        <a href="https://www.lls.org/news/the-leukemia-lymphoma-society-statement-on-covid-19-vaccine-distribution">
+          "While the news of the approval is encouraging, and the pace of
+          progress gives us all reason to be optimistic, more research is needed
+          to determine the safety and efficacy of this and other COVID-19
+          vaccines for cancer patients" 49
+        </a>
+        <br />
+        <br />
+        <a href="https://www.cdc.gov/vaccines/acip/recs/grade/covid-19-moderna-vaccine.html">
+          Seven serious adverse events were deemed by blinded investigators to
+          be related to vaccination. These included: intractable
+          nausea/vomiting; facial swelling (two reports); rheumatoid arthritis;
+          dyspnea with exertion and peripheral edema; autonomic dysfunction; and
+          B-cell lymphocytic lymphoma. Through further investigation by the FDA,
+          only three were classified as related to vaccination: one report of
+          intractable nausea/vomiting and two reports of facial swelling. The
+          FDA concluded that the possibility that the vaccine contributed could
+          not be excluded for rheumatoid arthritis, dyspnea and peripheral
+          edema, and autonomic dysfunction
+        </a>
+        . The FDA concluded that B-cell lymphocytic lymphoma was not related to
+        vaccination.
+        <a href="https://www.fda.gov/media/144452/download">citation</a>
+        &nbsp;
+        <br />
         I’ve made the statistical law that populations need to be shuffled for
         significance to be true
         <div style={{ width: "100%", maxWidth: "600px" }}>
