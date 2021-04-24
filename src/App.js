@@ -30,6 +30,55 @@ export default function App() {
             src="https://www.dl.dropboxusercontent.com/s/q8n2wh39sk1u0me/Population-Pyramid-1950-to-2100-793x550.jpeg?dl=0"
           />
         </div>
+        School is one of the schemes to keep youth from earning wealth while
+        they learn.
+        <br />
+        <br />
+        Scholastic public administration? @Cornell If most are fat, old, afro or
+        Hispanic & 80% effectiveness to boot. I can withhold people based on
+        that correlation and not on subjective minimal viable product
+        <br />
+        <br />
+        50% worsened lymphoma obviously. J&J not ad as being cultured w stem
+        cells
+        <br />
+        <br />
+        If rates rise, they do not. The most in your face fraud there is #cfius
+        <br />
+        <br />
+        The right is not from Civil Rights it is free-rider-excluder enslaving
+        those denied not based on mvp, of as evidenced as a cease-and-desist
+        defamation order would require.
+        <br />
+        <br />
+        Here, you must prove condensation does not happen @uscourts @neiltyson
+        <br />
+        <br />
+        Imminent-danger-lethal, qualified-immunity-only-for-a-bad-shot not a
+        car-face #MinnesotaIsGuilty #ChauvinTrial
+        <br />
+        <br />
+        You want to detain people without a crime? While you allow serflords and
+        banksquatting? @BrooklynDA
+        <br />
+        <br />
+        Bail strike you let people out @JCats2013 has been saying and now he has
+        you on @FCC
+        <br />
+        <br />
+        @aclu #cfius your inability to do math is not my mental illness, no
+        humoral mind is ill by definition @JudiciaryDems @SenJudiciaryGOP
+        <br />
+        <br />
+        If you can become mentally-ill from how you are raised, or
+        emotional-trauma, you aren't ill @MerriamWebster
+        <br />
+        <br />
+        The market is not when human labor is capital @MexOnu . The market makes
+        things fair unless it is counterfeit in promise instead of
+        profit-share/equity
+        <br />
+        <br />
         what is 1/death-expectancy not going to have diminishing marginal
         returns of antiviral, sanitation and therapeutics?
         <br />
