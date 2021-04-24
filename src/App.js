@@ -39,8 +39,15 @@ export default function App() {
         that correlation and not on subjective minimal viable product
         <br />
         <br />
-        50% worsened lymphoma obviously. J&J not ad as being cultured w stem
-        cells
+        Sanjay Gupta extrapolates that 20-25% of healthcare professionals advise
+        against non-humoral immunity
+        <br />
+        <br />
+        <a href="https://link.springer.com/article/10.1007/s00259-021-05314-2">
+          50% worsened lymphoma obviously
+        </a>
+        , dependence can be assumed from survival of fittest logic . J&J not ad
+        as being cultured w stem cells
         <br />
         <br />
         If rates rise, they do not. The most in your face fraud there is #cfius
