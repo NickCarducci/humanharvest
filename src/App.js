@@ -24,6 +24,8 @@ export default class App extends React.Component {
         }}
       >
         <div style={{ maxWidth: "600px", width: "100%" }}>
+          I’ve made the statistical law that populations need to be shuffled for
+          significance to be true
           <div style={{ width: "100%", maxWidth: "600px" }}>
             <img
               style={{ height: "auto", width: "100%" }}
