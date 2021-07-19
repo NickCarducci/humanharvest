@@ -21,6 +21,36 @@ export default function App() {
           position: "relative"
         }}
       >
+        WWII was a life-expectancy ago... rate of change thru 2009 shows this
+        <div style={{ width: "100%", maxWidth: "300px" }}>
+          <img
+            style={{ height: "auto", width: "100%" }}
+            alt={
+              `indicies of population and monies are expounded, ` +
+              `respectively showing gdp/population is constant with ` +
+              `fixed resources with differing forms and technological ` +
+              `advancements but still same melted- or decompositional-forms`
+            }
+            src="https://www.dl.dropboxusercontent.com/s/mgm24pg4qqzelyy/2009%20index%20wwii%20life%20expectancy.jpeg?dl=0"
+          />
+        </div>
+        <div style={{ width: "100%", maxWidth: "300px" }}>
+          <img
+            style={{ height: "auto", width: "100%" }}
+            alt="full chart of the above that is zoomed-in"
+            src="https://www.dl.dropboxusercontent.com/s/7juhzw918i6hxwm/index%20of%20growths.jpeg?dl=0"
+          />
+        </div>
+        <div style={{ width: "100%", maxWidth: "300px" }}>
+          <img
+            style={{ height: "auto", width: "100%" }}
+            alt="population cohorts show dramatic increase of 65-74 cohort over 2010's, absolutely"
+            src="https://www.dl.dropboxusercontent.com/s/6a47ublnabh49ze/evidence%20rent%20no%2045%20to%2055%20work.jpeg?dl=0"
+          />
+        </div>
+        froth.app/stats
+        <br />
+        <br />
         Covid variants before they emerge? G-d made humoral like 'survival of
         fittest' not 'dependence.' @newsmax we can assume this @CDCgov
         <br />
@@ -489,7 +519,7 @@ export default function App() {
         if cops can brandish, people can brandish to not incriminate themselves
         <br />
         <br />
-        Not a criminal, if not convicted for offense > threat by the
+        Not a criminal, if not convicted for offense {">"} threat by the
         bankquatting & conspiring serflord cops. http://3under2.us; & still,
         cops are not allowed to crash into a fleeing subject or allow
         counterfeit or duress-borne invoice & coagulated demand
