@@ -241,6 +241,11 @@ export default class App extends React.Component {
           process
           <br />
           <br />
+          as for epiology, basis rate fallacy elsewhere and in sum, thrice, is
+          ms matched paralytic polio and "age-standardized," "excess deaths" do
+          not account for population growth nor age-cohort size
+          <br />
+          <br />
           <Cable
             style={{ width: "110px", height: "100px" }}
             onError={handleScollImgError}
