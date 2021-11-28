@@ -18,6 +18,7 @@ export default class App extends React.Component {
     this.state = {
       browser: name,
       scrollTop: 0,
+      ios: name.includes("Safari"),
       iosNoPhoto: name.includes("Safari")
     };
     for (let i = 0; i < 220; i++) {
@@ -95,6 +96,8 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          the positivity rate is higher in lower asymptomatic-testing
+          <br />
           are you not testing asymptomatic-testing one at a&nbsp;
           <a href="https://www.cdc.gov/flu/about/professionals/antigenic.htm">
             time
@@ -107,6 +110,14 @@ export default class App extends React.Component {
           &nbsp;will know the effect of the variant on their vaccines in just a
           couple weeks,” Jim acosta, that makes no&nbsp;
           <a href="https://www.fda.gov/media/144245/download#page=42">sense</a>.
+          <br />
+          {this.state.ios && (
+            <span style={{ border: "1px solid" }}>
+              "Among 3410 total cases of suspected but unconfirmed COVID-19 in
+              the overall study population, 1594 occurred in the vaccine group
+              vs. 1816 in the placebo group"
+            </span>
+          )}
           <br />
           <Cable
             style={{ width: "300px", height: "350px" }}
