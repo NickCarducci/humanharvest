@@ -95,15 +95,43 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          <h2
+            style={{
+              backgroundColor: "rgba(200,100,150,.5)"
+            }}
+          >
+            not with those numbers, no,&nbsp;
+            <a href="https://saverparty.xyz/#:~:text=%22Math">neigh</a>
+          </h2>
           I was literally lassoed for a siringe for calling insurance net loss
           and upon false imprisonment, but why wouldn't mental-health have to
           use evidence and jail or acquit right away malfeasance? What else but
           racket. I thought it was a knee appointment but my mom whispered to
-          them that I&nbsp;<a href="https://truncatedsalestax.com">pushed</a>
+          them that I&nbsp;
+          <a href="https://truncatedsalestax.com">pushed</a>
           &nbsp;her. like the britney spears case, given to her at discount of
           what I deserve because she is the one with collateralized debt. my
           consumer debt and IP isolated is&nbsp;
           <a href="https://carducci.us">good for you</a>
+          <br />
+          <br />
+          <Cable
+            style={{ width: "300px", height: "345px" }}
+            onError={handleScollImgError}
+            src={
+              this.state.nolinkedin
+                ? ""
+                : "https://www.linkedin.com/embed/feed/update/urn:li:share:6870778078365278208"
+            }
+            float="right"
+            title="https://linkedin.com/in/nickcarducci https://www.linkedin.com/feed/update/urn:li:activity:6870778078793089024/?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6870778078793089024%2C6870780409710448641%29"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 18]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          Utility is too broad just design and discovery should do you good.
+          License: “UNLICENSED”
           <br />
           <br />
           Class solution from politics, not law. bipartisan detractors is from
