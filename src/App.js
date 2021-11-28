@@ -95,6 +95,12 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          <a href="https://www.pfizer.com/news/hot-topics/viral_vs_bacterial_pneumonia_understanding_the_difference">
+            Pfizer
+          </a>
+          &nbsp;will know the effect of the variant on their vaccines in just a
+          couple weeks,” Jim acosta, that makes no sense.
+          <br />
           <Cable
             style={{ width: "300px", height: "350px" }}
             onError={handleScollImgError}
