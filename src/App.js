@@ -95,6 +95,21 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          <Cable
+            style={{ width: "300px", height: "350px" }}
+            onError={handleScollImgError}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.youtube.com/embed/IPQIsodwMwY"
+            }
+            float="left"
+            title="Stephen Moore June 13th, 2021 Moore Money, Population Growth, Epiology & GDP/population"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 24]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           <h2
             style={{
               backgroundColor: "rgba(200,100,150,.5)"
@@ -126,7 +141,7 @@ export default class App extends React.Component {
             float="right"
             title="https://linkedin.com/in/nickcarducci https://www.linkedin.com/feed/update/urn:li:activity:6870778078793089024/?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6870778078793089024%2C6870780409710448641%29"
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 18]}
+            fwd={this["scrollImg" + 20]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
@@ -191,7 +206,7 @@ export default class App extends React.Component {
               float="right"
               title="froth.app"
               scrolling={this.state.scrolling}
-              fwd={this["scrollImg" + 17]}
+              fwd={this["scrollImg" + 19]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
               scrollTop={this.state.scrollTop}
             />
@@ -313,12 +328,17 @@ export default class App extends React.Component {
             scrollTop={this.state.scrollTop}
           />
           established itself endemically, why don't you test for all 2k/yr
-          discovered? prevalence does not a transmissibility make.&nbsp;
+          discovered (10k/yr looked at)? prevalence does not a transmissibility
+          make.&nbsp;
           <h2>it is the byproduct of bacteria</h2>, already proven vivo
           insemination by bacteria in open wound, not by G-d or without a
           taxonomy at all, like bacteria, and virus from cell.
           <br />
           <br />
+          <h1>
+            More testing begets less death/symptom co-incidence&nbsp;
+            <span>does not pretend postend-to-cause</span>
+          </h1>
           Cartoon vivo insemination, is dead byproduct and asymptomatic-test
           does not make a case. Remember page 42&nbsp;
           <a href="https://www.fda.gov/media/144245/download#page=42">
@@ -802,8 +822,6 @@ export default class App extends React.Component {
               }}
             />
           )}
-          <br />
-          <br />
           even if antibodies just clear up byproduct of bacterial-cause and
           virus only comes out, you can expect this 800n result
           <a href="https://link.springer.com/article/10.1007/s00259-021-05314-2">
@@ -814,6 +832,7 @@ export default class App extends React.Component {
           excess antibodies attacking mRNA-spored-protein-graft
           <br />
           attacking your own cell with protein made from the grafted-mRNA*
+          <br />
           <Cable
             style={{ height: "auto", width: "300px" }}
             img={true}
@@ -867,8 +886,9 @@ export default class App extends React.Component {
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
-          froth.app/stats
           <br />
+          froth.app/stats
+          <hr />
           <br />
           Covid variants before they emerge? G-d made humoral like 'survival of
           fittest' not 'dependence.' @newsmax we can assume this @CDCgov
@@ -929,6 +949,21 @@ export default class App extends React.Component {
           assumptions, one being condensation doesn’t happen @mit
           <br />
           <br />
+          <Cable
+            style={{ width: "150px", height: "210px" }}
+            onError={handleScollImgError}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.youtube.com/embed/1D6n2om9I6A"
+            }
+            float="right"
+            title="Dick Morris 77WABC - bacteria is cause"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 23]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           Humoral response is more safe
           <br />
           <br />
@@ -1080,7 +1115,7 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.youtube.com/embed/Jxj0-TaTm4o"
+                : "https://www.youtube.com/embed/mlEFtVlivjs"
             }
             float="right"
             title=""
@@ -1172,7 +1207,7 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.youtube.com/embed/MTM2Pw73Ol0"
+                : "https://www.youtube.com/embed/m55ZAB47LHg"
             }
             float="right"
             title="Dick Morris 77WABC - bacteria is cause"
@@ -1583,6 +1618,21 @@ export default class App extends React.Component {
           today."
           <br />
           <br />
+          <Cable
+            style={{ width: "150px", height: "210px" }}
+            onError={handleScollImgError}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.youtube.com/embed/Jxj0-TaTm4o"
+            }
+            float="right"
+            title=""
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 21]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           More than 528,000 Americans have signed up for Affordable Care Act
           coverage on the federal exchange in the first six weeks of the special
           enrollment period President Biden opened for the uninsured
@@ -1627,6 +1677,21 @@ export default class App extends React.Component {
             />
           </div>
           <br />
+          <Cable
+            style={{ width: "150px", height: "210px" }}
+            onError={handleScollImgError}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.youtube.com/embed/MTM2Pw73Ol0"
+            }
+            float="right"
+            title="Dick Morris 77WABC - bacteria is cause"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 22]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           <h1>Starve the unjabbed</h1>
           “White House will make vaccine passport, you won’t have a job without
           it”
