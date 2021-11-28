@@ -235,6 +235,12 @@ export default class App extends React.Component {
           end the RepoCycleWithDowns
           <br />
           <br />
+          In my science, Fauci and WHO are suffering from basis rate fallacy, of
+          cases vs asymtpomatic testing of the byproduct of a cause of a
+          changing byproduct, to which is garbage of a garbage collection
+          process
+          <br />
+          <br />
           <Cable
             style={{ width: "110px", height: "100px" }}
             onError={handleScollImgError}
