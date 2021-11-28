@@ -95,6 +95,10 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          “Nobodies crazy whom detect conspiracies, but Biden is ill based on
+          his intellect rather than brain dent,” diagnoses Rudy Giuliani
+          <br />
+          <br />
           <TwitterTweetEmbed
             style={{ float: "right", width: "300px" }}
             key="1428312309685002241"
@@ -462,6 +466,21 @@ export default class App extends React.Component {
           now with induced excess antibodies attacking their own cell
           <br />
           <br />
+          <Cable
+            style={{ width: "150px", height: "210px" }}
+            onError={handleScollImgError}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.youtube.com/embed/nKvUf7F4Xn4"
+            }
+            float="right"
+            title="Dick Morris 77WABC - bacteria is cause"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 17]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           Cause
           <br />
           Root/link
@@ -953,6 +972,17 @@ export default class App extends React.Component {
           business.......
           <br />
           <br />
+          <div
+            style={{
+              height: "min-content"
+            }}
+          >
+            <TwitterTweetEmbed
+              style={{ width: "300px", float: "right" }}
+              key="1421471623136358405"
+              tweetId="1421471623136358405"
+            />
+          </div>
           Cory Andre: "you’re not a doctor so shut the fuck up"
           <br />
           <br />
