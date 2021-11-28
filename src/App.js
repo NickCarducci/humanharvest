@@ -95,6 +95,25 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          <a href="https://froth.app">
+            carducci.us
+            <Cable
+              style={{ width: "auto", height: "60px" }}
+              onError={handleScollImgError}
+              img={true}
+              src={
+                this.state.settleDropboxFree
+                  ? ""
+                  : "https://www.dl.dropboxusercontent.com/s/u9kahqiqiiqse5t/froth%20logo300150.png?dl=0"
+              }
+              float="right"
+              title="froth.app"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 17]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+          </a>
           “Nobodies crazy whom detect conspiracies, but Biden is ill based on
           his intellect rather than brain dent,” diagnoses Rudy Giuliani
           <br />
@@ -972,17 +991,21 @@ export default class App extends React.Component {
           business.......
           <br />
           <br />
-          <div
-            style={{
-              height: "min-content"
-            }}
-          >
-            <TwitterTweetEmbed
-              style={{ width: "300px", float: "right" }}
-              key="1421471623136358405"
-              tweetId="1421471623136358405"
-            />
-          </div>
+          <Cable
+            style={{ width: "150px", height: "210px" }}
+            onError={handleScollImgError}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.youtube.com/embed/Jxj0-TaTm4o"
+            }
+            float="right"
+            title=""
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 19]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           Cory Andre: "you’re not a doctor so shut the fuck up"
           <br />
           <br />
@@ -1060,6 +1083,21 @@ export default class App extends React.Component {
             . Your choice!
           </div>
           <br />
+          <Cable
+            style={{ width: "150px", height: "210px" }}
+            onError={handleScollImgError}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.youtube.com/embed/MTM2Pw73Ol0"
+            }
+            float="right"
+            title="Dick Morris 77WABC - bacteria is cause"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 18]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           Nick Carducci doctors are not financially/legally inclined to not act,
           and they mostly get paid for acting too boot. I am also expert in game
           theory and motive
@@ -1258,6 +1296,17 @@ export default class App extends React.Component {
           http://foiegras.life
           <br />
           <br />
+          <div
+            style={{
+              height: "min-content"
+            }}
+          >
+            <TwitterTweetEmbed
+              style={{ width: "300px", float: "right" }}
+              key="1421471623136358405"
+              tweetId="1421471623136358405"
+            />
+          </div>
           "If your mask gets moldy, perhaps it is time for a fresh one."
           <br />
           <br />
