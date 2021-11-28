@@ -95,6 +95,12 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          are you not testing asymptomatic-testing one at a&nbsp;
+          <a href="https://www.cdc.gov/flu/about/professionals/antigenic.htm">
+            time
+          </a>
+          ?
+          <br />"
           <a href="https://www.pfizer.com/news/hot-topics/viral_vs_bacterial_pneumonia_understanding_the_difference">
             Pfizer
           </a>
