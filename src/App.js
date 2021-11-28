@@ -96,6 +96,10 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          <h2>
+            Less likely to catch the virus just because of prevalence? You need
+            vivo insemination, babe
+          </h2>
           the positivity rate is higher in lower asymptomatic-testing
           <br />
           are you not testing asymptomatic-testing one at a&nbsp;
