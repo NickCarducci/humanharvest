@@ -98,7 +98,11 @@ export default class App extends React.Component {
         >
           <h2>
             Less likely to catch the virus just because of prevalence? You need
-            vivo insemination, babe
+            vivo&nbsp;
+            <a href="https://www.sparknotes.com/biology/cellreproduction/cellcycle/section2/">
+              insemination
+            </a>
+            , babe
           </h2>
           the positivity rate is higher in lower asymptomatic-testing
           <br />
