@@ -95,16 +95,22 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          <h2>
+            <a href="https://www.academia.edu/48950651/Economics_of_Politics_Public_Finance_Term_Paper">
+              assuming
+            </a>
+            &nbsp;something of employers and new business to&nbsp;
+            <a href="https://policonomics.com/pareto-optimal/#:~:text=Following">
+              infinity
+            </a>
+            , and &nbsp;<a href="https://carducci.us">beyond</a>
+          </h2>
           "No fault welfare," while 65+ gain half unemployment and mental
           illness is a diability, but not previous work and injury or
           self-inflicted except on site for false bid pool, expiring premium,
           non-rollover insurance. “Trump solved the problem with vaccines, but
           there are more deaths with vaccines,” Dick Morris. 75+ since 2015
           1.2m/yr growth in cohort
-          <br />
-          <br />
-          “Trump solved the problem with vaccines, but there are more deaths
-          with vaccines,” Dick Morris. 75+ since 2015 1.2m/yr growth in cohort
           <br />
           <br />
           <a href="https://froth.app">
