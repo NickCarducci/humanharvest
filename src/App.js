@@ -95,6 +95,10 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          “Trump solved the problem with vaccines, but there are more deaths
+          with vaccines,” Dick Morris. 75+ since 2015 1.2m/yr growth in cohort
+          <br />
+          <br />
           <a href="https://froth.app">
             carducci.us
             <Cable
