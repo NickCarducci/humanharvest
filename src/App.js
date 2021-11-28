@@ -95,11 +95,29 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          I was literally lassoed for a siringe for calling insurance net loss
+          and upon false imprisonment, but why wouldn't mental-health have to
+          use evidence and jail or acquit right away malfeasance? What else but
+          racket. I thought it was a knee appointment but my mom whispered to
+          them that I&nbsp;<a href="https://truncatedsalestax.com">pushed</a>
+          &nbsp;her. like the britney spears case, given to her at discount of
+          what I deserve because she is the one with collateralized debt. my
+          consumer debt and IP isolated is&nbsp;
+          <a href="https://carducci.us">good for you</a>
+          <br />
+          <br />
+          Class solution from politics, not law. bipartisan detractors is from
+          false bids and infinite producer reason in finite producer reality
+          <br />
+          <br />
           "a lot of [afro] income growth is the work[-seeking] requirement for
           unemployment false bid pools (insurance)"
           <br />
           <br />
           "Communism is radical political coercion." Like entrapping?
+          {/**compelling gov purpose, jury for business and free rider immutable 
+          sewage police lawsuits, that cannot be pro-rated in immediate t-0 escrow,
+           else collective bargain fails to bring ask-to-bid */}
           <br />
           Or fraudulent. Politics should be subject to desistation to jury of
           exhibits before jury decides it is evidence
@@ -151,7 +169,8 @@ export default class App extends React.Component {
             />
           </a>
           “Nobodies crazy whom detect conspiracies, but Biden is ill based on
-          his intellect rather than brain dent,” diagnoses Rudy Giuliani
+          his intellect rather than brain&nbsp;
+          <a href="https://brainscan.info">dent</a>,” diagnoses Rudy Giuliani
           <br />
           <br />
           <TwitterTweetEmbed
