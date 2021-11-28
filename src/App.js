@@ -1763,32 +1763,41 @@ export default class App extends React.Component {
           and “vaccine”/graft b-cell dysregulation duress can only stay home
           @CNN
           <br />
-          <br />
-          @SaverParty if the cakes were printed, this shouldn't be legally ok to
-          exclude unless "graphic" in accordance with some law please please
-          please (public indecency)
-          <br />
-          <br />
-          Especially if the gain-of-function, from lab-or-bat, does not require
-          spittle && there-not-being-tests-of-virus-on-table as for Latent-TB
-          <br />
-          <br />
-          I obey from exclusion if I am symptomatic, but get the “vaccine”/graft
-          to please you @cnn won’t even say your doctoring consults’ name
-          @BrookeBaldwin . Private business is grave violation of exclusion
-          without evidence of virus transmission by talking, or countertops.
-          Just assumed
-          <br />
-          <br />
-          @avenaim I fail to understand how a vaccine passport violates your
-          privacy. It just says you got vaccinated.
-          <br />
-          <br />
-          @Jim_Zakany MAGA people don't want to get vaccinated or wear masks,
-          but they ALSO don't want to suffer any consequences for their
-          behavior. They want to go to concerts and on trips, but they don't
-          really care if they kill others in the process.
-          <br />
+          <div
+            style={{
+              margin: "10px",
+              padding: "10px",
+              color: "black",
+              borderRadius: "10px",
+              backgroundColor: "rgb(220,250,200)"
+            }}
+          >
+            @SaverParty if the cakes were printed, this shouldn't be legally ok
+            to exclude unless "graphic" in accordance with some law please
+            please please (public indecency)
+            <br />
+            <br />
+            Especially if the gain-of-function, from lab-or-bat, does not
+            require spittle && there-not-being-tests-of-virus-on-table as for
+            Latent-TB
+            <br />
+            <br />
+            I obey from exclusion if I am symptomatic, but get the
+            “vaccine”/graft to please you @cnn won’t even say your doctoring
+            consults’ name @BrookeBaldwin . Private business is grave violation
+            of exclusion without evidence of virus transmission by talking, or
+            countertops. Just assumed
+            <br />
+            <br />
+            @avenaim I fail to understand how a vaccine passport violates your
+            privacy. It just says you got vaccinated.
+            <br />
+            <br />
+            @Jim_Zakany MAGA people don't want to get vaccinated or wear masks,
+            but they ALSO don't want to suffer any consequences for their
+            behavior. They want to go to concerts and on trips, but they don't
+            really care if they kill others in the process.
+          </div>
           <br />
           moldmask.co, cocaine is money, purity health dpt @SaverParty You are
           selfish for forcing people to risk b-cell oncogenesis to be included.
@@ -1854,6 +1863,17 @@ export default class App extends React.Component {
           https://www.hhs.gov/sites/default/files/covid-19-high-impact-allocation.pdf
           invoices are theft and these grants from our equity only raises prices
           for services
+          <div
+            style={{
+              height: "min-content"
+            }}
+          >
+            <TwitterTweetEmbed
+              style={{ width: "300px", float: "right" }}
+              key="1420593721096253440"
+              tweetId="1420593721096253440"
+            />
+          </div>
           <h1
             style={{
               fontFamily: '"Pacifico", sans-serif'
