@@ -95,6 +95,24 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          "a lot of [afro] income growth is the work[-seeking] requirement for
+          unemployment false bid pools (insurance)"
+          <br />
+          <br />
+          "Communism is radical political coercion." Like entrapping?
+          <br />
+          Or fraudulent. Politics should be subject to desistation to jury of
+          exhibits before jury decides it is evidence
+          <br />
+          <br />
+          taking people off welfare by labor monopsony of free rider mutable r&d
+          monopsony tax 40% and the rest debt-spending, 10-40% debt service
+          fed-state,
+          <h2>
+            instead of knee-capping&nbsp;<a href="https://30under5.us">rent</a>
+            -seekers?
+          </h2>
+          <br />
           <h2>
             <a href="https://www.academia.edu/48950651/Economics_of_Politics_Public_Finance_Term_Paper">
               assuming
