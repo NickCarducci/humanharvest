@@ -99,7 +99,8 @@ export default class App extends React.Component {
             Pfizer
           </a>
           &nbsp;will know the effect of the variant on their vaccines in just a
-          couple weeks,” Jim acosta, that makes no sense.
+          couple weeks,” Jim acosta, that makes no&nbsp;
+          <a href="https://www.fda.gov/media/144245/download#page=42">sense</a>.
           <br />
           <Cable
             style={{ width: "300px", height: "350px" }}
