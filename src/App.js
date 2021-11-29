@@ -99,6 +99,115 @@ export default class App extends React.Component {
           <Cable
             style={{
               width: "110px",
+              height: "100px"
+            }}
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/1uYUmSOIjSZbONbeyNxqKb8YfL99Kc2-f/preview"
+            }
+            float="right"
+            title="National report (Newsmax) - Glenn Gromkin"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 31]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          politics is not a "political thing," "predicting what is more accurate
+          in the future," is the very utility of politics as to reasoning for
+          outlaws
+          <br />
+          there is already third party beneficiary law
+          <br />
+          <a href="https://story.snapchat.com/p/6297f1b9-30a8-4538-80fe-2f15b4d1ce76/1643955896086528/2289369221603328">
+            this is still happening albeit in countervailing law
+          </a>
+          {/*<Cable
+            style={{
+              width: "110px",
+              height: "100px"
+            }}
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://story.snapchat.com/p/6297f1b9-30a8-4538-80fe-2f15b4d1ce76/1643955896086528/2289369221603328"
+            }
+            float="right"
+            title="Weird History (Snapchat) - Asylums"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 30]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />*/}
+          <br />
+          <Cable
+            style={{
+              height: "440px"
+            }}
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/1HPSdsdqU_1_Qm_nRI2TL28tiRJ_veRIr/preview"
+            }
+            float="left"
+            title="Bernie and Sid (77WABC) - Asylum review, bail means no evidence"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 29]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          <br />
+          "Republicans wouldn't go along with this," but will in 60/40 wall
+          st/gov
+          <br />
+          2010-20 $4t/yr 1/4 pentagon 1/4 pension 1/4 expiring-premiums, 40%
+          debt spending over compounding basis by such itself and debt limit is
+          0<br />
+          <Cable
+            style={{
+              width: "110px",
+              height: "100px"
+            }}
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/1d4VdzR79K0BUalejrHiMSUhzWcHyvGAR/preview"
+            }
+            float="left"
+            title="National report (Newsmax) - Sen Cassidy on This Week (ABC)"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 28]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          <Cable
+            style={{
+              width: "100%",
+              height: "300px",
+              maxHeight: "25vw",
+              transform: "scale(-1,1)"
+            }}
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/1PJ8391RQyJ1CkPraFAZOk-W1tt0LwHuI/preview"
+            }
+            float="right"
+            title="Face the Nation (CBS) - Fauci, 'I am science,'"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 27]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          <br />
+          <Cable
+            style={{
+              width: "110px",
               height: "100px",
               transform: "scale(-1,1)"
             }}
