@@ -114,6 +114,12 @@ export default class App extends React.Component {
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
+          Simple majority is quicker to find guilty than 11/12
+          <br />
+          Innocence isn’t ever given the benefit of the simple majority,
+          especially with ideological duress of voters and defiance of eligible
+          <br />
+          <br />
           "Financial," isn’t a deal per person nor group unless it is immediate
           escrow; it is any demand that is not labor or share-split/tax that is
           not of the consumer for same goods nor for free rider mutable or
