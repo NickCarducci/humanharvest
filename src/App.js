@@ -97,6 +97,30 @@ export default class App extends React.Component {
           }}
         >
           <Cable
+            style={{
+              height: "340px"
+            }}
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/1BfcflB_MSKN8sgDh9_4bWzz-fCU4my1s/preview"
+            }
+            float="right"
+            title="GBNews - Maxwell trial"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 35]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          what is facts about a case to be called a bias if exonerated is
+          permissible
+          <br />
+          Do you not have messages? Flight-logs aren’t proof? What else? These
+          things should be public info
+          <br />
+          <br />
+          <Cable
             onError={handleScollImgError}
             src={
               this.state.iosNoPhoto
@@ -118,6 +142,10 @@ export default class App extends React.Component {
           <br />
           <br />
           <Cable
+            style={{
+              width: "110px",
+              height: "100px"
+            }}
             onError={handleScollImgError}
             src={
               this.state.iosNoPhoto
