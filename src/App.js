@@ -96,6 +96,45 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          <Cable
+            style={{
+              width: "110px",
+              height: "100px",
+              transform: "scale(-1,1)"
+            }}
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/1en8tGznaX0WmJTG8sWSxFCY4j_7YjgIY/preview"
+            }
+            float="left"
+            title="Michael Osterholm portrait"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 26]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          <Cable
+            style={{ height: "40px", width: "60px" }}
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/1rTktXHe1x8nZzDOO7anMw4sGV38-ZTum/preview"
+            }
+            float="right"
+            title="virus insemination cartoon evidence"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 25]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          assumptions make an ass out of you and me
+          <br />
+          Just because you test one virus at a time doesn’t mean it is
+          transmitted, it is borne in vivo by each individual from &nbsp;
+          <a href="https://youtu.be/Weqb9KrQ-TU?t=21">bacterial</a>-cause
           <h2>
             Less likely to catch the virus just because of prevalence? You need
             vivo&nbsp;
