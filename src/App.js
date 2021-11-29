@@ -96,6 +96,32 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          vaccinations do not stop a testing for one at a time byproduct, they
+          make antibodies to stop blood clots by virion excrement, but cartoon
+          vivo insemination isn't proof of transmission nor cause, just
+          prevalence
+          <br />
+          <Cable
+            style={{
+              height: "440px"
+            }}
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/1Wcvt-h5akh70Ip2YdEcjgoZm8gtdtz_t/preview"
+            }
+            float="left"
+            title="LinkedIn - selective guidelines without ftc citing is fine?"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 31]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          do not implement asymptomaic-testing, unless you want to obfuscate
+          time-series detection of the universal cause of similar symptoms
+          <br />
+          <br />
           <Cable
             style={{
               width: "110px",
