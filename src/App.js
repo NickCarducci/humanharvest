@@ -96,6 +96,64 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          <Cable
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/1JHhCgkEe0_kSk5gH7TRpfYkInJVjuLqf/preview"
+            }
+            float="left"
+            title="National Report (Newsmax) - Shaun Kraisman basis rate fallacy"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 34]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          6 per 100 in florida because they are testing less, "per" cannot be
+          per person AND per tested
+          <br />
+          <br />
+          shut the fuck up bitch
+          <br />
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/1Ub9mdUZRjgnABUn_7CV-QULnUODCwD5N/preview"
+            }
+            float="right"
+            title="National Report (Newsmax) - Shaun Kraisman basis rate fallacy"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 33]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “Encourage people with&nbsp;
+          <a href="https://link.springer.com/article/10.1007/s00259-021-05314-2">
+            high risk
+          </a>
+          &nbsp;to get the vaccines,” is&nbsp;
+          <a href="https://www.cdc.gov/vaccines/acip/recs/grade/covid-19-moderna-vaccine.html#:~:text=cSeven%20serious">
+            not
+          </a>
+          &nbsp;the right advice, since&nbsp;
+          <a href="https://www.google.com/search?q=oncogenic+b-cell+dysregulation">
+            excess
+          </a>
+          &nbsp; antibodies (
+          <a href="https://www.aafp.org/afp/2016/1201/p896.html">
+            dysregulation
+          </a>
+          ) can be deadly
+          <br />
+          <br />
+          They think they are ahead of the day, but we have been up earlier in
+          actual time
+          <br />
+          <br />
           If you like to compete with consumers and call yourself a
           conservative, you are making up words. Socialists prevent
           non-labor-demand. This lender-/landlord-work-deficit is 20x/person
@@ -2124,7 +2182,8 @@ export default class App extends React.Component {
           there is no proof spittle doesn't rise to ceiling if hot or fall if
           heavy with protons right&nbsp;
           <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ina.12639">
-            away
+            away, (retrospective has no controlled prevalence of vivo
+            insemination)
           </a>
           , or it is in the meat like it has been for decades. a gun doesn't
           shoot itself - this smells of insurance fraud
@@ -2150,6 +2209,32 @@ export default class App extends React.Component {
           </div>{" "}
           <br />
           <br />
+          <Cable
+            style={{ width: "150px", height: "210px" }}
+            onError={handleScollImgError}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1P1LkeKv8TS-X4qER0O0EaT7WDuwwZozN/preview"
+            }
+            float="left"
+            title="MAGA etf on Newsmax"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 32]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “It’s spreading at the border.” He even looks like Trump&nbsp;
+          <span
+            role="img"
+            aria-label="squirrel bottom-left white-circle cancel euro-old-man clown-face"
+          >
+            🐿↙️⚪️🚫👨🏻‍🦳🤡
+          </span>
+          &nbsp; Imagine insuring injuries with false bid pools with state
+          victim instead of regulating?
+          <br />
+          <br />
           The covid family has been around for decades. Can someone cite
           controlled evidence that it is deadlier than previous years? Why is
           population data still delayed 2 months? This is in the meat by your
@@ -2163,14 +2248,21 @@ export default class App extends React.Component {
           <a href="https://www.addgene.org/protocols/pcr/">PCR</a>) as for the
           cold.
           <br />
+          <TwitterTweetEmbed
+            style={{ float: "right", width: "300px" }}
+            key="1421858300979732480"
+            tweetId="1421858300979732480"
+          />
           "Pfizer/BioNTech say data suggests vaccine 94% effective in preventing
-          asymptomatic infection" doesn't prove it stops transmission,
-          especially when only 10% have been vaccinated &nbsp;and cases at at
-          29% of what they once were in the bottom of the&nbsp;
-          <a href="https://www.reuters.com/article/health-coronavirus-pfizer-israel-int-idUSKBN2B31IW">
-            same report
-          </a>
-          .
+          asymptomatic infection" doesn't prove it stops transmission
+          <span style={{ textDecoration: "line-through" }}>
+            , especially when only 10% have been vaccinated &nbsp;and cases are
+            at 29% of what they once were in the bottom of the&nbsp;
+            <a href="https://www.reuters.com/article/health-coronavirus-pfizer-israel-int-idUSKBN2B31IW">
+              same report
+            </a>
+            .
+          </span>
           <br />
           Isn't it great that the&nbsp;
           <a href="https://www.justice.gov/">State</a>&nbsp;can brandish with
