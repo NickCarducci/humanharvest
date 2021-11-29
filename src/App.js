@@ -96,6 +96,8 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          "Spreading among the unvaccinated," prevalence doesn't make cause
+          <br />
           <h2>
             Biden free rider mutable 60% tax and 40% debt-spending r&d monopsony
           </h2>
@@ -105,39 +107,40 @@ export default class App extends React.Component {
           infections and severe disease wear masks inside and outside. It
           protects you and those around you
           <br />
-          if improvements are needed, the fda will put them on the market. I am
-          removing all road blocks to keep people safe
+          if improvements are needed, the&nbsp;
+          <a href="https://teapharmacy.party">fda</a>&nbsp;will put them on the
+          market. I am removing all road blocks to keep people safe.
           <br />
-          if you are vaccinated, but are worried, get the booster. if you aren't
+          If you are vaccinated, but are worried, get the booster. if you aren't
           vaccinated, get that shot!
           <br />
-          I promise Americat hat the latest boosters will be free and everywhere
+          I promise America that the latest boosters will be free and everywhere
           in america, free of charge.
           <br />
-          We ship 275 vaccines to 110 countries
+          We ship 275 vaccines to 110 countries;
           <br />
           no vaccines to other parts of the world will ever come at the expense
-          of every American
+          of every American.
           <br />
-          how do we meet the morals and protection of americans?
+          How do we meet the morals and protection of Americans?
           <br />
-          we cannot let up untill the world is vaccinated, to protect us as
+          We cannot let up untill the world is vaccinated, to protect us as
           well.
           <br />
-          last christmas fewer than half, 75% and now 81% of seniors
+          Last christmas fewer than half, 75% and now 81% of seniors.
           <br />
-          there is still time and available before christmas. given where e were
+          There is still time and available before christmas. given where e were
           last year, that non of us should take for granted.
           <br />
           Thats how we reopen our business schools, even in the pandemic, we
-          have made record growth, we move forward now
+          have made record growth, we move forward now.
           <br />
-          the reason for the travel ban there was a significant amount of cases
+          The reason for the travel ban there was a significant amount of cases
           in africa and around the world.
           <br />
           I don't think anyone will be reluctant to report that we have provided
           more vaccines to that region than the world cobined. the reluctance to
-          get it into their arms is there. lol. Alex from Reuters"
+          get it into their arms is there. lol. Alex from Reuters."
           <br />
           <br />
           Rent-seeking (trust-building, public-utility-operating-costable)
