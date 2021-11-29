@@ -96,6 +96,13 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          you can't be anti-mandate, pro-vaxx & pro-article4
+          <br />
+          credit is forced for debit card platforms, do not call&nbsp;
+          <a href="https://nationalsecuritycasino.com">gdp</a>&nbp;
+          <a href="https://micro-theory.com">productive</a>&nbsp; as it is
+          prices*hours as that is squared to waste per hour
+          <br />
           "Spreading among the unvaccinated," prevalence doesn't make cause
           <br />
           <h2>
