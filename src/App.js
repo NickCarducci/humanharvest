@@ -1731,6 +1731,17 @@ export default class App extends React.Component {
           ... and acted on. @ChrisSalcedo17
           <br />
           <br />
+          <div
+            style={{
+              height: "min-content"
+            }}
+          >
+            <TwitterTweetEmbed
+              style={{ width: "300px", float: "left" }}
+              key="1425460613711605760"
+              tweetId="1425460613711605760"
+            />
+          </div>
           19% are symptomatic, I can’t let this happen @US_FDA @ftc
           @JohnsHopkins @RutgersU @NYGov,&nbsp;
           <a href="https://www.nature.com/articles/d41586-020-03141-3">
