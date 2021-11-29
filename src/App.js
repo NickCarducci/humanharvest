@@ -100,11 +100,12 @@ export default class App extends React.Component {
           conservative, you are making up words. Socialists prevent
           non-labor-demand. This lender-/landlord-work-deficit is 20x/person
           55+/millennial rental-income and 44x accrual at checking velocity of
-          1.1/yr, and how else but to launder savings accounts principal does
-          $4t/yr spending 60%, 40% free rider mutable tax (1/4 pensions, 1/4
-          pentagon, 1/4 premiums) not become checking-currencyComponentOfM1 Rent
-          seeking public utility happens when it is operating costable (unless
-          perpetual motion machine or durable good like public parks/dollars)
+          &nbsp;<a href="https://fred.stlouisfed.org/graph/?g=JiC5">1.1/yr</a>,
+          and how else but to launder savings accounts principal does $4t/yr
+          spending 60%, 40% free rider mutable tax (1/4 pensions, 1/4 pentagon,
+          1/4 premiums) not become checking-currencyComponentOfM1 Rent seeking
+          public utility happens when it is operating costable (unless perpetual
+          motion machine or durable good like public parks/dollars)
           <br />
           <br />
           consumer surrogate, target margin, jury for business
