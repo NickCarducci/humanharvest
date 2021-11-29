@@ -114,6 +114,17 @@ export default class App extends React.Component {
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
+          "Financial," isn’t a deal per person nor group unless it is immediate
+          escrow; it is any demand that is not labor or share-split/tax that is
+          not of the consumer for same goods nor for free rider mutable or
+          non-concurrentable things like outlays, claims nor hours,
+          <br />
+          <br />
+          it is otherwise any competition with the consumer in third party
+          beneficiary law or intent to harm deduced (more than 5 units or 30
+          days)
+          <br />
+          <br />
           politics is not a "political thing," "predicting what is more accurate
           in the future," is the very utility of politics as to reasoning for
           outlaws
@@ -165,7 +176,8 @@ export default class App extends React.Component {
           <br />
           2010-20 $4t/yr 1/4 pentagon 1/4 pension 1/4 expiring-premiums, 40%
           debt spending over compounding basis by such itself and debt limit is
-          0<br />
+          Zero
+          <br />
           <Cable
             style={{
               width: "110px",
