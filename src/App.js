@@ -96,6 +96,49 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          <h2>
+            invoices and insurance coverage are theft of third party beneficiary
+          </h2>
+          <a href="https://saverparty.xyz">Plaintiffs</a>&nbsp;contend they are
+          third party beneficiaries under Civil Code section 1559, which
+          provides: "A contract, made expressly for the benefit of a third
+          person, may be enforced by him at any time before the parties thereto
+          rescind it." This section excludes enforcement of a contract by
+          persons who are only incidentally or remotely benefited by it. (Lucas
+          v. Hamm (1961) 56 Cal. 2d 583, 590 [15 Cal. Rptr. 821, 364 P.2d 685].)
+          American law generally classifies persons having enforceable rights
+          under contracts to which they are not parties as either creditor
+          beneficiaries or donee beneficiaries. (Rest., Contracts, §§ 133,
+          subds. (1), (2), 135, 136, 147; 2 Williston on Contracts (3d ed. 1959)
+          § 356; 4 Corbin on Contracts (1951) § 774; see Rest.2d Contracts
+          (Tentative Drafts 1973) § 133, coms. b, c.) California decisions
+          follow this classification. (Southern Cal. Gas Co. v. ABC Construction
+          Co. (1962) 204 Cal. App. 2d 747, 752 [22 Cal. Rptr. 540]; 1 Witkin,
+          Summary of Cal. Law (8th ed. 1973) Contracts, § 500.)
+          <br />
+          <br />
+          [6] A person cannot be a creditor beneficiary unless the promisor's
+          performance of the contract will discharge some form of legal duty
+          owed to the beneficiary by the promisee. (Hartman Ranch Co. v.
+          Associated Oil Co. (1937) 10 Cal. 2d 232, 244 [73 P.2d 1163]; Rest.,
+          Contracts, § 133, subd. (1)(b).) [1b]
+          <br />
+          <br />
+          [7] A person is a donee beneficiary only if the promisee's contractual
+          intent is either to make a gift to him or to&nbsp;
+          <a href="https://law.justia.com/cases/california/supreme-court/3d/11/394.html">
+            confer on him a right against [11 Cal. 3d 401] the promisor. (Rest.,
+            Contracts, § 133, subd. (1)(a).)
+          </a>
+          <h2>
+            "expanding healthcare access - M4A," is expiring-claim, invoice and
+            higher-premium for producer-ask of the same
+            intermediate-material-and-labor&nbsp;
+            <span style={{ fontSize: "9px" }}>
+              hidden by 40% debt-spending publically, or not, still fraudulent
+              bid of your consumers'/employers'
+            </span>
+          </h2>
           <Cable
             onError={handleScollImgError}
             src={
