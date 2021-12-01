@@ -96,6 +96,9 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          Mark Levin and Chuck Schumer call this collective loss, "protection:"
+          <br />
+          <br />
           "hospitals are packed, hundreds a day dying," that isn't a lot, and
           expiring claims/invoices misappropriated funds to adniministration
           instead of hospital beds, as the latter has not grown since population
