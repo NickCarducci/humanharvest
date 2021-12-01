@@ -96,6 +96,16 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          "hospitals are packed, hundreds a day dying," that isn't a lot, and
+          expiring claims/invoices misappropriated funds to adniministration
+          instead of hospital beds, as the latter has not grown since population
+          was half its size. 2015 census mortality projections, hospital
+          capacity watchers and I knew this "pandemic" was coming, because of
+          population growth.
+          <h2>
+            plausible deniability of talk radio and cable for ratings is over
+          </h2>
+          <br />
           "In New Zealand, you get fined if you don't vote," "well yeah, some
           countries take this very seriously,"
           <h2>
@@ -103,7 +113,6 @@ export default class App extends React.Component {
             without expiring claims nor invoices and within jury-science (every
             industry represented)
           </h2>
-          <br />
           <br />
           "The first omicron case has arrived in the U.S. He is vaccinated, so
           he has no symptoms,"
