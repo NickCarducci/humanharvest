@@ -96,6 +96,10 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          "The first omicron case has arrived in the U.S. He is vaccinated, so
+          he has no symptoms,"
+          <br />
+          <br />
           age-standardized excess deaths short 700k 1.2m/yr+ 75+ 2015- expected
           is not a "pandemic."
           <br />
