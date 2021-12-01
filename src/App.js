@@ -96,6 +96,24 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          <Cable
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/1qHQmxF3dw_XALhPuZ6FzR-jOJVk22AiB/preview"
+            }
+            float="right"
+            title="American Agenda (Newsmax) - Rob Smith of Turning Point"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 38]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          Turning Point: “I’m not antivaxx but I am antimandate, unless you tell
+          me that the vaccine stops transmission.”
+          <br />
+          <br />
           conscientious observer:
           <h2>
             excess or regulated antibody symptom warning, infection cause by
