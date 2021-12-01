@@ -141,7 +141,7 @@ export default class App extends React.Component {
           <br />
           <br />
           credit is forced for debit card platforms, do not call&nbsp;
-          <a href="https://nationalsecuritycasino.com">gdp</a>&nbp;
+          <a href="https://nationalsecuritycasino.com">gdp</a>&nbsp;
           <a href="https://micro-theory.com">productive</a>&nbsp; as it is
           prices*hours as that is squared to waste per hour
           <br />
@@ -1682,6 +1682,21 @@ export default class App extends React.Component {
             hypothesis
           </div>
           <br />
+          <Cable
+            style={{ width: "150px", height: "210px" }}
+            onError={handleScollImgError}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.youtube.com/embed/-spTY4y8euI"
+            }
+            float="left"
+            title="Ford Brewer MD bacteria notions, reasonable doubt"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 37]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           right, the covid vaccine causes this side effect in some patients,
           usually 2-4 days afterwards, under the arm pit of the side where the
           jab was. It resolves to normal in about four weeks. It’s actually
