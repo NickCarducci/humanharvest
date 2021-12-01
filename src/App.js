@@ -96,6 +96,31 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          age-standardized excess deaths short 700k 1.2m/yr+ 75+ 2015- expected
+          is not a "pandemic."
+          <br />
+          <span
+            style={{
+              backgroundColor: "rgb(197, 179, 88)",
+              color: "black"
+            }}
+          >
+            Sen Rand Paul:
+          </span>
+          &nbsp;“If people buy what you make, G-d love you, that is the American
+          way. I’m against the government buying their product.” What about
+          expiring claim “purchases” and invoices? Are those ‘
+          <a href="https://nationalsecuritycasino.com">buys</a>?’
+          <br />
+          <br />
+          “Monoclonal-antibodies will take care of those who cannot take care of
+          themselves.
+          <br />
+          Incurring more debt is why we are paying more in inflation through
+          this pandemic.
+          <br />
+          Insurance companies should have paid for our healthcare.”
+          <br />
           <h2>
             invoices and insurance coverage are theft of third party beneficiary
           </h2>
