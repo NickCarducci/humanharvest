@@ -96,6 +96,7 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          conscientious observer:
           <h2>
             excess or regulated antibody symptom warning, infection cause by
             bacterial-cause
@@ -134,9 +135,9 @@ export default class App extends React.Component {
           you can't be anti-mandate, pro-vaxx & pro-article4
           <br />
           I would sooner believe virus happens without bacteria as you describe
-          than it is transmitted! Only way it is transmitted with only cellular
-          taxonomy is if it is an evolutionary trait to kill eachother for no
-          obvious gain
+          [5G, bad vibes] than it is transmitted! Only way it is transmitted
+          with only cellular taxonomy is if it is an evolutionary trait to kill
+          eachother for no obvious gain
           <br />
           <br />
           credit is forced for debit card platforms, do not call&nbsp;
