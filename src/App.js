@@ -338,10 +338,12 @@ export default class App extends React.Component {
           consumer surrogate, target margin, jury for business
           <br />
           <br />
-          vaccinations do not stop a testing for one at a time byproduct, they
-          make antibodies to stop blood clots by virion excrement, but cartoon
-          vivo insemination isn't proof of transmission nor cause, just
-          prevalence
+          <h2>
+            vaccinations do not stop a testing for one at a time byproduct, they
+            make antibodies to stop blood clots by virion excrement
+          </h2>
+          , but cartoon vivo insemination isn't proof of transmission nor cause,
+          just prevalence
           <br />
           <Cable
             style={{
