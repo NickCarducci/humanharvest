@@ -96,7 +96,48 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          <h2>
+            excess or regulated antibody symptom warning, infection cause by
+            bacterial-cause
+          </h2>
+          <Cable
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/1XDXM3DNlOXNAe4dThh5hJLRo11njzBGE/preview"
+            }
+            float="left"
+            title="National Report (Newsmax) - Dr. Jerome Adams fmr. Us Surgeon General, with a cartoon virion next to his head, and the merk antiviral"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 36]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “As the JHU site tells us the US is in the bottom-half of squelching
+          variants,” neglecting the inability to compare cases with asymptomatic
+          testing of similar symptoms with insignificant changes year to year.
+          <br />
+          “By Christmas, every citizen should have a 'free' antibody test from
+          the government,”
+          <br />
+          “Smart testing of when people coming into the country and leaving, so
+          we can stop the spread of the virus even more,”
+          <br />
+          “The best bet is to get vaccinated, even though there is conflicting
+          information,”
+          <br />
+          “The same testing still can capture the new variants,” 1 at a time,
+          the one with the most proteins?
+          <br />
+          <br />
           you can't be anti-mandate, pro-vaxx & pro-article4
+          <br />
+          I would sooner believe virus happens without bacteria as you describe
+          than it is transmitted! Only way it is transmitted with only cellular
+          taxonomy is if it is an evolutionary trait to kill eachother for no
+          obvious gain
+          <br />
           <br />
           credit is forced for debit card platforms, do not call&nbsp;
           <a href="https://nationalsecuritycasino.com">gdp</a>&nbp;
