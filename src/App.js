@@ -96,6 +96,15 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          "In New Zealand, you get fined if you don't vote," "well yeah, some
+          countries take this very seriously,"
+          <h2>
+            talk about state victimization racketeering and tort beyond capacity
+            without expiring claims nor invoices and within jury-science (every
+            industry represented)
+          </h2>
+          <br />
+          <br />
           "The first omicron case has arrived in the U.S. He is vaccinated, so
           he has no symptoms,"
           <br />
