@@ -111,7 +111,7 @@ export default class App extends React.Component {
             float="left"
             title="National Report (Newsmax) - Dr. Jerome Adams fmr. Us Surgeon General, with a cartoon virion next to his head, and the merk antiviral"
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 36]}
+            fwd={this["scrollImg" + 37]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
@@ -146,6 +146,23 @@ export default class App extends React.Component {
           prices*hours as that is squared to waste per hour
           <br />
           "Spreading among the unvaccinated," prevalence doesn't make cause
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/1Kfed9pXm-N3MffFC4-ygKy_XUIH4J3Pn/preview"
+            }
+            float="right"
+            title="John Bachmann (Newsmax) - Director of St. Joseph's Hospital"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 36]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          He thinks virion is created by cell exclusively. Is it an evolutionary
+          trait?
           <br />
           <h2>
             Biden free rider mutable 60% tax and 40% debt-spending r&d monopsony
