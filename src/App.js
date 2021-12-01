@@ -2370,7 +2370,6 @@ export default class App extends React.Component {
           <br />
           <br />
           <Cable
-            style={{ width: "150px", height: "210px" }}
             onError={handleScollImgError}
             src={
               this.state.noyoutube
@@ -2414,7 +2413,8 @@ export default class App extends React.Component {
             tweetId="1421858300979732480"
           />
           "Pfizer/BioNTech say data suggests vaccine 94% effective in preventing
-          asymptomatic infection" doesn't prove it stops transmission
+          asymptomatic infection" doesn't prove it stops transmission, or even
+          causal vs prevalence
           <span style={{ textDecoration: "line-through" }}>
             , especially when only 10% have been vaccinated &nbsp;and cases are
             at 29% of what they once were in the bottom of the&nbsp;
