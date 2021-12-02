@@ -1865,6 +1865,12 @@ export default class App extends React.Component {
             </a>
             . Your choice!
           </div>
+          Dec 2 2021 Bo Snerdley reports aborted fetus' are harvested. For
+          vaccines? Or stem cells? Does bone marrow&nbsp;
+          <a href="https://www.researchgate.net/publication/43297722_Repair_of_Traumatic_Skeletal_Muscle_Injury_with_Bone-Marrow-Derived_Mesenchymal_Stem_Cells_Seeded_on_Extracellular_Matrix">
+            transplant
+          </a>
+          &nbsp;to skeletal muscle require this?
           <br />
           <Cable
             style={{ width: "150px", height: "210px" }}
