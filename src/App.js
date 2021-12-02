@@ -96,9 +96,57 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
-          This is like an invisible methane fire, the way doctors are trying to
-          play statistician
+          <Cable
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/1ID7uJq2pgd4Fh3MtHOBXz2rZ6d7Hvrz7/preview"
+            }
+            float="left"
+            title="American Agenda (Newsmax) - Medicare Advantage Program"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 42]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          <Cable
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/1aCSy4cwqTFpaFCx1nnB_0yrP4ZqVzZFq/preview"
+            }
+            float="right"
+            title="American Agenda (Newsmax) - Medicare Advantage Program"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 41]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “You’d be in good company, 26m people have a medicare advantage plan.
+          I have a plan too and I really love it I’ve tried other coverage but
+          they do not meet my needs nor my budget, now until November 7th …$0
+          monthly premium plans may be in your area, don’t delay, our team is
+          standing by to help you right now.” But what if invoices were illegal,
+          what would be your purpose Paula? “You really want together these
+          benefits. Coming up, you’ll see real customers. Come find your
+          medicare advantage plan!”
           <br />
+          <br />
+          Stop calling reappropriating laborequity.org, and nationalism,
+          socialism! Free market communist!
+          <br />
+          <br />
+          Ppp is trust building and I think gun violence is because we have
+          finance (expiring claims & invoices, implausible landlord use above 5
+          units/30 days)
+          <br />
+          <br />
+          <h2>
+            This is like an invisible methane fire, the way doctors are trying
+            to play statistician
+          </h2>
           Your biology class didn’t show you a vivo insemination of virion dna
           in cell
           <br />
