@@ -96,6 +96,10 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          <h2>
+            vivo-evolutionary-trait or byproduct-retroactive-prevalence, because
+            in vitro we know it only comes out
+          </h2>
           Mark Levin and Chuck Schumer call this collective loss, "protection:"
           <br />
           <br />
@@ -196,10 +200,10 @@ export default class App extends React.Component {
                 ? ""
                 : "https://drive.google.com/file/d/1qHQmxF3dw_XALhPuZ6FzR-jOJVk22AiB/preview"
             }
-            float="right"
+            float="left"
             title="American Agenda (Newsmax) - Rob Smith of Turning Point"
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 38]}
+            fwd={this["scrollImg" + 39]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
@@ -293,6 +297,23 @@ export default class App extends React.Component {
           <br />
           I promise America that the latest boosters will be free and everywhere
           in america, free of charge.
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/1sgt0t2YikacKYIxcxTgTTMSVxetc83r5/preview"
+            }
+            float="right"
+            title="John Bachmann (Newsmax) - Joe Biden"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 38]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          "We shipped for&nbsp;<a href="https://carducci.us">free</a>&nbsp;to
+          other parts of the world, to more than all countries combined,”
           <br />
           We ship 275 vaccines to 110 countries;
           <br />
