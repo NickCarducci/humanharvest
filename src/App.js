@@ -96,6 +96,16 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          This is like an invisible methane fire, the way doctors are trying to
+          play statistician
+          <br />
+          Your biology class didn’t show you a vivo insemination of virion dna
+          in cell
+          <br />
+          It’s literally counted as a flu, byproduct-prevalence does not make
+          cause
+          <br />
+          <br />
           <Cable
             onError={handleScollImgError}
             src={
@@ -116,7 +126,10 @@ export default class App extends React.Component {
           <br />
           <h2>
             vivo-evolutionary-trait or byproduct-retroactive-prevalence, because
-            in vitro we know it only comes out
+            in vitro we know it only comes out,&nbsp;
+            <a href="https://www.fda.gov/media/144245/download#page=42">
+              5% of suspected
+            </a>
           </h2>
           Mark Levin and Chuck Schumer call this collective loss, "protection:"
           <br />
@@ -128,7 +141,11 @@ export default class App extends React.Component {
           capacity watchers and I knew this "pandemic" was coming, because of
           population growth.
           <h2>
-            plausible deniability of talk radio and cable for ratings is over
+            plausible deniability of talk radio and cable for&nbsp;
+            <a href="https://www.cdc.gov/flu/weekly/overview.htm#:~:text=5.%20Mortality%20Surveillance">
+              ratings
+            </a>
+            &nbsp;is over
           </h2>
           <br />
           "In New Zealand, you get fined if you don't vote," "well yeah, some
