@@ -96,6 +96,24 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          <Cable
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/1chpUdy6o4qmfVKp6KPUhX3fOFQJDtbAR/preview"
+            }
+            float="right"
+            title="American Agenda (Newsmax) - Child Critical Care Doctor Saveface smiling about evidence exhibited by cartoon"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 40]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          Vaccines prevent infection because of byproduct prevalence? Vivo
+          insemination of virion in cell is only portrayed in cartoons thus far,
+          not real life
+          <br />
           <h2>
             vivo-evolutionary-trait or byproduct-retroactive-prevalence, because
             in vitro we know it only comes out
