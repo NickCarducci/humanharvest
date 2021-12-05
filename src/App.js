@@ -101,7 +101,7 @@ export default class App extends React.Component {
           from so-called "free-markets" constituted by expiring claims and
           invoices, where a wire-mesh was the worst solution for massaging the
           "intestines" inside if that is not a poor job from the birth-catcher
-          <br />
+          <hr />
           <Cable
             onError={handleScollImgError}
             src={
@@ -148,9 +148,10 @@ export default class App extends React.Component {
           <br />
           <br />
           that’s what scientists use to prove your side! What are you smoking.
-          What would you trust the saveFace doctors? I’m a
-          statistician/Govtech/Paytech entrepreneur who doesn’t want to work on
-          wall st. Credit is haram and third party beneficiary donee claimable
+          <h2>What would you trust the saveFace doctors?</h2>
+          I’m a statistician/Govtech/Paytech entrepreneur who doesn’t want to
+          work on wall st. Credit is haram and third party beneficiary donee
+          claimable
           <br />
           You probably work for someone
           <br />
@@ -165,7 +166,7 @@ export default class App extends React.Component {
           you to jump off a bridge you would. Inject me with the virus, I swear
           it won’t spread. Antibodies will be made though. Only bacteria can do
           that
-          <br />
+          <hr />
           <h2>
             Are you testing for all similar symptoms in ICU? fixing capacity for
             capacity? 50m short of expected excess deaths worldwide, 700k US,
@@ -175,6 +176,7 @@ export default class App extends React.Component {
             </a>
             &nbsp;as insignificant and all about nothing
           </h2>
+          <hr />
           ms matches paralytic-polio. virion, “requires cell to reproduce,”
           because it only comes out. prevalent byproduct does not
           bacterial-cause make. Cases vs asymptomatic testing certainly is the
