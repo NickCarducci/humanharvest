@@ -96,6 +96,36 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          I just don’t want rent-seeking from government (40% debt-speding, 10%
+          debt-service) over my&nbsp;
+          <a href="https://thumbprint.us/voting">election tech</a>
+          &nbsp;inventions (
+          <a href="https://thumbprint.us">discovery and design</a>) that can be
+          &nbsp;<a href="https://3under2.us">free-rider-mutable</a>&nbsp;by
+          making the cities, universities and corporates pay. Furthermore,
+          evidently by comparative law, I can use any hung-jury-science duress,
+          to boot.
+          <br />
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/115QLTNUIomNWfmn8WH-PLvm292yeg31m/preview"
+            }
+            float="left"
+            title="GBNews - Nigel Farage with Biden office manager"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 45]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          "How do you get people to vote on Election Day?" By providing an
+          actual choice, not just two&nbsp;
+          <a href="https://teapharmacy.party">wall st Pharma cops</a>
+          <br />
+          <br />
           <h2>expert conflict of interests</h2>
           An ailment like an umbilical hernia shows the malfeasance in quality
           from so-called "free-markets" constituted by expiring claims and
