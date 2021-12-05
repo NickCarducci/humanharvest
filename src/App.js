@@ -118,6 +118,34 @@ export default class App extends React.Component {
           <br />
           <br />
           <Cable
+            style={{
+              height: "220px"
+            }}
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/1JpTSqcGZyt0kvkw5Evlock4UcRvg-_JL/preview"
+            }
+            float="left"
+            title="GBNews - Lawrence Young of U of Warwick on antibody incidence"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 43]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “Antibody response positively-correlates with aggressive symptoms.”
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <Cable
             onError={handleScollImgError}
             src={
               this.state.iosNoPhoto
