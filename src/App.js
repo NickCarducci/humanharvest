@@ -96,6 +96,27 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          ms matches paralytic-polio. virion, “requires cell to reproduce,”
+          because it only comes out. prevalent byproduct does not
+          bacterial-cause make. Cases vs asymptomatic testing certainly is the
+          fallacy
+          <br />
+          <br />
+          I'm a statistician, the current vaxxers and antivaxxers are wrong to
+          say it spreads from prevalence alone, it is actually a byproduct.
+          nearly vivo insemination has been proven with bacteria making cell in
+          an open wound, but I would rather cite you this: our diagnosis of
+          &nbsp;
+          <a href="https://www.pfizer.com/news/hot-topics/viral_vs_bacterial_pneumonia_understanding_the_difference">
+            bacterial vs viral
+          </a>
+          &nbsp;cause right now is merely severity of symptoms? we need
+          controlled tests of virus replicating without cellular mitosis of
+          already (bacterially-)infected cell. antibodies onset symptoms but
+          those may be warning mechanism, cleaning up potential blood clotting
+          debris
+          <br />
+          <br />
           <Cable
             onError={handleScollImgError}
             src={
