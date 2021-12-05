@@ -104,7 +104,7 @@ export default class App extends React.Component {
           &nbsp;<a href="https://3under2.us">free-rider-mutable</a>&nbsp;by
           making the cities, universities and corporates pay. Furthermore,
           evidently by comparative law, I can use any hung-jury-science duress,
-          to boot.
+          to boot.{/**let alone compatative advantage */}
           <br />
           <br />
           <Cable
@@ -114,7 +114,7 @@ export default class App extends React.Component {
                 ? ""
                 : "https://drive.google.com/file/d/115QLTNUIomNWfmn8WH-PLvm292yeg31m/preview"
             }
-            float="left"
+            float="right"
             title="GBNews - Nigel Farage with Biden office manager"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 45]}
