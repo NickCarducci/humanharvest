@@ -96,6 +96,15 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          <h2>
+            Are you testing for all similar symptoms in ICU? fixing capacity for
+            capacity? 50m short of expected excess deaths worldwide, 700k US,
+            leaves the&nbsp;
+            <a href="https://www.cdc.gov/flu/weekly/overview.htm#:~:text=5.%20Mortality%20Surveillance">
+              mortality
+            </a>
+            &nbsp;as insignificant and all about nothing
+          </h2>
           ms matches paralytic-polio. virion, “requires cell to reproduce,”
           because it only comes out. prevalent byproduct does not
           bacterial-cause make. Cases vs asymptomatic testing certainly is the
