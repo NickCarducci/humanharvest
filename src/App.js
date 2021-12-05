@@ -121,6 +121,10 @@ export default class App extends React.Component {
             &nbsp;deaths 
           </div>
           <br />
+          "Requiring a negative omicron test,” Jim Acosta, ignoring the 2k/year
+          discovered and 5% prevalence off suspected cases. Ignoring the
+          cause-linked-symptoms, an artifact 5% of the time
+          <br />
           <Cable
             onError={handleScollImgError}
             src={
