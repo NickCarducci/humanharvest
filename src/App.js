@@ -96,12 +96,22 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          <h2>
+            expiring claims abetting invoices and racketeering free rider
+            mutable health, $4t/yr 1/4 pensions, 1/4 premiums, 1/4 pentagon
+            pre-3/2020 fake pandemic based on age standardized excess deaths
+            short 50m/yr worldwide, 700k/yr in US. counterfeit in contract third
+            party beneficiary donee claimable
+          </h2>
+          Should be illegal to compel labor to sign for longer than a month a la
+          carte except for sport drafts…
+          <br />
+          <br />
           Abstain able polls bring out the voluntary crazies, lo is more random
           than can ever be emulated, variance is greater in real life than AP
           Stats
-          <br />
-          I just don’t want rent-seeking from government (40% debt-speding, 10%
-          debt-service) over my&nbsp;
+          <br />I just don’t want rent-seeking from government (40%
+          debt-spending, 10% debt-service) over my&nbsp;
           <a href="https://thumbprint.us/voting">election tech</a>
           &nbsp;inventions (
           <a href="https://thumbprint.us">discovery and design</a>) that can be
