@@ -96,6 +96,28 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          <Cable
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/1dqy_dBGZLEO4stAZFpeM4u9JgJwN3He4/preview"
+            }
+            float="left"
+            title="GBNews - Patrick Christys' intro"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 46]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “Omicron has yet to kill a single person,” GBNews anchor projects from
+          prevalence of byproduct not bacterial-cause
+          <br />
+          If these were evolutionary traits that, “only replicate with cell,”
+          requisite for all vivo-cause (ingredients-in-a-vacuum), article 4
+          would apply with jury-science deducable
+          <br />
+          <br />
           “Verified stream of income in perpetuity,” J. Tobacco street guest on
           free rider mutable health-“care”
           <h2>
