@@ -96,6 +96,7 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          <h2>expert conflict of interests</h2>
           An ailment like an umbilical hernia shows the malfeasance in quality
           from so-called "free-markets" constituted by expiring claims and
           invoices, where a wire-mesh was the worst solution for massaging the
