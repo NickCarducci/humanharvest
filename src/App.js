@@ -96,6 +96,57 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          <Cable
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/1eh9NxOH_Be4VO1R-ZszGNbRG89wkaYMx/preview"
+            }
+            float="left"
+            title="GBNews - EU COMPULSORY JABS?"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 44]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          <h2>right retards, them</h2>
+          it is sensible, prevalence being the chicken rather than the egg, or
+          does it really matter? Haha, about place-density, population growth
+          with last years’ life expectancy is short 50m/yr in world and 700k/yr
+          in US. The Great Leap Forward expected 15m 35 age/lifetime deaths from
+          population growth alone
+          <br />
+          <br />
+          But the&nbsp;
+          <a href="https://www.pfizer.com/news/hot-topics/viral_vs_bacterial_pneumonia_understanding_the_difference">
+            most
+          </a>
+          &nbsp;jarring: Bacterial-infection with snapshot electron microscope
+          (not “vivo-cause”), the only diagnostic difference between such and
+          viral infection is, severity?
+          <br />
+          <br />
+          did you even read what I said? Are you a person?PREVALENCE DOES NOT
+          CAUSE MAKE: it was sewage that forebode lifetime, please scroll down
+          midway humanharvest.info for the charts of the cellular debris. You
+          think virus is an evolutionary trait? It “requires cell to reproduce,”
+          because it only comes out
+          <br />
+          <br />
+          <a href="https://www.frontiersin.org/articles/10.3389/fcimb.2018.00396/full">
+            here
+          </a>
+          &nbsp;are some cartoons from your, “virion inseminates cell with its
+          dna,” scientists
+          <br />
+          <br />
+          that’s what scientists use to prove your side! What are you smoking.
+          What would you trust the saveFace doctors? I’m a
+          statistician/Govtech/Paytech entrepreneur who doesn’t want to work on
+          wall st. Credit is haram and third party beneficiary donee claimable
+          <br />
+          You probably work for someone
           <h2>
             Are you testing for all similar symptoms in ICU? fixing capacity for
             capacity? 50m short of expected excess deaths worldwide, 700k US,
