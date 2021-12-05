@@ -96,6 +96,11 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          An ailment like an umbilical hernia shows the malfeasance in quality
+          from so-called "free-markets" constituted by expiring claims and
+          invoices, where a wire-mesh was the worst solution for massaging the
+          "intestines" inside if that is not a poor job from the birth-catcher
+          <br />
           <Cable
             onError={handleScollImgError}
             src={
