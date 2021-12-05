@@ -147,6 +147,19 @@ export default class App extends React.Component {
           wall st. Credit is haram and third party beneficiary donee claimable
           <br />
           You probably work for someone
+          <br />
+          <br />
+          I am a scientist, I have a bachelors in political science with
+          economics minor, only because I think debt is counterfeit in contract,
+          and hour targeting instead of per hour price deflation is retarded
+          <br />
+          <br />
+          politics is the use of reason beyond precedence, like we are the
+          people that question the science. You’re just a follower. If they told
+          you to jump off a bridge you would. Inject me with the virus, I swear
+          it won’t spread. Antibodies will be made though. Only bacteria can do
+          that
+          <br />
           <h2>
             Are you testing for all similar symptoms in ICU? fixing capacity for
             capacity? 50m short of expected excess deaths worldwide, 700k US,
