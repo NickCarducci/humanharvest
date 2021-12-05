@@ -96,6 +96,30 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          <div
+            style={{
+              width: "100%"
+            }}
+          >
+            <a
+              style={{
+                shapeOutside: "rect()",
+                float: "right",
+                width: "max-content",
+                padding: "0px 10px",
+                fontSize: "20px",
+                fontFamily: "'Pacifico', sans-serif",
+                color: "rgb(230,230,255)",
+                backgroundColor: "rgb(32, 22, 11)"
+              }}
+              href="https://carducci.us"
+            >
+              carducci.us
+            </a>
+            market history and propoganda: The Great Leap Forward expected 15m
+            35 age lifetime deaths
+          </div>
+          <br />
           <Cable
             onError={handleScollImgError}
             src={
@@ -111,21 +135,21 @@ export default class App extends React.Component {
             scrollTop={this.state.scrollTop}
           />
           “Omicron has yet to kill a single person,” GBNews anchor projects from
-          prevalence of byproduct not bacterial-cause
+          prevalence of byproduct not bacterial-cause.
           <br />
           If these were evolutionary traits that, “only replicate with cell,”
           requisite for all vivo-cause (ingredients-in-a-vacuum), article 4
-          would apply with jury-science deducable
+          would apply with jury-science deducable.
           <br />
           <br />
           “Verified stream of income in perpetuity,” J. Tobacco street guest on
-          free rider mutable health-“care”
+          free rider mutable health-“care.”
           <h2>
             expiring claims abetting invoices and racketeering free rider
             mutable health, $4t/yr 1/4 pensions, 1/4 premiums, 1/4 pentagon
             pre-3/2020 fake pandemic based on age standardized excess deaths
             short 50m/yr worldwide, 700k/yr in US. counterfeit in contract third
-            party beneficiary donee claimable
+            party beneficiary donee claimable.
           </h2>
           Should be illegal to compel labor to sign for longer than a month a la
           carte except for sport drafts…
@@ -133,7 +157,7 @@ export default class App extends React.Component {
           <br />
           Abstain able polls bring out the voluntary crazies, lo is more random
           than can ever be emulated, variance is greater in real life than AP
-          Stats
+          Stats.
           <br />I just don’t want rent-seeking from government (40%
           debt-spending, 10% debt-service) over my&nbsp;
           <a href="https://thumbprint.us/voting">election tech</a>
