@@ -96,6 +96,10 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+          Abstain able polls bring out the voluntary crazies, lo is more random
+          than can ever be emulated, variance is greater in real life than AP
+          Stats
+          <br />
           I just don’t want rent-seeking from government (40% debt-speding, 10%
           debt-service) over my&nbsp;
           <a href="https://thumbprint.us/voting">election tech</a>
