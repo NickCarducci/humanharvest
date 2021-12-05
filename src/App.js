@@ -118,7 +118,7 @@ export default class App extends React.Component {
             </a>
             market history and propoganda: The Great Leap Forward expected 15m
             35 age&nbsp;<a href="https://froth.app/stats">lifetime</a>
-            &nbsp;deaths
+            &nbsp;deaths 
           </div>
           <br />
           <Cable
