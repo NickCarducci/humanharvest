@@ -118,8 +118,21 @@ export default class App extends React.Component {
             </a>
             market history and propoganda: The Great Leap Forward expected 15m
             35 age&nbsp;<a href="https://froth.app/stats">lifetime</a>
-            &nbsp;deaths 
+            &nbsp;deaths
           </div>
+          <br />
+          “You can’t just get a&nbsp;
+          <a href="https://">prescription of regeneron</a>, you need to get it
+          administered to you,” Charlie Kirk, only because expiring claim false
+          bid pools thrid party donee claimable prevents trade to lender,
+          landlord and insurer-bookee work deficit.
+          <h2>“The precedent to establish a new baseline?!?” Charlie Kirk</h2>
+          “The Gain of function research in Wuhan that our government funded and
+          Fauci lied about,” Charlie, “They’ve tried every path they can. The
+          ingredient has become the component to slow their fear-mongering
+          propaganda away from the information that may empower you, the
+          document that protects your rights,”
+          <br />
           <br />
           "Requiring a negative omicron test,” Jim Acosta, ignoring the 2k/year
           discovered and 5% prevalence off suspected cases. Ignoring the
