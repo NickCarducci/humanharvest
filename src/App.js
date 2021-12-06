@@ -124,6 +124,8 @@ export default class App extends React.Component {
           <a href="https://brainscan.info">
             acute psychiatric dimensia problem
           </a>
+          : Mental breakdown, delusion, vascular dimensia, strokes, clots in the
+          brain
           <h2>
             There are no transmitted (prevalence: cause of byproduct?) of
             omnicron killing (with).
