@@ -120,6 +120,27 @@ export default class App extends React.Component {
             35 age&nbsp;<a href="https://froth.app/stats">lifetime</a>
             &nbsp;deaths
           </div>
+          beyond precedence is sometimes the law, and the law is not always
+          legal nor prevailing
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/1PQnD64MtBEaL58AI2mGDS24O-GZTq0MZ/preview"
+            }
+            float="right"
+            title="Chris Salcedo (Newsmax) - Christian Whiton & Stephen Moser with Carl Higbie on oil reserves sold to China, wanting to default or reverse? the former illegal, bailout illegal. only cash:debt*income thru history would emulate prices paid without debt inelasticity of useless bid-to-ask brough forward demand, to be replaced by p2p max profit royalty, equity bankable depositary"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 47]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “I think we should be talking remediations,” if you test for it, you
+          will find it.
+          <br />
+          Talk about fraud!
           <br />
           <a href="https://brainscan.info">
             acute psychiatric dimensia problem
