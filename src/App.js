@@ -198,8 +198,8 @@ export default class App extends React.Component {
             expiring claims abetting invoices and racketeering free rider
             mutable health, $4t/yr 1/4 pensions, 1/4 premiums, 1/4 pentagon
             pre-3/2020 fake pandemic based on age standardized excess deaths
-            short 50m/yr worldwide, 700k/yr in US. counterfeit in contract third
-            party beneficiary donee claimable.
+            short 50m/yr worldwide, 700k/yr in US, expected cohort size gain.
+            counterfeit in contract third party beneficiary donee claimable.
           </h2>
           Should be illegal to compel labor to sign for longer than a month a la
           carte except for sport drafts…
