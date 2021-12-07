@@ -120,6 +120,20 @@ export default class App extends React.Component {
             35 age&nbsp;<a href="https://froth.app/stats">lifetime</a>
             &nbsp;deaths
           </div>
+          <br />
+          <TwitterTweetEmbed
+            style={{ float: "left", width: "300px" }}
+            key="1249019795183468545"
+            tweetId="1249019795183468545"
+          />
+          Antibodies stop illness but not infection, as is a&nbsp;
+          <a href="https://www.cmu.edu/common-cold-project/">
+            warning mechanism
+          </a>
+          &nbsp; of bacterial-infection-byproduct prevalence, not
+          transmission-vivo-cause
+          <br />
+          <br />
           beyond precedence is sometimes the law, and the law is not always
           legal nor prevailing
           <br />
