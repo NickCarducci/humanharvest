@@ -121,6 +121,21 @@ export default class App extends React.Component {
             &nbsp;deaths
           </div>
           <br />
+          <h2>prevalence is byproduct, too. not cause</h2>
+          <Cable
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/1RRQTP02Ukc8M87QISJFrK1F15L4eetBo/preview"
+            }
+            float="right"
+            title="Phil Murphy covid update (Facebook live) - who is we in we know? jury for convictions please"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 48]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           n=25 14 positive vaccinated, 11 positive unvaccinated
           <br />
           “1/7 sick were unvaccinated,” production of antibodies may be having a
