@@ -121,6 +121,13 @@ export default class App extends React.Component {
             &nbsp;deaths
           </div>
           <br />
+          n=25 14 positive vaccinated, 11 positive unvaccinated
+          <br />
+          “1/7 sick were unvaccinated,” production of antibodies may be having a
+          "boy who cried wolf" situation, although I think antibodies just stop
+          blood clotting
+          <br />
+          <br />
           Lets talk about the taxonomy of the virus genus.
           <br />
           Protistologist believe bacteria is cell without nucleus as the uniform
