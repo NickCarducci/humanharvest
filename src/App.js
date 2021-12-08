@@ -121,6 +121,16 @@ export default class App extends React.Component {
             &nbsp;deaths
           </div>
           <br />
+          Lets talk about the taxonomy of the virus genus.
+          <br />
+          Protistologist believe bacteria is cell without nucleus as the uniform
+          common ancestor, I guess I’m one of them.
+          <br />
+          <br />
+          What is the derivative taxonomy of cell if protist is bacteria with
+          nucleus, golgi and mitochondria, than virus? Virus I think is only
+          excrement, as only reproduced vivo with cell and bacteria
+          <br />
           <TwitterTweetEmbed
             style={{ float: "left", width: "300px" }}
             key="1249019795183468545"
