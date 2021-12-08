@@ -121,7 +121,7 @@ export default class App extends React.Component {
             &nbsp;deaths
           </div>
           <br />
-          <h2>prevalence is byproduct, too. not cause</h2>
+          <h2>prevalence is byproduct, too. not cause nor warning mechanism</h2>
           <Cable
             onError={handleScollImgError}
             src={
