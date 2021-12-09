@@ -123,6 +123,9 @@ export default class App extends React.Component {
           <br />
           <h2>prevalence is byproduct, too. not cause nor warning mechanism</h2>
           <Cable
+            style={{
+              height: "440px"
+            }}
             onError={handleScollImgError}
             src={
               this.state.iosNoPhoto
