@@ -116,6 +116,10 @@ export default class App extends React.Component {
             >
               carducci.us
             </a>
+            "...everyone the coverage they deserve, nationwide doctor monopsony
+            front ran with expiring claims for no reason," anbam insurance on
+            CNN 9pm est
+            <br />
             market history and propoganda: The Great Leap Forward expected 15m
             35 age&nbsp;<a href="https://froth.app/stats">lifetime</a>
             &nbsp;deaths
@@ -135,6 +139,23 @@ export default class App extends React.Component {
             }
             float="right"
             title="Stinchfield (Newsmax) - on virus and masking with Chris Murphy, '80% vaxxed, 90% at risk vaccinated'"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 49]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          <Cable
+            style={{
+              height: "440px"
+            }}
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/1-pUud-u0xkYDOhHCVsihhEvhIy-aD9UT/preview"
+            }
+            float="left"
+            title="Only diagnostic diff now is severity. What do you think virus is an evolutionary trait? Only comes out, 'requires cell,' and 'is dead.' Do the math"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 48]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
