@@ -125,6 +125,11 @@ export default class App extends React.Component {
             >
               carducci.us
             </a>
+            "Here we go again, the numbers are going up," Brian kilmeade. What
+            numbers? testing as opposed to cases like hours & price as oppose to
+            productivity?
+            <br />
+            <br />
             You aren't counting&nbsp;
             <a href="https://www.fda.gov/media/144245/download#page=42">
               all cases
