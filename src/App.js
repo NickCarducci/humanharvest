@@ -121,7 +121,33 @@ export default class App extends React.Component {
             &nbsp;deaths
           </div>
           <br />
-          <h2>prevalence is byproduct, too. not cause nor warning mechanism</h2>
+          <Cable
+            style={{
+              maxHeight: "40vw",
+              height: "400px",
+              width: "100%"
+            }}
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/10NrxyYWc2pkbb7kozAgsBMZ1XR55TKZB/preview"
+            }
+            float="right"
+            title="Stinchfield (Newsmax) - on virus and masking with Chris Murphy, '80% vaxxed, 90% at risk vaccinated'"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 48]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “Courts refuse to enforce their own orders,” based on jury-science
+          permittance of duress in minimal viable product.
+          <br />
+          <br />
+          "Remember influenza and coronavirus spread in a very similar fashion."
+          <h2>
+            prevalence is byproduct, too. not cause nor warning mechanism, alone
+          </h2>
           <Cable
             style={{
               height: "440px"
