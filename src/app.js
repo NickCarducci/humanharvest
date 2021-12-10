@@ -125,15 +125,12 @@ export default class App extends React.Component {
             >
               2052.live
             </a>
+            "virus injects its DNA into each cell, 'in an instant'"
+            <br />
             <a href="https://www.google.com/search?q=nucleoside+analogues+virus+electron+microscope+mitosis+replication">
               google.com/search?q=nucleoside+analogues+virus+electron+microscope+mitosis+replication
             </a>
             <br />
-            The rabies virus bite, you say? still, incidence can be&nbsp;
-            <a href="https://theconversation.com/your-poo-is-mostly-alive-heres-whats-in-it-102848#:~:text=www.shutterstock.com-,Microbes,of%20the%20bacteria%20were%20alive.">
-              bacteria
-            </a>
-            .
             <a
               style={{
                 shapeOutside: "rect()",
@@ -149,6 +146,12 @@ export default class App extends React.Component {
             >
               carducci.us
             </a>
+            <br />
+            The rabies virus bite, you say? still, incidence can be&nbsp;
+            <a href="https://theconversation.com/your-poo-is-mostly-alive-heres-whats-in-it-102848#:~:text=www.shutterstock.com-,Microbes,of%20the%20bacteria%20were%20alive.">
+              bacteria
+            </a>
+            .
             <br />
             <br />
             "Here we go again, the numbers are going up," Brian Kilmeade. What
