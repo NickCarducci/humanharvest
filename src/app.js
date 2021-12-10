@@ -121,13 +121,28 @@ export default class App extends React.Component {
                 color: "rgb(230,230,255)",
                 backgroundColor: "rgb(32, 22, 11)"
               }}
+              href="https://2052.live"
+            >
+              2052.live
+            </a>
+            "Here we go again, the numbers are going up," Brian Kilmeade. What
+            numbers? testing as opposed to cases like hours & price as oppose to
+            productivity?
+            <a
+              style={{
+                shapeOutside: "rect()",
+                float: "right",
+                width: "max-content",
+                padding: "0px 10px",
+                fontSize: "20px",
+                fontFamily: "'Pacifico', sans-serif",
+                color: "rgb(230,230,255)",
+                backgroundColor: "rgb(32, 22, 11)"
+              }}
               href="https://carducci.us"
             >
               carducci.us
             </a>
-            "Here we go again, the numbers are going up," Brian kilmeade. What
-            numbers? testing as opposed to cases like hours & price as oppose to
-            productivity?
             <br />
             <br />
             You aren't counting&nbsp;
