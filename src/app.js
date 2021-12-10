@@ -75,7 +75,6 @@ export default class App extends React.Component {
     if (this.props.pathname !== prevProps.pathname) {
       if (this.props.pathname === "/") {
       } else if (this.props.pathname === "/polio") {
-        console.log(this.polio.current.offsetTop);
         window.scroll(0, this.polio.current.offsetTop);
       }
     }
@@ -126,6 +125,30 @@ export default class App extends React.Component {
             >
               carducci.us
             </a>
+            1.2m/yr+ excess deaths expected -&nbsp;
+            <a href="https://humanharvest.info/polio">polio</a>&nbsp;vaccines
+            curing byproduct and warning mechanism, but not cause
+            <br />
+            <Cable
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/18JvCZ42WmNXcNHkYW8M3vY6ikZS1y4G1/preview"
+              }
+              float="left"
+              title="National Report - Dr. Manny Sethi - 'use virals, stop scaring everyone, I can't count significant deaths'"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 50]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            Immunity is not antibodies cleaning up blood clot potential cell
+            debris, it is stopping bacterial-infection to begin with
+            <br />
+            “May be seasonal,” you get want you test for with PCR
+            <br />
+            <br />
             "...everyone the coverage they deserve, nationwide doctor monopsony
             front ran with expiring claims for no reason," anbam insurance on
             CNN 9pm est
