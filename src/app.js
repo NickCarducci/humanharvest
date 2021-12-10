@@ -127,7 +127,9 @@ export default class App extends React.Component {
             </a>
             1.2m/yr+ excess deaths expected -&nbsp;
             <a href="https://humanharvest.info/polio">polio</a>&nbsp;vaccines
-            curing byproduct and warning mechanism, but not cause
+            curing byproduct and warning mechanism, but not cause (not really
+            'excess,' a term used ABOVE basis, like people, or hours in correct
+            economic productivity)
             <br />
             <Cable
               onError={handleScollImgError}
