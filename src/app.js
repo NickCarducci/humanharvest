@@ -125,6 +125,38 @@ export default class App extends React.Component {
             >
               carducci.us
             </a>
+            You aren't counting&nbsp;
+            <a href="https://www.fda.gov/media/144245/download#page=42">
+              all cases
+            </a>
+            , just one artifact-byproduct of many by the same cause,
+            bacterial-infection. If it, "requires cell to replicate," its
+            taxonomy is only a cell. Are you saying it is an evolutionary trait?
+            To do the math with it being dead would be to say it is exclusively
+            byproduct-prevalence and warning-mechanism of bacterial-infection,
+            antibodies to stop blood clotting but not infection of prevalence
+            without transmission. prevalence does not transmission-cause make.
+            <br />
+            <br />
+            "'You aren't meeting hospital capacity requirements,' well yeah,
+            whats what happens when you fire half for resisting vaccine[not
+            exclusively true, your sponsors in expiring claim false bid pools
+            misappropriated funds to administration instead of demand, hospital
+            beds haven't kept up with populaion]. That's why I am recommending
+            these lawyers to fight back, it is just going to take a little
+            time." They are not trying to resolve the class-issue of
+            market-rights amidst a finite producer reality with a microeconomic
+            perfect equillibrium reason to allow any duress in product instead
+            of controlling by multiple of 12 industry various jury, just trial a
+            la carte. The law-license-board is corrupt, savefacing and
+            malfeasant for their conflict of interest to actually help.
+            <br />
+            <br />
+            "Masks do not stop virus spread, we know this," Bill Spadea,
+            misunderstanding prevalence can be byproduct/output/debris rather
+            than mean cause/transmission/spread
+            <br />
+            <br />
             1.2m/yr+ excess deaths expected -&nbsp;
             <a href="https://humanharvest.info/polio">polio</a>&nbsp;vaccines
             curing byproduct and warning mechanism, but not cause (not really
