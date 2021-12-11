@@ -128,7 +128,8 @@ export default class App extends React.Component {
             Imagine a ruler whom isn't selfish? Would they shit on every bastard
             in all the land by making ownership of their invention universal,
             trouncing every hoarders' things? Or would they fold to the moloch
-            system market communism like the rest
+            system market communism, sacrificing those altruistic virtues for
+            trade by secret, good, or labor withheld, like the rest?
             <br />
             <br />
             "Excess," to me, is due upon a time-series by an event- or
