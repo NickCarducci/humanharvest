@@ -133,7 +133,7 @@ export default class App extends React.Component {
             <h2>
               did someone ask for some reciprosity? They are called Boomers for
               a reason; 1.2m/yr+ 75+&nbsp;
-              <a href="https://humanharvest.info">2015-</a>
+              <a href="https://humanharvest.info/polio">2015-</a>
             </h2>
             "Excess," to me, is due upon a time-series by an event- or
             change-based-rated-level, so looking at changes on the Y-axis didn’t
