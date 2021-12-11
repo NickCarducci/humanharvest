@@ -142,6 +142,21 @@ export default class App extends React.Component {
             bacterially-infected cell, just cartoons.
             <br />
             <br />
+            <a
+              style={{
+                shapeOutside: "rect()",
+                float: "left",
+                width: "max-content",
+                padding: "0px 10px",
+                fontSize: "20px",
+                fontFamily: "'Pacifico', sans-serif",
+                color: "rgb(230,230,255)",
+                backgroundColor: "rgb(32, 22, 11)"
+              }}
+              href="https://moldmask.co"
+            >
+              moldmask.co
+            </a>
             Somebody tell me where the first virus comes from if it, "requires
             cell to replicate?" Evolutionary trait? Is byproduct prevalence and
             warning mechanism, not necessarily (or evidently) cause without the
@@ -388,12 +403,12 @@ export default class App extends React.Component {
             omnicron killing (with).
           </h2>
           “You can’t just get a&nbsp;
-          <a href="https://">prescription of regeneron</a>, you need to get it
-          administered to you,” Charlie Kirk, only because expiring claim false
-          bid pools thrid party donee claimable prevents trade to lender,
-          landlord and insurer-bookee work deficit, from intermediate
-          supply-demand as labor, without finance (expiring claims, invoices,
-          implausible landlord use, repo-cycle kept-down-payments).
+          <a href="https://teapharmacy.party">prescription of regeneron</a>, you
+          need to get it administered to you,” Charlie Kirk, only because
+          expiring claim false bid pools thrid party donee claimable prevents
+          trade to lender, landlord and insurer-bookee work deficit, from
+          intermediate supply-demand as labor, without finance (expiring claims,
+          invoices, implausible landlord use, repo-cycle kept-down-payments).
           <h2>“The precedent to establish a new baseline?!?” Charlie Kirk</h2>
           “The Gain of function research in Wuhan that our government funded and
           Fauci lied about,” Charlie, “They’ve tried every path they can. The
