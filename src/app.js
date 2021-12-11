@@ -125,6 +125,29 @@ export default class App extends React.Component {
             >
               2052.live
             </a>
+            M. Osterholm: "High in india then went back down to baseline," not
+            affixed for cohort size on CNN with A Cooper, a delusional basis.
+            See incidence of sewage/nutrition on 1775- mortality.
+            <br />
+            <br />
+            Cases as defined by symptomatic is the same, insignificant rates of
+            change year to year in similar symptoms. Asymptomatic-prevalence
+            without symptom requisite, like calling majority by including
+            eligible voters as "no," or not, is more elastically-prevalent
+            towards asymptomatic-testing, so much so that it may not even be an
+            indication of illness in the case that hotel room may have had some
+            bacteria to produce 1/4 prevalence in The Common Cold Project to
+            even take the warning mechanism case: either way, there is yet to be
+            vivo electron microscope output of virus beyond mitosis of already
+            bacterially-infected cell, just cartoons.
+            <br />
+            <br />
+            Somebody tell me where the first virus comes from if it, "requires
+            cell to replicate?" Evolutionary trait? Is byproduct prevalence and
+            warning mechanism, not necessarily (or evidently) cause without the
+            presence of bacteria.
+            <br />
+            <br />
             Imagine a ruler whom isn't selfish? Would they shit on every bastard
             in all the land by making ownership of their invention universal,
             trouncing every hoarders' things? Or would they fold to the moloch
