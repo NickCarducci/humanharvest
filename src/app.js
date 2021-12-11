@@ -125,11 +125,17 @@ export default class App extends React.Component {
             >
               2052.live
             </a>
-            "virus injects its DNA into each cell, 'in an instant'"
+            Imagine a ruler whom isn't selfish? Would they shit on every bastard
+            in all the land by making ownership of their invention universal,
+            trouncing every hoarders' things? Or would they fold to the moloch
+            system market communism like the rest
             <br />
-            <a href="https://www.google.com/search?q=nucleoside+analogues+virus+electron+microscope+mitosis+replication">
-              google.com/search?q=nucleoside+analogues+virus+electron+microscope+mitosis+replication
-            </a>
+            <br />
+            "Excess," to me, is due upon a time-series by an event- or
+            change-based-rated-level, so looking at changes on the Y-axis didn’t
+            register as requiring population being fixed. I should have counted,
+            but it only took estimating mortality by population growth myself to
+            see that we have been short for a long time.
             <br />
             <a
               style={{
@@ -145,6 +151,12 @@ export default class App extends React.Component {
               href="https://carducci.us"
             >
               carducci.us
+            </a>
+            <br />
+            "virus injects its DNA into each cell, 'in an instant'"
+            <br />
+            <a href="https://www.google.com/search?q=nucleoside+analogues+virus+electron+microscope+mitosis+replication">
+              google.com/search?q=nucleoside+analogues+virus+electron+microscope+mitosis+replication
             </a>
             <br />
             The rabies virus bite, you say? still, incidence can be&nbsp;
