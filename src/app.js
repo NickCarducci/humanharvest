@@ -126,6 +126,20 @@ export default class App extends React.Component {
               2052.live
             </a>
             <h2>
+              "Omicron: Over a hundred infection, not a single death." Did you
+              <br />
+              <span style={{ fontSize: "9px" }}>try plugging it in?</span>
+            </h2>
+            Maybe the testing is set to "omicron," you need to target polymerse
+            chain reaction
+            <br />
+            <br />
+            “First, virion injects its DNA into cell. Next, cell becomes a
+            virus, so the virion cannot get in there, so it doesn’t kill
+            anybody! Anyone with covid has to get oxygen by force, because
+            self-harm is illegal. This is all a political payoff to Pfizer
+            helping Biden and Moderna helping Trump.” Go bark up a tree.
+            <h2>
               you think since virus, "requires cell to replicate," the first
               virus cam from where?
             </h2>
