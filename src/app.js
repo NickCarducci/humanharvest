@@ -98,11 +98,12 @@ export default class App extends React.Component {
       >
         <div
           style={{
+            width: "calc(100% - 20px)",
             border: "6px white solid",
             padding: "4px",
             wordBreak: "break-word",
             textAlign: "left",
-            width: "100%",
+
             maxWidth: "600px",
             position: "relative"
           }}
