@@ -125,6 +125,10 @@ export default class App extends React.Component {
             >
               2052.live
             </a>
+            <h2>
+              you think since virus, "requires cell to replicate," the first
+              virus cam from where?
+            </h2>
             M. Osterholm: "High in india then went back down to baseline," not
             affixed for cohort size on CNN with A Cooper, a delusional basis.
             See incidence of sewage/nutrition on 1775- mortality.
@@ -241,10 +245,11 @@ export default class App extends React.Component {
             <br />
             <br />
             "Masks do not stop virus spread, we know this," Bill Spadea,
-            misunderstanding prevalence can be byproduct/output/debris rather
-            than mean cause/transmission/spread
-            <br />
-            <br />
+            misunderstanding
+            <h2>
+              prevalence can be byproduct/output/debris rather than mean
+              cause/transmission/spread
+            </h2>
             1.2m/yr+ excess deaths expected -&nbsp;
             <a href="https://humanharvest.info/polio">polio</a>&nbsp;vaccines
             curing byproduct and warning mechanism, but not cause (not really
