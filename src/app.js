@@ -128,7 +128,9 @@ export default class App extends React.Component {
             <h2>
               "Omicron: Over a hundred infection, not a single death." Did you
               <br />
-              <span style={{ fontSize: "9px" }}>try plugging it in?</span>
+              <span style={{ fontSize: "9px" }}>
+                try plugging it in? "1/2 Pfizer revenue in the last quarter"
+              </span>
             </h2>
             Maybe the testing is set to "omicron," you need to target polymerse
             chain reaction
