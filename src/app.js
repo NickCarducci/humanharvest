@@ -135,7 +135,7 @@ export default class App extends React.Component {
             float="left"
             title=""
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 75]}
+            fwd={this["scrollImg" + 52]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
@@ -300,7 +300,7 @@ export default class App extends React.Component {
             float="left"
             title="National Report - Dr. Manny Sethi - 'use virals, stop scaring everyone, I can't count significant deaths'"
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 50]}
+            fwd={this["scrollImg" + 51]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
@@ -350,7 +350,7 @@ export default class App extends React.Component {
             float="left"
             title="Only diagnostic diff now is severity. What do you think virus is an evolutionary trait? Only comes out, 'requires cell,' and 'is dead.' Do the math"
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 48]}
+            fwd={this["scrollImg" + 50]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
@@ -375,7 +375,7 @@ export default class App extends React.Component {
             float="right"
             title="Phil Murphy covid update (Facebook live) - who is we in we know? jury for convictions please"
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 48]}
+            fwd={this["scrollImg" + 49]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
@@ -422,7 +422,7 @@ export default class App extends React.Component {
             float="right"
             title="Chris Salcedo (Newsmax) - Christian Whiton & Stephen Moser with Carl Higbie on oil reserves sold to China, wanting to default or reverse? the former illegal, bailout illegal. only cash:debt*income thru history would emulate prices paid without debt inelasticity of useless bid-to-ask brough forward demand, to be replaced by p2p max profit royalty, equity bankable depositary"
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 47]}
+            fwd={this["scrollImg" + 48]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
@@ -469,7 +469,7 @@ export default class App extends React.Component {
             float="left"
             title="GBNews - Patrick Christys' intro"
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 46]}
+            fwd={this["scrollImg" + 47]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
@@ -498,6 +498,29 @@ export default class App extends React.Component {
           didn't have demand." Judge Janine, the talk show host who said, "I can
           say that shit," 1 year ago about quid pro quo based discrimination for
           slip & fall racketeering the law-licensing-board
+          <br />
+          <br />
+          <Cable
+            style={{
+              height: "240px"
+            }}
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/1oCE4UdaDML8i-byNLHILkRmc5NXvHkkg/preview"
+            }
+            float="right"
+            title="GBNews - Frank Furedi on righteous censorship, discrimination"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 46]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “We believe in free speech, we don’t want to censor ourselves.” Right,
+          convict intranet for on device end to end encryption keys then? With
+          multiple of 12 industry various jury-science. “This is bullying, isn’t
+          it?” So fuckin cute when they do that
           <br />
           <br />
           Dick Morris: “Functional equivalent of a declaration of war, ended up
