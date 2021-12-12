@@ -452,6 +452,16 @@ export default class App extends React.Component {
             short 50m/yr worldwide, 700k/yr in US, expected cohort size gain.
             counterfeit in contract third party beneficiary donee claimable.
           </h2>
+          "780k dead, nearly the same over Biden as trump." Dom Carter. That
+          means it isn’t significant!
+          <br />
+          <br />
+          "more people died under biden than trump, and he had the vaccine but
+          didn't have demand." Judge Janine, the talk show host who said, "I can
+          say that shit," 1 year ago about quid pro quo based discrimination for
+          slip & fall racketeering the law-licensing-board
+          <br />
+          <br />
           Should be illegal to compel labor to sign for longer than a month a la
           carte except for sport drafts…
           <br />
