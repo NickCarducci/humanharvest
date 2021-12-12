@@ -467,7 +467,16 @@ export default class App extends React.Component {
           slip & fall racketeering the law-licensing-board
           <br />
           <br />
-          Should be illegal to compel labor to sign for longer than a month a la
+          Dick Morris: “Functional equivalent of a declaration of war, ended up
+          failing because it didn’t have enough assets appraised by third party
+          beneficiary repo kept down payments, if you have money but cannot use
+          it in the swift system, you don’t have any money. French gdp/p is the
+          greatest. ...It is a miracle, praying stopped the virus, by bringing a
+          virion to stop a virus. Let's thank the Lord for that…”
+          <br />
+          <br />
+          Should be illegal to compel labor, and its employers and customers as
+          third party beneficiary donees, to sign for longer than a month a la
           carte except for sport drafts…
           <br />
           <br />
