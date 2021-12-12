@@ -157,8 +157,15 @@ export default class App extends React.Component {
           “First, virion injects its DNA into cell. Next, cell becomes a virus,
           so the virion cannot get in there, so it doesn’t kill anybody! Anyone
           with covid has to get oxygen by force, because self-harm is illegal.
-          This is all a political payoff to Pfizer helping Biden and Moderna
-          helping Trump.” Go bark up a tree.
+          This is all a political payoff to Pfizer helping Biden and&nbsp;
+          <a href="https://www.cdc.gov/vaccines/acip/recs/grade/covid-19-moderna-vaccine.html#:~:text=cSeven%20serious">
+            Moderna
+          </a>
+          &nbsp;nothing to see&nbsp;
+          <a href="https://link.springer.com/article/10.1007/s00259-021-05314-2">
+            here
+          </a>
+          /J&J helping Trump.” Go bark up a tree.
           <h2>
             you think since virus, "requires cell to replicate," the first virus
             cam from where?
@@ -511,7 +518,7 @@ export default class App extends React.Component {
                 : "https://drive.google.com/file/d/1oCE4UdaDML8i-byNLHILkRmc5NXvHkkg/preview"
             }
             float="right"
-            title="GBNews - Frank Furedi on righteous censorship, discrimination"
+            title="GBNews - Frank Furedi on righteous censorship, discrimination (Crt, censoring, and illiteracy have to do with one another?)"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 46]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
