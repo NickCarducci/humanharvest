@@ -475,9 +475,15 @@ export default class App extends React.Component {
           virion to stop a virus. Let's thank the Lord for that…”
           <br />
           <br />
+          "'If you like your doctor, you can keep your doctor.' If you believed
+          that, I have one bridge to sell you located in Brooklyn and electric
+          toll malfeasance."
+          <br />
+          <br />
           Should be illegal to compel labor, and its employers and customers as
           third party beneficiary donees, to sign for longer than a month a la
-          carte except for sport drafts…
+          carte except for sport drafts… especially for expiring claim false bid
+          non-rollover "deals" of collective flaccid loss.
           <br />
           <br />
           Abstain able polls bring out the voluntary crazies, lo is more random
