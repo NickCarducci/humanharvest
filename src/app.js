@@ -98,6 +98,8 @@ export default class App extends React.Component {
       >
         <div
           style={{
+            border: "6px white solid",
+            padding: "4px",
             wordBreak: "break-word",
             textAlign: "left",
             width: "100%",
@@ -105,201 +107,215 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
-          <div
+          <a
             style={{
-              width: "100%"
+              shapeOutside: "rect()",
+              float: "right",
+              width: "max-content",
+              padding: "0px 10px",
+              fontSize: "20px",
+              fontFamily: "'Pacifico', sans-serif",
+              color: "rgb(230,230,255)",
+              backgroundColor: "rgb(32, 22, 11)"
             }}
+            href="https://2052.live"
           >
-            <a
-              style={{
-                shapeOutside: "rect()",
-                float: "right",
-                width: "max-content",
-                padding: "0px 10px",
-                fontSize: "20px",
-                fontFamily: "'Pacifico', sans-serif",
-                color: "rgb(230,230,255)",
-                backgroundColor: "rgb(32, 22, 11)"
-              }}
-              href="https://2052.live"
-            >
-              2052.live
-            </a>
-            <h2>
-              "Omicron: Over a hundred infection, not a single death." Did you
-              <br />
-              <span style={{ fontSize: "9px" }}>
-                try plugging it in? "1/2 Pfizer revenue in the last quarter"
-              </span>
-            </h2>
-            Maybe the testing is set to "omicron," you need to target polymerse
-            chain reaction
+            2052.live
+          </a>
+          <Cable
+            style={{ height: "440px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.youtube.com/embed/ZmUozfOPquk"
+            }
+            float="left"
+            title=""
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 75]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “So the message is, Jordan Klepper, do yoga and not care about the
+          700k people who died from this?” CNN Sunday at 5pm est
+          <br />
+          <br />
+          <h2>
+            "Omicron: Over a hundred infection, not a single death." Did you
             <br />
-            <br />
-            “First, virion injects its DNA into cell. Next, cell becomes a
-            virus, so the virion cannot get in there, so it doesn’t kill
-            anybody! Anyone with covid has to get oxygen by force, because
-            self-harm is illegal. This is all a political payoff to Pfizer
-            helping Biden and Moderna helping Trump.” Go bark up a tree.
-            <h2>
-              you think since virus, "requires cell to replicate," the first
-              virus cam from where?
-            </h2>
-            M. Osterholm: "High in india then went back down to baseline," not
-            affixed for cohort size on CNN with A Cooper, a delusional basis.
-            See incidence of sewage/nutrition on 1775- mortality.
-            <br />
-            <br />
-            Cases as defined by symptomatic is the same, insignificant rates of
-            change year to year in similar symptoms. Asymptomatic-prevalence
-            without symptom requisite, like calling majority by including
-            eligible voters as "no," or not, is more elastically-prevalent
-            towards asymptomatic-testing, so much so that it may not even be an
-            indication of illness in the case that hotel room may have had some
-            bacteria to produce 1/4 prevalence in The Common Cold Project to
-            even take the warning mechanism case: either way, there is yet to be
-            vivo electron microscope output of virus beyond mitosis of already
-            bacterially-infected cell, just cartoons.
-            <br />
-            <br />
-            <a
-              style={{
-                shapeOutside: "rect()",
-                float: "left",
-                width: "max-content",
-                padding: "0px 10px",
-                fontSize: "20px",
-                fontFamily: "'Pacifico', sans-serif",
-                color: "rgb(230,230,255)",
-                backgroundColor: "rgb(32, 22, 11)"
-              }}
-              href="https://moldmask.co"
-            >
-              moldmask.co
-            </a>
-            Somebody tell me where the first virus comes from if it, "requires
-            cell to replicate?" Evolutionary trait? Is byproduct prevalence and
-            warning mechanism, not necessarily (or evidently) cause without the
-            presence of bacteria.
-            <br />
-            <br />
-            Imagine a ruler whom isn't selfish? Would they shit on every bastard
-            in all the land by making ownership of their invention universal,
-            trouncing every hoarders' things? Or would they fold to the moloch
-            system market communism, sacrificing those altruistic virtues for
-            trade by secret, good, or labor withheld, like the rest?
-            <h2>
-              did someone ask for some reciprosity? They are called Boomers for
-              a reason; 1.2m/yr+ 75+&nbsp;
-              <a href="https://humanharvest.info/polio">2015-</a>
-            </h2>
-            "Excess," to me, is due upon a time-series by an event- or
-            change-based-rated-level, so looking at changes on the Y-axis didn’t
-            register as requiring population being fixed. I should have counted,
-            but it only took estimating mortality by population growth myself to
-            see that we have been short for a long time.
-            <br />
-            <a
-              style={{
-                shapeOutside: "rect()",
-                float: "right",
-                width: "max-content",
-                padding: "0px 10px",
-                fontSize: "20px",
-                fontFamily: "'Pacifico', sans-serif",
-                color: "rgb(230,230,255)",
-                backgroundColor: "rgb(32, 22, 11)"
-              }}
-              href="https://carducci.us"
-            >
-              carducci.us
-            </a>
-            <br />
-            "virus injects its DNA into each cell, 'in an instant'"
-            <br />
-            <a href="https://www.google.com/search?q=nucleoside+analogues+virus+electron+microscope+mitosis+replication">
-              google.com/search?q=nucleoside+analogues+virus+electron+microscope+mitosis+replication
-            </a>
-            <br />
-            The rabies virus bite, you say? still, incidence can be&nbsp;
-            <a href="https://theconversation.com/your-poo-is-mostly-alive-heres-whats-in-it-102848#:~:text=www.shutterstock.com-,Microbes,of%20the%20bacteria%20were%20alive.">
-              bacteria
-            </a>
-            .
-            <br />
-            <br />
-            "Here we go again, the numbers are going up," Brian Kilmeade. What
-            numbers? testing as opposed to cases like hours & price as oppose to
-            productivity?
-            <br />
-            <br />
-            You aren't counting&nbsp;
-            <a href="https://www.fda.gov/media/144245/download#page=42">
-              all cases
-            </a>
-            , just one artifact-byproduct of many by the same cause,
-            bacterial-infection. If it, "requires cell to replicate," its
-            taxonomy is only a cell. Are you saying it is an evolutionary trait?
-            To do the math with it being dead would be to say it is exclusively
-            byproduct-prevalence and warning-mechanism of bacterial-infection,
-            antibodies to stop blood clotting but not infection of prevalence
-            without transmission. prevalence does not transmission-cause make.
-            <br />
-            <br />
-            "'You aren't meeting hospital capacity requirements,' well yeah,
-            whats what happens when you fire half for resisting vaccine[not
-            exclusively true, your sponsors in expiring claim false bid pools
-            misappropriated funds to administration instead of demand, hospital
-            beds haven't kept up with populaion]. That's why I am recommending
-            these lawyers to fight back, it is just going to take a little
-            time." They are not trying to resolve the class-issue of
-            market-rights amidst a finite producer reality with a microeconomic
-            perfect equillibrium reason to allow any duress in product instead
-            of controlling by multiple of 12 industry various jury, just trial a
-            la carte. The law-license-board is corrupt, savefacing and
-            malfeasant for their conflict of interest to actually help.
-            <br />
-            <br />
-            "Masks do not stop virus spread, we know this," Bill Spadea,
-            misunderstanding
-            <h2>
-              prevalence can be byproduct/output/debris rather than mean
-              cause/transmission/spread
-            </h2>
-            1.2m/yr+ excess deaths expected -&nbsp;
-            <a href="https://humanharvest.info/polio">polio</a>&nbsp;vaccines
-            curing byproduct and warning mechanism, but not cause (not really
-            'excess,' a term used ABOVE basis, like people, or hours in correct
-            economic productivity)
-            <br />
-            <Cable
-              onError={handleScollImgError}
-              src={
-                this.state.iosNoPhoto
-                  ? ""
-                  : "https://drive.google.com/file/d/18JvCZ42WmNXcNHkYW8M3vY6ikZS1y4G1/preview"
-              }
-              float="left"
-              title="National Report - Dr. Manny Sethi - 'use virals, stop scaring everyone, I can't count significant deaths'"
-              scrolling={this.state.scrolling}
-              fwd={this["scrollImg" + 50]}
-              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
-            />
-            Immunity is not antibodies cleaning up blood clot potential cell
-            debris, it is stopping bacterial-infection to begin with
-            <br />
-            “May be seasonal,” you get want you test for with PCR
-            <br />
-            <br />
-            "...everyone the coverage they deserve, nationwide doctor monopsony
-            front ran with expiring claims for no reason," anbam insurance on
-            CNN 9pm est
-            <br />
-            market history and propoganda: The Great Leap Forward expected 15m
-            35 age&nbsp;<a href="https://froth.app/stats">lifetime</a>
-            &nbsp;deaths
-          </div>
+            <span style={{ fontSize: "9px" }}>
+              try plugging it in? "1/2 Pfizer revenue in the last quarter"
+            </span>
+          </h2>
+          Maybe the testing is set to "omicron," you need to target polymerse
+          chain reaction
+          <br />
+          <br />
+          “First, virion injects its DNA into cell. Next, cell becomes a virus,
+          so the virion cannot get in there, so it doesn’t kill anybody! Anyone
+          with covid has to get oxygen by force, because self-harm is illegal.
+          This is all a political payoff to Pfizer helping Biden and Moderna
+          helping Trump.” Go bark up a tree.
+          <h2>
+            you think since virus, "requires cell to replicate," the first virus
+            cam from where?
+          </h2>
+          M. Osterholm: "High in india then went back down to baseline," not
+          affixed for cohort size on CNN with A Cooper, a delusional basis. See
+          incidence of sewage/nutrition on 1775- mortality.
+          <br />
+          <br />
+          Cases as defined by symptomatic is the same, insignificant rates of
+          change year to year in similar symptoms. Asymptomatic-prevalence
+          without symptom requisite, like calling majority by including eligible
+          voters as "no," or not, is more elastically-prevalent towards
+          asymptomatic-testing, so much so that it may not even be an indication
+          of illness in the case that hotel room may have had some bacteria to
+          produce 1/4 prevalence in The Common Cold Project to even take the
+          warning mechanism case: either way, there is yet to be vivo electron
+          microscope output of virus beyond mitosis of already
+          bacterially-infected cell, just cartoons.
+          <br />
+          <br />
+          <a
+            style={{
+              shapeOutside: "rect()",
+              float: "left",
+              width: "max-content",
+              padding: "0px 10px",
+              fontSize: "20px",
+              fontFamily: "'Pacifico', sans-serif",
+              color: "rgb(230,230,255)",
+              backgroundColor: "rgb(32, 22, 11)"
+            }}
+            href="https://moldmask.co"
+          >
+            moldmask.co
+          </a>
+          Somebody tell me where the first virus comes from if it, "requires
+          cell to replicate?" Evolutionary trait? Is byproduct prevalence and
+          warning mechanism, not necessarily (or evidently) cause without the
+          presence of bacteria.
+          <br />
+          <br />
+          Imagine a ruler whom isn't selfish? Would they shit on every bastard
+          in all the land by making ownership of their invention universal,
+          trouncing every hoarders' things? Or would they fold to the moloch
+          system market communism, sacrificing those altruistic virtues for
+          trade by secret, good, or labor withheld, like the rest?
+          <h2>
+            did someone ask for some reciprosity? They are called Boomers for a
+            reason; 1.2m/yr+ 75+&nbsp;
+            <a href="https://humanharvest.info/polio">2015-</a>
+          </h2>
+          "Excess," to me, is due upon a time-series by an event- or
+          change-based-rated-level, so looking at changes on the Y-axis didn’t
+          register as requiring population being fixed. I should have counted,
+          but it only took estimating mortality by population growth myself to
+          see that we have been short for a long time.
+          <br />
+          <a
+            style={{
+              shapeOutside: "rect()",
+              float: "right",
+              width: "max-content",
+              padding: "0px 10px",
+              fontSize: "20px",
+              fontFamily: "'Pacifico', sans-serif",
+              color: "rgb(230,230,255)",
+              backgroundColor: "rgb(32, 22, 11)"
+            }}
+            href="https://carducci.us"
+          >
+            carducci.us
+          </a>
+          <br />
+          "virus injects its DNA into each cell, 'in an instant'"
+          <br />
+          <a href="https://www.google.com/search?q=nucleoside+analogues+virus+electron+microscope+mitosis+replication">
+            google.com/search?q=nucleoside+analogues+virus+electron+microscope+mitosis+replication
+          </a>
+          <br />
+          The rabies virus bite, you say? still, incidence can be&nbsp;
+          <a href="https://theconversation.com/your-poo-is-mostly-alive-heres-whats-in-it-102848#:~:text=www.shutterstock.com-,Microbes,of%20the%20bacteria%20were%20alive.">
+            bacteria
+          </a>
+          .
+          <br />
+          <br />
+          "Here we go again, the numbers are going up," Brian Kilmeade. What
+          numbers? testing as opposed to cases like hours & price as oppose to
+          productivity?
+          <br />
+          <br />
+          You aren't counting&nbsp;
+          <a href="https://www.fda.gov/media/144245/download#page=42">
+            all cases
+          </a>
+          , just one artifact-byproduct of many by the same cause,
+          bacterial-infection. If it, "requires cell to replicate," its taxonomy
+          is only a cell. Are you saying it is an evolutionary trait? To do the
+          math with it being dead would be to say it is exclusively
+          byproduct-prevalence and warning-mechanism of bacterial-infection,
+          antibodies to stop blood clotting but not infection of prevalence
+          without transmission. prevalence does not transmission-cause make.
+          <br />
+          <br />
+          "'You aren't meeting hospital capacity requirements,' well yeah, whats
+          what happens when you fire half for resisting vaccine[not exclusively
+          true, your sponsors in expiring claim false bid pools misappropriated
+          funds to administration instead of demand, hospital beds haven't kept
+          up with populaion]. That's why I am recommending these lawyers to
+          fight back, it is just going to take a little time." They are not
+          trying to resolve the class-issue of market-rights amidst a finite
+          producer reality with a microeconomic perfect equillibrium reason to
+          allow any duress in product instead of controlling by multiple of 12
+          industry various jury, just trial a la carte. The law-license-board is
+          corrupt, savefacing and malfeasant for their conflict of interest to
+          actually help.
+          <br />
+          <br />
+          "Masks do not stop virus spread, we know this," Bill Spadea,
+          misunderstanding
+          <h2>
+            prevalence can be byproduct/output/debris rather than mean
+            cause/transmission/spread
+          </h2>
+          1.2m/yr+ excess deaths expected -&nbsp;
+          <a href="https://humanharvest.info/polio">polio</a>&nbsp;vaccines
+          curing byproduct and warning mechanism, but not cause (not really
+          'excess,' a term used ABOVE basis, like people, or hours in correct
+          economic productivity)
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/18JvCZ42WmNXcNHkYW8M3vY6ikZS1y4G1/preview"
+            }
+            float="left"
+            title="National Report - Dr. Manny Sethi - 'use virals, stop scaring everyone, I can't count significant deaths'"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 50]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          Immunity is not antibodies cleaning up blood clot potential cell
+          debris, it is stopping bacterial-infection to begin with
+          <br />
+          “May be seasonal,” you get want you test for with PCR
+          <br />
+          <br />
+          "...everyone the coverage they deserve, nationwide doctor monopsony
+          front ran with expiring claims for no reason," anbam insurance on CNN
+          9pm est
+          <br />
+          market history and propoganda: The Great Leap Forward expected 15m 35
+          age&nbsp;<a href="https://froth.app/stats">lifetime</a>
+          &nbsp;deaths
           <br />
           <Cable
             style={{
