@@ -491,6 +491,13 @@ export default class App extends React.Component {
           virion to stop a virus. Let's thank the Lord for that…”
           <br />
           <br />
+          Only 10% of omicron needed rather than other variants of this horrible
+          disease. Gives you aches and pains, but does not kill you."G-d did
+          what Pfizer couldn't.“..sucking. Not a sexual reference,” I thought
+          that was illegal to catholics whom believe Jesus is lamb-chop for
+          sins?
+          <br />
+          <br />
           "'If you like your doctor, you can keep your doctor.' If you believed
           that, I have one bridge to sell you located in Brooklyn and electric
           toll malfeasance."
