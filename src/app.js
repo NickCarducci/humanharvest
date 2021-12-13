@@ -135,7 +135,7 @@ export default class App extends React.Component {
             float="left"
             title=""
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 52]}
+            fwd={this["scrollImg" + 56]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
@@ -161,7 +161,7 @@ export default class App extends React.Component {
             float="right"
             title="Gorka Reality Check (Newsmax) - Ben Carson on goal post science."
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 53]}
+            fwd={this["scrollImg" + 55]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
@@ -200,7 +200,7 @@ export default class App extends React.Component {
             float="right"
             title="Not My Party (The Bulwark) - Cuomo Plandemic, The US Census Bureau and I called it."
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 52]}
+            fwd={this["scrollImg" + 54]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
@@ -258,6 +258,23 @@ export default class App extends React.Component {
           microscope output of virus beyond mitosis of already
           bacterially-infected cell, just cartoons.
           <br />
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/1pToEJEFry8RdooYOE9YNuDfj39UU8b_s/preview"
+            }
+            float="right"
+            title="Wake Up America (Newsmax) - Andrew Garborino on vaccinations and symptoms of patients producing covid variants"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 53]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “25% of my patients producing covid are vaccinated, fairing well.
+          People with vaccine are carrying the variants.”
           <br />
           <a
             style={{
@@ -379,7 +396,7 @@ export default class App extends React.Component {
             float="left"
             title="National Report - Dr. Manny Sethi - 'use virals, stop scaring everyone, I can't count significant deaths'"
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 51]}
+            fwd={this["scrollImg" + 52]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
@@ -412,7 +429,7 @@ export default class App extends React.Component {
             float="right"
             title="Stinchfield (Newsmax) - on virus and masking with Chris Murphy, '80% vaxxed, 90% at risk vaccinated'"
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 49]}
+            fwd={this["scrollImg" + 51]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
