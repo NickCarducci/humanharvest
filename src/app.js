@@ -123,6 +123,14 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "t-cells prvent you from going to the hospital. antibodies help you if
+          you get it. antibodies do not stop bacteria & severe disease..."
+          <br />
+          "I am seeing lowered immunity from vaccines[, get boosters?],
+          sunshine, fresh air, healthy diets, things of THAT nature." 4 shots
+          fully-vaccinated, 7k cases worldwide.
+          <br />
+          <br />
           <Cable
             style={{ height: "440px" }}
             onError={handleScollImgError}
