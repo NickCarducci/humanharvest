@@ -161,7 +161,7 @@ export default class App extends React.Component {
             float="right"
             title="Gorka Reality Check (Newsmax) - Ben Carson on goal post science."
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 52]}
+            fwd={this["scrollImg" + 53]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
@@ -181,6 +181,41 @@ export default class App extends React.Component {
           <br />
           Maybe the testing is set to "omicron," you need to target polymerse
           chain reaction
+          <br />
+          <br />
+          <Cable
+            style={{
+              width: "400px",
+              maxWidth: "100%",
+              height: "200px",
+              maxHieght: "30vw"
+            }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1G3UadhCwRqIDzJ3gRH9VAkO9AiEJkEX-/preview"
+            }
+            float="right"
+            title="Not My Party (The Bulwark) - Cuomo Plandemic, The US Census Bureau and I called it."
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 52]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “Forced nursing homes to take in residents,”
+          <br />
+          <br />
+          Star Ledger: "N.J. reports 3,591 COVID cases,&nbsp;
+          <a href="https://humanharvest.info/polio">12 deaths</a>.
+          Hospitalizations top 1,000 for 3rd day."
+          <br />
+          <a href="https://www-doh.state.nj.us/doh-shad/topic/Mortality.html">
+            Out of 192/day deaths
+          </a>
+          , this byproduct prevalence not being the cause is insignificant
+          anyway
           <br />
           <br />
           “First, virion injects its DNA into cell. Next, cell becomes a virus,
