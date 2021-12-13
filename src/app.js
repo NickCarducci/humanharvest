@@ -150,6 +150,35 @@ export default class App extends React.Component {
               try plugging it in? "1/2 Pfizer revenue in the last quarter"
             </span>
           </h2>
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1cmeyK40mOHEYQSturvs4zg1sTo5Bqlka/preview"
+            }
+            float="right"
+            title="Gorka Reality Check (Newsmax) - Ben Carson on goal post science."
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 52]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “You notice how marxists come in target a group, restrict, prosecute,
+          and sometimes it gets worse than that. If vaccines are effective and
+          you are fully vaccinated, you shouldn’t be worried. That was the goal,
+          but now the posts keep seeming to move. Natural immunity has been
+          known since the 60’s, and if we accounted for them, their argument
+          would go out the window. I have not seen medicine so politicized.
+          Medical people follow each other, so we are the most susceptible to
+          false information. People get unnecessarily frightened.”
+          <br />
+          <br />
+          “Every single one of them had mild symptoms,” because you are going
+          back to the symptomatic method!
+          <br />
+          <br />
           Maybe the testing is set to "omicron," you need to target polymerse
           chain reaction
           <br />
@@ -518,7 +547,7 @@ export default class App extends React.Component {
                 : "https://drive.google.com/file/d/1oCE4UdaDML8i-byNLHILkRmc5NXvHkkg/preview"
             }
             float="right"
-            title="GBNews - Frank Furedi on righteous censorship, discrimination (Crt, censoring, and illiteracy have to do with one another?)"
+            title="GBNews - Frank Furedi (Free speech Crisis is not a right wing myth on righteous censorship, discrimination (Crt, censoring, and illiteracy have to do with one another?)"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 46]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
