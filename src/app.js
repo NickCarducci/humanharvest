@@ -207,6 +207,14 @@ export default class App extends React.Component {
           “Forced nursing homes to take in residents,”
           <br />
           <br />
+          1.2m/yr+ (55m/yr+ worldwide) excess deaths age standardized by cohort
+          gains expected is more than&nbsp;
+          <a href="https://www.nursinghomeabusecenter.com/blog/covid-nursing-home-deaths/">
+            169k
+          </a>
+          &nbsp;lot.
+          <br />
+          <br />
           Star Ledger: "N.J. reports 3,591 COVID cases,&nbsp;
           <a href="https://humanharvest.info/polio">12 deaths</a>.
           Hospitalizations top 1,000 for 3rd day."
