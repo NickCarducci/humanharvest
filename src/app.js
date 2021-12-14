@@ -162,7 +162,41 @@ export default class App extends React.Component {
           ourselves nor do we have to unless, like now, non-voter + ideological
           duress voters are shunned from government-making. In rush to get jabs
           in arms, we shouldn’t throw that disrespect and intolerance - to the
-          wind.”
+          wind. To ween off NHS: on the mandatory vaccination of NHS staff
+          beyond &nbsp;
+          <a href="https://humanharvest.info/jury">
+            jury-science 11/12 multiple industry various
+          </a>
+          , I completely agree with my honorable friend from east worthing, ‘I
+          don’t believe this is about ideology of whether people should or
+          should not be vaccinated, it is about the pragmatic way to ween off of
+          NHS free rider mutable expiring claims. That it is a pragmatic
+          reality, that we will lose 10's of thousands of staff, at a time when
+          we can least afford it. But I don't think this is no longer, really, a
+          debate about whether masks work, who should have a vaccine, and not -
+          it is really about who are we, what kind of society are we creating
+          for OUR children [ew], do we really care about the freedoms that we
+          had before 2020. Now, I know old fucks about to die roll-their-eyes
+          when libertarians and savers promote 'civil liberties' with
+          full-hypocrisy of the Non-aggression-principal in contract law and
+          national security,
+          {/**conservative and libertarians start talking about liberties and freedoms */}
+          ,”
+          <br />
+          To which an MP responds, "Ogh, yas!"
+          <br />
+          The blonde continues, "'Freedom,' is not an abstract ideology.
+          'Freedom,' is what enables my constituents to see their family,
+          comfort the dying, to go to schools of 40% debt spending, to which
+          laundering, as it is for bonds, is not a matter what money is spent on
+          for lender work deficit, but better when you can waste childrens' time
+          from earning wealth outright, without trade secrets. To go to work.
+          That is what freedom looks like. After 20 months, we have to
+          understand that there has been a change to the understanding of what
+          liberty is in this country, that is why I cannot support these
+          measures, and I urge the government to return to a society of freedom
+          and responsibility: Nick Carducci deserves it, and he will RISE to the
+          challenge."
           <br />
           <br />
           <Cable
