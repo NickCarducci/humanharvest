@@ -164,7 +164,23 @@ export default class App extends React.Component {
           He could have done this in a more measured way. There is nothing we
           know this week that we didn’t last week.”
           <br />
+          “If we always have covid, we will always have passports. One vote for
+          the rest of out lives.”
           <br />
+          “As I understand it, the powers that are being saught by the
+          government by tonight’s vote are temporary and therefore would have to
+          be renewed. It is one thing to seek those powers against the
+          background of a likely peak in January, and the government seeking to
+          prolong them after the peak has passed and the pressure on the NHS is
+          easing. So, I think it is a proper response to a short term peak in
+          demand of the National Health Service.”
+          <h2>
+            In the U.S., due to the missapropriation of funds by expiring
+            claims, closed source licensure and non-rollover&nbsp;
+            <a href="https://humanharvest.info/claims">insurance</a>, hospital
+            beds haven't increased since half a population (and life, for that
+            matter) ago.
+          </h2>
           <Cable
             onError={handleScollImgError}
             //img={true}
