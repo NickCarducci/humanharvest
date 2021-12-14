@@ -140,16 +140,46 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://drive.google.com/file/d/1YwtzXpg8HXTfmZGd8uKOnFaIWn_xnJS6/preview"
+                : "https://drive.google.com/file/d/1S6-uSoE6DHSZ4-Uajixwi_wlWcPs0MiI/preview"
             }
             float="left"
+            title="GBNews - 'Let's talk vaccine passports' with Stephen Dorrell, former Health Secretary for John Major."
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 65]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “Not an MP nor no longer a conservative. If mp or part of party, I
+          would be part of the gov this evening, not in the way the PM has,
+          behaved, but in order to protect NHS and protect public health, with
+          the likely peak of this omicron variant issue in January.”
+          <br />
+          ”The numbers look alright. Maybe now is the time not for vaccine
+          passports, it may be seen as sort of an overreaction.”
+          <br />
+          ”I don’t agree with your extrapolation that it is a short term
+          response and to a likely peak of omicron in January and that it will
+          be permanent forever. I share the view that it shouldn’t be announced
+          on Sunday night as an apparent reaction to his political difficulties,
+          He could have done this in a more measured way. There is nothing we
+          know this week that we didn’t last week.”
+          <br />
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1YwtzXpg8HXTfmZGd8uKOnFaIWn_xnJS6/preview"
+            }
+            float="right"
             title="GBNews - 'Let's talk vaccine passports' with Shiobhain McDonagh MP Labor Mitcham and Moren."
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 64]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
-          https://drive.google.com/file/d/1YwtzXpg8HXTfmZGd8uKOnFaIWn_xnJS6/preview
           “A lateral flow test, that which we already do, I do not believe that
           is too much to ask,” it is not an exclusive byproduct-artifact, it is
           not, “the permanence of the whole thing.” Let alone the cost for such
@@ -167,7 +197,7 @@ export default class App extends React.Component {
                 ? ""
                 : "https://drive.google.com/file/d/1U7GCj0bV4Q3U3QRXi1APOlhZPv_xp3hM/preview"
             }
-            float="right"
+            float="left"
             title="GBNews - 'Let's talk vaccine passports' with Ann Widdlecombe former shadow health, on third parties and non-voters (eyeroll)"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 63]}
@@ -192,7 +222,7 @@ export default class App extends React.Component {
                 ? ""
                 : "https://drive.google.com/file/d/1mbbMoxrrXL1LY_AQuwr-U-agXB8lhEfk/preview"
             }
-            float="left"
+            float="right"
             title="GBNews - Ann Widdlecombe - Virus is dead"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 62]}
