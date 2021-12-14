@@ -150,7 +150,7 @@ export default class App extends React.Component {
             float="left"
             title="Liberty Mutual says you can save on insurance by using insurance. insane. it is expiring collective loss, public or private!"
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 75]}
+            fwd={this["scrollImg" + 77]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
@@ -170,7 +170,7 @@ export default class App extends React.Component {
             float="right"
             title="Eric Bolling (The Balance,Newsmax) - 'antivaxxers are spreading variants' with Ron Johnson"
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 74]}
+            fwd={this["scrollImg" + 76]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
@@ -200,7 +200,7 @@ export default class App extends React.Component {
             float="right"
             title="Eric Bolling (The Balance,Newsmax) - 'antivaxxers are spreading variants' with Mike Braun"
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 73]}
+            fwd={this["scrollImg" + 75]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
@@ -215,6 +215,43 @@ export default class App extends React.Component {
           don't care? Better to put others in force majeure implausible
           deniability repo cycle kept down payments than yourself. fucking die
           you glazed donut.
+          <br />
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1r5dmB1I90HwLFaqSuva5ixUFgd0-6HCP/preview"
+            }
+            float="left"
+            title="Eric Bolling (The Balance,Newsmax) -  Amanda Berhante on California"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 74]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “Losing voting rights in New York, that is socialism, embodied.”
+          <br />
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1R2DuxU2hODR9n7byAz241TciXciVz6IC/preview"
+            }
+            float="right"
+            title="Eric Bolling (The Balance,Newsmax) - Dr. Peter McCullough, americaoutloud.com"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 73]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “Relieved of any development costs because it was purchased from the
+          federal government,”
           <br />
           <br />
           <Cable
