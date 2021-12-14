@@ -167,7 +167,7 @@ export default class App extends React.Component {
                 : "https://drive.google.com/file/d/1i7uH2miJQQqYL5lSCyhJBW9ec05swvDo/preview"
             }
             float="right"
-            title=""
+            title="GBNews - Andrew Smith, 'conservative' MP"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 61]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
