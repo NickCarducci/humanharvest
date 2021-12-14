@@ -143,7 +143,7 @@ export default class App extends React.Component {
             float="left"
             title=""
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 56]}
+            fwd={this["scrollImg" + 57]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
@@ -169,7 +169,7 @@ export default class App extends React.Component {
             float="right"
             title="Gorka Reality Check (Newsmax) - Ben Carson on goal post science."
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 55]}
+            fwd={this["scrollImg" + 56]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
@@ -183,8 +183,27 @@ export default class App extends React.Component {
           false information. People get unnecessarily frightened.”
           <br />
           <br />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1yDUsCsSlr1XqchdYbAz7hFkW9E2Ln_yb/preview"
+            }
+            float="left"
+            title="National Report (Newsmax) - Robert F. Kennedy, jr. on mortality and Fauci"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 55]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           “Every single one of them had mild symptoms,” because you are going
           back to the symptomatic method!
+          <br />
+          <br />
+          "We had 20% of worldwide&nbsp;
+          <a href="https://humanharvest.info/polio">covid deaths</a>."
           <br />
           <br />
           Maybe the testing is set to "omicron," you need to target polymerse
@@ -2042,7 +2061,7 @@ export default class App extends React.Component {
             float="left"
             title="National Report (Newsmax) - Bethany Mandel vaxx-freak Deseret News"
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 57]}
+            fwd={this["scrollImg" + 58]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
@@ -3869,3 +3888,4 @@ export default class App extends React.Component {
     );
   }
 }
+
