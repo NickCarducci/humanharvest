@@ -236,6 +236,33 @@ export default class App extends React.Component {
           “Losing voting rights in New York, that is socialism, embodied.”
           <br />
           <br />
+          "There isn't a huge corporate interest to get in the way of
+          suppressing covid-as-byproduct-not-cause denial, denialism, and
+          dismissal. The social media companies are being complicit, we should
+          take them to task."
+          <h2>
+            Chris Salcedo's Flaccid Corporate Loss, a saveface strawman: read
+            the book
+          </h2>
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/19NiLQTFf7l_7sBn9PXR5PVVH_qE9aF9i/preview"
+            }
+            float="right"
+            title="Chris Salcedo (Newsmax) - badmouthing socialism as trust building free rider mutables? We want to outlay corporate profits."
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 74]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “Socialists seek government office by insulting because they cannot
+          use proof data and facts on their side. They are dangerous.”
+          <br />
+          <br />
           <Cable
             onError={handleScollImgError}
             //img={true}
