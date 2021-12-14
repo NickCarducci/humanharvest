@@ -140,9 +140,34 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://drive.google.com/file/d/1k9u0OfTSrFZFkoB06pxYNwhbcYcWthU3/preview"
+                : "https://drive.google.com/file/d/1PxDxQR7FRijO_1Z-3CRJiiVCPVvkZ6Go/preview"
             }
             float="left"
+            title={`The Sun - "Boris Johnson faces four major Commons votes on his 'Plan B' covid-19 measures"`}
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 70]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          "No known benefits to the measures we are trying to informate, err,
+          implement, today. Working from home 11x more abuse, as is gdp to
+          velocity of m2 minus gdp divided by m2 minus currency component of m1
+          times currency component of m1. Masks, as innoculous as they may seem,
+          the bacteria and signal has sent thru all societies and schools is to
+          panic and fear, without regard for the 50m/yr+ excess deaths still
+          expected given current mortality lifetimes and population growth that
+          long ago as a cadence sum."
+          <br />
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1k9u0OfTSrFZFkoB06pxYNwhbcYcWthU3/preview"
+            }
+            float="right"
             title={`The Sun - "Boris Johnson faces four major Commons votes on his 'Plan B' covid-19 measures"`}
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 69]}
@@ -167,7 +192,7 @@ export default class App extends React.Component {
                 ? ""
                 : "https://www.youtube.com/embed/-spTY4y8euI"
             }
-            float="right"
+            float="left"
             title="Ford Brewer MD bacteria notions, reasonable doubt"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 68]}
@@ -186,13 +211,14 @@ export default class App extends React.Component {
           the non-exclusive byproduct of bacterial-infection, antibodies to
           prevent blood clotting be damned. Surely frustrating, I will be voting
           for the government today. But I ask they do no take my vote for
-          granted, [mumbles] we se no increase nor hospitalization, then this
+          granted, that [mumbles] we see no increase nor hospitalization, this
           legislation does expire on the 6th of January, and they do not seek to
           extend it, as if this is required to be said, but I like to bring in
           precedence for slip & fall attorneys to chomp at. Working from home,
           although it is only guidance today, will cause destruction to small
-          retail, and even the ability for new entrants, because of the
-          implausible landlord use&nbsp;
+          retail, and even the&nbsp;
+          <a href="https://qr.ae/pGqeJd">ability for new entrants</a>, because
+          of the implausible landlord use&nbsp;
           <a href="https://30under5.us">above 5 units or 30 days</a>, not
           price,&nbsp;
           <a href="https://humanharvest.info/claims">
