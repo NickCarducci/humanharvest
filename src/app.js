@@ -140,9 +140,34 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://drive.google.com/file/d/1U7GCj0bV4Q3U3QRXi1APOlhZPv_xp3hM/preview"
+                : "https://drive.google.com/file/d/1YwtzXpg8HXTfmZGd8uKOnFaIWn_xnJS6/preview"
             }
             float="left"
+            title="GBNews - 'Let's talk vaccine passports' with Shiobhain McDonagh MP Labor Mitcham and Moren."
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 64]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          https://drive.google.com/file/d/1YwtzXpg8HXTfmZGd8uKOnFaIWn_xnJS6/preview
+          “A lateral flow test, that which we already do, I do not believe that
+          is too much to ask,” it is not an exclusive byproduct-artifact, it is
+          not, “the permanence of the whole thing.” Let alone the cost for such
+          a free rider mutable endeavor, especially when understanding the
+          evolutionary-science, based on, “the parts,” logic deduction of
+          bacterial cause of infection/root-of-illness, and viral
+          warning-mechanism.
+          <br />
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1U7GCj0bV4Q3U3QRXi1APOlhZPv_xp3hM/preview"
+            }
+            float="right"
             title="GBNews - 'Let's talk vaccine passports' with Ann Widdlecombe former shadow health, on third parties and non-voters (eyeroll)"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 63]}
@@ -167,7 +192,7 @@ export default class App extends React.Component {
                 ? ""
                 : "https://drive.google.com/file/d/1mbbMoxrrXL1LY_AQuwr-U-agXB8lhEfk/preview"
             }
-            float="right"
+            float="left"
             title="GBNews - Ann Widdlecombe - Virus is dead"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 62]}
