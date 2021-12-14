@@ -134,6 +134,50 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/10xMyuH9o4CCiu6E9-ceAyPoD7BZAW6Zd/preview"
+            }
+            float="left"
+            title="American Agenda (Newsmax) - Amanda Berhante on California"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 72]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “High case rates, being labeled as high transmission without vivo
+          insemination of cell without bacteria nor mitosis,”
+          <br />
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1INY7dX6f-DjCC2Mu4Hch_P0yKkV-JlFY/preview"
+            }
+            float="right"
+            title="American Agenda (Newsmax) - Dr. Rich McCormmick "
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 71]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          most asymptomatic cases of covid are not sick and most&nbsp;
+          <a href="https://www.fda.gov/media/144245/download#page=42">
+            similarly-sick
+          </a>
+          &nbsp;<a href="https://humanharvest.info/polio">aren't covid</a>.
+          "Omicron may be the dominant strain, right now Delta is," because you
+          set PCR to whatever strain you guess or look for. there are hundred of
+          thousands of possible virus to set for, and thousands more to miss
+          each time. Yet you are just testing for non-exclusive artifact,
+          retroactive-vitro byproduct, not vivo cause.
           <h2>
             Work deficit means of labor from labor, not social Comparative
             advantage tech advancement to perpetual utility maintainless.
