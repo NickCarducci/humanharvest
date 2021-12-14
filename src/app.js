@@ -140,9 +140,30 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://drive.google.com/file/d/1S6-uSoE6DHSZ4-Uajixwi_wlWcPs0MiI/preview"
+                : "https://drive.google.com/file/d/1kDs49pyRVUFyBWibJb_KArWbPkA3iO5L/preview"
             }
             float="left"
+            title={`The Sun - "Boris Johnson faces four major Commons votes on his 'Plan B' covid-19 measures"`}
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 66]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          A protected NHS is not MP’s going off and abandoning about
+          vaccinations, a protected NHS is the best way to get thru this wave is
+          where you can rent a blood pressure screening, estimated and
+          expiring.” What?
+          <br />
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1S6-uSoE6DHSZ4-Uajixwi_wlWcPs0MiI/preview"
+            }
+            float="right"
             title="GBNews - 'Let's talk vaccine passports' with Stephen Dorrell, former Health Secretary for John Major."
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 65]}
@@ -189,7 +210,7 @@ export default class App extends React.Component {
                 ? ""
                 : "https://drive.google.com/file/d/1YwtzXpg8HXTfmZGd8uKOnFaIWn_xnJS6/preview"
             }
-            float="right"
+            float="left"
             title="GBNews - 'Let's talk vaccine passports' with Shiobhain McDonagh MP Labor Mitcham and Moren."
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 64]}
@@ -213,7 +234,7 @@ export default class App extends React.Component {
                 ? ""
                 : "https://drive.google.com/file/d/1U7GCj0bV4Q3U3QRXi1APOlhZPv_xp3hM/preview"
             }
-            float="left"
+            float="right"
             title="GBNews - 'Let's talk vaccine passports' with Ann Widdlecombe former shadow health, on third parties and non-voters (eyeroll)"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 63]}
@@ -238,7 +259,7 @@ export default class App extends React.Component {
                 ? ""
                 : "https://drive.google.com/file/d/1mbbMoxrrXL1LY_AQuwr-U-agXB8lhEfk/preview"
             }
-            float="right"
+            float="left"
             title="GBNews - Ann Widdlecombe - Virus is dead"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 62]}
