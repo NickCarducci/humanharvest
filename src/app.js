@@ -157,7 +157,14 @@ export default class App extends React.Component {
           warning-mechanism of bacterial-cause, exclusively. Just wash your
           hands with warm water, fix age standardized excess deaths for
           population growth, and you will be of sound mind in the Book of Nick
-          Carducci.”
+          Carducci. It is not fair for the person who has been waiting for that
+          hip operation for 18 months, or any other elective procedure due to
+          their adherence to science and facts. We would also spend a lot less
+          as we ween ourselves off of&nbsp;
+          <a href="https://humanharvest.info/claims">non-rollover insurance</a>
+          &nbsp;and&nbsp;<a href="https://micro-theory.com">invoices</a>&nbsp;
+          estimated to buy and loiter, if we heal the what ails you, but not the
+          infection, and they die without proper care.”
           <br />
           <br />
           <Cable
