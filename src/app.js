@@ -134,6 +134,49 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1mbbMoxrrXL1LY_AQuwr-U-agXB8lhEfk/preview"
+            }
+            float="left"
+            title="GBNews - Ann Widdlecombe - Virus is dead"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 62]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “Every time a virus mutates, because it will - it is in the virus’
+          nature to mutate.”
+          <h2>
+            the virus is debris/byproduct and is as&nbsp;
+            <a href="https://humanharvest.info/polio">dead</a>&nbsp;as you
+            <br />
+            <span style={{ fontSize: "9px" }}>
+              Productivity is upside down, as relevant as ever if it's good for
+              Andrew Smith to say on this topic. You all target the retardation
+              of hours like you're about to watch eachothers' kids to boost the
+              numbers. It is more accurately per hour price deflation, and
+              homes, bonds intermediate-labor in inflation, gini and poverty as
+              well if you want to treat people humanely.
+              <br />
+              <br />
+              On vaccines, you cannot tell me what taxonomy comes before Virus,
+              the only one as such, and we know it, "requires cell to
+              reproduce," to boot. What, have you not calculated prevalence of
+              MS for paralytic polio? Age standardized excess deaths for cohort
+              size? Symptomatic-method of case-assessment? Prevalence does not
+              necessarily cause make, you know - it can be byproduct and/or
+              warning-mechanism as well. Here virus is a non-exclusive artifact.
+              <br />
+              <br />
+              Consider other fallacies like this in science: Redi Experiment &
+              chicken or egg, does it matter?
+            </span>
+          </h2>
           "t-cells prvent you from going to the hospital. antibodies help you if
           you get it. antibodies do not stop bacteria & severe disease..."
           <br />
@@ -2430,6 +2473,11 @@ export default class App extends React.Component {
               }}
             />
           )}
+          <a href="https://www.prb.org/resources/countries-with-the-oldest-populations-in-the-world/">
+            oldest populations in the world
+          </a>
+          <br />
+          <br />
           even if antibodies just clear up byproduct of bacterial-cause and
           virus only comes out, you can expect this 800n result
           <a href="https://link.springer.com/article/10.1007/s00259-021-05314-2">
