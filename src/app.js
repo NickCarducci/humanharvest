@@ -204,7 +204,10 @@ export default class App extends React.Component {
             payments laundered and loitered third party beneficiary donee
             claimable collateral
           </a>
-          .”
+          . I hope they keep a close eye on that. I am voting on this today NOT
+          because I am whipped to do so, but after careful consideration and
+          speaking to many local professionals that we believe this is the right
+          thing to do.”
           <br />
           <br />
           <Cable
