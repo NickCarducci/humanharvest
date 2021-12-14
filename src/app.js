@@ -140,6 +140,64 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
+                : "https://drive.google.com/file/d/1CcDlcNwfVqyPLrpMrxxArair45JEvibt/preview"
+            }
+            float="left"
+            title={`The Sun - "Boris Johnson faces four major Commons votes on his 'Plan B' covid-19 measures"`}
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 67]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “I fully support the government front-running the booster for the free
+          rider mutable racket that it is, and nothing I am about to say makes
+          light of covid, in any way, at all. My issue is with language, and how
+          we get the most compliance. In my constituency, there is a great
+          number of people who have grave concerns about civil liberties, about
+          data harvesting, and about science monopoly. That is why I am
+          supporting the jury-bound-science of presented with vivo and vitro
+          evidence of Cause of Death. A large multiple of twelve voluntary
+          survey will do, to capture various industry jury. While I think their
+          fears are unfounded, I have to listen to them. I am a cunt-waddler,
+          and gave them no choice but to vote for me or my opponents, most
+          didn’t even vote, by plurality.&nbsp;
+          <a href="https://www.politics.co.uk/reference/election-turnout/">
+            It’s a default vote, “no”
+          </a>
+          . “We have to take them seriously. Like Martin Pavilion said, 'We
+          don’t allay those fears of overregulation with overregulation, we need
+          those people to come on board in a national effort to keep people
+          safe.' …<a href="https://teapharmacy.party">Ask them to comply</a>, we
+          trust them to take the test and scan the code already. I think
+          compliance could be increased if they can trust they are not facing
+          these restrictions for no reason, they are not having their data
+          harvested. It is a great concern in our constituency and I do respect
+          it. The vast majority of my constituents, and the vast majority of the
+          British people, will do everything asked of them by government without
+          it needing to be mandates. They have been incredible in this pandemic.
+          They have acted in the interest of themselves, their families, their
+          communities, their cities, and their towns. And I would humbly ask the
+          government to come back to our ‘conservative’ principles of trusting
+          the British people. They are the people who sent us to this place.
+          They have common sense. They know their risk. They can act with
+          supreme intelligence. We must never underestimate their ‘community
+          mindedness,’ new discoveries be damned to the pits of Hell. So, a last
+          plea to government, that, I only comment on this evenings' votes. I
+          won’t be supporting all of them, but I will be supporting some of
+          them. The only way to go forward together as a nation is we have to
+          stop passing never-ending regulations, and move forward in a&nbsp;
+          <a href="https://carducci.us/videos">
+            non-sober, but sane, non-financed way
+          </a>
+          .”
+          <br />
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
                 : "https://drive.google.com/file/d/1kDs49pyRVUFyBWibJb_KArWbPkA3iO5L/preview"
             }
             float="left"
