@@ -150,7 +150,7 @@ export default class App extends React.Component {
             float="left"
             title="Liberty Mutual says you can save on insurance by using insurance. insane. it is expiring collective loss, public or private!"
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 77]}
+            fwd={this["scrollImg" + 78]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
@@ -170,7 +170,7 @@ export default class App extends React.Component {
             float="right"
             title="Eric Bolling (The Balance,Newsmax) - 'antivaxxers are spreading variants' with Ron Johnson"
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 76]}
+            fwd={this["scrollImg" + 77]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
@@ -200,7 +200,7 @@ export default class App extends React.Component {
             float="right"
             title="Eric Bolling (The Balance,Newsmax) - 'antivaxxers are spreading variants' with Mike Braun"
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 75]}
+            fwd={this["scrollImg" + 76]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
@@ -215,8 +215,9 @@ export default class App extends React.Component {
           don't care? Better to put others in force majeure implausible
           deniability repo cycle kept down payments than yourself. fucking die
           you glazed donut.
-          <br />
-          <br />
+          <h2>
+            this is what I have been training my whole life for, ever since 2008
+          </h2>
           <Cable
             onError={handleScollImgError}
             //img={true}
@@ -228,11 +229,32 @@ export default class App extends React.Component {
             float="left"
             title="Eric Bolling (The Balance,Newsmax) -  Amanda Berhante on California"
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 74]}
+            fwd={this["scrollImg" + 75]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
           “Losing voting rights in New York, that is socialism, embodied.”
+          <br />
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1OVrs0v8sSyPwE21kR21KadOdNh9iLc3H/preview"
+            }
+            float="left"
+            title="Dan Wootton Tonight - What the Farage on political compass 2021"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 74]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “There is a lot who would like a radical change in how the government
+          run, in my party,” Nigel
+          <br />“<a href="https://truncatedsalestax.com">Realignment</a>&nbsp;is
+          possible.”
           <br />
           <br />
           <Cable
