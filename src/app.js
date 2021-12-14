@@ -254,6 +254,11 @@ export default class App extends React.Component {
           federal government,”
           <br />
           <br />
+          “29% nones spiritual but not religious, unaffiliated to a religious
+          organization,” Why kind of Christian thinks He had to die for sins
+          rather than because of them?
+          <br />
+          <br />
           <Cable
             onError={handleScollImgError}
             //img={true}
@@ -263,7 +268,7 @@ export default class App extends React.Component {
                 : "https://drive.google.com/file/d/10xMyuH9o4CCiu6E9-ceAyPoD7BZAW6Zd/preview"
             }
             float="left"
-            title="American Agenda (Newsmax) - Amanda Berhante on California"
+            title="American Agenda (Newsmax) - 'Markowics joins mass exodus from NYC'"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 72]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
