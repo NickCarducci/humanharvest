@@ -156,7 +156,13 @@ export default class App extends React.Component {
           the bacteria and signal has sent thru all societies and schools is to
           panic and fear, without regard for the 50m/yr+ excess deaths still
           expected given current mortality lifetimes and population growth that
-          long ago as a cadence sum."
+          long ago as a cadence sum. 100k ghost children from lockdown,
+          discriminatory and segregates people. Proud tradition in this country,
+          we stand up for minority views, even if we don’t believe them
+          ourselves nor do we have to unless, like now, non-voter + ideological
+          duress voters are shunned from government-making. In rush to get jabs
+          in arms, we shouldn’t throw that disrespect and intolerance - to the
+          wind.”
           <br />
           <br />
           <Cable
