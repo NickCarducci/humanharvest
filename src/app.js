@@ -154,6 +154,30 @@ export default class App extends React.Component {
           700k people who died from this?” CNN Sunday at 5pm est
           <br />
           <br />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1xzYNqDL3avTWZIgXbYZqWwm5wUaQ3MsY/preview"
+            }
+            float="right"
+            title="GBNews - Paul on the right"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 60]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          "1/33 covid 1/200 omicron asymptomatic cases, 'top doctor whom
+          identified, the disease, is mild,' says of Boris 'hysteria,' all
+          indications are that it is milder than the symptoms that it causes. We
+          know that it is more transmissible, than delta. Average age is 27 in
+          Africa, lower than the U.K., so we are accounting for age AND cohort
+          this time, but still not symptomatic-trigger-method, and PCR test
+          literally made for asymptomatic prevalence of a non-exclusive
+          artifact, that which may be among thousands of others prevalent at the
+          time of testing."
           <h2>
             "Omicron: Over a hundred infection, not a single death." Did you
             <br />
@@ -169,7 +193,7 @@ export default class App extends React.Component {
                 ? ""
                 : "https://drive.google.com/file/d/1cmeyK40mOHEYQSturvs4zg1sTo5Bqlka/preview"
             }
-            float="right"
+            float="left"
             title="Gorka Reality Check (Newsmax) - Ben Carson on goal post science."
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 56]}
@@ -192,7 +216,7 @@ export default class App extends React.Component {
                 : "https://drive.google.com/file/d/1ZsJLlhFCTme0QbFq5HpevbptQn53OwWR/preview"
             }
             float="right"
-            title="GBNews - 'Vaccine pass' vote"
+            title="GBNews - 'Vaccine pass' vote spoken by Wes Streeting, Shadow Health Secretary"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 59]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
