@@ -150,7 +150,14 @@ export default class App extends React.Component {
             scrollTop={this.state.scrollTop}
           />
           “People who are not vaccinated are not only causing themselves risks,
-          they are blocking others in pathways of receiving care.”
+          they are blocking others in pathways of receiving care. 2/3 of
+          patients with covid are unvaccinated because prevalence does not cause
+          make. It would be silly to think virus is an evolutionary trait or is
+          alive when it requires cell to reproduce. It is merely a
+          warning-mechanism of bacterial-cause, exclusively. Just wash your
+          hands with warm water, fix age standardized excess deaths for
+          population growth, and you will be of sound mind in the Book of Nick
+          Carducci.”
           <br />
           <br />
           <Cable
