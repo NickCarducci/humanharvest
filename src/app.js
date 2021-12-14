@@ -140,9 +140,28 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://drive.google.com/file/d/1CcDlcNwfVqyPLrpMrxxArair45JEvibt/preview"
+                : "https://drive.google.com/file/d/1k9u0OfTSrFZFkoB06pxYNwhbcYcWthU3/preview"
             }
             float="left"
+            title={`The Sun - "Boris Johnson faces four major Commons votes on his 'Plan B' covid-19 measures"`}
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 68]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “People who are not vaccinated are not only causing themselves risks,
+          they are blocking others in pathways of receiving care.”
+          <br />
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1CcDlcNwfVqyPLrpMrxxArair45JEvibt/preview"
+            }
+            float="right"
             title={`The Sun - "Boris Johnson faces four major Commons votes on his 'Plan B' covid-19 measures"`}
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 67]}
