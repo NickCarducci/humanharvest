@@ -201,7 +201,19 @@ export default class App extends React.Component {
           the pandemic, record number of jobs, we’ve seen Brexit delivered. The
           World is at net zero carbon by 2050 because of the UK leadership of
           COP26 conference in Glasslo. On this, I think the government has this
-          wrong and the idea of mandatory vaccination.”
+          wrong and the idea of mandatory vaccination. …We have had an
+          unprecedented challenge in the global pandemic that we are tackling.
+          We also had the challenge of delivering Brexit, as well. The
+          fundamentals of this government are essentially right. There is no
+          opposition.&nbsp;
+          <a href="https://www.google.com/search?q=65+percent+of+americans">
+            What opposition
+          </a>
+          ?” Maybe you&nbsp;
+          <a href="https://www.theatlantic.com/politics/archive/2011/10/poll-most-americans-support-occupy-wall-street/246963/">
+            took all their money, boy
+          </a>
+          .
           <br />
           <br />
           “So the message is, Jordan Klepper, do yoga and not care about the
