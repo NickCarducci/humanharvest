@@ -134,6 +134,11 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "Many of you have suffered in the panemic when nursing homes admitted
+          patients into their facilities, 15k ny state cretsel gubmit and herbit
+          working hard to compensate you for your rights. kglawteam.com"
+          <br />
+          <br />
           <Cable
             onError={handleScollImgError}
             //img={true}
@@ -145,10 +150,14 @@ export default class App extends React.Component {
             float="left"
             title="Liberty Mutual says you can save on insurance by using insurance. insane. it is expiring collective loss, public or private!"
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 74]}
+            fwd={this["scrollImg" + 75]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
+          “Spike in new cases because of spread of omicron. Failed who chose not
+          to be vaccinated now having another covid spike now planning a media
+          blitz, instead of blaming the unvaccinated. It looks like we were
+          right all along, folks.”
           <br />
           <Cable
             onError={handleScollImgError}
@@ -161,14 +170,10 @@ export default class App extends React.Component {
             float="right"
             title="Eric Bolling (The Balance,Newsmax) - 'antivaxxers are spreading variants' with Ron Johnson"
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 73]}
+            fwd={this["scrollImg" + 74]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
-          “Spike in new cases because of spread of omicron. Failed who chose not
-          to be vaccinated now having another covid spike now planning a media
-          blitz, instead of blaming the unvaccinated. It looks like we were
-          right all along, folks.” Eric Bolling
           <br />
           <br />
           “This inflation is out of control spending, debt inflation, crime,” it
@@ -176,6 +181,40 @@ export default class App extends React.Component {
           over covid. If he uses census and my mortality projections to claim
           honor system signatures election fraud, he will have to for ppp trust
           building existing business.
+          <br />
+          <br />
+          “And now they are saying it is the unvaccinated fault, what is going
+          on here?” Eric Bolling literally counterfactualing himself in the same
+          segment Policies under Trump was working. I'm more concerned if we
+          don't win in 2024. More government going into debt.'
+          <br />
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1HVOCHHEcouFRjhxhQljWy6I3nPXBNsIU/preview"
+            }
+            float="right"
+            title="Eric Bolling (The Balance,Newsmax) - 'antivaxxers are spreading variants' with Mike Braun"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 73]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          lender work deficit, get rid of them 1/3 of debt. You dumb, old
+          hypocrites&nbsp;<a href="https://qr.ae/pGqeJd">own bonds</a>, that is
+          why you are for self-harm you fucking retard Braun. “We have been
+          complacent on raising the debt,” I can forbid non-voter as "no," and
+          private. We are supposed to be defenders of liberty, and we don't
+          always do that unless we profit with work deficit. You bet third party
+          beneficiciary donee claimable in fractional reserve in contract vs
+          public. Just because it is laundered through transitory-property you
+          don't care? Better to put others in force majeure implausible
+          deniability repo cycle kept down payments than yourself. fucking die
+          you glazed donut.
           <br />
           <br />
           <Cable
