@@ -149,10 +149,13 @@ export default class App extends React.Component {
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
-          A protected NHS is not MP’s going off and abandoning about
+          "A protected NHS is not MP’s going off and abandoning about
           vaccinations, a protected NHS is the best way to get thru this wave is
           where you can rent a blood pressure screening, estimated and
-          expiring.” What?
+          expiring.” What? "Where you can have that conversation about your
+          inability to concentrate and they give you wall st pharma cop
+          amphetamines instead of open source licensure and review boards, EVEN
+          for craft beers."
           <br />
           <br />
           <Cable
