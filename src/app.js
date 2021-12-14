@@ -23,6 +23,7 @@ export default class App extends React.Component {
     };
     this.polio = React.createRef();
     this.claims = React.createRef();
+    this.jury = React.createRef();
     for (let i = 0; i < 220; i++) {
       this["scrollImg" + i] = React.createRef();
     }
@@ -79,6 +80,13 @@ export default class App extends React.Component {
         window.scroll(0, this.polio.current.offsetTop);
       } else if (this.props.pathname === "/claims") {
         window.scroll(0, this.claims.current.offsetTop);
+      } else if (this.props.pathname === "/jury") {
+        this.setState(
+          {
+            juryPermitting: true
+          },
+          () => window.scroll(0, this.jury.current.offsetTop)
+        );
       }
     }
   };
@@ -150,6 +158,48 @@ export default class App extends React.Component {
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1i7uH2miJQQqYL5lSCyhJBW9ec05swvDo/preview"
+            }
+            float="right"
+            title=""
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 61]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “If we don’t have a&nbsp;
+          <a href="https://fred.stlouisfed.org/graph/?g=JPH7">
+            thriving economy
+          </a>
+          , we won’t be able to pay for public services like the&nbsp;
+          <a href="https://humanharvest.info/claims">NHS</a>."
+          <br />
+          "Isn’t the point that the vaccine passports isn’t actually a big
+          restriction on our lives: you just need together double vaccinated or
+          get tested to 'prove' you’re negative. That seems to be sensible to a
+          lot of people."
+          <br />
+          "You can be doubly-jabbed and, 'still infect others with covid 19.' …I
+          think this is deeply damaging to the economy, this is not a&nbsp;
+          <a href="https://micro-theory.com">
+            philosophical, civil-libertarian argument
+          </a>
+          , it is whether the individual has the&nbsp;
+          <a href="https://humanharvest.info/jury">same weight</a>&nbsp;than the
+          state does. If covid passes today, it will further state control over
+          tomorrow. But g-d forbid under a future government who believes in
+          much greater state control, we are setting a very dangerous precedent.
+          I don’t accept this government is stopping people’s right to protest.
+          I don’t think they have a right to disrupt other peoples’ livelihoods
+          going about that.”
+          <br />
+          <br />
           “So the message is, Jordan Klepper, do yoga and not care about the
           700k people who died from this?” CNN Sunday at 5pm est
           <br />
@@ -497,7 +547,21 @@ export default class App extends React.Component {
             "...everyone the coverage they deserve, nationwide doctor monopsony
             front ran with expiring claims for no reason," anbam insurance on
             CNN 9pm est
-            <br />
+          </div>
+          <br />
+          <hr ref={this.jury} />
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              this.setState({ juryPermitting: !this.state.juryPermitting });
+            }}
+          >
+            <h3>juryPermitting</h3>
+          </button>
+          <br />
+          <div
+            style={{ display: this.state.juryPermitting ? "block" : "none" }}
+          >
             market history and propoganda: The Great Leap Forward expected 15m
             35 age&nbsp;<a href="https://froth.app/stats">lifetime</a>
             &nbsp;deaths
