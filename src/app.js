@@ -22,6 +22,7 @@ export default class App extends React.Component {
       iosNoPhoto: name.includes("Safari")
     };
     this.polio = React.createRef();
+    this.claims = React.createRef();
     for (let i = 0; i < 220; i++) {
       this["scrollImg" + i] = React.createRef();
     }
@@ -76,6 +77,8 @@ export default class App extends React.Component {
       if (this.props.pathname === "/") {
       } else if (this.props.pathname === "/polio") {
         window.scroll(0, this.polio.current.offsetTop);
+      } else if (this.props.pathname === "/claims") {
+        window.scroll(0, this.claims.current.offsetTop);
       }
     }
   };
@@ -178,9 +181,32 @@ export default class App extends React.Component {
           you are fully vaccinated, you shouldn’t be worried. That was the goal,
           but now the posts keep seeming to move. Natural immunity has been
           known since the 60’s, and if we accounted for them, their argument
-          would go out the window. I have not seen medicine so politicized.
-          Medical people follow each other, so we are the most susceptible to
-          false information. People get unnecessarily frightened.”
+          would go out the window.
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1ZsJLlhFCTme0QbFq5HpevbptQn53OwWR/preview"
+            }
+            float="right"
+            title="GBNews - 'Vaccine pass' vote"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 59]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          I have not seen medicine so politicized. Medical people follow each
+          other, so we are the most susceptible to false information. People get
+          unnecessarily frightened.”
+          <br />
+          <br />
+          “We know the virus is spreading, we know that it’s spreading rapidly,
+          and we know that if it rips through the social healthcare workforce,
+          that is the biggest risk to the&nbsp;
+          <a href="https://humanharvest.info/claims">NHS</a>.”
           <br />
           <br />
           <Cable
@@ -340,672 +366,692 @@ export default class App extends React.Component {
           but it only took estimating mortality by population growth myself to
           see that we have been short for a long time.
           <br />
-          <a
-            style={{
-              shapeOutside: "rect()",
-              float: "right",
-              width: "max-content",
-              padding: "0px 10px",
-              fontSize: "20px",
-              fontFamily: "'Pacifico', sans-serif",
-              color: "rgb(230,230,255)",
-              backgroundColor: "rgb(32, 22, 11)"
+          <hr ref={this.claims} />
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              this.setState({ insurance: !this.state.insurance });
             }}
-            href="https://carducci.us"
           >
-            carducci.us
-          </a>
-          <br />
-          "virus injects its DNA into each cell, 'in an instant'"
-          <br />
-          <a href="https://www.google.com/search?q=nucleoside+analogues+virus+electron+microscope+mitosis+replication">
-            google.com/search?q=nucleoside+analogues+virus+electron+microscope+mitosis+replication
-          </a>
-          <br />
-          The rabies virus bite, you say? still, incidence can be&nbsp;
-          <a href="https://theconversation.com/your-poo-is-mostly-alive-heres-whats-in-it-102848#:~:text=www.shutterstock.com-,Microbes,of%20the%20bacteria%20were%20alive.">
-            bacteria
-          </a>
-          .
-          <br />
-          <br />
-          "Here we go again, the numbers are going up," Brian Kilmeade. What
-          numbers? testing as opposed to cases like hours & price as oppose to
-          productivity?
-          <br />
-          <br />
-          You aren't counting&nbsp;
-          <a href="https://www.fda.gov/media/144245/download#page=42">
-            all cases
-          </a>
-          , just one artifact-byproduct of many by the same cause,
-          bacterial-infection. If it, "requires cell to replicate," its taxonomy
-          is only a cell. Are you saying it is an evolutionary trait? To do the
-          math with it being dead would be to say it is exclusively
-          byproduct-prevalence and warning-mechanism of bacterial-infection,
-          antibodies to stop blood clotting but not infection of prevalence
-          without transmission. prevalence does not transmission-cause make.
-          <br />
-          <br />
-          "'You aren't meeting hospital capacity requirements,' well yeah, whats
-          what happens when you fire half for resisting vaccine[not exclusively
-          true, your sponsors in expiring claim false bid pools misappropriated
-          funds to administration instead of demand, hospital beds haven't kept
-          up with populaion]. That's why I am recommending these lawyers to
-          fight back, it is just going to take a little time." They are not
-          trying to resolve the class-issue of market-rights amidst a finite
-          producer reality with a microeconomic perfect equillibrium reason to
-          allow any duress in product instead of controlling by multiple of 12
-          industry various jury, just trial a la carte. The law-license-board is
-          corrupt, savefacing and malfeasant for their conflict of interest to
-          actually help.
-          <br />
-          <br />
-          "Masks do not stop virus spread, we know this," Bill Spadea,
-          misunderstanding
-          <h2>
-            prevalence can be byproduct/output/debris rather than mean
-            cause/transmission/spread
-          </h2>
-          1.2m/yr+ excess deaths expected -&nbsp;
-          <a href="https://humanharvest.info/polio">polio</a>&nbsp;vaccines
-          curing byproduct and warning mechanism, but not cause (not really
-          'excess,' a term used ABOVE basis, like people, or hours in correct
-          economic productivity)
-          <br />
-          <Cable
-            onError={handleScollImgError}
-            src={
-              this.state.iosNoPhoto
-                ? ""
-                : "https://drive.google.com/file/d/18JvCZ42WmNXcNHkYW8M3vY6ikZS1y4G1/preview"
-            }
-            float="left"
-            title="National Report - Dr. Manny Sethi - 'use virals, stop scaring everyone, I can't count significant deaths'"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 52]}
-            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
-          />
-          Immunity is not antibodies cleaning up blood clot potential cell
-          debris, it is stopping bacterial-infection to begin with
-          <br />
-          “May be seasonal,” you get want you test for with PCR
-          <br />
-          <br />
-          "...everyone the coverage they deserve, nationwide doctor monopsony
-          front ran with expiring claims for no reason," anbam insurance on CNN
-          9pm est
-          <br />
-          market history and propoganda: The Great Leap Forward expected 15m 35
-          age&nbsp;<a href="https://froth.app/stats">lifetime</a>
-          &nbsp;deaths
-          <br />
-          <Cable
-            style={{
-              maxHeight: "40vw",
-              height: "400px",
-              width: "100%"
-            }}
-            onError={handleScollImgError}
-            src={
-              this.state.iosNoPhoto
-                ? ""
-                : "https://drive.google.com/file/d/10NrxyYWc2pkbb7kozAgsBMZ1XR55TKZB/preview"
-            }
-            float="right"
-            title="Stinchfield (Newsmax) - on virus and masking with Chris Murphy, '80% vaxxed, 90% at risk vaccinated'"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 51]}
-            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
-          />
-          <Cable
-            style={{
-              height: "440px"
-            }}
-            onError={handleScollImgError}
-            src={
-              this.state.iosNoPhoto
-                ? ""
-                : "https://drive.google.com/file/d/1-pUud-u0xkYDOhHCVsihhEvhIy-aD9UT/preview"
-            }
-            float="left"
-            title="Only diagnostic diff now is severity. What do you think virus is an evolutionary trait? Only comes out, 'requires cell,' and 'is dead.' Do the math"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 50]}
-            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
-          />
-          “Courts refuse to enforce their own orders,” based on jury-science
-          permittance of duress in minimal viable product.
-          <br />
-          <br />
-          "Remember influenza and coronavirus spread in a very similar fashion."
-          <h2>
-            prevalence is byproduct, too. not cause nor warning mechanism, alone
-          </h2>
-          <Cable
-            style={{
-              height: "440px"
-            }}
-            onError={handleScollImgError}
-            src={
-              this.state.iosNoPhoto
-                ? ""
-                : "https://drive.google.com/file/d/1RRQTP02Ukc8M87QISJFrK1F15L4eetBo/preview"
-            }
-            float="right"
-            title="Phil Murphy covid update (Facebook live) - who is we in we know? jury for convictions please"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 49]}
-            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
-          />
-          n=25 14 positive vaccinated, 11 positive unvaccinated
-          <br />
-          “1/7 sick were unvaccinated,” production of antibodies may be having a
-          "boy who cried wolf" situation, although I think antibodies just stop
-          blood clotting
-          <br />
-          <br />
-          Lets talk about the taxonomy of the virus genus.
-          <br />
-          Protistologist believe bacteria is cell without nucleus as the uniform
-          common ancestor, I guess I’m one of them.
-          <br />
-          <br />
-          What is the derivative taxonomy of cell if protist is bacteria with
-          nucleus, golgi and mitochondria, than virus? Virus I think is only
-          excrement, as only reproduced vivo with cell and bacteria
-          <br />
-          <TwitterTweetEmbed
-            style={{ float: "left", width: "300px" }}
-            key="1249019795183468545"
-            tweetId="1249019795183468545"
-          />
-          Antibodies stop illness but not infection, as is a&nbsp;
-          <a href="https://www.cmu.edu/common-cold-project/">
-            warning mechanism
-          </a>
-          &nbsp; of bacterial-infection-byproduct prevalence, not
-          transmission-vivo-cause
-          <br />
-          <br />
-          beyond precedence is sometimes the law, and the law is not always
-          legal nor prevailing
-          <br />
-          <Cable
-            onError={handleScollImgError}
-            src={
-              this.state.iosNoPhoto
-                ? ""
-                : "https://drive.google.com/file/d/1PQnD64MtBEaL58AI2mGDS24O-GZTq0MZ/preview"
-            }
-            float="right"
-            title="Chris Salcedo (Newsmax) - Christian Whiton & Stephen Moser with Carl Higbie on oil reserves sold to China, wanting to default or reverse? the former illegal, bailout illegal. only cash:debt*income thru history would emulate prices paid without debt inelasticity of useless bid-to-ask brough forward demand, to be replaced by p2p max profit royalty, equity bankable depositary"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 48]}
-            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
-          />
-          “I think we should be talking remediations,” if you test for it, you
-          will find it.
-          <br />
-          Talk about fraud!
-          <br />
-          <a href="https://brainscan.info">
-            acute psychiatric dimensia problem
-          </a>
-          : Mental breakdown, delusion, vascular dimensia, strokes, clots in the
-          brain
-          <h2>
-            There are no transmitted (prevalence: cause of byproduct?) of
-            omnicron killing (with).
-          </h2>
-          “You can’t just get a&nbsp;
-          <a href="https://teapharmacy.party">prescription of regeneron</a>, you
-          need to get it administered to you,” Charlie Kirk, only because
-          expiring claim false bid pools thrid party donee claimable prevents
-          trade to lender, landlord and insurer-bookee work deficit, from
-          intermediate supply-demand as labor, without finance (expiring claims,
-          invoices, implausible landlord use, repo-cycle kept-down-payments).
-          <h2>“The precedent to establish a new baseline?!?” Charlie Kirk</h2>
-          “The Gain of function research in Wuhan that our government funded and
-          Fauci lied about,” Charlie, “They’ve tried every path they can. The
-          ingredient has become the component to slow their fear-mongering
-          propaganda away from the information that may empower you, the
-          document that protects your rights,”
-          <br />
-          <br />
-          "Requiring a negative omicron test,” Jim Acosta, ignoring the 2k/year
-          discovered and 5% prevalence off suspected cases. Ignoring the
-          cause-linked-symptoms, an artifact 5% of the time
-          <br />
-          <Cable
-            onError={handleScollImgError}
-            src={
-              this.state.iosNoPhoto
-                ? ""
-                : "https://drive.google.com/file/d/1dqy_dBGZLEO4stAZFpeM4u9JgJwN3He4/preview"
-            }
-            float="left"
-            title="GBNews - Patrick Christys' intro"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 47]}
-            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
-          />
-          “Omicron has yet to kill a single person,” GBNews anchor projects from
-          prevalence of byproduct not bacterial-cause.
-          <br />
-          If these were evolutionary traits that, “only replicate with cell,”
-          requisite for all vivo-cause (ingredients-in-a-vacuum), article 4
-          would apply with jury-science deducable.
-          <br />
-          <br />
-          “Verified stream of income in perpetuity,” J. Tobacco street guest on
-          free rider mutable health-“care.”
-          <h2>
-            expiring claims abetting invoices and racketeering free rider
-            mutable health, $4t/yr 1/4 pensions, 1/4 premiums, 1/4 pentagon
-            pre-3/2020 fake pandemic based on age standardized excess deaths
-            short 50m/yr worldwide, 700k/yr in US, expected cohort size gain.
-            counterfeit in contract third party beneficiary donee claimable.
-          </h2>
-          "780k dead, nearly the same over Biden as trump." Dom Carter. That
-          means it isn’t significant!
-          <br />
-          <br />
-          "more people died under biden than trump, and he had the vaccine but
-          didn't have demand." Judge Janine, the talk show host who said, "I can
-          say that shit," 1 year ago about quid pro quo based discrimination for
-          slip & fall racketeering the law-licensing-board
-          <br />
-          <br />
-          <Cable
-            style={{
-              height: "240px"
-            }}
-            onError={handleScollImgError}
-            src={
-              this.state.iosNoPhoto
-                ? ""
-                : "https://drive.google.com/file/d/1oCE4UdaDML8i-byNLHILkRmc5NXvHkkg/preview"
-            }
-            float="right"
-            title="GBNews - Frank Furedi (Free speech Crisis is not a right wing myth on righteous censorship, discrimination (Crt, censoring, and illiteracy have to do with one another?)"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 46]}
-            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
-          />
-          “We believe in free speech, we don’t want to censor ourselves.” Right,
-          convict intranet for on device end to end encryption keys then? With
-          multiple of 12 industry various jury-science. “This is bullying, isn’t
-          it?” So fuckin cute when they do that
-          <br />
-          <br />
-          Dick Morris: “Functional equivalent of a declaration of war, ended up
-          failing because it didn’t have enough assets appraised by third party
-          beneficiary repo kept down payments, if you have money but cannot use
-          it in the swift system, you don’t have any money. French gdp/p is the
-          greatest. ...It is a miracle, praying stopped the virus, by bringing a
-          virion to stop a virus. Let's thank the Lord for that…”
-          <br />
-          <br />
-          Only 10% of omicron needed rather than other variants of this horrible
-          disease. Gives you aches and pains, but does not kill you."G-d did
-          what Pfizer couldn't.“..sucking. Not a sexual reference,” I thought
-          that was illegal to catholics whom believe Jesus is lamb-chop for
-          sins?
-          <br />
-          <br />
-          "'If you like your doctor, you can keep your doctor.' If you believed
-          that, I have one bridge to sell you located in Brooklyn and electric
-          toll malfeasance."
-          <br />
-          <br />
-          Should be illegal to compel labor, and its employers and customers as
-          third party beneficiary donees, to sign for longer than a month a la
-          carte except for sport drafts… especially for expiring claim false bid
-          non-rollover "deals" of collective flaccid loss.
-          <br />
-          <br />
-          Abstain able polls bring out the voluntary crazies, lo is more random
-          than can ever be emulated, variance is greater in real life than AP
-          Stats.
-          <br />I just don’t want rent-seeking from government (40%
-          debt-spending, 10% debt-service) over my&nbsp;
-          <a href="https://thumbprint.us/voting">election tech</a>
-          &nbsp;inventions (
-          <a href="https://thumbprint.us">discovery and design</a>) that can be
-          &nbsp;<a href="https://3under2.us">free-rider-mutable</a>&nbsp;by
-          making the cities, universities and corporates pay. Furthermore,
-          evidently by comparative law, I can use any hung-jury-science duress,
-          to boot.{/**let alone compatative advantage */}
-          <br />
-          <br />
-          <Cable
-            onError={handleScollImgError}
-            src={
-              this.state.iosNoPhoto
-                ? ""
-                : "https://drive.google.com/file/d/115QLTNUIomNWfmn8WH-PLvm292yeg31m/preview"
-            }
-            float="right"
-            title="GBNews - Nigel Farage with Biden office manager"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 45]}
-            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
-          />
-          "How do you get people to vote on Election Day?" By providing an
-          actual choice, not just two&nbsp;
-          <a href="https://teapharmacy.party">wall st Pharma cops</a>
-          <br />
-          <br />
-          <h2>expert conflict of interests</h2>
-          An ailment like an umbilical hernia shows the malfeasance in quality
-          from so-called "free-markets" constituted by expiring claims and
-          invoices, where a wire-mesh was the worst solution for massaging the
-          "intestines" inside if that is not a poor job from the birth-catcher
-          <hr />
-          <Cable
-            onError={handleScollImgError}
-            src={
-              this.state.iosNoPhoto
-                ? ""
-                : "https://drive.google.com/file/d/1eh9NxOH_Be4VO1R-ZszGNbRG89wkaYMx/preview"
-            }
-            float="left"
-            title="GBNews - EU COMPULSORY JABS?"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 44]}
-            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
-          />
-          <h2>right retards, them</h2>
-          it is sensible, prevalence being the chicken rather than the egg, or
-          does it really matter? Haha, about place-density, population growth
-          with last years’ life expectancy is short 50m/yr in world and 700k/yr
-          in US. The Great Leap Forward expected 15m 35 age/lifetime deaths from
-          population growth alone
-          <br />
-          <br />
-          But the&nbsp;
-          <a href="https://www.pfizer.com/news/hot-topics/viral_vs_bacterial_pneumonia_understanding_the_difference">
-            most
-          </a>
-          &nbsp;jarring: Bacterial-infection with snapshot electron microscope
-          (not “vivo-cause”), the only diagnostic difference between such and
-          viral infection is, severity?
-          <br />
-          <br />
-          did you even read what I said? Are you a person?PREVALENCE DOES NOT
-          CAUSE MAKE: it was sewage that forebode lifetime, please scroll down
-          midway humanharvest.info for the charts of the cellular debris. You
-          think virus is an evolutionary trait? It “requires cell to reproduce,”
-          because it only comes out
-          <br />
-          <br />
-          <a href="https://www.frontiersin.org/articles/10.3389/fcimb.2018.00396/full">
-            here
-          </a>
-          &nbsp;are some cartoons from your, “virion inseminates cell with its
-          dna,” scientists
-          <br />
-          <br />
-          that’s what scientists use to prove your side! What are you smoking.
-          <h2>What would you trust the saveFace doctors?</h2>
-          I’m a statistician/Govtech/Paytech entrepreneur who doesn’t want to
-          work on wall st. Credit is haram and third party beneficiary donee
-          claimable
-          <br />
-          You probably work for someone
-          <br />
-          <br />
-          I am a scientist, I have a bachelors in political science with
-          economics minor, only because I think debt is counterfeit in contract,
-          and hour targeting instead of per hour price deflation is retarded
-          <br />
-          <br />
-          politics is the use of reason beyond precedence, like we are the
-          people that question the science. You’re just a follower. If they told
-          you to jump off a bridge you would. Inject me with the virus, I swear
-          it won’t spread. Antibodies will be made though. Only bacteria can do
-          that
-          <hr />
-          <h2>
-            Are you testing for all similar symptoms in ICU? fixing capacity for
-            capacity? 50m short of expected excess deaths worldwide, 700k US,
-            leaves the&nbsp;
-            <a href="https://www.cdc.gov/flu/weekly/overview.htm#:~:text=5.%20Mortality%20Surveillance">
-              mortality
+            <h3>insurance</h3>
+          </button>
+          <br />
+          <div style={{ display: this.state.insurance ? "block" : "none" }}>
+            <a
+              style={{
+                shapeOutside: "rect()",
+                float: "right",
+                width: "max-content",
+                padding: "0px 10px",
+                fontSize: "20px",
+                fontFamily: "'Pacifico', sans-serif",
+                color: "rgb(230,230,255)",
+                backgroundColor: "rgb(32, 22, 11)"
+              }}
+              href="https://carducci.us"
+            >
+              carducci.us
             </a>
-            &nbsp;as insignificant and all about nothing
-          </h2>
-          <hr />
-          ms matches paralytic-polio. virion, “requires cell to reproduce,”
-          because it only comes out. prevalent byproduct does not
-          bacterial-cause make. Cases vs asymptomatic testing certainly is the
-          fallacy
-          <br />
-          <br />
-          I'm a statistician, the current vaxxers and antivaxxers are wrong to
-          say it spreads from prevalence alone, it is actually a byproduct.
-          nearly vivo insemination has been proven with bacteria making cell in
-          an open wound, but I would rather cite you this: our diagnosis of
-          &nbsp;
-          <a href="https://www.pfizer.com/news/hot-topics/viral_vs_bacterial_pneumonia_understanding_the_difference">
-            bacterial vs viral
-          </a>
-          &nbsp;cause right now is merely severity of symptoms? we need
-          controlled tests of virus replicating without cellular mitosis of
-          already (bacterially-)infected cell. antibodies onset symptoms but
-          those may be warning mechanism, cleaning up potential blood clotting
-          debris
-          <br />
-          <br />
-          <Cable
-            style={{
-              height: "220px"
-            }}
-            onError={handleScollImgError}
-            src={
-              this.state.iosNoPhoto
-                ? ""
-                : "https://drive.google.com/file/d/1JpTSqcGZyt0kvkw5Evlock4UcRvg-_JL/preview"
-            }
-            float="left"
-            title="GBNews - Lawrence Young of U of Warwick on antibody incidence"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 43]}
-            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
-          />
-          “Antibody response positively-correlates with aggressive symptoms.”
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <Cable
-            onError={handleScollImgError}
-            src={
-              this.state.iosNoPhoto
-                ? ""
-                : "https://drive.google.com/file/d/1ID7uJq2pgd4Fh3MtHOBXz2rZ6d7Hvrz7/preview"
-            }
-            float="left"
-            title="American Agenda (Newsmax) - Medicare Advantage Program"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 42]}
-            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
-          />
-          <Cable
-            onError={handleScollImgError}
-            src={
-              this.state.iosNoPhoto
-                ? ""
-                : "https://drive.google.com/file/d/1aCSy4cwqTFpaFCx1nnB_0yrP4ZqVzZFq/preview"
-            }
-            float="right"
-            title="American Agenda (Newsmax) - Medicare Advantage Program"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 41]}
-            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
-          />
-          “You’d be in good company, 26m people have a medicare advantage plan.
-          I have a plan too and I really love it I’ve tried other coverage but
-          they do not meet my needs nor my budget, now until November 7th …$0
-          monthly premium plans may be in your area, don’t delay, our team is
-          standing by to help you right now.” But what if invoices were illegal,
-          what would be your purpose Paula? “You really want together these
-          benefits. Coming up, you’ll see real customers. Come find your
-          medicare advantage plan!”
-          <br />
-          <br />
-          Stop calling reappropriating laborequity.org, and nationalism,
-          socialism! Free market communist!
-          <br />
-          <br />
-          Ppp is trust building and I think gun violence is because we have
-          finance (expiring claims & invoices, implausible landlord use above 5
-          units/30 days)
-          <br />
-          <br />
-          <h2>
-            This is like an invisible methane fire, the way doctors are trying
-            to play statistician
-          </h2>
-          Your biology class didn’t show you a vivo insemination of virion dna
-          in cell
-          <br />
-          It’s literally counted as a flu, byproduct-prevalence does not make
-          cause
-          <br />
-          <br />
-          <Cable
-            onError={handleScollImgError}
-            src={
-              this.state.iosNoPhoto
-                ? ""
-                : "https://drive.google.com/file/d/1chpUdy6o4qmfVKp6KPUhX3fOFQJDtbAR/preview"
-            }
-            float="right"
-            title="American Agenda (Newsmax) - Child Critical Care Doctor Saveface smiling about evidence exhibited by cartoon"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 40]}
-            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
-          />
-          Vaccines prevent infection because of byproduct prevalence? Vivo
-          insemination of virion in cell is only portrayed in cartoons thus far,
-          not real life
-          <br />
-          <h2>
-            vivo-evolutionary-trait or byproduct-retroactive-prevalence, because
-            in vitro we know it only comes out,&nbsp;
+            <br />
+            "virus injects its DNA into each cell, 'in an instant'"
+            <br />
+            <a href="https://www.google.com/search?q=nucleoside+analogues+virus+electron+microscope+mitosis+replication">
+              google.com/search?q=nucleoside+analogues+virus+electron+microscope+mitosis+replication
+            </a>
+            <br />
+            The rabies virus bite, you say? still, incidence can be&nbsp;
+            <a href="https://theconversation.com/your-poo-is-mostly-alive-heres-whats-in-it-102848#:~:text=www.shutterstock.com-,Microbes,of%20the%20bacteria%20were%20alive.">
+              bacteria
+            </a>
+            .
+            <br />
+            <br />
+            "Here we go again, the numbers are going up," Brian Kilmeade. What
+            numbers? testing as opposed to cases like hours & price as oppose to
+            productivity?
+            <br />
+            <br />
+            You aren't counting&nbsp;
             <a href="https://www.fda.gov/media/144245/download#page=42">
-              5% of suspected
+              all cases
             </a>
-          </h2>
-          Mark Levin and Chuck Schumer call this collective loss, "protection:"
-          <br />
-          <br />
-          "hospitals are packed, hundreds a day dying," that isn't a lot, and
-          expiring claims/invoices misappropriated funds to adniministration
-          instead of hospital beds, as the latter has not grown since population
-          was half its size. 2015 census mortality projections, hospital
-          capacity watchers and I knew this "pandemic" was coming, because of
-          population growth.
-          <h2>
-            plausible deniability of talk radio and cable for&nbsp;
-            <a href="https://www.cdc.gov/flu/weekly/overview.htm#:~:text=5.%20Mortality%20Surveillance">
-              ratings
+            , just one artifact-byproduct of many by the same cause,
+            bacterial-infection. If it, "requires cell to replicate," its
+            taxonomy is only a cell. Are you saying it is an evolutionary trait?
+            To do the math with it being dead would be to say it is exclusively
+            byproduct-prevalence and warning-mechanism of bacterial-infection,
+            antibodies to stop blood clotting but not infection of prevalence
+            without transmission. prevalence does not transmission-cause make.
+            <br />
+            <br />
+            "'You aren't meeting hospital capacity requirements,' well yeah,
+            whats what happens when you fire half for resisting vaccine[not
+            exclusively true, your sponsors in expiring claim false bid pools
+            misappropriated funds to administration instead of demand, hospital
+            beds haven't kept up with populaion]. That's why I am recommending
+            these lawyers to fight back, it is just going to take a little
+            time." They are not trying to resolve the class-issue of
+            market-rights amidst a finite producer reality with a microeconomic
+            perfect equillibrium reason to allow any duress in product instead
+            of controlling by multiple of 12 industry various jury, just trial a
+            la carte. The law-license-board is corrupt, savefacing and
+            malfeasant for their conflict of interest to actually help.
+            <br />
+            <br />
+            "Masks do not stop virus spread, we know this," Bill Spadea,
+            misunderstanding
+            <h2>
+              prevalence can be byproduct/output/debris rather than mean
+              cause/transmission/spread
+            </h2>
+            1.2m/yr+ excess deaths expected -&nbsp;
+            <a href="https://humanharvest.info/polio">polio</a>&nbsp;vaccines
+            curing byproduct and warning mechanism, but not cause (not really
+            'excess,' a term used ABOVE basis, like people, or hours in correct
+            economic productivity)
+            <br />
+            <Cable
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/18JvCZ42WmNXcNHkYW8M3vY6ikZS1y4G1/preview"
+              }
+              float="left"
+              title="National Report - Dr. Manny Sethi - 'use virals, stop scaring everyone, I can't count significant deaths'"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 52]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            Immunity is not antibodies cleaning up blood clot potential cell
+            debris, it is stopping bacterial-infection to begin with
+            <br />
+            “May be seasonal,” you get want you test for with PCR
+            <br />
+            <br />
+            "...everyone the coverage they deserve, nationwide doctor monopsony
+            front ran with expiring claims for no reason," anbam insurance on
+            CNN 9pm est
+            <br />
+            market history and propoganda: The Great Leap Forward expected 15m
+            35 age&nbsp;<a href="https://froth.app/stats">lifetime</a>
+            &nbsp;deaths
+            <br />
+            <Cable
+              style={{
+                maxHeight: "40vw",
+                height: "400px",
+                width: "100%"
+              }}
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/10NrxyYWc2pkbb7kozAgsBMZ1XR55TKZB/preview"
+              }
+              float="right"
+              title="Stinchfield (Newsmax) - on virus and masking with Chris Murphy, '80% vaxxed, 90% at risk vaccinated'"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 51]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            <Cable
+              style={{
+                height: "440px"
+              }}
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/1-pUud-u0xkYDOhHCVsihhEvhIy-aD9UT/preview"
+              }
+              float="left"
+              title="Only diagnostic diff now is severity. What do you think virus is an evolutionary trait? Only comes out, 'requires cell,' and 'is dead.' Do the math"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 50]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            “Courts refuse to enforce their own orders,” based on jury-science
+            permittance of duress in minimal viable product.
+            <br />
+            <br />
+            "Remember influenza and coronavirus spread in a very similar
+            fashion."
+            <h2>
+              prevalence is byproduct, too. not cause nor warning mechanism,
+              alone
+            </h2>
+            <Cable
+              style={{
+                height: "440px"
+              }}
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/1RRQTP02Ukc8M87QISJFrK1F15L4eetBo/preview"
+              }
+              float="right"
+              title="Phil Murphy covid update (Facebook live) - who is we in we know? jury for convictions please"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 49]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            n=25 14 positive vaccinated, 11 positive unvaccinated
+            <br />
+            “1/7 sick were unvaccinated,” production of antibodies may be having
+            a "boy who cried wolf" situation, although I think antibodies just
+            stop blood clotting
+            <br />
+            <br />
+            Lets talk about the taxonomy of the virus genus.
+            <br />
+            Protistologist believe bacteria is cell without nucleus as the
+            uniform common ancestor, I guess I’m one of them.
+            <br />
+            <br />
+            What is the derivative taxonomy of cell if protist is bacteria with
+            nucleus, golgi and mitochondria, than virus? Virus I think is only
+            excrement, as only reproduced vivo with cell and bacteria
+            <br />
+            <TwitterTweetEmbed
+              style={{ float: "left", width: "300px" }}
+              key="1249019795183468545"
+              tweetId="1249019795183468545"
+            />
+            Antibodies stop illness but not infection, as is a&nbsp;
+            <a href="https://www.cmu.edu/common-cold-project/">
+              warning mechanism
             </a>
-            &nbsp;is over
-          </h2>
-          <br />
-          "In New Zealand, you get fined if you don't vote," "well yeah, some
-          countries take this very seriously,"
-          <h2>
-            talk about state victimization racketeering and tort beyond capacity
-            without expiring claims nor invoices and within jury-science (every
-            industry represented)
-          </h2>
-          <br />
-          "The first omicron case has arrived in the U.S. He is vaccinated, so
-          he has no symptoms,"
-          <br />
-          <br />
-          age-standardized excess deaths short 700k 1.2m/yr+ 75+ 2015- expected
-          is not a "pandemic."
-          <br />
-          <span
-            style={{
-              backgroundColor: "rgb(197, 179, 88)",
-              color: "black"
-            }}
-          >
-            Sen Rand Paul:
-          </span>
-          &nbsp;“If people buy what you make, G-d love you, that is the American
-          way. I’m against the government buying their product.” What about
-          expiring claim “purchases” and invoices? Are those ‘
-          <a href="https://nationalsecuritycasino.com">buys</a>?’
-          <br />
-          <br />
-          “Monoclonal-antibodies will take care of those who cannot take care of
-          themselves.
-          <br />
-          Incurring more debt is why we are paying more in inflation through
-          this pandemic.
-          <br />
-          Insurance companies should have paid for our healthcare.”
-          <br />
-          <h2>
-            invoices and insurance coverage are theft of third party beneficiary
-          </h2>
-          <a href="https://saverparty.xyz">Plaintiffs</a>&nbsp;contend they are
-          third party beneficiaries under Civil Code section 1559, which
-          provides: "A contract, made expressly for the benefit of a third
-          person, may be enforced by him at any time before the parties thereto
-          rescind it." This section excludes enforcement of a contract by
-          persons who are only incidentally or remotely benefited by it. (Lucas
-          v. Hamm (1961) 56 Cal. 2d 583, 590 [15 Cal. Rptr. 821, 364 P.2d 685].)
-          American law generally classifies persons having enforceable rights
-          under contracts to which they are not parties as either creditor
-          beneficiaries or donee beneficiaries. (Rest., Contracts, §§ 133,
-          subds. (1), (2), 135, 136, 147; 2 Williston on Contracts (3d ed. 1959)
-          § 356; 4 Corbin on Contracts (1951) § 774; see Rest.2d Contracts
-          (Tentative Drafts 1973) § 133, coms. b, c.) California decisions
-          follow this classification. (Southern Cal. Gas Co. v. ABC Construction
-          Co. (1962) 204 Cal. App. 2d 747, 752 [22 Cal. Rptr. 540]; 1 Witkin,
-          Summary of Cal. Law (8th ed. 1973) Contracts, § 500.)
-          <br />
-          <br />
-          [6] A person cannot be a creditor beneficiary unless the promisor's
-          performance of the contract will discharge some form of legal duty
-          owed to the beneficiary by the promisee. (Hartman Ranch Co. v.
-          Associated Oil Co. (1937) 10 Cal. 2d 232, 244 [73 P.2d 1163]; Rest.,
-          Contracts, § 133, subd. (1)(b).) [1b]
-          <br />
-          <br />
-          [7] A person is a donee beneficiary only if the promisee's contractual
-          intent is either to make a gift to him or to&nbsp;
-          <a href="https://law.justia.com/cases/california/supreme-court/3d/11/394.html">
-            confer on him a right against [11 Cal. 3d 401] the promisor. (Rest.,
-            Contracts, § 133, subd. (1)(a).)
-          </a>
+            &nbsp; of bacterial-infection-byproduct prevalence, not
+            transmission-vivo-cause
+            <br />
+            <br />
+            beyond precedence is sometimes the law, and the law is not always
+            legal nor prevailing
+            <br />
+            <Cable
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/1PQnD64MtBEaL58AI2mGDS24O-GZTq0MZ/preview"
+              }
+              float="right"
+              title="Chris Salcedo (Newsmax) - Christian Whiton & Stephen Moser with Carl Higbie on oil reserves sold to China, wanting to default or reverse? the former illegal, bailout illegal. only cash:debt*income thru history would emulate prices paid without debt inelasticity of useless bid-to-ask brough forward demand, to be replaced by p2p max profit royalty, equity bankable depositary"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 48]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            “I think we should be talking remediations,” if you test for it, you
+            will find it.
+            <br />
+            Talk about fraud!
+            <br />
+            <a href="https://brainscan.info">
+              acute psychiatric dimensia problem
+            </a>
+            : Mental breakdown, delusion, vascular dimensia, strokes, clots in
+            the brain
+            <h2>
+              There are no transmitted (prevalence: cause of byproduct?) of
+              omnicron killing (with).
+            </h2>
+            “You can’t just get a&nbsp;
+            <a href="https://teapharmacy.party">prescription of regeneron</a>,
+            you need to get it administered to you,” Charlie Kirk, only because
+            expiring claim false bid pools thrid party donee claimable prevents
+            trade to lender, landlord and insurer-bookee work deficit, from
+            intermediate supply-demand as labor, without finance (expiring
+            claims, invoices, implausible landlord use, repo-cycle
+            kept-down-payments).
+            <h2>“The precedent to establish a new baseline?!?” Charlie Kirk</h2>
+            “The Gain of function research in Wuhan that our government funded
+            and Fauci lied about,” Charlie, “They’ve tried every path they can.
+            The ingredient has become the component to slow their fear-mongering
+            propaganda away from the information that may empower you, the
+            document that protects your rights,”
+            <br />
+            <br />
+            "Requiring a negative omicron test,” Jim Acosta, ignoring the
+            2k/year discovered and 5% prevalence off suspected cases. Ignoring
+            the cause-linked-symptoms, an artifact 5% of the time
+            <br />
+            <Cable
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/1dqy_dBGZLEO4stAZFpeM4u9JgJwN3He4/preview"
+              }
+              float="left"
+              title="GBNews - Patrick Christys' intro"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 47]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            “Omicron has yet to kill a single person,” GBNews anchor projects
+            from prevalence of byproduct not bacterial-cause.
+            <br />
+            If these were evolutionary traits that, “only replicate with cell,”
+            requisite for all vivo-cause (ingredients-in-a-vacuum), article 4
+            would apply with jury-science deducable.
+            <br />
+            <br />
+            “Verified stream of income in perpetuity,” J. Tobacco street guest
+            on free rider mutable health-“care.”
+            <h2>
+              expiring claims abetting invoices and racketeering free rider
+              mutable health, $4t/yr 1/4 pensions, 1/4 premiums, 1/4 pentagon
+              pre-3/2020 fake pandemic based on age standardized excess deaths
+              short 50m/yr worldwide, 700k/yr in US, expected cohort size gain.
+              counterfeit in contract third party beneficiary donee claimable.
+            </h2>
+            "780k dead, nearly the same over Biden as trump." Dom Carter. That
+            means it isn’t significant!
+            <br />
+            <br />
+            "more people died under biden than trump, and he had the vaccine but
+            didn't have demand." Judge Janine, the talk show host who said, "I
+            can say that shit," 1 year ago about quid pro quo based
+            discrimination for slip & fall racketeering the law-licensing-board
+            <br />
+            <br />
+            <Cable
+              style={{
+                height: "240px"
+              }}
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/1oCE4UdaDML8i-byNLHILkRmc5NXvHkkg/preview"
+              }
+              float="right"
+              title="GBNews - Frank Furedi (Free speech Crisis is not a right wing myth on righteous censorship, discrimination (Crt, censoring, and illiteracy have to do with one another?)"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 46]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            “We believe in free speech, we don’t want to censor ourselves.”
+            Right, convict intranet for on device end to end encryption keys
+            then? With multiple of 12 industry various jury-science. “This is
+            bullying, isn’t it?” So fuckin cute when they do that
+            <br />
+            <br />
+            Dick Morris: “Functional equivalent of a declaration of war, ended
+            up failing because it didn’t have enough assets appraised by third
+            party beneficiary repo kept down payments, if you have money but
+            cannot use it in the swift system, you don’t have any money. French
+            gdp/p is the greatest. ...It is a miracle, praying stopped the
+            virus, by bringing a virion to stop a virus. Let's thank the Lord
+            for that…”
+            <br />
+            <br />
+            Only 10% of omicron needed rather than other variants of this
+            horrible disease. Gives you aches and pains, but does not kill
+            you."G-d did what Pfizer couldn't.“..sucking. Not a sexual
+            reference,” I thought that was illegal to catholics whom believe
+            Jesus is lamb-chop for sins?
+            <br />
+            <br />
+            "'If you like your doctor, you can keep your doctor.' If you
+            believed that, I have one bridge to sell you located in Brooklyn and
+            electric toll malfeasance."
+            <br />
+            <br />
+            Should be illegal to compel labor, and its employers and customers
+            as third party beneficiary donees, to sign for longer than a month a
+            la carte except for sport drafts… especially for expiring claim
+            false bid non-rollover "deals" of collective flaccid loss.
+            <br />
+            <br />
+            Abstain able polls bring out the voluntary crazies, lo is more
+            random than can ever be emulated, variance is greater in real life
+            than AP Stats.
+            <br />I just don’t want rent-seeking from government (40%
+            debt-spending, 10% debt-service) over my&nbsp;
+            <a href="https://thumbprint.us/voting">election tech</a>
+            &nbsp;inventions (
+            <a href="https://thumbprint.us">discovery and design</a>) that can
+            be &nbsp;<a href="https://3under2.us">free-rider-mutable</a>&nbsp;by
+            making the cities, universities and corporates pay. Furthermore,
+            evidently by comparative law, I can use any hung-jury-science
+            duress, to boot.{/**let alone compatative advantage */}
+            <br />
+            <br />
+            <Cable
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/115QLTNUIomNWfmn8WH-PLvm292yeg31m/preview"
+              }
+              float="right"
+              title="GBNews - Nigel Farage with Biden office manager"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 45]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            "How do you get people to vote on Election Day?" By providing an
+            actual choice, not just two&nbsp;
+            <a href="https://teapharmacy.party">wall st Pharma cops</a>
+            <br />
+            <br />
+            <h2>expert conflict of interests</h2>
+            An ailment like an umbilical hernia shows the malfeasance in quality
+            from so-called "free-markets" constituted by expiring claims and
+            invoices, where a wire-mesh was the worst solution for massaging the
+            "intestines" inside if that is not a poor job from the birth-catcher
+            <hr />
+            <Cable
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/1eh9NxOH_Be4VO1R-ZszGNbRG89wkaYMx/preview"
+              }
+              float="left"
+              title="GBNews - EU COMPULSORY JABS?"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 44]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            <h2>right retards, them</h2>
+            it is sensible, prevalence being the chicken rather than the egg, or
+            does it really matter? Haha, about place-density, population growth
+            with last years’ life expectancy is short 50m/yr in world and
+            700k/yr in US. The Great Leap Forward expected 15m 35 age/lifetime
+            deaths from population growth alone
+            <br />
+            <br />
+            But the&nbsp;
+            <a href="https://www.pfizer.com/news/hot-topics/viral_vs_bacterial_pneumonia_understanding_the_difference">
+              most
+            </a>
+            &nbsp;jarring: Bacterial-infection with snapshot electron microscope
+            (not “vivo-cause”), the only diagnostic difference between such and
+            viral infection is, severity?
+            <br />
+            <br />
+            did you even read what I said? Are you a person?PREVALENCE DOES NOT
+            CAUSE MAKE: it was sewage that forebode lifetime, please scroll down
+            midway humanharvest.info for the charts of the cellular debris. You
+            think virus is an evolutionary trait? It “requires cell to
+            reproduce,” because it only comes out
+            <br />
+            <br />
+            <a href="https://www.frontiersin.org/articles/10.3389/fcimb.2018.00396/full">
+              here
+            </a>
+            &nbsp;are some cartoons from your, “virion inseminates cell with its
+            dna,” scientists
+            <br />
+            <br />
+            that’s what scientists use to prove your side! What are you smoking.
+            <h2>What would you trust the saveFace doctors?</h2>
+            I’m a statistician/Govtech/Paytech entrepreneur who doesn’t want to
+            work on wall st. Credit is haram and third party beneficiary donee
+            claimable
+            <br />
+            You probably work for someone
+            <br />
+            <br />
+            I am a scientist, I have a bachelors in political science with
+            economics minor, only because I think debt is counterfeit in
+            contract, and hour targeting instead of per hour price deflation is
+            retarded
+            <br />
+            <br />
+            politics is the use of reason beyond precedence, like we are the
+            people that question the science. You’re just a follower. If they
+            told you to jump off a bridge you would. Inject me with the virus, I
+            swear it won’t spread. Antibodies will be made though. Only bacteria
+            can do that
+            <hr />
+            <h2>
+              Are you testing for all similar symptoms in ICU? fixing capacity
+              for capacity? 50m short of expected excess deaths worldwide, 700k
+              US, leaves the&nbsp;
+              <a href="https://www.cdc.gov/flu/weekly/overview.htm#:~:text=5.%20Mortality%20Surveillance">
+                mortality
+              </a>
+              &nbsp;as insignificant and all about nothing
+            </h2>
+            <hr />
+            ms matches paralytic-polio. virion, “requires cell to reproduce,”
+            because it only comes out. prevalent byproduct does not
+            bacterial-cause make. Cases vs asymptomatic testing certainly is the
+            fallacy
+            <br />
+            <br />
+            I'm a statistician, the current vaxxers and antivaxxers are wrong to
+            say it spreads from prevalence alone, it is actually a byproduct.
+            nearly vivo insemination has been proven with bacteria making cell
+            in an open wound, but I would rather cite you this: our diagnosis of
+            &nbsp;
+            <a href="https://www.pfizer.com/news/hot-topics/viral_vs_bacterial_pneumonia_understanding_the_difference">
+              bacterial vs viral
+            </a>
+            &nbsp;cause right now is merely severity of symptoms? we need
+            controlled tests of virus replicating without cellular mitosis of
+            already (bacterially-)infected cell. antibodies onset symptoms but
+            those may be warning mechanism, cleaning up potential blood clotting
+            debris
+            <br />
+            <br />
+            <Cable
+              style={{
+                height: "220px"
+              }}
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/1JpTSqcGZyt0kvkw5Evlock4UcRvg-_JL/preview"
+              }
+              float="left"
+              title="GBNews - Lawrence Young of U of Warwick on antibody incidence"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 43]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            “Antibody response positively-correlates with aggressive symptoms.”
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <Cable
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/1ID7uJq2pgd4Fh3MtHOBXz2rZ6d7Hvrz7/preview"
+              }
+              float="left"
+              title="American Agenda (Newsmax) - Medicare Advantage Program"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 42]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            <Cable
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/1aCSy4cwqTFpaFCx1nnB_0yrP4ZqVzZFq/preview"
+              }
+              float="right"
+              title="American Agenda (Newsmax) - Medicare Advantage Program"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 41]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            “You’d be in good company, 26m people have a medicare advantage
+            plan. I have a plan too and I really love it I’ve tried other
+            coverage but they do not meet my needs nor my budget, now until
+            November 7th …$0 monthly premium plans may be in your area, don’t
+            delay, our team is standing by to help you right now.” But what if
+            invoices were illegal, what would be your purpose Paula? “You really
+            want together these benefits. Coming up, you’ll see real customers.
+            Come find your medicare advantage plan!”
+            <br />
+            <br />
+            Stop calling reappropriating laborequity.org, and nationalism,
+            socialism! Free market communist!
+            <br />
+            <br />
+            Ppp is trust building and I think gun violence is because we have
+            finance (expiring claims & invoices, implausible landlord use above
+            5 units/30 days)
+            <br />
+            <br />
+            <h2>
+              This is like an invisible methane fire, the way doctors are trying
+              to play statistician
+            </h2>
+            Your biology class didn’t show you a vivo insemination of virion dna
+            in cell
+            <br />
+            It’s literally counted as a flu, byproduct-prevalence does not make
+            cause
+            <br />
+            <br />
+            <Cable
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/1chpUdy6o4qmfVKp6KPUhX3fOFQJDtbAR/preview"
+              }
+              float="right"
+              title="American Agenda (Newsmax) - Child Critical Care Doctor Saveface smiling about evidence exhibited by cartoon"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 40]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            Vaccines prevent infection because of byproduct prevalence? Vivo
+            insemination of virion in cell is only portrayed in cartoons thus
+            far, not real life
+            <br />
+            <h2>
+              vivo-evolutionary-trait or byproduct-retroactive-prevalence,
+              because in vitro we know it only comes out,&nbsp;
+              <a href="https://www.fda.gov/media/144245/download#page=42">
+                5% of suspected
+              </a>
+            </h2>
+            Mark Levin and Chuck Schumer call this collective loss,
+            "protection:"
+            <br />
+            <br />
+            "hospitals are packed, hundreds a day dying," that isn't a lot, and
+            expiring claims/invoices misappropriated funds to adniministration
+            instead of hospital beds, as the latter has not grown since
+            population was half its size. 2015 census mortality projections,
+            hospital capacity watchers and I knew this "pandemic" was coming,
+            because of population growth.
+            <h2>
+              plausible deniability of talk radio and cable for&nbsp;
+              <a href="https://www.cdc.gov/flu/weekly/overview.htm#:~:text=5.%20Mortality%20Surveillance">
+                ratings
+              </a>
+              &nbsp;is over
+            </h2>
+            <br />
+            "In New Zealand, you get fined if you don't vote," "well yeah, some
+            countries take this very seriously,"
+            <h2>
+              talk about state victimization racketeering and tort beyond
+              capacity without expiring claims nor invoices and within
+              jury-science (every industry represented)
+            </h2>
+            <br />
+            "The first omicron case has arrived in the U.S. He is vaccinated, so
+            he has no symptoms,"
+            <br />
+            <br />
+            age-standardized excess deaths short 700k 1.2m/yr+ 75+ 2015-
+            expected is not a "pandemic."
+            <br />
+            <span
+              style={{
+                backgroundColor: "rgb(197, 179, 88)",
+                color: "black"
+              }}
+            >
+              Sen Rand Paul:
+            </span>
+            &nbsp;“If people buy what you make, G-d love you, that is the
+            American way. I’m against the government buying their product.” What
+            about expiring claim “purchases” and invoices? Are those ‘
+            <a href="https://nationalsecuritycasino.com">buys</a>?’
+            <br />
+            <br />
+            “Monoclonal-antibodies will take care of those who cannot take care
+            of themselves.
+            <br />
+            Incurring more debt is why we are paying more in inflation through
+            this pandemic.
+            <br />
+            Insurance companies should have paid for our healthcare.”
+            <br />
+            <h2>
+              invoices and insurance coverage are theft of third party
+              beneficiary
+            </h2>
+            <a href="https://saverparty.xyz">Plaintiffs</a>&nbsp;contend they
+            are third party beneficiaries under Civil Code section 1559, which
+            provides: "A contract, made expressly for the benefit of a third
+            person, may be enforced by him at any time before the parties
+            thereto rescind it." This section excludes enforcement of a contract
+            by persons who are only incidentally or remotely benefited by it.
+            (Lucas v. Hamm (1961) 56 Cal. 2d 583, 590 [15 Cal. Rptr. 821, 364
+            P.2d 685].) American law generally classifies persons having
+            enforceable rights under contracts to which they are not parties as
+            either creditor beneficiaries or donee beneficiaries. (Rest.,
+            Contracts, §§ 133, subds. (1), (2), 135, 136, 147; 2 Williston on
+            Contracts (3d ed. 1959) § 356; 4 Corbin on Contracts (1951) § 774;
+            see Rest.2d Contracts (Tentative Drafts 1973) § 133, coms. b, c.)
+            California decisions follow this classification. (Southern Cal. Gas
+            Co. v. ABC Construction Co. (1962) 204 Cal. App. 2d 747, 752 [22
+            Cal. Rptr. 540]; 1 Witkin, Summary of Cal. Law (8th ed. 1973)
+            Contracts, § 500.)
+            <br />
+            <br />
+            [6] A person cannot be a creditor beneficiary unless the promisor's
+            performance of the contract will discharge some form of legal duty
+            owed to the beneficiary by the promisee. (Hartman Ranch Co. v.
+            Associated Oil Co. (1937) 10 Cal. 2d 232, 244 [73 P.2d 1163]; Rest.,
+            Contracts, § 133, subd. (1)(b).) [1b]
+            <br />
+            <br />
+            [7] A person is a donee beneficiary only if the promisee's
+            contractual intent is either to make a gift to him or to&nbsp;
+            <a href="https://law.justia.com/cases/california/supreme-court/3d/11/394.html">
+              confer on him a right against [11 Cal. 3d 401] the promisor.
+              (Rest., Contracts, § 133, subd. (1)(a).)
+            </a>
+          </div>
           <h2>
             "expanding healthcare access - M4A," is expiring-claim, invoice and
             higher-premium for producer-ask of the same
@@ -1101,252 +1147,267 @@ export default class App extends React.Component {
           He thinks virion is created by cell exclusively. Is it an evolutionary
           trait?
           <br />
-          <h2>
-            Biden free rider mutable 60% tax and 40% debt-spending r&d monopsony
-          </h2>
-          "Go get the Booster shot today, they are free. a fully-vaccinated
-          person is the best against covid, do not wait. every child is safe to
-          get vaccines now, how strongly vaccines fight against the variant,
-          infections and severe disease wear masks inside and outside. It
-          protects you and those around you
-          <br />
-          if improvements are needed, the&nbsp;
-          <a href="https://teapharmacy.party">fda</a>&nbsp;will put them on the
-          market. I am removing all road blocks to keep people safe.
-          <br />
-          If you are vaccinated, but are worried, get the booster. if you aren't
-          vaccinated, get that shot!
-          <br />
-          I promise America that the latest boosters will be free and everywhere
-          in america, free of charge.
-          <br />
-          <Cable
-            onError={handleScollImgError}
-            src={
-              this.state.iosNoPhoto
-                ? ""
-                : "https://drive.google.com/file/d/1sgt0t2YikacKYIxcxTgTTMSVxetc83r5/preview"
-            }
-            float="right"
-            title="John Bachmann (Newsmax) - Joe Biden"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 38]}
-            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
-          />
-          "We shipped for&nbsp;<a href="https://carducci.us">free</a>&nbsp;to
-          other parts of the world, to more than all countries combined,”
-          <br />
-          We ship 275 vaccines to 110 countries;
-          <br />
-          no vaccines to other parts of the world will ever come at the expense
-          of every American.
-          <br />
-          How do we meet the morals and protection of Americans?
-          <br />
-          We cannot let up untill the world is vaccinated, to protect us as
-          well.
-          <br />
-          Last christmas fewer than half, 75% and now 81% of seniors.
-          <br />
-          There is still time and available before christmas. given where e were
-          last year, that non of us should take for granted.
-          <br />
-          Thats how we reopen our business schools, even in the pandemic, we
-          have made record growth, we move forward now.
-          <br />
-          The reason for the travel ban there was a significant amount of cases
-          in africa and around the world.
-          <br />
-          I don't think anyone will be reluctant to report that we have provided
-          more vaccines to that region than the world cobined. the reluctance to
-          get it into their arms is there. lol. Alex from Reuters."
-          <br />
-          <br />
-          Rent-seeking (trust-building, public-utility-operating-costable)
-          grandiose scope on estimates ever changing (options to buy, sold
-          without auth) dependencies, like in home contracting: intermediate
-          durable-goods, labor & material. Seize the means of production! Gain
-          per hour/price productivity
-          <br />
-          <br />
-          Nomenclature with accounting and software classes and castes is
-          necessary for beings
-          <br />
-          <Cable
-            style={{
-              height: "340px"
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              this.setState({ politics: !this.state.politics });
             }}
-            onError={handleScollImgError}
-            src={
-              this.state.iosNoPhoto
-                ? ""
-                : "https://drive.google.com/file/d/1BfcflB_MSKN8sgDh9_4bWzz-fCU4my1s/preview"
-            }
-            float="right"
-            title="GBNews - Maxwell trial"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 35]}
-            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
-          />
-          what is facts about a case to be called a bias if exonerated is
-          permissible
+          >
+            <h3>politics</h3>
+          </button>
           <br />
-          Do you not have messages? Flight-logs aren’t proof? What else? These
-          things should be public info
-          <br />
-          <br />
-          <Cable
-            onError={handleScollImgError}
-            src={
-              this.state.iosNoPhoto
-                ? ""
-                : "https://drive.google.com/file/d/1JHhCgkEe0_kSk5gH7TRpfYkInJVjuLqf/preview"
-            }
-            float="left"
-            title="National Report (Newsmax) - Shaun Kraisman basis rate fallacy"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 34]}
-            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
-          />
-          6 per 100 in florida because they are testing less, "per" cannot be
-          per person AND per tested
-          <br />
-          <br />
-          shut the fuck up bitch
-          <br />
-          <br />
-          <Cable
-            style={{
-              width: "110px",
-              height: "100px"
-            }}
-            onError={handleScollImgError}
-            src={
-              this.state.iosNoPhoto
-                ? ""
-                : "https://drive.google.com/file/d/1Ub9mdUZRjgnABUn_7CV-QULnUODCwD5N/preview"
-            }
-            float="right"
-            title="National Report (Newsmax) - Shaun Kraisman basis rate fallacy"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 33]}
-            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
-          />
-          “Encourage people with&nbsp;
-          <a href="https://link.springer.com/article/10.1007/s00259-021-05314-2">
-            high risk
-          </a>
-          &nbsp;to get the vaccines,” is&nbsp;
-          <a href="https://www.cdc.gov/vaccines/acip/recs/grade/covid-19-moderna-vaccine.html#:~:text=cSeven%20serious">
-            not
-          </a>
-          &nbsp;the right advice, since&nbsp;
-          <a href="https://www.google.com/search?q=oncogenic+b-cell+dysregulation">
-            excess
-          </a>
-          &nbsp; antibodies (
-          <a href="https://www.aafp.org/afp/2016/1201/p896.html">
-            dysregulation
-          </a>
-          ) can be deadly
-          <br />
-          <br />
-          They think they are ahead of the day, but we have been up earlier in
-          actual time
-          <br />
-          <br />
-          If you like to compete with consumers and call yourself a
-          conservative, you are making up words. Socialists prevent
-          non-labor-demand. This lender-/landlord-work-deficit is 20x/person
-          55+/millennial rental-income and 44x accrual at checking velocity of
-          &nbsp;<a href="https://fred.stlouisfed.org/graph/?g=JiC5">1.1/yr</a>,
-          and how else but to launder savings accounts principal does $4t/yr
-          spending 60%, 40% free rider mutable tax (1/4 pensions, 1/4 pentagon,
-          1/4 premiums) not become checking-currencyComponentOfM1 Rent seeking
-          public utility happens when it is operating costable (unless perpetual
-          motion machine or durable good like public parks/dollars)
-          <br />
-          <br />
-          consumer surrogate, target margin, jury for business
-          <br />
-          <br />
-          <h2>
-            vaccinations do not stop a testing for one at a time byproduct, they
-            make antibodies to stop blood clots by virion excrement
-          </h2>
-          , but cartoon vivo insemination isn't proof of transmission nor cause,
-          just prevalence
-          <br />
-          <Cable
-            style={{
-              height: "440px"
-            }}
-            onError={handleScollImgError}
-            src={
-              this.state.iosNoPhoto
-                ? ""
-                : "https://drive.google.com/file/d/1Wcvt-h5akh70Ip2YdEcjgoZm8gtdtz_t/preview"
-            }
-            float="left"
-            title="LinkedIn - selective guidelines without ftc citing is fine?"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 31]}
-            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
-          />
-          do not implement asymptomaic-testing, unless you want to obfuscate
-          time-series detection of the universal cause of similar symptoms
-          <br />
-          <br />
-          <Cable
-            style={{
-              width: "110px",
-              height: "100px"
-            }}
-            onError={handleScollImgError}
-            src={
-              this.state.iosNoPhoto
-                ? ""
-                : "https://drive.google.com/file/d/1uYUmSOIjSZbONbeyNxqKb8YfL99Kc2-f/preview"
-            }
-            float="right"
-            title="National report (Newsmax) - Glenn Gromkin"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 31]}
-            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
-          />
-          Simple majority is quicker to find guilty than 11/12
-          <br />
-          Innocence isn’t ever given the benefit of the simple majority,
-          especially with ideological duress of voters and defiance of eligible
-          <br />
-          <br />
-          "Financial," isn’t a deal per person nor group unless it is immediate
-          escrow; it is any demand that is not labor or share-split/tax that is
-          not of the consumer for same goods nor for free rider mutable or
-          non-concurrentable things like outlays, claims nor hours,
-          <br />
-          <br />
-          it is otherwise any competition with the consumer in third party
-          beneficiary law or intent to harm deduced (more than 5 units or 30
-          days)
-          <br />
-          <br />
-          politics is not a "political thing," "predicting what is more accurate
-          in the future," is the very utility of politics as to reasoning for
-          outlaws
-          <br />
-          there is already third party beneficiary law
-          <br />
-          <a href="https://story.snapchat.com/p/6297f1b9-30a8-4538-80fe-2f15b4d1ce76/1643955896086528/2289369221603328">
-            this is still happening albeit in countervailing law
-          </a>
-          {/*<Cable
+          <div style={{ display: this.state.politics ? "block" : "none" }}>
+            <h2>
+              Biden free rider mutable 60% tax and 40% debt-spending r&d
+              monopsony
+            </h2>
+            "Go get the Booster shot today, they are free. a fully-vaccinated
+            person is the best against covid, do not wait. every child is safe
+            to get vaccines now, how strongly vaccines fight against the
+            variant, infections and severe disease wear masks inside and
+            outside. It protects you and those around you
+            <br />
+            if improvements are needed, the&nbsp;
+            <a href="https://teapharmacy.party">fda</a>&nbsp;will put them on
+            the market. I am removing all road blocks to keep people safe.
+            <br />
+            If you are vaccinated, but are worried, get the booster. if you
+            aren't vaccinated, get that shot!
+            <br />
+            I promise America that the latest boosters will be free and
+            everywhere in america, free of charge.
+            <br />
+            <Cable
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/1sgt0t2YikacKYIxcxTgTTMSVxetc83r5/preview"
+              }
+              float="right"
+              title="John Bachmann (Newsmax) - Joe Biden"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 38]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            "We shipped for&nbsp;<a href="https://carducci.us">free</a>&nbsp;to
+            other parts of the world, to more than all countries combined,”
+            <br />
+            We ship 275 vaccines to 110 countries;
+            <br />
+            no vaccines to other parts of the world will ever come at the
+            expense of every American.
+            <br />
+            How do we meet the morals and protection of Americans?
+            <br />
+            We cannot let up untill the world is vaccinated, to protect us as
+            well.
+            <br />
+            Last christmas fewer than half, 75% and now 81% of seniors.
+            <br />
+            There is still time and available before christmas. given where e
+            were last year, that non of us should take for granted.
+            <br />
+            Thats how we reopen our business schools, even in the pandemic, we
+            have made record growth, we move forward now.
+            <br />
+            The reason for the travel ban there was a significant amount of
+            cases in africa and around the world.
+            <br />
+            I don't think anyone will be reluctant to report that we have
+            provided more vaccines to that region than the world cobined. the
+            reluctance to get it into their arms is there. lol. Alex from
+            Reuters."
+            <br />
+            <br />
+            Rent-seeking (trust-building, public-utility-operating-costable)
+            grandiose scope on estimates ever changing (options to buy, sold
+            without auth) dependencies, like in home contracting: intermediate
+            durable-goods, labor & material. Seize the means of production! Gain
+            per hour/price productivity
+            <br />
+            <br />
+            Nomenclature with accounting and software classes and castes is
+            necessary for beings
+            <br />
+            <Cable
+              style={{
+                height: "340px"
+              }}
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/1BfcflB_MSKN8sgDh9_4bWzz-fCU4my1s/preview"
+              }
+              float="right"
+              title="GBNews - Maxwell trial"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 35]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            what is facts about a case to be called a bias if exonerated is
+            permissible
+            <br />
+            Do you not have messages? Flight-logs aren’t proof? What else? These
+            things should be public info
+            <br />
+            <br />
+            <Cable
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/1JHhCgkEe0_kSk5gH7TRpfYkInJVjuLqf/preview"
+              }
+              float="left"
+              title="National Report (Newsmax) - Shaun Kraisman basis rate fallacy"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 34]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            6 per 100 in florida because they are testing less, "per" cannot be
+            per person AND per tested
+            <br />
+            <br />
+            shut the fuck up bitch
+            <br />
+            <br />
+            <Cable
+              style={{
+                width: "110px",
+                height: "100px"
+              }}
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/1Ub9mdUZRjgnABUn_7CV-QULnUODCwD5N/preview"
+              }
+              float="right"
+              title="National Report (Newsmax) - Shaun Kraisman basis rate fallacy"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 33]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            “Encourage people with&nbsp;
+            <a href="https://link.springer.com/article/10.1007/s00259-021-05314-2">
+              high risk
+            </a>
+            &nbsp;to get the vaccines,” is&nbsp;
+            <a href="https://www.cdc.gov/vaccines/acip/recs/grade/covid-19-moderna-vaccine.html#:~:text=cSeven%20serious">
+              not
+            </a>
+            &nbsp;the right advice, since&nbsp;
+            <a href="https://www.google.com/search?q=oncogenic+b-cell+dysregulation">
+              excess
+            </a>
+            &nbsp; antibodies (
+            <a href="https://www.aafp.org/afp/2016/1201/p896.html">
+              dysregulation
+            </a>
+            ) can be deadly
+            <br />
+            <br />
+            They think they are ahead of the day, but we have been up earlier in
+            actual time
+            <br />
+            <br />
+            If you like to compete with consumers and call yourself a
+            conservative, you are making up words. Socialists prevent
+            non-labor-demand. This lender-/landlord-work-deficit is 20x/person
+            55+/millennial rental-income and 44x accrual at checking velocity of
+            &nbsp;<a href="https://fred.stlouisfed.org/graph/?g=JiC5">1.1/yr</a>
+            , and how else but to launder savings accounts principal does $4t/yr
+            spending 60%, 40% free rider mutable tax (1/4 pensions, 1/4
+            pentagon, 1/4 premiums) not become checking-currencyComponentOfM1
+            Rent seeking public utility happens when it is operating costable
+            (unless perpetual motion machine or durable good like public
+            parks/dollars)
+            <br />
+            <br />
+            consumer surrogate, target margin, jury for business
+            <br />
+            <br />
+            <h2>
+              vaccinations do not stop a testing for one at a time byproduct,
+              they make antibodies to stop blood clots by virion excrement
+            </h2>
+            , but cartoon vivo insemination isn't proof of transmission nor
+            cause, just prevalence
+            <br />
+            <Cable
+              style={{
+                height: "440px"
+              }}
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/1Wcvt-h5akh70Ip2YdEcjgoZm8gtdtz_t/preview"
+              }
+              float="left"
+              title="LinkedIn - selective guidelines without ftc citing is fine?"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 31]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            do not implement asymptomaic-testing, unless you want to obfuscate
+            time-series detection of the universal cause of similar symptoms
+            <br />
+            <br />
+            <Cable
+              style={{
+                width: "110px",
+                height: "100px"
+              }}
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/1uYUmSOIjSZbONbeyNxqKb8YfL99Kc2-f/preview"
+              }
+              float="right"
+              title="National report (Newsmax) - Glenn Gromkin"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 31]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            Simple majority is quicker to find guilty than 11/12
+            <br />
+            Innocence isn’t ever given the benefit of the simple majority,
+            especially with ideological duress of voters and defiance of
+            eligible
+            <br />
+            <br />
+            "Financial," isn’t a deal per person nor group unless it is
+            immediate escrow; it is any demand that is not labor or
+            share-split/tax that is not of the consumer for same goods nor for
+            free rider mutable or non-concurrentable things like outlays, claims
+            nor hours,
+            <br />
+            <br />
+            it is otherwise any competition with the consumer in third party
+            beneficiary law or intent to harm deduced (more than 5 units or 30
+            days)
+            <br />
+            <br />
+            politics is not a "political thing," "predicting what is more
+            accurate in the future," is the very utility of politics as to
+            reasoning for outlaws
+            <br />
+            there is already third party beneficiary law
+            <br />
+            <a href="https://story.snapchat.com/p/6297f1b9-30a8-4538-80fe-2f15b4d1ce76/1643955896086528/2289369221603328">
+              this is still happening albeit in countervailing law
+            </a>
+            {/*<Cable
             style={{
               width: "110px",
               height: "100px"
@@ -1364,132 +1425,136 @@ export default class App extends React.Component {
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />*/}
-          <br />
-          <Cable
-            style={{
-              height: "440px"
-            }}
-            onError={handleScollImgError}
-            src={
-              this.state.iosNoPhoto
-                ? ""
-                : "https://drive.google.com/file/d/1HPSdsdqU_1_Qm_nRI2TL28tiRJ_veRIr/preview"
-            }
-            float="left"
-            title="Bernie and Sid (77WABC) - Asylum review, bail means no evidence"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 29]}
-            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
-          />
-          <br />
-          "Republicans wouldn't go along with this," but will in 60/40 wall
-          st/gov
-          <br />
-          2010-20 $4t/yr 1/4 pentagon 1/4 pension 1/4 expiring-premiums, 40%
-          debt spending over compounding basis by such itself and debt limit is
-          Zero
-          <br />
-          <Cable
-            style={{
-              width: "110px",
-              height: "100px"
-            }}
-            onError={handleScollImgError}
-            src={
-              this.state.iosNoPhoto
-                ? ""
-                : "https://drive.google.com/file/d/1d4VdzR79K0BUalejrHiMSUhzWcHyvGAR/preview"
-            }
-            float="left"
-            title="National report (Newsmax) - Sen Cassidy on This Week (ABC)"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 28]}
-            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
-          />
-          <Cable
-            style={{
-              width: "100%",
-              height: "300px",
-              maxHeight: "25vw",
-              transform: "scale(-1,1)"
-            }}
-            onError={handleScollImgError}
-            src={
-              this.state.iosNoPhoto
-                ? ""
-                : "https://drive.google.com/file/d/1PJ8391RQyJ1CkPraFAZOk-W1tt0LwHuI/preview"
-            }
-            float="right"
-            title="Face the Nation (CBS) - Fauci, 'I am science,'"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 27]}
-            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
-          />
-          <br />
-          <Cable
-            style={{
-              width: "110px",
-              height: "100px",
-              transform: "scale(-1,1)"
-            }}
-            onError={handleScollImgError}
-            src={
-              this.state.iosNoPhoto
-                ? ""
-                : "https://drive.google.com/file/d/1en8tGznaX0WmJTG8sWSxFCY4j_7YjgIY/preview"
-            }
-            float="left"
-            title="Michael Osterholm portrait"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 26]}
-            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
-          />
-          <Cable
-            style={{ height: "40px", width: "60px" }}
-            onError={handleScollImgError}
-            src={
-              this.state.iosNoPhoto
-                ? ""
-                : "https://drive.google.com/file/d/1rTktXHe1x8nZzDOO7anMw4sGV38-ZTum/preview"
-            }
-            float="right"
-            title="virus insemination cartoon evidence"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 25]}
-            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
-          />
-          assumptions make an ass out of you and me
-          <br />
-          Just because you test one virus at a time doesn’t mean it is
-          transmitted, it is borne in vivo by each individual from &nbsp;
-          <a href="https://youtu.be/Weqb9KrQ-TU?t=21">bacterial</a>-cause
-          <h2>
-            Less likely to catch the virus just because of prevalence? You need
-            vivo&nbsp;
-            <a href="https://www.sparknotes.com/biology/cellreproduction/cellcycle/section2/">
-              insemination
+            <br />
+            <Cable
+              style={{
+                height: "440px"
+              }}
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/1HPSdsdqU_1_Qm_nRI2TL28tiRJ_veRIr/preview"
+              }
+              float="left"
+              title="Bernie and Sid (77WABC) - Asylum review, bail means no evidence"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 29]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            <br />
+            "Republicans wouldn't go along with this," but will in 60/40 wall
+            st/gov
+            <br />
+            2010-20 $4t/yr 1/4 pentagon 1/4 pension 1/4 expiring-premiums, 40%
+            debt spending over compounding basis by such itself and debt limit
+            is Zero
+            <br />
+            <Cable
+              style={{
+                width: "110px",
+                height: "100px"
+              }}
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/1d4VdzR79K0BUalejrHiMSUhzWcHyvGAR/preview"
+              }
+              float="left"
+              title="National report (Newsmax) - Sen Cassidy on This Week (ABC)"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 28]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            <Cable
+              style={{
+                width: "100%",
+                height: "300px",
+                maxHeight: "25vw",
+                transform: "scale(-1,1)"
+              }}
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/1PJ8391RQyJ1CkPraFAZOk-W1tt0LwHuI/preview"
+              }
+              float="right"
+              title="Face the Nation (CBS) - Fauci, 'I am science,'"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 27]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            <br />
+            <Cable
+              style={{
+                width: "110px",
+                height: "100px",
+                transform: "scale(-1,1)"
+              }}
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/1en8tGznaX0WmJTG8sWSxFCY4j_7YjgIY/preview"
+              }
+              float="left"
+              title="Michael Osterholm portrait"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 26]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            <Cable
+              style={{ height: "40px", width: "60px" }}
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/1rTktXHe1x8nZzDOO7anMw4sGV38-ZTum/preview"
+              }
+              float="right"
+              title="virus insemination cartoon evidence"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 25]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            assumptions make an ass out of you and me
+            <br />
+            Just because you test one virus at a time doesn’t mean it is
+            transmitted, it is borne in vivo by each individual from &nbsp;
+            <a href="https://youtu.be/Weqb9KrQ-TU?t=21">bacterial</a>-cause
+            <h2>
+              Less likely to catch the virus just because of prevalence? You
+              need vivo&nbsp;
+              <a href="https://www.sparknotes.com/biology/cellreproduction/cellcycle/section2/">
+                insemination
+              </a>
+              , babe
+            </h2>
+            the positivity rate is higher in lower asymptomatic-testing
+            <br />
+            are you not testing asymptomatic-testing one at a&nbsp;
+            <a href="https://www.cdc.gov/flu/about/professionals/antigenic.htm">
+              time
             </a>
-            , babe
-          </h2>
-          the positivity rate is higher in lower asymptomatic-testing
-          <br />
-          are you not testing asymptomatic-testing one at a&nbsp;
-          <a href="https://www.cdc.gov/flu/about/professionals/antigenic.htm">
-            time
-          </a>
-          ?
-          <br />"
-          <a href="https://www.pfizer.com/news/hot-topics/viral_vs_bacterial_pneumonia_understanding_the_difference">
-            Pfizer
-          </a>
-          &nbsp;will know the effect of the variant on their vaccines in just a
-          couple weeks,” Jim acosta, that makes no&nbsp;
-          <a href="https://www.fda.gov/media/144245/download#page=42">sense</a>.
+            ?
+            <br />"
+            <a href="https://www.pfizer.com/news/hot-topics/viral_vs_bacterial_pneumonia_understanding_the_difference">
+              Pfizer
+            </a>
+            &nbsp;will know the effect of the variant on their vaccines in just
+            a couple weeks,” Jim acosta, that makes no&nbsp;
+            <a href="https://www.fda.gov/media/144245/download#page=42">
+              sense
+            </a>
+            .
+          </div>
           <br />
           {this.state.ios && (
             <span style={{ border: "1px solid" }}>
@@ -1738,108 +1803,117 @@ export default class App extends React.Component {
           insemination by bacteria in open wound, not by G-d or without a
           taxonomy at all, like bacteria, and virus from cell.
           <br />
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              this.setState({ science: !this.state.science });
+            }}
+          >
+            <h3>science</h3>
+          </button>
           <br />
-          <h1>
-            More testing begets less death/symptom co-incidence&nbsp;
-            <span>does not pretend postend-to-cause</span>
-          </h1>
-          Cartoon vivo insemination, is dead byproduct and asymptomatic-test
-          does not make a case. Remember page 42&nbsp;
-          <a href="https://www.fda.gov/media/144245/download#page=42">
-            https://www.fda.gov/media/144245/download#page=42
-          </a>
-          &nbsp;“Among 3410 total cases of suspected but unconfirmed COVID-19 in
-          the overall study population, 1594 occurred in the vaccine group vs.
-          1816 in the placebo group,”&nbsp;
-          <h2>is not even presentable to the jury</h2>
-          <br />
-          Let me qualify myself as a student of economics, market history and
-          propoganda, I learned some from Monmouth U and Hopkins, and I might
-          sue for damaging my degree by tranching out detractors to
-          cartoon-science and doctrine-discrimination beyond jury for business
-          and any semblance of the very principles and pillars of infinite
-          producer reasoning in a finite producer world, targeting margins to
-          make demand exclusively labor. with all this profit withheld we have
-          to outlay, and with all this collateralized debt, we have to
-          #AmortizeByReverse don't cancel debt:cash*income thru history, as to
-          end the RepoCycleWithDowns
-          <br />
-          <br />
-          In my science, Fauci and WHO are suffering from basis rate fallacy, of
-          cases vs asymtpomatic testing of the byproduct of a cause of a
-          changing byproduct, to which is garbage of a garbage collection
-          process
-          <br />
-          <br />
-          as for epiology, basis rate fallacy elsewhere and in sum, thrice, is
-          ms matched paralytic polio and "age-standardized," "excess deaths" do
-          not account for population growth nor age-cohort size
-          <br />
-          <br />
-          <Cable
-            style={{ width: "110px", height: "100px" }}
-            onError={handleScollImgError}
-            src={
-              this.state.iosNoPhoto
-                ? ""
-                : "https://drive.google.com/file/d/1jIFJKjdlH-qow0YuW_oSX7OzW7zWT6Lx/preview"
-            }
-            float="left"
-            title="Wake Up America (Newsmax) - Dr. Johnathan Baugh"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 13]}
-            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
-          />
-          "Transmissible doesn’t mean illness," but prevalence doesn’t mean
-          transmissible
-          <br />
-          <br />
-          nadia bashir is looking at random sample data an flipping out about,
-          whatever
-          <br />
-          <br />
-          “We are going to actually test it” Fauci needs to inseminate cell
-          still with virus, not draw cartoons or find an already infected cell
-          that undergoes mitosis. “Precautions acting swiftly with caution to be
-          safe”
-          <br />
-          <br />
-          bbc brexit bashing corporation is free rider mutable monopsony and
-          gentrification of reporters, making it "biased" but more accurately
-          industry-precedence-interested
-          <br />
-          <br />
-          <Cable
-            style={{ width: "130px", height: "170px" }}
-            onError={handleScollImgError}
-            src={
-              this.state.iosNoPhoto
-                ? ""
-                : "https://drive.google.com/file/d/1KwGgfIWRztdR0OPgjxw10TAgJFQ5_bcP/preview"
-            }
-            float="right"
-            title="GBNews - Professor Karol Sikora, Former Head of Cancer Programme at WHO"
-            scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 12]}
-            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
-          />
-          “I think we will have Christmas, but it may hit older people more,”
-          just because it is prevalent in hospitalizations and deaths doesn’t
-          mean it is the cause. It is byproduct of bacterial-infection every
-          time, where vivo has already been proven (not a cartoon)
-          <br />
-          <br />
-          they literally fund testing when desiring to sell off, then hike and
-          sell to trap {"<"}$25k accounts in pattern day trading, like a kettle
-          of fish
-          <br />
-          <br />
-          random testing can produce a range in historical variation in
-          prevelance as well as if you change testing method, with no bearing on
-          causal-prevalence
-          <br />
+          <div style={{ display: this.state.science ? "block" : "none" }}>
+            <h1>
+              More testing begets less death/symptom co-incidence&nbsp;
+              <span>does not pretend postend-to-cause</span>
+            </h1>
+            Cartoon vivo insemination, is dead byproduct and asymptomatic-test
+            does not make a case. Remember page 42&nbsp;
+            <a href="https://www.fda.gov/media/144245/download#page=42">
+              https://www.fda.gov/media/144245/download#page=42
+            </a>
+            &nbsp;“Among 3410 total cases of suspected but unconfirmed COVID-19
+            in the overall study population, 1594 occurred in the vaccine group
+            vs. 1816 in the placebo group,”&nbsp;
+            <h2>is not even presentable to the jury</h2>
+            <br />
+            Let me qualify myself as a student of economics, market history and
+            propoganda, I learned some from Monmouth U and Hopkins, and I might
+            sue for damaging my degree by tranching out detractors to
+            cartoon-science and doctrine-discrimination beyond jury for business
+            and any semblance of the very principles and pillars of infinite
+            producer reasoning in a finite producer world, targeting margins to
+            make demand exclusively labor. with all this profit withheld we have
+            to outlay, and with all this collateralized debt, we have to
+            #AmortizeByReverse don't cancel debt:cash*income thru history, as to
+            end the RepoCycleWithDowns
+            <br />
+            <br />
+            In my science, Fauci and WHO are suffering from basis rate fallacy,
+            of cases vs asymtpomatic testing of the byproduct of a cause of a
+            changing byproduct, to which is garbage of a garbage collection
+            process
+            <br />
+            <br />
+            as for epiology, basis rate fallacy elsewhere and in sum, thrice, is
+            ms matched paralytic polio and "age-standardized," "excess deaths"
+            do not account for population growth nor age-cohort size
+            <br />
+            <br />
+            <Cable
+              style={{ width: "110px", height: "100px" }}
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/1jIFJKjdlH-qow0YuW_oSX7OzW7zWT6Lx/preview"
+              }
+              float="left"
+              title="Wake Up America (Newsmax) - Dr. Johnathan Baugh"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 13]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            "Transmissible doesn’t mean illness," but prevalence doesn’t mean
+            transmissible
+            <br />
+            <br />
+            nadia bashir is looking at random sample data an flipping out about,
+            whatever
+            <br />
+            <br />
+            “We are going to actually test it” Fauci needs to inseminate cell
+            still with virus, not draw cartoons or find an already infected cell
+            that undergoes mitosis. “Precautions acting swiftly with caution to
+            be safe”
+            <br />
+            <br />
+            bbc brexit bashing corporation is free rider mutable monopsony and
+            gentrification of reporters, making it "biased" but more accurately
+            industry-precedence-interested
+            <br />
+            <br />
+            <Cable
+              style={{ width: "130px", height: "170px" }}
+              onError={handleScollImgError}
+              src={
+                this.state.iosNoPhoto
+                  ? ""
+                  : "https://drive.google.com/file/d/1KwGgfIWRztdR0OPgjxw10TAgJFQ5_bcP/preview"
+              }
+              float="right"
+              title="GBNews - Professor Karol Sikora, Former Head of Cancer Programme at WHO"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + 12]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            “I think we will have Christmas, but it may hit older people more,”
+            just because it is prevalent in hospitalizations and deaths doesn’t
+            mean it is the cause. It is byproduct of bacterial-infection every
+            time, where vivo has already been proven (not a cartoon)
+            <br />
+            <br />
+            they literally fund testing when desiring to sell off, then hike and
+            sell to trap {"<"}$25k accounts in pattern day trading, like a
+            kettle of fish
+            <br />
+            <br />
+            random testing can produce a range in historical variation in
+            prevelance as well as if you change testing method, with no bearing
+            on causal-prevalence
+          </div>
           <br />
           Replace all McDonald's with beets me (free range meats and veggies
           <span role="img" aria-label="trademark">
@@ -3888,4 +3962,3 @@ export default class App extends React.Component {
     );
   }
 }
-
