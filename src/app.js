@@ -140,6 +140,50 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
+                : "https://drive.google.com/file/d/1QA5fmAq9ppgAEzHf2aeNeo9OdRHA-QR4/preview"
+            }
+            float="left"
+            title="Liberty Mutual says you can save on insurance by using insurance. insane. it is expiring collective loss, public or private!"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 74]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1u1LSv7Z6mpxhuDTTKliQ6Rk2IdO_nfMr/preview"
+            }
+            float="right"
+            title="Eric Bolling (The Balance,Newsmax) - 'antivaxxers are spreading variants' with Ron Johnson"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 73]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “Spike in new cases because of spread of omicron. Failed who chose not
+          to be vaccinated now having another covid spike now planning a media
+          blitz, instead of blaming the unvaccinated. It looks like we were
+          right all along, folks.” Eric Bolling
+          <br />
+          <br />
+          “This inflation is out of control spending, debt inflation, crime,” it
+          is only 1/3 of total debt and this administration is the same as Trump
+          over covid. If he uses census and my mortality projections to claim
+          honor system signatures election fraud, he will have to for ppp trust
+          building existing business.
+          <br />
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
                 : "https://drive.google.com/file/d/10xMyuH9o4CCiu6E9-ceAyPoD7BZAW6Zd/preview"
             }
             float="left"
