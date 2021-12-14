@@ -145,7 +145,7 @@ export default class App extends React.Component {
             float="left"
             title={`The Sun - "Boris Johnson faces four major Commons votes on his 'Plan B' covid-19 measures"`}
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 68]}
+            fwd={this["scrollImg" + 69]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
@@ -157,14 +157,34 @@ export default class App extends React.Component {
           warning-mechanism of bacterial-cause, exclusively. Just wash your
           hands with warm water, fix age standardized excess deaths for
           population growth, and you will be of sound mind in the Book of Nick
-          Carducci. It is not fair for the person who has been waiting for that
-          hip operation for 18 months, or any other elective procedure due to
-          their adherence to science and facts. We would also spend a lot less
-          as we ween ourselves off of&nbsp;
+          Carducci.
+          <br />
+          <Cable
+            style={{ width: "400px",maxWidth:"100%", height: "150px" }}
+            onError={handleScollImgError}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.youtube.com/embed/-spTY4y8euI"
+            }
+            float="right"
+            title="Ford Brewer MD bacteria notions, reasonable doubt"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 68]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          It is not fair for the person who has been waiting for that hip
+          operation for 18 months, or any other elective procedure due to their
+          adherence to science and facts. We would also spend a lot less as we
+          ween ourselves off of&nbsp;
           <a href="https://humanharvest.info/claims">non-rollover insurance</a>
           &nbsp;and&nbsp;<a href="https://micro-theory.com">invoices</a>&nbsp;
           estimated to buy and loiter, if we heal the what ails you, but not the
-          infection, and they die without proper care.”
+          infection, and they die without proper care. I have to wait for
+          surgery because of another bed that is unvaccinated and is emitting
+          the non-exclusive byproduct of bacterial-infection, antibodies to
+          prevent blood clotting be damned.”
           <br />
           <br />
           <Cable
