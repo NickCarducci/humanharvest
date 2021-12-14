@@ -327,6 +327,32 @@ export default class App extends React.Component {
           possible.”
           <br />
           <br />
+          “Every single working and non-working American is losing money because
+          of inflation,” Kevin McCarthy. End one party rule, fire Pelosi
+          <br />
+          <br />
+          "Metro-London greenie elite"
+          <br />
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.serviceCancelingImages
+                ? ""
+                : "https://drive.google.com/file/d/1gPjyQOHKDt7n5S9XKikj4s8y7T7RVUFN/preview"
+            }
+            float="left"
+            title="Spicer & co (Newsmax) - Gordon G Chang and Spicer and Keith shooting the shit on drone striking islamic bankers, 'UAE treatens to pull out of deal with US'"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 81]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “There is a lot of jobs in those drone gov jobs monopsony free rider
+          mutable contractors.”
+          <br />
+          <br />
           <Cable
             onError={handleScollImgError}
             //img={true}
