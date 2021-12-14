@@ -134,6 +134,15 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          <h2>
+            Work deficit means of labor from labor, not social Comparative
+            advantage tech advancement to perpetual utility maintainless.
+            1-level-board Max-royalty-contracts (Cash/debt)*income every year
+          </h2>
+          <h3>
+            lmao. how else to emulate Pareto in a finite producer network fee
+            world?
+          </h3>
           <Cable
             onError={handleScollImgError}
             //img={true}
