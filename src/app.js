@@ -2031,6 +2031,31 @@ export default class App extends React.Component {
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
+          <Cable
+            style={{ width: "110px", height: "100px" }}
+            onError={handleScollImgError}
+            src={
+              this.state.iosNoPhoto
+                ? ""
+                : "https://drive.google.com/file/d/152Dad1UJYWJVTvrd58cHihSiUyQCpl2I/preview"
+            }
+            float="left"
+            title="National Report (Newsmax) - Bethany Mandel vaxx-freak Deseret News"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 57]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “We are told by the top-left if we don’t want to mask up and separate
+          outside while we go to a Broadway show inside, we don’t think the
+          pandemic is real or we want to kill grandma. We know that both of
+          those are not tru. …It seems like no one will advocate for them.”
+          <br />
+          <br />
+          “They are more at risk for the flu, I encourage them to get the flu
+          shot.”
+          <br />
+          <br />
           It’s&nbsp;
           <a href="https://www.fda.gov/media/144245/download#page=42">not</a>
           &nbsp;more effective to get vaccinated when the virus is the
