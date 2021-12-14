@@ -155,9 +155,24 @@ export default class App extends React.Component {
           expiring.” What? "Where you can have that conversation about your
           inability to concentrate and they give you wall st pharma cop
           amphetamines instead of open source licensure and review boards, EVEN
-          for craft beers."
-          <br />
-          <br />
+          for craft beers." Stop, "health visitors see young families, and can
+          have those important conversations if women feel safe of her husband,
+          at home. My next question is what happens when the next vaccine escape
+          variant inevitably comes, because I think we all feel that is
+          inevitable coming after this wave, we've got another one coming thru,
+          because we merely set the test for it? You miss the shots you don't
+          look for. So what is the plan to stop us, from having to repivot like
+          this, again. What is the the long-term 'living-with-covid strategy.'
+          My last plea is the pandemic has fallen on the shoulders of our
+          children. Please, please, please, confirm, that there are, 'no plans,'
+          for mandatory-restrictions on schools, and that we will never close
+          our free rider mutable 40% debt spending useless price
+          inelasticity-of-government-gentrification and
+          trade-secret-educator-monopsony kid-enslavement-camps again."
+          <h2>
+            the role of teachers should be to discover, not follow eachother
+            like the worst doctor-politicians
+          </h2>
           <Cable
             onError={handleScollImgError}
             //img={true}
