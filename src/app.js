@@ -140,9 +140,34 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://drive.google.com/file/d/1mbbMoxrrXL1LY_AQuwr-U-agXB8lhEfk/preview"
+                : "https://drive.google.com/file/d/1U7GCj0bV4Q3U3QRXi1APOlhZPv_xp3hM/preview"
             }
             float="left"
+            title="GBNews - 'Let's talk vaccine passports' with Ann Widdlecombe former shadow health, on third parties and non-voters (eyeroll)"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 63]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “Michael Animote is one of those cases where he is toeing the line,
+          he, ‘nearly died from it,’ (implies is is alive or evolutionary trait
+          as cause). There is a flip side to it and I know some MP’s are of this
+          view Maybe he has gone nuclear on this to maybe get other stories off
+          the front pages be it dodgy parties, or maybe it is wallpaper, or
+          maybe it is just sleaze in general. ...The idea that boris is doing
+          this rather than put other stuff on the agenda is putting off some
+          MP’s from voting for it.” NON-VOTERS HAVE A DEFAULT VOTE, “NO”
+          <br />
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1mbbMoxrrXL1LY_AQuwr-U-agXB8lhEfk/preview"
+            }
+            float="right"
             title="GBNews - Ann Widdlecombe - Virus is dead"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 62]}
