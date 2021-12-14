@@ -197,7 +197,7 @@ export default class App extends React.Component {
                 ? ""
                 : "https://drive.google.com/file/d/1HVOCHHEcouFRjhxhQljWy6I3nPXBNsIU/preview"
             }
-            float="right"
+            float="left"
             title="Eric Bolling (The Balance,Newsmax) - 'antivaxxers are spreading variants' with Mike Braun"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 76]}
@@ -226,7 +226,7 @@ export default class App extends React.Component {
                 ? ""
                 : "https://drive.google.com/file/d/1r5dmB1I90HwLFaqSuva5ixUFgd0-6HCP/preview"
             }
-            float="left"
+            float="right"
             title="Eric Bolling (The Balance,Newsmax) -  Amanda Berhante on California"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 75]}
@@ -252,15 +252,42 @@ export default class App extends React.Component {
                 ? ""
                 : "https://drive.google.com/file/d/19NiLQTFf7l_7sBn9PXR5PVVH_qE9aF9i/preview"
             }
-            float="right"
+            float="left"
             title="Chris Salcedo (Newsmax) - badmouthing socialism as trust building free rider mutables? We want to outlay corporate profits."
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 74]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
-          “Socialists seek government office by insulting because they cannot
-          use proof data and facts on their side. They are dangerous.”
+          do you have a dent in your head?
+          <br />“<a href="https://truncatedsalestax.com">Socialists</a>
+          &nbsp;seek government office by insulting because they cannot use
+          proof data and facts on their side. They are dangerous.”
+          <br />
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1GOPZS5lyi0An2jyiKz2vlPfT0lipJFVV/preview"
+            }
+            float="right"
+            title="Chris Salcedo (Newsmax) - badmouthing socialism as trust building free rider mutables? We want to outlay corporate profits."
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 79]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “Mental health disorder anxiety and depression in young people has
+          doubled per person over this pandemic.”
+          <br />
+          <br />
+          We don’t need you. Frank contacessa, "the unvaccinated are raising
+          intelligent questions, and DiBlasio doesn't recognize that. They are
+          becoming more defiant. We need to come together to tackle this." I
+          expected more deaths from population growth alone.
           <br />
           <br />
           <Cable
