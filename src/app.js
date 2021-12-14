@@ -160,7 +160,7 @@ export default class App extends React.Component {
           Carducci.
           <br />
           <Cable
-            style={{ width: "400px",maxWidth:"100%", height: "150px" }}
+            style={{ width: "400px", maxWidth: "100%", height: "150px" }}
             onError={handleScollImgError}
             src={
               this.state.noyoutube
@@ -184,7 +184,27 @@ export default class App extends React.Component {
           infection, and they die without proper care. I have to wait for
           surgery because of another bed that is unvaccinated and is emitting
           the non-exclusive byproduct of bacterial-infection, antibodies to
-          prevent blood clotting be damned.”
+          prevent blood clotting be damned. Surely frustrating, I will be voting
+          for the government today. But I ask they do no take my vote for
+          granted, [mumbles] we se no increase nor hospitalization, then this
+          legislation does expire on the 6th of January, and they do not seek to
+          extend it, as if this is required to be said, but I like to bring in
+          precedence for slip & fall attorneys to chomp at. Working from home,
+          although it is only guidance today, will cause destruction to small
+          retail, and even the ability for new entrants, because of the
+          implausible landlord use&nbsp;
+          <a href="https://30under5.us">above 5 units or 30 days</a>, not
+          price,&nbsp;
+          <a href="https://humanharvest.info/claims">
+            expiring claim false bid pools
+          </a>
+          &nbsp;net loss,&nbsp;
+          <a href="https://carducci.us">
+            force majeure implausible deniability of repo-cycle kept down
+            payments laundered and loitered third party beneficiary donee
+            claimable collateral
+          </a>
+          .”
           <br />
           <br />
           <Cable
