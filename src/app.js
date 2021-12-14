@@ -197,7 +197,11 @@ export default class App extends React.Component {
           much greater state control, we are setting a very dangerous precedent.
           I don’t accept this government is stopping people’s right to protest.
           I don’t think they have a right to disrupt other peoples’ livelihoods
-          going about that.”
+          going about that. I do support what this government is doing. Despite
+          the pandemic, record number of jobs, we’ve seen Brexit delivered. The
+          World is at net zero carbon by 2050 because of the UK leadership of
+          COP26 conference in Glasslo. On this, I think the government has this
+          wrong and the idea of mandatory vaccination.”
           <br />
           <br />
           “So the message is, Jordan Klepper, do yoga and not care about the
