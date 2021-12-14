@@ -134,6 +134,22 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          <Cable
+            style={{ height: "420px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1NBMLsVabNUpr_BQX8fzgIJFvOB16euUS/preview"
+            }
+            float="left"
+            title="Senate Dems (Facebook Live"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 80]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           "Many of you have suffered in the panemic when nursing homes admitted
           patients into their facilities, 15k ny state cretsel gubmit and herbit
           working hard to compensate you for your rights. kglawteam.com"
@@ -147,7 +163,7 @@ export default class App extends React.Component {
                 ? ""
                 : "https://drive.google.com/file/d/1QA5fmAq9ppgAEzHf2aeNeo9OdRHA-QR4/preview"
             }
-            float="left"
+            float="right"
             title="Liberty Mutual says you can save on insurance by using insurance. insane. it is expiring collective loss, public or private!"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 78]}
@@ -416,8 +432,25 @@ export default class App extends React.Component {
           ourselves nor do we have to unless, like now, non-voter + ideological
           duress voters are shunned from government-making. In rush to get jabs
           in arms, we shouldn’t throw that disrespect and intolerance - to the
-          wind. To ween off NHS: on the mandatory vaccination of NHS staff
-          beyond &nbsp;
+          wind.
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.serviceCancelingImages
+                ? ""
+                : "https://drive.google.com/file/d/1w89L4XTg5yHEMspCWOb_DA2VJ-NFJe4N/preview"
+            }
+            float="right"
+            title="Spicer & co (Newsmax) - 'Air force Discharges 27 for Refulsal to Get Covid Vaccine.' Come in new Saver Party.xyz recruits! We are making OUR OWN government! 'Each service rolled out a deadline,' like the statute of limited right"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 80]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          To ween off NHS: on the mandatory vaccination of NHS staff beyond
+          &nbsp;
           <a href="https://humanharvest.info/jury">
             jury-science 11/12 multiple industry various
           </a>
