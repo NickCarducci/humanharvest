@@ -472,10 +472,20 @@ export default class App extends React.Component {
           </a>
           &nbsp;<a href="https://humanharvest.info/polio">aren't covid</a>.
           "Omicron may be the dominant strain, right now Delta is," because you
-          set PCR to whatever strain you guess or look for. there are hundred of
-          thousands of possible virus to set for, and thousands more to miss
-          each time. Yet you are just testing for non-exclusive artifact,
-          retroactive-vitro byproduct, not vivo cause.
+          set PCR to whatever strain you guess or look for, or is set as a&nbsp;
+          <a href="https://www.labcorp.com/coronavirus-disease-covid-19/covid-news-education/guide-covid-19-variants-what-you-need-know-about#:~:text=Because%20our%20tests%20target%20the%20SARS-CoV-2%20nucleocapsid">
+            non-original artifact being the SARS-COV-2 nucleocapsid
+          </a>
+          . there are hundred of thousands of possible virus to set for, and
+          thousands more to miss each time. Yet you are just testing for
+          non-exclusive artifact, retroactive-vitro byproduct, not vivo cause.
+          <br />
+          <br />
+          "The federal government is also taking steps to accelerate this
+          important work; specifically, the recent stimulus bill directs $1.75
+          billion to the CDC to support genomic sequencing and surveillance
+          initiatives." Is not accelerated, it is just mislabeling important,
+          monopsony r&d and useless price-inelasticity of bid-to-ask.
           <Cable
             onError={handleScollImgError}
             //img={true}
