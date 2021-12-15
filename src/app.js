@@ -21,6 +21,7 @@ export default class App extends React.Component {
       ios: name.includes("Safari"),
       iosNoPhoto: name.includes("Safari")
     };
+    this.walter = React.createRef();
     this.polio = React.createRef();
     this.claims = React.createRef();
     this.jury = React.createRef();
@@ -36,6 +37,7 @@ export default class App extends React.Component {
   componentWillUnmount = () => {
     clearTimeout(this.scrollTimeout);
     clearTimeout(this.resizeTimer);
+    clearTimeout(this.check);
     window.removeEventListener("resize", this.refresh);
     window.removeEventListener("scroll", this.handleScroll);
   };
@@ -75,19 +77,26 @@ export default class App extends React.Component {
   };
   componentDidUpdate = (prevProps) => {
     if (this.props.pathname !== prevProps.pathname) {
-      if (this.props.pathname === "/") {
-      } else if (this.props.pathname === "/polio") {
-        window.scroll(0, this.polio.current.offsetTop);
-      } else if (this.props.pathname === "/claims") {
-        window.scroll(0, this.claims.current.offsetTop);
-      } else if (this.props.pathname === "/jury") {
-        this.setState(
-          {
-            juryPermitting: true
-          },
-          () => window.scroll(0, this.jury.current.offsetTop)
-        );
-      }
+      clearTimeout(this.check);
+      const check = () => {
+        if (this.props.pathname === "/") {
+        } else if (this.props.pathname === "/polio") {
+          window.scroll(0, this.polio.current.offsetTop);
+        } else if (this.props.pathname === "/claims") {
+          window.scroll(0, this.walter.current.offsetTop);
+        } else if (this.props.pathname === "/walter") {
+          window.scroll(0, this.claims.current.offsetTop);
+        } else if (this.props.pathname === "/jury") {
+          this.setState(
+            {
+              juryPermitting: true
+            },
+            () => window.scroll(0, this.jury.current.offsetTop)
+          );
+        }
+      };
+      check();
+      this.check = setTimeout(check, 2000);
     }
   };
   render() {
@@ -134,6 +143,15 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          How can you say someone passes covid if you cannot prove taxonomy nor
+          vivo without retroactive vitro or mitosis. “I’m a retired nurse, I
+          think it is the flu, that is my opinion.”
+          <br />
+          <br />
+          <a href="https://humanharvest.info/walter">Mary Walter</a>: "Is it
+          HIPAA violation? I don’t know. The government has a right to your
+          medical records.” Not even data sets allow cross compilation based on
+          PII.
           <Cable
             onError={handleScollImgError}
             //img={true}
@@ -1139,6 +1157,7 @@ export default class App extends React.Component {
           today,&nbsp;<a href="https://humanharvest.info">by numbers</a>.
           <br />
           <br />
+          <hr ref={this.walter} />
           The vaccinated shed the dead virus debris before the antibodies clean
           it from blood clotting-prone.
           <br />
