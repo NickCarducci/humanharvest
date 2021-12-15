@@ -1080,6 +1080,35 @@ export default class App extends React.Component {
           chain reaction
           <br />
           <br />
+          Non-voters is a voter, "no," to boot, ideological duress of two
+          debt-spending wall st pharma cop spending.
+          <br />
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.serviceCancelingImages
+                ? ""
+                : "https://drive.google.com/file/d/1nBpx82QjQ_pxdviqjpTeUJqP--sdWmvk/preview"
+            }
+            float="left"
+            title="National Report (Newsmax) - Dr. Evan 'SaveFace' Levine"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 83]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “The vaccinated don’t even get a cold-like illness,” you are testing
+          asymptomatically, I’m not surprised the uncleared virus is there. Test
+          with symptomatic method like we usually do, and you’ll find covid
+          isn’t significant among the illness cases to begin with.
+          <br />
+          Polio never went away, just the testing and non-exclusive byproduct of
+          the acute flaccid paralysis class did, and paralytic matches ms
+          today,&nbsp;<a href="https://humanharvest.info">by numbers</a>.
+          <br />
+          <br />
           <Cable
             style={{
               width: "400px",
