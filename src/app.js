@@ -300,6 +300,15 @@ export default class App extends React.Component {
           infection worse to get rid of it.”
           <br />
           <br />
+          “Mass psychosis no limit to the absurdity of the solution.” Dr. Peter
+          A. McCullough.
+          <br />
+          “‘You need to take it, or else you will get everyone else sick,’ but
+          that doesn’t really make sense,” Joe Rogan.
+          <br />
+          "There goes our case."
+          <br />
+          <br />
           Greg Kelly, market-communist, GOP libertarian: “When did government do
           big things, I remember when gov did things we really cared about.
           Remember JFK: None would be so difficult for space exploration, nor
