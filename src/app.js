@@ -1129,6 +1129,23 @@ export default class App extends React.Component {
           today,&nbsp;<a href="https://humanharvest.info">by numbers</a>.
           <br />
           <br />
+          The vaccinated shed the dead virus debris before the antibodies clean
+          it from blood clotting-prone.
+          <br />
+          "Vaccinated can spread covid, we know that is a fact. I have a family
+          member who is fully vaccinated and got covid, couldn't smell or taste
+          until two weeks later."
+          <br />
+          "Vaccinations make you sick, are you going to charge them?" Need
+          jury-science of various industry for rules that aren't made up nor
+          have reasonable doubt for voluntary trade without duress beyond
+          minimal viable product, desistation and conviction (Cause of Death).
+          <br />
+          <br />
+          Kroger uses this fraud to stop paid leave and charge more for health
+          insurance. Testing has been said to be random too
+          <br />
+          <br />
           <Cable
             style={{
               width: "400px",
