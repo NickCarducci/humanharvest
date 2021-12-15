@@ -21,6 +21,7 @@ export default class App extends React.Component {
       ios: name.includes("Safari"),
       iosNoPhoto: name.includes("Safari")
     };
+    this.pcr = React.createRef();
     this.walter = React.createRef();
     this.polio = React.createRef();
     this.claims = React.createRef();
@@ -91,6 +92,8 @@ export default class App extends React.Component {
           );
         } else if (this.props.pathname === "/walter") {
           window.scroll(0, this.walter.current.offsetTop);
+        } else if (this.props.pathname === "/testing") {
+          window.scroll(0, this.pcr.current.offsetTop);
         } else if (this.props.pathname === "/jury") {
           this.setState(
             {
@@ -148,6 +151,22 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Brian Kilmeade: "there is no indication of vitro retrospective is low
+          grade fever and a runny nose, of a non-exclusive&nbsp;
+          <a href="https://humanharvest.info/testing">artifact</a>."
+          <h2>
+            "If I don't wear a mask, I have to resign."
+            <span
+              style={{
+                fontSize: "9px"
+              }}
+            >
+              writing down $12k/year/p $3k/year/p $64/year/p new,&nbsp;
+              <a href="https://truncatedsalestax.com">
+                with Nick Carducci policies
+              </a>
+            </span>
+          </h2>
           How can you say someone passes covid if you cannot prove taxonomy nor
           vivo without retroactive vitro or mitosis. “I’m a retired nurse, I
           think it is the flu, that is my opinion.”
@@ -462,6 +481,7 @@ export default class App extends React.Component {
           rather than because of them?
           <br />
           <br />
+          <hr ref={this.pcr} />
           <Cable
             onError={handleScollImgError}
             //img={true}
