@@ -1188,6 +1188,22 @@ export default class App extends React.Component {
           insurance. Testing has been said to be random too
           <br />
           <br />
+          Polis: "1400, 200% vaccinated 400% unvaccinated," colorado Gov. Polis.
+          is that excess without population growth nor characteristics exogenous
+          you are using, you fucking retard? This isn't a crime that you aren't
+          fixing for without character witness as evidence, it is the reasonable
+          doubt side you are fixing for exogenous factors. Take a calc class.
+          <br />
+          "I agree that it is your fault, but should a business be able to
+          penalize you for that choice?" If it is caused/spread/transmitted by
+          people who produce it as artifact of being sick, by&nbsp;
+          <a href="https://www.nature.com/articles/d41586-019-00991-4">
+            bacterial-cause of virus
+          </a>
+          &nbsp;or not, it isn't our own fault. Your own words are admittance of
+          it being a smoking gun.
+          <br />
+          <br />
           <Cable
             style={{
               width: "400px",
