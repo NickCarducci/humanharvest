@@ -426,25 +426,26 @@ export default class App extends React.Component {
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
-          “High case rates, being labeled as high transmission without vivo
-          insemination of cell without bacteria nor mitosis,”
-          <br />
-          <br />
           <Cable
+            style={{ height: "300px" }}
             onError={handleScollImgError}
             //img={true}
             src={
               this.state.noyoutube
                 ? ""
-                : "https://drive.google.com/file/d/1INY7dX6f-DjCC2Mu4Hch_P0yKkV-JlFY/preview"
+                : "https://www.youtube.com/embed/m-CwPBcrMYQ"
             }
             float="right"
-            title="American Agenda (Newsmax) - Dr. Rich McCormmick "
+            title="Rudy Giuliani (77WABC) - "
             scrolling={this.state.scrolling}
-            fwd={this["scrollImg" + 71]}
+            fwd={this["scrollImg" + 82]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
+          “High case rates, being labeled as high transmission without vivo
+          insemination of cell without bacteria nor mitosis,”
+          <br />
+          <br />
           most asymptomatic cases of covid are not sick and most&nbsp;
           <a href="https://www.fda.gov/media/144245/download#page=42">
             similarly-sick
@@ -455,6 +456,21 @@ export default class App extends React.Component {
           thousands of possible virus to set for, and thousands more to miss
           each time. Yet you are just testing for non-exclusive artifact,
           retroactive-vitro byproduct, not vivo cause.
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1INY7dX6f-DjCC2Mu4Hch_P0yKkV-JlFY/preview"
+            }
+            float="left"
+            title="American Agenda (Newsmax) - Dr. Rich McCormmick "
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 71]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           <h2>
             Work deficit means of labor from labor, not social Comparative
             advantage tech advancement to perpetual utility maintainless.
@@ -523,10 +539,16 @@ export default class App extends React.Component {
           debate about whether masks work, who should have a vaccine, and not -
           it is really about who are we, what kind of society are we creating
           for OUR children [ew], do we really care about the freedoms that we
-          had before 2020. Now, I know old fucks about to die roll-their-eyes
-          when libertarians and savers promote 'civil liberties' with
-          full-hypocrisy of the Non-aggression-principal in contract law and
-          national security,
+          had before 2020.
+          <br />
+          <TwitterTweetEmbed
+            style={{ float: "left", width: "300px" }}
+            key="1428312309685002241"
+            tweetId="1428312309685002241"
+          />
+          Now, I know old fucks about to die roll-their-eyes when libertarians
+          and savers promote 'civil liberties' with full-hypocrisy of the
+          Non-aggression-principal in contract law and national security,
           {/**conservative and libertarians start talking about liberties and freedoms */}
           ,”
           <br />
