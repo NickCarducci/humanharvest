@@ -151,8 +151,13 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          "I dont know what the answer is, and I don't know why we cannot talk
-          about it."
+          Alex Berensen: "It reduces transmission hospitalization and death, but
+          once it runs off 6mo, and it isn't really clear what the affect on
+          hospitalization and deaths is. The data that isn't politicized shows
+          less confluence of PII vaccinations and hopsitalizations, with cases
+          based on symptom and all-inclusive symptomatic-cases. Why would you
+          charge unvaccinated the same as vaccinated? I dont know what the
+          answer is, and I don't know why we cannot talk about it."
           <br />
           <br />
           Brian Kilmeade: "there is no indication of vitro retrospective is low
