@@ -135,6 +135,26 @@ export default class App extends React.Component {
             2052.live
           </a>
           <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1ZCvZFgVbZnLiyxijnP3PEKgSzhqyJTXR/preview"
+            }
+            float="left"
+            title="National Report (Newsmax) - PA State senator Douglas Mastriano on"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 84]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          "<a href="https://humanharvest.info/polio">Every Death is Tragic</a>."
+          If your guy wants to deny the election on my mortality projections he
+          will have to for ppp trust building existing business.
+          <br />
+          <br />
+          <Cable
             style={{ height: "420px" }}
             onError={handleScollImgError}
             //img={true}
@@ -143,7 +163,7 @@ export default class App extends React.Component {
                 ? ""
                 : "https://drive.google.com/file/d/1NBMLsVabNUpr_BQX8fzgIJFvOB16euUS/preview"
             }
-            float="left"
+            float="right"
             title="Senate Dems (Facebook Live"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 80]}
@@ -163,7 +183,7 @@ export default class App extends React.Component {
                 ? ""
                 : "https://drive.google.com/file/d/1QA5fmAq9ppgAEzHf2aeNeo9OdRHA-QR4/preview"
             }
-            float="right"
+            float="left"
             title="Liberty Mutual says you can save on insurance by using insurance. insane. it is expiring collective loss, public or private!"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 78]}
@@ -183,7 +203,7 @@ export default class App extends React.Component {
                 ? ""
                 : "https://drive.google.com/file/d/1u1LSv7Z6mpxhuDTTKliQ6Rk2IdO_nfMr/preview"
             }
-            float="right"
+            float="left"
             title="Eric Bolling (The Balance,Newsmax) - 'antivaxxers are spreading variants' with Ron Johnson"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 77]}
@@ -213,7 +233,7 @@ export default class App extends React.Component {
                 ? ""
                 : "https://drive.google.com/file/d/1HVOCHHEcouFRjhxhQljWy6I3nPXBNsIU/preview"
             }
-            float="left"
+            float="right"
             title="Eric Bolling (The Balance,Newsmax) - 'antivaxxers are spreading variants' with Mike Braun"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 76]}
