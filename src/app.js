@@ -287,6 +287,31 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
+                : "https://drive.google.com/file/d/10KDHfLnJ0pAYLBCRsMVyCJ7OF9NFJ-iW/preview"
+            }
+            float="right"
+            title="Greg Kelly (Newsmax) - Facebook with Zuckerberg and Fauci"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 79]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          Fauci: “The first virus where the health is worse, need to make the
+          infection worse to get rid of it.”
+          <br />
+          <br />
+          Greg Kelly, market-communist, GOP libertarian: “When did government do
+          big things, I remember when gov did things we really cared about.
+          Remember JFK: None would be so difficult for space exploration, nor
+          expensive, to accomplish.'”
+          <br />
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
                 : "https://drive.google.com/file/d/1GOPZS5lyi0An2jyiKz2vlPfT0lipJFVV/preview"
             }
             float="right"
