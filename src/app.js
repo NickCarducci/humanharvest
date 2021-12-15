@@ -153,10 +153,9 @@ export default class App extends React.Component {
           think it is the flu, that is my opinion.”
           <br />
           <br />
-          <a href="https://humanharvest.info/walter">Mary Walter</a>: "Is it
-          HIPAA violation? I don’t know. The government has a right to your
-          medical records.” Not even data sets allow cross compilation based on
-          PII.
+          Mary Walter: "Is it HIPAA violation? I don’t know. The government has
+          a right to your medical records.” Not even data sets allow cross
+          compilation based on PII.
           <Cable
             onError={handleScollImgError}
             //img={true}
@@ -173,8 +172,11 @@ export default class App extends React.Component {
             scrollTop={this.state.scrollTop}
           />
           "<a href="https://humanharvest.info/polio">Every Death is Tragic</a>."
-          If your guy wants to deny the election on my mortality projections he
-          will have to for ppp trust building existing business.
+          If your guy wants to&nbsp;
+          <a href="https://humanharvest.info/walter">deny the election</a>
+          &nbsp;on my&nbsp;
+          <a href="https://thumbprint.us/voting">mortality projections</a>
+          &nbsp;he will have to for ppp trust building existing business.
           <br />
           <br />
           <Cable
@@ -405,7 +407,9 @@ export default class App extends React.Component {
           <br />
           <br />
           “They aren’t going to be Cheyney but populist nationalist debt
-          spending.” Amanda Devine.
+          spending and finance work deficit/
+          <a href="https://nationalsecuritycasino.com/trump">labor shortage</a>
+          .” Amanda Devine.
           <br />
           <br />
           “Every single working and non-working American is losing money because
