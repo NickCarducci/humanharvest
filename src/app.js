@@ -83,7 +83,12 @@ export default class App extends React.Component {
         } else if (this.props.pathname === "/polio") {
           window.scroll(0, this.polio.current.offsetTop);
         } else if (this.props.pathname === "/claims") {
-          window.scroll(0, this.claims.current.offsetTop);
+          this.setState(
+            {
+              insurance: true
+            },
+            () => window.scroll(0, this.claims.current.offsetTop)
+          );
         } else if (this.props.pathname === "/walter") {
           window.scroll(0, this.walter.current.offsetTop);
         } else if (this.props.pathname === "/jury") {
@@ -397,6 +402,10 @@ export default class App extends React.Component {
           run, in my party,” Nigel
           <br />“<a href="https://truncatedsalestax.com">Realignment</a>&nbsp;is
           possible.”
+          <br />
+          <br />
+          “They aren’t going to be Cheyney but populist nationalist debt
+          spending.” Amanda Devine.
           <br />
           <br />
           “Every single working and non-working American is losing money because
