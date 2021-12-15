@@ -83,9 +83,9 @@ export default class App extends React.Component {
         } else if (this.props.pathname === "/polio") {
           window.scroll(0, this.polio.current.offsetTop);
         } else if (this.props.pathname === "/claims") {
-          window.scroll(0, this.walter.current.offsetTop);
-        } else if (this.props.pathname === "/walter") {
           window.scroll(0, this.claims.current.offsetTop);
+        } else if (this.props.pathname === "/walter") {
+          window.scroll(0, this.walter.current.offsetTop);
         } else if (this.props.pathname === "/jury") {
           this.setState(
             {
@@ -96,7 +96,7 @@ export default class App extends React.Component {
         }
       };
       check();
-      this.check = setTimeout(check, 2000);
+      this.check = setTimeout(check, 4000);
     }
   };
   render() {
