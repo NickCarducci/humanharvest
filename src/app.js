@@ -151,11 +151,12 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          I'm an expert in statistics, and the disparity between "non-political"
-          testing in Israel because they have an all-inclusive regime for the
-          non-exclusive byproduct debris of bacterial-infection that is virions.
-          Do you honestly believe it is an evolutionary trait or do you think
-          the first taxonomy wise, just works.
+          I'm an expert in statistics, market history and propoganda. The
+          disparity between "non-political" testing in Israel because they have
+          an all-inclusive regime for the non-exclusive byproduct debris of
+          bacterial-infection that is virions. Do you honestly believe it is an
+          evolutionary trait or do you think the first taxonomy wise, just
+          works.
           <br />
           <br />
           Alex Berensen: "It reduces transmission hospitalization and death, but
