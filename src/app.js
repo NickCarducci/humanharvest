@@ -156,7 +156,31 @@ export default class App extends React.Component {
           an all-inclusive regime for the non-exclusive byproduct debris of
           bacterial-infection that is virions. Do you honestly believe it is an
           evolutionary trait or do you think the first taxonomy wise, just
-          works.
+          works. Try it in front of a duress minimal viable product
+          discriminatory multiple of&nbsp;
+          <a href="https://qr.ae/pGqBA8">
+            11/12 industry variable jury-science
+          </a>
+          .
+          <br />
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1YUWeaZraN8amYiHDTx53X6qhyX_m1fwq/preview"
+            }
+            float="left"
+            title="Stinchfield (Newsmax) - Bruce Blakeman Nassau County Executive Elect"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 85]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “Allow schools to make the medical determination, and allow students
+          to choose which school they want to go to.”
           <br />
           <br />
           Alex Berensen: "It reduces transmission hospitalization and death, but
@@ -1004,7 +1028,7 @@ export default class App extends React.Component {
                 : "https://www.youtube.com/embed/ZmUozfOPquk"
             }
             float="left"
-            title=""
+            title="Left vs Right (77WABC) - sundays 3-5pm Sliwa vs Hahn"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 57]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
