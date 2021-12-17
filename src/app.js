@@ -151,6 +151,38 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Learn how to count, retard. to quell over stagnation of hours worked
+          is retarded, you have productivity upside down. Why do you abject to
+          unions but not "America first," nationalism? The labor shortage is
+          from lender, landlord, insurer work deficit, boomers booming 56m/40m
+          10-year cohort 2020-2030 1.2m/yr+, or 75+ 2015-, then 40m legal 6m
+          illegal 3m/yr+ prohibited from trade.
+          <br />
+          <Cable
+            style={{ width: "100%", maxHeight: "50vw", height: "360px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1znQsvQFvmdIpIkkNfjw2vVAxKng9Mr8N/preview"
+            }
+            float="left"
+            title="Eric Bolling (Newsmax) - Doesn't know how to count mortality of significance"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 86]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          "Helps big companies when government spends on free rider mutable
+          things, for free, that costs the government a lot of money like a
+          business loop," Eric Bolling to Jason Miller. "Lockdowns, shutdowns,
+          things that stagnate the company."
+          <br />
+          "They think you have to take the vaccines, because it will help you,
+          but don't want to give credit for Trump."
+          <br />
+          <br />
           I'm an expert in statistics, market history and propoganda. The
           disparity between "non-political" testing in Israel because they have
           an all-inclusive regime for the non-exclusive byproduct debris of
