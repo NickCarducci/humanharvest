@@ -151,6 +151,15 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          “I am not vaxxed, with antibodies though, and I didn’t get sick!” That
+          is called a null hypothesis, grant. It is a byproduct of
+          bacterial-infection. It isn’t an evolutionary trait nor does it have
+          taxonomy beyond the cell. It is dead cellular debris, of non-exclusive
+          warning mechanism artifact. Symptomatic testing would be an all
+          inclusive testing regime for the TRUE cause and the TRUE pigeonhole to
+          prevent
+          <br />
+          <br />
           Learn how to count, retard. to quell over stagnation of hours worked
           is retarded, you have productivity upside down. Why do you abject to
           unions but not "America first," nationalism? The labor shortage is
