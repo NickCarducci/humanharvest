@@ -159,14 +159,20 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          unamortized savings, estimates as property and expiring claims
-          <br />
-          <br />
+          unamortized savings,&nbsp;
+          <a href="https://www.njconsumeraffairs.gov/statutes/consumer-fraud-act.pdf">
+            estimates as property
+          </a>
+          &nbsp;and expiring claims
+          <h2>
+            healthcare banking&nbsp;&bull;&nbsp;
+            <a href="https://truncatedsalestax.com">rollover insurance</a>
+          </h2>
           job recruiters have wasted days of my time,&nbsp;
           <a href="https://teapharmacy.party/drugs">I smoke</a>, get over it.
           <br />
           <br />
-          NJ 101.5: “There was no flu season during covid because people were
+          NJ 101.5: “There was no&nbsp;<a href="https://humanharvest.info/polio">flu season</a>&nbsp;during covid because people were
           masked up.”
           <Cable
             style={{ width: "100%", maxHeight: "50vw", height: "360px" }}
