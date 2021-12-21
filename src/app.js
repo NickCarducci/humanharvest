@@ -172,8 +172,9 @@ export default class App extends React.Component {
           <a href="https://teapharmacy.party/drugs">I smoke</a>, get over it.
           <br />
           <br />
-          NJ 101.5: “There was no&nbsp;<a href="https://humanharvest.info/polio">flu season</a>&nbsp;during covid because people were
-          masked up.”
+          NJ 101.5: “There was no&nbsp;
+          <a href="https://humanharvest.info/polio">flu season</a>&nbsp;during
+          covid because people were masked up.”
           <Cable
             style={{ width: "100%", maxHeight: "50vw", height: "360px" }}
             onError={handleScollImgError}
@@ -194,6 +195,9 @@ export default class App extends React.Component {
             "Conservatives," front running&nbsp;
             <a href="https://saverparty.xyz">free rider mutable</a>&nbsp;demand
           </h2>
+          useless price inelasticity bid-to-ask of&nbsp;
+          <a href="https://bankingisnot.biz">third party</a>. Competing with
+          consumers
           <Cable
             style={{ height: "260px" }}
             onError={handleScollImgError}
