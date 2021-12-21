@@ -159,8 +159,42 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          job recruiters have wasted days of my time,&nbsp;
+          <a href="https://teapharmacy.party/drugs">I smoke</a>, get over it.
+          <h2>"Conservatives," front running free rider mutable demand</h2>
+          <Cable
+            style={{ height: "260px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1oToEfTSFhtfyhphrnL9e_ndPh-695iNy/preview"
+            }
+            float="left"
+            title="National Report (Newsmax) - Blaise Ingoglia on covid and tt Gotleib monoclonal antibodies"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 87]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          Just count 5% of suspected cases hospitalized and say, "This president
+          has failed, again and again. Death and hospitlization for the
+          unvaccinated."
+          <br />
+          <br />
+          <a href="https://youtu.be/Weqb9KrQ-TU?t=21">bacterial-illness</a>
+          &nbsp;warning mechanism antiviral pipeline water monoclonal antibodies
+          - omicron.
+          <br />
+          <br />
           Placebo strong, killed my grandparents' friends. They went out holding
           hands with morbidities. They were like, "I guess now."
+          <br />
+          <br />
+          Bo Snerdley: " ...How about the people that you lost, for how long
+          they were in your life." Only 5% of suspected cases and less than
+          expected total deaths from population growth alone.
           <br />
           <br />
           “I am not vaxxed, with antibodies though, and I didn’t get sick!” That
