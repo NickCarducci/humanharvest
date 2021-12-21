@@ -162,6 +162,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "'The danger the unvaccinated face is urgent and very real.'" Wolf
+          Blitzer.
+          <br />
+          <br />
           7k/day cases in nj is not "spread at that rate before," because it is
           5% symptomatic and we have never tested asymptomatic; also, prevalence
           does not cuase make. Evolution goes from bacteria to cell to virion.
