@@ -125,6 +125,7 @@ export default class App extends React.Component {
     return (
       <div
         style={{
+          overflowX: "hidden",
           margin: "0px",
           color: "rgb(230,230,255)",
           width: "100%",
@@ -161,6 +162,37 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          discrimination for evidence by the discredited, and masks don't work
+          because&nbsp;<a href="https://moldmask.co">heat/density rises</a>, and
+          bacteria is in your sneeze which must be released.
+          <br />
+          <br />
+          Is there a mandate that you would shoot him in the face? We could do
+          it over tea, you need to have jury permits.
+          <br />
+          <br />
+          <Cable
+            style={{ width: "100%", maxHeight: "50vw", height: "360px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1aQY2oZQbqEz9lgn7wVr7jleJnVTe3w5T/preview"
+            }
+            float="left"
+            title="Phil Murphy (Facebook) - healthcare banking"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 89]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          15% evidence higher in unvaxxed groups, so we do have evidence it
+          saves lives,” not if you are counting 5% of cases, it sounds like a
+          non-exclusive byproduct warning mechanism, not an all-inclusive
+          artifact.
+          <br />
+          <br />
           “China is going to pay a big price, they brought this virus to the
           world.” “There was no one’s fault that this virus his this country.”
           <br />
