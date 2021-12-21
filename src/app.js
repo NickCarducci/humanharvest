@@ -172,6 +172,14 @@ export default class App extends React.Component {
           <a href="https://teapharmacy.party/drugs">I smoke</a>, get over it.
           <br />
           <br />
+          Only 5% of suspected cases and less than expected total deaths from
+          population growth alone. "
+          <a href="https://youtu.be/Weqb9KrQ-TU?t=21">
+            Virion injects DNA into cell
+          </a>
+          ," is made up.
+          <br />
+          <br />
           NJ 101.5: “There was no&nbsp;
           <a href="https://humanharvest.info/polio">flu season</a>&nbsp;during
           covid because people were masked up.”
@@ -214,9 +222,14 @@ export default class App extends React.Component {
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
-          Just count 5% of suspected cases hospitalized and say, "This president
-          has failed, again and again. Death and hospitlization for the
-          unvaccinated."
+          Just count 5% of&nbsp;
+          <a href="https://www.fda.gov/media/144245/download#page=42">
+            suspected
+          </a>
+          &nbsp;cases&nbsp;
+          <a href="https://humanharvest.info/polio">hospitalized</a>&nbsp;and
+          say, "This president has failed, again and again. Death and
+          hospitlization for the unvaccinated."
           <br />
           <br />
           <a href="https://youtu.be/Weqb9KrQ-TU?t=21">bacterial-illness</a>
@@ -231,6 +244,11 @@ export default class App extends React.Component {
           Bo Snerdley: " ...How about the people that you lost, for how long
           they were in your life." Only 5% of suspected cases and less than
           expected total deaths from population growth alone.
+          <br />
+          <br />
+          “China is going to pay a big price, they brought this virus to the
+          world.” Kamala responds to Trump, “There was no one’s fault that this
+          virus his this country.”
           <br />
           <br />
           Far right after military quitting after forced vaxx beyond
