@@ -165,7 +165,10 @@ export default class App extends React.Component {
           <br />
           NJ 101.5: “There was no flu season during covid because people were
           masked up.”
-          <h2>"Conservatives," front running free rider mutable demand</h2>
+          <h2>
+            "Conservatives," front running&nbsp;
+            <a href="https://saverparty.xyz">free rider mutable</a>&nbsp;demand
+          </h2>
           <Cable
             style={{ height: "260px" }}
             onError={handleScollImgError}
