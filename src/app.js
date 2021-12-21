@@ -159,12 +159,31 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          unamortized savings, estimates as property and expiring claims
+          <br />
+          <br />
           job recruiters have wasted days of my time,&nbsp;
           <a href="https://teapharmacy.party/drugs">I smoke</a>, get over it.
           <br />
           <br />
           NJ 101.5: “There was no flu season during covid because people were
           masked up.”
+          <Cable
+            style={{ width: "100%", maxHeight: "50vw", height: "360px" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.dl.dropboxusercontent.com/s/xk5lfqiw4k936e4/BeFunky-collage.png?dl=0"
+            }
+            float="left"
+            title="Phil Murphy (Facebook) - healthcare banking"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 88]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           <h2>
             "Conservatives," front running&nbsp;
             <a href="https://saverparty.xyz">free rider mutable</a>&nbsp;demand
