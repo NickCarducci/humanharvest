@@ -162,6 +162,14 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          7k/day cases in nj is not "spread at that rate before," because it is
+          5% symptomatic and we have never tested asymptomatic; also, prevalence
+          does not cuase make. Evolution goes from bacteria to cell to virion.
+          It only comes out, it doesn't, "require cell to&nbsp;
+          <a href="https://youtu.be/Weqb9KrQ-TU?t=21">replicate</a>&nbsp;by
+          injecting DNA in an instant."
+          <br />
+          <br />
           discrimination for evidence by the discredited, and masks don't work
           because&nbsp;<a href="https://moldmask.co">heat/density rises</a>, and
           bacteria is in your sneeze which must be released.
