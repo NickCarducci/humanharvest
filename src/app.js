@@ -166,6 +166,56 @@ export default class App extends React.Component {
           Blitzer.
           <br />
           <br />
+          "Almost everyone who died in the past many months are unvaccinated,
+          the dangerous misinformation on cable and social media has to stop."
+          <h2>
+            Let the kids earn wealth? homes, bonds, equities intermediate labor
+            not useless price inelasticity bid-to-ask bonds forever to be serfs
+            with your damned trade secrets and incorrect right answers. for
+            instance, GDP or gdp is productive, GDP/p does not isolate the cause
+            of inflation seeing oscillation and exponential growth 1800-1913,
+            1914-2020
+          </h2>
+          "Have to keep the schools open, even testing is being hoarded by
+          monopolies, and the government is malfeasant over the microeconomic
+          supply and demand assumption of self-regulations for price, quality
+          and permitted duress by minimal viable product
+          <span
+            style={{
+              color: "grey"
+            }}
+          >
+            , desistation by jury truth, or conviction by arresting officer
+            evidence or no jail nor bail
+          </span>
+          , setting up testing sites around the country doesn’t need to be
+          nationalized, it is free rider mutable.
+          <br />
+          You don’t need to 40% debt spending and 10-40% debt service
+          <br />
+          "Community centers, the banks, so they can get them tested, 'free.'"
+          Well, even corporate-profit/withheld-outlays tax from outside the
+          market is pure inflation, only when it is "
+          <a href="https://truncatedsalestax.com">free rider immutable</a>," is
+          it a bargain. We do not need to test asymptomatically, since it is
+          only 5% prevalent coronavirus among symptomatic significance, that
+          which is&nbsp;
+          <a href="https://humanharvest.info/polio">
+            insignificant deaths and hospitalizations year to year
+          </a>
+          , to boot. Excess deaths age standardized does not account for the
+          boomers life expectancy ago being beyond the WWII lull in population
+          growth, so 2010-2020 excess deaths and some&nbsp;
+          <a href="https://humanharvest.info/polio">sanitary conditions</a>
+          &nbsp; raising average lifetime, of record/as recorded by event.
+          <br />
+          "If you are with non vaccinated you are at higher risk of being
+          infected." It was in the room, Vivek Murthy, ass. Virus has never
+          been&nbsp;
+          <a href="https://youtu.be/Weqb9KrQ-TU?t=21">without bacteria</a>.
+          <br />
+          <br />
+          <br />
           7k/day cases in nj is not "spread at that rate before," because it is
           5% symptomatic and we have never tested asymptomatic; also, prevalence
           does not cuase make. Evolution goes from bacteria to cell to virion.
@@ -3581,7 +3631,10 @@ export default class App extends React.Component {
         permitted in duress for minimal viable product for voluntary trade
         <br />
         <br />
-        ms literally, "matches paralytic polio" in US numbers
+        ms literally, "matches paralytic polio" in&nbsp;
+        <a href="https://www.christopherreeve.org/living-with-paralysis/stats-about-paralysis">
+          US numbers
+        </a>
         {this.state.lastWidth && (
           <Polio lastWidth={Math.min(600, this.state.lastWidth)} />
         )}
