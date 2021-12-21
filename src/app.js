@@ -114,6 +114,14 @@ export default class App extends React.Component {
         this.setState({ serviceCancelingImages: true });
       }
     };
+    const buttonStyle = {
+      border: "1px solid black",
+      color: "black",
+      backgroundColor: "rgb(220,220,220)",
+      borderRadius: "15px",
+      padding: "15px",
+      margin: "10px"
+    };
     return (
       <div
         style={{
@@ -151,6 +159,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Placebo strong, killed my grandparents' friends. They went out holding
+          hands with morbidities. They were like, "I guess now."
+          <br />
+          <br />
           “I am not vaxxed, with antibodies though, and I didn’t get sick!” That
           is called a null hypothesis, grant. It is a byproduct of
           bacterial-infection. It isn’t an evolutionary trait nor does it have
@@ -1438,6 +1450,7 @@ export default class App extends React.Component {
           <br />
           <hr ref={this.claims} />
           <button
+            style={buttonStyle}
             onClick={(e) => {
               e.stopPropagation();
               this.setState({ insurance: !this.state.insurance });
@@ -1547,6 +1560,7 @@ export default class App extends React.Component {
           <br />
           <hr ref={this.jury} />
           <button
+            style={buttonStyle}
             onClick={(e) => {
               e.stopPropagation();
               this.setState({ juryPermitting: !this.state.juryPermitting });
@@ -2072,8 +2086,20 @@ export default class App extends React.Component {
             <br />
             "The first omicron case has arrived in the U.S. He is vaccinated, so
             he has no symptoms,"
-            <br />
-            <br />
+          </div>
+          <br />
+          <hr ref={this.lawsuits} />
+          <button
+            style={buttonStyle}
+            onClick={(e) => {
+              e.stopPropagation();
+              this.setState({ lawsuits: !this.state.lawsuits });
+            }}
+          >
+            <h3>lawsuits</h3>
+          </button>
+          <br />
+          <div style={{ display: this.state.lawsuits ? "block" : "none" }}>
             age-standardized excess deaths short 700k 1.2m/yr+ 75+ 2015-
             expected is not a "pandemic."
             <br />
@@ -2232,6 +2258,7 @@ export default class App extends React.Component {
           trait?
           <br />
           <button
+            style={buttonStyle}
             onClick={(e) => {
               e.stopPropagation();
               this.setState({ politics: !this.state.politics });
@@ -2888,6 +2915,7 @@ export default class App extends React.Component {
           taxonomy at all, like bacteria, and virus from cell.
           <br />
           <button
+            style={buttonStyle}
             onClick={(e) => {
               e.stopPropagation();
               this.setState({ science: !this.state.science });
@@ -3427,6 +3455,7 @@ export default class App extends React.Component {
           attacking your own cell with protein made from the grafted-mRNA*
           <br />
           <button
+            style={buttonStyle}
             onClick={(e) => {
               e.stopPropagation();
               this.setState({ fall2021: !this.state.fall2021 });
@@ -4114,6 +4143,7 @@ export default class App extends React.Component {
           </div>
           <br />
           <button
+            style={buttonStyle}
             onClick={(e) => {
               e.stopPropagation();
               this.setState({ springsummer2021: !this.state.springsummer2021 });
@@ -4436,6 +4466,7 @@ export default class App extends React.Component {
           </div>
           <br />
           <button
+            style={buttonStyle}
             onClick={(e) => {
               e.stopPropagation();
               this.setState({ late2020: !this.state.late2020 });
