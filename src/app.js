@@ -161,6 +161,10 @@ export default class App extends React.Component {
           </a>
           job recruiters have wasted days of my time,&nbsp;
           <a href="https://teapharmacy.party/drugs">I smoke</a>, get over it.
+          <br />
+          <br />
+          NJ 101.5: “There was no flu season during covid because people were
+          masked up.”
           <h2>"Conservatives," front running free rider mutable demand</h2>
           <Cable
             style={{ height: "260px" }}
@@ -195,6 +199,21 @@ export default class App extends React.Component {
           Bo Snerdley: " ...How about the people that you lost, for how long
           they were in your life." Only 5% of suspected cases and less than
           expected total deaths from population growth alone.
+          <br />
+          <br />
+          Far right after military quitting after forced vaxx beyond
+          industry-variable multiple of 11/12 jury for permit as would be
+          required for desistation of jury truth and conviction with arresting
+          officer evidence or no bail nor jail
+          <br />
+          “Testing everyone for covid, it is like a checkerboard, everyone is
+          getting it. I would even finance the test I couldn’t care less,” Tom
+          (nj 101.5), military drill sergeant in San Diego, “ I don’t want
+          people to get sick, just stay home.” The equal prevalence of
+          all-“cause” does not cause, make. Is in the room. “All high end
+          people, let them test and knock this thing out, no problem. Take it at
+          home, I don’t take a dime, I don’t want to take anything from these
+          people.”
           <br />
           <br />
           “I am not vaxxed, with antibodies though, and I didn’t get sick!” That
