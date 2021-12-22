@@ -200,13 +200,15 @@ export default class App extends React.Component {
           $12k/year/p) that will continue during the need of the covid pandemic
           (not a pandemic with insignificant deaths and hospitalizations year to
           year). jobs and transit system $100b for climate, take what you can
-          get, it is so important,” free rider mutable brought forward demand is
-          always a useless price inelasticity unless rolls over. "Ccc so
-          important for low income families their additional $1.6t/mo,
-          laundering to bonds, now only possibly getting $2t Executive order
-          $1.8t ccc Manchin into law (parental-trust-building, illegal as was
-          ppp for existing biz and bbb is for government contractors free rider
-          mutable beyond article 4 and debt service 10-40%, 40-50% debt
+          get, it is so important (to decide what the consumer wants? target
+          margin consumer surrogate instead of nationalizing everything
+          afro-tool! Jiggering profits loose from labor),” free rider mutable
+          brought forward demand is always a useless price inelasticity unless
+          rolls over. "Ccc so important for low income families their additional
+          $1.6t/mo, laundering to bonds, now only possibly getting $2t Executive
+          order $1.8t ccc Manchin into law (parental-trust-building, illegal as
+          was ppp for existing biz and bbb is for government contractors free
+          rider mutable beyond article 4 and debt service 10-40%, 40-50% debt
           spending, useless price inelasticity for the same intermediate labor
           and material resource depositary, non-concurrentable being doctors and
           mechanic hours, scripts being as prohibitive to entry as unions and
