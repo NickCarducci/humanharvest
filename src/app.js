@@ -171,8 +171,8 @@ export default class App extends React.Component {
           harder time than euros, do you believe that? What is it about
           criminals that fascinates the american public? 46m overseas here on
           our soil 14% foregin born 2020-2021 more than 2m, usually 1m, 60%
-          hispanic 615m(FL) 471m(CA) 473m(WI) 156(_) 135(VA). enormous amount of
-          money," but there is labor competition... we need to level out the
+          hispanic 615k(FL) 471k(CA) 473k(WI) 156k(_) 135k(VA). enormous amount
+          of money," but there is labor competition... we need to level out the
           lender landlord insurer work deficit 40 million antivaxxers.
           <br />
           80% were black," WWII immigration births&nbsp;
