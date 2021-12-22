@@ -19,7 +19,7 @@ class Cable extends React.Component {
           scrollTopAndHeight - page.offsetTop > -1000;
         if (!continuee) continuee = cache;
         this.setState({ cache: continuee, between }, () => {
-          if (!between) return continuee.remove();
+          if (!between && continuee) return continuee.remove();
           if (page.children[0] !== this.state.cache)
             page.appendChild(this.state.cache);
         });
