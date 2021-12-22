@@ -201,8 +201,11 @@ export default class App extends React.Component {
           "Typical symptoms of cold and flu, but you give it a name, omicron,
           and suddenly it becomes, 'really serious and it is bad,’” yes, and it
           is only about ten PCR can test for being 5% of all-prevalence,
-          insignificant aggregate deaths and hospitalizations on time and packed
-          because the bacterial-season of all cause and non-exclusive all
+          insignificant aggregate deaths and hospitalizations on time and&nbsp;
+          <a href="https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=GB">
+            packed
+          </a>
+          &nbsp; because the bacterial-season of all cause and non-exclusive all
           prevalence, numbers jumped because of&nbsp;
           <a href="https://www.census.gov/library/stories/2017/10/aging-boomers-deaths.html">
             1940-1949 lull in global population making
