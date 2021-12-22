@@ -167,6 +167,18 @@ export default class App extends React.Component {
           D614G, would stop warning mechanism. Dr. Hashish Jah.
           <br />
           <br />
+          "Almost all fentanyl deaths match Vietnam war loss (120k)?" Same with
+          missing children from repeat citizen offenders. We can have login.gov
+          convict intranet. Cheldam races virus raging thru care homes, members
+          of minority communities, and until medical experts got vaccines thst
+          worked, we were working towards the worst death rate in Europe." Dame
+          Esther Rantzen,&nbsp;
+          <a href="https://humanharvest.info/polio">
+            50m/yr+ worldwide short still
+          </a>
+          .
+          <br />
+          <br />
           "...more fentanyl at the first of this year that 2020, afros have a
           harder time than euros, do you believe that? What is it about
           criminals that fascinates the american public? 46m overseas here on
@@ -175,17 +187,67 @@ export default class App extends React.Component {
           of money," but there is labor competition... we need to level out the
           lender landlord insurer work deficit 40 million antivaxxers.
           <br />
-          80% were black," WWII immigration births&nbsp;
+          "80% were black," WWII immigration births&nbsp;
           <a href="https://humanharvest.info/polio">by race</a>
           <br />“
           <a href="https://www.cdc.gov/nchs/data/statab/t001x01.pdf#page=2">
             It is blacks killing blacks
           </a>
-          ,” Reilly
+          ,” O'Reilly
           <br />
           “National guard cannot arrest, but can detain, charge with
           racketeering crimes of hometown malfeasance." Never gonna stop until
           scripts aren’t for anyone, accross the board. Straight currency.
+          <br />
+          <br />
+          <Cable
+            style={{ height: "420px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1R3VZQUhFZz35_pN77aaX8UlUkFrYDh7d/preview"
+            }
+            float="left"
+            title="Dan Whooton (GBNews) - government science no jury industry variable 11/12"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 90]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “Omicron is like a natural&nbsp;
+          <a href="https://www.mayoclinic.org/coronavirus-covid-19/vaccine-tracker">
+            vaccine
+          </a>
+          , all&nbsp;
+          <a href="https://link.springer.com/article/10.1007/s00259-021-05314-2">
+            vulnerable
+          </a>
+          &nbsp;people have vaccine in that way, everyone else should be
+          welcoming omicron variant as a natural vaccine, certainly stronger
+          than any attenuated one in a lab.” We haven’t even seen without.
+          bacteria. And if that weren’t the case, just because I am not tested
+          doesn’t mean what actually is just garbage collection didn’t already
+          occur.
+          <br />
+          <br />
+          "Not looking at evidence, investing their own evidence inventing their
+          own evidence Frasier Nelson’s Spectator piece, ‘modelers being asked
+          to model for certain situation not looking for the best and worst case
+          scenario they are looking for a specific answer to a question posed to
+          them by the government to back up their restrictions saveface."
+          <br />
+          <br />
+          "Stop new variants coming forward, origins of the virus, extent to
+          when it was discovered, very mind, but responsibility to humanity to
+          speak on it. Lives and business at risk for not allowing this
+          discussion."
+          <br />
+          "No border closures, you actually cause human tragedy and economic
+          devastation, especially for the third world, not a hermit country.
+          ignored but can kill off the hospitality is dying anyway, west end
+          pubs are dying, a real trajedy."
           <br />
           <br />
           Vaccines do not prevent death, polio, pneumonia influenza covid,
