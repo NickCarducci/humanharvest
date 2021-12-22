@@ -162,6 +162,11 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "...incentives, of saver's money beyond article 4, virus knows no
+          boundaries, chasing our tails!" Smerconish. 200k delta wave, 500k is
+          D614G, would stop warning mechanism. Dr. Hashish Jah.
+          <br />
+          <br />
           Less of a response than unvaccinated, statistically, is only because
           you look for 5% of suspected cases being coronavirus.
           <br />
