@@ -276,7 +276,7 @@ export default class App extends React.Component {
                 : "https://drive.google.com/file/d/1R3VZQUhFZz35_pN77aaX8UlUkFrYDh7d/preview"
             }
             float="left"
-            title="Dan Whooton (GBNews) - government science no jury industry variable 11/12"
+            title="Dan Whooton (GBNews) - government science no jury industry variable 11/12 (Calvin Robertson speaking)"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + 90]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
@@ -306,7 +306,7 @@ export default class App extends React.Component {
           <br />
           <br />
           "Stop new variants coming forward, origins of the virus, extent to
-          when it was discovered, very mind, but responsibility to humanity to
+          when it was discovered, very mild, but responsibility to humanity to
           speak on it. Lives and business at risk for not allowing this
           discussion."
           <br />
