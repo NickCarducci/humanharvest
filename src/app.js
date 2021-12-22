@@ -185,6 +185,29 @@ export default class App extends React.Component {
             very different than a year ago
           </a>
           .”
+          <h2>
+            ad council counts prevalence of common smokers of marijuana as cause
+            of accidence, with matching its basis.
+          </h2>
+          half accidents are high because half people smoke.
+          <br />
+          <br />
+          "Breatherlizer, seatbests, sensible safeguards, not safe drivers,
+          accident free. ...Every once in awhile get asymptomatic virus, not
+          flu, spread thru people with no symptoms at all.” Host stops, "and is
+          becoming flu now, right Esther, it's becoming just like a bad cold
+          now.”
+          <br />
+          "Typical symptoms of cold and flu, but you give it a name, omicron,
+          and suddenly it becomes, 'really serious and it is bad,’” yes, and it
+          is only about ten PCR can test for being 5% of all-prevalence,
+          insignificant aggregate deaths and hospitalizations on time and packed
+          because the bacterial-season of all cause and non-exclusive all
+          prevalence, numbers jumped because of&nbsp;
+          <a href="https://www.census.gov/library/stories/2017/10/aging-boomers-deaths.html">
+            1940-1949 lull in global population making
+          </a>
+          .
           <br />
           <br />
           "...more fentanyl at the first of this year that 2020, afros have a
