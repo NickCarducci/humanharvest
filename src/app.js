@@ -179,6 +179,38 @@ export default class App extends React.Component {
           .
           <br />
           <br />
+          <Cable
+            style={{ width: "100%", maxHeight: "50vw", height: "360px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1wh_0SAtcVIbM7w3Zo-6XH6DgJ6QIXcxY/preview"
+            }
+            float="left"
+            title="Dan Whooton (GBNews) - Darren Grimes on getting rid of 'non-crime, hate incidental victimizations for feelings'"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 91]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “Police shouldn’t police tweets, but police the streets,”
+          <br />
+          <br />
+          Fines beyond article 4 no jury truth desistation, arresting officer
+          evidence or no bail nor jail, state victimization fines beyond outlay
+          <br />
+          <br />
+          you may need experience with accounting to understand, but your post
+          is exactly about this…. So…. Estimates aren’t property, but NJ
+          Consumer Fraud Act treats them as such in precedence. I am building
+          software to make itemized sprints easier, for contractors and clients.
+          The precedence is illegal, estimates aren’t property. We should be
+          able to take another bid if you don’t want to finish the job, as the
+          job goes over budget.
+          <br />
+          <br />
           James Melville: “Not modeling model science but data science, 5% of
           hospital beds are full of covid patients, save as in august,&nbsp;
           <a href="https://www.fda.gov/media/144245/download#page=42">
