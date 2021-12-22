@@ -167,6 +167,27 @@ export default class App extends React.Component {
           D614G, would stop warning mechanism. Dr. Hashish Jah.
           <br />
           <br />
+          "...more fentanyl at the first of this year that 2020, afros have a
+          harder time than euros, do you believe that? What is it about
+          criminals that fascinates the american public? 46m overseas here on
+          our soil 14% foregin born 2020-2021 more than 2m, usually 1m, 60%
+          hispanic 615m(FL) 471m(CA) 473m(WI) 156(_) 135(VA). enormous amount of
+          money," but there is labor competition... we need to level out the
+          lender landlord insurer work deficit 40 million antivaxxers.
+          <br />
+          80% were black," WWII immigration births&nbsp;
+          <a href="https://humanharvest.info/polio">by race</a>
+          <br />“
+          <a href="https://www.cdc.gov/nchs/data/statab/t001x01.pdf#page=2">
+            It is blacks killing blacks
+          </a>
+          ,” Reilly
+          <br />
+          “National guard cannot arrest, but can detain, charge with
+          racketeering crimes of hometown malfeasance." Never gonna stop until
+          scripts aren’t for anyone, accross the board. Straight currency.
+          <br />
+          <br />
           Vaccines do not prevent death, polio, pneumonia influenza covid,
           smallpox. Vaccines do not save lives, o-zone layer notwithstanding.
           "...medical science says, no dispute about that, the other opinion is
