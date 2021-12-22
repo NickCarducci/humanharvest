@@ -179,6 +179,14 @@ export default class App extends React.Component {
           .
           <br />
           <br />
+          James Melville: “Not modeling model science but data science, 5% of
+          hospital beds are full of covid patients, save as in august,&nbsp;
+          <a href="https://www.fda.gov/media/144245/download#page=42">
+            very different than a year ago
+          </a>
+          .”
+          <br />
+          <br />
           "...more fentanyl at the first of this year that 2020, afros have a
           harder time than euros, do you believe that? What is it about
           criminals that fascinates the american public? 46m overseas here on
