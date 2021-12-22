@@ -167,6 +167,28 @@ export default class App extends React.Component {
           D614G, would stop warning mechanism. Dr. Hashish Jah.
           <br />
           <br />
+          Vaccines do not prevent death, polio, pneumonia influenza covid,
+          smallpox. Vaccines do not save lives, o-zone layer notwithstanding.
+          "...medical science says, no dispute about that, the other opinion is
+          not invalidated, you can go up against the medical science if you
+          want, look - the vaccine we designed in 9 mos saved millions of lives.
+          others don't beleive that, but they have that right. ...I want to hear
+          what the antivaxxers have to say, but not a coject argument that
+          swaded by idea from the vaccine, always goes to the conspiratorial
+          area, I am just not a conspiracy guy. 829k dead 52m 37% cases
+          omnicron. so those are the latest stats, government cannot stop this,
+          we will have to play with our own. Cannot overthrow the&nbsp;
+          <a href="https://thumbprint.us/payments">
+            government treason charged
+          </a>
+          , cannot like for nazi or extremist. ...Makes people think big right
+          wing&nbsp;
+          <a href="https://nationalsecuritycasino.com/gdp">
+            nazi sources about to swoop in
+          </a>
+          . Nah"
+          <br />
+          <br />
           Less of a response than unvaccinated, statistically, is only because
           you look for 5% of suspected cases being coronavirus.
           <br />
