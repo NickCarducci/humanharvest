@@ -191,6 +191,41 @@ export default class App extends React.Component {
           , setting up testing sites around the country doesn’t need to be
           nationalized, it is free rider mutable.
           <br />
+          <br />
+          "Covid Recovery Bill Saved the economy, Stood up public health
+          infrastructure (after a century of expiring claims you want to instead
+          of banning invoices and non-rollover insurance, nationalize the
+          invoices for bond-index-fund boomer work deficit? They had their whole
+          lives to save in checking $64/year/p, not bonds $3k/year/p, nor debt
+          $12k/year/p) that will continue during the need of the covid pandemic
+          (not a pandemic with insignificant deaths and hospitalizations year to
+          year). jobs and transit system $100b for climate, take what you can
+          get, it is so important,” free rider mutable brought forward demand is
+          always a useless price inelasticity unless rolls over. "Ccc so
+          important for low income families their additional $1.6t/mo,
+          laundering to bonds, now only possibly getting $2t Executive order
+          $1.8t ccc Manchin into law (parental-trust-building, illegal as was
+          ppp for existing biz and bbb is for government contractors free rider
+          mutable beyond article 4 and debt service 10-40%, 40-50% debt
+          spending, useless price inelasticity for the same intermediate labor
+          and material resource depositary, non-concurrentable being doctors and
+          mechanic hours, scripts being as prohibitive to entry as unions and
+          immigration laws, and therefore, comparative advantage tech
+          advancement per hour price deflation productivity from hours
+          constituting all demand)."
+          <br />
+          "Benefits constituents of West Virginia, measured by unamortized
+          monthly savings making lender landlord insurer work deficit," actually
+          raising housing costs. Hakeem Jefferies, counts hours worked as
+          productive. Burn in Hell uncle tom, gentrification with HUD retard
+          slave driver fox! We are not serfs! We do not care about unamortized
+          poverty, we care about how easy lender landlord and insurers with free
+          rider mutable government intervention rent-seeks, but that is only 1/3
+          of all debt, public and private, still loitering and laundering third
+          party donee beneficiary surrendered force majeure implausiblly
+          deniable surrendered by another. We need not laborless-demand!
+          <br />
+          <br />
           You don’t need to 40% debt spending and 10-40% debt service
           <br />
           "Community centers, the banks, so they can get them tested, 'free.'"
