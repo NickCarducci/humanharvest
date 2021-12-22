@@ -162,6 +162,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Less of a response than unvaccinated, statistically, is only because
+          you look for 5% of suspected cases being coronavirus.
+          <br />
+          <br />
           "'The danger the unvaccinated face is urgent and very real.'" Wolf
           Blitzer.
           <br />
@@ -260,8 +264,17 @@ export default class App extends React.Component {
           been&nbsp;
           <a href="https://youtu.be/Weqb9KrQ-TU?t=21">without bacteria</a>.
           <br />
-          <br />
-          <br />
+          <h2>
+            I projected this mortality in 2015 from population growth alone. In
+            fact, we are still short what we expect from birth-death life
+            expectancy ago
+            <br />
+            <br />
+            Do you honestly thiinkk it is an evolutionary trait if it, “requires
+            cell to replicate?” I want vivo proof it isn’t non-exclusive
+            byproduct-bacterial-infection for that virion as debris does not
+            all-inclusive cause, make.
+          </h2>
           7k/day cases in nj is not "spread at that rate before," because it is
           5% symptomatic and we have never tested asymptomatic; also, prevalence
           does not cuase make. Evolution goes from bacteria to cell to virion.
