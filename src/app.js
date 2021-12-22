@@ -215,7 +215,16 @@ export default class App extends React.Component {
           immigration laws, and therefore, comparative advantage tech
           advancement per hour price deflation productivity from hours
           constituting all demand)."
-          <br />
+          <h2>
+            Need a permit with jury as would for desistation and conviction. If
+            evidence were presented in court, it wouldn’t fly.
+            <br />
+            Duress beyond minimal viable product is not Tranquil society nor
+            voluntary trade; population growth alone expected more deaths than
+            covid produced, although how can virus be the cause if it requires
+            the first cell to start, and has no taxonomy other than cell, while
+            cell taxonomy is bacteria. Only amongst bacteria is virus made.
+          </h2>
           "Benefits constituents of West Virginia, measured by unamortized
           monthly savings making lender landlord insurer work deficit," actually
           raising housing costs. Hakeem Jefferies, counts hours worked as
