@@ -167,8 +167,11 @@ export default class App extends React.Component {
           D614G, would stop warning mechanism. Dr. Hashish Jah.
           <br />
           <br />
+          Get married for alimony? fuck off. I'll pay up front
+          <br />
+          <br />
           <Cable
-            style={{ width: "100%",  }}
+            style={{ width: "100%" }}
             onError={handleScollImgError}
             //img={true}
             src={
@@ -5518,4 +5521,3 @@ export default class App extends React.Component {
     );
   }
 }
-
