@@ -167,6 +167,22 @@ export default class App extends React.Component {
           D614G, would stop warning mechanism. Dr. Hashish Jah.
           <br />
           <br />
+          <Cable
+            style={{ width: "100%",  }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1ughBXkwDj9mnMVsQRdOZ36DGUHxLexb5/preview"
+            }
+            float="left"
+            title="https://covid19.quora.com/"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + 92]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           "Almost all fentanyl deaths match Vietnam war loss (120k)?" Same with
           missing children from repeat citizen offenders. We can have login.gov
           convict intranet. Cheldam races virus raging thru care homes, members
@@ -5502,3 +5518,4 @@ export default class App extends React.Component {
     );
   }
 }
+
