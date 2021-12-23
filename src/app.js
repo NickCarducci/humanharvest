@@ -142,7 +142,6 @@ export default class App extends React.Component {
             padding: "4px",
             wordBreak: "break-word",
             textAlign: "left",
-
             maxWidth: "600px",
             position: "relative"
           }}
@@ -172,7 +171,10 @@ export default class App extends React.Component {
           <br />
           <br />
           Get married for alimony? fuck off. I'll pay up front. Alimony brought
-          forward will because breadwinner can divorce, unilaterally? No…
+          forward will because breadwinner can divorce, unilaterally? No… Once
+          family, always family. Unless there is unilateral decision, just
+          because money is involved doesn't mean it cannot start, but once
+          beyond it factors into intent of a late departure from the will...
           <br />
           <br />
           <Cable
