@@ -167,6 +167,10 @@ export default class App extends React.Component {
           D614G, would stop warning mechanism. Dr. Hashish Jah.
           <br />
           <br />
+          "bail 100k no more crimes, accident being reckless," evidence
+          incarcerate in my book until trial is reviewed, for everyone criminal.
+          <br />
+          <br />
           Get married for alimony? fuck off. I'll pay up front. Alimony brought
           forward will because breadwinner can divorce, unilaterally? No…
           <br />
