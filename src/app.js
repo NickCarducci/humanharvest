@@ -4010,8 +4010,10 @@ export default class App extends React.Component {
         </a>
         , 55m/yr+ worldwide and&nbsp;
         <a href="https://www.census.gov/library/stories/2017/10/aging-boomers-deaths.html">
-          1.2m/yr+ in U.S. expected excess deaths
+          1.2m/yr+ in U.S.
         </a>
+        &nbsp;expected&nbsp;
+        <a href="https://youtu.be/IPQIsodwMwY">excess deaths</a>
         &nbsp;from &nbsp;
         <a href="https://twitter.com/frothanalysis/status/1428312309685002241">
           population growth life expectancy ago
