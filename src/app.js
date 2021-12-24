@@ -161,6 +161,69 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "fever îs leading sign of coronavirus (but that is 5% of pneumonia,
+          influenza covid)" - Exogen.
+          <br />
+          Kilmeade: “Polio vaccines are holy grail, it saved lives.”&nbsp;
+          <a href="https://humanharvest.info/polio">Uh wrong</a>
+          <br />
+          Craig Zucker, 'The Shot To Save The World: “_, Adenovirus, protein
+          substitution, some home run in this portfolio, financing and help, not
+          appreciated how much the government worked with them. It's a brilliant
+          idea because - never had we manufactured and tested at the same time.”
+          <h1>scriptless pharmacy currency, anyone?</h1>
+          <h3>
+            How about you, test monkeys, would you open source ingredient list
+            on recipts for the sun sacrifice of craft beers?
+          </h3>
+          <h2>
+            Free rider mutable pure useless inflation gentrification- and
+            monopsony-enzyme self harm excess antibody mRNA sporing grafts.
+          </h2>
+          "10k people no time, have to do it. How did they allow private
+          industry to do their own thing and take their chances?"
+          <br />
+          "...plain old cash to pay for the government testing. We as a
+          government paid big checks to these companies, some of these companies
+          were desperate for financing their lenders, landlords and insurers,"
+          at $12k/year/p debt, $3k/year/p bonds, $64/year/p new
+          CurrencyComponentOfM1&nbsp;<a href="https://qr.ae/pGzg0M">checking</a>
+          ???? If there was a side effect, we would be in a tortious claim for
+          expiring claims allows for net loss competing with consumer and
+          insurer work loss payouts, so we are really&nbsp;
+          <a href="https://qr.ae/pGzgLF">starting from behind</a>. Not for
+          safety, but speed. Testing monkeys and mammals. Weren’t sure, not many
+          mammals. Locking down in my basement, in NJ. Wall st stepped up, for
+          moderna. No one else trusted. And Moderna said go go go, go build that
+          vaccine.
+          <br />
+          Killed watered down attenuated.
+          <br />
+          Unfortunately people got the disease warning mechanism they were
+          trying to prevent, vaccines have an education and know how to fight
+          off. We have mRNA, creates protein. Basics of biology. What if we
+          could create these molecules in the lab! We can create our own
+          manufacturing of proteins in our own body, without fetal cell lines!
+          Hundred years of innovation hard work stubbornness for recombinant RNA
+          that enzyme fights the spike protein when they see it naturally, they
+          fight that off too.
+          <h2>
+            Trump: "It was the genius of American scientists, and might of
+            American worker, pushing FDA approval from infinity."
+          </h2>
+          C. Zucker: "My uncle passed from covid, I know people are long covid,
+          invention exceptionalism and genius, no&nbsp;
+          <a href="https://qr.ae/pGzgdC">credit to financiers</a>, a real
+          American success story. That is pure, useless inflation, couldn’t have
+          been produced without investors, that is only because our costs are
+          mostly debt “investors” we couldn’t have doesn’t this without
+          investors nor scientists of america. What would you say to skeptics?
+          We aren’t doctors, but I talk to non-political (you mean lie, or are
+          you making assumptions of people with stated goals?) scientist, but
+          the people who put time into it."
+          <br />
+          <br />
+          <hr />
           "...incentives, of saver's money beyond article 4, virus knows no
           boundaries, chasing our tails!" Smerconish. 200k delta wave, 500k is
           D614G, would stop warning mechanism. Dr. Hashish Jah.
