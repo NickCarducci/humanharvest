@@ -161,6 +161,15 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          CNN Reporter: "FOIA requests to be able to see executions and uuid
+          anon trades after 2 weeks by virtue of public discovery."
+          <br />
+          Anchor: "Otherwise, that's not allowed. why?"
+          <br />
+          Reporter: "Practicality of fitting the public into court room. It is
+          not safe."
+          <br />
+          <br />
           Antiviral is just suppressing the warning mechanism. Elizabeth Cohen:
           "The free rider mutable tax is footing the bill for people to use the
           drug. The problem is profit needs to be big enough for non-partnership
