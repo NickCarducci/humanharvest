@@ -161,6 +161,18 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          CNN, GWU: "Worsening-pandemic by 1300/day 1400/wk+ Washington DC
+          cases. This is the first asymptomatic virus. It is a non-issue, being
+          a non-exclusive byproduct of bacterial-cause.
+          <br />
+          Stopping an outbreak," injecting cells with dna is never proven, only
+          mitosis of already infected cell. Only that it is a warning mechanism,
+          and that it only comes out, evolution thereby goes, bacteria={">"}
+          cell={">"}virion, "or not enough people, because it is so widespread?"
+          It was here before. 1/20 positive, it&nbsp;
+          <a href="https://humanharvest.info/polio">doesn't matter</a>!
+          <br />
+          <br />
           "fever îs leading sign of coronavirus (but that is 5% of pneumonia,
           influenza covid)" - Exogen.
           <br />
@@ -3828,12 +3840,22 @@ export default class App extends React.Component {
             />
           </a>
         )}
-        <a href="https://www.cdc.gov/flu/weekly/overview.htm#:~:text=5.%20Mortality%20Surveillance">
-          "COVID-19 coded deaths were added to P&I to create the PIC (pneumonia,
-          influenza, and/or COVID-19) classification."
+        "COVID-19 coded deaths[ and&nbsp;
+        <a href="https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=GB">
+          hospitalizations
         </a>
+        ] were&nbsp;
+        <a href="https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html">
+          added
+        </a>
+        &nbsp;to P&I to create the&nbsp;
+        <a href="https://www.cdc.gov/flu/weekly/overview.htm#:~:text=5.%20Mortality%20Surveillance">
+          PIC
+        </a>
+        &nbsp;(pneumonia, influenza, and/or COVID-19) classification."
         <br />
-        17-29% heart-attack is in vivo by vaccine
+        17-29% heart-attack is in vivo (above-basis prevalence or in vacuum with
+        ingredients and order) by vaccine
         <br />
         <br />
         <Cable
@@ -3978,6 +4000,15 @@ export default class App extends React.Component {
         <a href="https://www.prb.org/resources/countries-with-the-oldest-populations-in-the-world/">
           oldest populations in the world
         </a>
+        , 55m/yr+ worldwide and&nbsp;
+        <a href="https://www.census.gov/library/stories/2017/10/aging-boomers-deaths.html">
+          1.2m/yr+ in U.S. expected excess deaths
+        </a>
+        &nbsp;from &nbsp;
+        <a href="https://twitter.com/frothanalysis/status/1428312309685002241">
+          population growth life expectancy ago
+        </a>
+        .
         <br />
         <br />
         even if antibodies just clear up byproduct of bacterial-cause and virus
