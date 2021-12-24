@@ -190,11 +190,22 @@ export default class App extends React.Component {
           <a href="https://humanharvest.info/polio">doesn't matter</a>!
           <br />
           <br />
-          "fever îs leading sign of coronavirus (but that is 5% of pneumonia,
-          influenza covid)" - Exogen.
+          "Fever îs leading sign of coronavirus (but that is 5% of pneumonia,
+          influenza covid, by symptomatic-testing-method-regime)." - Exogen.
           <br />
           Kilmeade: “Polio vaccines are holy grail, it saved lives.”&nbsp;
           <a href="https://humanharvest.info/polio">Uh wrong</a>
+          <br />
+          Masks are for open bodies, cause bacterial-infection with prolonged
+          us, and deaths & hospitalizations weren’t effected by covid more than
+          the normal pneumonia influenza covid seasons. Doctors just don’t know
+          how to standardize for epiologic population size, over time.
+          <br />
+          "The whole family is sick," bacteria is probably inside of the house.
+          <br />
+          People are just as sick, covid is a non-exclusive byproduct with 5%
+          prevalence among symptomatic cases.
+          <br />
           <br />
           Craig Zucker, 'The Shot To Save The World: “_, Adenovirus, protein
           substitution, some home run in this portfolio, financing and help, not
