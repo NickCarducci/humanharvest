@@ -163,7 +163,10 @@ export default class App extends React.Component {
           </a>
           bbb ordinary families are forelorn against existing work deficit
           gentrification, monopsony and free rider mutable tax pure, useless
-          price inflation; nationalism isn't socialism.
+          price inflation; nationalism isn't socialism. americans really need
+          poverty alleviation at cost of producer-ask poorness? Poverty doesn't
+          includes, nor does inflation and gini, homes, equities, bonds
+          nor&nbsp;<a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
           <br />
           We expel bacteria in excrement and spittle, because when it interacts
