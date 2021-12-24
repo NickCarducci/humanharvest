@@ -9,8 +9,8 @@ class Cable extends React.Component {
     if (this.props.scrolling !== prevProps.scrolling) {
       const { cache } = this.state;
       const { scrollTopAndHeight, scrollTop, girth, timeout } = this.props;
-      var girt = girth ? girth : 8000;
-      var timeou = timeout ? timeout : 4000;
+      var girt = girth ? girth : 1000;
+      var timeou = timeout ? timeout : 1500;
       var continuee = this.props.fwd.current;
       if (!continuee && !cache) return;
       clearTimeout(this.setset);
