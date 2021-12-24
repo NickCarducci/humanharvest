@@ -16,6 +16,7 @@ export default class App extends React.Component {
     const name = parser.getBrowser().name;
     console.log(name);
     this.state = {
+      noyoutube:true,
       browser: name,
       scrollTop: 0,
       ios: name.includes("Safari"),
