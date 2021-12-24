@@ -161,6 +161,14 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Antiviral is just suppressing the warning mechanism. Elizabeth Cohen:
+          "The free rider mutable tax is footing the bill for people to use the
+          drug. The problem is profit needs to be big enough for non-partnership
+          'investing' to surpass the barrier to entry costs, caused by that very
+          'debt' investment! Pure, useless, inflation, monopsony and
+          gentrification."
+          <br />
+          <br />
           CNN, GWU: "Worsening-pandemic by 1300/day 1400/wk+ Washington DC
           cases. This is the first asymptomatic virus. It is a non-issue, being
           a non-exclusive byproduct of bacterial-cause.
