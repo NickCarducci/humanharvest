@@ -192,15 +192,24 @@ export default class App extends React.Component {
           want to give government any reason to spend on free rider mutable, let
           alone excess antibodies. But it is just stupid, cases asymptomatic and
           insignificance of total hospitalizations before vaccines, all PIC,
-          influenza hospitalizations actually shows a positive correlation, so{" "}
-          <h3>it is scientifically accurate to call all 85% of you retarded</h3>
+          influenza hospitalizations actually shows a positive correlation, so
+          <h3>
+            it is scientifically accurate to call all 85% of you retarded.
+          </h3>
           <h2>
             why excess deaths 2010-2020 was flat, Why are boomers called
             boomers?
           </h2>
-          WWII, that was life expectancy ago, made a population growth lull.
-          That is your pandemic, excess deaths 500k and short of 1.2m mortality
-          projections by the Census Bureau and myself.&nbsp;
+          <h3>
+            WWII, that was life expectancy ago, made a population growth lull.
+            That is your pandemic, excess deaths 500k and short of 1.2m
+            mortality projections by the Census Bureau and myself.
+          </h3>
+          Wildstein (NJ Globe, on gerrymandering gentrification gerotocracy):
+          “Just a prisoners’ dilemma to keep people separated.” In fact, say
+          rollover insurance to an orthopedic surgeon they’ll lock you up for
+          $2k/day from the false bid pool like a flaccid collective loss of the
+          cash laundered and collateral loitered.<br/>
           <span style={{ backgroundColor: "white", color: "rgb(32, 22, 11)" }}>
             You have the Gaul to blame youth homelessness on emotions
           </span>
