@@ -169,11 +169,12 @@ export default class App extends React.Component {
             2052.live
           </a>
           bbb ordinary families are forelorn against existing work deficit
-          gentrification, monopsony and free rider mutable tax pure, useless
-          price inflation; nationalism isn't socialism. americans really need
-          poverty alleviation at cost of producer-ask poorness? Poverty doesn't
-          includes, nor does inflation and gini, homes, equities, bonds
-          nor&nbsp;<a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
+          gentrification, monopsony and free rider mutable tax pure,&nbsp;
+          <a href="https://qr.ae/pGziz7">useless price inflation</a>;
+          nationalism isn't socialism. americans really need poverty alleviation
+          at cost of producer-ask poorness? Poverty doesn't includes, nor does
+          inflation and gini, homes, equities, bonds nor&nbsp;
+          <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <h3>
             {/*Stimulates the ask-price. */}Recession is falling growth for two
             months and a downturn is either jobs or price. None of these are
@@ -209,7 +210,8 @@ export default class App extends React.Component {
           “Just a prisoners’ dilemma to keep people separated.” In fact, say
           rollover insurance to an orthopedic surgeon they’ll lock you up for
           $2k/day from the false bid pool like a flaccid collective loss of the
-          cash laundered and collateral loitered.<br/>
+          cash laundered and collateral loitered.
+          <br />
           <span style={{ backgroundColor: "white", color: "rgb(32, 22, 11)" }}>
             You have the Gaul to blame youth homelessness on emotions
           </span>
@@ -247,6 +249,14 @@ export default class App extends React.Component {
           <br />
           Reporter: "Practicality of fitting the public into court room. It is
           not safe."
+          <br />
+          <br />
+          Michael Rassmusen, Ryder, on&nbsp;
+          <a href="https://qr.ae/pGziq6">
+            gerrymandering gentrification gerontocracy
+          </a>
+          , “like a judge, ‘because you didn’t bring it up, I am not gonna
+          consider it.’” What is the reasoning for that?
           <br />
           <br />
           Antiviral is just suppressing the warning mechanism. Elizabeth Cohen:
