@@ -183,7 +183,9 @@ export default class App extends React.Component {
           </h3>
           <h2>
             The only thing you ever need is because of finance and rent seeking,
-            not population growth.
+            not population growth. "We got around this thing with the vaccine
+            and Trump, flip people on their stomach can save their&nbsp;
+            <a href="https://humanharvest.info/polio">life</a>." Manny Sethi
           </h2>
           <h3>
             “Someone to come in on the merits of the argument,” the owner of the
