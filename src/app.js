@@ -200,10 +200,30 @@ export default class App extends React.Component {
           <h3>
             it is scientifically accurate to call all 85% of you retarded.
           </h3>
+          "Son of G-d incarnate, death for my Sin." “Peaceably gather,” saying
+          sin sacrifice&nbsp;
+          <a href="https://nationalsecuritycasino.com/jesus">just works</a>.
+          Nutcases! Take your meds!
           <h2>
             why excess deaths 2010-2020 was flat, Why are boomers called
             boomers?
           </h2>
+          <Cable
+            style={{ height: "280px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1UBIYKDrfVCp-Q7B14FKP74D2yF2U0Yta/preview"
+            }
+            float="right"
+            title="The Count (Newsmax) - Pastor Brian Gibson on Christmas with Logan Raddick"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           <h3>
             WWII, that was life expectancy ago, made a population growth lull.
             That is your pandemic, excess deaths 500k and short of 1.2m
