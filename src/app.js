@@ -172,7 +172,7 @@ export default class App extends React.Component {
           work-deficit by producer-ask gentrification, monopsony and free rider
           mutable tax pure,&nbsp;
           <a href="https://qr.ae/pGziz7">useless price-inflation</a>;
-          nationalism isn't socialism. americans really need poverty alleviation
+          nationalism isn't socialism. Americans really need poverty alleviation
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
@@ -2866,6 +2866,15 @@ export default class App extends React.Component {
               confer on him a right against [11 Cal. 3d 401] the promisor.
               (Rest., Contracts, § 133, subd. (1)(a).)
             </a>
+            <br />
+            <br />
+            "Conscious disregard, manslaughter," no… that is not as qualifying
+            as negligence/manslaughter. Do you have to save someone’s life if
+            you didn’t set it in motion, and can you tort more when there is
+            spite, sure, but laziness or apathy? “Not my job.” "See if their a
+            lesion in the brain that would cause this," not without correlative
+            prevalence of such. STOP manipulation of exhibits with basis rate
+            fallacies.
           </div>
           <h2>
             "expanding healthcare access - M4A," is expiring-claim, invoice and
