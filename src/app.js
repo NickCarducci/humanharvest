@@ -175,6 +175,36 @@ export default class App extends React.Component {
           includes, nor does inflation and gini, homes, equities, bonds
           nor&nbsp;<a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
+          <h2>
+            why excess deaths 2010-2020 was flat, Why are boomers called
+            boomers?
+          </h2>
+          WWII, that was life expectancy ago, made a population growth lull.
+          That is your pandemic, excess deaths 500k and short of 1.2m mortality
+          projections by the Census Bureau and myself. You have the Gaul to
+          blame youth homelessness on emotions? The olds had their whole lives
+          to save, 1800-1913 GDP/p is nearly constant, save oscillation, among
+          3%/yr+, now it is 1%/yr+.
+          <br />
+          We work 10x more than when you were our age, and 20x/millennial is
+          boomer rental-income, bottom-left economists call that a landlord work
+          deficit. We gotta cap rent at 5 units or 30 days so condos, fall from
+          the sky. Implausible landlord use grounds.
+          <h2>
+            Reverse debt don’t cancel nor bailout third party donee claimable
+            beneficiary surrendered freedom, by (cash/debt)*income every year
+            back.
+          </h2>
+          Maybe keep scripts out of pharmacies so we can have no prohibitions of
+          trade nor trust building based on saying I have anxiety to get a
+          doobie or I can’t concentrate to get. speedball. GOP so smart about
+          unions and their barrier to entry, but not immigration? It is all a
+          free rider mutable tax racket for bond laundering or pure, useless,
+          inflation, gentrification and rent seeking for nationalists instead of
+          targeting margins, and regulating by jury permits. No business can
+          force duress beyond minimal viable product, that literally means
+          involuntary by parts.
+          <br />
           <br />
           We expel bacteria in excrement and spittle, because when it interacts
           with cells it becomes infected and produce virion.
