@@ -2090,7 +2090,12 @@ export default class App extends React.Component {
             <h3>insurance</h3>
           </button>
           <br />
-          <div style={{ display: this.state.insurance ? "block" : "none" }}>
+          <div
+            style={{
+              height: this.state.insurance ? "min-content" : "0px",
+              overflow: "hidden"
+            }}
+          >
             <a
               style={{
                 shapeOutside: "rect()",
@@ -2201,7 +2206,10 @@ export default class App extends React.Component {
           </button>
           <br />
           <div
-            style={{ display: this.state.juryPermitting ? "block" : "none" }}
+            style={{
+              height: this.state.juryPermitting ? "min-content" : "0px",
+              overflow: "hidden"
+            }}
           >
             market history and propoganda: The Great Leap Forward expected 15m
             35 age&nbsp;<a href="https://froth.app/stats">lifetime</a>
@@ -2606,7 +2614,6 @@ export default class App extends React.Component {
             padding: "4px",
             wordBreak: "break-word",
             textAlign: "left",
-
             maxWidth: "600px",
             position: "relative"
           }}
@@ -2721,7 +2728,6 @@ export default class App extends React.Component {
           <br />
           "The first omicron case has arrived in the U.S. He is vaccinated, so
           he has no symptoms,"
-        </div>
         <br />
         <hr ref={this.lawsuits} />
         <button
@@ -2734,7 +2740,12 @@ export default class App extends React.Component {
           <h3>lawsuits</h3>
         </button>
         <br />
-        <div style={{ display: this.state.lawsuits ? "block" : "none" }}>
+        <div
+          style={{
+            height: this.state.lawsuits ? "min-content" : "0px",
+            overflow: "hidden"
+          }}
+        >
           age-standardized excess deaths short 700k 1.2m/yr+ 75+ 2015- expected
           is not a "pandemic."
           <br />
@@ -2900,7 +2911,12 @@ export default class App extends React.Component {
           <h3>politics</h3>
         </button>
         <br />
-        <div style={{ display: this.state.politics ? "block" : "none" }}>
+        <div
+          style={{
+            height: this.state.politics ? "min-content" : "0px",
+            overflow: "hidden"
+          }}
+        >
           <h2>
             Biden free rider mutable 60% tax and 40% debt-spending r&d monopsony
           </h2>
@@ -3548,7 +3564,12 @@ export default class App extends React.Component {
           <h3>science</h3>
         </button>
         <br />
-        <div style={{ display: this.state.science ? "block" : "none" }}>
+        <div
+          style={{
+            height: this.state.science ? "min-content" : "0px",
+            overflow: "hidden"
+          }}
+        >
           <h1>
             More testing begets less death/symptom co-incidence&nbsp;
             <span>does not pretend postend-to-cause</span>
@@ -4115,7 +4136,12 @@ export default class App extends React.Component {
           <h3>fall2021</h3>
         </button>
         <br />
-        <div style={{ display: this.state.fall2021 ? "block" : "none" }}>
+        <div
+          style={{
+            height: this.state.fall2021 ? "min-content" : "0px",
+            overflow: "hidden"
+          }}
+        >
           <Cable
             style={{ height: "auto", width: "300px" }}
             img={true}
@@ -4796,7 +4822,10 @@ export default class App extends React.Component {
         </button>
         <br />
         <div
-          style={{ display: this.state.springsummer2021 ? "block" : "none" }}
+          style={{
+            height: this.state.springsummer2021 ? "min-content" : "0px",
+            overflow: "hidden"
+          }}
         >
           causes lymphoma; more significant than graft vs humoral response to
           D416G @CDCgov @NIH
@@ -5115,7 +5144,12 @@ export default class App extends React.Component {
           <h3>late2020</h3>
         </button>
         <br />
-        <div style={{ display: this.state.late2020 ? "block" : "none" }}>
+        <div
+          style={{
+            height: this.state.late2020 ? "min-content" : "0px",
+            overflow: "hidden"
+          }}
+        >
           moldmask.co, cocaine is money, purity health dpt @SaverParty You are
           selfish for forcing people to risk b-cell oncogenesis to be included.
           You can only exclude and be free-rider if symptomatic. Mask causes
@@ -5701,6 +5735,7 @@ export default class App extends React.Component {
         &nbsp;on not having cold antibodies)
         <br />
         <br />
+        </div>
       </div>
     );
   }
