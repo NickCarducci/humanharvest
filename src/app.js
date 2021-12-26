@@ -189,8 +189,64 @@ export default class App extends React.Component {
           nor rational. Science is more proving immaculate conception of the
           Universe and the Virgin Mary, as the&nbsp;
           <a href="https://saverparty.xyz/jesus">sin sacrifice</a>.” Eric
-          Motasnic TAKE YOUR MEDS. "When&nbsp;
-          <a href="https://qr.ae/pGzcYE">Einstein</a>&nbsp;was alive."
+          Motasnic TAKE YOUR MEDS. "...when&nbsp;
+          <a href="https://qr.ae/pGzcYE">Einstein</a>&nbsp;was alive. ...You
+          know every cell, bone in your body is made by Him, G-d is in every one
+          of use, can push him away in free will, but we all come back, whether
+          it be on their deathbed or not."
+          <br />
+          "Is a pedofile or a racist-rapist, many want jobs." Judge Janine
+          <br />
+          <Cable
+            style={{
+              width: "400px",
+              maxWidth: "100%",
+              height: "600px",
+              maxHeight: "100vw"
+            }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1TX2wYs7rcGMgaLIwsY5GAPg1y3nP7sKY/preview"
+            }
+            float="left"
+            title="https://www.quora.com/unanswered/Is-implausible-use-rent-dead-weight"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          "In america we have more food than we can possibly use. My parents
+          raised me to love this country, a beautiful and rare thing. If we go
+          to Hell by allowing everyone come in, we know common sense it is
+          foolish. They did it the right way, why? because it shows respect. If
+          they come in, vs say use me, trade me a job. G-d doesnt get it wrong,
+          leaders get it wrong. Joe Biden is pushing abortion on america, don't
+          call out hypocrisy of Catholics, that is game-play. ...Take G-d out,
+          marxist, leftist cultural marxism."
+          <br />
+          <br />
+          Rent is cheaper because it is a method of income beyond plausible use,
+          but it is a net loss of per hour price deflation from
+          landlord-work-deficit. The cost of living would be cheaper than on
+          market ask-outright, unless comparing to the alternative-basis where
+          apartment buildings were forced to condos sales under 5 units or 30
+          days, then price fix, for price deflation per hour, and getting &nbsp;
+          <a href="https://fred.stlouisfed.org/graph/?g=KezO">
+            20x/millennial boomer rental income
+          </a>&nbsp;
+          back to&nbsp;
+          <a href="https://fred.stlouisfed.org/graph/?g=KfIk">work</a>, on
+          implausible landlord use intent deduced grounds, from more supply no
+          longer withheld from labor-borne demand.
+          <br />
+          Atheism Dead, “No woke or crazy. After Time, ‘is G-d dead?’ Science
+          pushing G-d and faith out of the people, G-d is no longer reasonable
+          nor rational. Science is more proving immaculate conception of the
+          Universe and the Virgin Mary, as the sin sacrifice.” Eric Metaxas TAKE
+          YOUR MEDS
           <h1>Saver Party will retire you ;)</h1>
           "Resources and basic preventive care," if entrepreneurs don’t step in,
           maybe wall st and gov is&nbsp;
