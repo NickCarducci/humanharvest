@@ -176,11 +176,19 @@ export default class App extends React.Component {
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
+          <br />
+          Covid hasn’t run its course, workers are working on floors,
+          quarantining at jobs, so the chain doesn’t crater. Agriculture harmed
+          by 41k year obliquity cycle of axis to the sun.
           <h3>
             {/*Stimulates the ask-price. */}Recession is falling growth for two
             months and a downturn is either jobs or price. None of these are
             bad, it is how we measure technological advancement in economics.
           </h3>
+          "If your paycheck depends on it, you can force them to do anything
+          before jury." Bill D'Blasio, pharma brought forward demand, monopsony
+          intra-market-constraint by competing with consumers beyond minimal
+          viable product.
           <h2>
             The only thing you ever need is because of finance and rent seeking,
             not population growth. "We got around this thing with the vaccine
@@ -295,15 +303,106 @@ export default class App extends React.Component {
           a sale.
           <br />
           <br />
-          "by the people you mean their bond-holders."
+          "by the people you mean their bond-holders." _Yes, in a sense you
+          could say the people of Norway are the bond holders, although
+          technically the funds are pension vehicles, and operate as such.
           <br />
           <br />
-          Antiviral is just suppressing the warning mechanism. Elizabeth Cohen:
-          "The free rider mutable tax is footing the bill for people to use the
-          drug. The problem is profit needs to be big enough for non-partnership
-          'investing' to surpass the barrier to entry costs, caused by that very
-          'debt' investment! Pure, useless, inflation, monopsony and
-          gentrification."
+          "so it is regressive-gerontocracy by delivering returns by pensions
+          that further bloat trust-building by bonds and public corporate labor
+          equity savings/outlays withheld, and it literally has 10% debt service
+          (normally that is the rate, as in US excluding states, I see Norway
+          has ~$150b GDP/yr and .4x/GDP, debt) from rent-seeking by
+          nationalized-networks? I will prescribe target margin any operational
+          network, among jury-various-industry-quality duress without state
+          victimization. I would declare this government surrogate private
+          collective investment, and potentially bargain, a, “voluntary trade,”
+          if Norway incorporates EVERY citizen to export demand, without
+          indebting the currency (depositary on government land), first."
+          <h2>
+            Peter Morcini - understander of pure, useless inflation by bidding
+            of debt "investment," as opposed to 1-level-board
+            max-profit-royalty-contracts, and money
+          </h2>
+          <Cable
+            style={{ height: "280px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1dgBms6NYeGbuiqeO6osdjl-AfjueXKh7/preview"
+            }
+            float="left"
+            title="Dick Morris (Newsmax) - Peter Morcini"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          "'Social-reason'-investing makes inflation, can't even give us the car
+          yet," legacy cars should double inventory without Biden nationalized
+          free rider mutable rent-seeking, gentrification and pure, useless
+          inflation. "Stretching intermediate-labor and material monopsony,
+          thin. 20%+ union premium. Social-contstraints too, from activist
+          investors or government policy."
+          <br />
+          "We want to give&nbsp;<a href="https://qr.ae/pGzaCm">enough</a>
+          &nbsp;money to survive during covid, tie them over, but side effect of
+          inflation, but no one monitors that, and it goes beyond good
+          intentions in&nbsp;<a href="https://qr.ae/pGzaF7">the first place</a>
+          ."
+          <br />
+          "Adult labor force participation looking for work is going down. $3k
+          for caregiver to stay at home and not participate in the laborforce.
+          Most take a major that is useless, if we pay for it, we aren't
+          purchasing school, just bidding the price-upwards. marketplace not
+          only rations, but it minimizes costs, take away the competition with
+          subsidies, you don't make people off justt drive up the price. We see
+          inflation, but we do not know the&nbsp;
+          <a href="https://qr.ae/pGzOUl">cause</a>."
+          <br />
+          <br />"<a href="https://qr.ae/pGzTgd">Create jobs</a>, but raises
+          prices, ... deficient supply of industry metals, cut in half," 10%
+          debt service. "If you drill, government takes 40% of profit," instead
+          of target margin network monopsony?
+          <br />
+          <br />
+          Rabies, bacteria on the teeth you release thru spit so it doesn’t
+          infect your cells and make virions!
+          <h2>Antiviral is just suppressing the warning mechanism.</h2>
+          Elizabeth Cohen: "The free rider mutable tax is footing the bill for
+          people to use the drug. The problem is profit needs to be big enough
+          for non-partnership 'investing' to surpass the barrier to entry costs,
+          caused by that very 'debt' investment! Pure, useless, inflation,
+          monopsony and gentrification."
+          <h2>virion kills, but is false positive asymptomatic</h2>
+          <Cable
+            style={{ height: "280px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1X1Ny5ZFuqOzD0rovzxYvnHtFBEjT8fUj/preview"
+            }
+            float="right"
+            title="Crystal Clear (Diamond&Silk,Newsmax) - vaccines"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          "800k people have died, under biden 500k died with covid," WWII
+          produced a lull in population growth life expectancy ago, so 2010-2020
+          hd 0, "excess deaths." Illegals running amock, what is wrong with
+          that? Why are you like this for immigrants and duress/discrimination
+          sometimes but not unions?
+          <br />
+          <br />
+          "They are pumping money to get a bid-kickback, as far as I am
+          concerned." Free rider mutable tax. "See, this is what a slave driver
+          does.”
           <br />
           <br />
           CNN, GWU: "Worsening-pandemic by 1300/day 1400/wk+ Washington DC
