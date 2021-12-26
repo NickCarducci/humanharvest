@@ -187,7 +187,9 @@ export default class App extends React.Component {
           testicle-less Curtis Sliwa.
           <br />
           "expert law firm knows kglaw covid positive into homes." "Don't hate
-          eachother that don't agree," GET A FUCKING PERMIT BITCH
+          eachother that don't agree," GET A FUCKING PERMIT BITCH. A booster
+          doesn't make more usefull antibodies, just excess when it is
+          mRNA-sporing-graft
           <br />
           <br />
           “People will know that they will take care of themselves, like
