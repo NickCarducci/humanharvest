@@ -176,6 +176,13 @@ export default class App extends React.Component {
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
+          <br />
+          “People will know that they will take care of themselves, like
+          plundering, implausible use rent, or discrimination without
+          industry-variant jury-truth desistations.” Judge Janine
+          <br />
+          “Leave it to doctors patients and individuals, let business decide to
+          do.” Charlie Kirk
           <h1>Saver Party will retire you ;)</h1>
           "Resources and basic preventive care," if entrepreneurs don’t step in,
           maybe wall st and gov is&nbsp;
