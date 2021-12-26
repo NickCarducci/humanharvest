@@ -75,7 +75,7 @@ export default class TwitterTweetEmbed extends Component {
     if (ExecutionEnvironment.canUseDOM) {
       //let script = require("scriptjs");
       script("https://platform.twitter.com/widgets.js", "twitter-embed", () => {
-        this.renderWidget();
+        //this.renderWidget();
       });
     }
   }
