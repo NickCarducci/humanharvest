@@ -177,9 +177,24 @@ export default class App extends React.Component {
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
-          Covid hasn’t run its course, workers are working on floors,
-          quarantining at jobs, so the chain doesn’t crater. Agriculture harmed
-          by 41k year obliquity cycle of axis to the sun.
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1SWzmK3Y9d40YfGpXoFwZeC1qDaA8qgja/preview"
+            }
+            float="left"
+            title="Crystal Clear (Diamond&Silk,Newsmax) - ccc poverty questioned"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          "They are giving people money for a whole year, did it help? "<br />
+          "They are bidding up tennis shoes and flat screens." Continuing claims
+          2.8m/170m employed is back to normal, half of them being boomers!
           <h3>
             {/*Stimulates the ask-price. */}Recession is falling growth for two
             months and a downturn is either jobs or price. None of these are
@@ -319,6 +334,11 @@ export default class App extends React.Component {
           collective investment, and potentially bargain, a, “voluntary trade,”
           if Norway incorporates EVERY citizen to export demand, without
           indebting the currency (depositary on government land), first."
+          <br />
+          <br />
+          "Covid hasn’t run its course, workers are working on floors,
+          quarantining at jobs, so the chain doesn’t crater. Agriculture harmed
+          by 41k year obliquity cycle of axis to the sun.
           <h2>
             Peter Morcini - understander of pure, useless inflation by bidding
             of debt "investment," as opposed to 1-level-board
@@ -395,7 +415,7 @@ export default class App extends React.Component {
           />
           "800k people have died, under biden 500k died with covid," WWII
           produced a lull in population growth life expectancy ago, so 2010-2020
-          hd 0, "excess deaths." Illegals running amock, what is wrong with
+          had 0, "excess deaths." Illegals running amock, what is wrong with
           that? Why are you like this for immigrants and duress/discrimination
           sometimes but not unions?
           <br />
