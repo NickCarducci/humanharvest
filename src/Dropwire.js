@@ -31,7 +31,7 @@ class Cable extends React.Component {
             return;
           }
           //if (!between && continuee) return continuee.remove();
-          if (page.children[0] !== this.state.cache)
+          if (!page.children.find((s) => s === this.state.cache))
             page.appendChild(this.state.cache);
         });
       }, timeou);
