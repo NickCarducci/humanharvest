@@ -40,13 +40,21 @@ export default class TwitterTweetEmbed extends Component {
       );
       return;
     }
-    let onClick = "ontouchstart" in window ? "touchstart" : "onclick";
-    if (!this.tw.current || !this.tw.current[onClick]) {
+    if (!this.tw.current) {
       console.error(
-        "Failure to load window.twttr in TwitterTweetEmbed, aborting load."
+        "Failure to load this.tw.current in TwitterTweetEmbed, aborting load.",
+        this.tw.current
       );
       return;
     }
+    /*let onClick = "ontouchstart" in window ? "touchstart" : "onclick";
+    if (!this.tw.current["onClick"]) {
+      console.error(
+        "Failure to load this.tw.current[onClick] in TwitterTweetEmbed, aborting load.",
+        this.tw.current["onClick"]
+      );
+      return;
+    }*/
     if (!this.isMountCanceled && this.props.tweetId) {
       window.twttr.widgets
         .createTweet(this.props.tweetId, this.tw.current, this.props.options)
