@@ -40,7 +40,8 @@ export default class TwitterTweetEmbed extends Component {
       );
       return;
     }
-    if (!this.tw.current) {
+    let onClick = "ontouchstart" in window ? "touchstart" : "onclick";
+    if (!this.tw.current || !this.tw.current[onClick]) {
       console.error(
         "Failure to load window.twttr in TwitterTweetEmbed, aborting load."
       );
@@ -75,7 +76,7 @@ export default class TwitterTweetEmbed extends Component {
     if (ExecutionEnvironment.canUseDOM) {
       //let script = require("scriptjs");
       script("https://platform.twitter.com/widgets.js", "twitter-embed", () => {
-        //this.renderWidget();
+        this.renderWidget();
       });
     }
   }
