@@ -24,8 +24,7 @@ class Cable extends React.Component {
           if (!between && continuee) {
             //while (page.firstChild) {
             //page.removeChild(page.firstChild);
-            let onClick =
-              "ontouchstart" in continuee ? "touchstart" : "onclick";
+            let onClick = "ontouchstart" in window ? "touchstart" : "onclick";
             if (continuee[onClick]) continuee.remove(); //touchevent
             //continuee.click();
             //}
@@ -45,6 +44,10 @@ class Cable extends React.Component {
     const { between, continuee } = this.state;
     const { src, float, title, img } = this.props;
     //const limited = limit.find((x) => x === Object.keys(this.props.fwd));
+    const onError = (e) => {
+      this.props.fwd.current.remove();
+      this.props.onError(e);
+    };
     return (
       <div ref={this.page}>
         {!continuee || between ? (
@@ -54,7 +57,7 @@ class Cable extends React.Component {
             </span>
           ) : img ? (
             <img
-              onError={this.props.onError}
+              onError={onError}
               alt={title}
               style={{
                 shapeOutside: "rect()",
@@ -69,7 +72,7 @@ class Cable extends React.Component {
             />
           ) : (
             <iframe
-              onError={this.props.onError}
+              onError={onError}
               title={title}
               style={{
                 shapeOutside: "rect()",
