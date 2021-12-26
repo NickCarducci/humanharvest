@@ -176,6 +176,15 @@ export default class App extends React.Component {
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
+          <h1>Saver Party will retire you ;)</h1>
+          "Resources and basic preventive care," if entrepreneurs don’t step in,
+          maybe wall st and gov is&nbsp;
+          <a href="https://www.quora.com/Might-an-anti-rent-seeker-party-win">
+            encroaching on monopsony and R&d gentrification
+          </a>
+          . "If one person is health, we are all better for it," but it isn’t
+          proven virion injects DNA into the cell, only that it comes after cell
+          and bacteria in taxonomy.
           <br />
           <Cable
             onError={handleScollImgError}
