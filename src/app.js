@@ -177,6 +177,19 @@ export default class App extends React.Component {
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
+          <br />
+          “Vaccines and seatbelts keep you safe,” but you didn’t even save
+          people with MS = paralytic polio and the warning mechanism of
+          bacterial-infection producing virions actually is&nbsp;
+          <a href="https://humanharvest.info/polio">positively correlating</a>
+          &nbsp;for vaccines and hospitalizations 1980-2020. 20x/millennial
+          boomer rental-income is called an emotional problem by the
+          testicle-less Curtis Sliwa.
+          <br />
+          "expert law firm knows kglaw covid positive into homes." "Don't hate
+          eachother that don't agree," GET A FUCKING PERMIT BITCH
+          <br />
+          <br />
           “People will know that they will take care of themselves, like
           plundering, implausible use rent, or discrimination without
           industry-variant jury-truth desistations.” Judge Janine
@@ -236,8 +249,8 @@ export default class App extends React.Component {
           days, then price fix, for price deflation per hour, and getting &nbsp;
           <a href="https://fred.stlouisfed.org/graph/?g=KezO">
             20x/millennial boomer rental income
-          </a>&nbsp;
-          back to&nbsp;
+          </a>
+          &nbsp; back to&nbsp;
           <a href="https://fred.stlouisfed.org/graph/?g=KfIk">work</a>, on
           implausible landlord use intent deduced grounds, from more supply no
           longer withheld from labor-borne demand.
