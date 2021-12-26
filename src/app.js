@@ -182,7 +182,15 @@ export default class App extends React.Component {
           industry-variant jury-truth desistations.” Judge Janine
           <br />
           “Leave it to doctors patients and individuals, let business decide to
-          do.” Charlie Kirk
+          do.” Charlie Kirk.
+          <br />
+          Atheism Dead, “No woke or crazy. After Time, ‘is G-d dead?’ Science
+          pushing G-d and faith out of the people, G-d is no longer reasonable
+          nor rational. Science is more proving immaculate conception of the
+          Universe and the Virgin Mary, as the&nbsp;
+          <a href="https://saverparty.xyz/jesus">sin sacrifice</a>.” Eric
+          Motasnic TAKE YOUR MEDS. "When&nbsp;
+          <a href="https://qr.ae/pGzcYE">Einstein</a>&nbsp;was alive."
           <h1>Saver Party will retire you ;)</h1>
           "Resources and basic preventive care," if entrepreneurs don’t step in,
           maybe wall st and gov is&nbsp;
