@@ -176,8 +176,14 @@ export default class App extends React.Component {
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
-          <br />
-          <br />
+          <h2>
+            bulk of hospitalization are unvaxxed because you have only been
+            reporting&nbsp;
+            <a href="https://www.fda.gov/media/144245/download#page=42">
+              5% of influenza-like-illness
+            </a>
+            .
+          </h2>
           "500m tests (Michael Goodwin ny post) for free rider mutable tax for
           gentrification, rent-seeking and useless pure inflation monopsony.
           <br />
