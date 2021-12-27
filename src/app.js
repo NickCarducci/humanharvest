@@ -176,6 +176,12 @@ export default class App extends React.Component {
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
+          <br />
+          "Trump was held accountable more than any president in our history,"
+          Chris Stewart.
+          <br />
+          "Autocracy outsized influence," there is no need for free rider
+          mutable tax.
           <h2>
             bulk of hospitalization are unvaxxed because you have only been
             reporting&nbsp;
