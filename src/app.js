@@ -256,8 +256,13 @@ export default class App extends React.Component {
           intermediate-scope you can't concurrently-fulfill
           <br />
           <br />
-          finite producers, 11/12 jury means 1 person is crazy when convicted or
-          permitted in duress for minimal viable product for voluntary trade
+          finite producers, 11/12 industry-variable jury means 1 person is crazy
+          when convicted or permitted in duress for minimal viable product for
+          voluntary trade
+          <br />
+          <br />
+          “3k marines 5k sailor 3k soldiers, no religious exception.”{" "}
+          {/**jesse james duff */}
           <br />
           <br />
           ms literally, "matches paralytic polio" in&nbsp;
