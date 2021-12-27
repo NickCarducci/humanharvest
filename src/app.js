@@ -178,7 +178,22 @@ export default class App extends React.Component {
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
           <br />
-          WWII was a life-expectancy ago... rate of change thru 2009 shows this{" "}
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.youtube.com/embed/IPQIsodwMwY"
+            }
+            float="right"
+            title="Stephen moore - June 13th, 2021"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          WWII was a life-expectancy ago... rate of change thru 2009 shows this.
           <br />
           <br />
           In US 700k/less and in World 50m/less than population growth a
@@ -375,6 +390,11 @@ export default class App extends React.Component {
           "Not antivax," so it works?
           <br />
           <br />
+          <TwitterTweetEmbed
+            style={{ float: "right", width: "300px" }}
+            key="1429182687588278276"
+            tweetId="1429182687588278276"
+          />
           "100m people potential deaths without vaccine, but people deserve
           their freedom." It comes from somewhere lmao.
           <br />
