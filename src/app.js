@@ -425,6 +425,11 @@ export default class App extends React.Component {
           "Not antivax," so it works?
           <br />
           <br />
+          Trump giving such credence to the duress beyond minimal viable product
+          without multiple of 11/12 industry-variable jury. Get a permit. So
+          that they can copy Twitter and not protect no quid pro quo rights.
+          <br />
+          <br />
           <TwitterTweetEmbed
             style={{ float: "right", width: "300px" }}
             key="1429182687588278276"
