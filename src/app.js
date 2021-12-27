@@ -189,6 +189,37 @@ export default class App extends React.Component {
           .
           <br />
           <br />
+          Non-exclusive serious cases from those unvaccinated is mistaking the
+          forest for the trees
+          {this.state.lastWidth && (
+            <a
+              style={{ color: "rgb(230,230,255)" }}
+              href="https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html"
+            >
+              <Vaxx
+                lastWidth={Math.min(600, this.state.lastWidth)}
+                style={{
+                  transform: "translate(0,0)",
+                  backgroundColor: "rgba(250,250,250,0.6)",
+                  height: "200px"
+                }}
+              />
+            </a>
+          )}
+          "COVID-19 coded deaths[ and&nbsp;
+          <a href="https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=GB">
+            hospitalizations
+          </a>
+          ] were&nbsp;
+          <a href="https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html">
+            added
+          </a>
+          &nbsp;to P&I to create the&nbsp;
+          <a href="https://www.cdc.gov/flu/weekly/overview.htm#:~:text=5.%20Mortality%20Surveillance">
+            PIC
+          </a>
+          &nbsp;(pneumonia, influenza, and/or COVID-19) classification."
+          <br />
           {this.state.lastWidth && (
             <Epiology lastWidth={Math.min(600, this.state.lastWidth)} />
           )}
@@ -4473,34 +4504,6 @@ export default class App extends React.Component {
           <a href="https://journals.sagepub.com/doi/full/10.1177/1745691620942516">
             sign
           </a>
-          {this.state.lastWidth && (
-            <a
-              style={{ color: "rgb(230,230,255)" }}
-              href="https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html"
-            >
-              <Vaxx
-                lastWidth={Math.min(600, this.state.lastWidth)}
-                style={{
-                  transform: "translate(0,0)",
-                  backgroundColor: "rgba(250,250,250,0.6)",
-                  height: "200px"
-                }}
-              />
-            </a>
-          )}
-          "COVID-19 coded deaths[ and&nbsp;
-          <a href="https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=GB">
-            hospitalizations
-          </a>
-          ] were&nbsp;
-          <a href="https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html">
-            added
-          </a>
-          &nbsp;to P&I to create the&nbsp;
-          <a href="https://www.cdc.gov/flu/weekly/overview.htm#:~:text=5.%20Mortality%20Surveillance">
-            PIC
-          </a>
-          &nbsp;(pneumonia, influenza, and/or COVID-19) classification."
           <br />
           17-29% heart-attack is in vivo (above-basis prevalence or in vacuum
           with ingredients and order) by vaccine
