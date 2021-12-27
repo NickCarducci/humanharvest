@@ -177,6 +177,25 @@ export default class App extends React.Component {
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
+          "How does national debt cause inflation?"
+          <br />
+          The labor shortage of actual work from the bond-holders
+          laborless-demand. Also, force majeure implausible deniability is even
+          called corrections when the repo-cycle keeps down payments laundered
+          upon loitered collateral. It is verifiably not population growth by
+          witnessing GDP/p 1800–1913 being nearly constant among the 3%/yr+
+          population, only finance by third party donee beneficiary claimable
+          surrendered freedoms (EULA) that includes invoices, expiring claims,
+          implausible landlord use and repo-cycle kept down payments.
+          <h2>
+            Tim Dillon: "Hopefully this variant sweeps and we move on," The only
+            thing sweeping are tests.
+          </h2>
+          It comes from somewhere michael and Trump you fucking retards. "Very
+          left or even marxist," like ending finance actual work deficit? Go to
+          hell fucker. "Don’t sneak in, follow any rule by self-regulation." Get
+          a fucking permit Jew.
+          <br />
           <br />
           “Vaccines and seatbelts keep you safe,” but you didn’t even save
           people with MS = paralytic polio and the warning mechanism of
@@ -1780,11 +1799,11 @@ export default class App extends React.Component {
           safe.' …<a href="https://teapharmacy.party">Ask them to comply</a>, we
           trust them to take the test and scan the code already.
           <br />
-          <TwitterTweetEmbed
+          {/*<TwitterTweetEmbed
             style={{ float: "right", width: "300px" }}
             key="1428312309685002241"
             tweetId="1428312309685002241"
-          />
+          />*/}
           I think compliance could be increased if they can trust they are not
           facing these restrictions for no reason, they are not having their
           data harvested. It is a great concern in our constituency and I do
@@ -2385,8 +2404,8 @@ export default class App extends React.Component {
           <br />
           <div
             style={{
-              height: this.state.insurance ? "min-content" : "0px",
-              overflow: "hidden"
+              position: this.state.insurance ? "relative" : "fixed",
+              zIndex: this.state.insurance ? "0" : "-9999"
             }}
           >
             <a
@@ -2500,8 +2519,8 @@ export default class App extends React.Component {
           <br />
           <div
             style={{
-              height: this.state.juryPermitting ? "min-content" : "0px",
-              overflow: "hidden"
+              position: this.state.juryPermitting ? "relative" : "fixed",
+              zIndex: this.state.juryPermitting ? "0" : "-9999"
             }}
           >
             market history and propoganda: The Great Leap Forward expected 15m
@@ -3035,8 +3054,8 @@ export default class App extends React.Component {
           <br />
           <div
             style={{
-              height: this.state.lawsuits ? "min-content" : "0px",
-              overflow: "hidden"
+              position: this.state.lawsuits ? "relative" : "fixed",
+              zIndex: this.state.lawsuits ? "0" : "-9999"
             }}
           >
             age-standardized excess deaths short 700k 1.2m/yr+ 75+ 2015-
@@ -3217,8 +3236,8 @@ export default class App extends React.Component {
           <br />
           <div
             style={{
-              height: this.state.politics ? "min-content" : "0px",
-              overflow: "hidden"
+              position: this.state.politics ? "relative" : "fixed",
+              zIndex: this.state.politics ? "0" : "-9999"
             }}
           >
             <h2>
@@ -3879,8 +3898,8 @@ export default class App extends React.Component {
           <br />
           <div
             style={{
-              height: this.state.science ? "min-content" : "0px",
-              overflow: "hidden"
+              position: this.state.science ? "relative" : "fixed",
+              zIndex: this.state.science ? "0" : "-9999"
             }}
           >
             <h1>
@@ -4452,8 +4471,8 @@ export default class App extends React.Component {
           <br />
           <div
             style={{
-              height: this.state.fall2021 ? "min-content" : "0px",
-              overflow: "hidden"
+              position: this.state.fall2021 ? "relative" : "fixed",
+              zIndex: this.state.fall2021 ? "0" : "-9999"
             }}
           >
             <Cable
@@ -5001,17 +5020,11 @@ export default class App extends React.Component {
             ... and acted on. @ChrisSalcedo17
             <br />
             <br />
-            <div
-              style={{
-                height: "min-content"
-              }}
-            >
-              <TwitterTweetEmbed
-                style={{ width: "300px", float: "left" }}
-                key="1425460613711605760"
-                tweetId="1425460613711605760"
-              />
-            </div>
+            <TwitterTweetEmbed
+              style={{ width: "300px", float: "left" }}
+              key="1425460613711605760"
+              tweetId="1425460613711605760"
+            />
             19% are symptomatic, I can’t let this happen @US_FDA @ftc
             @JohnsHopkins @RutgersU @NYGov,&nbsp;
             <a href="https://www.nature.com/articles/d41586-020-03141-3">
@@ -5078,17 +5091,11 @@ export default class App extends React.Component {
             http://foiegras.life
             <br />
             <br />
-            <div
-              style={{
-                height: "min-content"
-              }}
-            >
-              <TwitterTweetEmbed
-                style={{ width: "300px", float: "right" }}
-                key="1421471623136358405"
-                tweetId="1421471623136358405"
-              />
-            </div>
+            <TwitterTweetEmbed
+              style={{ width: "300px", float: "right" }}
+              key="1421471623136358405"
+              tweetId="1421471623136358405"
+            />
             "If your mask gets moldy, perhaps it is time for a fresh one."
             <br />
             <br />
@@ -5145,8 +5152,8 @@ export default class App extends React.Component {
           <br />
           <div
             style={{
-              height: this.state.springsummer2021 ? "min-content" : "0px",
-              overflow: "hidden"
+              position: this.state.springsummer2021 ? "relative" : "fixed",
+              zIndex: this.state.springsummer2021 ? "0" : "-9999"
             }}
           >
             causes lymphoma; more significant than graft vs humoral response to
@@ -5471,8 +5478,8 @@ export default class App extends React.Component {
           <br />
           <div
             style={{
-              height: this.state.late2020 ? "min-content" : "0px",
-              overflow: "hidden"
+              position: this.state.late2020 ? "relative" : "fixed",
+              zIndex: this.state.late2020 ? "0" : "-9999"
             }}
           >
             moldmask.co, cocaine is money, purity health dpt @SaverParty You are
@@ -5540,17 +5547,11 @@ export default class App extends React.Component {
             https://www.hhs.gov/sites/default/files/covid-19-high-impact-allocation.pdf
             invoices are theft and these grants from our equity only raises
             prices for services
-            <div
-              style={{
-                height: "min-content"
-              }}
-            >
-              <TwitterTweetEmbed
-                style={{ width: "300px", float: "right" }}
-                key="1420593721096253440"
-                tweetId="1420593721096253440"
-              />
-            </div>
+            <TwitterTweetEmbed
+              style={{ width: "300px", float: "right" }}
+              key="1420593721096253440"
+              tweetId="1420593721096253440"
+            />
             <h1
               style={{
                 fontFamily: '"Pacifico", sans-serif'
