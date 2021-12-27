@@ -209,7 +209,12 @@ export default class App extends React.Component {
           <br />
           Thin ice bro. "Not in Americans best interest is not an issue," any
           non-trade is self-deprecating for technological advancement per hour
-          price deflation comparative advantage.
+          price deflation comparative advantage. “We need to make it Painful by
+          sanctions not military intervention.” Unilaterally gave Russia
+          pipeline network fees gentrification by government, rent-seeking and
+          pure useless inflation monopsony. Sounds famiiar nationalist Chaffitz.
+          "Energy independence," doesn't mean you need government to rent-seek
+          douche.
           <br />
           "Not fair," like impossible lest third party beneficiary donee
           claimable.
