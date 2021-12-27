@@ -1,12 +1,18 @@
 import React from "react";
+import ExecutionEnvironment from "exenv";
 class Cable extends React.Component {
   constructor(props) {
     super(props);
     this.state = { limit: [], cache: null };
     this.page = React.createRef();
   }
+  componentDidMount() {
+    if (ExecutionEnvironment.canUseDOM) {
+      this.setState({ go: true });
+    }
+  }
   componentDidUpdate = (prevProps) => {
-    if (this.props.scrolling !== prevProps.scrolling) {
+    if (this.state.go && this.props.scrolling !== prevProps.scrolling) {
       const { cache } = this.state;
       const { scrollTopAndHeight, scrollTop, girth, timeout } = this.props;
       var girt = girth ? girth : 1000;
@@ -22,16 +28,12 @@ class Cable extends React.Component {
         if (!continuee) continuee = cache;
         this.setState({ cache: continuee, between }, () => {
           if (!between && continuee) {
-            //while (page.firstChild) {
-            //page.removeChild(page.firstChild);
-            let onClick = "ontouchstart" in window ? "touchstart" : "onclick";
-            if (continuee[onClick]) continuee.remove(); //touchevent
-            //continuee.click();
-            //}
-            return;
+            return continuee.remove(continuee);
           }
-          //if (!between && continuee) return continuee.remove();
-          if (!page.children.find((s) => s === this.state.cache))
+          if (
+            page.children &&
+            !page.children.find((s) => s === this.state.cache)
+          )
             page.appendChild(this.state.cache);
         });
       }, timeou);
@@ -45,16 +47,14 @@ class Cable extends React.Component {
     const { src, float, title, img } = this.props;
     //const limited = limit.find((x) => x === Object.keys(this.props.fwd));
     const onError = (e) => {
-      this.props.fwd.current.remove();
+      //this.props.fwd.current.remove();
       this.props.onError(e);
     };
     return (
       <div ref={this.page}>
         {!continuee || between ? (
           src === "" ? (
-            <span ref={this.props.fwd} style={{ border: "1px gray solid" }}>
-              {title}
-            </span>
+            <span style={{ border: "1px gray solid" }}>{title}</span>
           ) : img ? (
             <img
               onError={onError}
