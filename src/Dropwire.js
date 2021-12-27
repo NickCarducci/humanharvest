@@ -28,10 +28,21 @@ class Cable extends React.Component {
         if (!continuee) continuee = cache;
         this.setState({ cache: continuee, between }, () => {
           if (!between && continuee) {
-            return continuee.remove(continuee);
+            //while (page.firstChild) {
+            //page.removeChild(continuee);
+            continuee.remove(continuee);
+            //while (page.firstChild) {
+            //let onClick =
+            //"ontouchstart" in continuee ? "touchstart" : "onclick";
+            //if (continuee[onClick]) continuee.remove(); //touchevent
+            //continuee.click();
+            //}
+            return;
           }
+          //if (!between && continuee) return continuee.remove();
           if (
             page.children &&
+            page.children.constructor === Array &&
             !page.children.find((s) => s === this.state.cache)
           )
             page.appendChild(this.state.cache);
