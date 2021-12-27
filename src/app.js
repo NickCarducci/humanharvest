@@ -184,10 +184,10 @@ export default class App extends React.Component {
             </a>
             .
           </h2>
-          "500m tests (Michael Goodwin ny post) for free rider mutable tax for
+          "500m tests (Michael Goodwin ny post)," for free rider mutable tax for
           gentrification, rent-seeking and useless pure inflation monopsony.
           <br />
-          Donald Trump is a leader, he may be wrong, but he leads. The price we
+          "Donald Trump is a leader, he may be wrong, but he leads. The price we
           pay to get a leader.
           <br />
           Inflation, there is so many measurements.
