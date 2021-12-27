@@ -177,6 +177,118 @@ export default class App extends React.Component {
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
+          <br />
+          "I know from experience, don't self-medicate oxy," Sliwa just says
+          this because doctor trust building,&nbsp;
+          <a href="https://qr.ae/pGqmOq">dollar-depositary consortium</a>&nbsp;
+          <a href="https://vaults.biz">competition</a>.<br />
+          <br />
+          "pedal to the medal with approval of vaccine, not same effect as
+          other, I don't care, pfizer gets billions moderna wrote their own
+          ticket."
+          <br />
+          "stay at home moms aren't my base 15m antivaxx and antitrump."
+          <br />
+          Why are you putting criminals in mental hospitals, with insurance it
+          costs $2k/day, that is self-deprecating.
+          <br />
+          Plea bargains are inherently duress to lie under oath. No scripts.
+          <br />
+          Finance is the cause of the labor shortage. You guys have no idea what
+          you are talking about. This is proven by GDp/p 1800-1913 being nearly
+          constant amongst 3%/yr+ population.
+          <br />
+          Do you get a cut of involuntary commitment? We need to ween jailors
+          and cops off net loss bond profit and healthcare off of insurance,
+          public and private. It is self-deprication to bring forward demand
+          like this that doesn’t rollover.
+          <br />
+          Bail means you don’t have evidence, you can always review it later.
+          <br />
+          "People are dropping left and right with positive tests."
+          <br />
+          We need to ween jailors and cops off net loss bond profit and
+          healthcare off of insurance, public and private. It is
+          self-deprication to bring forward demand like this that doesn’t
+          rollover.
+          <br />
+          Bail means you don’t have evidence, you can always review it later
+          <br />
+          "Insurance is going to not underwrite," with expiring claims? It is a
+          false bid pool, it is illegal, third party donee beneficiary
+          surrendered freedom (EULA).
+          <br />
+          You guys should probably be on anti psychotic meds.
+          <br />
+          Help you guys out, hold your feeble hands.
+          <br />
+          Do you know why boomers are called boomers? Because after the lull in
+          births over WWII , boomers exploded with births. This pandemic was
+          projected by the Census in 2015. Boomers are the cause of inflation,
+          20x/millennial rental income and 10x/boomer millennial hours worked
+          since you all were my age. So stfu.
+          <br />
+          This pandemic was projected by the&nbsp;
+          <a href="https://www.census.gov/library/stories/2017/10/aging-boomers-deaths.html">
+            Census in 2015
+          </a>
+          . Do you know why boomers are called boomers? Because after the lull
+          in births over WWII, boomers exploded with births. You all are dying
+          on time, not soon enough, half continuing claims and most of
+          disability goes to the olds, whom are the cause of inflation*,
+          20x/millennial rental income and 10x/boomer millennial hours worked
+          since you all were my age. So get back to work.
+          <br />
+          *proven by GDP/p 1800-1913 being nearly constant amongst 3%/yr+
+          population, save repo cycle kept down payments third party donee
+          beneficiary surrendered freedom (EULA) force majeure implausibly
+          deniable intent.
+          <br />
+          Insurance is going to not underwrite with expiring claims? It is a
+          false bid pool, it is illegal, third party donee beneficiary
+          surrendered freedom (EULA).
+          <br />
+          I’m a statistician, not a doctor that follow eachother lest get
+          malpractice.
+          <br />
+          <br />
+          Virus comes out after bacterial infection,&nbsp;
+          <a href="https://theconversation.com/your-poo-is-mostly-alive-heres-whats-in-it-102848#:~:text=www.shutterstock.com-,Microbes,of%20the%20bacteria%20were%20alive.">
+            that’s why our excrement is filled with bacteria
+          </a>
+          , and injecting dns in an instant is just made up! Ms matches
+          paralytic polio.
+          <br />
+          55m/yr+ worldwide 1.2m/yr+, 500k excess deaths from zero.
+          <br />
+          <br />
+          "This vaccine doesn’t prevent the disease," but it comes from
+          somewhere. Neither does ms or paralytic polio (same thing).
+          <br />
+          Get a permit - from an industry-various multiple of 11/12 jury.
+          <br />
+          "Not antivax," so it works?
+          <br />
+          <br />
+          "100m people potential deaths without vaccine, but people deserve
+          their freedom." It comes from somewhere lmao.
+          <br />
+          “Trace contact exposures,” virion is made when bacteria-infection.
+          That’s why our excrement is filled with bacteria. The antibodies are a
+          warning mechanism.
+          <br />
+          I’m a statistician with facts. census projected the pandemic in 2015
+          with aging boomer deaths article.
+          <br />
+          "Omicron because no vaccine and low immunity. Highest HIV/AIDS in the
+          world."
+          <br />
+          You know what you do with the Chinese US cahoots in bond
+          <br />
+          reverse amortization (cash/debt)*income every year back then
+          1-level-board max-royalty-profit
+          <br />
+          <br />
           "How does national debt cause inflation?"
           <br />
           The labor shortage of actual work from the bond-holders
