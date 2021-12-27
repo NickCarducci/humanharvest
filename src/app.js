@@ -207,7 +207,9 @@ export default class App extends React.Component {
           "Destroy the meaning of NATO by defending all human rights
           non-contractually."
           <br />
-          Thin ice bro.
+          Thin ice bro. "Not in Americans best interest is not an issue," any
+          non-trade is self-deprecating for technological advancement per hour
+          price deflation comparative advantage.
           <br />
           "Not fair," like impossible lest third party beneficiary donee
           claimable.
