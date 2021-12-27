@@ -208,10 +208,16 @@ export default class App extends React.Component {
           By succeeding you are implying people are slaves to government. We
           need to ween cops off net loss bond profit. All convictions are moot,
           isn’t it? You don’t need to nationalize bridge tolls and broadband
-          fees, just target margin network monopolies
+          fees, just target margin network monopolies.
           <br />
           You think the only way is violent uprising? Fucking nut Frank morano,
-          take your fucking pills
+          take your fucking pills.
+          <br />
+          You keep talking about inflation like it isn’t exclusively from
+          finance, labor-competition is perfectly elastic as proven by GDP/p
+          1800-1913 being nearly constant, save repo cycle kept down payments
+          third party donee beneficiary surrendered freedom (EULA) force majeure
+          implausibly deniable intent.
           <h2>
             Tim Dillon: "Hopefully this variant sweeps and we move on," The only
             thing sweeping are tests.
