@@ -204,6 +204,14 @@ export default class App extends React.Component {
           market communist want, like third party donee beneficiary claimable
           surrendered freedom (EULA) What the people want has no power over
           others.
+          <br />
+          By succeeding you are implying people are slaves to government. We
+          need to ween cops off net loss bond profit. All convictions are moot,
+          isn’t it? You don’t need to nationalize bridge tolls and broadband
+          fees, just target margin network monopolies
+          <br />
+          You think the only way is violent uprising? Fucking nut Frank morano,
+          take your fucking pills
           <h2>
             Tim Dillon: "Hopefully this variant sweeps and we move on," The only
             thing sweeping are tests.
