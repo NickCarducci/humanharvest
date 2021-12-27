@@ -75,7 +75,7 @@ class Cable extends React.Component {
               width: "200px",
               border: 0,
               ...this.props.style,
-              display: src === "" ? "none" : ""
+              display: continuee && !between ? "none" : ""
             }}
             ref={this.props.fwd}
             src={src}
