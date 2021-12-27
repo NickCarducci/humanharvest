@@ -214,7 +214,12 @@ export default class App extends React.Component {
           pipeline network fees gentrification by government, rent-seeking and
           pure useless inflation monopsony. Sounds famiiar nationalist Chaffitz.
           "Energy independence," doesn't mean you need government to rent-seek
-          douche.
+          douche. "Far less environmentally friendly in the US.” Target-margin
+          network monopolies as microeconomic Supple and Demand reasoning of
+          self-regulation of price, quality or duress is moot, unless infinite
+          producters and non-laborless-demand (finance/rent-seeking; invoices,
+          expiring claims, implausible landlord use, repo cycle kept down
+          payments).
           <br />
           "Not fair," like impossible lest third party beneficiary donee
           claimable.
