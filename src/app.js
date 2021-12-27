@@ -187,6 +187,23 @@ export default class App extends React.Component {
           population, only finance by third party donee beneficiary claimable
           surrendered freedoms (EULA) that includes invoices, expiring claims,
           implausible landlord use and repo-cycle kept down payments.
+          <br />
+          <br />
+          “What do you see the government to do to increase the buying power of
+          the dollar without deflation?”
+          <br />
+          <br />
+          Why do you not want deflation, so you don’t have to work? That is
+          impossible. I will prosecute third party donee beneficiary claimable
+          surrendered freedom (EULA), so you don’t have a choice.
+          <br />
+          Do you mean succeed, like don’t gentrify nationalized bridge tolls or
+          broadband fees? You are implying there is to be no self determination
+          with free rider mutable tax. I don’t know what you mean by
+          self-determination by market communism Respect for what a certain
+          market communist want, like third party donee beneficiary claimable
+          surrendered freedom (EULA) What the people want has no power over
+          others.
           <h2>
             Tim Dillon: "Hopefully this variant sweeps and we move on," The only
             thing sweeping are tests.
