@@ -178,6 +178,29 @@ export default class App extends React.Component {
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
           <br />
+          "500m tests (Michael Goodwin ny post) for free rider mutable tax for
+          gentrification, rent-seeking and useless pure inflation monopsony.
+          <br />
+          Donald Trump is a leader, he may be wrong, but he leads. The price we
+          pay to get a leader.
+          <br />
+          Inflation, there is so many measurements.
+          <br />
+          4-5 phony 5-6 honest.
+          <br />
+          $100m on climate change," brought forward demand is always useless if
+          it doesn’t rollover/flaccid profits/expiring claims competing with
+          consumers as a producer.
+          <br />
+          "Destroy the meaning of NATO by defending all human rights
+          non-contractually."
+          <br />
+          Thin ice bro.
+          <br />
+          "Not fair," like impossible lest third party beneficiary donee
+          claimable.
+          <br />
+          <br />
           <Cable
             onError={handleScollImgError}
             //img={true}
@@ -205,7 +228,8 @@ export default class App extends React.Component {
           <br />
           <br />
           Non-exclusive serious cases from those unvaccinated is mistaking the
-          forest for the trees
+          forest for the trees (warning mechanism of ingested bacteri, virion
+          debris)
           {this.state.lastWidth && (
             <a
               style={{ color: "rgb(230,230,255)" }}
