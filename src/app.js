@@ -212,14 +212,17 @@ export default class App extends React.Component {
           price deflation comparative advantage. “We need to make it Painful by
           sanctions not military intervention.” Unilaterally gave Russia
           pipeline network fees gentrification by government, rent-seeking and
-          pure useless inflation monopsony. Sounds famiiar nationalist Chaffitz.
+          pure useless inflation monopsony. Sounds familiar nationalist
+          Chaffitz. "$1.5m/day on interest," and $3m/day on Afghanistan, pulled
+          out for social security, Amendment 14 Section 4 beyond Article 4.
           "Energy independence," doesn't mean you need government to rent-seek
           douche. "Far less environmentally friendly in the US.” Target-margin
           network monopolies as microeconomic Supple and Demand reasoning of
           self-regulation of price, quality or duress is moot, unless infinite
           producters and non-laborless-demand (finance/rent-seeking; invoices,
           expiring claims, implausible landlord use, repo cycle kept down
-          payments).
+          payments). "Anything trump when he took on the great causes," like
+          self-depricating for USPTO? That's a bad thing.
           <br />
           "Not fair," like impossible lest third party beneficiary donee
           claimable.
