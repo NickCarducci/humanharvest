@@ -184,6 +184,11 @@ export default class App extends React.Component {
           do it right." They 10% debt service you tool.
           <br />
           <br />
+          The military comes out with a vaccine just before expected excess
+          deaths to level from population growth growth that was called a
+          pandemic at their end of life.
+          <br />
+          <br />
           "The employer has a right to keep you from work with their own
           mandate." Not naturally, they need to get a permit like desistations.
           If the "biden vaccine mandate cannot be upheld," because pandemic is
@@ -6433,4 +6438,3 @@ export default class App extends React.Component {
     );
   }
 }
-
