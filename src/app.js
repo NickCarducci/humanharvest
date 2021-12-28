@@ -176,6 +176,12 @@ export default class App extends React.Component {
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
+          <h3>
+            expiring claims is the only way to sign up nannies, mechanics and
+            doctors.&nbsp;<a href="https://teapharmacy.party/drugs">drugs</a>
+            &nbsp;are a&nbsp;
+            <a href="https://vaults.biz">currency competitor</a>.
+          </h3>
           <h2>
             Pandemics happen when Average age of death amounts to the average
             age, then it lowers thereafter and the life expectancy jumps if not
@@ -6487,4 +6493,3 @@ export default class App extends React.Component {
     );
   }
 }
-
