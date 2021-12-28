@@ -241,10 +241,12 @@ export default class App extends React.Component {
           catch up, there is not a growing life expectancy as much as an older
           cohort. It is a dog wagging its tail situation.
           <br />
-          Life expectancy in 1918
+          Life expectancy in 1918.
           <br />
-          Antibiotics put me in a wheelchair in a month, antiviral just stops
-          the warning mechanism
+          "Antibiotics put me in a wheelchair in a month," antiviral just stops
+          the warning mechanism. "Don’t realize how much power, when they
+          realize how much power they have, can’t fine us," says Howie Hurley.
+          &nbsp;<a href="https://qr.ae/pGzBC1">Haha</a>.
           <br />
           <br />
           <a href="https://www.census.gov/library/stories/2017/10/aging-boomers-deaths.html">
