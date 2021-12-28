@@ -1,5 +1,7 @@
 import React from "react";
-//import ReactDOM from "react-dom";
+import ReactDOM from "react-dom";
+//import reactElementToJSXString from "react-element-to-jsx-string";
+//import ReactDOMServer from "react-dom/server";
 import ExecutionEnvironment from "exenv";
 
 /*class Forward extends React.Component {
@@ -25,46 +27,86 @@ class Cable extends React.Component {
     }
   }
   componentDidUpdate = (prevProps) => {
-    if (this.state.go && this.props.scrolling !== prevProps.scrolling) {
+    if (
+      this.state.go &&
+      !this.props.scrolling &&
+      this.props.scrolling !== prevProps.scrolling
+    ) {
       const { cache } = this.state;
       const { scrollTopAndHeight, scrollTop, girth, timeout } = this.props;
       var girt = girth ? girth : 1000;
       var timeou = timeout ? timeout : 1500;
       var continuee = this.props.fwd.current;
-      if (!continuee && !cache) return;
       clearTimeout(this.setset);
       this.setset = setTimeout(() => {
         var page = this.page.current;
         var between =
           page.offsetTop - scrollTop > Number(`-${girt}`) &&
           scrollTopAndHeight - page.offsetTop > Number(`-${girt}`);
-        if (!continuee) continuee = cache;
-        this.setState({ cache: continuee, between }, () => {
-          if (!between && continuee) {
-            //while (page.firstChild) {
-            //page.removeChild(continuee);
-            continuee.remove();
-            //while (page.firstChild) {
-            //let onClick =
-            //"ontouchstart" in continuee ? "touchstart" : "onclick";
-            //if (continuee[onClick]) continuee.remove(); //touchevent
-            //continuee.click();
-            //}
-            //continuee.parentNode.removeChild(continuee);
-            //ReactDOM.unmountComponentAtNode(continuee); //ReactDOM.findDOMNode(this).parentNode
-            return;
-          }
-          //if (!between && continuee) return continuee.remove();
-          const children = [...page.children];
-          if (
-            children.length === 0 ||
-            !children.find((x) => x === this.state.cache)
-            //children[children.length - 1] !== this.state.cache
-          )
-            /*page.innerHTML = React.forwardRef((props, ref) => (
+        this.setState({ between }, () => {
+          if (!continuee && !cache) return;
+          console.log(between);
+          this.setState(
+            {
+              //ReactDOMServer.renderToStaticMarkup, reactElementToJSXString
+              //is just html object
+              cache: this.props.fwd.current.outerHTML
+            },
+            () => {
+              if (!continuee) continuee = cache;
+              if (!between && continuee) {
+                //while (page.firstChild) {
+                //page.removeChild(continuee);
+                ReactDOM.unmountComponentAtNode(page); //ReactDOM.findDOMNode(this).parentNode
+                continuee.remove();
+                //while (page.firstChild) {
+                //let onClick =
+                //"ontouchstart" in continuee ? "touchstart" : "onclick";
+                //if (continuee[onClick]) continuee.remove(); //touchevent
+                //continuee.click();
+                //}
+                //continuee.parentNode.removeChild(continuee);
+
+                return this.setState({ useCache: true });
+              }
+              //if (!between && continuee) return continuee.remove();
+              const children = [...page.children];
+              const d = children.find((x) => x === this.state.cache);
+              // console.log(children);
+              if (
+                children.length === 0 ||
+                !d
+                //children[children.length - 1] !== this.state.cache
+              ) {
+                /*page.innerHTML = React.forwardRef((props, ref) => (
               <Forward fwdtwe={ref} {...props} />
             ));*/
-            page.appendChild(this.state.cache);
+                //console.log(page);
+                //console.log(this.state.cache);
+                var cach = this.state.cache;
+                /**renderToStaticMarkup over renderToString as it does not add any extra DOM attributes that React uses internally, like `data-reactroot: */
+                /*const namer = cache.getAttribute("alt") ? "alt" : "title";
+              cach.setAttribute(
+                namer,
+                cache.getAttribute(namer) + this.state.mountsCount
+              );*/
+                console.log(cach);
+                const img = cach.split(`alt="`)[1];
+                const namer = img
+                  ? cach.split(`alt="`)[1].split(`"`)
+                  : cach.split(`title="`)[1].split(`"`);
+                cach =
+                  cach.substring(0, img ? 10 : 15) +
+                  namer[0] +
+                  this.state.mountsCount +
+                  `"` +
+                  namer[1];
+                page.innerHTML = cache;
+                //page.appendChild(cache);
+                //console.log(page);
+              }
+            }
+          );
         });
       }, timeou);
     }
@@ -73,7 +115,7 @@ class Cable extends React.Component {
     clearTimeout(this.setset);
   };
   render() {
-    const { between } = this.state;
+    const { between, useCache } = this.state;
     const { src, float, title, img } = this.props;
     //const limited = limit.find((x) => x === Object.keys(this.props.fwd));
     const onError = (e) => {
@@ -82,10 +124,10 @@ class Cable extends React.Component {
     }; //ternaries remove the node and element; display removes the element, but not the node
     return (
       <div ref={this.page}>
-        {src === "" ? (
-          <span style={{ border: "1px gray solid" }}>{title}</span>
-        ) : img ? (
-          between && (
+        {between && !useCache ? (
+          src === "" ? (
+            <span style={{ border: "1px gray solid" }}>{title}</span>
+          ) : img ? (
             <img
               onError={onError}
               alt={title}
@@ -99,9 +141,7 @@ class Cable extends React.Component {
               ref={this.props.fwd}
               src={src}
             />
-          )
-        ) : (
-          between && (
+          ) : (
             <iframe
               onError={onError}
               title={title}
@@ -116,7 +156,7 @@ class Cable extends React.Component {
               src={src}
             />
           )
-        )}
+        ) : null}
       </div>
     );
   }
