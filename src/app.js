@@ -239,8 +239,30 @@ export default class App extends React.Component {
           </a>
           <br />
           <br />
-          Do you know why boomers? WWII live birth lull was life expectancy ago,
-          so Census has projected this back in 2015 aging boomer deaths.
+          The pandemic is measured by significance, but they don’t fix excess
+          deaths for population growth, just look at fertility rates life
+          expectancy ago. This is why they are called boomers.
+          <br />
+          <a href="https://www.researchgate.net/figure/Total-fertility-rate-in-United-States-1920-2014_fig1_316893597">
+            <Cable
+              style={{ width: "100%", height: "350px", maxHeight: "50vw" }}
+              onError={handleScollImgError}
+              //img={true}
+              src={
+                this.state.noyoutube
+                  ? ""
+                  : "https://drive.google.com/file/d/1xYOpsuwFUyIpKXIfuEI-cn01b7h5bPCn/preview"
+              }
+              float="right"
+              title=""
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + scrollnum()]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+          </a>
+          Do you know why "boomers?" WWII live birth lull was life expectancy
+          ago, so Census has projected this back in 2015 aging boomer deaths.
           Bacteria is in excrement because if that reinfects us virion comes
           out.
           <br />
