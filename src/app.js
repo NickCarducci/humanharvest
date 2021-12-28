@@ -177,13 +177,9 @@ export default class App extends React.Component {
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <h2>
-            It is a way to get us out of debt spending, public and private
-            (2/3). Now I might as well tell you the solution: Truncated
-            production tax free rider immutable sewage police lawsuits instead
-            of 40–50% debt-spending 1/4 1/4 1/4 expiring claim premium pentagon
-            pensions 10% debt service, 40% njta. 1-level-board
-            max-royalty-contracts can replace future debt “investment” after
-            reverse amortization (cash/debt)*income every year back.
+            Pandemics happen when Average age of death amounts to the average
+            age, then it lowers thereafter and the life expectancy jumps if not
+            up to wrinkly age yet, just sewage and nutrition
           </h2>
           <h1>
             A pandemic measured by growth without any basis rate exogenous
