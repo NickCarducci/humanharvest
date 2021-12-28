@@ -187,8 +187,7 @@ export default class App extends React.Component {
           The military comes out with a vaccine just before expected excess
           deaths to level from population growth growth that was called a
           pandemic at their end of life.
-          <br />
-          <br />
+          <h3>3.5m deaths, .5m excess at end of life</h3>
           "The employer has a right to keep you from work with their own
           mandate." Not naturally, they need to get a permit like desistations.
           If the "biden vaccine mandate cannot be upheld," because pandemic is
@@ -275,6 +274,8 @@ export default class App extends React.Component {
           <a href="https://www.census.gov/library/stories/2017/10/aging-boomers-deaths.html">
             https://www.census.gov/library/stories/2017/10/aging-boomers-deaths.html
           </a>
+          &nbsp;"Deaths are projected to reach more than 3.6 million in 2037,"
+          if people live to 100 maybe
           <br />
           <br />
           The pandemic is measured by significance, but they don’t fix excess
