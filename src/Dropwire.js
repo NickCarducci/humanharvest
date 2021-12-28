@@ -1,10 +1,23 @@
 import React from "react";
+//import ReactDOM from "react-dom";
 import ExecutionEnvironment from "exenv";
+
+/*class Forward extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+  render() {
+    return <div ref={this.props.fwdtwe} />;
+  }
+}*/
+
 class Cable extends React.Component {
   constructor(props) {
     super(props);
     this.state = { limit: [], cache: null };
     this.page = React.createRef();
+    this.fwdtwe = React.createRef();
   }
   componentDidMount() {
     if (ExecutionEnvironment.canUseDOM) {
@@ -37,14 +50,20 @@ class Cable extends React.Component {
             //if (continuee[onClick]) continuee.remove(); //touchevent
             //continuee.click();
             //}
+            //continuee.parentNode.removeChild(continuee);
+            //ReactDOM.unmountComponentAtNode(continuee); //ReactDOM.findDOMNode(this).parentNode
             return;
           }
           //if (!between && continuee) return continuee.remove();
           const children = [...page.children];
           if (
             children.length === 0 ||
-            children[children.length - 1] !== this.state.cache
+            !children.find((x) => x === this.state.cache)
+            //children[children.length - 1] !== this.state.cache
           )
+            /*page.innerHTML = React.forwardRef((props, ref) => (
+              <Forward fwdtwe={ref} {...props} />
+            ));*/
             page.appendChild(this.state.cache);
         });
       }, timeou);
@@ -54,47 +73,49 @@ class Cable extends React.Component {
     clearTimeout(this.setset);
   };
   render() {
-    const { between, continuee } = this.state;
+    const { between } = this.state;
     const { src, float, title, img } = this.props;
     //const limited = limit.find((x) => x === Object.keys(this.props.fwd));
     const onError = (e) => {
       //this.props.fwd.current.remove();
       this.props.onError(e);
-    };
+    }; //ternaries remove the node and element; display removes the element, but not the node
     return (
       <div ref={this.page}>
         {src === "" ? (
           <span style={{ border: "1px gray solid" }}>{title}</span>
         ) : img ? (
-          <img
-            onError={onError}
-            alt={title}
-            style={{
-              shapeOutside: "rect()",
-              float,
-              width: "200px",
-              border: 0,
-              ...this.props.style,
-              display: continuee && !between ? "none" : ""
-            }}
-            ref={this.props.fwd}
-            src={src}
-          />
+          between && (
+            <img
+              onError={onError}
+              alt={title}
+              style={{
+                shapeOutside: "rect()",
+                float,
+                width: "200px",
+                border: 0,
+                ...this.props.style
+              }}
+              ref={this.props.fwd}
+              src={src}
+            />
+          )
         ) : (
-          <iframe
-            onError={onError}
-            title={title}
-            style={{
-              shapeOutside: "rect()",
-              float,
-              width: "200px",
-              border: 0,
-              ...this.props.style,
-              display: continuee && !between ? "none" : ""
-            }}
-            ref={this.props.fwd}
-            src={src}
-          />
+          between && (
+            <iframe
+              onError={onError}
+              title={title}
+              style={{
+                shapeOutside: "rect()",
+                float,
+                width: "200px",
+                border: 0,
+                ...this.props.style
+              }}
+              ref={this.props.fwd}
+              src={src}
+            />
+          )
         )}
       </div>
     );
