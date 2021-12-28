@@ -238,8 +238,12 @@ export default class App extends React.Component {
             converging life expectancy/average age at death with 1.2m/yr
             population growth
           </h2>
+          800k deaths or 500k/yr, 1.2m/yr expected from population growth, 80 is
+          life expectancy we are made for that age as we start getting wrinkly.
+          <br />
           What if speeding was just pulled over? No state victimization that
-          just gets laundered to bonds
+          just gets laundered to&nbsp;
+          <a href="https://truncatedsalestax.com">bonds</a>.
           <br />
           Life expectancy is the average age at death, so excess deaths are to
           catch up, there is not a growing life expectancy as much as an older
