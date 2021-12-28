@@ -315,8 +315,10 @@ export default class App extends React.Component {
           Howie Hurley, "now omicron is vast majority. no cure for the warning
           mechanism" This is the first debris tested for asymptomatically, of
           course it will show higher prevalence.
-          <br />
-          <br />
+          <h2>
+            "Pandemic to endemic as omicron pathway," because excess deaths is now
+            based on last year without accounting for growth retard.
+          </h2>
           "I want to purchase food for my friends here," Burger King "no." Russ
           Solsberg "you need a card to eat, but Democrats don't want ID to
           vote."
