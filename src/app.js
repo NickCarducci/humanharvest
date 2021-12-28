@@ -232,8 +232,10 @@ export default class App extends React.Component {
           <br />
           "Not fair," like impossible lest third party beneficiary donee
           claimable.
-          <br />
-          <br />
+          <h2>
+            converging life expectancy/average age at death with 1.2m/yr
+            population growth
+          </h2>
           What if speeding was just pulled over? No state victimization that
           just gets laundered to bonds
           <br />
@@ -247,7 +249,9 @@ export default class App extends React.Component {
           the warning mechanism. "Don’t realize how much power, when they
           realize how much power they have, can’t fine us," says Howie Hurley.
           &nbsp;<a href="https://qr.ae/pGzBC1">Haha</a>. "
-          <a href="https://qr.ae/pGzBCd">I know you work for a living</a>."
+          <a href="https://qr.ae/pGzBCd">I know you work for a living</a>." what
+          do the $12k/year/p debt $3k/yearp bond $64/year/p checking (new) do
+          for a living?
           <br />
           <br />
           <a href="https://www.census.gov/library/stories/2017/10/aging-boomers-deaths.html">
