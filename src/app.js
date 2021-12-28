@@ -323,11 +323,12 @@ export default class App extends React.Component {
           "I don’t discuss my vaccination status, I think that depends on each
           person." If vaccinations aren’t perfect, and it comes from somewhere
           (and it isn’t merely debris of bacterial infection that you look for
-          survivorship bias), then it is a national security issue.
-          “mRNA-sporing-graft tech maps out and creates what fights off virion.”
-          Howie Hurley, "now omicron is vast majority. no cure for the warning
-          mechanism" This is the first debris tested for asymptomatically, of
-          course it will show higher prevalence.
+          survivorship bias), then it is a national security issue. "It's a free
+          country, ...out of this because of Trump's warped speed," Rep Jeff Van
+          Drew. “mRNA-sporing-graft tech maps out and creates what fights off
+          virion.” Howie Hurley, "now omicron is vast majority. no cure for the
+          warning mechanism" This is the first debris tested for
+          asymptomatically, of course it will show higher prevalence.
           <h2>
             "Pandemic to endemic as omicron pathway," because excess deaths is
             now based on last year without accounting for growth retard.
