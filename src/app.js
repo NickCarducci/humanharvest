@@ -177,6 +177,9 @@ export default class App extends React.Component {
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
+          "The employer has a right to keep you from work with their own
+          mandate." Not naturally, they need to get a permit like desistations.
+          <br />
           "Trump was held accountable more than any president in our history,"
           Chris Stewart.
           <br />
@@ -226,6 +229,11 @@ export default class App extends React.Component {
           <br />
           "Not fair," like impossible lest third party beneficiary donee
           claimable.
+          <br />
+          <br />
+          <a href="https://www.census.gov/library/stories/2017/10/aging-boomers-deaths.html">
+            https://www.census.gov/library/stories/2017/10/aging-boomers-deaths.html
+          </a>
           <br />
           <br />
           <Cable
