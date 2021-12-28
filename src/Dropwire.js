@@ -46,14 +46,14 @@ class Cable extends React.Component {
         this.setState({ between }, () => {
           if (!continuee && !cache) return;
           console.log(between);
+          if (!continuee) continuee = cache;
           this.setState(
             {
               //ReactDOMServer.renderToStaticMarkup, reactElementToJSXString
               //is just html object
-              cache: this.props.fwd.current.outerHTML
+              cache: continuee.outerHTML
             },
             () => {
-              if (!continuee) continuee = cache;
               if (!between && continuee) {
                 //while (page.firstChild) {
                 //page.removeChild(continuee);
