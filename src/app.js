@@ -246,7 +246,8 @@ export default class App extends React.Component {
           "Antibiotics put me in a wheelchair in a month," antiviral just stops
           the warning mechanism. "Don’t realize how much power, when they
           realize how much power they have, can’t fine us," says Howie Hurley.
-          &nbsp;<a href="https://qr.ae/pGzBC1">Haha</a>.
+          &nbsp;<a href="https://qr.ae/pGzBC1">Haha</a>. "
+          <a href="https://qr.ae/pGzBCd">I know you work for a living</a>."
           <br />
           <br />
           <a href="https://www.census.gov/library/stories/2017/10/aging-boomers-deaths.html">
