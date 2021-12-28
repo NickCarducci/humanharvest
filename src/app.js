@@ -234,6 +234,19 @@ export default class App extends React.Component {
           claimable.
           <br />
           <br />
+          What if speeding was just pulled over? No state victimization that
+          just gets laundered to bonds
+          <br />
+          Life expectancy is the average age at death, so excess deaths are to
+          catch up, there is not a growing life expectancy as much as an older
+          cohort. It is a dog wagging its tail situation.
+          <br />
+          Life expectancy in 1918
+          <br />
+          Antibiotics put me in a wheelchair in a month, antiviral just stops
+          the warning mechanism
+          <br />
+          <br />
           <a href="https://www.census.gov/library/stories/2017/10/aging-boomers-deaths.html">
             https://www.census.gov/library/stories/2017/10/aging-boomers-deaths.html
           </a>
@@ -269,6 +282,14 @@ export default class App extends React.Component {
           CDC put pneumonia influenza covid together, for Cause of Death and
           hospitalizations, all of which are insignificant changes year to year.
           I’m not a doctor, but I am a statistician.
+          <br />
+          800k deaths or 500k/yr, 1.2m/yr expected from population growth, 80 is
+          life expectancy we are made for that age as we start getting wrinkly,
+          <br />
+          Cause is not merely from prevalence, they literally make up injecting
+          DNA into cell. 1/3 businesses are gone, because rent beyond plausible
+          use below 5 units or 30 days not price intent deduced.
+          <br />
           <br />
           “200 respiratory virus that circulate,” prevalence doesn’t mean
           circulation. Politics is reason beyond law.
