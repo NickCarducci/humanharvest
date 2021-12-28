@@ -307,6 +307,10 @@ export default class App extends React.Component {
           person." If vaccinations aren’t perfect, and it comes from somewhere
           (and it isn’t merely debris of bacterial infection that you look for
           survivorship bias), then it is a national security issue.
+          “mRNA-sporing-graft tech maps out and creates what fights off virion.”
+          Howie Hurley, "now omicron is vast majority. no cure for the warning
+          mechanism" This is the first debris tested for asymptomatically, of
+          course it will show higher prevalence.
           <br />
           <br />
           "I want to purchase food for my friends here," Burger King "no." Russ
