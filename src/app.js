@@ -280,6 +280,11 @@ export default class App extends React.Component {
           survivorship bias), then it is a national security issue.
           <br />
           <br />
+          "I want to purchase food for my friends here," Burger King "no." Russ
+          Solsberg "you need a card to eat, but Democrats don't want ID to
+          vote."
+          <br />
+          <br />
           <Cable
             onError={handleScollImgError}
             //img={true}
