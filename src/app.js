@@ -179,6 +179,8 @@ export default class App extends React.Component {
           <br />
           "The employer has a right to keep you from work with their own
           mandate." Not naturally, they need to get a permit like desistations.
+          If the "biden vaccine mandate cannot be upheld," because pandemic is
+          from population growth, business cannot either
           <br />
           "Right of any reason to remove from restaurant except racial stuff."
           Get a permit, goomba
@@ -288,8 +290,7 @@ export default class App extends React.Component {
           <br />
           CDC put pneumonia influenza covid together, for Cause of Death and
           hospitalizations, all of which are insignificant changes year to year.
-          I’m not a doctor, but I am a statistician.
-          <br />
+          <h2>I’m not a doctor, but I am a statistician.</h2>
           800k deaths or 500k/yr, 1.2m/yr expected from population growth, 80 is
           life expectancy we are made for that age as we start getting wrinkly,
           <br />
