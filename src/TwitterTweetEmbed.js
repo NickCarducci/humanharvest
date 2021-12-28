@@ -7,10 +7,10 @@ class Forward extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
-    this.fwd = React.createRef();
+    this.fwdtwe = React.createRef();
   }
   render() {
-    return <div ref={this.props.fwd} />;
+    return <div ref={this.props.fwdtwe} />;
   }
 }
 
@@ -41,7 +41,7 @@ export default class TwitterTweetEmbed extends Component {
       isLoading: true
     };
     this.tw = React.createRef();
-    this.twe = React.createRef();
+    this.fwdtwe = React.createRef();
   }
 
   renderWidget() {
@@ -75,10 +75,14 @@ export default class TwitterTweetEmbed extends Component {
         this.tw.current
       );*/
       this.tw.current.innerHTML = React.forwardRef((props, ref) => (
-        <Forward fwd={ref} {...props} />
+        <Forward fwdtwe={ref} {...props} />
       ));
       window.twttr.widgets
-        .createTweet(this.props.tweetId, this.twe.current, this.props.options)
+        .createTweet(
+          this.props.tweetId,
+          this.fwdtwe.current,
+          this.props.options
+        )
         .then((element) => {
           this.setState({
             isLoading: false,
