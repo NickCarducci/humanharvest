@@ -248,10 +248,16 @@ export default class App extends React.Component {
           <br />
           "Not fair," like impossible lest third party beneficiary donee
           claimable.
+          <h1>Get a jury permit to desist or discriminate beyond price</h1>
+          <h3>if government cannot, why would business be able to</h3>
           <h2>
             converging life expectancy/average age at death with 1.2m/yr
             population growth
           </h2>
+          <h3>
+            third party donee beneficiary claimable surrendered freedom (EULA)
+            exo
+          </h3>
           800k deaths or 500k/yr, 1.2m/yr expected from population growth, 80 is
           life expectancy we are made for that age as we start getting wrinkly.
           <br />
@@ -353,7 +359,9 @@ export default class App extends React.Component {
           <br />
           "harsh wave of many positive cases, firing amongst" actual work
           shortage 10x more hours per average home sold and backwards tech
-          advancement because GDP/p 1800-1913 nearly constant, for writing down
+          advancement because GDP/p 1800-1913 nearly constant and
+          finance/rent-seeking in invoices, expiring claims, implausible
+          landlord use and repo-cycle kept down payments, for writing down
           to&nbsp;
           <a href="https://truncatedsalestax.com">truncatedsalestax.com</a>,
           stop the net loss bond profit per state victimized conflict of
@@ -368,6 +376,9 @@ export default class App extends React.Component {
             "Pandemic to endemic as omicron pathway," because excess deaths is
             now based on last year without accounting for growth retard.
           </h2>
+          I’m allowed to be critical of teachers, you aren’t of students.
+          <br />
+          <br />
           "I want to purchase food for my friends here," Burger King "no." Russ
           Solsberg "you need a card to eat, but Democrats don't want ID to
           vote."
