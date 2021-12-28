@@ -180,6 +180,9 @@ export default class App extends React.Component {
             A pandemic measured by growth without any basis rate exogenous
             fixations
           </h1>
+          <h3>
+            Exogenous factors aren’t not mentioned but fixed for in regressions.
+          </h3>
           A vaccine to stop all variants, leave it to the military, they always
           do it right." They 10% debt service you tool.
           <br />
@@ -323,12 +326,44 @@ export default class App extends React.Component {
           "I don’t discuss my vaccination status, I think that depends on each
           person." If vaccinations aren’t perfect, and it comes from somewhere
           (and it isn’t merely debris of bacterial infection that you look for
-          survivorship bias), then it is a national security issue. "It's a free
-          country, ...out of this because of Trump's warped speed," Rep Jeff Van
-          Drew. “mRNA-sporing-graft tech maps out and creates what fights off
-          virion.” Howie Hurley, "now omicron is vast majority. no cure for the
-          warning mechanism" This is the first debris tested for
+          survivorship bias), then it is a national security issue.
+          <br />
+          <Cable
+            style={{ height: "440px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.youtube.com/embed/ZmUozfOPquk"
+            }
+            float="right"
+            title="Left vs Right (77WABC) - sundays 3-5pm Sliwa vs Hahn"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          "It's a free country, ...out of this because of Trump's warped speed,"
+          Rep Jeff Van Drew. “mRNA-sporing-graft tech maps out and creates what
+          fights off virion.” Howie Hurley, "now omicron is vast majority. no
+          cure for the warning mechanism" This is the first debris tested for
           asymptomatically, of course it will show higher prevalence.
+          <br />
+          <br />
+          "harsh wave of many positive cases, firing amongst" actual work
+          shortage 10x more hours per average home sold and backwards tech
+          advancement because GDP/p 1800-1913 nearly constant, for writing down
+          to&nbsp;
+          <a href="https://truncatedsalestax.com">truncatedsalestax.com</a>,
+          stop the net loss bond profit per state victimized conflict of
+          interest.
+          <br />
+          <br />
+          You know what you do with the Chinese US cahoots in bonds?
+          <br />
+          reverse amortization (cash/debt)*income every year back then
+          1-level-board max-royalty-profit.
           <h2>
             "Pandemic to endemic as omicron pathway," because excess deaths is
             now based on last year without accounting for growth retard.
@@ -582,12 +617,6 @@ export default class App extends React.Component {
             What if speeding was just pulled over? No state victimization that
             just gets laundered to bonds.
           </h2>
-          You know what you do with the Chinese US cahoots in bond.
-          <br />
-          reverse amortization (cash/debt)*income every year back then
-          1-level-board max-royalty-profit.
-          <br />
-          <br />
           "How does national debt cause inflation?"
           <br />
           The labor shortage of actual work from the bond-holders
