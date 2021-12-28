@@ -236,6 +236,18 @@ export default class App extends React.Component {
           </a>
           <br />
           <br />
+          Do you know why boomers? WWII live birth lull was life expectancy ago,
+          so Census has projected this back in 2015 aging boomer deaths.
+          Bacteria is in excrement because if that reinfects us virion comes out.
+          <br />
+          CDC put pneumonia influenza covid together, for Cause of Death and
+          hospitalizations, all of which are insignificant changes year to year.
+          I’m not a doctor, but I am a statistician.
+          <br />
+          “200 respiratory virus that circulate,” prevalence doesn’t mean
+          circulation. Politics is reason beyond law.
+          <br />
+          <br />
           <Cable
             onError={handleScollImgError}
             //img={true}
