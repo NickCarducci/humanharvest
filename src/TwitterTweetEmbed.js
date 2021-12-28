@@ -7,13 +7,13 @@ class Forward extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
-    this.fwdtwe = React.createRef();
   }
   render() {
     return <div ref={this.props.fwdtwe} />;
   }
 }
-
+const Forwardd = () =>
+  React.forwardRef((props, ref) => <Forward fwdtwe={ref} {...props} />);
 export default class TwitterTweetEmbed extends Component {
   static propTypes = {
     /**
@@ -74,9 +74,7 @@ export default class TwitterTweetEmbed extends Component {
         forwardd(), //React.createElement("div", { ref: this.twe }),
         this.tw.current
       );*/
-      this.tw.current.innerHTML = React.forwardRef((props, ref) => (
-        <Forward fwdtwe={ref} {...props} />
-      ));
+      this.tw.current.innerHTML = <Forwardd fwdtwe={this.fwdtwe} />;
       window.twttr.widgets
         .createTweet(
           this.props.tweetId,
