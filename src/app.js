@@ -525,11 +525,14 @@ export default class App extends React.Component {
           <br />
           "Omicron because no vaccine and low immunity. Highest HIV/AIDS in the
           world."
-          <br />
-          You know what you do with the Chinese US cahoots in bond
+          <h2>
+            What if speeding was just pulled over? No state victimization that
+            just gets laundered to bonds.
+          </h2>
+          You know what you do with the Chinese US cahoots in bond.
           <br />
           reverse amortization (cash/debt)*income every year back then
-          1-level-board max-royalty-profit
+          1-level-board max-royalty-profit.
           <br />
           <br />
           "How does national debt cause inflation?"
