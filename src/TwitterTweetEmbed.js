@@ -3,6 +3,17 @@ import PropTypes from "prop-types";
 import ExecutionEnvironment from "exenv";
 import script from "scriptjs";
 
+class Forward extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+    this.fwd = React.createRef();
+  }
+  render() {
+    return <div ref={this.props.fwd} />;
+  }
+}
+
 export default class TwitterTweetEmbed extends Component {
   static propTypes = {
     /**
@@ -30,6 +41,7 @@ export default class TwitterTweetEmbed extends Component {
       isLoading: true
     };
     this.tw = React.createRef();
+    this.twe = React.createRef();
   }
 
   renderWidget() {
@@ -56,8 +68,17 @@ export default class TwitterTweetEmbed extends Component {
       return;
     }*/
     if (!this.isMountCanceled && this.props.tweetId) {
+      //this.tw.current.innerHTML = React.createElement("div", { ref: this.twe });
+      //ReactDOM.render(reactElementUl, document.getElementById('app'));
+      /*ReactDOM.render(
+        forwardd(), //React.createElement("div", { ref: this.twe }),
+        this.tw.current
+      );*/
+      this.tw.current.innerHTML = React.forwardRef((props, ref) => (
+        <Forward fwd={ref} {...props} />
+      ));
       window.twttr.widgets
-        .createTweet(this.props.tweetId, this.tw.current, this.props.options)
+        .createTweet(this.props.tweetId, this.twe.current, this.props.options)
         .then((element) => {
           this.setState({
             isLoading: false,
@@ -68,7 +89,6 @@ export default class TwitterTweetEmbed extends Component {
           }
         })
         .catch((err) => {
-          console.log(err.message);
           if (this.state.giveup === 2) return null;
           this.setState({ giveup: this.state.giveup + 1 }, () => {
             clearTimeout(this.timer);
