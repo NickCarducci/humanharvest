@@ -176,6 +176,15 @@ export default class App extends React.Component {
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
+          <h2>
+            It is a way to get us out of debt spending, public and private
+            (2/3). Now I might as well tell you the solution: Truncated
+            production tax free rider immutable sewage police lawsuits instead
+            of 40–50% debt-spending 1/4 1/4 1/4 expiring claim premium pentagon
+            pensions 10% debt service, 40% njta. 1-level-board
+            max-royalty-contracts can replace future debt “investment” after
+            reverse amortization (cash/debt)*income every year back.
+          </h2>
           <h1>
             A pandemic measured by growth without any basis rate exogenous
             fixations
@@ -269,7 +278,9 @@ export default class App extends React.Component {
           catch up, there is not a growing life expectancy as much as an older
           cohort. It is a dog wagging its tail situation.
           <br />
-          Life expectancy in 1918.
+          Life expectancy in 1918. Right after 1918 life expectancy rose by 10
+          because it was after the average cohort age met life
+          expectancy/average age at death.
           <br />
           "Antibiotics put me in a wheelchair in a month," antiviral just stops
           the warning mechanism. "Don’t realize how much power, when they
@@ -6480,3 +6491,4 @@ export default class App extends React.Component {
     );
   }
 }
+
