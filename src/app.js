@@ -180,6 +180,9 @@ export default class App extends React.Component {
           "The employer has a right to keep you from work with their own
           mandate." Not naturally, they need to get a permit like desistations.
           <br />
+          "Right of any reason to remove from restaurant except racial stuff."
+          Get a permit, goomba
+          <br />
           "Trump was held accountable more than any president in our history,"
           Chris Stewart.
           <br />
@@ -248,10 +251,11 @@ export default class App extends React.Component {
           “200 respiratory virus that circulate,” prevalence doesn’t mean
           circulation. Politics is reason beyond law.
           <br />
-          <br />"I don’t discuss my vaccination status, I think that depends on
-          each person." If vaccinations aren’t perfect, and it comes from
-          somewhere (and it isn’t merely debris of bacterial infection that you
-          loos for survivorship bias), then it is a national security issue.
+          <br />
+          "I don’t discuss my vaccination status, I think that depends on each
+          person." If vaccinations aren’t perfect, and it comes from somewhere
+          (and it isn’t merely debris of bacterial infection that you look for
+          survivorship bias), then it is a national security issue.
           <br />
           <br />
           <Cable
