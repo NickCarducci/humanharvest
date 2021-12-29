@@ -185,8 +185,9 @@ export default class App extends React.Component {
           without virtuous reason enough for volunteers or truncated production
           tax for such industry variable multiple of 11/12 jury, without even
           third party donee beneficiary claimable surrendered freedom (EULA)
-          …exhibitable as tortious outlay.
-          <br />
+          …exhibitable as tortious outlay. "Capture a jury that is the most
+          credible," defeats the purpose of polling.
+          <h2>ALAN DERSH WISHES TO THUMB EACHOTHER LIKE CHOO-CHOO</h2>
           "ever wonder how your favorite artist earned money," $12k/yr velocity
           bonds why would artists work for dollars at most $64/yr, fucking
           retard Bob Sellers, STOP HARMING YOURSELF OR I WILL CITIZENS ARREST
