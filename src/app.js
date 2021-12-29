@@ -188,6 +188,25 @@ export default class App extends React.Component {
           …exhibitable as tortious outlay. "Capture a jury that is the most
           credible," defeats the purpose of polling.
           <h2>ALAN DERSH WISHES TO THUMB EACHOTHER LIKE CHOO-CHOO</h2>
+          "Of age, they were paid, but I hope underage is not ok.” I’m making a
+          calendar.
+          <br />
+          <Cable
+            style={{ width: "300px", height: "330px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1wrZc_qYZz_HB55unRx58TVs1cKwRDqUZ/preview"
+            }
+            float="right"
+            title="platform"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           "ever wonder how your favorite artist earned money," $12k/yr velocity
           bonds why would artists work for dollars at most $64/yr, fucking
           retard Bob Sellers, STOP HARMING YOURSELF OR I WILL CITIZENS ARREST
