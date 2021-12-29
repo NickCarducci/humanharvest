@@ -185,7 +185,11 @@ export default class App extends React.Component {
           <h2>
             Pandemics happen when Average age of death amounts to the average
             age, then it lowers thereafter and the life expectancy jumps if not
-            up to wrinkly age yet, just sewage and nutrition
+            up to wrinkly&nbsp;
+            <a href="https://www.aei.org/carpe-diem/chart-us-population-distribution-by-age-1900-through-2060/">
+              age
+            </a>
+            &nbsp;yet, just sewage and nutrition
           </h2>
           <h1>
             A pandemic measured by growth without any basis rate exogenous
