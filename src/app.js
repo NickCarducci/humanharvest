@@ -180,6 +180,32 @@ export default class App extends React.Component {
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
           <br />
+          They used to merely coordinate commercials for minute markers, but now
+          they are trying to guide me to see these topics that I've already
+          covered for free labor. How could you not figure this out yourselves?
+          I won't give you the wrong answer to pass, and I won't allow slander
+          against my age-cohort. we work more than boomers ever did. Since 1970,
+          we had the same unemployed 18m with nearly 3m/yr+ 25–54 until 2000
+          (which may not be a coincidence but the logic as to how that might be
+          still eludes me now, so it may be just that), and GDP/p 1800–1913
+          being nearly constant amongst 3%/yr+ population means neither hours
+          worked per person, nor the participation rate, and certainly not
+          inflation per hour needs to rise, let alone is booming or not
+          floundering. It has risen exclusively because of actual labor shortage
+          by finance/rent-seeking: invoices, expiring claims, implausible
+          landlord use and repo-cycle-kept-down-payments - third party donee
+          beneficiary surrendered freedom (EULA). A booming economy in this
+          microeconomist’s book is one that retires, for the greatest output
+          (per hour). Childcare is useless pure inflaiton, that wouln't sign up
+          if rollover insurance without expiring claims, bridge/broadband/ppp
+          trust-building, sooner have you have those people do chores for
+          eachother so they count as participation than retire people.
+          <br />
+          <br />
+          Nancy Pelosi: “non-federal cops are like storm troopers for the Death
+          Star,” on Portland net loss bond profit fa.
+          <br />
+          <br />
           Double today’s hospitalizations would still be in the suspected range
           you fucking retard Rudy.
           <br />
