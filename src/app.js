@@ -197,7 +197,10 @@ export default class App extends React.Component {
           called mentally insane when population growth doesn’t necessarily
           increase GDP/p, so scarcity only happens when there is
           finance/rent-seeking invoices, expiring claims, implausible landlord
-          use, repo-cycle kept down payments dead-weight.
+          use, repo-cycle kept down payments dead-weight. I can do 10 speedballs
+          a day without you bugging me by natural law, booned by comparative law
+          in scripted amphetamines on the basis of, "oh doctor, I can't
+          concentrate."
           <br />
           <br />
           "Only you know what is not right, if you feel it, Say something to
