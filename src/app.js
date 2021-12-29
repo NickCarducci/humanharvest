@@ -180,6 +180,25 @@ export default class App extends React.Component {
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
           <br />
+          "Everytime you have stagflation you lose," Peter navarro gets cut off
+          for a vaccine doctor (not statistician), I'll fill in for him,
+          "[productivity of price deflation per hour comparative advantage and
+          technological advancements so we all retire early not just for your
+          higher bid.]" Chip in, bub.
+          <br />
+          <br />
+          Unvaccinated cases make up most of non-exclusive byproduct*; 65k
+          hospital 15k+ ICU, mutually exclusive testing regimes, don't listen to
+          doctors but statisticians. Staff shortage is because of rent-seeking
+          actual work deficit.
+          <br />
+          *replication is literally made up from prevalence, logic dictates,
+          since bacteria leaves with excrement, it is merely debris, it does
+          not, "inject DNA into cell." Oral antiviral will just suppress warning
+          mechanism. These virions aren't alive not evolutionary traits, the
+          cell produces different debris that do take time for antibodies to be
+          picked up
+          <br />
           "You talk with your brain," "killed by a bad cop," or bad laws. State
           v state. We need a GAO. Defend Ukraine, but don’t conscript war crime
           without virtuous reason enough for volunteers or truncated production
