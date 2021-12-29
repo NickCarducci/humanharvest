@@ -176,6 +176,11 @@ export default class App extends React.Component {
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
+          <br />
+          <br />
+          If vaccines work (not just clearing cellular debris' warning mechanism
+          of bacterial infection), it is a national security issue, as it must
+          come from somewhere. Therapeutics are not preventative.
           <h3>
             expiring claims is the only way to sign up nannies, mechanics and
             doctors.&nbsp;<a href="https://teapharmacy.party/drugs">drugs</a>
@@ -191,8 +196,9 @@ export default class App extends React.Component {
             </a>
             &nbsp;yet, just sewage and nutrition
           </h2>
-          28% of 1918 population expected to die = 29,686,030 expected,
-          1,100,000 from population growth alone. ((1870-80)/10)
+          beyond life expectancy population 15% of 1918 population expected to
+          die = 15,903,230 expected/1,356,785 actual, 1,100,000 from population
+          growth alone life expectancy ago. ((1870-80)/10)
           <h1>
             A pandemic measured by growth without any basis rate exogenous
             fixations
