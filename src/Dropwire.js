@@ -39,32 +39,39 @@ class Cable extends React.Component {
     const { cache } = this.state;
     const { scrollTopAndHeight, scrollTop, girth, timeout } = this.props;
     var girt = girth ? girth : 1500;
-    var timeou = timeout ? timeout : 3500;
+    var timeou = timeout ? timeout : 1500;
     clearTimeout(this.setset);
     this.setset = setTimeout(() => {
       var page = this.page.current;
       var between =
         page.offsetTop - scrollTop > Number(`-${girt}`) &&
         scrollTopAndHeight - page.offsetTop > Number(`-${girt}`);
-      this.setState({ mount: this.state.mount ? this.state.mount : between });
-      var continuee = this.props.fwd.current;
-      if (!continuee && !cache) return;
-      this.setState(
-        {
-          cache: cache ? cache : this.props.fwd.current.outerHTML
-        },
-        () => {
-          if (!between) {
-            return (page.innerHTML = "");
+      if (between) {
+        !this.state.mount && this.setState({ mount: between }, () => {});
+      } else {
+        var continuee = this.props.fwd.current;
+        if (!continuee && !cache) return;
+        this.setState(
+          {
+            cache: cache ? cache : continuee.outerHTML
+          },
+          () => {
+            if (!between) {
+              return (page.innerHTML = "");
+            } else {
+              const children = [...page.children];
+              if (
+                continuee &&
+                (children.length === 0 ||
+                  !children.find((x) => x === this.state.cache))
+              ) {
+                console.log("replenishing, new scroll");
+                page.innerHTML = this.state.cache;
+              }
+            }
           }
-          const children = [...page.children];
-          if (
-            children.length === 0 ||
-            !children.find((x) => x === this.state.cache)
-          )
-            page.innerHTML = this.state.cache;
-        }
-      );
+        );
+      }
     }, timeou);
   };
   render() {
