@@ -321,11 +321,17 @@ export default class App extends React.Component {
             A pandemic measured by growth without any basis rate exogenous
             fixations
           </h1>
+          <h2>
+            Age distribution changes doesn’t account for cohort size
+            <br />
+            Only 25-54 working age size led me to believe 1.2m/yr+ 2020-2030 was
+            discoverable
+          </h2>
           <Spanish
             lastWidth={Math.min(600, this.state.lastWidth)}
             style={{
               transform: "translate(0,0)",
-              backgroundColor: "rgba(250,250,250,0.6)",
+              backgroundColor: "rgb(190,150,180)",
               height: "220px"
             }}
           />
