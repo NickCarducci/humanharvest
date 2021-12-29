@@ -289,6 +289,20 @@ export default class App extends React.Component {
           />
           <a href="https://fred.stlouisfed.org/graph/?g=KlwO">participation</a>
           <br />
+          annual dividends and profits, somehow double the amount of checking in
+          existance&nbsp;
+          <a href="https://fred.stlouisfed.org/graph/?g=KlWE">year by year</a>.
+          Libertarians say, "this wouldn't happen without the Federal reserve."
+          We need the big boot of the law on this one, homie. "
+          <a href="https://fred.stlouisfed.org/graph/?g=KlXv">
+            A decreasing velocity of M1
+          </a>
+          &nbsp;might indicate fewer short- term consumption transactions are
+          taking place." Meaning third party donee beneficiary claimable
+          surrendered freedom (EULA) credit as income. "We can think of shorter-
+          term transactions as consumption we might make on an everyday basis."
+          <br />
+          <br />
           They used to merely coordinate commercials for minute markers, but now
           they are trying to guide me to see these topics that I've already
           covered for free labor. Just because people don’t work/sacrifice for
