@@ -210,6 +210,24 @@ export default class App extends React.Component {
           local authorities," do they have the standing anymore? We literally
           have&nbsp;<a href="https://moldmask.co">no modicome of say</a>&nbsp;in
           what is right.
+          <br />
+          <br />
+          “We wanted to be enticed by constraint.” Gordon Chang on Obama Space
+          Race. We have a debt crisis if you understand most of gdp is invoices,
+          expiring claims, implausible landlord use & repo cycle kept down
+          payments
+          <br />
+          Accidentally released one of hundreds of thousands, prevalence is not
+          out of China upon variant of concern PCR setting.
+          <br />
+          1.4m 821k Chinese leaders didn’t lock down after testing there, first.
+          Stop the fucking state victimization for your own bond index funds
+          douche boomer actual labor shortage. Get. Back. To work
+          <br />
+          Half continuing claims and most disability, 20x rental income - 3/20
+          millennials out of work, 3/10 boomer-moochers (when they were
+          working-age)
+          <br />
           <Cable
             style={{ width: "100%", height: "540px" }}
             onError={handleScollImgError}
