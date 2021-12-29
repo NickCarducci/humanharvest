@@ -8,6 +8,7 @@ import Vaxx from "./vaxx";
 import Dies from "./dies";
 import TwitterTweetEmbed from "./TwitterTweetEmbed";
 import "./styles.css";
+import Mortal from "./mortal";
 
 export default class App extends React.Component {
   constructor(props) {
@@ -181,6 +182,31 @@ export default class App extends React.Component {
           If vaccines work (not just clearing cellular debris' warning mechanism
           of bacterial infection), it is a national security issue, as it must
           come from somewhere. Therapeutics are not preventative.
+          <br />
+          <br />
+          “In a room full of vaccinated people, you aren’t saved from the
+          disease.” Not a practicing doctor, nor statistician.
+          <Cable
+            style={{ height: "350px", width: "280px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1uSQUra0tT9qLEabD7UqZDfOHTBcXoz8J/preview"
+            }
+            float="right"
+            title="Rob Schmitt Tonight (Newsmax) - Dr. Jay Bhattacharya, 'Professor of Medicine at Stanford'"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          <br />
+          <br />
+          "Stopping PPP trust-building self-tort “fraud” could pay for 20% of
+          bbb ($350b, nationalized rent-seeking bridge/broadband fee) annually
+          $1-300b," James Comer, Kentucky.
           <h3>
             expiring claims is the only way to sign up nannies, mechanics and
             doctors.&nbsp;<a href="https://teapharmacy.party/drugs">drugs</a>
@@ -198,7 +224,8 @@ export default class App extends React.Component {
           </h2>
           beyond life expectancy population 15% of 1918 population expected to
           die = 15,903,230 expected/1,356,785 actual, 1,100,000 from population
-          growth alone life expectancy ago. ((1870-80)/10)
+          growth alone life expectancy ago (850,000 actual excess).
+          ((1870-80)/10)
           <h1>
             A pandemic measured by growth without any basis rate exogenous
             fixations
@@ -339,6 +366,14 @@ export default class App extends React.Component {
           Bacteria is in excrement because if that reinfects us virion comes
           out.
           <br />
+          <Mortal
+            lastWidth={Math.min(600, this.state.lastWidth)}
+            style={{
+              transform: "translate(0,0)",
+              backgroundColor: "rgba(250,250,250,0.6)",
+              height: "220px"
+            }}
+          />
           CDC put pneumonia influenza covid together, for Cause of Death and
           hospitalizations, all of which are insignificant changes year to year.
           <h2>I’m not a doctor, but I am a statistician.</h2>
