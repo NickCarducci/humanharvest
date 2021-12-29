@@ -24,99 +24,48 @@ class Cable extends React.Component {
   }
   componentDidMount() {
     if (ExecutionEnvironment.canUseDOM) {
-      this.setState({ go: true });
+      this.setState({ go: true }, () => this.checkIfBetween());
     }
   }
   componentDidUpdate = (prevProps) => {
-    if (
-      this.state.go &&
-      !this.props.scrolling &&
-      this.props.scrolling !== prevProps.scrolling
-    ) {
-      const { cache } = this.state;
-      const { scrollTopAndHeight, scrollTop, girth, timeout } = this.props;
-      var girt = girth ? girth : 1000;
-      var timeou = timeout ? timeout : 1500;
-      var continuee = this.props.fwd.current;
-      clearTimeout(this.setset);
-      this.setset = setTimeout(() => {
-        var page = this.page.current;
-        var between =
-          page.offsetTop - scrollTop > Number(`-${girt}`) &&
-          scrollTopAndHeight - page.offsetTop > Number(`-${girt}`);
-        this.setState({ mount: this.state.mount ? this.state.mount : between });
-        if (!continuee && !cache) return;
-        //if (!continuee) continuee = cache;
-        //const clone = continuee; //React.cloneElement(continuee);
-        this.setState({
-          //ReactDOMServer.renderToStaticMarkup, reactElementToJSXString
-          //is just html object
-          cache: cache ? cache : continuee.outerHTML
-        });
-        if (!between && continuee) {
-          //while (page.firstChild) {
-          //page.removeChild(continuee);
-          //console.log(continuee.parentNode);
-          //console.log(page);
-          page.innerHTML = "";
-          //continuee.parentNode && page.removeChild(continuee);
-          //ReactDOM.unmountComponentAtNode(page); //ReactDOM.findDOMNode(this).parentNode
-          //while (page.firstChild) {
-          //let onClick =
-          //"ontouchstart" in continuee ? "touchstart" : "onclick";
-          //if (continuee[onClick]) continuee.remove(); //touchevent
-          //continuee.click();
-          //}
-          //continuee.parentNode.removeChild(continuee);
-
-          return;
-        }
-        //if (!between && continuee) return continuee.remove();
-        const children = [...page.children];
-        const d = children.find((x) => x === this.state.cache);
-        // console.log(children);
-        if (
-          children.length === 0 ||
-          !d
-          //children[children.length - 1] !== this.state.cache
-        ) {
-          /*page.innerHTML = React.forwardRef((props, ref) => (
-              <Forward fwdtwe={ref} {...props} />
-            ));*/
-          //console.log(page);
-          //console.log(this.state.cache);
-          var cach = this.state.cache;
-          /**renderToStaticMarkup over renderToString as it does not add any extra DOM attributes that React uses internally, like `data-reactroot: */
-          /*const namer = cache.getAttribute("alt") ? "alt" : "title";
-              cach.setAttribute(
-                namer,
-                cache.getAttribute(namer) + this.state.mountsCount
-              );*/
-          /*const img = cach.split(`alt="`)[1];
-                const namer = img
-                  ? cach.split(`alt="`)[1].split(`"`)[0]
-                  : cach.split(`title="`)[1].split(`"`)[0];
-                cach =
-                  cach.substring(0, img ? 10 : 15) +
-                  namer +
-                  this.state.mountsCount +
-                  cach.substring(
-                    cach.indexOf(namer) + namer.length,
-                    cach.length
-                  );*/
-          page.innerHTML = cach; //<div>{cache}</div>;
-          //new DOMParser().parseFromString(cach, "text/html")
-          //ReactDOM.render(cach, page);
-          //ReactDOM.render(ReactHtmlParser(cach), page);
-          this.setState({ mountsCount: this.state.mountsCount + 1 });
-          //page.appendChild(cache);
-          //console.log(page);
-        }
-      }, timeou);
+    if (this.state.go && this.props.scrolling !== prevProps.scrolling) {
+      this.checkIfBetween();
     }
   };
   componentWillUnmount = () => {
     clearTimeout(this.setset);
+  };
+  checkIfBetween = () => {
+    const { cache } = this.state;
+    const { scrollTopAndHeight, scrollTop, girth, timeout } = this.props;
+    var girt = girth ? girth : 1500;
+    var timeou = timeout ? timeout : 3500;
+    clearTimeout(this.setset);
+    this.setset = setTimeout(() => {
+      var page = this.page.current;
+      var between =
+        page.offsetTop - scrollTop > Number(`-${girt}`) &&
+        scrollTopAndHeight - page.offsetTop > Number(`-${girt}`);
+      this.setState({ mount: this.state.mount ? this.state.mount : between });
+      var continuee = this.props.fwd.current;
+      if (!continuee && !cache) return;
+      this.setState(
+        {
+          cache: cache ? cache : this.props.fwd.current.outerHTML
+        },
+        () => {
+          if (!between) {
+            return (page.innerHTML = "");
+          }
+          const children = [...page.children];
+          if (
+            children.length === 0 ||
+            !children.find((x) => x === this.state.cache)
+          )
+            page.innerHTML = this.state.cache;
+        }
+      );
+    }, timeou);
   };
   render() {
     const { mount } = this.state;
@@ -166,3 +115,87 @@ class Cable extends React.Component {
   }
 }
 export default React.forwardRef((props, ref) => <Cable fwd={ref} {...props} />);
+
+/**
+ * 
+      const { cache } = this.state;
+      const { scrollTopAndHeight, scrollTop, girth, timeout } = this.props;
+      var girt = girth ? girth : 1000;
+      var timeou = timeout ? timeout : 1500;
+      var continuee = this.props.fwd.current;
+      clearTimeout(this.setset);
+      this.setset = setTimeout(() => {
+        var page = this.page.current;
+        var between =
+          page.offsetTop - scrollTop > Number(`-${girt}`) &&
+          scrollTopAndHeight - page.offsetTop > Number(`-${girt}`);
+        this.setState({ mount: this.state.mount ? this.state.mount : between });
+        if (!continuee && !cache) return;
+        //if (!continuee) continuee = cache;
+        //const clone = continuee; //React.cloneElement(continuee);
+        this.setState({
+          //ReactDOMServer.renderToStaticMarkup, reactElementToJSXString
+          //is just html object
+          cache: cache ? cache : continuee.outerHTML
+        });
+        if (!between && continuee) {
+          //while (page.firstChild) {
+          //page.removeChild(continuee);
+          //console.log(continuee.parentNode);
+          //console.log(page);
+          page.innerHTML = "";
+          //continuee.parentNode && page.removeChild(continuee);
+          //ReactDOM.unmountComponentAtNode(page); //ReactDOM.findDOMNode(this).parentNode
+          //while (page.firstChild) {
+          //let onClick =
+          //"ontouchstart" in continuee ? "touchstart" : "onclick";
+          //if (continuee[onClick]) continuee.remove(); //touchevent
+          //continuee.click();
+          //}
+          //continuee.parentNode.removeChild(continuee);
+
+          return;
+        }
+        //if (!between && continuee) return continuee.remove();
+        const children = [...page.children];
+        const d = children.find((x) => x === this.state.cache);
+        // console.log(children);
+        if (
+          children.length === 0 ||
+          !d
+          //children[children.length - 1] !== this.state.cache
+        ) {
+          /*page.innerHTML = React.forwardRef((props, ref) => (
+              <Forward fwdtwe={ref} {...props} />
+            ));*
+          //console.log(page);
+          //console.log(this.state.cache);
+          var cach = this.state.cache;
+          /**renderToStaticMarkup over renderToString as it does not add any extra DOM attributes that React uses internally, like `data-reactroot: */
+/*const namer = cache.getAttribute("alt") ? "alt" : "title";
+              cach.setAttribute(
+                namer,
+                cache.getAttribute(namer) + this.state.mountsCount
+              );*/
+/*const img = cach.split(`alt="`)[1];
+                const namer = img
+                  ? cach.split(`alt="`)[1].split(`"`)[0]
+                  : cach.split(`title="`)[1].split(`"`)[0];
+                cach =
+                  cach.substring(0, img ? 10 : 15) +
+                  namer +
+                  this.state.mountsCount +
+                  cach.substring(
+                    cach.indexOf(namer) + namer.length,
+                    cach.length
+                  );*
+          page.innerHTML = cach; //<div>{cache}</div>;
+          //new DOMParser().parseFromString(cach, "text/html")
+          //ReactDOM.render(cach, page);
+          //ReactDOM.render(ReactHtmlParser(cach), page);
+          this.setState({ mountsCount: this.state.mountsCount + 1 });
+          //page.appendChild(cache);
+          //console.log(page);
+        }
+      }, timeou);
+ */
