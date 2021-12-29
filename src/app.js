@@ -180,7 +180,8 @@ export default class App extends React.Component {
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
           <br />
-          "You talk with your brain,"
+          "You talk with your brain," killed by a bad cop, or bad laws. State v
+          state. We need a GAO
           <br />
           "ever wonder how your favorite artist earned money," $12k/yr velocity
           bonds why would artists work for dollars at most $64/yr, fucking
