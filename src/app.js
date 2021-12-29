@@ -190,6 +190,16 @@ export default class App extends React.Component {
           house with vault share and 1-level-board max-royalty-profit protocol.
           <br />
           <br />
+          People with mental illness, isn’t it a crime? I went in for a knee
+          appointment, said insurance wouldn’t sign doctors up if it rolled over
+          and didn’t expire, then locked me up for 13 days in Carrier for
+          $2k/day from the pool. Don’t tell me people are homeless should be
+          called mentally insane when population growth doesn’t necessarily
+          increase GDP/p, so scarcity only happens when there is
+          finance/rent-seeking invoices, expiring claims, implausible landlord
+          use, repo-cycle kept down payments dead-weight.
+          <br />
+          <br />
           "Only you know what is not right, if you feel it, Say something to
           local authorities," do they have the standing anymore? We literally
           have&nbsp;<a href="https://moldmask.co">no modicome of say</a>&nbsp;in
