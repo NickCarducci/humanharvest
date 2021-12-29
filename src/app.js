@@ -180,6 +180,13 @@ export default class App extends React.Component {
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
           <br />
+          "ever wonder how your favorite artist earned money," $12k/yr velocity
+          bonds why would artists work for dollars at most $64/yr, fucking
+          retard Bob Sellers, STOP HARMING YOURSELF OR I WILL CITIZENS ARREST
+          YOU AND IF YOU RUN OR ARE IN A DANGER TO YOURSELF OR OTHERS I WILL
+          SHOOT, right? your house is my house, loitering
+          <br />
+          <br />
           They used to merely coordinate commercials for minute markers, but now
           they are trying to guide me to see these topics that I've already
           covered for free labor. Just because people don’t work/sacrifice for
