@@ -1,5 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom";
+//import ReactDOM from "react-dom";
+//import ReactHtmlParser from "react-html-parser";
 //import reactElementToJSXString from "react-element-to-jsx-string";
 //import ReactDOMServer from "react-dom/server";
 import ExecutionEnvironment from "exenv";
@@ -17,7 +18,7 @@ import ExecutionEnvironment from "exenv";
 class Cable extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { limit: [], cache: null };
+    this.state = { limit: [], cache: null, mountsCount: 0 };
     this.page = React.createRef();
     this.fwdtwe = React.createRef();
   }
@@ -45,20 +46,23 @@ class Cable extends React.Component {
           scrollTopAndHeight - page.offsetTop > Number(`-${girt}`);
         this.setState({ between }, () => {
           if (!continuee && !cache) return;
-          console.log(between);
-          if (!continuee) continuee = cache;
+          //if (!continuee) continuee = cache;
+          //const clone = continuee; //React.cloneElement(continuee);
           this.setState(
             {
               //ReactDOMServer.renderToStaticMarkup, reactElementToJSXString
               //is just html object
-              cache: continuee.outerHTML
+              cache: cache ? cache : continuee.outerHTML
             },
             () => {
               if (!between && continuee) {
                 //while (page.firstChild) {
                 //page.removeChild(continuee);
-                ReactDOM.unmountComponentAtNode(page); //ReactDOM.findDOMNode(this).parentNode
-                continuee.remove();
+                console.log(continuee.parentNode);
+                console.log(page);
+                page.innerHTML = "";
+                //continuee.parentNode && page.removeChild(continuee);
+                //ReactDOM.unmountComponentAtNode(page); //ReactDOM.findDOMNode(this).parentNode
                 //while (page.firstChild) {
                 //let onClick =
                 //"ontouchstart" in continuee ? "touchstart" : "onclick";
@@ -90,18 +94,23 @@ class Cable extends React.Component {
                 namer,
                 cache.getAttribute(namer) + this.state.mountsCount
               );*/
-                console.log(cach);
-                const img = cach.split(`alt="`)[1];
+                /*const img = cach.split(`alt="`)[1];
                 const namer = img
-                  ? cach.split(`alt="`)[1].split(`"`)
-                  : cach.split(`title="`)[1].split(`"`);
+                  ? cach.split(`alt="`)[1].split(`"`)[0]
+                  : cach.split(`title="`)[1].split(`"`)[0];
                 cach =
                   cach.substring(0, img ? 10 : 15) +
-                  namer[0] +
+                  namer +
                   this.state.mountsCount +
-                  `"` +
-                  namer[1];
-                page.innerHTML = cache;
+                  cach.substring(
+                    cach.indexOf(namer) + namer.length,
+                    cach.length
+                  );*/
+                page.innerHTML = cach; //<div>{cache}</div>;
+                //new DOMParser().parseFromString(cach, "text/html")
+                //ReactDOM.render(cach, page);
+                //ReactDOM.render(ReactHtmlParser(cach), page);
+                this.setState({ mountsCount: this.state.mountsCount + 1 });
                 //page.appendChild(cache);
                 //console.log(page);
               }
@@ -123,7 +132,7 @@ class Cable extends React.Component {
       this.props.onError(e);
     }; //ternaries remove the node and element; display removes the element, but not the node
     return (
-      <div ref={this.page}>
+      <div ref={this.page} id="d">
         {between && !useCache ? (
           src === "" ? (
             <span style={{ border: "1px gray solid" }}>{title}</span>
