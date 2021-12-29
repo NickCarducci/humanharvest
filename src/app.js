@@ -485,7 +485,7 @@ export default class App extends React.Component {
             lastWidth={Math.min(600, this.state.lastWidth)}
             style={{
               transform: "translate(0,0)",
-              backgroundColor: "rgba(250,250,250,0.6)",
+              backgroundColor: "rgb(190,150,180)",
               height: "220px"
             }}
           />
@@ -597,7 +597,7 @@ export default class App extends React.Component {
                 lastWidth={Math.min(600, this.state.lastWidth)}
                 style={{
                   transform: "translate(0,0)",
-                  backgroundColor: "rgba(250,250,250,0.6)",
+                  backgroundColor: "rgb(190,150,180)",
                   height: "200px"
                 }}
               />
@@ -662,7 +662,7 @@ export default class App extends React.Component {
                 transform: "translate(0,0)",
                 width: "400px",
                 maxWidth: "100%",
-                backgroundColor: "rgba(250,250,250,0.6)",
+                backgroundColor: "rgb(190,150,180)",
                 height: "250px"
               }}
             />
