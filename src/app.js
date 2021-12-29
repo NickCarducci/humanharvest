@@ -191,6 +191,7 @@ export default class App extends React.Component {
             </a>
             &nbsp;yet, just sewage and nutrition
           </h2>
+          28% of 1918 population expected to die = 29,686,030 expected
           <h1>
             A pandemic measured by growth without any basis rate exogenous
             fixations
