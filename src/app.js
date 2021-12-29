@@ -180,6 +180,8 @@ export default class App extends React.Component {
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
           <br />
+          "You talk with your brain,"
+          <br />
           "ever wonder how your favorite artist earned money," $12k/yr velocity
           bonds why would artists work for dollars at most $64/yr, fucking
           retard Bob Sellers, STOP HARMING YOURSELF OR I WILL CITIZENS ARREST
