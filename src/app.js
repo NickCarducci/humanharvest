@@ -180,8 +180,12 @@ export default class App extends React.Component {
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
           <br />
-          "You talk with your brain," killed by a bad cop, or bad laws. State v
-          state. We need a GAO
+          "You talk with your brain," "killed by a bad cop," or bad laws. State
+          v state. We need a GAO. Defend Ukraine, but don’t conscript war crime
+          without virtuous reason enough for volunteers or truncated production
+          tax for such industry variable multiple of 11/12 jury, without even
+          third party donee beneficiary claimable surrendered freedom (EULA)
+          …exhibitable as tortious outlay.
           <br />
           "ever wonder how your favorite artist earned money," $12k/yr velocity
           bonds why would artists work for dollars at most $64/yr, fucking
