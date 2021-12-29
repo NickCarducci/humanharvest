@@ -181,8 +181,10 @@ export default class App extends React.Component {
           <br />
           <br />
           If vaccines work (not just clearing cellular debris' warning mechanism
-          of bacterial infection), it is a national security issue, as it must
-          come from somewhere. Therapeutics are not preventative.
+          of bacterial infection, that which fills our &nbsp;
+          <a href="https://moldmask.co">excrement</a>&nbsp;and makes virion when
+          infected), it is a national security issue, as it must come from
+          somewhere. Therapeutics are not preventative.
           <br />
           <br />
           “In a room full of vaccinated people, you aren’t saved from the
