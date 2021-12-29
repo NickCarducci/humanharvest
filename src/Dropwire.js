@@ -76,7 +76,7 @@ class Cable extends React.Component {
       this.props.onError(e);
     }; //ternaries remove the node and element; display removes the element, but not the node
     return (
-      <div ref={this.page} id="d">
+      <div ref={this.page}>
         {mount ? (
           src === "" ? (
             <span style={{ border: "1px gray solid" }}>{title}</span>
