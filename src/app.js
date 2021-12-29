@@ -190,6 +190,10 @@ export default class App extends React.Component {
           house with vault share and 1-level-board max-royalty-profit protocol.
           <br />
           <br />
+          "Only you know what is not right, if you feel it, Say something to
+          local authorities," do they have the standing anymore? We literally
+          have&nbsp;<a href="https://moldmask.co">no modicome of say</a>&nbsp;in
+          what is right.
           <Cable
             style={{ width: "100%", height: "540px" }}
             onError={handleScollImgError}
