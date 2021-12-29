@@ -180,6 +180,16 @@ export default class App extends React.Component {
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
           <br />
+          Double today’s hospitalizations would still be in the suspected range
+          you fucking retard Rudy.
+          <br />
+          You are just looking for insurance payout. Get it before it expires!
+          If it didn’t, no producer would sign up, public nor private.
+          <br />
+          "Cut in half for at-risk," no shit because they died on time, excess
+          deaths are measured by comparing last year
+          <br />
+          <br />
           If vaccines work (not just clearing cellular debris' warning mechanism
           of bacterial infection, that which fills our &nbsp;
           <a href="https://moldmask.co">excrement</a>&nbsp;and makes virion when
