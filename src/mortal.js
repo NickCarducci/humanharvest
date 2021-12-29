@@ -2299,6 +2299,7 @@ class Mortal extends React.Component {
       date,
       mortalZeroNJData,
       mortalFiftyNJData,
+      mortalSixtyFiveNJData,
       mortalSeventyFiveNJData,
       mortalEightyFiveNJData,
       mortalNinetyFiveNJData,
@@ -2467,6 +2468,7 @@ class Mortal extends React.Component {
             date,
             mortalZeroNJData,
             mortalFiftyNJData,
+            mortalSixtyFiveNJData,
             mortalSeventyFiveNJData,
             mortalEightyFiveNJData,
             mortalNinetyFiveNJData,
@@ -2496,6 +2498,12 @@ class Mortal extends React.Component {
       ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
       ((y - this.state.lowDeaths) / this.state.yAxis) * 150
     ]);
+    const mortalSixtyFiveNJData = this.state.mortalSixtyFiveNJData.map(
+      ([x, y]) => [
+        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
+        ((y - this.state.lowDeaths) / this.state.yAxis) * 150
+      ]
+    );
     const mortalSeventyFiveNJData = this.state.mortalSeventyFiveNJData.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
@@ -2578,19 +2586,19 @@ class Mortal extends React.Component {
             );
           })}
         </div>*/}
-        <div style={{ width: "100%", height: "200px" }}>
-          <div
-            onClick={() =>
-              this.setState(
-                this.state.chosenRate && this.state.chosenfrequency
-                  ? { chosenRate: false, chosenfrequency: false }
-                  : !this.state.chosenfrequency
-                  ? { chosenfrequency: true }
-                  : { chosenRate: true }
-              )
-            }
-            style={labelstyle}
-          >
+        <div
+          style={{ width: "100%", height: "200px", zIndex: "9999" }}
+          onClick={() =>
+            this.setState(
+              this.state.chosenRate && this.state.chosenfrequency
+                ? { chosenRate: false, chosenfrequency: false }
+                : !this.state.chosenfrequency
+                ? { chosenfrequency: true }
+                : { chosenRate: true }
+            )
+          }
+        >
+          <div style={labelstyle}>
             {chosenRate
               ? "population per 5yr cohort"
               : `highest accu yearly mortality ${
@@ -2673,7 +2681,7 @@ class Mortal extends React.Component {
                     y={y}
                     width={2}
                     height={2}
-                    stroke="purple"
+                    stroke="white"
                     fill="transparent"
                     strokeWidth={3}
                     key={i}
@@ -2693,6 +2701,28 @@ class Mortal extends React.Component {
             xmlns="http://www.w3.org/2000/svg"
           >
             {mortalFiftyNJData.map(
+              ([x, y], i) =>
+                !isNaN(x) &&
+                !isNaN(y) && (
+                  <rect
+                    x={x}
+                    y={y}
+                    width={2}
+                    height={2}
+                    stroke="purple"
+                    fill="transparent"
+                    strokeWidth={3}
+                    key={i}
+                  />
+                )
+            )}
+          </svg>
+          <svg
+            className="all"
+            style={linecss}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            {mortalSixtyFiveNJData.map(
               ([x, y], i) =>
                 !isNaN(x) &&
                 !isNaN(y) && (
@@ -2832,6 +2862,16 @@ class Mortal extends React.Component {
                   style={{
                     width: "5px",
                     height: "5px",
+                    backgroundColor: "white"
+                  }}
+                />
+                {frequency(this.state.chosenfrequency, 0, true)}&nbsp;&nbsp;
+              </div>
+              <div style={{ width: "max-content" }}>
+                <div
+                  style={{
+                    width: "5px",
+                    height: "5px",
                     backgroundColor: "purple"
                   }}
                 />
@@ -2910,3 +2950,4 @@ class Mortal extends React.Component {
 }
 
 export default Mortal;
+
