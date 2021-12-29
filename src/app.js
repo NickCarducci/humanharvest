@@ -184,8 +184,29 @@ export default class App extends React.Component {
           bonds why would artists work for dollars at most $64/yr, fucking
           retard Bob Sellers, STOP HARMING YOURSELF OR I WILL CITIZENS ARREST
           YOU AND IF YOU RUN OR ARE IN A DANGER TO YOURSELF OR OTHERS I WILL
-          SHOOT, right? your house is my house, loitering
+          SHOOT, right? your house is my house, loitering. annual profits more
+          than currency itself, you people just give money to eachother's
+          lenders, landlords and insurers instead of do your own dishes into a
+          house with vault share and 1-level-board max-royalty-profit protocol.
           <br />
+          <br />
+          <Cable
+            style={{ width: "100%", height: "540px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://fred.stlouisfed.org/graph/graph-landing.php?g=KlLP&width=600&height=475"
+            }
+            float="right"
+            title="https://fred.stlouisfed.org/graph/?g=KlLP"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          <a href="https://fred.stlouisfed.org/graph/?g=KlwO">participation</a>
           <br />
           They used to merely coordinate commercials for minute markers, but now
           they are trying to guide me to see these topics that I've already
