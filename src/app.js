@@ -9,6 +9,7 @@ import Dies from "./dies";
 import TwitterTweetEmbed from "./TwitterTweetEmbed";
 import "./styles.css";
 import Mortal from "./mortal";
+import Spanish from "./spanish";
 
 export default class App extends React.Component {
   constructor(props) {
@@ -230,6 +231,24 @@ export default class App extends React.Component {
             A pandemic measured by growth without any basis rate exogenous
             fixations
           </h1>
+          <Spanish
+            lastWidth={Math.min(600, this.state.lastWidth)}
+            style={{
+              transform: "translate(0,0)",
+              backgroundColor: "rgba(250,250,250,0.6)",
+              height: "220px"
+            }}
+          />
+          "How would you and your family survive if the US government collapsed
+          or was taken over and dollars became totally worthless in 2022?"
+          <br />
+          You are asking for two different scenarios, as the dollar v government
+          (bonds), until parity, by further third party donee beneficiary
+          claimable surrendered freedom (EULA) and beyond Article 4 outlay and
+          receipt scope, when there are apparent alternatives for free rider
+          immutable (sewage, police, lawsuits) truncated production tax, after
+          reverse-amortize (cash/debt)*income every year back. 1-level-board
+          max-royalty-profit-contracts for future debt “investment.”
           <h3>
             Exogenous factors aren’t not mentioned but fixed for in regressions.
           </h3>
