@@ -2950,4 +2950,3 @@ class Mortal extends React.Component {
 }
 
 export default Mortal;
-
