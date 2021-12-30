@@ -226,6 +226,7 @@ export default class App extends React.Component {
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
+          {/**johny carson: diapers on horse drawn carriages in NY, free rider immutable or collective bargain? only if rollover non-expiring! */}
           "ever wonder how your favorite artist earned money," $12k/yr velocity
           bonds why would artists work for dollars at most $64/yr, fucking
           retard Bob Sellers, STOP HARMING YOURSELF OR I WILL CITIZENS ARREST
@@ -291,10 +292,16 @@ export default class App extends React.Component {
           <br />
           annual dividends and profits, somehow double the amount of checking in
           existance&nbsp;
-          <a href="https://fred.stlouisfed.org/graph/?g=KlZq"/**truegdp compares above */>year by year</a>.
-          Libertarians say, "this wouldn't happen without the Federal reserve."
-          We need the big boot of the law on this one, homie. "
-          <a href="https://fred.stlouisfed.org/graph/?g=KlXv"/**truegdp compares gdp */>
+          <a
+            href="https://fred.stlouisfed.org/graph/?g=KlZq" /**truegdp compares above */
+          >
+            year by year
+          </a>
+          . Libertarians say, "this wouldn't happen without the Federal
+          reserve." We need the big boot of the law on this one, homie. "
+          <a
+            href="https://fred.stlouisfed.org/graph/?g=KlXv" /**truegdp compares gdp */
+          >
             A decreasing velocity of M1
           </a>
           &nbsp;might indicate fewer short- term consumption transactions are
@@ -405,6 +412,25 @@ export default class App extends React.Component {
             Only 25-54 working age size led me to believe 1.2m/yr+ 2020-2030 was
             discoverable
           </h2>
+          <a href="https://www2.census.gov/library/publications/decennial/1880/vol-11-12-mortality/1880v11-02.pdf#page=6">
+            1880 deaths
+          </a>
+          &nbsp;&bull;&nbsp;
+          <a href="https://www2.census.gov/prod2/decennial/documents/36894832v1ch05.pdf#page=34">
+            1890 dx
+          </a>
+          &nbsp;&bull;&nbsp;
+          <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2885717/">
+            1910a dx
+          </a>
+          &nbsp;&bull;&nbsp;
+          <a href="https://www.ssa.gov/oact/NOTES/as120/LifeTables_Tbl_7_1910.html">
+            1910b dx
+          </a>
+          &nbsp;&bull;&nbsp;
+          <a href="https://www.cdc.gov/nchs/data/lifetables/life19-20.pdf#page=60">
+            1920 dx
+          </a>
           <Spanish
             lastWidth={Math.min(600, this.state.lastWidth)}
             style={{
@@ -412,6 +438,22 @@ export default class App extends React.Component {
               backgroundColor: "rgb(190,150,180)",
               height: "220px"
             }}
+          />
+          <Cable
+            style={{ height: "200px", width: "100%" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1BGJag8pW3KxZTbimfp0Nvc3rNf0tgsY2/preview"
+            }
+            float="right"
+            title="https://www.cdc.gov/nchs/data/lifetables/life1890-1910.pdf"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
           />
           "How would you and your family survive if the US government collapsed
           or was taken over and dollars became totally worthless in 2022?"
