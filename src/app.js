@@ -178,6 +178,22 @@ export default class App extends React.Component {
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
+          <Cable
+            style={{ height: "700px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/19tII39kUjO3Xs9ZC9sgwaKb9iemaL9Gb/preview"
+            }
+            float="right"
+            title="Democracy Now (Youtube) - Edward Snowden (Whistleblower plant)"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           <h1>“I’ll buy his lemonade stand for him,” nJ 101.5 Chris bklyn</h1>
           <h2>
             mental disability without biomedical diagnosis is subjective ("messy
