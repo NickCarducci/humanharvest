@@ -195,6 +195,10 @@ export default class App extends React.Component {
             scrollTop={this.state.scrollTop}
           />
           <h1>“I’ll buy his lemonade stand for him,” nJ 101.5 Chris bklyn</h1>
+          <h2>
+            credit is haram and third party donee beneficiary claimable
+            surrendered freedom yolololololo
+          </h2>
           synthetic immunity is not sporing the protein on your cell for your
           garbage collection to attack. That is self-mutilation.
           <br />
@@ -207,6 +211,11 @@ export default class App extends React.Component {
           “If Congress is supposed to be consent of the governed, but we don’t
           know what they are doing, it is not consent that requites information
           as foreseeability requires possibility.”
+          <br />
+          The law begets the consequences except for political law (consensus
+          science). G-d loves haters and lovers, except for the 1/12
+          unreasonable doubt of industry-variable crazies. They go to Hell but
+          Jesus sin sacrifice booooo.
           <h2>
             mental disability without biomedical diagnosis is subjective ("messy
             hair," understanding that market makers see portfiolio 1 year into
