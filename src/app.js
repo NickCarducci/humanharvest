@@ -231,7 +231,19 @@ export default class App extends React.Component {
           growth, still. Stop misappropriating funds for expiring claims, public
           and private, as they are forfeited of your duress co signers'
           customers and employees and the rest of the supply chain. "... due to
-          coronavirus,"Dr. Dave Chokshi.
+          coronavirus," Dr. Dave Chokshi, NYC 6% DiBlasio, unauditable data. "We
+          have to wait for the science, safety and effectiveness before allowing
+          you the right to own, because we want to monopsonize production and
+          prevent vault share currency competition with my wealth and trade
+          secrets, as a doctor who doesn't want to commit malpractice, tort with
+          expriring non-rollover false bid pool non-concurrentable capacity
+          brought forward for useless pure inflation and follow null hypothesis
+          until billions of dollars are spent and accrued from Savers' third
+          party donee beneficiary claimable surrendered freedom (EULA)." Just
+          have&nbsp;
+          <a href="https://humanharvest.info">open-source ingredient lists</a>
+          &nbsp;instead of the R&D monopsony, free rider mutable tax, conflict
+          of interest net loss bond profit and animal testing.
           <h1>doctors consistently/predictably fall for basis rate fallacy</h1>
           <h2>
             Older people say to me to wake up to their reality because they
