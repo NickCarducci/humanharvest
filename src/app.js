@@ -192,6 +192,15 @@ export default class App extends React.Component {
           venture to assume what he would say nexts, "apples and oranges vault
           share bro"
           <br />
+          4% of the universe and moving outwards faster like a electron pull as
+          exclusive slope?
+          <br />
+          By communication is cause?
+          <br />
+          Could be spinning
+          <br />
+          I am denying science, real people didn't die, those people died on
+          time, douche.<br/>
           <Cable
             style={{ height: "700px" }}
             onError={handleScollImgError}
