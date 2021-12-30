@@ -229,8 +229,10 @@ export default class App extends React.Component {
           </h3>
           I don't want disability if on faux standing of mental acumen,
           certainly not to my mother because I am smart and don't pay take out
-          collateralized debts, nor pay uncollateralized ones. Repo-cycle kept
-          down payments is better prosecuted than shrimping it over.
+          collateralized debts, nor pay uncollateralized , and short my
+          competitors into the oblivion with a cash advance, buy out the car
+          lien and business debt ($VXX $TBT $VXX $SLV). Repo-cycle kept down
+          payments is better prosecuted than shrimping it over.
           <br />
           "I have a hole in my leg and a psychologist doctor said I was mentally
           unstable, and you said I couldn't handle money (I will not pay
