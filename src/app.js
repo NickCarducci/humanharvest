@@ -179,6 +179,11 @@ export default class App extends React.Component {
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
+          population density still permeates but worst amongst spittle, poop and
+          other excrement outlay of bacteria. maybe I am not a protistology
+          person, and bacteria is after our digestion, that re-infects upon
+          re-entry, the all-cause of virion.
+          <br />
           Want it done right do it themselves
           <br />
           Inflation nor real stock value increase, measured by productivity of
