@@ -213,7 +213,18 @@ export default class App extends React.Component {
           <br />
           “I had more people with covid but the same people in my hospital.”
           That’s because you make PCR to match your variants of concern, one of
-          many non-exclusive debris of bacterial infection. Mitchell Katz
+          many non-exclusive debris of bacterial infection. Mitchell Katz "Many
+          people are coming in because of other causes than coronavirus. We
+          don't have cross-sectional datasets, for Personally Identifiable
+          Information reasons, but we do for shooting retail traders like fish
+          in a barrel with pattern day trading rules, dispairagingly with 13D{" "}
+          {">"}5% owners that don't anon uuid to hide even after the quearterly
+          reports, nor duress of forfeiture moot contract in transaction data,
+          but not to pay for free rider immutable truncated production tax in
+          advance because I'm a bond-holder that with my homes, equities and
+          intermediate-labor non-compete expiring claims that don't rollover own
+          our intermediate-material creaton-serf-employable spent not tranquil
+          voluntary trade. We just respect your privacy too much."
           <br />
           <br />
           "Everytime you have stagflation you lose," Peter navarro gets cut off
