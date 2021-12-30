@@ -203,6 +203,10 @@ export default class App extends React.Component {
           <br />
           “Working as contracted by private companies, extending the work of
           government.” Spoken like a true government R&d gentrification plant
+          <br />
+          “If Congress is supposed to be consent of the governed, but we don’t
+          know what they are doing, it is not consent that requites information
+          as foreseeability requires possibility.”
           <h2>
             mental disability without biomedical diagnosis is subjective ("messy
             hair," understanding that market makers see portfiolio 1 year into
