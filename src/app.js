@@ -200,7 +200,11 @@ export default class App extends React.Component {
           Could be spinning
           <br />
           I am denying science, real people didn't die, those people died on
-          time, douche.<br/>
+          time, douche.
+          <br /> 
+          It only comes out, at a certain point, we aren't all going to
+          get it, just because you get the variant of concern to your
+          non-exclusive debris of an asymptomatic test.<br/>
           <Cable
             style={{ height: "700px" }}
             onError={handleScollImgError}
