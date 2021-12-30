@@ -291,10 +291,10 @@ export default class App extends React.Component {
           <br />
           annual dividends and profits, somehow double the amount of checking in
           existance&nbsp;
-          <a href="https://fred.stlouisfed.org/graph/?g=KlWE">year by year</a>.
+          <a href="https://fred.stlouisfed.org/graph/?g=KlZq"/**truegdp compares above */>year by year</a>.
           Libertarians say, "this wouldn't happen without the Federal reserve."
           We need the big boot of the law on this one, homie. "
-          <a href="https://fred.stlouisfed.org/graph/?g=KlXv">
+          <a href="https://fred.stlouisfed.org/graph/?g=KlXv"/**truegdp compares gdp */>
             A decreasing velocity of M1
           </a>
           &nbsp;might indicate fewer short- term consumption transactions are
