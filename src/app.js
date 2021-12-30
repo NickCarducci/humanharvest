@@ -190,8 +190,9 @@ export default class App extends React.Component {
             consent of the applicant.
           </h3>
           I don't want disability if on faux standing of mental acumen,
-          certainly not to my mother because I am smart and don't pay
-          collateralized debts.
+          certainly not to my mother because I am smart and don't pay take out
+          collateralized debts, nor pay uncollateralized ones. Repo-cycle kept
+          down payments is better prosecuted than shrimping it over.
           <br />
           "I have a hole in my leg and a psychologist doctor said I was mentally
           unstable, and you said I couldn't handle money (I will not pay
