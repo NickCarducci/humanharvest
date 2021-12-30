@@ -202,7 +202,7 @@ export default class App extends React.Component {
           out on your own." *click*
           <br />
           <br />
-          Your "individual decision protected in the contritution," by Tranquil
+          Your "individual decision protected in the constitution," by Tranquil
           and voluntary trade ends when virion comes from somewhere. Either it
           works or it doesn't, because it is a non-exclusive byproduct warning
           mechanism or an all-cause bacterial-infection. That is why excrement
