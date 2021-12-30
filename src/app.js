@@ -195,6 +195,9 @@ export default class App extends React.Component {
             scrollTop={this.state.scrollTop}
           />
           <h1>“I’ll buy his lemonade stand for him,” nJ 101.5 Chris bklyn</h1>
+          synthetic immunity is not sporing the protein on your cell for your
+          garbage collection to attack. That is self-mutilation.
+          <br />
           “Need to know principle reduces your realm to your work.” ESnowden
           democracy now
           <br />
