@@ -227,6 +227,20 @@ export default class App extends React.Component {
           voluntary trade. We just respect your privacy too much."
           <br />
           <br />
+          "We are seeing increased seasonal hospitalizations," due to population
+          growth, still. Stop misappropriating funds for expiring claims, public
+          and private, as they are forfeited of your duress co signers'
+          customers and employees and the rest of the supply chain. "... due to
+          coronavirus,"Dr. Dave Chokshi.
+          <h1>doctors consistently/predictably fall for basis rate fallacy</h1>
+          <h2>
+            Older people say to me to wake up to their reality because they
+            lived in their parents' gerontocracy, with productivity by price
+            deflation per hour literally going backwards.
+          </h2>
+          <h3>
+            and they have a direct line to boon their conflict of interest.
+          </h3>
           "Everytime you have stagflation you lose," Peter navarro gets cut off
           for a vaccine doctor (not statistician), I'll fill in for him,
           "[productivity of price deflation per hour comparative advantage and
