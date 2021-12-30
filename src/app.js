@@ -195,6 +195,11 @@ export default class App extends React.Component {
             scrollTop={this.state.scrollTop}
           />
           <h1>“I’ll buy his lemonade stand for him,” nJ 101.5 Chris bklyn</h1>
+          “Need to know principle reduces your realm to your work.” ESnowden
+          democracy now
+          <br />
+          “Working as contracted by private companies, extending the work of
+          government.” Spoken like a true government R&d gentrification plant
           <h2>
             mental disability without biomedical diagnosis is subjective ("messy
             hair," understanding that market makers see portfiolio 1 year into
