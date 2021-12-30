@@ -178,6 +178,15 @@ export default class App extends React.Component {
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
+          <br />
+          Want it done right do it themselves
+          <br />
+          Inflation nor real stock value increase, measured by productivity of
+          hours per average traded home, deflation… "More dollars you still get
+          the same apples." That was the last we heard of Cats. If I would
+          venture to assume what he would say nexts, "apples and oranges vault
+          share bro"
+          <br />
           <Cable
             style={{ height: "700px" }}
             onError={handleScollImgError}
