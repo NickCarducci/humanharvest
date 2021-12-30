@@ -211,6 +211,11 @@ export default class App extends React.Component {
           with them. It is debris exclusively.
           <br />
           <br />
+          “I had more people with covid but the same people in my hospital.”
+          That’s because you make PCR to match your variants of concern, one of
+          many non-exclusive debris of bacterial infection. Mitchell Katz
+          <br />
+          <br />
           "Everytime you have stagflation you lose," Peter navarro gets cut off
           for a vaccine doctor (not statistician), I'll fill in for him,
           "[productivity of price deflation per hour comparative advantage and
