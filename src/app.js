@@ -178,11 +178,19 @@ export default class App extends React.Component {
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
+          <h3>
+            Marx was plabgerized by Mises to act like credit cycle is useful not
+            useless price elasticity.
+          </h3>
           <h2>behavior is not an illness, it is a CRIME</h2>
           <h1>
-            coordinating with government is a crime, just have open source
-            ingredient lists, r&d is free rider mutable.
+            coordinating with government is a crime
+            {/**ben habib brexit party mp, full marks on the vaccine */}, just
+            have open source ingredient lists, r&d is free rider mutable.
           </h1>
+          government free rider mutable fines, instead of jail, is useless
+          racketeering for bond-index-funds, if no arresting officer evidence,
+          no bail nor jail.
           <h2>
             stop acting like illegal immigrants aren't the partial-solution and
             productivity isn't hours under price-deflation of equities as market
