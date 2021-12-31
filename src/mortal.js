@@ -2263,6 +2263,8 @@ class Mortal extends React.Component {
     let mortalSixtyFiveNJAge = [];
     let mortalSeventyFiveNJDataAge = [];
     let mortalSeventyFiveNJAge = [];
+    let mortalFiftyNJDataAge = [];
+    let mortalFiftyNJAge = [];
     let mortalFiftyNJData = [];
     let mortalFiftyNJ = [];
     let mortalSeventyFiveNJData = [];
@@ -2394,6 +2396,12 @@ class Mortal extends React.Component {
       });
       mortalFiftyNJ.push(totmF);
       mortalFiftyNJData.push([x, totmF]);
+      let totmEFA = 0;
+      mEightyFiveNJDataAge.forEach((obj) => {
+        if (obj[0] === x) totmEFA = totmEFA + obj[1];
+      });
+      mortalEightyFiveNJAge.push(totmEFA);
+      mortalEightyFiveNJDataAge.push([x, totmEFA]);
       let totmSeA = 0;
       mSeventyFiveNJDataAge.forEach((obj) => {
         if (obj[0] === x) totmSeA = totmSeA + obj[1];
@@ -2407,11 +2415,11 @@ class Mortal extends React.Component {
       mortalSixtyFiveNJAge.push(totmSA);
       mortalSixtyFiveNJDataAge.push([x, totmSA]);
       let totmFA = 0;
-      mEightyFiveNJDataAge.forEach((obj) => {
+      mFiftyNJData.forEach((obj) => {
         if (obj[0] === x) totmFA = totmFA + obj[1];
       });
-      mortalEightyFiveNJAge.push(totmFA);
-      mortalEightyFiveNJDataAge.push([x, totmFA]);
+      mortalFiftyNJ.push(totmFA);
+      mortalFiftyNJData.push([x, totmFA]);
       let totmZ = 0;
       mZeroNJData.forEach((obj) => {
         if (obj[0] === x) totmZ = totmZ + obj[1];
@@ -2435,15 +2443,17 @@ class Mortal extends React.Component {
     var highlifetime = Math.max(...averageLifetime);
     var highDeaths = Math.max(...all);
     var cappop = Math.max(
+      ...mortalFiftyNJAge,
       ...mortalSixtyFiveNJAge,
       ...mortalSeventyFiveNJAge,
       ...mortalEightyFiveNJAge
     );
     noData.sort((a, b) => a[0] - b[0]);
     mortalZeroNJData.sort((a, b) => a[0] - b[0]);
-    mortalEightyFiveNJDataAge.sort((a, b) => a[0] - b[0]);
+    mortalFiftyNJDataAge.sort((a, b) => a[0] - b[0]);
     mortalSixtyFiveNJDataAge.sort((a, b) => a[0] - b[0]);
     mortalSeventyFiveNJDataAge.sort((a, b) => a[0] - b[0]);
+    mortalEightyFiveNJDataAge.sort((a, b) => a[0] - b[0]);
     mortalFiftyNJData.sort((a, b) => a[0] - b[0]);
     mortalSixtyFiveNJData.sort((a, b) => a[0] - b[0]);
     mortalSeventyFiveNJData.sort((a, b) => a[0] - b[0]);
@@ -2456,6 +2466,7 @@ class Mortal extends React.Component {
       averageLifetimeData,
       date,
       mortalZeroNJData,
+      mortalFiftyNJDataAge,
       mortalSixtyFiveNJDataAge,
       mortalSeventyFiveNJDataAge,
       mortalEightyFiveNJDataAge,
@@ -2492,12 +2503,14 @@ class Mortal extends React.Component {
           let noData = [];
           let mortalZeroNJData = [];
           var mortalZeroNJ = [];
-          let mortalEightyFiveNJDataAge = [];
-          let mortalEightyFiveNJAge = [];
+          let mortalFiftyNJDataAge = [];
+          let mortalFiftyNJAge = [];
           let mortalSixtyFiveNJDataAge = [];
           let mortalSixtyFiveNJAge = [];
           let mortalSeventyFiveNJDataAge = [];
           let mortalSeventyFiveNJAge = [];
+          let mortalEightyFiveNJDataAge = [];
+          let mortalEightyFiveNJAge = [];
           let mortalFiftyNJData = [];
           let mortalFiftyNJ = [];
           let mortalSixtyFiveNJData = [];
@@ -2511,6 +2524,7 @@ class Mortal extends React.Component {
           let mortalOneTenNJData = [];
           let mortalOneTenNJ = [];
           let mZeroNJData = [];
+          let mFiftyNJDataAge = [];
           let mSixtyFiveNJDataAge = [];
           let mSeventyFiveNJDataAge = [];
           let mEightyFiveNJDataAge = [];
@@ -2530,19 +2544,24 @@ class Mortal extends React.Component {
             const val = (d, p = 1000) => Math.round((d / 100000) * p * 1000);
             Object.values(usmortality)[i].forEach((x) => {
               if (frequency(chosenfrequency, 1).includes(x.age)) {
-                mEightyFiveNJDataAge.push([
+                mFiftyNJDataAge.push([
                   year,
-                  true ? (x.pop * 1000) / 10 : val(x.dx, x.pop)
+                  chosenRate ? (x.pop * 1000) / 10 : x.pop * 1000
                 ]);
               } else if (frequency(chosenfrequency, 2).includes(x.age)) {
                 mSixtyFiveNJDataAge.push([
                   year,
-                  true ? (x.pop * 1000) / 3 : val(x.dx, x.pop)
+                  chosenRate ? (x.pop * 1000) / 3 : x.pop * 1000
                 ]);
               } else if (frequency(chosenfrequency, 3).includes(x.age)) {
                 mSeventyFiveNJDataAge.push([
                   year,
-                  true ? (x.pop * 1000) / 2 : val(x.dx, x.pop)
+                  chosenRate ? (x.pop * 1000) / 2 : x.pop * 1000
+                ]);
+              } else if (frequency(chosenfrequency, 4).includes(x.age)) {
+                mEightyFiveNJDataAge.push([
+                  year,
+                  chosenRate ? (x.pop * 1000) / 2 : x.pop * 1000
                 ]);
               }
               if (frequency(chosenfrequency, 0).includes(x.age)) {
@@ -2621,12 +2640,12 @@ class Mortal extends React.Component {
             });
             mortalFiftyNJ.push(totmF);
             mortalFiftyNJData.push([x, totmF]);
-            let totmFA = 0;
+            let totmEFA = 0;
             mEightyFiveNJDataAge.forEach((obj) => {
-              if (obj[0] === x) totmFA = totmFA + obj[1];
+              if (obj[0] === x) totmEFA = totmEFA + obj[1];
             });
-            mortalEightyFiveNJAge.push(totmFA);
-            mortalEightyFiveNJDataAge.push([x, totmFA]);
+            mortalEightyFiveNJAge.push(totmEFA);
+            mortalEightyFiveNJDataAge.push([x, totmEFA]);
             let totmSeA = 0;
             mSeventyFiveNJDataAge.forEach((obj) => {
               if (obj[0] === x) totmSeA = totmSeA + obj[1];
@@ -2639,6 +2658,12 @@ class Mortal extends React.Component {
             });
             mortalSixtyFiveNJAge.push(totmSA);
             mortalSixtyFiveNJDataAge.push([x, totmSA]);
+            let totmFA = 0;
+            mFiftyNJDataAge.forEach((obj) => {
+              if (obj[0] === x) totmFA = totmFA + obj[1];
+            });
+            mortalFiftyNJAge.push(totmFA);
+            mortalFiftyNJDataAge.push([x, totmFA]);
             let totmZ = 0;
             mZeroNJData.forEach((obj) => {
               if (obj[0] === x) totmZ = totmZ + obj[1];
@@ -2661,12 +2686,14 @@ class Mortal extends React.Component {
           ];
           var highDeaths = Math.max(...all);
           var cappop = Math.max(
+            ...mortalFiftyNJAge,
             ...mortalSixtyFiveNJAge,
             ...mortalSeventyFiveNJAge,
             ...mortalEightyFiveNJAge
           );
           noData.sort((a, b) => a[0] - b[0]);
           mortalZeroNJData.sort((a, b) => a[0] - b[0]);
+          mortalFiftyNJDataAge.sort((a, b) => a[0] - b[0]);
           mortalSixtyFiveNJDataAge.sort((a, b) => a[0] - b[0]);
           mortalSeventyFiveNJDataAge.sort((a, b) => a[0] - b[0]);
           mortalEightyFiveNJDataAge.sort((a, b) => a[0] - b[0]);
@@ -2680,6 +2707,7 @@ class Mortal extends React.Component {
             date,
             cappop,
             mortalZeroNJData,
+            mortalFiftyNJDataAge,
             mortalSixtyFiveNJDataAge,
             mortalSeventyFiveNJDataAge,
             mortalEightyFiveNJDataAge,
@@ -2711,6 +2739,12 @@ class Mortal extends React.Component {
       ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
       ((y - this.state.lowDeaths) / yaxis) * 150
     ]);
+    const mortalFiftyNJDataAge = this.state.mortalFiftyNJDataAge.map(
+      ([x, y]) => [
+        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
+        ((y - this.state.lowDeaths) / yaxis) * 150
+      ]
+    );
     const mortalSixtyFiveNJDataAge = this.state.mortalSixtyFiveNJDataAge.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
@@ -2940,6 +2974,28 @@ class Mortal extends React.Component {
               stroke="purple"
               data={mortalZeroNJData}
             />*/}
+          </svg>
+          <svg
+            className="all"
+            style={linecss}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            {mortalFiftyNJDataAge.map(
+              ([x, y], i) =>
+                !isNaN(x) &&
+                !isNaN(y) && (
+                  <rect
+                    x={x}
+                    y={y}
+                    width={8}
+                    height={1}
+                    stroke="white"
+                    fill="transparent"
+                    strokeWidth={1}
+                    key={i}
+                  />
+                )
+            )}
           </svg>
           <svg
             className="all"
@@ -3254,7 +3310,9 @@ class Mortal extends React.Component {
           }}
         >
           {this.state.date.map((x) => (
-            <div key={x}>{x}</div>
+            <div key={x} style={{ width: "max-content", wordBreak: "none" }}>
+              {x}
+            </div>
           ))}
         </div>
       </div>
