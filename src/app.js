@@ -200,7 +200,11 @@ export default class App extends React.Component {
           Carl Higbie, "it is the right health decision, but it doesn’t stop it.
           I just boycott the business duress that is involuntary trade and not
           Tranquil, beyond article 4 free rider immutable or jury permit to
-          desist and duress for mvp as is conviction."
+          desist and duress for mvp as is conviction." “Because of covid price
+          setting is not a function of demand, but a function of how much it
+          will cost to make.” Oh we are just picking and choosing whole
+          functions now? "They do say the vaccine lessens the impact and virion
+          injects its DNA into the cell."
           <h2>
             self-regulation is a microeconomic Supply and Demand assumption that
             your business rights over new entrants and consumers co-opted, like
@@ -1484,9 +1488,9 @@ export default class App extends React.Component {
             bad, it is how we measure technological advancement in economics.
           </h3>
           "If your paycheck depends on it, you can force them to do anything
-          before jury." Bill D'Blasio, pharma brought forward demand, monopsony
-          intra-market-constraint by competing with consumers beyond minimal
-          viable product.
+          before jury." Bill D'Blasio (6%), pharma brought forward demand,
+          monopsony intra-market-constraint by competing with consumers beyond
+          minimal viable product.
           <h2>
             The only thing you ever need is because of finance and rent seeking,
             not population growth. "We got around this thing with the vaccine
