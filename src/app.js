@@ -182,7 +182,11 @@ export default class App extends React.Component {
           population density still permeates but worst amongst spittle, poop and
           other excrement outlay of bacteria. maybe I am not a protistology
           person, and bacteria is after our digestion, that re-infects upon
-          re-entry, the all-cause of virion.
+          re-entry, the all-cause of virion. “Less people are vaccinated now
+          than before, crazy,” that happens every other year since at least
+          1980. "Does everyone around you have it." It got cold really fast, it
+          is produced when bacteria-reinfects us. Virion does not come inject
+          DNA into the cell like the mRNA-sporing-graft does.
           <br />
           Want it done right do it themselves
           <br />
