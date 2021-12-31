@@ -205,7 +205,8 @@ export default class App extends React.Component {
           for $200m/yr foreign aid/useless price inflation. Latinos aren't
           putting up with this, co-opt latinos with open boarders, Americans are
           learning that the 1/4 share 3m/yr+ going to FL is a big win. Happy New
-          Year."
+          Year." “Homelessless crime.” You are causing homelessness that you
+          call a crime, by the implausible rental income crime.
           <br />
           population density still permeates but worst amongst spittle, poop and
           other excrement outlay of bacteria. maybe I am not a protistology
