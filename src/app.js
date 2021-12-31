@@ -210,6 +210,17 @@ export default class App extends React.Component {
           just because you get the variant of concern to your non-exclusive
           debris of an asymptomatic test.
           <br />
+          <span
+            style={{
+              fontSize: "9px"
+            }}
+          >
+            vaccine test so hot rn
+          </span>
+          . Just keep distance if you have symptoms of bacterial-infection that
+          creates virion. I am a statistician that regresses exogenous, not a
+          twitchy epidemiologist.
+          <br />
           <Cable
             style={{ height: "700px" }}
             onError={handleScollImgError}
