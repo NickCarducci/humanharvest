@@ -883,8 +883,7 @@ export default class App extends React.Component {
             lastWidth={Math.min(600, this.state.lastWidth)}
             style={{
               transform: "translate(0,0)",
-              backgroundColor: "rgb(190,150,180)",
-              height: "220px"
+              backgroundColor: "rgb(190,150,180)"
             }}
           />
           CDC put pneumonia influenza covid together, for Cause of Death and
