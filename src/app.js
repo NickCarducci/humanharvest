@@ -180,7 +180,8 @@ export default class App extends React.Component {
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
           <br />
-          boosted the economy and net worth and self-esteem, jobs, that is
+          why don't you do it? you sound like you lost your fucking tongue.<br/>
+          "boosted the economy and net worth and self-esteem, jobs," that is
           busy-work, you probably would like to watch eachothers' kids to boost
           your fucking counterfeit. Who needs a job except to pay rent-seeking
           deadlines. wait for customers Rob. you don't need to r&d monopsony for
