@@ -180,10 +180,15 @@ export default class App extends React.Component {
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
           <br />
+          Turn down gentrifiction amazon, how would business owners triple in
+          value from neighborhoods, that is what Carol and Domenic cares about?
+          Stop putting businesss ahead of labor, douche.
+          <br />
+          <br />
           "A mentally challenged person cannot say 'F Trump,'" your IQ tests are
-          for the wrong patterns," and they called the mentally challenged person
-          an afro-jigger-tool. They just switch the end of the story to see if
-          you can follow."
+          for the wrong patterns," and they called the mentally challenged
+          person an afro-jigger-tool. They just switch the end of the story to
+          see if you can follow."
           <br />
           <br />
           why don't you do it? you sound like you lost your fucking tongue.
