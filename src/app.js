@@ -178,8 +178,13 @@ export default class App extends React.Component {
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
-          <br />
-          <br />
+          <h1>
+            you cannot own technology, General, and you can't tax for free rider
+            mutable tax{/*tai mccoy*/} monopsony for Amazon over competition,
+            nor withhold profits for flaccid corporate loss, pension value m2
+            mutual fund money market is not a market, it is surrendered saver
+            freedom (EULA) donee beneficiary claimable.
+          </h1>
           Turn down gentrifiction amazon, "I'll buy your lemonade stand for
           you," how would business owners triple in value from neighborhoods,
           that is what Carol and Domenic cares about? Stop putting businesss
