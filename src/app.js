@@ -180,7 +180,14 @@ export default class App extends React.Component {
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
           <br />
-          why don't you do it? you sound like you lost your fucking tongue.<br/>
+          "A mentally challenged person cannot say 'F Trump,'" your IQ tests are
+          for the wrong patterns," and they called the mentally challenged person
+          an afro-jigger-tool. They just switch the end of the story to see if
+          you can follow."
+          <br />
+          <br />
+          why don't you do it? you sound like you lost your fucking tongue.
+          <br />
           "boosted the economy and net worth and self-esteem, jobs," that is
           busy-work, you probably would like to watch eachothers' kids to boost
           your fucking counterfeit. Who needs a job except to pay rent-seeking
