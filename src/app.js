@@ -195,6 +195,10 @@ export default class App extends React.Component {
           rollover, the producer-ask is ALWAYS first. It is not coverage it is a
           net loss laundered loitered customers and employers of insurance false
           bid pool signers' third party donee beneficiaries.
+          <br />
+          <br />
+          "I can't PROVE virion injects its DNA into the cell, but it is non-exclusively-prevalent enough to only come out from bacterial-infection," Dr. Mark
+          Seigel.
           <h1>
             you cannot own technology, General, and you can't tax for free rider
             mutable tax{/*tai mccoy*/} monopsony for Amazon over competition,
