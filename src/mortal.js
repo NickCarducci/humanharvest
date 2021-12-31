@@ -2903,6 +2903,7 @@ class Mortal extends React.Component {
         <div style={{ width: "100%", height: "200px" }}>
           <div style={labelstyle}>
             <div
+              style={buttonStyle}
               onClick={() =>
                 this.setState(
                   this.state.chosenRate && this.state.chosenfrequency
@@ -2934,7 +2935,7 @@ class Mortal extends React.Component {
             <div>
               -&nbsp;
               <br />
-              {shortNumber(Math.round(this.state.highDeaths / 5))}
+              {shortNumber(Math.round(this.state.highDeaths /*/5 */))}
             </div>
             <div
               style={{
