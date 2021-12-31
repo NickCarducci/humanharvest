@@ -184,7 +184,13 @@ export default class App extends React.Component {
           <br />
           "I don't understand how he is able to keep his job." I invented
           1-level-board max-royalty-contracts by NOT working. You work for
-          $12k/64 per year new debt/cash and
+          $12k/64 per year new debt/cash and surrendered freedom of savers. The
+          only way out is (cash/debt)*income every year back. jury-permit for
+          desist convict within free rider immutable article 4 scope not
+          amendment 14 section 4. Money is not m2, mv1===mv2==GDP&nbsp;
+          <span role="img" aria-label="side-splitting laughter">
+            🤣
+          </span>
           <br />
           "Well, these are self-inflicted wounds. It is bigger now than Carter,
           matching Trumps' spending." legislation victories are the reason for
