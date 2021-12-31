@@ -205,7 +205,9 @@ export default class App extends React.Component {
           deadlines. wait for customers Rob. you don't need to r&d monopsony for
           your bond-index-funds you fucking cuck. Fuck off Trump vaxx pharma
           trust, why does government need to be involved at all in medicine?
-          Just put the ingredient list on it, pharma-pig
+          Just put the ingredient list on it, pharma-pig, 80% of incarcerated
+          are just competitors. "finally, some epstein remediation, insured
+          expiring claims non-rollover flaccid un-bargain loss."
           <br />
           <br />
           "Some people need welfare." No one needs welfare, it just bids up free
