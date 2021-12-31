@@ -1897,65 +1897,56 @@ class Spanish extends React.Component {
             const val = (d, p = 1000) => Math.round((d / 100000) * p * 1000);
             Object.values(usmortality)[i].forEach((x) => {
               if (frequency(chosenfrequency, 0).includes(x.age)) {
-                mZeroNJDataAge.push([
-                  year,
-                  chosenRate ? x.pop * 1000 : x.pop * 1000
-                ]);
+                mZeroNJDataAge.push([year, chosenRate ? x.pop : x.pop]);
               } else if (frequency(chosenfrequency, 1).includes(x.age)) {
-                mFiftyNJDataAge.push([
-                  year,
-                  chosenRate ? (x.pop * 1000) / 10 : x.pop * 1000
-                ]);
+                mFiftyNJDataAge.push([year, chosenRate ? x.pop / 10 : x.pop]);
               } else if (frequency(chosenfrequency, 2).includes(x.age)) {
                 mSixtyFiveNJDataAge.push([
                   year,
-                  chosenRate ? (x.pop * 1000) / 3 : x.pop * 1000
+                  chosenRate ? x.pop / 3 : x.pop
                 ]);
               } else if (frequency(chosenfrequency, 3).includes(x.age)) {
                 mSeventyFiveNJDataAge.push([
                   year,
-                  chosenRate ? (x.pop * 1000) / 2 : x.pop * 1000
+                  chosenRate ? x.pop / 2 : x.pop
                 ]);
               } else if (frequency(chosenfrequency, 4).includes(x.age)) {
                 mEightyFiveNJDataAge.push([
                   year,
-                  chosenRate ? (x.pop * 1000) / 2 : x.pop * 1000
+                  chosenRate ? x.pop / 2 : x.pop
                 ]);
               }
               if (frequency(chosenfrequency, 0).includes(x.age)) {
-                mZeroNJData.push([
-                  year,
-                  chosenRate ? x.pop * 1000 : val(x.dx, x.pop)
-                ]);
+                mZeroNJData.push([year, chosenRate ? x.pop : val(x.dx, x.pop)]);
               } else if (frequency(chosenfrequency, 1).includes(x.age)) {
                 mFiftyNJData.push([
                   year,
-                  chosenRate ? (x.pop * 1000) / 10 : val(x.dx, x.pop)
+                  chosenRate ? x.pop / 10 : val(x.dx, x.pop)
                 ]);
               } else if (frequency(chosenfrequency, 2).includes(x.age)) {
                 mSixtyFiveNJData.push([
                   year,
-                  chosenRate ? (x.pop * 1000) / 3 : val(x.dx, x.pop)
+                  chosenRate ? x.pop / 3 : val(x.dx, x.pop)
                 ]);
               } else if (frequency(chosenfrequency, 3).includes(x.age)) {
                 mSeventyFiveNJData.push([
                   year,
-                  chosenRate ? (x.pop * 1000) / 2 : val(x.dx, x.pop)
+                  chosenRate ? x.pop / 2 : val(x.dx, x.pop)
                 ]);
               } else if (frequency(chosenfrequency, 4).includes(x.age)) {
                 mEightyFiveNJData.push([
                   year,
-                  chosenRate ? (x.pop * 1000) / 2 : val(x.dx, x.pop)
+                  chosenRate ? x.pop / 2 : val(x.dx, x.pop)
                 ]);
               } else if (frequency(chosenfrequency, 5).includes(x.age)) {
                 mNinetyFiveNJData.push([
                   year,
-                  chosenRate ? (x.pop * 1000) / 2 : val(x.dx, x.pop)
+                  chosenRate ? x.pop / 2 : val(x.dx, x.pop)
                 ]);
               } else if (frequency(chosenfrequency, 6).includes(x.age)) {
                 mOneTenNJData.push([
                   year,
-                  chosenRate ? (x.pop * 1000) / 4 : val(x.dx, x.pop)
+                  chosenRate ? x.pop / 4 : val(x.dx, x.pop)
                 ]);
               }
             });
