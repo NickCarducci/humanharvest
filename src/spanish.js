@@ -1,4 +1,4 @@
-import React from "react";
+mport React from "react";
 import { linecss, shortNumber } from "./vaxx";
 
 /*const mortalagenj = {
@@ -2171,7 +2171,7 @@ class Spanish extends React.Component {
     const ite = { border: "1px grey dashed", width: "max-content" };
     const labelstyle = {
       backgroundColor: "rgba(50,120,200,.6)",
-      top: "0px",
+      top: "20px",
       height: "min-content",
       display: "flex",
       maxWidth: "100%",
@@ -2188,7 +2188,7 @@ class Spanish extends React.Component {
       margin: "2px"
     };
     return (
-      <div style={{ height: "200px", ...this.props.style }}>
+      <div style={this.props.style}>
         {/*<div
           style={{
             position: "relative",
@@ -2307,7 +2307,7 @@ class Spanish extends React.Component {
               {this.state.lowDeaths}
             </div>*/}
           </div>
-          <div style={{ transform: "translate(0px,180px)" }}>
+          <div style={{ transform: "translate(0px,200px)" }}>
             <svg
               className="all"
               style={linecss}
