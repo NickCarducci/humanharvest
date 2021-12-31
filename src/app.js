@@ -184,10 +184,15 @@ export default class App extends React.Component {
           inflation and stagflation.
           <br />
           <br />
-          "Most people will get it," You are suffering from basis rate fallacy,
-          as it is a non-exclusive byproduct, not cause. Vaxxers literally make
-          up the fact that, “virion injects DNA into cell because prevalence.”
+          "Most people will get it, most whom are unvaccinated." You are
+          suffering from basis rate fallacy, as it is a non-exclusive byproduct,
+          not cause. Vaxxers literally make up the fact that, “virion injects
+          DNA into cell because prevalence.”
           <h2>Use prevalence to investigate, not convict.</h2>
+          <h3>
+            That prior conviction could be untried and on false exhibitions or
+            precedence of grounds, standing.
+          </h3>
           Don't green the economy, the tech is not there, so it wouldn't do
           anything. No free money, taxes will be raised in another way."
           <br />
@@ -200,7 +205,8 @@ export default class App extends React.Component {
             ppp/bbb/ccc trust built price fixing to prohibit repo-forclosure
             correction kept down payments as to service the impossible
             collateral appraisal third party donee beneficiary surrendered
-            freedom. (cash/debt)*income every year back or else, bitch Shannon Bream
+            freedom. (cash/debt)*income every year back or else, bitch Shannon
+            Bream
           </h3>
           <h2>
             A third of the country voted for trump. Caucuses with Democrats or
