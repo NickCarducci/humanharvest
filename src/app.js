@@ -238,7 +238,12 @@ export default class App extends React.Component {
             🤣
           </span>
           . Banned for saying you need to shuffle mail-in to extrapolate;
-          retarded. Against voluntary trade and Tranquil society.
+          retarded. Against voluntary trade and Tranquil society. Productivity
+          is the OPPOSITE of what macroeconomists are saying, price, operational
+          and opportunity costs deflationary-productivity per hour,
+          technological advancement by comparative advantage uses microeconomic
+          zero sum price-elasticity of marginal-propensities of
+          bookie-price-finding.
           <br />
           "Well, these are self-inflicted wounds. It is bigger now than Carter,
           matching Trumps' spending." legislation victories are the reason for
