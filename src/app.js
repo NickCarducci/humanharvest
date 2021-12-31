@@ -180,6 +180,13 @@ export default class App extends React.Component {
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
           <br />
+          boosted the economy and net worth and self-esteem, jobs, that is
+          busy-work, you probably would like to watch eachothers' kids to boost
+          your fucking counterfeit. Who needs a job except to pay rent-seeking
+          deadlines. wait for customers Rob. you don't need to r&d monopsony for
+          your bond-index-funds you fucking cuck.
+          <br />
+          <br />
           "Some people need welfare." No one needs welfare, it just bids up free
           rider mutable tax, surrendered freedom by finance/rent-seeking:
           invoices, expiring claims, implausible landlord use and repo-cycle
