@@ -2,12 +2,12 @@ import React from "react";
 
 export const linecss = {
   left: "0px",
-  top: "0px",
+  bottom: "0px",
   display: "flex",
   position: "absolute",
   width: "100%",
   height: "200px",
-  transform: "scale(1,-1)"
+  transform: "translate(0%,0%) scale(1,-1)"
 };
 export const shortNumber = (scler, notRound) => {
   var newnum = String(Math.round(scler));
