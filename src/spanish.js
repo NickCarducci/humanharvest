@@ -1418,6 +1418,118 @@ const usmortality = {
       dx: 50,
       pop: 94022,
     },*/
+  ],
+  "1940": [
+    {
+      age: "0-4",
+      dx: 11481, //https://www.ssa.gov/oact/NOTES/as120/LifeTables_Tbl_7_1940.html
+      pop: 10541524 //https://www2.census.gov/library/publications/decennial/1940/population-volume-4/33973538v4p1ch1.pdf#page=3
+    },
+    {
+      age: "5-9",
+      dx: 746,
+      pop: 10684622
+    },
+    {
+      age: "10-14",
+      dx: 509,
+      pop: 11745935
+    },
+    {
+      age: "15-19",
+      dx: 897,
+      pop: 12333523
+    },
+    {
+      age: "20-24",
+      dx: 1153,
+      pop: 11587835
+    },
+    {
+      age: "25-29",
+      dx: 1280,
+      pop: 11096638
+    },
+    {
+      age: "30-34",
+      dx: 519,
+      pop: 10242388
+    },
+    {
+      age: "35-39",
+      dx: 1774,
+      pop: 9545377
+    },
+    {
+      age: "40-44",
+      dx: 2343,
+      pop: 8787843
+    },
+    {
+      age: "45-49",
+      dx: 11481,
+      pop: 8255225
+    },
+    {
+      age: "50-54",
+      dx: 4916,
+      pop: 7256846
+    },
+    {
+      age: "55-59",
+      dx: 6892,
+      pop: 5843865
+    },
+    {
+      age: "60-64",
+      dx: 9583,
+      pop: 4728340
+    },
+    {
+      age: "65-69",
+      dx: 13480,
+      pop: 3806657
+    },
+    {
+      age: "70-74",
+      dx: 18143,
+      pop: 2569532
+    },
+    {
+      age: "75-79",
+      dx: 23122,
+      pop: 1503982
+    },
+    {
+      age: "80-84",
+      dx: 28502,
+      pop: 774391
+    },
+    {
+      age: "85-89",
+      dx: 27721,
+      pop: 277012
+    }, //1706
+    {
+      age: "90-94",
+      dx: 24277,
+      pop: 69598
+    },
+    {
+      age: "95-99",
+      dx: 11427,
+      pop: 14463
+    },
+    {
+      age: "100",
+      dx: 2938 + 434 + 30,
+      pop: 3679
+    } //https://www.ssa.gov/oact/NOTES/as120/LifeTables_Tbl_7.html
+    /*{
+      age: "unknown",
+      dx: 50,
+      pop: 94022,
+    },*/
   ]
 };
 
