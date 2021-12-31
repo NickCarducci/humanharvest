@@ -183,16 +183,24 @@ export default class App extends React.Component {
           early in the investment, ethics, no, LAW, expiring claims launders
           from third parties. Don't write up your producer-ask with their
           bid-price loss, of&nbsp;
-          <span style={{ textDecoration: "underline" }}>third party donee beneficiary surrendered freedom
-          (EULA) of your customers</span>, the supply chain, no matter community built
-          by duress and prisoners' dilemma cannot surmount the flaccid profit
-          loss of brought forward demand without rollover collective-bargain,
-          pure useless inflation price inelasticity&nbsp;
+          <span style={{ textDecoration: "underline" }}>
+            third party donee beneficiary surrendered freedom (EULA) of your
+            customers
+          </span>
+          , the supply chain, no matter community built by duress and prisoners'
+          dilemma cannot surmount the flaccid profit loss of brought forward
+          demand without rollover collective-bargain, pure useless inflation
+          price inelasticity&nbsp;
           <span style={{ textDecoration: "underline" }}>
             competition with consumers
           </span>
           , to boot.
           <br />
+          <br />
+          Carl Higbie, "it is the right health decision, but it doesn’t stop it.
+          I just boycott the business duress that is involuntary trade and not
+          Tranquil, beyond article 4 free rider immutable or jury permit to
+          desist and duress for mvp as is conviction."
           <br />
           impossible/unforeseeable always, never in doubt nor exhibitable to
           more than 1/12 reasonable. Mortgage-actual-work-deficit-bride:
