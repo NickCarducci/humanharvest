@@ -184,6 +184,10 @@ export default class App extends React.Component {
           inflation and stagflation.
           <br />
           <br />
+          “If you were unconstrained by resources, have whatever you want, go,”
+          conservatives acting like more money gets you more resources.
+          <br />
+          <br />
           "Would the world be a better place today if Adolf Hitler's ideas were
           successful?"
           <br />
