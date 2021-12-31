@@ -196,7 +196,8 @@ export default class App extends React.Component {
           <br />
           "Made the free rider mutable or expiring claim doctors laundered from
           your co-signers' customers a deal they couldn’t refuse.” That is a
-          racket O’Reilly. Moot, bargiain oath plea state vic my nugg
+          racket O’Reilly. Moot, bargiain oath plea state vic my nugg. “Take
+          credit, saved tens of millions, China should pay for 800k deaths.”
           <br />
           <br />
           "Why are you taking my money to pay for your tuition, that is theft,
