@@ -196,8 +196,10 @@ export default class App extends React.Component {
           him at the start is the thrust of the motive, as a tyrannical ruler is
           ruler by giving others guns whom don’t turn for some reason against
           them: money, reverse amortization, or jealousy.
-          <br />
-          <br />
+          <h2>
+            Consider the repo-cycle kept down payments craziness, government
+            receipt scopes love it.
+          </h2>
           "Border don’t work unless sleep in homeless shelters smoke peyote all
           day long, well where does the lender actual work shortage do all day
           for $200m/yr foreign aid/useless price inflation. Latinos aren't
