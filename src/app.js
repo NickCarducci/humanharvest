@@ -179,7 +179,14 @@ export default class App extends React.Component {
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
-          "well these are self inflicted woulds, it is bigger now than carter,
+          impossible/unforeseeable always, never in doubt nor exhibitable to
+          more than 1/12 reasonable.
+          <br />
+          "I don't understand how he is able to keep his job." I invented
+          1-level-board max-royalty-contracts by NOT working. You work for
+          $12k/64 per year new debt/cash and
+          <br />
+          "Well, these are self-inflicted wounds. It is bigger now than Carter,
           matching Trumps' spending." legislation victories are the reason for
           inflation and stagflation.
           <br />
