@@ -187,8 +187,7 @@ export default class App extends React.Component {
           "Most people will get it," You are suffering from basis rate fallacy,
           as it is a non-exclusive byproduct, not cause. Vaxxers literally make
           up the fact that, “virion injects DNA into cell because prevalence.”
-          <br />
-          <br />
+          <h2>Use prevalence to investigate not convict</h2>
           “If you were unconstrained by resources, have whatever you want, go,”
           conservatives acting like more money gets you more resources.
           <br />
