@@ -201,10 +201,11 @@ export default class App extends React.Component {
           <br />
           I am denying science, real people didn't die, those people died on
           time, douche.
-          <br /> 
-          It only comes out, at a certain point, we aren't all going to
-          get it, just because you get the variant of concern to your
-          non-exclusive debris of an asymptomatic test.<br/>
+          <br />
+          It only comes out, at a certain point, we aren't all going to get it,
+          just because you get the variant of concern to your non-exclusive
+          debris of an asymptomatic test.
+          <br />
           <Cable
             style={{ height: "700px" }}
             onError={handleScollImgError}
@@ -254,10 +255,49 @@ export default class App extends React.Component {
           shortage by expiring covered care non-rollover third party doneee
           beneficiary claimable surrendered freedom (EULA).
           <br />
-          force majeure implausibly-deniable of the forfeited of someone elses'
-          money rather than making all investment 1-level-board
-          max-royalty-profit. NO MORE NATIONALIZED BROADBAND/BRIDGE FEES FOR 40%
-          njta DEBT SERVICE
+          <hr />
+          Why do countries that have debt prefer to service debt instead of
+          repayment? “Fertilizer with samples in every mouthful.” "Claiming
+          credit for the morning." "Apprentice jealous." "Play as Iblis." the
+          executioner is the apprentice is so lush
+          <br />
+          It is a collateralized asset by inwards of dollar-parks, that is, 20%
+          of U.S. lands is federal depository with share split fractional
+          reserve and accrual with its vault share. What they make in the
+          promise to cash out a modicum tranche makes up for the implausible
+          deniability of a force majeure or third party donee beneficiary
+          claimable surrendered freedom (EULA) of
+          Savers/labor-equity/non-laborles-demand, $12/year/p debt, $3k/year/p
+          bond, $64/year/p checking (U.S.)
+          <br />
+          Uncollateralized, appeal, payee and reason
+          <br />
+          Why is the Fed doing a reverse repo?
+          <br />
+          To keep servicing the whole cumulative tranche of bond-index-funds, so
+          that *makes their burden increasingly long term* as $12k/year/person
+          debt, $3k/year/person m2 bond, $64/year/person is **implausibly
+          deniable as impossible. This will soon change with Truncated
+          Production Tax** for Free Rider Immutable Sewage Police Lawsuits,
+          (cash/debt)*income every year back, 1-Level-Board Max-Royalty-Profits
+          for private debt “investment.
+          <br />
+          consensus science with jury truth of multiple of 11/12
+          industry-variable for permits or desistation and resisting officer
+          evidence or no state victimized expiring claim non rollover fiscal
+          loss (elasticity) or bond-profit loss (operational).
+          <br />
+          Poverty, gini nor inflation measures bond, equity, home minus rent nor
+          intermediate-labor.
+          <br />
+          Risk nor perfect, but do not discount modicum of efforts built up to
+          make the impossible, possible.
+          <br />
+          <hr />
+          force majeure, NJ Consumer Fraud Act fraud, ppp trump-building,
+          implausibly-deniable of the forfeited of someone elses' money rather
+          than making all investment 1-level-board max-royalty-profit. NO MORE
+          NATIONALIZED BROADBAND/BRIDGE FEES FOR 40% njta DEBT SERVICE
           <h2>
             mental disability without biomedical diagnosis is subjective ("messy
             hair," understanding that market makers see portfiolio 1 year into
