@@ -237,6 +237,8 @@ export default class App extends React.Component {
           <span role="img" aria-label="side-splitting laughter">
             🤣
           </span>
+          . Banned for saying you need to shuffle mail-in to extrapolate;
+          retarded. Against voluntary trade and Tranquil society.
           <br />
           "Well, these are self-inflicted wounds. It is bigger now than Carter,
           matching Trumps' spending." legislation victories are the reason for
