@@ -194,6 +194,11 @@ export default class App extends React.Component {
           <a href="https://moldmask.co">heat/(density)</a>.
           <br />
           <br />
+          "Made the free rider mutable or expiring claim doctors laundered from
+          your co-signers' customers a deal they couldn’t refuse.” That is a
+          racket O’Reilly. Moot, bargiain oath plea state vic my nugg
+          <br />
+          <br />
           "Why are you taking my money to pay for your tuition, that is theft,
           that is socialism," that is credit as income compound, if no one
           covets, nor steals, hard to overlook all the murder 100 years after
