@@ -177,7 +177,24 @@ export default class App extends React.Component {
           nationalism isn't socialism. Americans really need poverty alleviation
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
-          <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
+          <a href="https://qr.ae/pGzOUl">intermediate-labor</a>. "Get the
+          businesses going $100b approved, these approved for employs more than
+          other business. we need to get the people going again." Gov Dave
+          Patterson, free rider mutable racketeer and share-split over my dead
+          body. Stop nationalizing, gentrifying, rent-seeking, for bond
+          laundering. $12k/64 debt/cash (new) is implausibly deniable as force
+          majeure or third party donee beneficiary surrendered freedom (EULA)
+          1-level-board max-royalty-profit and truncated production tax before
+          reverse amortization (cash/debt)*income every year back. USPTO/China
+          $1t/7/28/88/170 has the testing (china
+          tsy/foreign-cahoot/private/equities-inflation). Steal it is faster,
+          mmore money just bids the same material, trust-built and debt service
+          with profits of ppp trust building and rent-seeking, now conservatives
+          want to bail out business and nationalized broadband/bridge fees and
+          expire claim nanny/elder-"care," that is not care if they do not
+          rollover, the producer-ask is ALWAYS first. It is not coverage it is a
+          net loss laundered loitered customers and employers of insurance false
+          bid pool signers' third party donee beneficiaries.
           <h1>
             you cannot own technology, General, and you can't tax for free rider
             mutable tax{/*tai mccoy*/} monopsony for Amazon over competition,
