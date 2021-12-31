@@ -705,6 +705,10 @@ export default class App extends React.Component {
           <a href="https://www2.census.gov/library/publications/decennial/1930/population-volume-2/16440598v2ch11.pdf#page=14">
             1930 p
           </a>
+          &nbsp;&bull;&nbsp;
+          <a href="https://www2.census.gov/library/publications/decennial/1940/population-volume-4/33973538v4p1ch1.pdf#page=3">
+            1940 p
+          </a>
           <Spanish
             lastWidth={Math.min(600, this.state.lastWidth)}
             style={{
