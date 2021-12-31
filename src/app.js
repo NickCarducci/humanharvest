@@ -182,9 +182,13 @@ export default class App extends React.Component {
           <br />
           You aren't as sick measured by non-exclusive byproduct is what science
           tells you.
-          
-          <h1>
-          Joe Tobacco, "We saved small business with PPP."</h1>
+          <h1>Joe Tobacco, "We saved small business with PPP."</h1>
+          "we don't do accommodation-arrests." you literally
+          involintarily-commit drug-users and -dealers for a pharmacy monopoly,
+          gentrification and&nbsp;
+          <a href="https://teapharmacy.party">no-script</a>
+          &nbsp;vault-share&nbsp;
+          <a href="https://vaults.biz">currency competitor</a>.<br />
           “Lottery is to entice new members to the community.” we are a little
           early in the investment, ethics, no, LAW, expiring claims launders
           from third parties. Don't write up your producer-ask with their
