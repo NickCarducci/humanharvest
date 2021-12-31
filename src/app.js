@@ -179,6 +179,21 @@ export default class App extends React.Component {
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
+          “Lottery is to entice new members to the community.” we are a little
+          early in the investment, ethics, no, LAW, expiring claims launders
+          from third parties. Don't write up your producer-ask with their
+          bid-price loss, of&nbsp;
+          <span style={{ textDecoration: "underline" }}>third party donee beneficiary surrendered freedom
+          (EULA) of your customers</span>, the supply chain, no matter community built
+          by duress and prisoners' dilemma cannot surmount the flaccid profit
+          loss of brought forward demand without rollover collective-bargain,
+          pure useless inflation price inelasticity&nbsp;
+          <span style={{ textDecoration: "underline" }}>
+            competition with consumers
+          </span>
+          , to boot.
+          <br />
+          <br />
           impossible/unforeseeable always, never in doubt nor exhibitable to
           more than 1/12 reasonable. Mortgage-actual-work-deficit-bride:
           "decriminalization of marijuana, turnstile, stop and frisk, homicide
@@ -797,8 +812,7 @@ export default class App extends React.Component {
             lastWidth={Math.min(600, this.state.lastWidth)}
             style={{
               transform: "translate(0,0)",
-              backgroundColor: "rgb(190,150,180)",
-              height: "220px"
+              backgroundColor: "rgb(190,150,180)"
             }}
           />
           <Cable
