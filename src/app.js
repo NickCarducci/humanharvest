@@ -188,8 +188,7 @@ export default class App extends React.Component {
           the workers hired." fucking blind hours, they are more productive
           inventing their own. I know old man you just want to profit on market
           communist corporate flaccid profit.
-          <br />
-          <br />
+          <h1>invent by not working and measure proctivity by general retirment</h1>
           "A mentally challenged person cannot say 'F Trump,'" your IQ tests are
           for the wrong patterns," and they called the mentally challenged
           person an afro-jigger-tool. They just switch the end of the story to
