@@ -204,11 +204,11 @@ export default class App extends React.Component {
           setting is not a function of demand, but a function of how much it
           will cost to make.” Oh we are just picking and choosing whole
           functions now? "They do say the vaccine lessens the impact and virion
-          injects its DNA into the cell."
+          injects its DNA into the cell." 
           <h2>
             self-regulation is a microeconomic Supply and Demand assumption that
             your business rights over new entrants and consumers co-opted, like
-          </h2>
+          </h2>"It costs a lot of money, and he needs your help."
           <h3>
             Mises and Marx's analysis of the useless repo-cycle when truncated
             sales tax and 1-level-board max-royalty-contracts are available,
@@ -267,7 +267,7 @@ export default class App extends React.Component {
           “If you were unconstrained by resources, have whatever you want, go,”
           conservatives acting like more money gets you more resources. Beyond
           Article 4 already on the books but Amendment 14 Section 4 for war
-          bonds, default "no" for abstaining elections.
+          bonds, default "no" for abstaining elections. 
           <h3>
             ppp/bbb/ccc trust built price fixing to prohibit repo-forclosure
             correction kept down payments as to service the impossible
