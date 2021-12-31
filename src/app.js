@@ -444,6 +444,27 @@ export default class App extends React.Component {
           out on your own." *click*
           <br />
           <br />
+          <Cable
+            style={{ width: "300px", height: "330px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1xTKUtdDVKeZ289odPDcNpwrzatAI-D4y/preview"
+            }
+            float="right"
+            title="platform"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          "If you are looking for tax function sanity, you are wasting your
+          time. Most people don’t and most-modicum pay 40%." Those poor bastard
+          billionaires who actually pay. They should have paid the agents off
+          <br />
+          <br />
           Your "individual decision protected in the constitution," by Tranquil
           and voluntary trade ends when virion comes from somewhere. Either it
           works or it doesn't, because it is a non-exclusive byproduct warning
