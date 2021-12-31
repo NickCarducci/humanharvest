@@ -201,7 +201,16 @@ export default class App extends React.Component {
           I just boycott the business duress that is involuntary trade and not
           Tranquil, beyond article 4 free rider immutable or jury permit to
           desist and duress for mvp as is conviction."
-          <br />
+          <h2>
+            self-regulation is a microeconomic Supply and Demand assumption that
+            your business rights over new entrants and consumers co-opted, like
+          </h2>
+          <h3>
+            Mises and Marx's analysis of the useless repo-cycle when truncated
+            sales tax and 1-level-board max-royalty-contracts are available,
+            include homes, equities, bonds and intermediate-labor in gini and
+            poverty you fucking oinker.
+          </h3>
           impossible/unforeseeable always, never in doubt nor exhibitable to
           more than 1/12 reasonable. Mortgage-actual-work-deficit-bride:
           "decriminalization of marijuana, turnstile, stop and frisk, homicide
