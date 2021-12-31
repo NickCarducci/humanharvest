@@ -180,6 +180,12 @@ export default class App extends React.Component {
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
           <br />
+          "Some people need welfare." No one needs welfare, it just bids up free
+          rider mutable tax, surrendered freedom by finance/rent-seeking:
+          invoices, expiring claims, implausible landlord use and repo-cycle
+          kept down payments. Fucking gentrifying fox, for share-split of
+          dollar-park. SUCK MY COCK. intermediate-material.
+          <br />
           You aren't as sick measured by non-exclusive byproduct is what science
           tells you.
           <h1>Joe Tobacco, "We saved small business with PPP."</h1>
@@ -848,13 +854,14 @@ export default class App extends React.Component {
           <a href="https://www2.census.gov/library/publications/decennial/1940/population-volume-4/33973538v4p1ch1.pdf#page=3">
             1940 p
           </a>
+          <br />
           <Spanish
             lastWidth={Math.min(600, this.state.lastWidth)}
             style={{
-              transform: "translate(0,0)",
               backgroundColor: "rgb(190,150,180)"
             }}
           />
+          <br />
           <Cable
             style={{ height: "200px", width: "100%" }}
             onError={handleScollImgError}
@@ -1020,7 +1027,6 @@ export default class App extends React.Component {
           <Mortal
             lastWidth={Math.min(600, this.state.lastWidth)}
             style={{
-              transform: "translate(0,0)",
               backgroundColor: "rgb(190,150,180)"
             }}
           />
