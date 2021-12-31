@@ -183,7 +183,11 @@ export default class App extends React.Component {
           Turn down gentrifiction amazon, "I'll buy your lemonade stand for
           you," how would business owners triple in value from neighborhoods,
           that is what Carol and Domenic cares about? Stop putting businesss
-          ahead of labor, douche.
+          ahead of labor, douche. 14k jobs now is just cheaper cost of living my
+          giving consumers less. YOU AREN'T CONSERVATIVE. "open the plants get
+          the workers hired." fucking blind hours, they are more productive
+          inventing their own. I know old man you just want to profit on market
+          communist corporate flaccid profit.
           <br />
           <br />
           "A mentally challenged person cannot say 'F Trump,'" your IQ tests are
@@ -879,6 +883,7 @@ export default class App extends React.Component {
           <Spanish
             lastWidth={Math.min(600, this.state.lastWidth)}
             style={{
+              height: "220px",
               backgroundColor: "rgb(190,150,180)"
             }}
           />
