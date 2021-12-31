@@ -2974,7 +2974,7 @@ class Mortal extends React.Component {
               {this.state.lowDeaths}
             </div>*/}
           </div>
-          <div>
+          <div style={{ transform: "translate(0px,200px)" }}>
             <svg
               className="all"
               style={linecss}
