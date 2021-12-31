@@ -188,6 +188,10 @@ export default class App extends React.Component {
           is produced when bacteria-reinfects us. Virion does not come inject
           DNA into the cell like the mRNA-sporing-graft does.
           <br />
+          "aids only hurts gays and drug users," o'donnell, maybe just null
+          hypothesis prevalence, did you shuffle? isn't it afro too? Rabies
+          still is bacterial-spittle&nbsp;
+          <a href="https://moldmask.co">heat/(density)</a>.<br />
           Want it done right do it themselves
           <br />
           Inflation nor real stock value increase, measured by productivity of
