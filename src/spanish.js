@@ -1894,7 +1894,7 @@ class Spanish extends React.Component {
             /*const thisdecade = popdata.find(
           (x) => x.year - year < 5 && x.year - year > -5
         );*/
-            const val = (d, p = 1000) => Math.round((d / 100000) * p * 1000);
+            const val = (d, p = 0 /*1000*/) => Math.round((d / 100000) * p); // *1000);
             Object.values(usmortality)[i].forEach((x) => {
               if (frequency(chosenfrequency, 0).includes(x.age)) {
                 mZeroNJDataAge.push([year, chosenRate ? x.pop : x.pop]);
