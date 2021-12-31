@@ -2170,6 +2170,7 @@ class Spanish extends React.Component {
     ]);
     const ite = { border: "1px grey dashed", width: "max-content" };
     const labelstyle = {
+      zIndex: "9999",
       backgroundColor: "rgba(50,120,200,.6)",
       top: "0px",
       height: "min-content",
@@ -2178,8 +2179,17 @@ class Spanish extends React.Component {
       left: "2px",
       flexWrap: "wrap"
     };
+    const buttonStyle = {
+      userSelect: "none",
+      border: "1px solid black",
+      color: "black",
+      backgroundColor: "rgb(220,220,220)",
+      borderRadius: "4px",
+      padding: "5px",
+      margin: "2px"
+    };
     return (
-      <div style={this.props.style}>
+      <div style={{ height: "200px", ...this.props.style }}>
         {/*<div
           style={{
             position: "relative",
@@ -2224,38 +2234,42 @@ class Spanish extends React.Component {
             );
           })}
         </div>*/}
-        <button
-          style={{ position: "absolute", right: "0px", zIndex: "9999" }}
-          onClick={(e) => {
-            e.stopPropagation();
-            this.setState({
-              yaxis: !this.state.yaxis
-            });
-          }}
-        >
-          {!this.state.yaxis ? "pop" : "deaths"}
-        </button>
-        <div
-          style={{ width: "100%", height: "200px", zIndex: "9999" }}
-          onClick={() =>
-            this.setState(
-              this.state.chosenRate && this.state.chosenfrequency
-                ? { chosenRate: false, chosenfrequency: false }
-                : !this.state.chosenfrequency
-                ? { chosenfrequency: true }
-                : { chosenRate: true }
-            )
-          }
-        >
+        <div style={{ width: "100%" }}>
           <div style={labelstyle}>
-            {chosenRate
-              ? "population per 5yr cohort"
-              : `highest accu yearly mortality ${
-                  this.state.chosenfrequency ? "high" : "cohort"
-                }`}{" "}
-            -&nbsp;
-            <br />
-            {shortNumber(Math.round(this.state.highDeaths / 5))}
+            <div
+              onClick={() =>
+                this.setState(
+                  this.state.chosenRate && this.state.chosenfrequency
+                    ? { chosenRate: false, chosenfrequency: false }
+                    : !this.state.chosenfrequency
+                    ? { chosenfrequency: true }
+                    : { chosenRate: true }
+                )
+              }
+            >
+              {chosenRate
+                ? "population per 5yr "
+                : `highest accu yearly mortality `}
+            </div>
+            <button
+              style={buttonStyle}
+              onClick={() => {
+                this.setState({
+                  yaxis: !this.state.yaxis
+                });
+              }}
+            >
+              {!this.state.yaxis
+                ? "pop"
+                : this.state.chosenfrequency && !chosenRate
+                ? "high"
+                : "cohort"}
+            </button>
+            <div>
+              -&nbsp;
+              <br />
+              {shortNumber(Math.round(this.state.highDeaths / 5))}
+            </div>
             <div
               style={{
                 top: "0px",
@@ -2617,12 +2631,18 @@ class Spanish extends React.Component {
         <div
           style={{
             display: "flex",
-            width: "90%",
-            justifyContent: "space-between"
+            width: "90%"
           }}
         >
           {this.state.date.map((x) => (
-            <div key={x} style={{ width: "max-content", wordBreak: "none" }}>
+            <div
+              key={x}
+              style={{
+                width: "max-content",
+                wordBreak: "none",
+                margin: "0px 10px"
+              }}
+            >
               {x}
             </div>
           ))}
