@@ -188,11 +188,28 @@ export default class App extends React.Component {
           as it is a non-exclusive byproduct, not cause. Vaxxers literally make
           up the fact that, “virion injects DNA into cell because prevalence.”
           <h2>Use prevalence to investigate, not convict.</h2>
+          Don't green the economy, the tech is not there, so it wouldn't do
+          anything. No free money, taxes will be raised in another way."
+          <br />
+          <br />
           “If you were unconstrained by resources, have whatever you want, go,”
-          conservatives acting like more money gets you more resources.
+          conservatives acting like more money gets you more resources. Beyond
+          Article 4 already on the books but Amendment 14 Section 4 for war
+          bonds, default "no" for abstaining elections.
+          <h3>
+            ppp/bbb/ccc trust built price fixing to prohibit repo-forclosure
+            correction kept down payments as to service the impossible
+            collateral appraisal third party donee beneficiary surrendered
+            freedom. (cash/debt)*income every year back or else, bitch Shannon Bream
+          </h3>
           <h2>
-          A third of the country voted for trump.
+            A third of the country voted for trump. Caucuses with Democrats or
+            Republicans means the media only helps trust build.
           </h2>
+          There is not an anti-rent-seeker candidate, 2/3 are for Occupy Wall
+          St.
+          <br />
+          <br />
           "Would the world be a better place today if Adolf Hitler's ideas were
           successful?"
           <br />
