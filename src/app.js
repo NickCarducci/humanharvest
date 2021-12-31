@@ -190,8 +190,9 @@ export default class App extends React.Component {
           <h2>Use prevalence to investigate not convict</h2>
           “If you were unconstrained by resources, have whatever you want, go,”
           conservatives acting like more money gets you more resources.
-          <br />
-          <br />
+          <h2>
+          A third of the country voted for trump.
+          </h2>
           "Would the world be a better place today if Adolf Hitler's ideas were
           successful?"
           <br />
@@ -7060,3 +7061,4 @@ export default class App extends React.Component {
     );
   }
 }
+
