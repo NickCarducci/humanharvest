@@ -2202,19 +2202,19 @@ const frequency = (chosenfrequency, a, range) => {
   } else if (chosenfrequency || range) {
     //high
     if (a === 0) {
-      frequency = ["80-84"];
+      frequency = ["75-79"];
     } else if (a === 1) {
-      frequency = ["85-89"];
+      frequency = ["80-84"];
     } else if (a === 2) {
-      frequency = ["90-94"];
+      frequency = ["85-89"];
     } else if (a === 3) {
-      frequency = ["95-99"];
+      frequency = ["90-94"];
     } else if (a === 4) {
-      frequency = ["100-104"];
+      frequency = ["95-99"];
     } else if (a === 5) {
-      frequency = ["105-109"];
+      frequency = ["100-104"];
     } else if (a === 6) {
-      frequency = ["110"];
+      frequency = ["105-109"];
     }
   } else {
     //cohort
@@ -2982,12 +2982,6 @@ class Mortal extends React.Component {
                   />
                 )
             )}
-          </svg>
-          <svg
-            className="all"
-            style={linecss}
-            xmlns="http://www.w3.org/2000/svg"
-          >
             {mortalZeroNJData.map(
               ([x, y], i) =>
                 !isNaN(x) &&
@@ -3010,12 +3004,6 @@ class Mortal extends React.Component {
               stroke="purple"
               data={mortalZeroNJData}
             />*/}
-          </svg>
-          <svg
-            className="all"
-            style={linecss}
-            xmlns="http://www.w3.org/2000/svg"
-          >
             {mortalZeroNJDataAge.map(
               ([x, y], i) =>
                 !isNaN(x) &&
@@ -3032,12 +3020,6 @@ class Mortal extends React.Component {
                   />
                 )
             )}
-          </svg>
-          <svg
-            className="all"
-            style={linecss}
-            xmlns="http://www.w3.org/2000/svg"
-          >
             {mortalFiftyNJDataAge.map(
               ([x, y], i) =>
                 !isNaN(x) &&
@@ -3054,12 +3036,6 @@ class Mortal extends React.Component {
                   />
                 )
             )}
-          </svg>
-          <svg
-            className="all"
-            style={linecss}
-            xmlns="http://www.w3.org/2000/svg"
-          >
             {mortalSixtyFiveNJDataAge.map(
               ([x, y], i) =>
                 !isNaN(x) &&
@@ -3076,12 +3052,6 @@ class Mortal extends React.Component {
                   />
                 )
             )}
-          </svg>
-          <svg
-            className="all"
-            style={linecss}
-            xmlns="http://www.w3.org/2000/svg"
-          >
             {mortalSeventyFiveNJDataAge.map(
               ([x, y], i) =>
                 !isNaN(x) &&
@@ -3098,12 +3068,6 @@ class Mortal extends React.Component {
                   />
                 )
             )}
-          </svg>
-          <svg
-            className="all"
-            style={linecss}
-            xmlns="http://www.w3.org/2000/svg"
-          >
             {mortalEightyFiveNJDataAge.map(
               ([x, y], i) =>
                 !isNaN(x) &&
@@ -3120,13 +3084,6 @@ class Mortal extends React.Component {
                   />
                 )
             )}
-          </svg>
-          {/** */}
-          <svg
-            className="all"
-            style={linecss}
-            xmlns="http://www.w3.org/2000/svg"
-          >
             {mortalFiftyNJData.map(
               ([x, y], i) =>
                 !isNaN(x) &&
@@ -3143,12 +3100,6 @@ class Mortal extends React.Component {
                   />
                 )
             )}
-          </svg>
-          <svg
-            className="all"
-            style={linecss}
-            xmlns="http://www.w3.org/2000/svg"
-          >
             {mortalSixtyFiveNJData.map(
               ([x, y], i) =>
                 !isNaN(x) &&
@@ -3165,12 +3116,6 @@ class Mortal extends React.Component {
                   />
                 )
             )}
-          </svg>
-          <svg
-            className="all"
-            style={linecss}
-            xmlns="http://www.w3.org/2000/svg"
-          >
             {mortalSeventyFiveNJData.map(
               ([x, y], i) =>
                 !isNaN(x) &&
@@ -3187,12 +3132,6 @@ class Mortal extends React.Component {
                   />
                 )
             )}
-          </svg>
-          <svg
-            className="all"
-            style={linecss}
-            xmlns="http://www.w3.org/2000/svg"
-          >
             {mortalEightyFiveNJData.map(
               ([x, y], i) =>
                 !isNaN(x) &&
@@ -3209,12 +3148,6 @@ class Mortal extends React.Component {
                   />
                 )
             )}
-          </svg>
-          <svg
-            className="all"
-            style={linecss}
-            xmlns="http://www.w3.org/2000/svg"
-          >
             {mortalNinetyFiveNJData.map(
               ([x, y], i) =>
                 !isNaN(x) &&
@@ -3231,12 +3164,6 @@ class Mortal extends React.Component {
                   />
                 )
             )}
-          </svg>
-          <svg
-            className="all"
-            style={linecss}
-            xmlns="http://www.w3.org/2000/svg"
-          >
             {mortalOneTenNJData.map(
               ([x, y], i) =>
                 !isNaN(x) &&
@@ -3253,12 +3180,6 @@ class Mortal extends React.Component {
                   />
                 )
             )}
-          </svg>
-          <svg
-            className="all"
-            style={linecss}
-            xmlns="http://www.w3.org/2000/svg"
-          >
             {averageLifetimeData.map(
               ([x, y], i) =>
                 !isNaN(x) &&
