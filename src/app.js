@@ -177,11 +177,12 @@ export default class App extends React.Component {
           nationalism isn't socialism. Americans really need poverty alleviation
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
-          <a href="https://qr.ae/pGzOUl">intermediate-labor</a>. "Get the
-          businesses going $100b approved, these approved for employs more than
-          other business. we need to get the people going again." Gov Dave
-          Patterson, free rider mutable racketeer and share-split over my dead
-          body. Stop nationalizing, gentrifying, rent-seeking, for bond
+          <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
+          <h2>behavior is not an illness, it is a CRIME</h2>
+          "Get the businesses going $100b approved, these approved for employs
+          more than other business. we need to get the people going again." Gov
+          Dave Patterson, free rider mutable racketeer and share-split over my
+          dead body. Stop nationalizing, gentrifying, rent-seeking, for bond
           laundering. $12k/64 debt/cash (new) is implausibly deniable as force
           majeure or third party donee beneficiary surrendered freedom (EULA)
           1-level-board max-royalty-profit and truncated production tax before
@@ -197,8 +198,9 @@ export default class App extends React.Component {
           bid pool signers' third party donee beneficiaries.
           <br />
           <br />
-          "I can't PROVE virion injects its DNA into the cell, but it is non-exclusively-prevalent enough to only come out from bacterial-infection," Dr. Mark
-          Seigel.
+          "I can't PROVE virion injects its DNA into the cell, but it is
+          non-exclusively-prevalent enough to only come out from
+          bacterial-infection," Dr. Mark Seigel.
           <h1>
             you cannot own technology, General, and you can't tax for free rider
             mutable tax{/*tai mccoy*/} monopsony for Amazon over competition,
