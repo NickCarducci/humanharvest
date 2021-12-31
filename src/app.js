@@ -188,7 +188,9 @@ export default class App extends React.Component {
           the workers hired." fucking blind hours, they are more productive
           inventing their own. I know old man you just want to profit on market
           communist corporate flaccid profit.
-          <h1>invent by not working and measure proctivity by general retirment</h1>
+          <h1>
+            invent by not working and measure proctivity by general retirment
+          </h1>
           "A mentally challenged person cannot say 'F Trump,'" your IQ tests are
           for the wrong patterns," and they called the mentally challenged
           person an afro-jigger-tool. They just switch the end of the story to
@@ -201,7 +203,9 @@ export default class App extends React.Component {
           busy-work, you probably would like to watch eachothers' kids to boost
           your fucking counterfeit. Who needs a job except to pay rent-seeking
           deadlines. wait for customers Rob. you don't need to r&d monopsony for
-          your bond-index-funds you fucking cuck.
+          your bond-index-funds you fucking cuck. Fuck off Trump vaxx pharma
+          trust, why does government need to be involved at all in medicine?
+          Just put the ingredient list on it, pharma-pig
           <br />
           <br />
           "Some people need welfare." No one needs welfare, it just bids up free
@@ -887,7 +891,7 @@ export default class App extends React.Component {
           <Spanish
             lastWidth={Math.min(600, this.state.lastWidth)}
             style={{
-              height: "240px",
+              paddingBottom: "15px",
               backgroundColor: "rgb(190,150,180)"
             }}
           />
@@ -1057,6 +1061,7 @@ export default class App extends React.Component {
           <Mortal
             lastWidth={Math.min(600, this.state.lastWidth)}
             style={{
+              paddingBottom: "15px",
               backgroundColor: "rgb(190,150,180)"
             }}
           />
