@@ -181,8 +181,25 @@ export default class App extends React.Component {
           <h2>behavior is not an illness, it is a CRIME</h2>
           <h1>
             coordinating with government is a crime, just have open source
-            ingredient lists, r&d is free rider mutable
+            ingredient lists, r&d is free rider mutable.
           </h1>
+          <h2>
+            stop acting like illegal immigrants aren't the partial-solution and
+            productivity isn't hours under price-deflation of equities as market
+            concentration/competition (not equality unless actual work shortage
+            tort within true-capacity of individuals that which they have the
+            right to surrender, not in expiring nor estimated claim) to the
+            labor shortage, behind banning ACTUAL LABOR SHORTAGE RENT-SEEKING:
+            INVOICES, EXPIRING CLAIMS, IMPLAUSIBLE LANDLORD USE, REPO-CYCLE KEPT
+            DOWN PAYMENTS. (cash/debt)*income every year back third party doneee
+            beneficiary claimable surrendered freedom of savers,
+          </h2>
+          <h3>
+            it is not a money market when alternative is minimal viable product
+            voluntary trade waiting for consumers to outlay duress by what you
+            can muster yourself without implausibly-deniable impossibility or
+            surrendered freedom of savers.
+          </h3>
           "Get the businesses going $100b approved, these approved for employs
           more than other business. we need to get the people going again." Gov
           Dave Patterson, free rider mutable racketeer and share-split over my
