@@ -179,6 +179,10 @@ export default class App extends React.Component {
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <h2>behavior is not an illness, it is a CRIME</h2>
+          <h1>
+            coordinating with government is a crime, just have open source
+            ingredient lists, r&d is free rider mutable
+          </h1>
           "Get the businesses going $100b approved, these approved for employs
           more than other business. we need to get the people going again." Gov
           Dave Patterson, free rider mutable racketeer and share-split over my
