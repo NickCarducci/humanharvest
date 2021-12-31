@@ -887,7 +887,7 @@ export default class App extends React.Component {
           <Spanish
             lastWidth={Math.min(600, this.state.lastWidth)}
             style={{
-              height: "220px",
+              height: "240px",
               backgroundColor: "rgb(190,150,180)"
             }}
           />
