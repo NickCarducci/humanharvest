@@ -179,6 +179,32 @@ export default class App extends React.Component {
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
+          "well these are self inflicted woulds, it is bigger now than carter,
+          matching Trumps' spending." legislation victories are the reason for
+          inflation and stagflation.
+          <br />
+          <br />
+          "Would the world be a better place today if Adolf Hitler's ideas were
+          successful?"
+          <br />
+          Much like Trump, Adolf Hitler promised to end debt but just spent 20%
+          more, blaming akin to the Odessa pogroms. His ideas were co-opted and
+          maybe a grande straw man or more likely a fervor co-opted by a
+          tyrannical ruler. I just know my older family moved to America around
+          1850 after Marx was writing his main piece, never to be implemented on
+          his own. We just had an Aryan nut who could have had the gun turned on
+          him at the start is the thrust of the motive, as a tyrannical ruler is
+          ruler by giving others guns whom don’t turn for some reason against
+          them: money, reverse amortization, or jealousy.
+          <br />
+          <br />
+          "Border don’t work unless sleep in homeless shelters smoke peyote all
+          day long, well where does the lender actual work shortage do all day
+          for $200m/yr foreign aid/useless price inflation. Latinos aren't
+          putting up with this, co-opt latinos with open boarders, Americans are
+          learning that the 1/4 share 3m/yr+ going to FL is a big win. Happy New
+          Year."
+          <br />
           population density still permeates but worst amongst spittle, poop and
           other excrement outlay of bacteria. maybe I am not a protistology
           person, and bacteria is after our digestion, that re-infects upon
