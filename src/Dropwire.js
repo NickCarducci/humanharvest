@@ -54,11 +54,13 @@ class Cable extends React.Component {
         this.setState(
           {
             cache: cache ? cache : continuee.outerHTML,
-            cacheStyle: (cache ? cache : continuee.outerHTML)
-              .split(`style="`)[1]
-              .split(`"`)[0]
-              .replaceAll(";", `",`)
-              .replaceAll(": ", `: "`)
+            cacheStyle: JSON.parse(
+              (cache ? cache : continuee.outerHTML)
+                .split(`style="`)[1]
+                .split(`"`)[0]
+                .replaceAll(";", `",`)
+                .replaceAll(": ", `: "`)
+            )
           },
           () => {
             if (!between) {
@@ -71,7 +73,7 @@ class Cable extends React.Component {
                   !children.find((x) => x === this.state.cache))
               ) {
                 console.log("replenishing, new scroll");
-                page.innerHTML = this.state.cache;
+                return (page.innerHTML = this.state.cache);
               }
             }
           }
