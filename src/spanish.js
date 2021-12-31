@@ -2170,7 +2170,6 @@ class Spanish extends React.Component {
     ]);
     const ite = { border: "1px grey dashed", width: "max-content" };
     const labelstyle = {
-      zIndex: "9999",
       backgroundColor: "rgba(50,120,200,.6)",
       top: "0px",
       height: "min-content",
@@ -2234,7 +2233,7 @@ class Spanish extends React.Component {
             );
           })}
         </div>*/}
-        <div style={{ width: "100%" }}>
+        <div style={{ width: "100%", height: "200px" }}>
           <div style={labelstyle}>
             <div
               onClick={() =>
