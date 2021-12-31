@@ -206,8 +206,9 @@ export default class App extends React.Component {
           your bond-index-funds you fucking cuck. Fuck off Trump vaxx pharma
           trust, why does government need to be involved at all in medicine?
           Just put the ingredient list on it, pharma-pig, 80% of incarcerated
-          are just competitors. "finally, some epstein remediation, insured
-          expiring claims non-rollover flaccid un-bargain loss."
+          are just competitors. "Finally, some epstein remediation, insured
+          expiring claims non-rollover flaccid un-bargain loss. Turn state
+          witness to character evidence, plea deals are moot for duress."
           <br />
           <br />
           "Some people need welfare." No one needs welfare, it just bids up free
