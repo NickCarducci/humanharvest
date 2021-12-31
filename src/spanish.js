@@ -2624,21 +2624,26 @@ class Spanish extends React.Component {
         <div
           style={{
             display: "flex",
-            width: "90%"
+            width: "100%",
+            justifyContent: "space-between"
           }}
         >
-          {this.state.date.map((x) => (
-            <div
-              key={x}
-              style={{
-                width: "max-content",
-                wordBreak: "none",
-                margin: "0px 10px"
-              }}
-            >
-              {x}
-            </div>
-          ))}
+          {this.state.date.map(
+            (x) =>
+              x !== "1911" && (
+                <div
+                  key={x}
+                  style={{
+                    transform: "rotate(20deg)",
+                    width: "max-content",
+                    wordBreak: "none",
+                    margin: "0px 10px"
+                  }}
+                >
+                  {x}
+                </div>
+              )
+          )}
         </div>
       </div>
     );
