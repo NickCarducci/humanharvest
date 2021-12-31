@@ -1598,6 +1598,16 @@ class Spanish extends React.Component {
     var averageLifetime = [];
     let mortalZeroNJData = [];
     var mortalZeroNJ = [];
+    let mortalEightyFiveNJDataAge = [];
+    let mortalEightyFiveNJAge = [];
+    let mortalSixtyFiveNJDataAge = [];
+    let mortalSixtyFiveNJAge = [];
+    let mortalSeventyFiveNJDataAge = [];
+    let mortalSeventyFiveNJAge = [];
+    let mortalFiftyNJDataAge = [];
+    let mortalFiftyNJAge = [];
+    let mortalZeroNJDataAge = [];
+    let mortalZeroNJAge = [];
     let mortalFiftyNJData = [];
     let mortalFiftyNJ = [];
     let mortalSeventyFiveNJData = [];
@@ -1611,6 +1621,11 @@ class Spanish extends React.Component {
     let mortalOneTenNJData = [];
     let mortalOneTenNJ = [];
     let mZeroNJData = [];
+    let mEightyFiveNJDataAge = [];
+    let mSixtyFiveNJDataAge = [];
+    let mSeventyFiveNJDataAge = [];
+    let mFiftyNJDataAge = [];
+    let mZeroNJDataAge = [];
     let mFiftyNJData = [];
     let mSixtyFiveNJData = [];
     let mSeventyFiveNJData = [];
@@ -1729,6 +1744,36 @@ class Spanish extends React.Component {
       });
       mortalZeroNJ.push(totmZ);
       mortalZeroNJData.push([x, totmZ]);
+      let totmEFA = 0;
+      mEightyFiveNJDataAge.forEach((obj) => {
+        if (obj[0] === x) totmEFA = totmEFA + obj[1];
+      });
+      mortalEightyFiveNJAge.push(totmEFA);
+      mortalEightyFiveNJDataAge.push([x, totmEFA]);
+      let totmSeA = 0;
+      mSeventyFiveNJDataAge.forEach((obj) => {
+        if (obj[0] === x) totmSeA = totmSeA + obj[1];
+      });
+      mortalSeventyFiveNJAge.push(totmSeA);
+      mortalSeventyFiveNJDataAge.push([x, totmSeA]);
+      let totmSA = 0;
+      mSixtyFiveNJDataAge.forEach((obj) => {
+        if (obj[0] === x) totmSA = totmSA + obj[1];
+      });
+      mortalSixtyFiveNJAge.push(totmSA);
+      mortalSixtyFiveNJDataAge.push([x, totmSA]);
+      let totmFA = 0;
+      mFiftyNJDataAge.forEach((obj) => {
+        if (obj[0] === x) totmFA = totmFA + obj[1];
+      });
+      mortalFiftyNJAge.push(totmFA);
+      mortalFiftyNJDataAge.push([x, totmFA]);
+      let totmZA = 0;
+      mZeroNJDataAge.forEach((obj) => {
+        if (obj[0] === x) totmZA = totmZA + obj[1];
+      });
+      mortalZeroNJAge.push(totmZA);
+      mortalZeroNJDataAge.push([x, totmZA]);
     });
 
     var lowDate = Math.min(...date);
@@ -1745,8 +1790,20 @@ class Spanish extends React.Component {
     ];
     var highlifetime = Math.max(...averageLifetime);
     var highDeaths = Math.max(...all);
+    var cappop = Math.max(
+      ...mortalZeroNJAge,
+      ...mortalFiftyNJAge,
+      ...mortalSixtyFiveNJAge,
+      ...mortalSeventyFiveNJAge,
+      ...mortalEightyFiveNJAge
+    );
     noData.sort((a, b) => a[0] - b[0]);
     mortalZeroNJData.sort((a, b) => a[0] - b[0]);
+    mortalZeroNJDataAge.sort((a, b) => a[0] - b[0]);
+    mortalFiftyNJDataAge.sort((a, b) => a[0] - b[0]);
+    mortalSixtyFiveNJDataAge.sort((a, b) => a[0] - b[0]);
+    mortalSeventyFiveNJDataAge.sort((a, b) => a[0] - b[0]);
+    mortalEightyFiveNJDataAge.sort((a, b) => a[0] - b[0]);
     mortalFiftyNJData.sort((a, b) => a[0] - b[0]);
     mortalSixtyFiveNJData.sort((a, b) => a[0] - b[0]);
     mortalSeventyFiveNJData.sort((a, b) => a[0] - b[0]);
@@ -1758,6 +1815,11 @@ class Spanish extends React.Component {
       averageLifetimeData,
       date,
       mortalZeroNJData,
+      mortalZeroNJDataAge,
+      mortalFiftyNJDataAge,
+      mortalSixtyFiveNJDataAge,
+      mortalSeventyFiveNJDataAge,
+      mortalEightyFiveNJDataAge,
       mortalFiftyNJData,
       mortalSixtyFiveNJData,
       mortalSeventyFiveNJData,
@@ -1791,6 +1853,16 @@ class Spanish extends React.Component {
           let noData = [];
           let mortalZeroNJData = [];
           var mortalZeroNJ = [];
+          let mortalZeroNJDataAge = [];
+          let mortalZeroNJAge = [];
+          let mortalFiftyNJDataAge = [];
+          let mortalFiftyNJAge = [];
+          let mortalSixtyFiveNJDataAge = [];
+          let mortalSixtyFiveNJAge = [];
+          let mortalSeventyFiveNJDataAge = [];
+          let mortalSeventyFiveNJAge = [];
+          let mortalEightyFiveNJDataAge = [];
+          let mortalEightyFiveNJAge = [];
           let mortalFiftyNJData = [];
           let mortalFiftyNJ = [];
           let mortalSixtyFiveNJData = [];
@@ -1804,53 +1876,86 @@ class Spanish extends React.Component {
           let mortalOneTenNJData = [];
           let mortalOneTenNJ = [];
           let mZeroNJData = [];
+          let mZeroNJDataAge = [];
+          let mFiftyNJDataAge = [];
+          let mSixtyFiveNJDataAge = [];
+          let mSeventyFiveNJDataAge = [];
+          let mEightyFiveNJDataAge = [];
           let mFiftyNJData = [];
           let mSixtyFiveNJData = [];
           let mSeventyFiveNJData = [];
           let mEightyFiveNJData = [];
           let mNinetyFiveNJData = [];
           let mOneTenNJData = [];
-          const val = (d, p = 0 /*1000*/) => Math.round((d / 100000) * p); // *1000);
-          const calculate = (x) => (x.deaths ? x.deaths : val(x.dx, x.pop));
           Object.keys(usmortality).forEach((yearSet, i) => {
-            const year = yearSet; // Number(yearSet.split("-")[1]);
+            const year = yearSet; //Number(yearSet.split("-")[1]);
             noData.push([year, 0]);
             date.push(year);
             /*const thisdecade = popdata.find(
           (x) => x.year - year < 5 && x.year - year > -5
         );*/
+            const val = (d, p = 1000) => Math.round((d / 100000) * p * 1000);
             Object.values(usmortality)[i].forEach((x) => {
               if (frequency(chosenfrequency, 0).includes(x.age)) {
-                mZeroNJData.push([year, chosenRate ? x.pop / 2 : calculate(x)]);
+                mZeroNJDataAge.push([
+                  year,
+                  chosenRate ? x.pop * 1000 : x.pop * 1000
+                ]);
+              } else if (frequency(chosenfrequency, 1).includes(x.age)) {
+                mFiftyNJDataAge.push([
+                  year,
+                  chosenRate ? (x.pop * 1000) / 10 : x.pop * 1000
+                ]);
+              } else if (frequency(chosenfrequency, 2).includes(x.age)) {
+                mSixtyFiveNJDataAge.push([
+                  year,
+                  chosenRate ? (x.pop * 1000) / 3 : x.pop * 1000
+                ]);
+              } else if (frequency(chosenfrequency, 3).includes(x.age)) {
+                mSeventyFiveNJDataAge.push([
+                  year,
+                  chosenRate ? (x.pop * 1000) / 2 : x.pop * 1000
+                ]);
+              } else if (frequency(chosenfrequency, 4).includes(x.age)) {
+                mEightyFiveNJDataAge.push([
+                  year,
+                  chosenRate ? (x.pop * 1000) / 2 : x.pop * 1000
+                ]);
+              }
+              if (frequency(chosenfrequency, 0).includes(x.age)) {
+                mZeroNJData.push([
+                  year,
+                  chosenRate ? x.pop * 1000 : val(x.dx, x.pop)
+                ]);
               } else if (frequency(chosenfrequency, 1).includes(x.age)) {
                 mFiftyNJData.push([
                   year,
-                  chosenRate ? x.pop / 2 : calculate(x)
+                  chosenRate ? (x.pop * 1000) / 10 : val(x.dx, x.pop)
                 ]);
               } else if (frequency(chosenfrequency, 2).includes(x.age)) {
                 mSixtyFiveNJData.push([
                   year,
-                  chosenRate ? x.pop / 3 : calculate(x)
+                  chosenRate ? (x.pop * 1000) / 3 : val(x.dx, x.pop)
                 ]);
               } else if (frequency(chosenfrequency, 3).includes(x.age)) {
                 mSeventyFiveNJData.push([
                   year,
-                  chosenRate ? x.pop / 3 : calculate(x)
+                  chosenRate ? (x.pop * 1000) / 2 : val(x.dx, x.pop)
                 ]);
               } else if (frequency(chosenfrequency, 4).includes(x.age)) {
                 mEightyFiveNJData.push([
                   year,
-                  chosenRate ? x.pop / 2 : calculate(x)
+                  chosenRate ? (x.pop * 1000) / 2 : val(x.dx, x.pop)
                 ]);
               } else if (frequency(chosenfrequency, 5).includes(x.age)) {
                 mNinetyFiveNJData.push([
                   year,
-                  chosenRate ? x.pop / 3 : calculate(x)
+                  chosenRate ? (x.pop * 1000) / 2 : val(x.dx, x.pop)
                 ]);
               } else if (frequency(chosenfrequency, 6).includes(x.age)) {
                 mOneTenNJData.push([
                   year,
-                  chosenRate ? x.pop / 5 : calculate(x)
+                  chosenRate ? (x.pop * 1000) / 4 : val(x.dx, x.pop)
                 ]);
               }
             });
@@ -1893,6 +1998,36 @@ class Spanish extends React.Component {
             });
             mortalFiftyNJ.push(totmF);
             mortalFiftyNJData.push([x, totmF]);
+            let totmEFA = 0;
+            mEightyFiveNJDataAge.forEach((obj) => {
+              if (obj[0] === x) totmEFA = totmEFA + obj[1];
+            });
+            mortalEightyFiveNJAge.push(totmEFA);
+            mortalEightyFiveNJDataAge.push([x, totmEFA]);
+            let totmSeA = 0;
+            mSeventyFiveNJDataAge.forEach((obj) => {
+              if (obj[0] === x) totmSeA = totmSeA + obj[1];
+            });
+            mortalSeventyFiveNJAge.push(totmSeA);
+            mortalSeventyFiveNJDataAge.push([x, totmSeA]);
+            let totmSA = 0;
+            mSixtyFiveNJDataAge.forEach((obj) => {
+              if (obj[0] === x) totmSA = totmSA + obj[1];
+            });
+            mortalSixtyFiveNJAge.push(totmSA);
+            mortalSixtyFiveNJDataAge.push([x, totmSA]);
+            let totmFA = 0;
+            mFiftyNJDataAge.forEach((obj) => {
+              if (obj[0] === x) totmFA = totmFA + obj[1];
+            });
+            mortalFiftyNJAge.push(totmFA);
+            mortalFiftyNJDataAge.push([x, totmFA]);
+            let totmZA = 0;
+            mZeroNJDataAge.forEach((obj) => {
+              if (obj[0] === x) totmZA = totmZA + obj[1];
+            });
+            mortalZeroNJAge.push(totmZA);
+            mortalZeroNJDataAge.push([x, totmZA]);
             let totmZ = 0;
             mZeroNJData.forEach((obj) => {
               if (obj[0] === x) totmZ = totmZ + obj[1];
@@ -1914,8 +2049,19 @@ class Spanish extends React.Component {
             ...mortalOneTenNJ
           ];
           var highDeaths = Math.max(...all);
+          var cappop = Math.max(
+            ...mortalZeroNJAge,
+            ...mortalFiftyNJAge,
+            ...mortalSixtyFiveNJAge,
+            ...mortalSeventyFiveNJAge,
+            ...mortalEightyFiveNJAge
+          );
           noData.sort((a, b) => a[0] - b[0]);
           mortalZeroNJData.sort((a, b) => a[0] - b[0]);
+          mortalFiftyNJDataAge.sort((a, b) => a[0] - b[0]);
+          mortalSixtyFiveNJDataAge.sort((a, b) => a[0] - b[0]);
+          mortalSeventyFiveNJDataAge.sort((a, b) => a[0] - b[0]);
+          mortalEightyFiveNJDataAge.sort((a, b) => a[0] - b[0]);
           mortalFiftyNJData.sort((a, b) => a[0] - b[0]);
           mortalSixtyFiveNJData.sort((a, b) => a[0] - b[0]);
           mortalSeventyFiveNJData.sort((a, b) => a[0] - b[0]);
@@ -1924,7 +2070,12 @@ class Spanish extends React.Component {
           mortalOneTenNJData.sort((a, b) => a[0] - b[0]);
           this.setState({
             date,
+            cappop,
             mortalZeroNJData,
+            mortalFiftyNJDataAge,
+            mortalSixtyFiveNJDataAge,
+            mortalSeventyFiveNJDataAge,
+            mortalEightyFiveNJDataAge,
             mortalFiftyNJData,
             mortalSixtyFiveNJData,
             mortalSeventyFiveNJData,
@@ -1943,6 +2094,7 @@ class Spanish extends React.Component {
       );
   };
   render() {
+    const yaxis = this.state.yaxis ? this.state.yAxis : this.state.cappop;
     const { chosenRate, lowDate } = this.state;
     const noData = this.state.noData.map(([x, y]) => [
       ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
@@ -1952,6 +2104,34 @@ class Spanish extends React.Component {
       ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
       ((y - this.state.lowDeaths) / this.state.yAxis) * 150
     ]);
+    const mortalZeroNJDataAge = this.state.mortalZeroNJDataAge.map(([x, y]) => [
+      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
+      ((y - this.state.lowDeaths) / yaxis) * 150
+    ]);
+    const mortalFiftyNJDataAge = this.state.mortalFiftyNJDataAge.map(
+      ([x, y]) => [
+        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
+        ((y - this.state.lowDeaths) / yaxis) * 150
+      ]
+    );
+    const mortalSixtyFiveNJDataAge = this.state.mortalSixtyFiveNJDataAge.map(
+      ([x, y]) => [
+        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
+        ((y - this.state.lowDeaths) / yaxis) * 150
+      ]
+    );
+    const mortalSeventyFiveNJDataAge = this.state.mortalSeventyFiveNJDataAge.map(
+      ([x, y]) => [
+        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
+        ((y - this.state.lowDeaths) / yaxis) * 150
+      ]
+    );
+    const mortalEightyFiveNJDataAge = this.state.mortalEightyFiveNJDataAge.map(
+      ([x, y]) => [
+        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
+        ((y - this.state.lowDeaths) / yaxis) * 150
+      ]
+    );
     const mortalFiftyNJData = this.state.mortalFiftyNJData.map(([x, y]) => [
       ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
       ((y - this.state.lowDeaths) / this.state.yAxis) * 150
@@ -2044,8 +2224,19 @@ class Spanish extends React.Component {
             );
           })}
         </div>*/}
+        <button
+          style={{ position: "absolute", right: "0px", zIndex: "9999" }}
+          onClick={(e) => {
+            e.stopPropagation();
+            this.setState({
+              yaxis: !this.state.yaxis
+            });
+          }}
+        >
+          {!this.state.yaxis ? "pop" : "deaths"}
+        </button>
         <div
-          style={{ width: "100%", height: "200px" }}
+          style={{ width: "100%", height: "200px", zIndex: "9999" }}
           onClick={() =>
             this.setState(
               this.state.chosenRate && this.state.chosenfrequency
@@ -2124,12 +2315,6 @@ class Spanish extends React.Component {
                   />
                 )
             )}
-          </svg>
-          <svg
-            className="all"
-            style={linecss}
-            xmlns="http://www.w3.org/2000/svg"
-          >
             {mortalZeroNJData.map(
               ([x, y], i) =>
                 !isNaN(x) &&
@@ -2152,12 +2337,86 @@ class Spanish extends React.Component {
               stroke="purple"
               data={mortalZeroNJData}
             />*/}
-          </svg>
-          <svg
-            className="all"
-            style={linecss}
-            xmlns="http://www.w3.org/2000/svg"
-          >
+            {mortalZeroNJDataAge.map(
+              ([x, y], i) =>
+                !isNaN(x) &&
+                !isNaN(y) && (
+                  <rect
+                    x={x}
+                    y={y}
+                    width={8}
+                    height={1}
+                    stroke="white"
+                    fill="transparent"
+                    strokeWidth={1}
+                    key={i}
+                  />
+                )
+            )}
+            {mortalFiftyNJDataAge.map(
+              ([x, y], i) =>
+                !isNaN(x) &&
+                !isNaN(y) && (
+                  <rect
+                    x={x}
+                    y={y}
+                    width={8}
+                    height={1}
+                    stroke="purple"
+                    fill="transparent"
+                    strokeWidth={1}
+                    key={i}
+                  />
+                )
+            )}
+            {mortalSixtyFiveNJDataAge.map(
+              ([x, y], i) =>
+                !isNaN(x) &&
+                !isNaN(y) && (
+                  <rect
+                    x={x}
+                    y={y}
+                    width={8}
+                    height={1}
+                    stroke="blue"
+                    fill="transparent"
+                    strokeWidth={1}
+                    key={i}
+                  />
+                )
+            )}
+            {mortalSeventyFiveNJDataAge.map(
+              ([x, y], i) =>
+                !isNaN(x) &&
+                !isNaN(y) && (
+                  <rect
+                    x={x}
+                    y={y}
+                    width={8}
+                    height={1}
+                    stroke="green"
+                    fill="transparent"
+                    strokeWidth={1}
+                    key={i}
+                  />
+                )
+            )}
+            {mortalEightyFiveNJDataAge.map(
+              ([x, y], i) =>
+                !isNaN(x) &&
+                !isNaN(y) && (
+                  <rect
+                    x={x}
+                    y={y}
+                    width={8}
+                    height={1}
+                    stroke="orange"
+                    fill="transparent"
+                    strokeWidth={1}
+                    key={i}
+                  />
+                )
+            )}
             {mortalFiftyNJData.map(
               ([x, y], i) =>
                 !isNaN(x) &&
@@ -2174,12 +2433,6 @@ class Spanish extends React.Component {
                   />
                 )
             )}
-          </svg>
-          <svg
-            className="all"
-            style={linecss}
-            xmlns="http://www.w3.org/2000/svg"
-          >
             {mortalSixtyFiveNJData.map(
               ([x, y], i) =>
                 !isNaN(x) &&
@@ -2196,12 +2449,6 @@ class Spanish extends React.Component {
                   />
                 )
             )}
-          </svg>
-          <svg
-            className="all"
-            style={linecss}
-            xmlns="http://www.w3.org/2000/svg"
-          >
             {mortalSeventyFiveNJData.map(
               ([x, y], i) =>
                 !isNaN(x) &&
@@ -2218,12 +2465,6 @@ class Spanish extends React.Component {
                   />
                 )
             )}
-          </svg>
-          <svg
-            className="all"
-            style={linecss}
-            xmlns="http://www.w3.org/2000/svg"
-          >
             {mortalEightyFiveNJData.map(
               ([x, y], i) =>
                 !isNaN(x) &&
@@ -2240,12 +2481,6 @@ class Spanish extends React.Component {
                   />
                 )
             )}
-          </svg>
-          <svg
-            className="all"
-            style={linecss}
-            xmlns="http://www.w3.org/2000/svg"
-          >
             {mortalNinetyFiveNJData.map(
               ([x, y], i) =>
                 !isNaN(x) &&
@@ -2262,12 +2497,6 @@ class Spanish extends React.Component {
                   />
                 )
             )}
-          </svg>
-          <svg
-            className="all"
-            style={linecss}
-            xmlns="http://www.w3.org/2000/svg"
-          >
             {mortalOneTenNJData.map(
               ([x, y], i) =>
                 !isNaN(x) &&
@@ -2284,12 +2513,6 @@ class Spanish extends React.Component {
                   />
                 )
             )}
-          </svg>
-          <svg
-            className="all"
-            style={linecss}
-            xmlns="http://www.w3.org/2000/svg"
-          >
             {averageLifetimeData.map(
               ([x, y], i) =>
                 !isNaN(x) &&
@@ -2398,7 +2621,11 @@ class Spanish extends React.Component {
             justifyContent: "space-between"
           }}
         >
-          {this.state.date.map((x) => x !== "1911" && <div key={x}>{x}</div>)}
+          {this.state.date.map((x) => (
+            <div key={x} style={{ width: "max-content", wordBreak: "none" }}>
+              {x}
+            </div>
+          ))}
         </div>
       </div>
     );
