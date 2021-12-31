@@ -666,6 +666,10 @@ export default class App extends React.Component {
           <a href="https://www.cdc.gov/nchs/data/lifetables/life19-20.pdf#page=60">
             1920 dx
           </a>
+          &nbsp;&bull;&nbsp;
+          <a href="https://www2.census.gov/library/publications/decennial/1930/population-volume-2/16440598v2ch11.pdf#page=14">
+            1930 p
+          </a>
           <Spanish
             lastWidth={Math.min(600, this.state.lastWidth)}
             style={{
