@@ -180,9 +180,10 @@ export default class App extends React.Component {
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
           <br />
-          Turn down gentrifiction amazon, how would business owners triple in
-          value from neighborhoods, that is what Carol and Domenic cares about?
-          Stop putting businesss ahead of labor, douche.
+          Turn down gentrifiction amazon, "I'll buy your lemonade stand for
+          you," how would business owners triple in value from neighborhoods,
+          that is what Carol and Domenic cares about? Stop putting businesss
+          ahead of labor, douche.
           <br />
           <br />
           "A mentally challenged person cannot say 'F Trump,'" your IQ tests are
