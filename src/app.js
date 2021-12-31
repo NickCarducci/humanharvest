@@ -191,6 +191,10 @@ export default class App extends React.Component {
           government free rider mutable fines, instead of jail, is useless
           racketeering for bond-index-funds, if no arresting officer evidence,
           no bail nor jail.
+          <br />
+          He will pay his debt to society, he is causing us MORE debt. Article 4
+          is tax only, Amendment 14 Section 4 is surrendered freedom of savers,
+          Jared polis, Go to Hell, douche. Iblis!
           <h2>
             stop acting like illegal immigrants aren't the partial-solution and
             productivity isn't hours under price-deflation of equities as market
