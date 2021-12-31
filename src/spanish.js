@@ -2307,242 +2307,244 @@ class Spanish extends React.Component {
               {this.state.lowDeaths}
             </div>*/}
           </div>
-          <svg
-            className="all"
-            style={linecss}
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            {noData.map(
-              ([x, y], i) =>
-                !isNaN(x) &&
-                !isNaN(y) && (
-                  <rect
-                    x={x}
-                    y={y}
-                    width={2}
-                    height={2}
-                    stroke="rgb(230,230,230)"
-                    fill="transparent"
-                    strokeWidth={3}
-                    key={i}
-                  />
-                )
-            )}
-            {mortalZeroNJData.map(
-              ([x, y], i) =>
-                !isNaN(x) &&
-                !isNaN(y) && (
-                  <rect
-                    x={x}
-                    y={y}
-                    width={2}
-                    height={2}
-                    stroke="white"
-                    fill="transparent"
-                    strokeWidth={3}
-                    key={i}
-                  />
-                )
-            )}
-            {/*<BasisCurve
+          <div>
+            <svg
+              className="all"
+              style={linecss}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              {noData.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={2}
+                      height={2}
+                      stroke="rgb(230,230,230)"
+                      fill="transparent"
+                      strokeWidth={3}
+                      key={i}
+                    />
+                  )
+              )}
+              {mortalZeroNJData.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={2}
+                      height={2}
+                      stroke="white"
+                      fill="transparent"
+                      strokeWidth={3}
+                      key={i}
+                    />
+                  )
+              )}
+              {/*<BasisCurve
               showPoints={false}
               strokeWidth={4}
               stroke="purple"
               data={mortalZeroNJData}
             />*/}
-            {mortalZeroNJDataAge.map(
-              ([x, y], i) =>
-                !isNaN(x) &&
-                !isNaN(y) && (
-                  <rect
-                    x={x}
-                    y={y}
-                    width={8}
-                    height={1}
-                    stroke="white"
-                    fill="transparent"
-                    strokeWidth={1}
-                    key={i}
-                  />
-                )
-            )}
-            {mortalFiftyNJDataAge.map(
-              ([x, y], i) =>
-                !isNaN(x) &&
-                !isNaN(y) && (
-                  <rect
-                    x={x}
-                    y={y}
-                    width={8}
-                    height={1}
-                    stroke="purple"
-                    fill="transparent"
-                    strokeWidth={1}
-                    key={i}
-                  />
-                )
-            )}
-            {mortalSixtyFiveNJDataAge.map(
-              ([x, y], i) =>
-                !isNaN(x) &&
-                !isNaN(y) && (
-                  <rect
-                    x={x}
-                    y={y}
-                    width={8}
-                    height={1}
-                    stroke="blue"
-                    fill="transparent"
-                    strokeWidth={1}
-                    key={i}
-                  />
-                )
-            )}
-            {mortalSeventyFiveNJDataAge.map(
-              ([x, y], i) =>
-                !isNaN(x) &&
-                !isNaN(y) && (
-                  <rect
-                    x={x}
-                    y={y}
-                    width={8}
-                    height={1}
-                    stroke="green"
-                    fill="transparent"
-                    strokeWidth={1}
-                    key={i}
-                  />
-                )
-            )}
-            {mortalEightyFiveNJDataAge.map(
-              ([x, y], i) =>
-                !isNaN(x) &&
-                !isNaN(y) && (
-                  <rect
-                    x={x}
-                    y={y}
-                    width={8}
-                    height={1}
-                    stroke="orange"
-                    fill="transparent"
-                    strokeWidth={1}
-                    key={i}
-                  />
-                )
-            )}
-            {mortalFiftyNJData.map(
-              ([x, y], i) =>
-                !isNaN(x) &&
-                !isNaN(y) && (
-                  <rect
-                    x={x}
-                    y={y}
-                    width={2}
-                    height={2}
-                    stroke="purple"
-                    fill="transparent"
-                    strokeWidth={3}
-                    key={i}
-                  />
-                )
-            )}
-            {mortalSixtyFiveNJData.map(
-              ([x, y], i) =>
-                !isNaN(x) &&
-                !isNaN(y) && (
-                  <rect
-                    x={x}
-                    y={y}
-                    width={2}
-                    height={2}
-                    stroke="blue"
-                    fill="transparent"
-                    strokeWidth={3}
-                    key={i}
-                  />
-                )
-            )}
-            {mortalSeventyFiveNJData.map(
-              ([x, y], i) =>
-                !isNaN(x) &&
-                !isNaN(y) && (
-                  <rect
-                    x={x}
-                    y={y}
-                    width={2}
-                    height={2}
-                    stroke="green"
-                    fill="transparent"
-                    strokeWidth={3}
-                    key={i}
-                  />
-                )
-            )}
-            {mortalEightyFiveNJData.map(
-              ([x, y], i) =>
-                !isNaN(x) &&
-                !isNaN(y) && (
-                  <rect
-                    x={x}
-                    y={y}
-                    width={2}
-                    height={2}
-                    stroke="orange"
-                    fill="transparent"
-                    strokeWidth={3}
-                    key={i}
-                  />
-                )
-            )}
-            {mortalNinetyFiveNJData.map(
-              ([x, y], i) =>
-                !isNaN(x) &&
-                !isNaN(y) && (
-                  <rect
-                    x={x}
-                    y={y}
-                    width={2}
-                    height={2}
-                    stroke="red"
-                    fill="transparent"
-                    strokeWidth={3}
-                    key={i}
-                  />
-                )
-            )}
-            {mortalOneTenNJData.map(
-              ([x, y], i) =>
-                !isNaN(x) &&
-                !isNaN(y) && (
-                  <rect
-                    x={x}
-                    y={y}
-                    width={2}
-                    height={2}
-                    stroke="black"
-                    fill="transparent"
-                    strokeWidth={3}
-                    key={i}
-                  />
-                )
-            )}
-            {averageLifetimeData.map(
-              ([x, y], i) =>
-                !isNaN(x) &&
-                !isNaN(y) && (
-                  <rect
-                    x={x}
-                    y={y}
-                    width={2}
-                    height={2}
-                    stroke="black"
-                    fill="transparent"
-                    strokeWidth={3}
-                    key={i}
-                  />
-                )
-            )}
-          </svg>
+              {mortalZeroNJDataAge.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={8}
+                      height={1}
+                      stroke="white"
+                      fill="transparent"
+                      strokeWidth={1}
+                      key={i}
+                    />
+                  )
+              )}
+              {mortalFiftyNJDataAge.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={8}
+                      height={1}
+                      stroke="purple"
+                      fill="transparent"
+                      strokeWidth={1}
+                      key={i}
+                    />
+                  )
+              )}
+              {mortalSixtyFiveNJDataAge.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={8}
+                      height={1}
+                      stroke="blue"
+                      fill="transparent"
+                      strokeWidth={1}
+                      key={i}
+                    />
+                  )
+              )}
+              {mortalSeventyFiveNJDataAge.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={8}
+                      height={1}
+                      stroke="green"
+                      fill="transparent"
+                      strokeWidth={1}
+                      key={i}
+                    />
+                  )
+              )}
+              {mortalEightyFiveNJDataAge.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={8}
+                      height={1}
+                      stroke="orange"
+                      fill="transparent"
+                      strokeWidth={1}
+                      key={i}
+                    />
+                  )
+              )}
+              {mortalFiftyNJData.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={2}
+                      height={2}
+                      stroke="purple"
+                      fill="transparent"
+                      strokeWidth={3}
+                      key={i}
+                    />
+                  )
+              )}
+              {mortalSixtyFiveNJData.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={2}
+                      height={2}
+                      stroke="blue"
+                      fill="transparent"
+                      strokeWidth={3}
+                      key={i}
+                    />
+                  )
+              )}
+              {mortalSeventyFiveNJData.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={2}
+                      height={2}
+                      stroke="green"
+                      fill="transparent"
+                      strokeWidth={3}
+                      key={i}
+                    />
+                  )
+              )}
+              {mortalEightyFiveNJData.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={2}
+                      height={2}
+                      stroke="orange"
+                      fill="transparent"
+                      strokeWidth={3}
+                      key={i}
+                    />
+                  )
+              )}
+              {mortalNinetyFiveNJData.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={2}
+                      height={2}
+                      stroke="red"
+                      fill="transparent"
+                      strokeWidth={3}
+                      key={i}
+                    />
+                  )
+              )}
+              {mortalOneTenNJData.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={2}
+                      height={2}
+                      stroke="black"
+                      fill="transparent"
+                      strokeWidth={3}
+                      key={i}
+                    />
+                  )
+              )}
+              {averageLifetimeData.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={2}
+                      height={2}
+                      stroke="black"
+                      fill="transparent"
+                      strokeWidth={3}
+                      key={i}
+                    />
+                  )
+              )}
+            </svg>
+          </div>
           <div style={labelstyle}>
             <div
               style={{
