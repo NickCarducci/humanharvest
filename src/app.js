@@ -188,10 +188,27 @@ export default class App extends React.Component {
           is produced when bacteria-reinfects us. Virion does not come inject
           DNA into the cell like the mRNA-sporing-graft does.
           <br />
-          "aids only hurts gays and drug users," o'donnell, maybe just null
+          "aids only hurts gays and drug users," Larry O'Connor, maybe just null
           hypothesis prevalence, did you shuffle? isn't it afro too? Rabies
           still is bacterial-spittle&nbsp;
-          <a href="https://moldmask.co">heat/(density)</a>.<br />
+          <a href="https://moldmask.co">heat/(density)</a>.
+          <br />
+          <br />
+          "Why are you taking my money to pay for your tuition, that is theft,
+          that is socialism," that is credit as income compound, if no one
+          covets, nor steals, hard to overlook all the murder 100 years after
+          Marx. Mises then was credited with credit-cycle identification as a
+          problem for capitalism, but saying it is needed. Religion is opiate
+          for masses, socialism higher than the state, he was being sarcastic,
+          in no way does he want nationalized bridge/broadband. Gen X just
+          wasn’t to rent-seek for bond-laundering 10-40%.
+          <br />
+          <br />
+          Embrace ideas of gov dead weight and build what we would without gov,
+          use the truancy laws and forced public education investment for free
+          rider mutable tax gentrification of trade secrets and useless pure
+          inflation.
+          <br />
           Want it done right do it themselves
           <br />
           Inflation nor real stock value increase, measured by productivity of
