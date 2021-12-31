@@ -91,39 +91,37 @@ class Cable extends React.Component {
     }; //ternaries remove the node and element; display removes the element, but not the node
     return (
       <div ref={this.page} style={{ cacheStyle }}>
-        {mount ? (
-          src === "" ? (
-            <span style={{ border: "1px gray solid" }}>{title}</span>
-          ) : img ? (
-            <img
-              onError={onError}
-              alt={title}
-              style={{
-                shapeOutside: "rect()",
-                float,
-                width: "200px",
-                border: 0,
-                ...this.props.style
-              }}
-              ref={this.props.fwd}
-              src={src}
-            />
-          ) : (
-            <iframe
-              onError={onError}
-              title={title}
-              style={{
-                shapeOutside: "rect()",
-                float,
-                width: "200px",
-                border: 0,
-                ...this.props.style
-              }}
-              ref={this.props.fwd}
-              src={src}
-            />
-          )
-        ) : null}
+        {!mount || src === "" ? (
+          <span style={{ border: "1px gray solid" }}>{title}</span>
+        ) : img ? (
+          <img
+            onError={onError}
+            alt={title}
+            style={{
+              shapeOutside: "rect()",
+              float,
+              width: "200px",
+              border: 0,
+              ...this.props.style
+            }}
+            ref={this.props.fwd}
+            src={src}
+          />
+        ) : (
+          <iframe
+            onError={onError}
+            title={title}
+            style={{
+              shapeOutside: "rect()",
+              float,
+              width: "200px",
+              border: 0,
+              ...this.props.style
+            }}
+            ref={this.props.fwd}
+            src={src}
+          />
+        )}
       </div>
     );
   }
