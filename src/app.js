@@ -221,6 +221,9 @@ export default class App extends React.Component {
           creates virion. I am a statistician that regresses exogenous, not a
           twitchy epidemiologist.
           <br />
+          Self-guided assumes infinite competition or at least
+          non-laborless-demand and trade, not spending.
+          <br />
           <Cable
             style={{ height: "700px" }}
             onError={handleScollImgError}
