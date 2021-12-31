@@ -593,7 +593,7 @@ import { linecss, shortNumber } from "./vaxx";
 };*/
 
 const usmortality = {
-  "1960-1964": [
+  "1965": [
     {
       age: "0",
       dx: 2519,
@@ -715,7 +715,7 @@ const usmortality = {
       pop: 25
     }
   ],
-  "1965-1969": [
+  "1970": [
     {
       age: "0",
       dx: 2250,
@@ -837,7 +837,7 @@ const usmortality = {
       pop: 25
     }
   ],
-  "1970-1974": [
+  "1975": [
     {
       age: "0",
       dx: 1848,
@@ -959,7 +959,7 @@ const usmortality = {
       pop: 25
     }
   ],
-  "1975-1979": [
+  "1980": [
     {
       age: "0",
       dx: 1465,
@@ -1081,7 +1081,7 @@ const usmortality = {
       pop: 100
     }
   ],
-  "1980-1984": [
+  "1985": [
     {
       age: "0",
       dx: 1161,
@@ -1203,7 +1203,7 @@ const usmortality = {
       pop: 150
     }
   ],
-  "1985-1989": [
+  "1990": [
     {
       age: "0",
       dx: 1040,
@@ -1325,7 +1325,7 @@ const usmortality = {
       pop: 250
     }
   ],
-  "1990-1994": [
+  "1995": [
     {
       age: "0",
       dx: 890,
@@ -1447,7 +1447,7 @@ const usmortality = {
       pop: 300
     }
   ],
-  "1995-1999": [
+  "2000": [
     {
       age: "0",
       dx: 751,
@@ -1569,7 +1569,7 @@ const usmortality = {
       pop: 400
     }
   ],
-  "2000-2004": [
+  "2005": [
     {
       age: "0",
       dx: 703,
@@ -1691,7 +1691,7 @@ const usmortality = {
       pop: 100
     }
   ],
-  "2005-2009": [
+  "2010": [
     {
       age: "0",
       dx: 687,
@@ -1813,7 +1813,7 @@ const usmortality = {
       pop: 10
     }
   ],
-  "2010-2014": [
+  "2015": [
     {
       age: "0",
       dx: 598,
@@ -1935,7 +1935,7 @@ const usmortality = {
       pop: 200
     }
   ],
-  "2015-2018": [
+  /*"2015-2018": [
     {
       age: "0",
       dx: 575,
@@ -2056,6 +2056,128 @@ const usmortality = {
       dx: 12,
       pop: 200
     }
+  ],*/
+  "2020": [
+    {
+      age: "0",
+      dx: 897,
+      pop: 5000
+    },
+    {
+      age: "1-4",
+      dx: 160,
+      pop: 14580
+    },
+    {
+      age: "5-9",
+      dx: 95,
+      pop: 20430
+    },
+    {
+      age: "10-14",
+      dx: 123,
+      pop: 21827
+    },
+    {
+      age: "15-19",
+      dx: 467,
+      pop: 21628
+    },
+    {
+      age: "20-24",
+      dx: 618,
+      pop: 21537
+    },
+    {
+      age: "25-29",
+      dx: 571,
+      pop: 22964
+    },
+    {
+      age: "30-34",
+      dx: 696,
+      pop: 22902
+    },
+    {
+      age: "35-39",
+      dx: 1004,
+      pop: 22292
+    },
+    {
+      age: "40-44",
+      dx: 1425,
+      pop: 20643
+    },
+    {
+      age: "45-49",
+      dx: 1888,
+      pop: 20510
+    },
+    {
+      age: "50-54",
+      dx: 2475,
+      pop: 20846
+    },
+    {
+      age: "55-59",
+      dx: 3727,
+      pop: 22187
+    },
+    {
+      age: "60-64",
+      dx: 5709,
+      pop: 21072
+    },
+    {
+      age: "65-69",
+      dx: 9176,
+      pop: 17962
+    },
+    {
+      age: "70-74",
+      dx: 13175,
+      pop: 14493
+    },
+    {
+      age: "75-79",
+      dx: 18031,
+      pop: 9643
+    },
+    {
+      age: "80-84",
+      dx: 24959,
+      pop: 6142
+    },
+    {
+      age: "85-89",
+      dx: 35907,
+      pop: 2000
+    }, //6063
+    {
+      age: "90-94",
+      dx: 36585,
+      pop: 1700
+    },
+    {
+      age: "95-99",
+      dx: 25859,
+      pop: 1120
+    },
+    {
+      age: "100-104",
+      dx: 11800,
+      pop: 720
+    },
+    {
+      age: "105-109",
+      dx: 3793,
+      pop: 310
+    },
+    {
+      age: "110",
+      dx: 771 + 82,
+      pop: 196
+    }
   ]
 };
 
@@ -2156,7 +2278,7 @@ class Mortal extends React.Component {
     let mOneTenNJData = [];
     let avgLifetime = {};
     Object.keys(usmortality).forEach((yearSet, i) => {
-      const year = Number(yearSet.split("-")[1]);
+      const year = yearSet; //Number(yearSet.split("-")[1]);
 
       const val = (d, p = 1000) => Math.round((d / 100000) * p * 1000);
       Object.values(usmortality)[i].forEach((x) => {
@@ -2180,7 +2302,7 @@ class Mortal extends React.Component {
       averageLifetimeData.push([x.year, x.total / x.length]);
     });
     Object.keys(usmortality).forEach((yearSet, i) => {
-      const year = Number(yearSet.split("-")[1]);
+      const year = yearSet; //Number(yearSet.split("-")[1]);
       noData.push([year, 0]);
       date.push(year);
       /*const thisdecade = popdata.find(
@@ -2351,7 +2473,7 @@ class Mortal extends React.Component {
           let mNinetyFiveNJData = [];
           let mOneTenNJData = [];
           Object.keys(usmortality).forEach((yearSet, i) => {
-            const year = Number(yearSet.split("-")[1]);
+            const year = yearSet; //Number(yearSet.split("-")[1]);
             noData.push([year, 0]);
             date.push(year);
             /*const thisdecade = popdata.find(
