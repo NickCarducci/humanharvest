@@ -182,6 +182,15 @@ export default class App extends React.Component {
             Marx was plagerized by Mises to act like credit cycle is useful not
             useless price elasticity.
           </h3>
+          masks are retarded because spittle excrement bacteria, you fucking
+          cunts on Friday night CNN.
+          <br />
+          the withholding of tests shouldn't happen, the only operational reason
+          for barrier to an existing thing is if it is made up, or USPTO
+          utility, trust-building competing with other intermediate consumers
+          racketeering barrier to entry by tranches instead of brokerage to
+          sustain prices of appropriate labor-demand, control by unit or price
+          to have mondo condo market liquidity.
           <h2>behavior is not an illness, it is a CRIME</h2>
           you cannot contract non-compete and surrendered freedom of savers, if
           conscription/truncated production tax is virtious it will be had.
