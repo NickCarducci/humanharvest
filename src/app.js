@@ -183,7 +183,20 @@ export default class App extends React.Component {
           matching Trumps' spending." legislation victories are the reason for
           inflation and stagflation.
           <br />
-          <br />
+          rabies also makes up virion injects DNA into cell, that is not
+          vivo-cause, let alone all-inclusive-case or all-cause. "I know you go
+          out and have a good time as a young person."
+          <h2>
+            acute respiratory infection warning mechanism of bacterial infection
+            debris, monoclonol antibodies doesn't stop infection.
+            {/**mccullough protocol */}
+          </h2>
+          <h1>
+            "blood thinners," or natural-excercise, can drop 95% of
+            hospitalizations. Comprehensive involuntary committment should be in
+            jail and require evidence beyond my favored alcohol brain lesions.
+            Stay out of my pocket doc, you worthless-leech.
+          </h1>
           "Most people will get it, most whom are unvaccinated." You are
           suffering from basis rate fallacy, as it is a non-exclusive byproduct,
           not cause. Vaxxers literally make up the fact that, “virion injects
