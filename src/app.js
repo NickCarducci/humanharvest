@@ -183,6 +183,8 @@ export default class App extends React.Component {
             useless price elasticity.
           </h3>
           <h2>behavior is not an illness, it is a CRIME</h2>
+          you cannot contract non-compete and surrendered freedom of savers, if
+          conscription/truncated production tax is virtious it will be had.
           <h1>
             coordinating with government is a crime
             {/**ben habib brexit party mp, full marks on the vaccine */}, just
@@ -192,9 +194,9 @@ export default class App extends React.Component {
           racketeering for bond-index-funds, if no arresting officer evidence,
           no bail nor jail.
           <br />
-          "He will pay his debt to society," he is causing us MORE debt. Article 4
-          is tax only, Amendment 14 Section 4 is surrendered freedom of savers,
-          Jared polis, Go to Hell, douche. Iblis!
+          "He will pay his debt to society," he is causing us MORE debt. Article
+          4 is tax only, Amendment 14 Section 4 is surrendered freedom of
+          savers, Jared polis, Go to Hell, douche. Iblis!
           <br />
           If Russia makes a move on Ukraine, they will sanction all non-Russian
           business and free rider mutable truncated production tax for Russian
