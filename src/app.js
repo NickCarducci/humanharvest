@@ -179,13 +179,15 @@ export default class App extends React.Component {
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <h2>Kudlow sucking bezo dick</h2>
-          "punishing sucess, reversing ppp trust-building, reversing ccc
+          "punishing success, reversing ppp trust-building, reversing ccc
           parental gerontocracy, third party donee beneficiary surrendered
           freedom for 1-level-board, reverside actual labor shortage.
           max-royalty-profits."
           <h1>Statist-socialist, anti-corporatist = jury permits?</h1>
           Keeping it tight, open borders, illegal immigration, labor shortage,
-          login.gov convict intranet malfeasance, no-script-currency vault share
+          login.gov convict intranet malfeasance, no-script-currency vault
+          share. rollover insurance expiring claims. reverse amortization
+          (cash/debt)*socialist every year back.
           <br />
           “Big government socialist, state-run economy.” Marx never said that.
           Big government monopsony or corporate flaccid loss.
