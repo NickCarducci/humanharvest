@@ -189,6 +189,31 @@ export default class App extends React.Component {
           trust-building for no gain.
           <br />
           "Delinquent, soft, too cheap.”
+          <h2>
+            by the data, 65+ are the moochers, the youth work 10x more than they
+            did in 1970, per home
+          </h2>
+          "claim by Chigaco economists denied sending child poverty, just
+          statistics, may not be poor for that month, but parents need to work.
+          Unemployment collapsed, we want unemployemnt as a measure of
+          productivity and technological advancement." Actual labor shortage.
+          "Ensure job training," public trade secret trust-building, REPUBLICANS
+          ARE MARKET COMMUNIST. retirement is a good thing. "Americans don't
+          want to be europeanized, UBI to existing business. Americans don't
+          want to support moochers." $12k/64 debt/cash (new) paid to loitering
+          surrendered freedom (EULA) rent-seekers to sit on the saver couch.
+          GIVE ME 'YOUR' MONEY BITCH.
+          <br />
+          workfare = government bond-holder trust-building laundering and
+          rent-seeking.
+          <br />
+          “Work is a good thing, dignity, produces productivity for productive
+          lives,” Betsy McCoy. Price deflation per hour is productivity, not
+          watching eachothers’ kids for higher numbers. Hand put money for
+          people that not working, we work every day. HALF CONTINUING CLAIMS ARE
+          65+ and most disability. Fuck off bitch. "parents over $4k child
+          benefits. It is a middle-class entitlement," it just goes to
+          producer-ask for the same stuff!
           <br />
           <br />
           "If we balance the budget, we will have no wage growth." GOOD you
