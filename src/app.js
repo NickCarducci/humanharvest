@@ -184,12 +184,20 @@ export default class App extends React.Component {
           <h3>
             For who? It just raises price and trust-builds existing business
           </h3>
-          "as long as uncle same pays for it." Tax payer vacation, 40% debt spending, 50% debt
-          spending nj. "Might as well take this money, facing competition out
-          there." it just raises price! you aren't conservative, Republicans!
-          you just want flaccid profit loss.
+          "as long as uncle same pays for it." Tax payer vacation, 40% debt
+          spending, 50% debt spending nj. "Might as well take this money, facing
+          competition out there." it just raises price! you aren't conservative,
+          Republicans! you just want flaccid profit loss. Republicans things
+          subsidies and net exports for foreign state land share are good for
+          national security, selling our durable goods or equity, while
+          racketeering broad utility for fines and fees, instead of target
+          margin on microeconomic self-regulating Supply and Demand perfect
+          equillibrium, infinite producer assumption.
           <br />
-          vast majority of economic growth was energy. I put population under
+          "As republicans, we will put the country on the right track. 40% debt
+          service broadband/bridge fees."
+          <br />
+          "Vast majority of economic growth was energy." I put population under
           GDP as basis to isolate other factors because population growth is
           integrally-economic growth, which is not a gain nor loss in
           productivity per hour, deflation.
