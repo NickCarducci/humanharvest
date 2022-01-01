@@ -188,7 +188,10 @@ export default class App extends React.Component {
           login.gov convict intranet malfeasance, no-script-currency vault
           share. rollover insurance expiring claims. reverse amortization
           (cash/debt)*socialist every year back.
-          <br />
+          <h2>
+            ween cops off bonds with truncated sales tax, all convictions are
+            therefore moot
+          </h2>
           “Big government socialist, state-run economy.” Marx never said that.
           Big government monopsony or corporate flaccid loss.
           <h1>
