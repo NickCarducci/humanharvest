@@ -204,12 +204,12 @@ export default class App extends React.Component {
           "People are being safe and wearing masks." The pandemic was population
           growth, as is integreal for growth and deaths. Growth does nothing for
           productivity per hour unless there is supply-side dead-weight.
-          <br />
-          <br />
-          Bouncing off the walls, can’t concentrate, get Amphetamines. Whack you
-          over the head, you have to behave. $12k/64 cash/debt (new) taxes for
-          educated. When kids aren’t getting educated, they get to earn wealth
-          over your gluttonous ass
+          <h1>a whack for a whack gets the whole-world whacked</h1>
+          "Bouncing off the walls, can’t concentrate, get Amphetamines. Whack
+          you over the head, you have to behave." $12k/64 cash/debt (new) taxes
+          for educated. When kids aren’t getting educated, they get to earn
+          wealth over your gluttonous ass. Me insulting you is not a disability,
+          mental-disorder is subjective.
           <h2>tax payer vacation, sacrificing our kids</h2>
           “Find teachers to teach our kids.” at 85% 25-54 capacity, we need
           bootstapping entrepreneurs not more corporate flaccid un-bargain and
