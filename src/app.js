@@ -214,6 +214,9 @@ export default class App extends React.Component {
             <tr>2010</tr>
             <tr>age: "85-89", dx: 17644, pop: 3620</tr>
           </table>*/}
+          expiring claim false bid pool $2k/yr racket Quarantine hotel
+          paperwork. kill yourselves
+          <br />
           the underlining issue is not mental it is financial, GDP/p was nearly
           constant 1800-1913 save repo cycle down-payment amongst 3%/yr+
           population. Put them on a place, incentive to acclimates, what third
