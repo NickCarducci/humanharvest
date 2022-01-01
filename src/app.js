@@ -193,6 +193,13 @@ export default class App extends React.Component {
           AND THE MUTAL FUND CANNOT GIVE BACK ALL FUNDS CONCURRENTLY, VALUE
           NOTWITHSTANDING.
           <br />
+          Jesus christ you fucking idiots. allow drugs and illegals pour in to
+          help labor shortage.
+          <br />
+          Who set up a plant to be in debt a year if not decades to come.
+          44x/checking debt means 44 years of current income all being paid off
+          to bonds. Most of GDP/p is mutable funds.
+          <br />
           “What does Ukraine have that Russia wants?" taxation, meanwhile, we
           have have truncated production tax free rider immutable sewage police
           lawsuits, no other tax nor share split.
