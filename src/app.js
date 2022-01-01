@@ -178,7 +178,10 @@ export default class App extends React.Component {
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
-          <br />
+          <h1>
+            1/4 1/4 1/4 expiring premium pentagon pension forced corporate
+            investment 10% debt spend 2010-3/2020, "back to the land of the free," sluts.
+          </h1>
           <h2>
             boomers loitering on my homes and restaurants, third party donee
             surrendered freedom (EULA) counterfeit in contract.
@@ -191,7 +194,9 @@ export default class App extends React.Component {
             expiring or estimate false bid pools of non-rollover insurance (say
             it three times and psychologist injects you with syringe)
           </h1>
-          socialist city-council, they don't like cops, all woke, it is criminal.<br/>
+          socialist city-council, they don't like cops, all woke, it is
+          criminal.
+          <br />
           "Trump's policies look better every day," Stephen Moore, unaware of
           homes double material inflation. 20% more spending under Trump.
           "People are being safe and wearing masks." The pandemic was population
