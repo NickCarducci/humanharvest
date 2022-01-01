@@ -183,7 +183,11 @@ export default class App extends React.Component {
             useless price elasticity.
           </h3>
           masks are retarded because spittle excrement bacteria, you fucking
-          cunts on Friday night CNN.
+          cunts on Friday night CNN. voting is not cool, 13% NYC does it. 50%
+          debt spending NJ (2016). 2/3 support Occupy anti-rent-seeking and
+          corporate flaccid loss expiring non-rollover collective bargain or
+          free rider mutable sewage police lawsuits, not 40% debt service bond
+          laundering actual work shortage njta.
           <br />
           the withholding of tests shouldn't happen, the only operational reason
           for barrier to an existing thing is if it is made up, or USPTO
