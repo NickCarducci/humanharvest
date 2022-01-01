@@ -180,7 +180,8 @@ export default class App extends React.Component {
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
           Profits are a net loss, fed tightens will cause a recession. Lower
-          prices and hours is a good thing.
+          prices and hours is a good thing. "Stop QE and raise fed funds rate."
+          Over savers' surrendered freedom (EULA) third party donee.
           <br />
           Inflation from increasing the money supply is nothing compared to
           $4t/yr 40% debt spend 2010-3/2020 only making $2t
