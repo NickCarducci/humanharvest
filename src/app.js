@@ -198,9 +198,9 @@ export default class App extends React.Component {
           $12k/64 new debt/cash, why is mortgage a good thing to you? it just
           raises total price.
           <br />
-          Who set up a plant to be in debt a year if not decades to come.
+          Who set up a plan to be in debt for a year - if not decades - to come.
           44x/checking debt means 44 years of current income all being paid off
-          to bonds. Most of GDP/p is mutable funds.
+          to bonds. Most of GDP/p is mutual funds.
           <br />
           “What does Ukraine have that Russia wants?" taxation, meanwhile, we
           have have truncated production tax free rider immutable sewage police
