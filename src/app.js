@@ -194,6 +194,21 @@ export default class App extends React.Component {
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
+          <h2>
+            "slinging drugs, no script vault-scipt, open source ingredient list
+            for k2 and pharma competition" It is saver expense, not tax-payer
+            For no better bargain.
+          </h2>
+          <h2>
+            Jamie Dimon walgreens, the biggest drug dealer. "bookies
+            'risk'-premium on both side, expiring claim enables the theft when
+            credit isn't of FULL ESCROW."
+          </h2>
+          fair market value in the year you stole it, but that should be
+          appraised on what you bought for, with receipt, not the neighbors.
+          extortion, racketeering, civil rights.
+          <br />
+          <br />
           "Tax-payer funded 40% debt spending SUV." Emotionally disturbed
           because of implausible landlord use, say rollover insurance to an
           orthopedic surgeon they introduced you to mr. syringe and lock you up
