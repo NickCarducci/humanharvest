@@ -178,6 +178,19 @@ export default class App extends React.Component {
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
+          "better for market concentration, long-term." what.
+          <h2>
+          Net exports are trading durable goods for foreign lands that
+          share-split. You are MY top fan.
+          </h2>
+          “Economic stock profits bull.” That is pure useless inflation,
+          corporate accounts is not a collective bargain, is flaccid loss.
+          Neither is expiry or estimate property. NJ Consumer Fraud Act, Home
+          warranty and expiring auto insurance torts beyond reality and
+          non-surrendered freedom (EULA) is fraud.
+          <br />
+          Profits are a net loss, fed tightens will cause a recession. Lower
+          prices and hours is a good thing.
           <h2>
             “Massive subsidies make new corporate opportunities.” Larry Kudlow
           </h2>
