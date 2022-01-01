@@ -178,6 +178,17 @@ export default class App extends React.Component {
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
+          <br />
+          Keeping it tight, open borders, illegal immigration, labor shortage,
+          login.gov convict intranet malfeasance, no-script-currency vault share
+          <br />
+          “Big government socialist, state-run economy.” Marx never said that.
+          Big government monopsony or corporate flaccid loss.
+          <h1>
+            Kudlow wants to nationalize bridge/broadband fees, money "market"
+            surrendered freedom (EULA) of savers,
+          </h1>
+          instead of target margin consumer surrogate private investors.
           <h2>
             “Ran Amazon out of town by making them pay the same as everyone
             else,” you keep your shop ownership, make your own Amazon instead of
