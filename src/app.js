@@ -179,6 +179,15 @@ export default class App extends React.Component {
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
+          Trump's economy is so good for lower and middle classes, labor-equity
+          of past demand is forlorn for new share-split subsidy ppp trust build
+          beneficiaries, appreciating work deficit actual labor shortage.
+          <h2>you guys are ok with just material, right?</h2>
+          "phasing out expenses on taxes, makes infrastructure 40% debt-service,
+          cheaper," Kevin Hasset, author of, "SOCIALISM IS THE DEVIL." Wage
+          increases is an input-cost. Marx doesn't want income inequality but
+          wealth (equities, bonds, homes and intermediate-labor) equality,
+          labor-demand notwithstanding.
           <h2>more psychologists than orthopedic surgeons</h2>
           the true threat is expiring claim FDIC insuring themselves. You're the
           devil, steve forbes. rot in hell. tell doctor to rollover and they
