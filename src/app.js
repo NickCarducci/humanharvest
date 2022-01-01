@@ -181,7 +181,8 @@ export default class App extends React.Component {
           <br />
           Profits are a net loss, fed tightens will cause a recession. Lower
           prices and hours is a good thing. "Stop QE and raise fed funds rate."
-          Over savers' surrendered freedom (EULA) third party donee.
+          Over savers' surrendered freedom (EULA) third party donee. "Good for
+          economy, inflation, public corporate flaccid loss market concentration."
           <br />
           Inflation from increasing the money supply is nothing compared to
           $4t/yr 40% debt spend 2010-3/2020 only making $2t
