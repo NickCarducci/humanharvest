@@ -183,6 +183,15 @@ export default class App extends React.Component {
             boomers loitering on my homes and restaurants, third party donee
             surrendered freedom (EULA) counterfeit in contract.
           </h2>
+          "Miami can be bank hub, techies are moving to Florida for the illegal
+          immigrants. No taxes, pro-multi-level-embezzling-business."
+          <h1>
+            1-level-board maxroyalty profit, investment banks stick to equities
+            concurrentable, that is not surrendered freedoms of another with
+            expiring or estimate false bid pools of non-rollover insurance (say
+            it three times and psychologist injects you with syringe)
+          </h1>
+          socialist city-council, they don't like cops, all woke, it is criminal.<br/>
           "Trump's policies look better every day," Stephen Moore, unaware of
           homes double material inflation. 20% more spending under Trump.
           "People are being safe and wearing masks." The pandemic was population
