@@ -166,6 +166,21 @@ export default class App extends React.Component {
               color: "rgb(230,230,255)",
               backgroundColor: "rgb(32, 22, 11)"
             }}
+            href="https://carducci.sh"
+          >
+            epiology
+          </a>
+          <a
+            style={{
+              shapeOutside: "rect()",
+              float: "right",
+              width: "max-content",
+              padding: "0px 10px",
+              fontSize: "20px",
+              fontFamily: "'Pacifico', sans-serif",
+              color: "rgb(230,230,255)",
+              backgroundColor: "rgb(32, 22, 11)"
+            }}
             href="https://2052.live"
           >
             2052.live
@@ -235,6 +250,13 @@ export default class App extends React.Component {
           home. Republicans just counterfeit value, non-stop, like Andrew Yang.
           Your coronavirus pandemic is from population growth. Fucking drown
           yourself, Gen Blaine Holt.
+          <br />
+          <br />
+          So much since is real science confirming political-views as reasoning
+          beyond law, that which is fact
+          <br />
+          Repeatable from no idea, not precedence by an idea itself, without
+          further questioning real-time
           <br />
           <br />
           <Cable
