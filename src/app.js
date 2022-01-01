@@ -193,8 +193,23 @@ export default class App extends React.Component {
           AND THE MUTAL FUND CANNOT GIVE BACK ALL FUNDS CONCURRENTLY, VALUE
           NOTWITHSTANDING.
           <br />
+          “What does Ukraine have that Russia wants?" taxation, meanwhile, we
+          have have truncated production tax free rider immutable sewage police
+          lawsuits, no other tax nor share split.
+          <br />
           make sure they can get to work in NY from Livingingston, we need to
           pay 40% debt spending, or they will reposess the bridge.
+          <h3>1x book worthless</h3>
+          <h1>
+            2x to research, 10x to design, 1x to build. 1-level board
+            max-royalty-profit to replace debt "investment" non-concurrentable
+            outlays and compound COUNTERFEIT
+          </h1>
+          <h2>
+            I have to make my own paytech to take debit instead of credit (EULA
+            surrendered freedoms of&nbsp;
+            <a href="https://saverparty.xyz">savers</a>).
+          </h2>
           <br />
           youth brain drain (look at me, for example. shuffle before
           extrapolation, raining condos), driving around is accident prevalence
