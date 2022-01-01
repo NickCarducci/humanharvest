@@ -178,6 +178,13 @@ export default class App extends React.Component {
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
+          <h2>
+            “Ran Amazon out of town by making them pay the same as everyone
+            else,” you keep your shop ownership, make your own Amazon instead of
+            giving the profit to them Gentrify is what we, “lost.” It’s not like
+            she turned down natural resources, she required their profit to pay
+            the same, and "prevented value from increasing," saves consumers.
+          </h2>
           <h3>
             Marx was plagerized by Mises to act like credit cycle is useful not
             useless price elasticity.
