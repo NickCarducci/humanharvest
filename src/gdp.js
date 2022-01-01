@@ -641,7 +641,10 @@ class GDP extends React.Component {
     const popdatapre2010 = popdata.filter((x) => x.year < 2010);
     return (
       <div>
-        cases to tests
+        cases to tests; mv1===mv2==GDP/yr&nbsp;
+        <span role="img" aria-label="skull">
+          💀
+        </span>
         <GDPchild
           lastWidth={this.props.lastWidth}
           data={data} //filteredByState
