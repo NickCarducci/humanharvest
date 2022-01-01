@@ -218,7 +218,18 @@ export default class App extends React.Component {
           <br />
           "Forgot to order 500 weekly covid tests we need,” Jo Pinion with a
           lack of customers, professing a racketeering, market-communist actual
-          labor shortage rent-seeking need. FUCK OFF DOUCHE
+          labor shortage rent-seeking need. FUCK OFF DOUCHE. Inflation is a
+          national security issue because it is surrendered freedom, no free
+          rider mutable tax is even helpful if it was legal. Hoarding grains
+          because famine, or vault-share depositary currency competitor. A bad
+          conclusion is making 44 year payday loans with currenct debt instead
+          of reverse amortization so we all paid what we would have without DEBT
+          not just material inflation, half home inflation and third of
+          equities, bonds and intermediate-labor. "Sue for tort damages," only
+          can be last-traded-value, not of the neighborhood but that unique
+          home. Republicans just counterfeit value, non-stop, like Andrew Yang.
+          Your coronavirus pandemic is from population growth. Fucking drown
+          yourself, Gen Blaine Holt.
           <br />
           <br />
           <Cable
