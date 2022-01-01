@@ -178,10 +178,11 @@ export default class App extends React.Component {
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
+          <h2>Republicans want market-communism, jobs instead of innovation</h2>
           <h1>
             1/4 1/4 1/4 expiring premium pentagon pension forced corporate
             investment 10% debt spend 2010-3/2020, "back to the land of the
-            free," sluts.
+            free," sluts.{/**roma dirobbie */}
           </h1>
           <h2>
             boomers loitering on my homes and restaurants, third party donee
