@@ -179,9 +179,15 @@ export default class App extends React.Component {
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
-          Trump's economy is so good for lower and middle classes, labor-equity
-          of past demand is forlorn for new share-split subsidy ppp trust build
-          beneficiaries, appreciating work deficit actual labor shortage.
+          "Social spending not supply side." Where do you think the
+          demand-capacity goes? It just raises bid.
+          <br />
+          <br />
+          "If we balance the budget, we will have no wage growth." GOOD you
+          fucking loser. "Trump's economy is so good for lower and middle
+          classes," labor-equity of past demand is forlorn for new share-split
+          subsidy ppp trust build beneficiaries, appreciating work deficit
+          actual labor shortage.
           <h2>you guys are ok with just material, right?</h2>
           "phasing out expenses on taxes, makes infrastructure 40% debt-service,
           cheaper," Kevin Hasset, author of, "SOCIALISM IS THE DEVIL." Wage
