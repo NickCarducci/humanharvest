@@ -193,6 +193,15 @@ export default class App extends React.Component {
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
+          <br />
+          "Tax-payer funded 40% debt spending SUV." Emotionally disturbed
+          because of implausible landlord use, say rollover insurance to an
+          orthopedic surgeon they introduced you to mr. syringe and lock you up
+          as political prisoner in NJ. Multiple Sclerosis is non-exclusive
+          symptom as of all-incidence and -cause brain-bacteria acute flaccid
+          paralysis, paralytic polio. Great Leap Forward and Famine matches
+          population growth 35 life-expectancy from sewage.
+          {/**Steps into a Libertarian rally-speech in NJ*, "Ok, no one is dying here," implying their loss*/}
           <h2>Republicans want market-communism, jobs instead of innovation</h2>
           peter roth, newsweek, committee to unleash prosperity, "trump social
           headed by david nunez because retarded copyright use case loss from
