@@ -245,6 +245,10 @@ export default class App extends React.Component {
             🤣
           </span>
           <br />
+          <h1>"Personal health decisions"</h1>Isn't it alive, or an evolutionary
+          trait, not non-exclusive byproduct, warning-mechanism or monoclonal
+          antibody 20% placebo juice?
+          <br />
           "Forgot to order 500 weekly covid tests we need,” Jo Pinion with a
           lack of customers, professing a racketeering, market-communist actual
           labor shortage rent-seeking need. FUCK OFF DOUCHE. Inflation is a
