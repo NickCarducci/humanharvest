@@ -216,6 +216,11 @@ export default class App extends React.Component {
             🤣
           </span>
           <br />
+          "Forgot to order 500 weekly covid tests we need,” Jo Pinion with a
+          lack of customers, professing a racketeering, market-communist actual
+          labor shortage rent-seeking need. FUCK OFF DOUCHE
+          <br />
+          <br />
           <Cable
             onError={handleScollImgError}
             //img={true}
