@@ -185,6 +185,26 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          WE WERE FORCED TO USE SOCIAL SECURITY, IT WAS NOT A VOLUNTARY PLAN,
+          AND THE MUTAL FUND CANNOT GIVE BACK ALL FUNDS CONCURRENTLY, VALUE
+          NOTWITHSTANDING.
+          <br />
+          make sure they can get to work in NY from Livingingston, we need to
+          pay 40% debt spending, or they will reposess the bridge.
+          <br />
+          youth brain drain (look at me, for example. shuffle before
+          extrapolation, raining condos), driving around is accident prevalence
+          matching usage, doesn't mean it causes motor impairment...
+          <br />
+          Green development of buildings beyond free rider mutable going to
+          begin home warranty with non rollover expiring and estimates as
+          properties. Allow beyond universal construction code. Let investors
+          decide. Target margin if you want. Marijuana and amphetamines are
+          money , unscriptable.
+          <br />
+          Stop using bridge toll price inflation on bond laundering 40%
+          <br />
+          <br />
           bbb, "ordinary families," are forelorn against existing-biz
           work-deficit by producer-ask gentrification, monopsony and free rider
           mutable tax pure,&nbsp;
@@ -1675,12 +1695,13 @@ export default class App extends React.Component {
           &nbsp;(pneumonia, influenza, and/or COVID-19) classification."
           <br />
           {this.state.lastWidth && (
-            <Epiology 
-            lastWidth={Math.min(600, this.state.lastWidth)}
-            style={{
-              paddingBottom: "15px",
-              backgroundColor: "rgb(190,150,180)"
-            }}/>
+            <Epiology
+              lastWidth={Math.min(600, this.state.lastWidth)}
+              style={{
+                paddingBottom: "15px",
+                backgroundColor: "rgb(190,150,180)"
+              }}
+            />
           )}
           <a href="https://youtu.be/Weqb9KrQ-TU?t=21">electron microscope</a>
           &nbsp;snapshot, cartoon in vivo virus insemination. I think it only
