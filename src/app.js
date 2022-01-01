@@ -271,7 +271,8 @@ export default class App extends React.Component {
           would country use your FUCKING dough on for, scum of the earth leeche/
           parasite, mosquito. "healthcare night jail"
           <br />
-          "Stay with us," THAT IS MY MONEY THAT YOU ARE COUNTERFEITING/LOITERING/LAUNDERING
+          "Stay with us," THAT IS MY MONEY THAT YOU ARE
+          COUNTERFEITING/LOITERING/LAUNDERING
           <GDP
             lastWidth={Math.min(600, this.state.lastWidth)}
             style={{
@@ -279,6 +280,16 @@ export default class App extends React.Component {
               backgroundColor: "rgb(190,150,180)"
             }}
           />
+          Stop using bridge toll price inflation on bond laundering 40%
+          <br />
+          “We need a concerted effort to get involved in the free rider mutable
+          tax from outside the market and 40% debt spend for school government
+          trust, once they say, ‘this is not your business.’ Then things will
+          change.” {/**Frank Furudi*/}
+          <br />
+          Stocks, bonds, homes nor intermediate-labor is included in gini,
+          poverty, nor inflation! Forever serfs and employables! Meant to be!
+          <br />
           <br />
           <br />
           "taxes. all the government cares about, getting their money. ...Mental
