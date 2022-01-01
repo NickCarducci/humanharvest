@@ -192,7 +192,25 @@ export default class App extends React.Component {
           nationalism isn't socialism. Americans really need poverty alleviation
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
-          <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
+          <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.<br />
+          <br />
+          People (as jury, not executioner of the userer) can only detract from
+          available sentence without state vic.
+          <br />
+          Grubs
+          <br />
+          Drug addicts doing whatever they want, these boomers 20x/millennial
+          rental-income per boomer
+          <br />
+          No script and stop implausible use rent control by 5 units or 30 days
+          not price
+          <br />
+          <h1>
+            of course at 60% free rider mutable consumer expense, 40% debt
+            spending saver surrendered freedom
+          </h1>
+          wait for customers, 1-level board max-profit royalty.
+          <br />
           <a
             style={{
               shapeOutside: "rect()",
