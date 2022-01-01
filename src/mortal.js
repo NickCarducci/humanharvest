@@ -1785,7 +1785,7 @@ const usmortality = {
     {
       age: "85-89",
       dx: 17644,
-      pop: 3620
+      pop: 2789 /** 3620*/
     },
     {
       age: "90-94",
@@ -3300,7 +3300,7 @@ class Mortal extends React.Component {
         <div
           style={{
             display: "flex",
-            width: "90%"
+            width: "100%"
           }}
         >
           {this.state.date.map((x) => (
