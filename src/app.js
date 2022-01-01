@@ -194,7 +194,9 @@ export default class App extends React.Component {
           NOTWITHSTANDING.
           <br />
           Jesus christ you fucking idiots. allow drugs and illegals pour in to
-          help labor shortage.
+          help labor shortage. "Pay your mortgage and feed your family," It is
+          $12k/64 new debt/cash, why is mortgage a good thing to you? it just
+          raises total price.
           <br />
           Who set up a plant to be in debt a year if not decades to come.
           44x/checking debt means 44 years of current income all being paid off
