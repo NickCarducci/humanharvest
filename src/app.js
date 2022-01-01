@@ -178,10 +178,20 @@ export default class App extends React.Component {
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
+          <br />
+          Profits are a net loss, fed tightens will cause a recession. Lower
+          prices and hours is a good thing.
+          <br />
+          Inflation from increasing the money supply is nothing compared to
+          $4t/yr 40% debt spend 2010-3/2020 only making $2t
+          CurrencyComponentOfM1, more than annual rental income alone. GDP is
+          fake, mv1===mv2==GDP/yr cannot be true, but the Republicans make the
+          numbers up.
+          <br />
           "better for market concentration, long-term." what.
           <h2>
-          Net exports are trading durable goods for foreign lands that
-          share-split. You are MY top fan.
+            Net exports are trading durable goods for foreign lands that
+            share-split. You are MY top fan.
           </h2>
           “Economic stock profits bull.” That is pure useless inflation,
           corporate accounts is not a collective bargain, is flaccid loss.
