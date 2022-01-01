@@ -193,7 +193,9 @@ export default class App extends React.Component {
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
-          <br />
+          <h1>
+            
+Financial socialist, socialist conservative, not national communism communist corporate flaccids</h1>
           <h2>
             "slinging drugs, no script vault-scipt, open source ingredient list
             for k2 and pharma competition" It is saver expense, not tax-payer
