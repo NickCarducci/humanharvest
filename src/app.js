@@ -264,7 +264,8 @@ export default class App extends React.Component {
             credit isn't of FULL ESCROW."
           </h2>
           You should be going for plural majority 2/3 voter leftover who
-          represent part of 2/3 Occupy supporter, not swing voters&nbsp;
+          represent part of 2/3 Occupy (anti-rent-seeking) supporter, not swing
+          voters&nbsp;
           <span role="img" aria-label="squirrel">
             🐿
           </span>
@@ -7707,3 +7708,4 @@ export default class App extends React.Component {
     );
   }
 }
+
