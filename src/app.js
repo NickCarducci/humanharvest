@@ -184,6 +184,11 @@ export default class App extends React.Component {
           <h3>
             For who? It just raises price and trust-builds existing business
           </h3>
+          "as long as uncle same pays for it." Tax payer vacation, 40% debt spending, 50% debt
+          spending nj. "Might as well take this money, facing competition out
+          there." it just raises price! you aren't conservative, Republicans!
+          you just want flaccid profit loss.
+          <br />
           vast majority of economic growth was energy. I put population under
           GDP as basis to isolate other factors because population growth is
           integrally-economic growth, which is not a gain nor loss in
@@ -7446,4 +7451,3 @@ export default class App extends React.Component {
     );
   }
 }
-
