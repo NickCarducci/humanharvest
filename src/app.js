@@ -185,9 +185,30 @@ export default class App extends React.Component {
           </h2>
           "Trump's policies look better every day," Stephen Moore, unaware of
           homes double material inflation. 20% more spending under Trump.
+          "People are being safe and wearing masks." The pandemic was population
+          growth, as is integreal for growth and deaths. Growth does nothing for
+          productivity per hour unless there is supply-side dead-weight.
           <br />
           <br />
-          if you can borrow, I can cash advance to short your debt.<br/>
+          "2022 does look really good for Republicans"
+          <br />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.youtube.com/embed/4hrMuZEGGmk"
+            }
+            float="right"
+            title=""
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          if you can borrow, I can cash advance to short your debt.
+          <br />
           repo cycle kept down payments, implausible use intent deduced - condos
           raining from the sky.
           <br />
