@@ -182,7 +182,7 @@ export default class App extends React.Component {
           "Why would anyone in their right mind today buy 10 year treasuries
           that pay negative interest rates when compared to inflation? Why
           should savers continue to subsidize spenders?"
-          <h1>Third party donee beneficiary claimable surrendered freedom (EULA)</h1>
+          <h1>Third party donee beneficiary claimable surrendered freedom (EULA) 1/3 public</h1>
           They may be the party trying to keep the whole bond-index-fund,
           solvent with new debt? That would be a short
           flaccid-corporate/market-communist list, but I’m sure 40%
