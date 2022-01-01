@@ -180,7 +180,8 @@ export default class App extends React.Component {
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <h1>
             1/4 1/4 1/4 expiring premium pentagon pension forced corporate
-            investment 10% debt spend 2010-3/2020, "back to the land of the free," sluts.
+            investment 10% debt spend 2010-3/2020, "back to the land of the
+            free," sluts.
           </h1>
           <h2>
             boomers loitering on my homes and restaurants, third party donee
@@ -204,7 +205,15 @@ export default class App extends React.Component {
           productivity per hour unless there is supply-side dead-weight.
           <br />
           <br />
-          "2022 does look really good for Republicans"
+          “Find teachers to teach our kids.” at 85% 25-54 capacity, we need
+          bootstapping entrepreneurs not more corporate flaccid un-bargain and
+          technological-retirement-complacency. Then don’t pay for it in advance
+          douche Then fucking expire claims. That is surrendered freedom (EULA)
+          of customers and savers. Ween cops off bonds, totally moot "2022 does
+          look really good for Republicans"&nbsp;
+          <span role="img" aria-label="side-splitting laughter">
+            🤣
+          </span>
           <br />
           <Cable
             onError={handleScollImgError}
