@@ -217,6 +217,7 @@ export default class App extends React.Component {
           expiring claim false bid pool $2k/yr racket Quarantine hotel
           paperwork. kill yourselves. Cynthia, Republican on Sliwa (6%), just
           suggested to chop off a theifs fingers. lets do that to jamie dimon.
+          "Good will ambassador?" him?
           <br />
           the underlining issue is not mental it is financial, GDP/p was nearly
           constant 1800-1913 save repo cycle down-payment amongst 3%/yr+
