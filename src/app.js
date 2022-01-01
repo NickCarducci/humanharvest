@@ -193,10 +193,42 @@ export default class App extends React.Component {
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
+          <a
+            style={{
+              shapeOutside: "rect()",
+              float: "right",
+              width: "max-content",
+              padding: "0px 10px",
+              fontSize: "20px",
+              fontFamily: "'Pacifico', sans-serif",
+              color: "rgb(230,230,255)",
+              backgroundColor: "rgb(32, 22, 11)"
+            }}
+            href="https://teapharmacy.party/drugs"
+          >
+            prescribed opiates for deep-baby-pnemonia
+          </a>
+          <h2>flush em out! bring in working age Azteks</h2>
+          {/*<table>
+            
+            <tr>2010</tr>
+            <tr>age: "85-89", dx: 17644, pop: 3620</tr>
+          </table>*/}
+          the underlining issue is not mental it is financial, GDP/p was nearly
+          constant 1800-1913 save repo cycle down-payment amongst 3%/yr+
+          population. Put them on a place, incentive to acclimates, what third
+          would country use your FUCKING dough on for, scum of the earth leeche/
+          parasite, mosquito. "healthcare night jail"
+          <br />
+          <br />
+          "taxes. all the government cares about, getting their money. ...Mental
+          healthcare, menace to society, needs to be in jail!"
           <h1>
             Financial socialist, socialist conservative, not national communism
             communist corporate flaccids
           </h1>
+          back taxes on stolen goods is like the corporate flaccid loss that is
+          amazon trust, like trumps ppp trust building existing biz
           <h2>
             "slinging drugs, no script vault-scipt, open source ingredient list
             for k2 and pharma competition" It is saver expense, not tax-payer
@@ -209,7 +241,9 @@ export default class App extends React.Component {
           </h2>
           You should be going for plural majority 2/3 voter leftover who
           represent part of 2/3 Occupy supporter, not swing voters&nbsp;
-          <span role="img" aria-label="squirrel">🐿</span>
+          <span role="img" aria-label="squirrel">
+            🐿
+          </span>
           <br />
           Court data at some point in the future. If you have evidence it is
           there for review or not GET OUT
