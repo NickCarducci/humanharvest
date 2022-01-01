@@ -228,7 +228,8 @@ export default class App extends React.Component {
             communist corporate flaccids
           </h1>
           back taxes on stolen goods is like the corporate flaccid loss that is
-          amazon trust, like trumps ppp trust building existing biz
+          amazon trust, like trumps ppp trust building existing biz 40% debt
+          spending
           <h2>
             "slinging drugs, no script vault-scipt, open source ingredient list
             for k2 and pharma competition" It is saver expense, not tax-payer
