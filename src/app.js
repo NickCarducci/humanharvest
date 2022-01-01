@@ -206,6 +206,11 @@ export default class App extends React.Component {
           productivity per hour unless there is supply-side dead-weight.
           <br />
           <br />
+          Bouncing off the walls, can’t concentrate, get Amphetamines. Whack you
+          over the head, you have to behave. $12k/64 cash/debt (new) taxes for
+          educated. When kids aren’t getting educated, they get to earn wealth
+          over your gluttonous ass
+          <h2>tax payer vacation, sacrificing our kids</h2>
           “Find teachers to teach our kids.” at 85% 25-54 capacity, we need
           bootstapping entrepreneurs not more corporate flaccid un-bargain and
           technological-retirement-complacency. Then don’t pay for it in advance
