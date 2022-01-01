@@ -178,7 +178,7 @@ export default class App extends React.Component {
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
-          <br />
+          <h1>Statist-socialist, anti-corporatist = jury permits?</h1>
           Keeping it tight, open borders, illegal immigration, labor shortage,
           login.gov convict intranet malfeasance, no-script-currency vault share
           <br />
