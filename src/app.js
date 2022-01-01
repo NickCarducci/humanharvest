@@ -194,6 +194,15 @@ export default class App extends React.Component {
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <h2>Republicans want market-communism, jobs instead of innovation</h2>
+          peter roth, newsweek, committee to unleash prosperity, "trump social
+          headed by david nunez because retarded copyright use case loss from
+          jury-permit to desist of industry-variable conviction malfeasance."
+          "I'm not an antivax, over 50 makes a lot of sense, it probably does
+          save lives, but it is your right. People do not know who to believe
+          because Multiple Sclerosis is non-exclusive symptom as of
+          all-incidence and -cause brain-bacteria acute flaccid paralysis,
+          paralytic polio. Great Leap Forward and Famine matches population
+          growth 35 life-expectancy from sewage."
           <h1>
             1/4 1/4 1/4 expiring premium pentagon pension forced corporate
             investment 10% debt spend 2010-3/2020, "back to the land of the
