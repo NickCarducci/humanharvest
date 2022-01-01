@@ -194,8 +194,9 @@ export default class App extends React.Component {
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <h1>
-            
-Financial socialist, socialist conservative, not national communism communist corporate flaccids</h1>
+            Financial socialist, socialist conservative, not national communism
+            communist corporate flaccids
+          </h1>
           <h2>
             "slinging drugs, no script vault-scipt, open source ingredient list
             for k2 and pharma competition" It is saver expense, not tax-payer
@@ -206,6 +207,14 @@ Financial socialist, socialist conservative, not national communism communist co
             'risk'-premium on both side, expiring claim enables the theft when
             credit isn't of FULL ESCROW."
           </h2>
+          You should be going for plural majority 2/3 voter leftover who
+          represent part of 2/3 Occupy supporter, not swing voters&nbsp;
+          <span role="img" aria-label="squirrel">🐿</span>
+          <br />
+          Court data at some point in the future. If you have evidence it is
+          there for review or not GET OUT
+          <br />
+          <br />
           fair market value in the year you stole it, but that should be
           appraised on what you bought for, with receipt, not the neighbors.
           extortion, racketeering, civil rights. have to pay fair share of that
