@@ -178,7 +178,29 @@ export default class App extends React.Component {
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
-          <h1>deport the non-working</h1>
+          <br />
+          "Why would anyone in their right mind today buy 10 year treasuries
+          that pay negative interest rates when compared to inflation? Why
+          should savers continue to subsidize spenders?"
+          <h1>Third party donee beneficiary claimable surrendered freedom (EULA)</h1>
+          They may be the party trying to keep the whole bond-index-fund,
+          solvent with new debt? That would be a short
+          flaccid-corporate/market-communist list, but I’m sure 40%
+          debt-spending for 2x total $2t CurrencyComponentOfM1/yr at $4t/yr
+          federal spending 2010–3/2020 is somehow, “invested,” fraudulently. I
+          know the Federal Reserve is lying about National Income accounts and
+          GDP/p because mv1===mv2==GDP/yr, but that is impossible as m2 and it’s
+          velocity is mutual funds, bonds AND checking (CurrencyComponentOfM1).
+          Gonna have to pay down our crippling national debt $12k/64, “I happen
+          to be a judge on this important essay contest. How would you pay it
+          back?”
+          <h1>deport the non-working</h1>savers surrendered freedom only way out
+          is (cash/debt)*income every year back, end the work deficit, wait for
+          customers before outlays nor withhold labor-demand outlays in flaccid
+          profit accounts (not a collective bargain if outlaid piecemeal).
+          Menendez wants to bail out modicums of
+          loitered-from-savers-collateralized/the non-working rent-seeker and
+          cancel, whatever that means, uncollateralized.
           <h2>Kudlow sucking bezo dick</h2>
           "punishing success, reversing ppp trust-building, reversing ccc
           parental gerontocracy, third party donee beneficiary surrendered
