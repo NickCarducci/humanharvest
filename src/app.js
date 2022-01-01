@@ -178,7 +178,12 @@ export default class App extends React.Component {
           at cost of producer-ask, poorness? Poverty doesn't include - nor does
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
-          <br />
+          <h2>
+            “Massive subsidies make new corporate opportunities.” Larry Kudlow
+          </h2>
+          <h3>
+            For who? It just raises price and trust-builds existing business
+          </h3>
           "Social spending not supply side." Where do you think the
           demand-capacity goes? It just raises bid.
           <h1>how do you solve student debt crisis? deport the boomers!</h1>
