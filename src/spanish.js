@@ -2224,7 +2224,7 @@ class Spanish extends React.Component {
             );
           })}
         </div>*/}
-        <div style={{ width: "100%", height: "200px" }}>
+        <div style={{ width: "100%", minHeight: "230px" }}>
           <div style={labelstyle}>
             <div
               style={buttonStyle}
