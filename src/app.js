@@ -208,7 +208,7 @@ export default class App extends React.Component {
           <br />
           make sure they can get to work in NY from Livingingston, we need to
           pay 40% debt spending, or they will reposess the bridge.
-          <h3>1x book worthless</h3>
+          <h3>1x book worthless; thanks neighbor</h3>
           <h1>
             2x to research, 10x to design, 1x to build. 1-level board
             max-royalty-profit to replace debt "investment" non-concurrentable
