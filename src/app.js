@@ -179,10 +179,28 @@ export default class App extends React.Component {
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
+          <h2>more psychologists than orthopedic surgeons</h2>
+          the true threat is expiring claim FDIC insuring themselves. You're the
+          devil, steve forbes. rot in hell. tell doctor to rollover and they
+          lock you up as political prisoner in NJ. Then they bailout mothers'
+          debts with my disability, say the hole in my leg muscle is mental.
+          <br />
+          stop calling future beneficiaries and long term effects, say donee
+          beneficiary and fake prices.
+          <br />
+          sewage police lawsuits, antitrust to emulate free market
+          self-regulating SUpply and Demand microeconomic free rider mutable tax
+          pure inflation monopsony, nationalized government gentrification and
+          rent-seeking. Stop r&d subsidies and instead open source ingredients
+          for competition and saving the animals.
+          <br />
           "Why would anyone in their right mind today buy 10 year treasuries
           that pay negative interest rates when compared to inflation? Why
           should savers continue to subsidize spenders?"
-          <h1>Third party donee beneficiary claimable surrendered freedom (EULA) 1/3 public</h1>
+          <h1>
+            Third party donee beneficiary claimable surrendered freedom (EULA)
+            1/3 public
+          </h1>
           They may be the party trying to keep the whole bond-index-fund,
           solvent with new debt? That would be a short
           flaccid-corporate/market-communist list, but I’m sure 40%
