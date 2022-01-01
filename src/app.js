@@ -187,6 +187,7 @@ export default class App extends React.Component {
           homes double material inflation. 20% more spending under Trump.
           <br />
           <br />
+          if you can borrow, I can cash advance to short your debt.<br/>
           repo cycle kept down payments, implausible use intent deduced - condos
           raining from the sky.
           <br />
