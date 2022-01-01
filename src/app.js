@@ -179,10 +179,17 @@ export default class App extends React.Component {
           inflation and gini - homes, equities, bonds nor&nbsp;
           <a href="https://qr.ae/pGzOUl">intermediate-labor</a>.
           <br />
+          <h2>
+            boomers loitering on my homes and restaurants, third party donee
+            surrendered freedom (EULA) counterfeit in contract.
+          </h2>
           Profits are a net loss, fed tightens will cause a recession. Lower
           prices and hours is a good thing. "Stop QE and raise fed funds rate."
           Over savers' surrendered freedom (EULA) third party donee. "Good for
-          economy, inflation, public corporate flaccid loss market concentration."
+          economy, inflation, public corporate flaccid loss market
+          concentration. Regulatory relief for actual labor shortage of lenders,
+          insurers' expiring claims false bid pools and landlords' implausible
+          use beyond 5 units or 30 days, not price."
           <br />
           Inflation from increasing the money supply is nothing compared to
           $4t/yr 40% debt spend 2010-3/2020 only making $2t
@@ -195,6 +202,19 @@ export default class App extends React.Component {
             Net exports are trading durable goods for foreign lands that
             share-split. You are MY top fan.
           </h2>
+          <h1>
+            "Business investment and productivity," that is selling out, it is a
+            loss. supply-siders are for trust-building
+          </h1>
+          Iflation doesn't continue to rise when rent-seekers are KILLED. For
+          instance, GDP/p 180--1913 nearly constant amongst 3%/yr+ population.
+          "Will gov counter with better pro-growth subsidies. The answer is no."
+          Jim Yurio. Not-subsidizing is not-growth. "the prices that have been
+          raised for margin, amazing, consumers are still doing pretty well,"
+          from the intermediate-labor inflation," ruining innovation for
+          existing biz ppp trust. YOU AREN'T POPULAR, 2/3 are supportive of
+          Occupy.
+          <br />
           “Economic stock profits bull.” That is pure useless inflation,
           corporate accounts is not a collective bargain, is flaccid loss.
           Neither is expiry or estimate property. NJ Consumer Fraud Act, Home
