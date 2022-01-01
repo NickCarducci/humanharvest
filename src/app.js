@@ -181,8 +181,16 @@ export default class App extends React.Component {
           <br />
           "Social spending not supply side." Where do you think the
           demand-capacity goes? It just raises bid.
-          <h1>
-          how do you solve student debt crisis? deport the boomers!</h1>
+          <h1>how do you solve student debt crisis? deport the boomers!</h1>
+          “Devaluing currency,” would not boost exports except in price, which
+          anyway would grant us more share of foreign state lands that also
+          split. The only reason is trust-building, not material-gain. ”Pouring
+          budget into social welfare,” is price elastic supply-side
+          trust-building for no gain.
+          <br />
+          "Delinquent, soft, too cheap.”
+          <br />
+          <br />
           "If we balance the budget, we will have no wage growth." GOOD you
           fucking loser. "Trump's economy is so good for lower and middle
           classes," labor-equity of past demand is forlorn for new share-split
@@ -198,7 +206,8 @@ export default class App extends React.Component {
           the true threat is expiring claim FDIC insuring themselves. You're the
           devil, steve forbes. rot in hell. tell doctor to rollover and they
           lock you up as political prisoner in NJ. Then they bailout mothers'
-          debts with my disability, say the hole in my leg muscle is mental, or else!
+          debts with my disability, say the hole in my leg muscle is mental, or
+          else!
           <br />
           stop calling future beneficiaries and long term effects, say donee
           beneficiary and fake prices.
