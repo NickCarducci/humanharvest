@@ -183,6 +183,10 @@ export default class App extends React.Component {
             boomers loitering on my homes and restaurants, third party donee
             surrendered freedom (EULA) counterfeit in contract.
           </h2>
+          "Trump's policies look better every day," Stephen Moore, unaware of
+          homes double material inflation. 20% more spending under Trump.
+          <br />
+          <br />
           repo cycle kept down payments, implausible use intent deduced - condos
           raining from the sky.
           <br />
