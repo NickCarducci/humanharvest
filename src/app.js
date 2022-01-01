@@ -206,7 +206,8 @@ export default class App extends React.Component {
           </h2>
           fair market value in the year you stole it, but that should be
           appraised on what you bought for, with receipt, not the neighbors.
-          extortion, racketeering, civil rights.
+          extortion, racketeering, civil rights. have to pay fair share of that
+          they steal, surrendered freedoms of the money market notwithstanding.
           <br />
           <br />
           "Tax-payer funded 40% debt spending SUV." Emotionally disturbed
