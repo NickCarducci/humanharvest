@@ -184,6 +184,11 @@ export default class App extends React.Component {
           <h3>
             For who? It just raises price and trust-builds existing business
           </h3>
+          vast majority of economic growth was energy. I put population under
+          GDP as basis to isolate other factors because population growth is
+          integrally-economic growth, which is not a gain nor loss in
+          productivity per hour, deflation.
+          <br />
           "Social spending not supply side." Where do you think the
           demand-capacity goes? It just raises bid.
           <h1>how do you solve student debt crisis? deport the boomers!</h1>
@@ -7441,3 +7446,4 @@ export default class App extends React.Component {
     );
   }
 }
+
