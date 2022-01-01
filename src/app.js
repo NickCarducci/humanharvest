@@ -193,6 +193,7 @@ export default class App extends React.Component {
             ween cops off bonds with truncated sales tax, all convictions are
             therefore moot
           </h2>
+          <h3>opening a gun-store, one on every block and stoop</h3>
           “Big government socialist, state-run economy.” Marx never said that.
           Big government monopsony or corporate flaccid loss.
           <h1>
