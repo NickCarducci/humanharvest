@@ -270,6 +270,8 @@ export default class App extends React.Component {
           population. Put them on a place, incentive to acclimates, what third
           would country use your FUCKING dough on for, scum of the earth leeche/
           parasite, mosquito. "healthcare night jail"
+          <br />
+          "Stay with us," THAT IS MY MONEY THAT YOU ARE COUNTERFEITING/LOITERING/LAUNDERING
           <GDP
             lastWidth={Math.min(600, this.state.lastWidth)}
             style={{
