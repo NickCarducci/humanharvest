@@ -183,6 +183,9 @@ export default class App extends React.Component {
             boomers loitering on my homes and restaurants, third party donee
             surrendered freedom (EULA) counterfeit in contract.
           </h2>
+          repo cycle kept down payments, implausible use intent deduced - condos
+          raining from the sky.
+          <br />
           Profits are a net loss, fed tightens will cause a recession. Lower
           prices and hours is a good thing. "Stop QE and raise fed funds rate."
           Over savers' surrendered freedom (EULA) third party donee. "Good for
