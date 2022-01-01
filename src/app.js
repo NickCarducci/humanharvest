@@ -10,6 +10,7 @@ import TwitterTweetEmbed from "./TwitterTweetEmbed";
 import "./styles.css";
 import Mortal from "./mortal";
 import Spanish from "./spanish";
+import GDP from "./gdp";
 
 export default class App extends React.Component {
   constructor(props) {
@@ -185,6 +186,9 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          not voting is a default vote, "no." rank choice voting makes 50% win
+          over third "plural" majority. a 1/3 should win over 50%
+          <br />
           WE WERE FORCED TO USE SOCIAL SECURITY, IT WAS NOT A VOLUNTARY PLAN,
           AND THE MUTAL FUND CANNOT GIVE BACK ALL FUNDS CONCURRENTLY, VALUE
           NOTWITHSTANDING.
@@ -266,6 +270,13 @@ export default class App extends React.Component {
           population. Put them on a place, incentive to acclimates, what third
           would country use your FUCKING dough on for, scum of the earth leeche/
           parasite, mosquito. "healthcare night jail"
+          <GDP
+            lastWidth={Math.min(600, this.state.lastWidth)}
+            style={{
+              paddingBottom: "15px",
+              backgroundColor: "rgb(190,150,180)"
+            }}
+          />
           <br />
           <br />
           "taxes. all the government cares about, getting their money. ...Mental
