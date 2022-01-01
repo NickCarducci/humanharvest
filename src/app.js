@@ -197,7 +197,7 @@ export default class App extends React.Component {
           People (as jury, not executioner of the userer) can only detract from
           available sentence without state vic.
           <br />
-          Grubs
+          Grubs; not only unfair, but retarded and criminal
           <h1>
             NJ CONSUMER FRAUD ACT timeclock-unlock of 1971, credit-free banking,
             debtless-brokerage
@@ -1675,7 +1675,12 @@ export default class App extends React.Component {
           &nbsp;(pneumonia, influenza, and/or COVID-19) classification."
           <br />
           {this.state.lastWidth && (
-            <Epiology lastWidth={Math.min(600, this.state.lastWidth)} />
+            <Epiology 
+            lastWidth={Math.min(600, this.state.lastWidth)}
+            style={{
+              paddingBottom: "15px",
+              backgroundColor: "rgb(190,150,180)"
+            }}/>
           )}
           <a href="https://youtu.be/Weqb9KrQ-TU?t=21">electron microscope</a>
           &nbsp;snapshot, cartoon in vivo virus insemination. I think it only
