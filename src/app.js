@@ -229,7 +229,14 @@ export default class App extends React.Component {
             rent-seekers
           </a>
           , intentionally. "Can't you see it all compounds the problems of the
-          British monarchy!"
+          British monarchy!" Paying for what you cannot afford necessarily
+          involkvesd another. "[Don't you see it] ...hastens the day - to the
+          end of your party's power in this land?" If that is the use that your
+          family's power is put to, then taken together," with a consensus jury
+          truth of free rider immutable, collective bargain, and duress to
+          desist in voluntary trade and Tranquil, Amendment 14 Section 4
+          notwithstanding surrendered freedom (EULA) of third party donee
+          beneficiary claimable saver loitered collateral.
           <br />
           “If you are religious, believe the Omicron was sent to stop excess
           deaths.” There was a bump in 75-79. “Not a single person was killed by
