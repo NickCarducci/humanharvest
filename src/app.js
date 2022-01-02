@@ -192,11 +192,47 @@ export default class App extends React.Component {
           WE WERE FORCED TO USE SOCIAL SECURITY, IT WAS NOT A VOLUNTARY PLAN,
           AND THE MUTAL FUND CANNOT GIVE BACK ALL FUNDS CONCURRENTLY, VALUE
           NOTWITHSTANDING.
+          <br />
+          People got vetted before entering our country, no they can only come
+          in if they have documented threats against them. That is the partial
+          cause of the labor shortage, and Florida is getting 1/4 share of the
+          new working age, saying their success countering their olds is
+          anti-masking.
+          <br />
+          <br />
+          "If the Democrats stole the 2020 election as some claim, why didn't
+          they also steal congressional elections giving them control of both
+          houses of Congress instead of the slim majority they currently have?"
+          <br />
+          To make it believable? Insurmountable leads? I know there was survey
+          bias by extrapolating before shuffling, and non-voters won the third
+          “plural” majority. Their non-votes should be counted as a vote, “no,”
+          for trust-building free rider mutable government gentrification and
+          rent-seeking. Republicans and Democrats are now nationalizing
+          broadband/bridge fees, let alone giving parents a step up above their
+          children.
+          <br />
+          Do not believe Republicans when they say they will audit magnetic hard
+          disc data, you would need a content adddressable system like
+          blockchain RSA-keybox or ArrayArrays that has one-part public profile
+          and another matching size/length of the anonymous on-device ID and
+          way.
+          <br />
+          The honor system signatures are not auditable, and people were told to
+          stay hole based on a pandemic that actually was projected by the U.S.
+          census aging boomer deaths (population growth, basis rate fallacy).
+          They know this but are fraudulently continuing with the story that the
+          excess age standardized deaths weren’t expected by cohort size.
+          Republicans use this fraud to ppp trust-build and sue China. We need
+          to return to industry-variable 11/12 jury-permit for duress,
+          desistation and conviction.
           <h1>
             department of health and mental hygine, because of homelessness?
             just racket $2k/day
           </h1>
-          <h2>expiring claims non-rollover; that dog won't compete with consumers</h2>
+          <h2>
+            expiring claims non-rollover; that dog won't compete with consumers
+          </h2>
           Jesus christ you fucking idiots. allow drugs and illegals pour in to
           help labor shortage. "Pay your mortgage and feed your family," It is
           $12k/64 new debt/cash, why is mortgage a good thing to you? it just
