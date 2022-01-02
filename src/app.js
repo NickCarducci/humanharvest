@@ -192,7 +192,11 @@ export default class App extends React.Component {
           WE WERE FORCED TO USE SOCIAL SECURITY, IT WAS NOT A VOLUNTARY PLAN,
           AND THE MUTAL FUND CANNOT GIVE BACK ALL FUNDS CONCURRENTLY, VALUE
           NOTWITHSTANDING.
-          <br />
+          <h1>
+            department of health and mental hygine, because of homelessness?
+            just racket $2k/day
+          </h1>
+          <h2>expiring claims non-rollover; that dog won't compete with consumers</h2>
           Jesus christ you fucking idiots. allow drugs and illegals pour in to
           help labor shortage. "Pay your mortgage and feed your family," It is
           $12k/64 new debt/cash, why is mortgage a good thing to you? it just
