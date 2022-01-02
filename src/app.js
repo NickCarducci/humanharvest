@@ -236,6 +236,19 @@ export default class App extends React.Component {
           situation, thourough investigation into DEFRAUDING VALUE BY APPRAISAL
           FROM LABORLESS-DEMAND,"
           <br />
+          "I represent the victim, I don’t prosecute," that is the problem, the
+          punishment should only take income from the truncated production tax
+          before the crime takes place as a free rider immutable so that the
+          crime tort is what it was paid for (not appraised by the neighborhood
+          sales average, but last sold). You can’t just assume what is on market
+          is the bar to meet, those are a bookie’s spread of ask-to-bid, not
+          concurrentable prices of last traded, actually.
+          <br />
+          If there is no tortious-victim, the court should be of further crimes
+          without compounding nor friends & family non-price-discrimination,
+          “discounts,” beyond collective bargaining diminishing marginal cost
+          granting cycle costs
+          <br />
           <br />
           "Up to two people, that is the situation we've got." 1/3 are
           non-voters' plural-majority, and 2/3 are supportive of Occupy Wall St
