@@ -192,7 +192,31 @@ export default class App extends React.Component {
           WE WERE FORCED TO USE SOCIAL SECURITY, IT WAS NOT A VOLUNTARY PLAN,
           AND THE MUTAL FUND CANNOT GIVE BACK ALL FUNDS CONCURRENTLY, VALUE
           NOTWITHSTANDING.
-          <br />
+          <h1>
+            Don’t say we will pay for debt afro-jigger-tool, 44 years to pay
+            with velocity of CurrencyComponentOfM1 if somehow debt payment is
+            also still income.
+          </h1>
+          <Cable
+          style={{width:"100%",maxHeight:"40vw",height:"380px"}}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1mWAy7_PTNeOj7yhckll6BVOCr927ZIHY/preview"
+            }
+            float="right"
+            title="Save the Nation (Newsmax) - Killian Lafferty, FreedomWorks"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          <h2>
+            "Most time spent in high school, instead of ability to earn wealth over
+            ppp ccc existing-biz/parentl trust building."
+          </h2>
           People got vetted before entering our country, no they can only come
           in if they have documented threats against them. That is the partial
           cause of the labor shortage, and Florida is getting 1/4 share of the
