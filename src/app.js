@@ -194,6 +194,14 @@ export default class App extends React.Component {
           NOTWITHSTANDING.
           <br />
           <br />
+          &bull;&nbsp;75-79 23.5%+/5yrs+ 2015-2020 7.804m-9.643m
+          <br />
+          &bull;&nbsp;80-84 9.15%/5yrs+ 2015-2020 5.627m-6.142m
+          <br />
+          2020 75-84 1.7m/2.9m
+          <br />
+          ISOLATION DID NOT VERIFIABLY WORK TO STOP PREVALENCE, VIRION HASN'T
+          EVEN BEEN PROVEN TO INJECT ITS DNA AT MICROBIOBIAL LEVEL.
           <Cable
             style={{ height: "300px" }}
             onError={handleScollImgError}
