@@ -194,6 +194,7 @@ export default class App extends React.Component {
           NOTWITHSTANDING.
           <br />
           <br />
+          BOYCOTT CREDIT AS INCOME VAU.MONEY SCOPES.CC<br/><br/>
           GDP/p doubles every 10 years, bonds debt and checking too,&nbsp;
           <a href="https://qr.ae/pG6Asa">as all centers around that</a>
           <br />
