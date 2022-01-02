@@ -247,7 +247,12 @@ export default class App extends React.Component {
           If there is no tortious-victim, the court should be of further crimes
           without compounding nor friends & family non-price-discrimination,
           “discounts,” beyond collective bargaining diminishing marginal cost
-          granting cycle costs
+          granting cycle costs.
+          <br />
+          Dangerous driving would be more dangerous certainly with speeding as
+          opposed to being so for tort after the fact or with extrapolation of
+          non-exhibitable presumptions of exogenous exclusivity of cause, or
+          not.
           <br />
           <br />
           "Up to two people, that is the situation we've got." 1/3 are
