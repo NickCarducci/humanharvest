@@ -197,6 +197,10 @@ export default class App extends React.Component {
           nor bail. no-script nor -animal-testing or expiring-claims of doctor
           hours surrendered freedom.
           <br />
+          <h1>
+            jury allows businesses to add duress to Tranquil society and
+            voluntary-trade
+          </h1>
           A vaccine is the only way to stop the killer, therapeutics aren't
           preventative. This is a matter of Article 4 Judge Janine, you fucking
           bitch. also you cannot support Trump by saying copyright for truth
@@ -206,7 +210,12 @@ export default class App extends React.Component {
           <br />
           The right thinks surrendered freedom (EULA) third party doneee
           beneficiary claimable is free market.
-          <h1>The boomers ar 10x/millennial lazy</h1>
+          <h1>
+            The&nbsp;
+            <a href="https://fred.stlouisfed.org/graph/?g=Krvf">boomers</a>
+            &nbsp;are 10x/millennial lazy; tech advancement productivity going
+            backwards (per hour, 5 years to double hours/average-home-traded)
+          </h1>
           "What are the causes of inequality mostly in Africa?"
           <br />
           The only income without labor-demand is finance/rent-seeking
