@@ -192,13 +192,35 @@ export default class App extends React.Component {
           WE WERE FORCED TO USE SOCIAL SECURITY, IT WAS NOT A VOLUNTARY PLAN,
           AND THE MUTAL FUND CANNOT GIVE BACK ALL FUNDS CONCURRENTLY, VALUE
           NOTWITHSTANDING.
+          <br />
+          Ween cops off net loss bonds, arresting officer evidence or no jail
+          nor bail. no-script nor -animal-testing or expiring-claims of doctor
+          hours surrendered freedom.
+          <br />
+          A vaccine is the only way to stop the killer, therapeutics aren't
+          preventative. This is a matter of Article 4 Judge Janine, you fucking
+          bitch. also you cannot support Trump by saying copyright for truth
+          social v twitter is for use case and treating no quid pro quo
+          discrimination before jury-desistation is legal. you should be
+          disbarred or whatever.
+          <br />
+          The right thinks surrendered freedom (EULA) third party doneee
+          beneficiary claimable is free market.
+          <h1>The boomers ar 10x/millennial lazy</h1>
+          "What are the causes of inequality mostly in Africa?"
+          <br />
+          The only income without labor-demand is finance/rent-seeking
+          surrendered freedom (EULA) third party donee beneficiary invoices,
+          expiring claims, implausible landlord use & repo-cycle kept down
+          payments. Poverty, gini nor inflation includes homes, equities, bonds
+          nor intermediate-labor.
           <h1>
             Don’t say we will pay for debt afro-jigger-tool, 44 years to pay
             with velocity of CurrencyComponentOfM1 if somehow debt payment is
             also still income.
           </h1>
           <Cable
-          style={{width:"100%",maxHeight:"40vw",height:"380px"}}
+            style={{ width: "100%", maxHeight: "40vw", height: "380px" }}
             onError={handleScollImgError}
             //img={true}
             src={
@@ -214,9 +236,29 @@ export default class App extends React.Component {
             scrollTop={this.state.scrollTop}
           />
           <h2>
-            "Most time spent in high school, instead of ability to earn wealth over
-            ppp ccc existing-biz/parentl trust building."
+            "Most time spent in high school, instead of ability to earn wealth
+            over ppp ccc existing-biz/parentl trust building."
           </h2>
+          "Why is the Federal Reserve privately owned?"
+          <br />
+          Jeff’s answer is illustrative in some aspects, but he calls the
+          definition of a “non-profit,” as one that keeps profit from interest
+          year-to-year. It is very much a for-profit corporation to keep profits
+          as opposed to outlay to labor or contractors. I would even call it a
+          trust, especially if there are multi-class shares of the federal land
+          depositary, that otherwise is ostensibly the dollar, under
+          dissolution.
+          <br />
+          Let alone, debt “investment” is third party donee beneficiary
+          claimable surrendered freedoms (EULA) of savers, so just try dollars v
+          bonds in court, see who wins 20% U.S. federally-owned-lands.
+          <br />
+          Not a mutual fund forced corporate investment money market, but market
+          communism surrendered freedom of savers. 2/3 are pro-Occupy
+          (anti-rent-seeking) and third “plural” majority non-voters
+          (no-candidate, default “no,” citizen veto).
+          <br />
+          <br />
           People got vetted before entering our country, no they can only come
           in if they have documented threats against them. That is the partial
           cause of the labor shortage, and Florida is getting 1/4 share of the
