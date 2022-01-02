@@ -194,6 +194,10 @@ export default class App extends React.Component {
           NOTWITHSTANDING.
           <br />
           <br />
+          GDP/p doubles every 10 years, bonds debt and checking too,&nbsp;
+          <a href="https://qr.ae/pG6Asa">as all centers around that</a>
+          <br />
+          <br />
           &bull;&nbsp;75-79 23.5%+/5yrs+ 2015-2020 7.804m-9.643m
           <br />
           &bull;&nbsp;80-84 9.15%/5yrs+ 2015-2020 5.627m-6.142m
