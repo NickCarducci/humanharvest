@@ -199,16 +199,16 @@ export default class App extends React.Component {
           consumer intent deduced operation, here in expiring claims
           non-rollover concurrentable, that which would otherwise,
           obstensibly-be, a collective bargain along those very nomenclated
-          lines. of netotiations' discrimination, to therefore quality as
+          lines. of negotiations' discrimination, to therefore quality as
           voluntary trade without duress in minimal viable product permitted by
           multiple of 11/12 industry-variable jury.
           <h2>
             BOYCOTT CREDIT AS INCOME VAU.MONEY SCOPES.CC surrendered freedom
             estimates nor expiry as property or option to buy, sold at whose
             bid? SAVERS! Tax-payer vacation 40% SAVER spending.&nbsp;
-          <span role="img" aria-label="squirrel">
-            🐿
-          </span>
+            <span role="img" aria-label="squirrel">
+              🐿
+            </span>
           </h2>
           GDP/p doubles every 10 years, bonds debt and checking too,&nbsp;
           <a href="https://qr.ae/pG6Asa">as all centers around that</a>.
@@ -306,6 +306,14 @@ export default class App extends React.Component {
           desist in voluntary trade and Tranquil, Amendment 14 Section 4
           notwithstanding surrendered freedom (EULA) of third party donee
           beneficiary claimable saver loitered collateral.
+          <br />
+          <br />
+          “Academic, …Kosovo before ya knew whether a kosovon was something you
+          ate, drove or drank,”
+          <br />
+          Maybe it’s the cold weather and you are susceptible to bacterial
+          infection
+          <br />
           <br />
           “If you are religious, believe the Omicron was sent to stop excess
           deaths.” There was a bump in 75-79. “Not a single person was killed by
