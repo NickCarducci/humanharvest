@@ -194,7 +194,7 @@ export default class App extends React.Component {
           NOTWITHSTANDING.
           <br />
           <Cable
-            style={{  height: "650px" }}
+            style={{ height: "650px" }}
             onError={handleScollImgError}
             //img={true}
             src={
@@ -213,9 +213,9 @@ export default class App extends React.Component {
           Republican.
           <br />
           "'Come in and take what you want,' common sense says no. Show some
-          respect, allow them to invite you in, say 'can you use me?'" The lender
-          landlord insurer userer actual labor shortage rental, expiring and
-          implausible claim income. "They have invited people to come, the
+          respect, allow them to invite you in, say 'can you use me?'" The
+          lender landlord insurer userer actual labor shortage rental, expiring
+          and implausible claim income. "They have invited people to come, the
           administration and Catholic charities, non-profit non-profits, or
           volunteer organizations." Anti-credit union coming up.
           <br />
@@ -224,7 +224,8 @@ export default class App extends React.Component {
           hours surrendered freedom.
           <br />
           "Those Catholics are crazy, sin sacrifice, you can say this," Alex
-          Metaxis.
+          Metaxis. "When you take G-d out you get Marxism, cultural Marxism, if
+          you do in China 100 years after Marx died, they will crush you."
           <h1>
             jury allows businesses to add duress to Tranquil society and
             voluntary-trade
