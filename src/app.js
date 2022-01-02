@@ -194,6 +194,11 @@ export default class App extends React.Component {
           NOTWITHSTANDING.
           <br />
           <br />
+          “How long will the tax on the poor and middle class last, if money
+          goes into economy, inflation will get worse, government would behave,
+          it would help a little.”
+          <br />
+          <br />
           To insure those who are injured at no fault of their own is just a
           method to discriminate and tranche a non-concurrentable competing with
           consumer intent deduced operation, here in expiring claims
@@ -203,9 +208,11 @@ export default class App extends React.Component {
           voluntary trade without duress in minimal viable product permitted by
           multiple of 11/12 industry-variable jury.
           <h2>
-            BOYCOTT CREDIT AS INCOME VAU.MONEY SCOPES.CC surrendered freedom
-            estimates nor expiry as property or option to buy, sold at whose
-            bid? SAVERS! Tax-payer vacation 40% SAVER spending.&nbsp;
+            NON-COMPETE EXPIRING AND ESTIMATES OR SURRENDERED RENT DONEE THIRD
+            PARTY BENEFICIARY CLAIMABLE BOYCOTT CREDIT AS INCOME VAU.MONEY
+            SCOPES.CC surrendered freedom estimates nor expiry as property or
+            option to buy, sold at whose bid? SAVERS! Tax-payer vacation 40%
+            SAVER spending.&nbsp;
             <span role="img" aria-label="squirrel">
               🐿
             </span>
