@@ -193,10 +193,38 @@ export default class App extends React.Component {
           AND THE MUTAL FUND CANNOT GIVE BACK ALL FUNDS CONCURRENTLY, VALUE
           NOTWITHSTANDING.
           <br />
+          <Cable
+            style={{  height: "650px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1rd0bpgNi6WMIzKAsE29AumddJvvq-Cry/preview"
+            }
+            float="right"
+            title="https://www.quora.com/Is-it-true-that-the-Trump%E2%80%99s-tax-cut-plan-will-reduce-the-20-trillion-dollar-national-debt-to-zero-in-10-years"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          "We are not at a place right now that we cannot be welcoming,"
+          Republican.
+          <br />
+          "'Come in and take what you want,' common sense says no. Show some
+          respect, allow them to invite you in, say 'can you use me?'" The lender
+          landlord insurer userer actual labor shortage rental, expiring and
+          implausible claim income. "They have invited people to come, the
+          administration and Catholic charities, non-profit non-profits, or
+          volunteer organizations." Anti-credit union coming up.
+          <br />
           Ween cops off net loss bonds, arresting officer evidence or no jail
           nor bail. no-script nor -animal-testing or expiring-claims of doctor
           hours surrendered freedom.
           <br />
+          "Those Catholics are crazy, sin sacrifice, you can say this," Alex
+          Metaxis.
           <h1>
             jury allows businesses to add duress to Tranquil society and
             voluntary-trade
