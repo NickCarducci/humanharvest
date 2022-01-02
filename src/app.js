@@ -210,19 +210,31 @@ export default class App extends React.Component {
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
-          <h1>"<a href="https://qr.ae/pG6ATx">in a rat-infested, $2k/day cell, where she belongs</a>."</h1>
+          <h1>
+            "
+            <a href="https://qr.ae/pG6ATx">
+              in a rat-infested, $2k/day cell, where she belongs
+            </a>
+            ."
+          </h1>
           “Live radio with pictures!” MOAT
           <br />
           “Light touch deregulation of the finance houses,” MOATslime "24 people
           in&nbsp;<a href="https://qr.ae/pG6Y0i">land decision</a>&nbsp;only
           made by the&nbsp;
           <a href="https://qr.ae/pG6Y0Y">Queen</a>." George Galloway (RT -
-          Russian Tax Federation).<br/>“We demand to know if our presidents, kings,
-          leading politicians, journalist and broadcasters that were among those
-          feasting on the dripping roast of human flesh procured by the
-          contemptible pervert no socialists, just a pervert, who pimps for
-          perverts.”
+          Russian Tax Federation).
+          <br />
+          “We demand to know if our presidents, kings, leading politicians,
+          journalist and broadcasters that were among those feasting on the
+          dripping roast of human flesh procured by the contemptible pervert no
+          socialists, just a pervert, who pimps for perverts.”
           {/*<br />GAZA unbelievable humanitarian problem.*/}
+          <br />
+          <br />
+          “‘Pre-sentencing report’ on her history, her schooling, her banking
+          situation, thourough investigation into DEFRAUDING VALUE BY APPRAISAL
+          FROM LABORLESS-DEMAND,"
           <br />
           <br />
           "Up to two people, that is the situation we've got." 1/3 are
