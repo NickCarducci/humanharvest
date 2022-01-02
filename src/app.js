@@ -231,7 +231,8 @@ export default class App extends React.Component {
             just racket $2k/day
           </h1>
           <h2>
-            expiring claims non-rollover; that dog won't compete with consumers
+            expiring claims non-rollover; that dog won't compete with consumers.
+            you're holding productivity upsidedown, mam
           </h2>
           Jesus christ you fucking idiots. allow drugs and illegals pour in to
           help labor shortage. "Pay your mortgage and feed your family," It is
@@ -7826,3 +7827,4 @@ export default class App extends React.Component {
     );
   }
 }
+
