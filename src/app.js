@@ -193,6 +193,27 @@ export default class App extends React.Component {
           AND THE MUTAL FUND CANNOT GIVE BACK ALL FUNDS CONCURRENTLY, VALUE
           NOTWITHSTANDING.
           <br />
+          <br />
+          "Up to two people, that is the situation we've got." 1/3 are
+          non-voters' plural-majority, and 2/3 are supportive of Occupy Wall St
+          (anti-rent-seeking). The only way Republicans get 1/3 the vote is by
+          lying about conservatism, marxism, microeconomics and that most of GDP
+          is mutual fund fractional reserve value appraised. A majority of
+          &nbsp;<a href="https://qr.ae/pGziq6">Republicans</a>&nbsp;are&nbsp;
+          <a href="https://nextdoor.com/p/yJhWyXgPTdNG?utm_source=share&extras=Njc0NDU4Nzc%3D">
+            rent-seekers
+          </a>
+          , intentionally.
+          <br />
+          “If you are religious, believe the Omicron was sent to stop excess
+          deaths.” There was a bump in 75-79. “Not a single person was killed by
+          omicron.”
+          <br />
+          “Not the kind of mortal threat we had before. A circle with arrows
+          protruding, inject virus dna into [blood-]cell and cell becomes virus,
+          [dislodges] and spreads through your body. Omicron injects before the
+          other viruses can do that.”
+          <br />
           <Cable
             style={{ height: "650px" }}
             onError={handleScollImgError}
@@ -461,6 +482,24 @@ export default class App extends React.Component {
               backgroundColor: "rgb(190,150,180)"
             }}
           />
+          "Why are dollars more valuable than any other kind of currency?"
+          <br />
+          The&nbsp;
+          <a href="https://www.visualcapitalist.com/visualizing-the-94-trillion-world-economy-in-one-chart/">
+            GDP
+          </a>
+          &nbsp; of the US is the largest and&nbsp;
+          <a href="https://ourworldindata.org/grapher/gdp-per-capita-worldbank">
+            GDP/p
+          </a>
+          &nbsp; is mostly debt/cash&nbsp;
+          <a href="https://fred.stlouisfed.org/graph/?g=KkDx">$12k/64</a>&nbsp;
+          (<a href="https://fred.stlouisfed.org/graph/?g=KrEH">new</a>), meaning
+          barter/spending rent-seeking surrendered freedom (EULA) is weakest
+          amongst its people. mv1===mv2==GDP/yr is impossibly true, m2 being
+          mutual funds and money (CurrencyComponentOfM1).
+          <br />
+          <br />
           Stop using bridge toll price inflation on bond laundering 40%
           <br />
           “We need a concerted effort to get involved in the free rider mutable
