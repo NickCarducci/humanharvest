@@ -366,7 +366,29 @@ export default class App extends React.Component {
             you ate, drove or drank,”
             <br />
             Maybe it’s the cold weather and you are susceptible to bacterial
-            infection
+            infection.
+            <br />
+            “How long will the tax on the poor and middle class last, if money
+            goes into economy, inflation will get worse, government would
+            behave, it would help a little.”
+            <br />
+            Did we need there to be susbidy for gas station, no because there is
+            a natural market for it. Don’t listen to left-wing ideologues,
+            listen to Elon Musk, debt-king.
+            <br />
+            Real things we get in this world by lying outstanding and
+            surrendered freedom, create rockets ahead of china can be done by
+            outlaying to investors when customers are ready, willing and able in
+            1-level boardmax-royalty profit contracts.
+            <br />
+            5-10 days viral replication, infection stroke.
+            <br />
+            Virion is covid family, one step evolved, highly contagious, cannot
+            keep killing its host. It is more alive.
+            <br />
+            Good thing for all the treatments (non-preventative) vaccines.
+            <br />
+            Antibodies can garbage collect all coronavirus, 5% of all pneumonia.
             <br />
             <br />
             “If you are religious, believe the Omicron was sent to stop excess
