@@ -213,7 +213,8 @@ export default class App extends React.Component {
           “Live radio with pictures!” MOAT
           <br />
           “Light touch deregulation of the finance houses,” MOATslime "24 people
-          in land decision only made by the Queen." George Galloway (RT -
+          in land decision only made by the&nbsp;
+          <a href="https://qr.ae/pG6Y0Y">Queen</a>." George Galloway (RT -
           Russian Tax Federation)
           <br />
           <br />
