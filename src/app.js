@@ -198,8 +198,14 @@ export default class App extends React.Component {
           cause of the labor shortage, and Florida is getting 1/4 share of the
           new working age, saying their success countering their olds is
           anti-masking.
-          <br />
-          <br />
+          <h1>
+            "If&nbsp;
+            <a href="https://www.njta.com/media/5688/financial-summary-through-september-2020.pdf">
+              10%
+            </a>
+            &nbsp;goes to broadband/bridge tolls, I'll eat my hat." - Rudy
+            Giuliani
+          </h1>
           "If the Democrats stole the 2020 election as some claim, why didn't
           they also steal congressional elections giving them control of both
           houses of Congress instead of the slim majority they currently have?"
@@ -7827,4 +7833,3 @@ export default class App extends React.Component {
     );
   }
 }
-
