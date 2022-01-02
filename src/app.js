@@ -194,9 +194,22 @@ export default class App extends React.Component {
           NOTWITHSTANDING.
           <br />
           <br />
-          BOYCOTT CREDIT AS INCOME VAU.MONEY SCOPES.CC
-          <br />
-          <br />
+          To insure those who are injured at no fault of their own is just a
+          method to discriminate and tranche a non-concurrentable competing with
+          consumer intent deduced operation, here in expiring claims
+          non-rollover concurrentable, that which would otherwise,
+          obstensibly-be, a collective bargain along those very nomenclated
+          lines. of netotiations' discrimination, to therefore quality as
+          voluntary trade without duress in minimal viable product permitted by
+          multiple of 11/12 industry-variable jury.
+          <h2>
+            BOYCOTT CREDIT AS INCOME VAU.MONEY SCOPES.CC surrendered freedom
+            estimates nor expiry as property or option to buy, sold at whose
+            bid? SAVERS! Tax-payer vacation 40% SAVER spending.&nbsp;
+          <span role="img" aria-label="squirrel">
+            🐿
+          </span>
+          </h2>
           GDP/p doubles every 10 years, bonds debt and checking too,&nbsp;
           <a href="https://qr.ae/pG6Asa">as all centers around that</a>.
           1+(y2-y1)/yr===y2/y1.&nbsp;<a href="https://qr.ae/pG6ACx">Why</a>
