@@ -194,12 +194,19 @@ export default class App extends React.Component {
           NOTWITHSTANDING.
           <br />
           <br />
-          BOYCOTT CREDIT AS INCOME VAU.MONEY SCOPES.CC<br/><br/>
+          BOYCOTT CREDIT AS INCOME VAU.MONEY SCOPES.CC
+          <br />
+          <br />
           GDP/p doubles every 10 years, bonds debt and checking too,&nbsp;
-          <a href="https://qr.ae/pG6Asa">as all centers around that</a>
+          <a href="https://qr.ae/pG6Asa">as all centers around that</a>.
+          1+(y2-y1)/yr===y2/y1.&nbsp;<a href="https://qr.ae/pG6ACx">Why</a>
+          &nbsp;is 1 not equal when subtracted from both sides? (When growth is
+          negative)
           <br />
           <br />
-          &bull;&nbsp;75-79 23.5%+/5yrs+ 2015-2020 7.804m-9.643m
+          &bull;&nbsp;
+          <a href="https://humanharvest.info/polio">75-79 23.5%+/5yrs+</a>
+          &nbsp;2015-2020 7.804m-9.643m
           <br />
           &bull;&nbsp;80-84 9.15%/5yrs+ 2015-2020 5.627m-6.142m
           <br />
