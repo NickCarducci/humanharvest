@@ -199,7 +199,31 @@ export default class App extends React.Component {
           it would help a little.”
           <br />
           <br />
-          To insure those who are injured at no fault of their own is just a
+          Did we need there to be susbidy for gas station, no because there is a
+          natural market for it. Don’t listen to left-wing ideologues, listen to
+          Elon Musk, debt-king
+          <br />
+          Real things we get in this world by lying outstanding and surrendered
+          freedom, create rockets ahead of china can be done by outlaying to
+          investors when customers are ready, willing and able in 1-level
+          boardmax-royalty profit contracts
+          <br />
+          <br />
+          Stephen Forbes: "Romans-Christians, witches-Midevil, jewish, then
+          arabs, then currency specs. More control over industries, create the
+          problem as an excuse to increase their power (savers, serfs,
+          employables, labor-equity) at the expense of the rest of us
+          (uncounted: treasury shares, bonds, equities, intermediate-labor
+          buyers, homes), buying more stuff because they knew they were running
+          out of it, but it is inflation (poverty, gini, inflation: materials,
+          invoices, expiring premiums, implausible landlord use,
+          repo-cycle-kept-down-payments surrendered freedom, "EULA"), not real
+          asset value increase (equities, concurentable, nor last-traded share
+          -Value “worth” of last-traded share is not cash, which “is” checking,
+          “CurrencyComponentOfM1”)."
+          <br />
+          <br />
+          To insure those who are, "injured at no fault of their own," is just a
           method to discriminate and tranche a non-concurrentable competing with
           consumer intent deduced operation, here in expiring claims
           non-rollover concurrentable, that which would otherwise,
@@ -8099,3 +8123,4 @@ export default class App extends React.Component {
     );
   }
 }
+
