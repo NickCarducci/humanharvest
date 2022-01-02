@@ -194,6 +194,29 @@ export default class App extends React.Component {
           NOTWITHSTANDING.
           <br />
           <br />
+          <Cable
+            style={{ height: "300px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1ZguPVHAOdNnuWZTf_4vEn3L5GsxN1NMd/preview"
+            }
+            float="left"
+            title="MOATS (Youtube) - George Galloway on 24 ppl financial house by the Queen, Tony Blaire"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “Live radio with pictures!” MOAT
+          <br />
+          “Light touch deregulation of the finance houses,” MOATslime "24 people
+          in land decision only made by the Queen." George Galloway (RT -
+          Russian Tax Federation)
+          <br />
+          <br />
           "Up to two people, that is the situation we've got." 1/3 are
           non-voters' plural-majority, and 2/3 are supportive of Occupy Wall St
           (anti-rent-seeking). The only way Republicans get 1/3 the vote is by
