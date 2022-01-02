@@ -226,6 +226,12 @@ export default class App extends React.Component {
           "Those Catholics are crazy, sin sacrifice, you can say this," Alex
           Metaxis. "When you take G-d out you get Marxism, cultural Marxism, if
           you do in China 100 years after Marx died, they will crush you."
+          <br />
+          Spencer Chretien, your strength is not activists but Marxian,
+          Peteroian and Schumpeterian slander or co-option, "conservative" of
+          monoliths over the labor-demand market, without rent-seeking
+          surrendered freedom (EULA) of third party beneficiaries in expiring,
+          impossible and rental-income, as opposed-to income-income.
           <h1>
             jury allows businesses to add duress to Tranquil society and
             voluntary-trade
