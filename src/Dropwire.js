@@ -90,8 +90,9 @@ class Cable extends React.Component {
       //this.props.fwd.current.remove();
       this.props.onError(e);
     }; //ternaries remove the node and element; display removes the element, but not the node
+    const parsedStyle = JSON.parse(`{ ${cacheStyle} }`);
     return (
-      <div ref={this.page} style={{ cacheStyle }}>
+      <div ref={this.page} style={parsedStyle}>
         {!mount || src === "" ? (
           <span style={{ border: "1px gray solid" }}>{title}</span>
         ) : img ? (
