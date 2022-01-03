@@ -189,7 +189,7 @@ export default class App extends React.Component {
           </a>
           Business need to have a permit from jury-truths by consensus science,
           you need you prove virion injects DNA into the cell, not make it
-          fucking up, afro jigger tool bitch.
+          fucking up, afro jigger tool bitch. What a waste of a life.
           <br />
           No ones lives are being improved by it you are just suffering from
           basis rate fallacy.
