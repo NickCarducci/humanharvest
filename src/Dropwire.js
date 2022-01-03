@@ -64,6 +64,7 @@ class Cable extends React.Component {
           },
           () => {
             if (!between) {
+              continuee.remove();
               return (page.innerHTML = "");
             } else {
               const children = [...page.children];
