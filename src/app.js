@@ -10,6 +10,7 @@ import TwitterTweetEmbed from "./TwitterTweetEmbed";
 import "./styles.css";
 import Mortal from "./mortal";
 import Spanish from "./spanish";
+import Worldwide from "./worldwide";
 import GDP from "./gdp";
 
 export default class App extends React.Component {
@@ -2035,6 +2036,13 @@ export default class App extends React.Component {
           out.
           <br />
           <Mortal
+            lastWidth={Math.min(600, this.state.lastWidth)}
+            style={{
+              paddingBottom: "15px",
+              backgroundColor: "rgb(190,150,180)"
+            }}
+          />
+          <Worldwide
             lastWidth={Math.min(600, this.state.lastWidth)}
             style={{
               paddingBottom: "15px",
