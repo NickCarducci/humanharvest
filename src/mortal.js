@@ -2056,7 +2056,488 @@ const usmortality = {
       dx: 12,
       pop: 200
     }
-  ],*/
+  ],*[
+ {
+   "age": 0,
+   "deathprob": 0.0055635
+ },
+ {
+   "age": 1,
+   "deathprob": 0.000387
+ },
+ {
+   "age": 2,
+   "deathprob": 0.000236
+ },
+ {
+   "age": 3,
+   "deathprob": 0.00018
+ },
+ {
+   "age": 4,
+   "deathprob": 0.0001455
+ },
+ {
+   "age": 5,
+   "deathprob": 0.000132
+ },
+ {
+   "age": 6,
+   "deathprob": 0.000123
+ },
+ {
+   "age": 7,
+   "deathprob": 0.000115
+ },
+ {
+   "age": 8,
+   "deathprob": 0.0001075
+ },
+ {
+   "age": 9,
+   "deathprob": 0.0000995
+ },
+ {
+   "age": 10,
+   "deathprob": 0.0000965
+ },
+ {
+   "age": 11,
+   "deathprob": 0.000104
+ },
+ {
+   "age": 12,
+   "deathprob": 0.0001305
+ },
+ {
+   "age": 13,
+   "deathprob": 0.0001795
+ },
+ {
+   "age": 14,
+   "deathprob": 0.000247
+ },
+ {
+   "age": 15,
+   "deathprob": 0.0003205
+ },
+ {
+   "age": 16,
+   "deathprob": 0.000396
+ },
+ {
+   "age": 17,
+   "deathprob": 0.000477
+ },
+ {
+   "age": 18,
+   "deathprob": 0.0005625
+ },
+ {
+   "age": 19,
+   "deathprob": 0.0006495
+ },
+ {
+   "age": 20,
+   "deathprob": 0.000742
+ },
+ {
+   "age": 21,
+   "deathprob": 0.000833
+ },
+ {
+   "age": 22,
+   "deathprob": 0.000909
+ },
+ {
+   "age": 23,
+   "deathprob": 0.0009645
+ },
+ {
+   "age": 24,
+   "deathprob": 0.0010055
+ },
+ {
+   "age": 25,
+   "deathprob": 0.0010415
+ },
+ {
+   "age": 26,
+   "deathprob": 0.001082
+ },
+ {
+   "age": 27,
+   "deathprob": 0.001127
+ },
+ {
+   "age": 28,
+   "deathprob": 0.001181
+ },
+ {
+   "age": 29,
+   "deathprob": 0.0012415
+ },
+ {
+   "age": 30,
+   "deathprob": 0.0013045
+ },
+ {
+   "age": 31,
+   "deathprob": 0.001366
+ },
+ {
+   "age": 32,
+   "deathprob": 0.0014295
+ },
+ {
+   "age": 33,
+   "deathprob": 0.001492
+ },
+ {
+   "age": 34,
+   "deathprob": 0.0015565
+ },
+ {
+   "age": 35,
+   "deathprob": 0.001627
+ },
+ {
+   "age": 36,
+   "deathprob": 0.0017025
+ },
+ {
+   "age": 37,
+   "deathprob": 0.001777
+ },
+ {
+   "age": 38,
+   "deathprob": 0.0018475
+ },
+ {
+   "age": 39,
+   "deathprob": 0.0019195
+ },
+ {
+   "age": 40,
+   "deathprob": 0.002002
+ },
+ {
+   "age": 41,
+   "deathprob": 0.0020995
+ },
+ {
+   "age": 42,
+   "deathprob": 0.002212
+ },
+ {
+   "age": 43,
+   "deathprob": 0.0023425
+ },
+ {
+   "age": 44,
+   "deathprob": 0.0024925
+ },
+ {
+   "age": 45,
+   "deathprob": 0.0026635
+ },
+ {
+   "age": 46,
+   "deathprob": 0.002859
+ },
+ {
+   "age": 47,
+   "deathprob": 0.0030815
+ },
+ {
+   "age": 48,
+   "deathprob": 0.003335
+ },
+ {
+   "age": 49,
+   "deathprob": 0.003621
+ },
+ {
+   "age": 50,
+   "deathprob": 0.003934
+ },
+ {
+   "age": 51,
+   "deathprob": 0.0042795
+ },
+ {
+   "age": 52,
+   "deathprob": 0.0046685
+ },
+ {
+   "age": 53,
+   "deathprob": 0.005106
+ },
+ {
+   "age": 54,
+   "deathprob": 0.0055885
+ },
+ {
+   "age": 55,
+   "deathprob": 0.0061085
+ },
+ {
+   "age": 56,
+   "deathprob": 0.006658
+ },
+ {
+   "age": 57,
+   "deathprob": 0.007236
+ },
+ {
+   "age": 58,
+   "deathprob": 0.0078385
+ },
+ {
+   "age": 59,
+   "deathprob": 0.0084685
+ },
+ {
+   "age": 60,
+   "deathprob": 0.0091635
+ },
+ {
+   "age": 61,
+   "deathprob": 0.009903
+ },
+ {
+   "age": 62,
+   "deathprob": 0.010627
+ },
+ {
+   "age": 63,
+   "deathprob": 0.011316
+ },
+ {
+   "age": 64,
+   "deathprob": 0.01201
+ },
+ {
+   "age": 65,
+   "deathprob": 0.0127985
+ },
+ {
+   "age": 66,
+   "deathprob": 0.0137135
+ },
+ {
+   "age": 67,
+   "deathprob": 0.014719
+ },
+ {
+   "age": 68,
+   "deathprob": 0.015824
+ },
+ {
+   "age": 69,
+   "deathprob": 0.017065
+ },
+ {
+   "age": 70,
+   "deathprob": 0.018513
+ },
+ {
+   "age": 71,
+   "deathprob": 0.0201895
+ },
+ {
+   "age": 72,
+   "deathprob": 0.0220705
+ },
+ {
+   "age": 73,
+   "deathprob": 0.0241715
+ },
+ {
+   "age": 74,
+   "deathprob": 0.02654
+ },
+ {
+   "age": 75,
+   "deathprob": 0.0293285
+ },
+ {
+   "age": 76,
+   "deathprob": 0.0325245
+ },
+ {
+   "age": 77,
+   "deathprob": 0.035998
+ },
+ {
+   "age": 78,
+   "deathprob": 0.039734
+ },
+ {
+   "age": 79,
+   "deathprob": 0.0438635
+ },
+ {
+   "age": 80,
+   "deathprob": 0.0486535
+ },
+ {
+   "age": 81,
+   "deathprob": 0.0542035
+ },
+ {
+   "age": 82,
+   "deathprob": 0.060424
+ },
+ {
+   "age": 83,
+   "deathprob": 0.067356
+ },
+ {
+   "age": 84,
+   "deathprob": 0.075118
+ },
+ {
+   "age": 85,
+   "deathprob": 0.08385
+ },
+ {
+   "age": 86,
+   "deathprob": 0.093674
+ },
+ {
+   "age": 87,
+   "deathprob": 0.104679
+ },
+ {
+   "age": 88,
+   "deathprob": 0.1169185
+ },
+ {
+   "age": 89,
+   "deathprob": 0.130413
+ },
+ {
+   "age": 90,
+   "deathprob": 0.1451655
+ },
+ {
+   "age": 91,
+   "deathprob": 0.1611645
+ },
+ {
+   "age": 92,
+   "deathprob": 0.178389
+ },
+ {
+   "age": 93,
+   "deathprob": 0.1968065
+ },
+ {
+   "age": 94,
+   "deathprob": 0.2163775
+ },
+ {
+   "age": 95,
+   "deathprob": 0.2359515
+ },
+ {
+   "age": 96,
+   "deathprob": 0.255178
+ },
+ {
+   "age": 97,
+   "deathprob": 0.2736815
+ },
+ {
+   "age": 98,
+   "deathprob": 0.2910725
+ },
+ {
+   "age": 99,
+   "deathprob": 0.306959
+ },
+ {
+   "age": 100,
+   "deathprob": 0.32372
+ },
+ {
+   "age": 101,
+   "deathprob": 0.3414035
+ },
+ {
+   "age": 102,
+   "deathprob": 0.3600615
+ },
+ {
+   "age": 103,
+   "deathprob": 0.379747
+ },
+ {
+   "age": 104,
+   "deathprob": 0.4005185
+ },
+ {
+   "age": 105,
+   "deathprob": 0.422435
+ },
+ {
+   "age": 106,
+   "deathprob": 0.445561
+ },
+ {
+   "age": 107,
+   "deathprob": 0.4699635
+ },
+ {
+   "age": 108,
+   "deathprob": 0.495714
+ },
+ {
+   "age": 109,
+   "deathprob": 0.5228865
+ },
+ {
+   "age": 110,
+   "deathprob": 0.551561
+ },
+ {
+   "age": 111,
+   "deathprob": 0.5818215
+ },
+ {
+   "age": 112,
+   "deathprob": 0.6137555
+ },
+ {
+   "age": 113,
+   "deathprob": 0.6474565
+ },
+ {
+   "age": 114,
+   "deathprob": 0.683024
+ },
+ {
+   "age": 115,
+   "deathprob": 0.7205615
+ },
+ {
+   "age": 116,
+   "deathprob": 0.759422
+ },
+ {
+   "age": 117,
+   "deathprob": 0.797393
+ },
+ {
+   "age": 118,
+   "deathprob": 0.837263
+ },
+ {
+   "age": 119,
+   "deathprob": 0.879126
+ }
+  ]*/
   "2019": [
     {
       age: "0",
@@ -2140,42 +2621,42 @@ const usmortality = {
     },
     {
       age: "75-79",
-      dx: 18144.85,
+      dx: 18144.85 / 5,
       pop: 9643
     },
     {
       age: "80-84",
-      dx: 30575.5,
+      dx: 30575.5 / 5,
       pop: 6142
     },
     {
       age: "85-89",
-      dx: 52953.45,
+      dx: 52953.45 / 5,
       pop: 2000
     }, //6063
     {
       age: "90-94",
-      dx: 89790.3,
+      dx: 89790.3 / 5,
       pop: 1700
     },
     {
       age: "95-99",
-      dx: 136284.25,
+      dx: 136284.25 / 5,
       pop: 1120
     },
     {
       age: "100-104",
-      dx: 180545.05,
+      dx: 180545.05 / 5,
       pop: 720
     },
     {
       age: "105-109",
-      dx: 235656,
+      dx: 235656 / 5,
       pop: 310
     },
     {
       age: "110",
-      dx: 307761.85 + 399376.55,
+      dx: (307761.85 + 399376.55) / 5,
       pop: 196
     }
   ],
