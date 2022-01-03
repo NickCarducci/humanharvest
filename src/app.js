@@ -187,6 +187,13 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "Virion injecting DNA into cell," is a religion.
+          <br />
+          Ability to have the testing, your own mandate requirements to travel,
+          your own tests. Should be delegated by jury, industry-variable. Try
+          proving it in court faggots.
+          <br />
+          <br />
           Hospital beds&nbsp;
           <a href="https://data.worldbank.org/indicator/SH.MED.BEDS.ZS">
             swarmed
