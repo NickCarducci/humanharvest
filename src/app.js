@@ -198,7 +198,7 @@ export default class App extends React.Component {
           boomers for 1942 births 4m excess, cold for weather all-incidence,
           prevalence does not cause exclusively, can be byproduct.
           immunocompromised means you cannot make your own antibodies; and
-          remember, bacteria is excrement
+          remember, bacteria is excrement.
           <br />
           Hospital beds&nbsp;
           <a href="https://data.worldbank.org/indicator/SH.MED.BEDS.ZS">
@@ -213,9 +213,10 @@ export default class App extends React.Component {
           furtherance of stated goals of plausible landlord use intent, 1-level
           board max-royalty, and truncated production tax.
           <h3>
-            honor system signatures non-auditsable magnetic hard disc data,
+            honor system signatures non-auditable magnetic hard disc data,
             requires content addressability by on device identifier and way
-            compared with public ID size/length ("ArrayArrays")
+            compared with public ID size/length ("
+            <a href="https://qr.ae/pG649A">ArrayArrays</a>")
           </h3>
           truncated production tax, 1-level board max-royalty profit,
           rollover-doctor hours, no more surrendered freedom (EULA) of Savers
