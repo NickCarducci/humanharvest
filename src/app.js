@@ -187,6 +187,15 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          10x less omicron grew in lungs 12x slowly mitosis, bacteria infection
+          exclusively but really,&nbsp;
+          <a href="https://www.nytimes.com/1943/01/22/archives/us-set-new-record-for-births-in-1942-2800000-babies-are-born-but.html">
+            1942
+          </a>
+          &nbsp;births 20%+/yr, 2-2.4m === 75-79 2015-2020 (5 periods),
+          7.8m-9.6m
+          <br />
+          <br />
           Business need to have a permit from jury-truths by consensus science,
           you need you prove virion injects DNA into the cell, not make it
           fucking up, afro jigger tool bitch. What a waste of a life.
