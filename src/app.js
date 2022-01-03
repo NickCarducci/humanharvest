@@ -187,10 +187,13 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          Hospital beds swarmed, capacity suddenly terrorised by deb valentine,
-          sponsored by medical expiring claims, political prisoners for
-          mentioning rollover insurance is not surrendered freedom (EULA) of
-          Savers
+          Hospital beds&nbsp;
+          <a href="https://data.worldbank.org/indicator/SH.MED.BEDS.ZS">
+            swarmed
+          </a>
+          , capacity suddenly terrorised by deb valentine, sponsored by medical
+          expiring claims, political prisoners for $2k/day mentioning rollover
+          insurance is not surrendered freedom (EULA) of Savers
           <br />
           <br />
           "We spent $11t on covid."&nbsp;
