@@ -245,9 +245,10 @@ export default class App extends React.Component {
           "We spent $11t on covid."&nbsp;
           <a href="https://fred.stlouisfed.org/graph/?g=KkDx">Eric Adams</a>.
           You got 7% of the vote, tool. You can't do shit.
-          {/**turnout non-voters, not swing, they stay home, rcv favors 50% to 1/3 majority */}
-          <br />
-          <br />
+          <h1>
+            TURNOUT NON-VOTERS, NOT SWING, THEY STAY HOME, RCV FAVORS 50% TO 1/3
+            MAJORITY
+          </h1>
           Mentally ill or homeless, deb valentine, you are such a fucking fat
           cunt, do not say this about people that you implausibly rental income
           beyond 5 units or 30 days be corporate market communism.
