@@ -198,6 +198,20 @@ export default class App extends React.Component {
           placeholder.
           <br />
           <br />
+          You are hampered when you have volunteers, but saver money share split
+          government money, you can take intermediate-labor from what customers
+          actually wish to trade their money for, if not their own hours again
+          volunteering.
+          <br />
+          <br />
+          Universal pre-K is the expiring claim premium of teachers, as
+          insurance is for doctors, mechanics and nannies. Pure useless
+          inflation for the same resources when free rider mutable tax from
+          outside the market, except government gentrification 40% debt spending
+          and 10% debt service. Why would you want to launder funds like that,
+          to bond-inde-funds, let alone raise bid for the same teachers?
+          <br />
+          <br />
           not voting is a default vote, "no." rank choice voting makes 50% win
           over third "plural" majority. a 1/3 should win over 50%
           <br />
