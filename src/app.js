@@ -189,11 +189,11 @@ export default class App extends React.Component {
           </a>
           "defund police with a higher tax rate? outside the realm of politics
           now," just 40% debt spending, 50% state
-          <br />
-          <br />
+          <h1>garbage collection</h1>
           "homeless and drug addicted, they need help, slowly killing
           themselves, why choose more important than a kid," not earning wealth
-          in school.
+          in school. "1 electoral vote/decennial. FL is booming, no one is
+          saying NY is booming." 1/4 illegal working age-share
           <br />
           <br />
           <Cable
