@@ -194,15 +194,25 @@ export default class App extends React.Component {
           proving it in court faggots.
           <br />
           <br />
+          boomers for 1942 births 4m excess, cold for weather all-incidence,
+          prevalence does not cause exclusively, can be byproduct.
+          immunocompromised means you cannot make your own antibodies; and
+          remember, bacteria is excrement
+          <br />
           Hospital beds&nbsp;
           <a href="https://data.worldbank.org/indicator/SH.MED.BEDS.ZS">
             swarmed
           </a>
           , capacity suddenly terrorised by deb valentine, sponsored by medical
           expiring claims, political prisoners for $2k/day mentioning rollover
-          insurance is not surrendered freedom (EULA) of Savers
+          insurance is not surrendered freedom (EULA) of Savers.
           <br />
+          truncated production tax, 1-level board max-royalty profit,
+          rollover-doctor hours, no more surrendered freedom (EULA) of Savers
+          and the co-signatories' consumers and employers.
           <br />
+          labor more than diminishing returns is withheld outlays.
+          <h1>ITALIAN AMERICANS ARE A VARIANT OF CONCERN</h1>
           "We spent $11t on covid."&nbsp;
           <a href="https://fred.stlouisfed.org/graph/?g=KkDx">Eric Adams</a>.
           You got 7% of the vote, tool. You can't do shit.
