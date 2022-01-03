@@ -203,7 +203,9 @@ export default class App extends React.Component {
           Mentally ill or homeless, deb valentine, you are such a fucking fat
           cunt, do not say this about people that you implausibly rental income
           beyond 5 units or 30 days be corporate market communism.
-          20x/millennial boomer non-work-income-income
+          20x/millennial boomer non-work-income-income. that is your actual
+          labor shortage, boomers 6m/20m unemployed, millennial 6m/40m
+          unemployed.
           <br />
           <br />
           10x less omicron grew in lungs 12x slowly mitosis, bacteria infection
@@ -212,7 +214,7 @@ export default class App extends React.Component {
             1942
           </a>
           &nbsp;births 20%+/yr, 2-2.4m === 75-79 2015-2020 (5 periods),
-          7.8m-9.6m
+          7.8m-9.6m, 825,037+, 500,000 excess overall
           <br />
           <br />
           Business need to have a permit from jury-truths by consensus science,
