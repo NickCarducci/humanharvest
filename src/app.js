@@ -195,6 +195,12 @@ export default class App extends React.Component {
           proving it in court faggots.
           <br />
           <br />
+          “Getting the damn guns out will bring crime down.”
+          <br />
+          hold people with no bail with arresting officer non-character,
+          exhibitiable evidence. mind your business rudy cousin lover
+          <br />
+          <br />
           boomers for 1942 births 4m excess, cold for weather all-incidence,
           prevalence does not cause exclusively, can be byproduct.
           immunocompromised means you cannot make your own antibodies; and
