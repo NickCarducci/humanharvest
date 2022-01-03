@@ -66,7 +66,7 @@ class Cable extends React.Component {
           },
           () => {
             if (!between) {
-              var gl = continuee.getContext("webgl");
+              /*var gl = continuee.getContext("webgl");
 
               continuee.addEventListener(
                 "webglcontextlost",
@@ -74,7 +74,7 @@ class Cable extends React.Component {
                 false
               );
 
-              gl.getExtension("WEBGL_lose_context").loseContext();
+              gl.getExtension("WEBGL_lose_context").loseContext();*/
 
               //continuee.remove();
               return (page.innerHTML = "");
