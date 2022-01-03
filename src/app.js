@@ -187,6 +187,16 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Hospital beds swarmed, capacity suddenly terrorised by deb valentine,
+          sponsored by medical expiring claims, political prisoners for
+          mentioning rollover insurance is not surrendered freedom (EULA) of
+          Savers
+          <br />
+          <br />
+          "We spent $11t on covid."&nbsp;
+          <a href="https://fred.stlouisfed.org/graph/?g=KkDx">Eric Adams</a>
+          <br />
+          <br />
           Mentally ill or homeless, deb valentine, you are such a fucking fat
           cunt, do not say this about people that you implausibly rental income
           beyond 5 units or 30 days be corporate market communism.
