@@ -51,20 +51,32 @@ class Cable extends React.Component {
       } else {
         var continuee = this.props.fwd.current;
         if (!continuee && !cache) return;
+        const cacheStyle = JSON.parse(
+          (cache ? cache : continuee.outerHTML)
+            .split(`style="`)[1]
+            .split(`"`)[0]
+            .replaceAll(";", `",`)
+            .replaceAll(": ", `: "`)
+        );
+        console.log(cacheStyle);
         this.setState(
           {
             cache: cache ? cache : continuee.outerHTML,
-            cacheStyle: JSON.parse(
-              (cache ? cache : continuee.outerHTML)
-                .split(`style="`)[1]
-                .split(`"`)[0]
-                .replaceAll(";", `",`)
-                .replaceAll(": ", `: "`)
-            )
+            cacheStyle
           },
           () => {
             if (!between) {
-              continuee.remove();
+              var gl = continuee.getContext("webgl");
+
+              continuee.addEventListener(
+                "webglcontextlost",
+                (e) => console.log(e),
+                false
+              );
+
+              gl.getExtension("WEBGL_lose_context").loseContext();
+
+              //continuee.remove();
               return (page.innerHTML = "");
             } else {
               const children = [...page.children];
