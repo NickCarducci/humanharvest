@@ -2521,7 +2521,7 @@ class Worldwide extends React.Component {
     let avgLifetime = {};
     const numer = (d) => Number(String(d).replaceAll(",", ""));
     const val = (d, p = 1000) => numer(d);
-    // Math.round((numer(d) / 100000) * numer(p) * 1000);
+    // Math.round((numer(d) / 100000) * numer(p) );
     Object.keys(worldwide).forEach((yearSet, i) => {
       const year = yearSet; //Number(yearSet.split("-")[1]);
 
@@ -2556,7 +2556,7 @@ class Worldwide extends React.Component {
         const pop = numer(popdata[year].find((y) => y.age === x.age).pop);
         if (x.age === "0-4") {
           mZeroNJData.push([year, val(x.deaths, pop)]);
-          mZeroNJDataAge.push([year, pop * 1000]);
+          mZeroNJDataAge.push([year, pop]);
         } else if (
           x.age === "5-9" ||
           x.age === "10-14" ||
@@ -2569,20 +2569,20 @@ class Worldwide extends React.Component {
           x.age === "45-49"
         ) {
           mFiftyNJData.push([year, val(x.deaths, pop)]);
-          mFiftyNJDataAge.push([year, pop * 1000]);
+          mFiftyNJDataAge.push([year, pop]);
         } else if (
           x.age === "50-54" ||
           x.age === "55-59" ||
           x.age === "60-64"
         ) {
           mSixtyFiveNJData.push([year, val(x.deaths, pop)]);
-          mSixtyFiveNJDataAge.push([year, pop * 1000]);
+          mSixtyFiveNJDataAge.push([year, pop]);
         } else if (x.age === "65-69" || x.age === "70-74") {
           mSeventyFiveNJData.push([year, val(x.deaths, pop)]);
-          mSeventyFiveNJDataAge.push([year, pop * 1000]);
+          mSeventyFiveNJDataAge.push([year, pop]);
         } else if (x.age === "75-79" || x.age === "80-84") {
           mEightyFiveNJData.push([year, val(x.deaths, pop)]);
-          mEightyFiveNJDataAge.push([year, pop * 1000]);
+          mEightyFiveNJDataAge.push([year, pop]);
         } else if (x.age === "85-89" || x.age === "90-94") {
           mNinetyFiveNJData.push([year, val(x.deaths, pop)]);
         } else if (
@@ -2791,71 +2791,59 @@ class Worldwide extends React.Component {
         );*/
             const numer = (d) => Number(String(d).replaceAll(",", ""));
             const val = (d, p = 1000) => numer(d);
-            // Math.round((numer(d) / 100000) * numer(p) * 1000);
+            // Math.round((numer(d) / 100000) * numer(p) );
             Object.values(worldwide)[i].forEach((x) => {
               const popp = numer(
                 popdata[year].find((y) => y.age === x.age).pop
               );
               if (frequency(chosenfrequency, 0).includes(x.age)) {
-                mZeroNJDataAge.push([
-                  year,
-                  chosenRate ? popp * 1000 : popp * 1000
-                ]);
+                mZeroNJDataAge.push([year, chosenRate ? popp : popp]);
               } else if (frequency(chosenfrequency, 1).includes(x.age)) {
-                mFiftyNJDataAge.push([
-                  year,
-                  chosenRate ? (popp * 1000) / 10 : popp * 1000
-                ]);
+                mFiftyNJDataAge.push([year, chosenRate ? popp / 9 : popp]);
               } else if (frequency(chosenfrequency, 2).includes(x.age)) {
-                mSixtyFiveNJDataAge.push([
-                  year,
-                  chosenRate ? (popp * 1000) / 3 : popp * 1000
-                ]);
+                mSixtyFiveNJDataAge.push([year, chosenRate ? popp / 3 : popp]);
               } else if (frequency(chosenfrequency, 3).includes(x.age)) {
                 mSeventyFiveNJDataAge.push([
                   year,
-                  chosenRate ? (popp * 1000) / 2 : popp * 1000
+                  chosenRate ? popp / 2 : popp
                 ]);
               } else if (frequency(chosenfrequency, 4).includes(x.age)) {
-                mEightyFiveNJDataAge.push([
-                  year,
-                  chosenRate ? (popp * 1000) / 2 : popp * 1000
-                ]);
+                mEightyFiveNJDataAge.push([year, chosenRate ? popp / 2 : popp]);
               }
               if (frequency(chosenfrequency, 0).includes(x.age)) {
                 mZeroNJData.push([
                   year,
-                  chosenRate ? popp * 1000 : val(x.deaths, popp)
+                  chosenRate ? popp : val(x.deaths, popp)
                 ]);
               } else if (frequency(chosenfrequency, 1).includes(x.age)) {
                 mFiftyNJData.push([
                   year,
-                  chosenRate ? (popp * 1000) / 10 : val(x.deaths, popp)
+                  chosenRate ? popp / 10 : val(x.deaths, popp)
                 ]);
               } else if (frequency(chosenfrequency, 2).includes(x.age)) {
                 mSixtyFiveNJData.push([
                   year,
-                  chosenRate ? (popp * 1000) / 3 : val(x.deaths, popp)
+                  chosenRate ? popp / 3 : val(x.deaths, popp)
                 ]);
               } else if (frequency(chosenfrequency, 3).includes(x.age)) {
                 mSeventyFiveNJData.push([
                   year,
-                  chosenRate ? (popp * 1000) / 2 : val(x.deaths, popp)
+                  chosenRate ? popp / 2 : val(x.deaths, popp)
                 ]);
               } else if (frequency(chosenfrequency, 4).includes(x.age)) {
                 mEightyFiveNJData.push([
                   year,
-                  chosenRate ? (popp * 1000) / 2 : val(x.deaths, popp)
+                  chosenRate ? popp / 2 : val(x.deaths, popp)
                 ]);
               } else if (frequency(chosenfrequency, 5).includes(x.age)) {
                 mNinetyFiveNJData.push([
                   year,
-                  chosenRate ? (popp * 1000) / 2 : val(x.deaths, popp)
+                  chosenRate ? popp / 2 : val(x.deaths, popp)
                 ]);
               } else if (frequency(chosenfrequency, 6).includes(x.age)) {
                 mOneTenNJData.push([
                   year,
-                  chosenRate ? (popp * 1000) / 4 : val(x.deaths, popp)
+                  chosenRate ? popp / 4 : val(x.deaths, popp)
                 ]);
               }
             });
