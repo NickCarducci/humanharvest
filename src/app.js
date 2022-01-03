@@ -259,6 +259,16 @@ export default class App extends React.Component {
           placeholder.
           <br />
           <br />
+          “Life saving treatment and testing remains scarce throughout the
+          country.” Free rider mutable tax from outside the market is useless
+          price inflation.
+          <br />
+          Jim from Beth page equity line to pay for college and access to cash
+          when you need it, with rates as low as 3.8% APR, and everyone is
+          welcome to surrender the freedoms of your neighbors and then appraise
+          your home to it.
+          <br />
+          <br />
           You are denied treatment because public expiring claims non-rollover
           40% debt spending gets more. Need Good Samaritan
           <br />
