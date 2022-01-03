@@ -188,7 +188,8 @@ export default class App extends React.Component {
             2052.live
           </a>
           "defund police with a higher tax rate? outside the realm of politics
-          now," just 40% debt spending, 50% state
+          now," just 40% debt spending, 50% state. "odious, shouldn't be allowed
+          to stand, 300/2yrs+ murders, over our rental-income."
           <h1>garbage collection</h1>
           "homeless and drug addicted, they need help, slowly killing
           themselves, why choose more important than a kid," not earning wealth
