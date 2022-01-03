@@ -197,7 +197,8 @@ export default class App extends React.Component {
           <br />
           <br />
           "We spent $11t on covid."&nbsp;
-          <a href="https://fred.stlouisfed.org/graph/?g=KkDx">Eric Adams</a>
+          <a href="https://fred.stlouisfed.org/graph/?g=KkDx">Eric Adams</a>.
+          You got 7% of the vote, tool. You can't do shit.
           <br />
           <br />
           Mentally ill or homeless, deb valentine, you are such a fucking fat
