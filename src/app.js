@@ -187,8 +187,13 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          homeless and drug addicted, they need help, slowly killing themselves,
-          why choose more important than a kid not earning wealth in school.
+          "defund police with a higher tax rate? outside the realm of politics
+          now," just 40% debt spending, 50% state
+          <br />
+          <br />
+          "homeless and drug addicted, they need help, slowly killing
+          themselves, why choose more important than a kid," not earning wealth
+          in school.
           <br />
           <br />
           <Cable
