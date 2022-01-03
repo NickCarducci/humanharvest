@@ -187,6 +187,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          homeless and drug addicted, they need help, slowly killing themselves,
+          why choose more important than a kid not earning wealth in school.
+          <br />
+          <br />
           "Linguini spined savers," I’m going to kill you gracie
           <br />
           <br />
