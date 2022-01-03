@@ -187,7 +187,8 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          "Virion injecting DNA into cell," is a religion.
+          left is getting diverse, libertarians hate occupy "Virion injecting
+          DNA into cell," is a religion.
           <br />
           Ability to have the testing, your own mandate requirements to travel,
           your own tests. Should be delegated by jury, industry-variable. Try
@@ -206,10 +207,17 @@ export default class App extends React.Component {
           , capacity suddenly terrorised by deb valentine, sponsored by medical
           expiring claims, political prisoners for $2k/day mentioning rollover
           insurance is not surrendered freedom (EULA) of Savers.
-          <br />
+          <h2>Do all macroeconomists thing GDP per hour is productivity?</h2>
+          <h3>
+            honor system signatures non-auditsable magnetic hard disc data,
+            requires content addressability by on device identifier and way
+            compared with public ID size/length ("ArrayArrays")
+          </h3>
           truncated production tax, 1-level board max-royalty profit,
           rollover-doctor hours, no more surrendered freedom (EULA) of Savers
-          and the co-signatories' consumers and employers.
+          and the co-signatories' consumers and employers. implausible landlord
+          use reverse amortization (cash/debt)*income every year back on those
+          grounds for tort, too.
           <br />
           labor more than diminishing returns is withheld outlays.
           <h1>ITALIAN AMERICANS ARE A VARIANT OF CONCERN</h1>
