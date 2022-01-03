@@ -51,18 +51,20 @@ class Cable extends React.Component {
       } else {
         var continuee = this.props.fwd.current;
         if (!continuee && !cache) return;
-        const cacheStyle = JSON.parse(
+        /*const cacheStyle = JSON.parse(
           (cache ? cache : continuee.outerHTML)
             .split(`style="`)[1]
             .split(`"`)[0]
             .replaceAll(";", `",`)
             .replaceAll(": ", `: "`)
-        );
-        console.log(cacheStyle);
+        );*/
+        //console.log(cacheStyle);
         this.setState(
           {
             cache: cache ? cache : continuee.outerHTML,
-            cacheStyle
+            //cacheStyle,
+            frameheight: continuee.offsetHeight,
+            framewidth: continuee.offsetWidth
           },
           () => {
             if (!between) {
@@ -95,16 +97,25 @@ class Cable extends React.Component {
     }, timeou);
   };
   render() {
-    const { mount, cacheStyle } = this.state;
+    const { mount /*, cacheStyle */ } = this.state;
     const { src, float, title, img } = this.props;
     //const limited = limit.find((x) => x === Object.keys(this.props.fwd));
     const onError = (e) => {
       //this.props.fwd.current.remove();
       this.props.onError(e);
     }; //ternaries remove the node and element; display removes the element, but not the node
-    const parsedStyle = JSON.parse(`{ ${cacheStyle} }`);
+    //const parsedStyle = JSON.parse(`{ ${cacheStyle} }`);
+
     return (
-      <div ref={this.page} style={parsedStyle}>
+      <div
+        ref={this.page}
+        style={{
+          shapeOutside: "rect()",
+          float,
+          height: this.state.frameheight,
+          width: this.state.framewidth
+        }}
+      >
         {!mount || src === "" ? (
           <span style={{ border: "1px gray solid" }}>{title}</span>
         ) : img ? (
