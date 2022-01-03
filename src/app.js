@@ -198,6 +198,10 @@ export default class App extends React.Component {
           placeholder.
           <br />
           <br />
+          You are denied treatment because public expiring claims non-rollover
+          40% debt spending gets more. Need Good Samaritan
+          <br />
+          <br />
           It would take 44x years, how does GDP/down 11x sound when $12k/64 new
           debt/cash?
           <br />
