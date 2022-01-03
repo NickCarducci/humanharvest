@@ -198,6 +198,33 @@ export default class App extends React.Component {
           placeholder.
           <br />
           <br />
+          It would take 44x years, how does GDP/down 11x sound when $12k/64 new
+          debt/cash?
+          <br />
+          <br />
+          "The probability of the US government going into default is increasing
+          day by day. How does this affect the world? Are we entering a new
+          chaotic period?"
+          <br />
+          There is no heightened probability of default, there is no moment
+          where the federal reserve will not pay for 40% debt spending, although
+          how $4t/yr 2010–3/2020 doesn’t become more than $2t
+          CurrencyComponentOfM1 checking is secret.
+          <br />
+          <br />
+          We can instead reverse amortize debt “investment” force majeure or
+          surrendered freedom (EULA) of Savers implausibly deniable as third
+          party donee beneficiary claimable repo-cycle kept down payments
+          loitered and laundered. That means (cash/debt)*income every year back
+          so we all paid what we would have without debt “investment.” Move
+          government then to truncated production tax for free rider immutable
+          Article 4 sewage, police and lawsuits, while moving to alternative
+          finance for new investment p2p 1-level board max-royalty contracts and
+          just concurrentable equity for banks, lest surrender freedoms by
+          expiry or estimated-property of a third party donee, again assumed by
+          the co-signers.
+          <br />
+          <br />
           "You are hampered when you have volunteers,"{" "}
           {/**parabnormalradio.com */}but saver money share split government
           money, you can take intermediate-labor from what customers actually
@@ -707,12 +734,12 @@ export default class App extends React.Component {
             <a href="https://www.visualcapitalist.com/visualizing-the-94-trillion-world-economy-in-one-chart/">
               GDP
             </a>
-            &nbsp; of the US is the largest and&nbsp;
+            &nbsp;of the US is the largest and&nbsp;
             <a href="https://ourworldindata.org/grapher/gdp-per-capita-worldbank">
               GDP/p
             </a>
-            &nbsp; is mostly debt/cash&nbsp;
-            <a href="https://fred.stlouisfed.org/graph/?g=KkDx">$12k/64</a>
+            &nbsp;is mostly debt/cash&nbsp;
+            <a href="https://fred.stlouisfed.org/graph/?g=Ksmd">$12k/64</a>
             &nbsp; (<a href="https://fred.stlouisfed.org/graph/?g=KrEH">new</a>
             ), meaning barter/spending rent-seeking surrendered freedom (EULA)
             is weakest amongst its people. mv1===mv2==GDP/yr is impossibly true,
@@ -5753,7 +5780,7 @@ export default class App extends React.Component {
             conservative, you are making up words. Socialists prevent
             non-labor-demand. This lender-/landlord-work-deficit is 20x/person
             55+/millennial rental-income and 44x accrual at checking velocity of
-            &nbsp;<a href="https://fred.stlouisfed.org/graph/?g=JiC5">1.1/yr</a>
+            &nbsp;<a href="https://fred.stlouisfed.org/graph/?g=Ksmd">1.1/yr</a>
             , and how else but to launder savings accounts principal does $4t/yr
             spending 60%, 40% free rider mutable tax (1/4 pensions, 1/4
             pentagon, 1/4 premiums) not become checking-currencyComponentOfM1
