@@ -191,6 +191,25 @@ export default class App extends React.Component {
           why choose more important than a kid not earning wealth in school.
           <br />
           <br />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/12Yyu7SFShvUmWFpcfpuwPtMW7-ZBQBAz/preview"
+            }
+            float="left"
+            title="https://www.americanhistorycentral.com/entries/battle-of-lexington/"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          <a href="https://www.americanhistorycentral.com/entries/battle-of-lexington/">
+            american history channel
+          </a>
+          <br />
           "Linguini spined savers," I’m going to kill you gracie
           <br />
           <br />
