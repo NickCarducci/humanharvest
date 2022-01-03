@@ -206,8 +206,8 @@ export default class App extends React.Component {
           <br />
           boomers for 1942 births 4m excess, cold for weather all-incidence,
           prevalence does not cause exclusively, can be byproduct.
-          immunocompromised means you cannot make your own antibodies; and
-          remember, bacteria is excrement.
+          immunocompromised means you cannot make your own antibodies; garbage
+          collection; and remember, bacteria is excrement.
           <br />
           "Once a student is exposed all the other students are exposed." You
           actually put people in a hospital room and the bacteria doesn’t jump.
