@@ -198,11 +198,14 @@ export default class App extends React.Component {
           placeholder.
           <br />
           <br />
-          You are hampered when you have volunteers, but saver money share split
-          government money, you can take intermediate-labor from what customers
-          actually wish to trade their money for, if not their own hours again
+          "You are hampered when you have volunteers,"{" "}
+          {/**parabnormalradio.com */}but saver money share split government
+          money, you can take intermediate-labor from what customers actually
+          wish to trade their money for, if not their own hours again
           volunteering.
           <br />
+          <br />
+          "Why is there so much resistance to Universal Pre-K in the U.S.?"
           <br />
           Universal pre-K is the expiring claim premium of teachers, as
           insurance is for doctors, mechanics and nannies. Pure useless
