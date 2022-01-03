@@ -68,17 +68,27 @@ class Cable extends React.Component {
           },
           () => {
             if (!between) {
-              /*var gl = continuee.getContext("webgl");
+              /* if (continuee) {
+                
+                const children = [...continuee.children];
+                console.log(children);
+                if (children.length > 0) {
+                  var gl = null;
 
-              continuee.addEventListener(
-                "webglcontextlost",
-                (e) => console.log(e),
-                false
-              );
+                  const foun = children.find(
+                    (x) => (gl = x.getContext("webgl"))
+                  );
 
-              gl.getExtension("WEBGL_lose_context").loseContext();*/
+                  foun.addEventListener(
+                    "webglcontextlost",
+                    (e) => console.log(e),
+                    false
+                  );
 
-              //continuee.remove();
+                  gl.getExtension("WEBGL_lose_context").loseContext();
+                }
+              }*/
+              continuee.remove();
               return (page.innerHTML = "");
             } else {
               const children = [...page.children];
