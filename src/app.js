@@ -187,6 +187,17 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Business need to have a permit from jury-truths by consensus science,
+          you need you prove virion injects DNA into the cell, not make it
+          fucking up, afro jigger tool bitch.
+          <br />
+          No ones lives are being improved by it you are just suffering from
+          basis rate fallacy.
+          <br />
+          You aren’t elected if only half the people turned out, you are a
+          placeholder.
+          <br />
+          <br />
           not voting is a default vote, "no." rank choice voting makes 50% win
           over third "plural" majority. a 1/3 should win over 50%
           <br />
@@ -2052,6 +2063,22 @@ export default class App extends React.Component {
           CDC put pneumonia influenza covid together, for Cause of Death and
           hospitalizations, all of which are insignificant changes year to year.
           <h2>I’m not a doctor, but I am a statistician.</h2>
+          <Cable
+            style={{ height: "280px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1JGqVnppMe5Fb3r5tVd32GEEfL75bVr3t/preview"
+            }
+            float="right"
+            title="1943 births"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           800k deaths or 500k/yr, 1.2m/yr expected from population growth, 80 is
           life expectancy we are made for that age as we start getting wrinkly,
           <br />
