@@ -187,6 +187,9 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "Linguini spined savers," I’m going to kill you gracie
+          <br />
+          <br />
           left is getting diverse, libertarians hate occupy "Virion injecting
           DNA into cell," is a religion.
           <br />
@@ -238,6 +241,7 @@ export default class App extends React.Component {
           "We spent $11t on covid."&nbsp;
           <a href="https://fred.stlouisfed.org/graph/?g=KkDx">Eric Adams</a>.
           You got 7% of the vote, tool. You can't do shit.
+          {/**turnout non-voters, not swing, they stay home, rcv favors 50% to 1/3 majority */}
           <br />
           <br />
           Mentally ill or homeless, deb valentine, you are such a fucking fat
@@ -2153,7 +2157,7 @@ export default class App extends React.Component {
           <br />
           <a href="https://www.researchgate.net/figure/Total-fertility-rate-in-United-States-1920-2014_fig1_316893597">
             <Cable
-              style={{ width: "100%", height: "350px", maxHeight: "50vw" }}
+              style={{ width: "100%", height: "350px", maxHeight: "80vw" }}
               onError={handleScollImgError}
               //img={true}
               src={
