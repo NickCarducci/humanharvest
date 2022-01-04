@@ -216,8 +216,12 @@ export default class App extends React.Component {
           social cannot copy, nor can duress be extended in the
           industry-variably-controlled jury-permitting minimal viable products
           of every business.
-          <br />
-          <br />
+          <h1>cash advance to tbt, I will use your own weapons against you</h1>
+          <h2>
+            if you want business to only be able to move with 11/12 consensus,
+            vote saver party. if you want business to fuck you, vote Republican,
+            Democrat, Libertarian, faux-Socialist Green or People's
+          </h2>
           The government is to target margin, duress and quality by jury-permits
           and consensus science of industry-variable jury, not dead-weight by
           corporate flccid loss nor government free rider mutable rent-seeking.
