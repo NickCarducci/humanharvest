@@ -2167,6 +2167,23 @@ export default class App extends React.Component {
           just gets laundered to&nbsp;
           <a href="https://truncatedsalestax.com">bonds</a>.
           <br />
+          <Cable
+            style={{ width: "100%" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1D5s1QvjCo5uyB84M2P9p8Vm7TZ3_DDmz/preview"
+            }
+            float="left"
+            title="https://www.ssa.gov/oact/STATS/table4c6.html"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          <h2>"136.28425% chance of death 95-99"</h2>
           Life expectancy is the average age at death, so excess deaths are to
           catch up, there is not a growing life expectancy as much as an older
           cohort. It is a dog wagging its tail situation.
@@ -2189,14 +2206,8 @@ export default class App extends React.Component {
           </a>
           &nbsp;"Deaths are projected to reach more than 3.6 million in 2037,"
           if people live to 100 maybe
-          <br />
-          <br />
-          The pandemic is measured by significance, but they don’t fix excess
-          deaths for population growth, just look at fertility rates life
-          expectancy ago. This is why they are called boomers.
-          <br />
           <Cable
-            style={{ width: "100%", height: "350px", maxHeight: "80vw" }}
+            style={{ width: "100%" }}
             onError={handleScollImgError}
             //img={true}
             src={
@@ -2214,6 +2225,12 @@ export default class App extends React.Component {
           <a href="https://www.researchgate.net/figure/Total-fertility-rate-in-United-States-1920-2014_fig1_316893597">
             src
           </a>
+          <br />
+          <br />
+          The pandemic is measured by significance, but they don’t fix excess
+          deaths for population growth, just look at fertility rates life
+          expectancy ago. This is why they are called boomers.
+          <br />
           Do you know why "boomers?" WWII live birth lull was life expectancy
           ago, so Census has projected this back in 2015 aging boomer deaths.
           Bacteria is in excrement because if that reinfects us virion comes
