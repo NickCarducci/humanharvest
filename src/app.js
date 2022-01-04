@@ -187,6 +187,11 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Newsmax: "socialists want your wealth and they are raising taxes to do
+          it." Socialists would never add free rider mutable tax from outside
+          the market, certainly for not a collective bargain (immediate).
+          <br />
+          <br />
           why don't you talk about it, cunt? you just repeat the same shit.
           “Can’t say new things without breaking some eggheads.”
           <br />
