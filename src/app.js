@@ -222,6 +222,11 @@ export default class App extends React.Component {
             vote saver party. if you want business to fuck you, vote Republican,
             Democrat, Libertarian, faux-Socialist Green or People's
           </h2>
+          “People are supposed to rise up and revolt against the establishment.
+          The criminals are the Saver party base.” State vic torts are why
+          Savers go for&nbsp;<a href="https://qr.ae/pG6gM3">criminals</a>.
+          <br />
+          <br />
           The government is to target margin, duress and quality by jury-permits
           and consensus science of industry-variable jury, not dead-weight by
           corporate flccid loss nor government free rider mutable rent-seeking.
