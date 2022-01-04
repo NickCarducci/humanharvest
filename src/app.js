@@ -241,9 +241,9 @@ export default class App extends React.Component {
           themselves, why choose more important than a kid," not earning wealth
           in school. "1 electoral vote/decennial. FL is booming, no one is
           saying NY is booming." 1/4 illegal working age-share. we are working
-          10x/boomer c1970 per home sold, that is a recipe for excess demand by
-          price not even non-durable trade surmounting tech advancement GDP/p
-          down.
+          10x/boomer c1970 per home sold, that is a recipe for excess (actual
+          labor shortage) demand by price not even non-durable trade surmounting
+          tech advancement GDP/p down.
           <h1>stop gentrifying tests, voting is free rider immutable</h1>
           <h2>
             you arent conservative if you allow business to trade on any kind of
