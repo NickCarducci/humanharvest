@@ -187,6 +187,12 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "Automatically counted as a covid identified person," while it is 5%
+          of all cases of pnemonia. It would increase the incidence relevance
+          with aggregating disposition after aggregation of
+          all-incidence/all-cause.
+          <br />
+          <br />
           Runs on&nbsp;<a href="https://qr.ae/pG6gCX">stocks</a>, stop valuing
           on your neighbors, use what you bought the home for, boomers.&nbsp;
           <span role="img" aria-label="evil-face">
