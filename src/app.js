@@ -187,6 +187,9 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          why don't you talk about it, cunt? you just repeat the same shit.
+          “Can’t say new things without breaking some eggheads.”
+          <br />
           "defund police with a higher tax rate? outside the realm of politics
           now," just 40% debt spending, 50% state. "odious, shouldn't be allowed
           to stand, 300/2yrs+ murders, over our rental-income."
@@ -274,6 +277,10 @@ export default class App extends React.Component {
             TURNOUT NON-VOTERS, NOT SWING, THEY STAY HOME, RCV FAVORS 50% TO 1/3
             MAJORITY
           </h1>
+          "Do what is right for all New Yorkers," only scientific consensus is
+          legal, that is industry-variable 11/12, 1/12 unreasonable doubt.
+          <br />
+          <br />
           Mentally ill or homeless, deb valentine, you are such a fucking fat
           cunt, do not say this about people that you implausibly rental income
           beyond 5 units or 30 days be corporate market communism.
