@@ -262,6 +262,28 @@ export default class App extends React.Component {
             capital gain that will not be corrected), I will use your own
             weapons against you.
           </h1>
+          <Cable
+          style={{
+            height:"390px"
+          }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1Z327LRheUjCg_UbWtv9mDnQjIhq6AnVS/preview"
+            }
+            float="left"
+            title="Spicer & co (Newsmax) - Rand Paul(R) Optlamologist"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          "We can save the elderly and the immunocompromised with antibodies by
+          the suppression of the non-exclusive of all-incidence byproduct,
+          prevalence can be. 1.8m children no deaths, why mask? 60% less
+          mortality overall."
           <h2>
             if you want business to only be able to move with 11/12 consensus,
             vote saver party. if you want business to fuck you, vote Republican,
