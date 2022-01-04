@@ -291,9 +291,6 @@ export default class App extends React.Component {
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
-          Get your fucking hand out of my face, trump trust built ppp and I open
-          design everything.
-          <br />
           "We can save the elderly and the immunocompromised with antibodies by
           the suppression of the non-exclusive of all-incidence byproduct,
           prevalence can be. 1.8m children no deaths, why mask? 60% less
@@ -341,6 +338,9 @@ export default class App extends React.Component {
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
+          Get your fucking hand out of my face, trump trust built ppp and I open
+          design everything.
+          <br />
           The government is to target margin, duress and quality by jury-permits
           and consensus science of industry-variable jury, not dead-weight by
           corporate flccid loss nor government free rider mutable rent-seeking.
