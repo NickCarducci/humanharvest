@@ -187,10 +187,14 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          life insurance payouts, people are dying, we need to cut off anti-vaxx
-          to make room because we wasted funds on admins for expiring premiums
-          non-rollover, surrendered freedom (EULA) of the co-signatories'
-          customers and employers.
+          "you don't take property of what others have done, because it prevents
+          precedence." uhh, actually competitive advantage needs to be respected
+          for past demand to have no actual labor shortage/deficit of labor in
+          demand. "National security, safer, strength to oppose these
+          authoritarian regimes," Rep. Turner. life insurance payouts, people
+          are dying, we need to cut off anti-vaxx to make room because we wasted
+          funds on admins for expiring premiums non-rollover, surrendered
+          freedom (EULA) of the co-signatories' customers and employers.
           <h1>SUCK MY COCK for all events - be happy</h1>
           Tax payer dollars to put criminals behind bars, all implausible
           landlord use beyond 5 units and 30 days surrendered freedom (EULA).
@@ -263,9 +267,9 @@ export default class App extends React.Component {
             weapons against you.
           </h1>
           <Cable
-          style={{
-            height:"390px"
-          }}
+            style={{
+              height: "390px"
+            }}
             onError={handleScollImgError}
             //img={true}
             src={
