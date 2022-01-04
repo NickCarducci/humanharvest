@@ -194,6 +194,17 @@ export default class App extends React.Component {
           </span>
           <br />
           <br />
+          "Did the USA miss a great opportunity by not electing Bernie Sanders?"
+          <br />
+          *Don’t Obama My Bernie*. Eric Bolling (The Balance, 1/4/2021): “$3t on
+          Green policy straight up socialist, Bernie sanders socialist.”
+          Socialists would never reappropriate labor-equity, nor free rider
+          mutable-, from outside the market-, tax to trust-build instead of
+          collective bargain (immediate).
+          <br />
+          Growth, the uncontrolled illegal immigration, export boomers for gold
+          <br />
+          <br />
           You cannot refuse national defense on religious beliefs.
           <br />
           <br />
