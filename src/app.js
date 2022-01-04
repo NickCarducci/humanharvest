@@ -227,7 +227,11 @@ export default class App extends React.Component {
           social cannot copy, nor can duress be extended in the
           industry-variably-controlled jury-permitting minimal viable products
           of every business.
-          <h1>cash advance to tbt, I will use your own weapons against you</h1>
+          <br />
+          Chris Salcedo: "left-wing nutjob to cancel votes of americans." Chuck
+          Schumer on fillabuster: "Banana republic if they don’t get way,
+          disaster if we do." How do you stop cloture without cloture.
+          <h1>cash advance to tbt, I will use your own weapons against you.</h1>
           <h2>
             if you want business to only be able to move with 11/12 consensus,
             vote saver party. if you want business to fuck you, vote Republican,
