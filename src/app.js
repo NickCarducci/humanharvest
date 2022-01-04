@@ -187,6 +187,13 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Runs on&nbsp;<a href="https://qr.ae/pG6gCX">stocks</a>, stop valuing on your neighbors, use what you bought
+          the home for, boomers.&nbsp;
+          <span role="img" aria-label="evil-face">
+            😈
+          </span>
+          <br />
+          <br />
           You cannot refuse national defense on religious beliefs.
           <br />
           <br />
