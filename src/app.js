@@ -2167,7 +2167,7 @@ export default class App extends React.Component {
           just gets laundered to&nbsp;
           <a href="https://truncatedsalestax.com">bonds</a>.
           <br />
-          <Cable
+          {/*<Cable
             style={{ width: "100%" }}
             onError={handleScollImgError}
             //img={true}
@@ -2183,7 +2183,7 @@ export default class App extends React.Component {
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
-          <h2>"136.28425% chance of death 95-99"</h2>
+          <h2>"136.28425% chance of death 95-99"</h2>*/}
           Life expectancy is the average age at death, so excess deaths are to
           catch up, there is not a growing life expectancy as much as an older
           cohort. It is a dog wagging its tail situation.
