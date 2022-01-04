@@ -198,8 +198,11 @@ export default class App extends React.Component {
           themselves, why choose more important than a kid," not earning wealth
           in school. "1 electoral vote/decennial. FL is booming, no one is
           saying NY is booming." 1/4 illegal working age-share
-          <br />
-          <br />
+          <h2>
+            you arent conservative if you allow business to trade on any kind of
+            duress. you need a permit from an industry-variable jury to
+            power-rank
+          </h2>
           <Cable
             onError={handleScollImgError}
             //img={true}
@@ -2192,23 +2195,24 @@ export default class App extends React.Component {
           deaths for population growth, just look at fertility rates life
           expectancy ago. This is why they are called boomers.
           <br />
+          <Cable
+            style={{ width: "100%", height: "350px", maxHeight: "80vw" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1xYOpsuwFUyIpKXIfuEI-cn01b7h5bPCn/preview"
+            }
+            float="right"
+            title=""
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           <a href="https://www.researchgate.net/figure/Total-fertility-rate-in-United-States-1920-2014_fig1_316893597">
-            <Cable
-              style={{ width: "100%", height: "350px", maxHeight: "80vw" }}
-              onError={handleScollImgError}
-              //img={true}
-              src={
-                this.state.noyoutube
-                  ? ""
-                  : "https://drive.google.com/file/d/1xYOpsuwFUyIpKXIfuEI-cn01b7h5bPCn/preview"
-              }
-              float="right"
-              title=""
-              scrolling={this.state.scrolling}
-              fwd={this["scrollImg" + scrollnum()]}
-              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
-            />
+            src
           </a>
           Do you know why "boomers?" WWII live birth lull was life expectancy
           ago, so Census has projected this back in 2015 aging boomer deaths.
