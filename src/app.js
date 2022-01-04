@@ -231,14 +231,14 @@ export default class App extends React.Component {
           Growth, the uncontrolled illegal immigration, export boomers for gold
           <br />
           <br />
-          You cannot refuse national defense on religious beliefs. What is the
+          You cannot refuse national defense on religious beliefs. "What is the
           reason for religious exemption, it is a compromise of religious
           beliefs to be forced to do this. Unconstitutional, slap in the face in
           everyone who has served. The only dishonorable is biden. These people
           step up nobly to be the best fighting force in the world. They should
           be able to fight for freedom, their livelihood is at stake, their pay
           is being removed. [Some just want to ]people are looking to sacrifice
-          for the country out and out.
+          for the country[ out and out]."
           <br />
           <br />
           Marx would never remove freedom of Savers, albeit in the hands of
