@@ -299,6 +299,14 @@ export default class App extends React.Component {
           legal, that is industry-variable 11/12, 1/12 unreasonable doubt.
           <br />
           <br />
+          "The will of the 150m people that voted was registered by congress."
+          Jen Psaki, "childcare, healthcare, eledercare, impact budgets in homes
+          across the country. Contribution of ccc % of kids prevented becoming
+          in poverty. ...We know cases are going up, 200m vaccinations stop
+          hospitalizations and death. 500m tests. 20k sites to get expiring
+          premium free rider mutable tests. 130m arp 10m for tested, if not use
+          it, tranched out like insurance works you dumb fuck."
+          <hr />
           Mentally ill or homeless, deb valentine, you are such a fucking fat
           cunt, do not say this about people that you implausibly rental income
           beyond 5 units or 30 days be corporate market communism.
