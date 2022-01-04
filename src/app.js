@@ -193,6 +193,17 @@ export default class App extends React.Component {
           Newsmax: "socialists want your wealth and they are raising taxes to do
           it." Socialists would never add free rider mutable tax from outside
           the market, certainly for not a collective bargain (immediate).
+          “Investing a million dollars to boost competition,” how does newsmax
+          consider themselves conservative? They are market communists like
+          Democrats whom gentrify.
+          <br />
+          <br />
+          The government is to target margin, duress and quality by jury-permits
+          and consensus science of industry-variable jury, not dead-weight by
+          corporate flccid loss nor government free rider mutable rent-seeking.
+          Microeconomists (not macroeconomists) want price deflation. Austin
+          Scott (GA), "first, stop the federal government." Debt is a transitory
+          third party doneee beneficiary claimable, and is 2/3 private.
           <br />
           <br />
           why don't you talk about it, cunt? you just repeat the same shit.
