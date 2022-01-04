@@ -187,6 +187,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          life insurance payouts, people are dying, we need to cut off anti-vaxx
+          to make room because we wasted funds on admins for expiring premiums
+          non-rollover, surrendered freedom (EULA) of the co-signatories'
+          customers and employers.
           <h1>SUCK MY COCK for all events - be happy</h1>
           Tax payer dollars to put criminals behind bars, all implausible
           landlord use beyond 5 units and 30 days surrendered freedom (EULA).
