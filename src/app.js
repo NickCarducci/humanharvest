@@ -187,6 +187,9 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          You cannot refuse national defense on religious beliefs.
+          <br />
+          <br />
           Newsmax: "socialists want your wealth and they are raising taxes to do
           it." Socialists would never add free rider mutable tax from outside
           the market, certainly for not a collective bargain (immediate).
