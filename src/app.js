@@ -208,6 +208,10 @@ export default class App extends React.Component {
           You cannot refuse national defense on religious beliefs.
           <br />
           <br />
+          Marx would never remove freedom of Savers, albeit in the hands of
+          governemnt and corporation or business.
+          <br />
+          <br />
           Newsmax: "socialists want your wealth and they are raising taxes to do
           it." Socialists would never add free rider mutable tax from outside
           the market, certainly for not a collective bargain (immediate).
