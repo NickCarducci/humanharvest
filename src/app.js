@@ -200,6 +200,8 @@ export default class App extends React.Component {
           <span role="img" aria-label="evil-face">
             😈
           </span>
+          &nbsp;"I would hope I’m still learning at 90." no keep dreaming, ya
+          retard. Pay-date, "pay up front"
           <br />
           <br />
           "Did the USA miss a great opportunity by not electing Bernie Sanders?"
