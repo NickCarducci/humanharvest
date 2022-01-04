@@ -187,6 +187,12 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Tax payer dollars to put criminals behind bars, all implausible
+          landlord use beyond 5 units and 30 days surrendered freedom (EULA).
+          Kill yourself Alan Dersch. 50% debt spending. ween cops off bonds and
+          state victimized-fines/-bribes/-social-duress-force.
+          <br />
+          <br />
           "Automatically counted as a covid identified person," while it is 5%
           of all cases of pnemonia. It would increase the incidence relevance
           with aggregating disposition after aggregation of
