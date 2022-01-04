@@ -197,7 +197,10 @@ export default class App extends React.Component {
           "homeless and drug addicted, they need help, slowly killing
           themselves, why choose more important than a kid," not earning wealth
           in school. "1 electoral vote/decennial. FL is booming, no one is
-          saying NY is booming." 1/4 illegal working age-share
+          saying NY is booming." 1/4 illegal working age-share. we are working
+          10x/boomer c1970 per home sold, that is a recipe for excess demand by
+          price not even non-durable trade surmounting tech advancement GDP/p
+          down.
           <h2>
             you arent conservative if you allow business to trade on any kind of
             duress. you need a permit from an industry-variable jury to
