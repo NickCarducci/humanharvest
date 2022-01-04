@@ -187,8 +187,8 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          Runs on&nbsp;<a href="https://qr.ae/pG6gCX">stocks</a>, stop valuing on your neighbors, use what you bought
-          the home for, boomers.&nbsp;
+          Runs on&nbsp;<a href="https://qr.ae/pG6gCX">stocks</a>, stop valuing
+          on your neighbors, use what you bought the home for, boomers.&nbsp;
           <span role="img" aria-label="evil-face">
             😈
           </span>
@@ -202,7 +202,11 @@ export default class App extends React.Component {
           the market, certainly for not a collective bargain (immediate).
           “Investing a million dollars to boost competition,” how does newsmax
           consider themselves conservative? They are market communists like
-          Democrats whom gentrify.
+          Democrats whom gentrify. “Conservatives are fighting on the front
+          lines. Businesses can fuck us because microeconomists finished their
+          'don't touch the trolley thingy,' theory after assuming infinite
+          producers for self-regulation productivity.” Bridgette Gabriel on Eric
+          Bolling (the Balance).
           <br />
           <br />
           The government is to target margin, duress and quality by jury-permits
