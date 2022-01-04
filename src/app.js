@@ -203,6 +203,17 @@ export default class App extends React.Component {
             duress. you need a permit from an industry-variable jury to
             power-rank
           </h2>
+          I want surrended freedom (EULA) to be decided by industry-variable
+          multiple of 11/12 jury before 1/12 reasonable doubt
+          <br />
+          Jealous FL getting 1/4 “illegals” for my actual labor shortage.
+          <br />
+          To make up for productivity loss of GDP/p deflation per year.
+          <br />
+          Verifiably from finance/rent-seeking invoices, expiring premiums,
+          implausible landlord use and repo-cycle kept down payments and GDP/p
+          nearly constant 1800-1913.
+          <br />
           <Cable
             onError={handleScollImgError}
             //img={true}
