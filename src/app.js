@@ -227,6 +227,15 @@ export default class App extends React.Component {
           Savers go for&nbsp;<a href="https://qr.ae/pG6gM3">criminals</a>.
           <br />
           <br />
+          Cop: “No protection, not even for Motive first guilt, no one will go
+          to nyc. Visit Grand Central what Dems do. People shoot up in public
+          buildings to shoot up wherever they want and Adams seems to be all
+          talk." Cap rent at 5 units or 30 days, not price. Condos&nbsp;
+          <span role="img" aria-label="umbrella">
+            ☔️
+          </span>
+          <br />
+          <br />
           The government is to target margin, duress and quality by jury-permits
           and consensus science of industry-variable jury, not dead-weight by
           corporate flccid loss nor government free rider mutable rent-seeking.
