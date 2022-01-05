@@ -198,7 +198,10 @@ export default class App extends React.Component {
           as a statistitiant that finds correlations with rates of change
           instead of SUPUID regression, reandom of variable is folds over
           normality, you have to shuffle before extrapolating and not tranche
-          value in Quickbooks reports.
+          value in Quickbooks reports. "Seeking plea bargains overall, for 90
+          days in jail, $2k/day laundered false bids very much of transitive
+          property. stick to the current evidence, not double jeporady for
+          obvious state vic deduced."
           <h1>
             rollover
             <br />
