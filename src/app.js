@@ -187,6 +187,28 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          <Cable
+            style={{ height: "200px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1Be_y1k3B8HPffJsFV8emWEkzmnQGYmt9/preview"
+            }
+            float="left"
+            title="American Agenda (Newsmax) - John Brownfmr afvisor to Margeret Thatcher and Donald Trump"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          Marx had been dead for 50 years single co-options, Republicans call
+          40% debt spending, tax payer funds, 1/3 debt. fuck off with
+          "Marxist-Democrats," arx would never reappropriate-laborless-demand or
+          -equity.
+          <br />
+          <br />
           “I want equality, not equity.” Meaning poverty to ownership. Rent
           seeker or anti boomer, gun to head (jury-duty), what do you do?
           <br />
