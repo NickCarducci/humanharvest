@@ -187,6 +187,13 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "Need a straight jacket get him analyzed. Suspensions, falsified covid
+          documents." Fucking die off Bradshow you fucking pussy. "Psychiatric,
+          emotional problems." Brady, you are a cardboard cutout. My contempt
+          for you and the law is not amental illness you fucking chuds. G-d,
+          kill them
+          <br />
+          <br />
           Bill O'Reilly says 5m dropped out of the workforce. we work
           10x/boomers c1970 because actual labor shortage of finance, GDP/p used
           to be nearly constant 1800-1913. you are retarded you ugly, useless
@@ -8766,4 +8773,3 @@ export default class App extends React.Component {
     );
   }
 }
-
