@@ -2224,7 +2224,7 @@ class Spanish extends React.Component {
           yearSet = Object.values(usmortality)[i];
         }
       });
-      if (!yearSet) return console.log(yearSet);
+      if (!yearSet) return; // console.log(yearSet);
 
       let obj = {};
       const ageDec = Object.values(yearlypop)[i];
@@ -2613,7 +2613,7 @@ class Spanish extends React.Component {
                 yearSet = Object.values(usmortality)[i];
               }
             });
-            if (!yearSet) return console.log(yearSet);
+            if (!yearSet) return; // console.log(yearSet);
 
             let obj = {};
             const ageDec = Object.values(yearlypop)[i];
