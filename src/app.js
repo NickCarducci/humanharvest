@@ -192,6 +192,10 @@ export default class App extends React.Component {
           customers and employers. Eric Adams, you can only incarcerate for the
           crime. Not homelessness nor subjective label by worthless doctorates.
           You should be locked up, non-voters is a default vote, "no."
+          Espectially when homelessness is because of finance, we work
+          10x/boomers c1970 because of finance. "Thourough background check,"
+          just use the current evidence. You cannot use the past to prosecute
+          current crime nor even deduce intent for a different time.
           <br />
           <br />
           Tests are free rider mutable, useless tax from outside the market. The
