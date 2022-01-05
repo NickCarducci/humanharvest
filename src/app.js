@@ -187,6 +187,32 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          <Cable
+            style={{ height: "240px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1ilOADeB-Lr-2rHTyNuWPCcmts5-Lt46t/preview"
+            }
+            float="left"
+            title="John Bachmann Now (Newsmax) - Bob Kerrick, jan 6 treasonous rat"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          The attack/insurrection on Lexington (war crime grounds)&nbsp;
+          <span role="img" aria-label="checkmark">
+            ✅
+          </span>
+          : honor system signatures on an error by actuary-analysis.
+          <br />
+          <br />
+          "Let me say what I know," without court expert jury
+          <br />
+          <br />
           You do the crime, you do the time. state vic and pleas are literally,
           "moot"
           <br />
@@ -208,7 +234,7 @@ export default class App extends React.Component {
                 : "https://drive.google.com/file/d/1jPR4slHRjWybLc1Z5b9NuUL6ugWbFsy7/preview"
             }
             float="left"
-            title="Chicago Advocate, Father of 6 Willie Preston on school trade secrets from free rider mutable tax from outside the market, and rent-driven-employment"
+            title="National Report (Newsmax) - Chicago Advocate, Father of 6 Willie Preston on school trade secrets from free rider mutable tax from outside the market, and rent-driven-employment"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
