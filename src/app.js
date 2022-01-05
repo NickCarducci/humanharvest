@@ -187,7 +187,17 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          You can decide what to do with your money, not my disability. slut. Jordan Peterson was right.<br/><br/>
+          "I’ve saved more than anyone, kill him in the race, can’t go anywhere
+          without the mayor[Rudy Giuliani].” Basis rate fallacy Freudian slip,
+          of the basis. "Rooster for the morning." Doesn't matter.
+          <br />
+          <br />
+          "You can squeeze him into the corner, can do this with hochul, if
+          people he [Adams] lets out kills [as many people as he's/they've killed,
+          you're all gone?]." You can decide what to do with your money, not my
+          disability. slut. Jordan Peterson was right.
+          <br />
+          <br />
           He’s a nut,’ collecting nuts to break common sense
           <br />
           <br />
