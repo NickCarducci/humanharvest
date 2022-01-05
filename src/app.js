@@ -187,15 +187,20 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          People don’t want to have a child, they are selfish, they have dogs
+          and cats that can take the place of children. Adopt people. How many
+          people are waiting for Baphomet to take care of them?” Sing Sacrifice
+          gumbo-guy
+          <h1>CATHOLICS ARE CRAZY, SIN SACRIFICE IS NULL HYPOTHESIS!</h1>
           "I’ve saved more than anyone, kill him in the race, can’t go anywhere
           without the mayor[Rudy Giuliani].” Basis rate fallacy Freudian slip,
           of the basis. "Rooster for the morning." Doesn't matter.
           <br />
           <br />
           "You can squeeze him into the corner, can do this with hochul, if
-          people he [Adams] lets out kills [as many people as he's/they've killed,
-          you're all gone?]." You can decide what to do with your money, not my
-          disability. slut. Jordan Peterson was right.
+          people he [Adams] lets out kills [as many people as he's/they've
+          killed, you're all gone?]." You can decide what to do with your money,
+          not my disability. slut. Jordan Peterson was right.
           <br />
           <br />
           He’s a nut,’ collecting nuts to break common sense
@@ -225,11 +230,13 @@ export default class App extends React.Component {
             'productivity.'"
           </h3>
           "How did the gold standard affect the economy?"
-
-<br/>
-It is a fallacy that a depositary only can amalgamate into vault-share only with fractional reserves or the surrendered freedom of others (EULA), actualized. To say the standard is just gold or just parks, is nuts.
-<br/>
-<br/>
+          <br />
+          It is a fallacy that a depositary only can amalgamate into vault-share
+          only with fractional reserves or the surrendered freedom of others
+          (EULA), actualized. To say the standard is just gold or just parks, is
+          nuts.
+          <br />
+          <br />
           "17x die 20x hospitalized," but you aren’t counting all-incidence
           cause, just non-exclusive byproduct of bacterial-reinfection
           (injecting viral DNA into cell is literally, 'made up'). Best snot on
