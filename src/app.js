@@ -187,6 +187,7 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          walgreens and expert jury is dangerous
           <h3>
             "They would basically strap me in for four days at $2k/day expiring
             premiums in the Newark Beth Israel pool. false bid pool, dog won't
