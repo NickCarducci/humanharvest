@@ -187,6 +187,9 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          “Half transactions/NYC were all-cash offers for [surrendering the freedoms (EULA) of others' ]$1.9m
+          average $30b/2021,” Amanda Brohante.
+          <br />
           <Cable
             style={{ height: "240px" }}
             onError={handleScollImgError}
