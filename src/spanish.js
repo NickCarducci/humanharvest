@@ -1532,6 +1532,498 @@ const usmortality = {
     },*/
   ]
 };
+const yearlypop = {
+  /*"1910": {
+    "0": 2217342,
+    "1": 1976472,
+    "2": 2166492,
+    "3": 2156141,
+    "4": 2114917,
+    "5": 2035398,
+    "6": 2033834,
+    "7": 1954226,
+    "8": 1919357,
+    "9": 1817817,
+    "10": 1868583,
+    "11": 1705081,
+    "12": 1912061,
+    "13": 1773343,
+    "14": 1848122,
+    "15": 1721225,
+    "16": 1864711,
+    "17": 1786240,
+    "18": 1928306,
+    "19": 1763061,
+    "20": 1854622,
+    "21": 1789404,
+    "22": 1835060,
+    "23": 1791996,
+    "24": 1785902,
+    "25": 1812275,
+    "27": 1555451,
+    "28": 1729763,
+    "29": 1394120,
+    "30": 1854608,
+    "31": 1139000,
+    "32": 1431468,
+    "33": 1204247,
+    "34": 1282862,
+    "35": 1528717,
+    "37": 1137317,
+    "38": 1361874,
+    "39": 1112588,
+    "40": 1520085,
+    "41": 833642,
+    "42": 1116965,
+    "43": 921500,
+    "44": 868705,
+    "45": 1108820,
+    "46": 792288,
+    "47": 786450,
+    "48": 945829,
+    "49": 837810,
+    "50": 1142071,
+    "51": 632213,
+    "52": 804735,
+    "53": 656024,
+    "54": 665748,
+    "55": 688971,
+    "56": 601720,
+    "57": 498348,
+    "58": 632529,
+    "59": 467383,
+    "60": 683216,
+    "61": 361503,
+    "62": 436767,
+    "63": 407117,
+    "64": 378547,
+    "67": 301476,
+    "68": 305239,
+    "69": 268563,
+    "70": 338500,
+    "71": 182424,
+    "72": 223293,
+    "73": 192900,
+    "74": 176611
+    /*"75": 196051,
+    "76": 150075,
+    "77": 117892,
+    "78": 112200,
+    "79": 91084,
+    "80": 106718,
+    "81": 58419,
+    "82": 61317,
+    "83": 50190,
+    "84": 45110,
+    "85": 39536,
+    "86": 28159,
+    "87": 23396,
+    "88": 17724,
+    "89": 14003,
+    "90": 14949,
+    "91": 6408,
+    "92": 5422,
+    "93": 3900,
+    "94": 2794,
+    "95": 3274,
+    "96": 1409,
+    "97": 970,
+    "98": 1130,
+    "99": 608,
+    "100": 3555,
+    unknown: 169055*
+},*/
+  "1915": {
+    "0": 2317000,
+    "1": 2295000,
+    "2": 2270000,
+    "3": 2246000,
+    "4": 2219000,
+    "5": 2191000,
+    "6": 2163000,
+    "7": 2135000,
+    "8": 2106000,
+    "9": 2079000,
+    "10": 2051000,
+    "11": 2024000,
+    "12": 1998000,
+    "13": 1970000,
+    "14": 1943000,
+    "15": 1916000,
+    "16": 1889000,
+    "17": 1871000,
+    "18": 1871000,
+    "19": 1881000,
+    "20": 1887000,
+    "21": 1895000,
+    "22": 1893000,
+    "23": 1881000,
+    "24": 1860000,
+    "25": 1839000,
+    "26": 1820000,
+    "27": 1788000,
+    "28": 1741000,
+    "29": 1685000,
+    "30": 1626000,
+    "31": 1563000,
+    "32": 1518000,
+    "33": 1499000,
+    "34": 1501000,
+    "35": 1496000,
+    "36": 1495000,
+    "37": 1475000,
+    "38": 1423000,
+    "39": 1352000,
+    "40": 1283000,
+    "41": 1213000,
+    "42": 1157000,
+    "43": 1126000,
+    "44": 1110000,
+    "45": 1089000,
+    "46": 1069000,
+    "47": 1046000,
+    "48": 1018000,
+    "49": 987000,
+    "50": 956000,
+    "51": 930000,
+    "52": 894000,
+    "53": 844000,
+    "54": 785000,
+    "55": 729000,
+    "56": 669000,
+    "57": 624000,
+    "58": 598000,
+    "59": 586000,
+    "60": 572000,
+    "61": 560000,
+    "62": 541000,
+    "63": 512000,
+    "64": 475000,
+    "65": 443000,
+    "66": 411000,
+    "67": 379000,
+    "68": 348000,
+    "69": 320000,
+    "70": 294000,
+    "71": 270000,
+    "72": 249000,
+    "73": 233000,
+    "74": 220000
+    //"75+": 1334000
+  },
+  "1916": {
+    "0": 2325000,
+    "1": 2308000,
+    "2": 2291000,
+    "3": 2270000,
+    "4": 2248000,
+    "5": 2223000,
+    "6": 2199000,
+    "7": 2172000,
+    "8": 2146000,
+    "9": 2118000,
+    "10": 2088000,
+    "11": 2063000,
+    "12": 2034000,
+    "13": 2000000,
+    "14": 1965000,
+    "15": 1932000,
+    "16": 1896000,
+    "17": 1872000,
+    "18": 1869000,
+    "19": 1880000,
+    "20": 1886000,
+    "21": 1893000,
+    "22": 1894000,
+    "23": 1884000,
+    "24": 1866000,
+    "25": 1851000,
+    "26": 1835000,
+    "27": 1807000,
+    "28": 1762000,
+    "29": 1704000,
+    "30": 1647000,
+    "31": 1583000,
+    "32": 1539000,
+    "33": 1523000,
+    "34": 1525000,
+    "35": 1523000,
+    "36": 1524000,
+    "37": 1505000,
+    "38": 1452000,
+    "39": 1379000,
+    "40": 1308000,
+    "41": 1236000,
+    "42": 1179000,
+    "43": 1148000,
+    "44": 1134000,
+    "45": 1116000,
+    "46": 1099000,
+    "47": 1077000,
+    "48": 1046000,
+    "49": 1012000,
+    "50": 978000,
+    "51": 948000,
+    "52": 910000,
+    "53": 859000,
+    "54": 801000,
+    "55": 745000,
+    "56": 686000,
+    "57": 640000,
+    "58": 615000,
+    "59": 602000,
+    "60": 589000,
+    "61": 576000,
+    "62": 558000,
+    "63": 527000,
+    "64": 488000,
+    "65": 453000,
+    "66": 419000,
+    "67": 388000,
+    "68": 356000,
+    "69": 325000,
+    "70": 298000,
+    "71": 275000,
+    "72": 254000,
+    "73": 238000,
+    "74": 229000
+    //"75+": 1368000
+  },
+  "1917": {
+    "0": 2329000,
+    "1": 2320000,
+    "2": 2308000,
+    "3": 2294000,
+    "4": 2276000,
+    "5": 2257000,
+    "6": 2235000,
+    "7": 2210000,
+    "8": 2185000,
+    "9": 2158000,
+    "10": 2129000,
+    "11": 2103000,
+    "12": 2071000,
+    "13": 2032000,
+    "14": 1989000,
+    "15": 1947000,
+    "16": 1904000,
+    "17": 1875000,
+    "18": 1868000,
+    "19": 1872000,
+    "20": 1876000,
+    "21": 1880000,
+    "22": 1880000,
+    "23": 1872000,
+    "24": 1862000,
+    "25": 1848000,
+    "26": 1840000,
+    "27": 1817000,
+    "28": 1774000,
+    "29": 1718000,
+    "30": 1663000,
+    "31": 1601000,
+    "32": 1557000,
+    "33": 1545000,
+    "34": 1550000,
+    "35": 1549000,
+    "36": 1554000,
+    "37": 1536000,
+    "38": 1481000,
+    "39": 1406000,
+    "40": 1334000,
+    "41": 1258000,
+    "42": 1200000,
+    "43": 1170000,
+    "44": 1159000,
+    "45": 1144000,
+    "46": 1127000,
+    "47": 1108000,
+    "48": 1073000,
+    "49": 1036000,
+    "50": 999000,
+    "51": 966000,
+    "52": 925000,
+    "53": 873000,
+    "54": 817000,
+    "55": 762000,
+    "56": 704000,
+    "57": 658000,
+    "58": 632000,
+    "59": 621000,
+    "60": 606000,
+    "61": 593000,
+    "62": 575000,
+    "63": 542000,
+    "64": 501000,
+    "65": 464000,
+    "66": 430000,
+    "67": 396000,
+    "68": 361000,
+    "69": 332000,
+    "70": 305000,
+    "71": 281000,
+    "72": 261000,
+    "73": 246000,
+    "74": 237000
+    //"75+": 1401000
+  },
+  "1918": {
+    "0": 2332000,
+    "1": 2330000,
+    "2": 2324000,
+    "3": 2316000,
+    "4": 2304000,
+    "5": 2288000,
+    "6": 2270000,
+    "7": 2250000,
+    "8": 2226000,
+    "9": 2199000,
+    "10": 2171000,
+    "11": 2141000,
+    "12": 2107000,
+    "13": 2064000,
+    "14": 2016000,
+    "15": 1971000,
+    "16": 1925000,
+    "17": 1882000,
+    "18": 1843000,
+    "19": 1808000,
+    "20": 1771000,
+    "21": 1734000,
+    "22": 1711000,
+    "23": 1709000,
+    "24": 1717000,
+    "25": 1725000,
+    "26": 1738000,
+    "27": 1735000,
+    "28": 1708000,
+    "29": 1667000,
+    "30": 1626000,
+    "31": 1582000,
+    "32": 1553000,
+    "33": 1549000,
+    "34": 1562000,
+    "35": 1567000,
+    "36": 1578000,
+    "37": 1563000,
+    "38": 1509000,
+    "39": 1431000,
+    "40": 1358000,
+    "41": 1279000,
+    "42": 1219000,
+    "43": 1191000,
+    "44": 1184000,
+    "45": 1170000,
+    "46": 1158000,
+    "47": 1137000,
+    "48": 1103000,
+    "49": 1060000,
+    "50": 1020000,
+    "51": 983000,
+    "52": 940000,
+    "53": 889000,
+    "54": 833000,
+    "55": 777000,
+    "56": 720000,
+    "57": 674000,
+    "58": 650000,
+    "59": 637000,
+    "60": 623000,
+    "61": 611000,
+    "62": 591000,
+    "63": 558000,
+    "64": 515000,
+    "65": 476000,
+    "66": 440000,
+    "67": 404000,
+    "68": 370000,
+    "69": 337000,
+    "70": 311000,
+    "71": 286000,
+    "72": 267000,
+    "73": 253000,
+    "74": 247000
+    //"75+": 1435000
+  },
+  "1919": {
+    "0": 2299000,
+    "1": 2308000,
+    "2": 2312000,
+    "3": 2312000,
+    "4": 2305000,
+    "5": 2297000,
+    "6": 2282000,
+    "7": 2263000,
+    "8": 2242000,
+    "9": 2214000,
+    "10": 2186000,
+    "11": 2158000,
+    "12": 2121000,
+    "13": 2071000,
+    "14": 2015000,
+    "15": 1959000,
+    "16": 1903000,
+    "17": 1860000,
+    "18": 1839000,
+    "19": 1833000,
+    "20": 1824000,
+    "21": 1816000,
+    "22": 1811000,
+    "23": 1810000,
+    "24": 1810000,
+    "25": 1811000,
+    "26": 1815000,
+    "27": 1805000,
+    "28": 1770000,
+    "29": 1717000,
+    "30": 1667000,
+    "31": 1611000,
+    "32": 1574000,
+    "33": 1566000,
+    "34": 1576000,
+    "35": 1582000,
+    "36": 1592000,
+    "37": 1577000,
+    "38": 1521000,
+    "39": 1443000,
+    "40": 1369000,
+    "41": 1291000,
+    "42": 1231000,
+    "43": 1204000,
+    "44": 1198000,
+    "45": 1187000,
+    "46": 1174000,
+    "47": 1153000,
+    "48": 1118000,
+    "49": 1072000,
+    "50": 1030000,
+    "51": 990000,
+    "52": 945000,
+    "53": 893000,
+    "54": 840000,
+    "55": 785000,
+    "56": 730000,
+    "57": 685000,
+    "58": 661000,
+    "59": 649000,
+    "60": 634000,
+    "61": 621000,
+    "62": 602000,
+    "63": 567000,
+    "64": 522000,
+    "65": 483000,
+    "66": 444000,
+    "67": 408000,
+    "68": 372000,
+    "69": 341000,
+    "70": 313000,
+    "71": 289000,
+    "72": 271000,
+    "73": 257000,
+    "74": 254000
+    //"75+": 1454000
+  }
+};
 
 const frequency = (chosenfrequency, a, range) => {
   var frequency = null;
@@ -1633,6 +2125,29 @@ class Spanish extends React.Component {
     let mNinetyFiveNJData = [];
     let mOneTenNJData = [];
     let avgLifetime = {};
+
+    let yZeroNJDataAge = [];
+    let yFiftyNJDataAge = [];
+    let ySixtyFiveNJDataAge = [];
+    let ySeventyFiveNJDataAge = [];
+    let yEightyFiveNJDataAge = [];
+    let yNinetyFiveNJDataAge = [];
+    let yOneTenNJDataAge = [];
+
+    let yearlyZeroNJDataAge = [];
+    let yearlyZeroNJAge = [];
+    let yearlyFiftyNJDataAge = [];
+    let yearlyFiftyNJAge = [];
+    let yearlySeventyFiveNJDataAge = [];
+    let yearlySeventyFiveNJAge = [];
+    let yearlySixtyFiveNJDataAge = [];
+    let yearlySixtyFiveNJAge = [];
+    let yearlyEightyFiveNJDataAge = [];
+    let yearlyEightyFiveNJAge = [];
+    let yearlyNinetyFiveNJDataAge = [];
+    let yearlyNinetyFiveNJAge = [];
+    let yearlyOneTenNJDataAge = [];
+    let yearlyOneTenNJAge = [];
     const val = (d, p = 0 /*1000*/) => Math.round((d / 100000) * p); // *1000);
     const calculate = (x) => (x.deaths ? x.deaths : val(x.dx, x.pop));
     Object.keys(usmortality).forEach((yearSet, i) => {
@@ -1700,7 +2215,113 @@ class Spanish extends React.Component {
         }
       });
     });
+    Object.keys(yearlypop).forEach((year, i) => {
+      noData.push([year, 0]);
+      date.push(year);
+      var yearSet = null;
+      Object.keys(usmortality).forEach((y, i) => {
+        if (y - year > -1 && y - year < 5) {
+          yearSet = Object.values(usmortality)[i];
+        }
+      });
+      if (!yearSet) return console.log(yearSet);
+
+      let obj = {};
+      const ageDec = Object.values(yearlypop)[i];
+      Object.keys(ageDec).forEach((age, i) => {
+        const pop = yearSet.find(
+          (y) => y.age.split("-")[1] - age > -1 && y.age.split("-")[1] - age < 5
+        );
+        const population = Number(Object.values(ageDec)[i]);
+
+        if (!obj[pop.age]) obj[pop.age] = 0;
+        if (population) obj[pop.age] = obj[pop.age] + Math.round(population); //Math.round(deathprob * (pop.pop / 5) * 1000);
+      });
+      Object.keys(obj).forEach((age, i) => {
+        if (age === "0") {
+          yZeroNJDataAge.push([year, Object.values(obj)[i]]);
+        } else if (
+          age === "1-4" ||
+          age === "5-9" ||
+          age === "10-14" ||
+          age === "15-19" ||
+          age === "20-24" ||
+          age === "25-29" ||
+          age === "30-34" ||
+          age === "35-39" ||
+          age === "40-44" ||
+          age === "45-49"
+        ) {
+          yFiftyNJDataAge.push([year, Object.values(obj)[i]]);
+        } else if (age === "50-54" || age === "55-59" || age === "60-64") {
+          ySixtyFiveNJDataAge.push([year, Object.values(obj)[i]]);
+        } else if (age === "65-69" || age === "70-74") {
+          ySeventyFiveNJDataAge.push([year, Object.values(obj)[i]]);
+        } else if (age === "75-79" || age === "80-84") {
+          yEightyFiveNJDataAge.push([year, Object.values(obj)[i]]);
+        } else if (age === "85-89" || age === "90-94") {
+          yNinetyFiveNJDataAge.push([year, Object.values(obj)[i]]);
+        } else if (
+          age === "95-99" ||
+          age === "100-104" ||
+          age === "105-109" ||
+          age === "110"
+        ) {
+          yOneTenNJDataAge.push([year, Object.values(obj)[i]]);
+        }
+      });
+      /**
+    =[{
+      age: "50-54",
+      dx: 2357.65 ,
+      pop: 20846
+     },{}]
+      */
+    });
     date.forEach((x) => {
+      let yOA = 0;
+      yOneTenNJDataAge.forEach((obj) => {
+        if (obj[0] === x) yOA = yOA + obj[1];
+      });
+      yearlyOneTenNJAge.push(yOA);
+      yearlyOneTenNJDataAge.push([x, yOA]);
+      let yNA = 0;
+      yNinetyFiveNJDataAge.forEach((obj) => {
+        if (obj[0] === x) yNA = yNA + obj[1];
+      });
+      yearlyNinetyFiveNJAge.push(yNA);
+      yearlyNinetyFiveNJDataAge.push([x, yNA]);
+      let yAA = 0;
+      yEightyFiveNJDataAge.forEach((obj) => {
+        if (obj[0] === x) yAA = yAA + obj[1];
+      });
+      yearlyEightyFiveNJAge.push(yAA);
+      yearlyEightyFiveNJDataAge.push([x, yAA]);
+      let yEA = 0;
+      ySeventyFiveNJDataAge.forEach((obj) => {
+        if (obj[0] === x) yEA = yEA + obj[1];
+      });
+      yearlySeventyFiveNJAge.push(yEA);
+      yearlySeventyFiveNJDataAge.push([x, yEA]);
+      let ySA = 0;
+      ySixtyFiveNJDataAge.forEach((obj) => {
+        if (obj[0] === x) ySA = ySA + obj[1];
+      });
+      yearlySixtyFiveNJAge.push(ySA);
+      yearlySixtyFiveNJDataAge.push([x, ySA]);
+      let yMA = 0;
+      yFiftyNJDataAge.forEach((obj) => {
+        if (obj[0] === x) yMA = yMA + obj[1];
+      });
+      yearlyFiftyNJAge.push(yMA);
+      yearlyFiftyNJDataAge.push([x, yMA]);
+      let yZA = 0;
+      yZeroNJDataAge.forEach((obj) => {
+        if (obj[0] === x) yZA = yZA + obj[1];
+      });
+      yearlyZeroNJAge.push(yZA);
+      yearlyZeroNJDataAge.push([x, yZA]);
+
       let totmO = 0;
       mOneTenNJData.forEach((obj) => {
         if (obj[0] === x) totmO = totmO + obj[1];
@@ -1798,6 +2419,7 @@ class Spanish extends React.Component {
       ...mortalEightyFiveNJAge
     );
     noData.sort((a, b) => a[0] - b[0]);
+    date.sort((a, b) => a - b);
     mortalZeroNJData.sort((a, b) => a[0] - b[0]);
     mortalZeroNJDataAge.sort((a, b) => a[0] - b[0]);
     mortalFiftyNJDataAge.sort((a, b) => a[0] - b[0]);
@@ -1814,6 +2436,7 @@ class Spanish extends React.Component {
       highlifetime,
       averageLifetimeData,
       date,
+      cappop,
       mortalZeroNJData,
       mortalZeroNJDataAge,
       mortalFiftyNJDataAge,
@@ -1826,6 +2449,13 @@ class Spanish extends React.Component {
       mortalEightyFiveNJData,
       mortalNinetyFiveNJData,
       mortalOneTenNJData,
+      yearlyZeroNJDataAge,
+      yearlyFiftyNJDataAge,
+      yearlySixtyFiveNJDataAge,
+      yearlySeventyFiveNJDataAge,
+      yearlyEightyFiveNJDataAge,
+      yearlyNinetyFiveNJDataAge,
+      yearlyOneTenNJDataAge,
       noData,
       yAxis: highDeaths - lowDeaths,
       xAxis: highDate - lowDate,
@@ -1887,6 +2517,29 @@ class Spanish extends React.Component {
           let mEightyFiveNJData = [];
           let mNinetyFiveNJData = [];
           let mOneTenNJData = [];
+
+          let yZeroNJDataAge = [];
+          let yFiftyNJDataAge = [];
+          let ySixtyFiveNJDataAge = [];
+          let ySeventyFiveNJDataAge = [];
+          let yEightyFiveNJDataAge = [];
+          let yNinetyFiveNJDataAge = [];
+          let yOneTenNJDataAge = [];
+
+          let yearlyZeroNJDataAge = [];
+          let yearlyZeroNJAge = [];
+          let yearlyFiftyNJDataAge = [];
+          let yearlyFiftyNJAge = [];
+          let yearlySeventyFiveNJDataAge = [];
+          let yearlySeventyFiveNJAge = [];
+          let yearlySixtyFiveNJDataAge = [];
+          let yearlySixtyFiveNJAge = [];
+          let yearlyEightyFiveNJDataAge = [];
+          let yearlyEightyFiveNJAge = [];
+          let yearlyNinetyFiveNJDataAge = [];
+          let yearlyNinetyFiveNJAge = [];
+          let yearlyOneTenNJDataAge = [];
+          let yearlyOneTenNJAge = [];
           Object.keys(usmortality).forEach((yearSet, i) => {
             const year = yearSet; //Number(yearSet.split("-")[1]);
             noData.push([year, 0]);
@@ -1951,7 +2604,100 @@ class Spanish extends React.Component {
               }
             });
           });
+          Object.keys(yearlypop).forEach((year, i) => {
+            noData.push([year, 0]);
+            date.push(year);
+            var yearSet = null;
+            Object.keys(usmortality).forEach((y, i) => {
+              if (y - year > -1 && y - year < 5) {
+                yearSet = Object.values(usmortality)[i];
+              }
+            });
+            if (!yearSet) return console.log(yearSet);
+
+            let obj = {};
+            const ageDec = Object.values(yearlypop)[i];
+            Object.keys(ageDec).forEach((age, i) => {
+              const pop = yearSet.find(
+                (y) =>
+                  y.age.split("-")[1] - age > -1 &&
+                  y.age.split("-")[1] - age < 5
+              );
+              const population = Number(Object.values(ageDec)[i]);
+
+              if (!obj[pop.age]) obj[pop.age] = 0;
+              if (population)
+                obj[pop.age] = obj[pop.age] + Math.round(population); //Math.round(deathprob * (pop.pop / 5) * 1000);
+            });
+            Object.keys(obj).forEach((age, i) => {
+              if (frequency(chosenfrequency, 0).includes(age)) {
+                yZeroNJDataAge.push([year, Object.values(obj)[i]]);
+              } else if (frequency(chosenfrequency, 1).includes(age)) {
+                yFiftyNJDataAge.push([year, Object.values(obj)[i]]);
+              } else if (frequency(chosenfrequency, 2).includes(age)) {
+                ySixtyFiveNJDataAge.push([year, Object.values(obj)[i]]);
+              } else if (frequency(chosenfrequency, 3).includes(age)) {
+                ySeventyFiveNJDataAge.push([year, Object.values(obj)[i]]);
+              } else if (frequency(chosenfrequency, 4).includes(age)) {
+                yEightyFiveNJDataAge.push([year, Object.values(obj)[i]]);
+              } else if (frequency(chosenfrequency, 5).includes(age)) {
+                yNinetyFiveNJDataAge.push([year, Object.values(obj)[i]]);
+              } else if (frequency(chosenfrequency, 6).includes(age)) {
+                yOneTenNJDataAge.push([year, Object.values(obj)[i]]);
+              }
+            });
+            /**
+          =[{
+            age: "50-54",
+            dx: 2357.65 ,
+            pop: 20846
+           },{}]
+            */
+          });
           date.forEach((x) => {
+            let yOA = 0;
+            yOneTenNJDataAge.forEach((obj) => {
+              if (obj[0] === x) yOA = yOA + obj[1];
+            });
+            yearlyOneTenNJAge.push(yOA);
+            yearlyOneTenNJDataAge.push([x, yOA]);
+            let yNA = 0;
+            yNinetyFiveNJDataAge.forEach((obj) => {
+              if (obj[0] === x) yNA = yNA + obj[1];
+            });
+            yearlyNinetyFiveNJAge.push(yNA);
+            yearlyNinetyFiveNJDataAge.push([x, yNA]);
+            let yAA = 0;
+            yEightyFiveNJDataAge.forEach((obj) => {
+              if (obj[0] === x) yAA = yAA + obj[1];
+            });
+            yearlyEightyFiveNJAge.push(yAA);
+            yearlyEightyFiveNJDataAge.push([x, yAA]);
+            let yEA = 0;
+            ySeventyFiveNJDataAge.forEach((obj) => {
+              if (obj[0] === x) yEA = yEA + obj[1];
+            });
+            yearlySeventyFiveNJAge.push(yEA);
+            yearlySeventyFiveNJDataAge.push([x, yEA]);
+            let ySA = 0;
+            ySixtyFiveNJDataAge.forEach((obj) => {
+              if (obj[0] === x) ySA = ySA + obj[1];
+            });
+            yearlySixtyFiveNJAge.push(ySA);
+            yearlySixtyFiveNJDataAge.push([x, ySA]);
+            let yMA = 0;
+            yFiftyNJDataAge.forEach((obj) => {
+              if (obj[0] === x) yMA = yMA + obj[1];
+            });
+            yearlyFiftyNJAge.push(yMA);
+            yearlyFiftyNJDataAge.push([x, yMA]);
+            let yZA = 0;
+            yZeroNJDataAge.forEach((obj) => {
+              if (obj[0] === x) yZA = yZA + obj[1];
+            });
+            yearlyZeroNJAge.push(yZA);
+            yearlyZeroNJDataAge.push([x, yZA]);
+
             let totmO = 0;
             mOneTenNJData.forEach((obj) => {
               if (obj[0] === x) totmO = totmO + obj[1];
@@ -1989,6 +2735,12 @@ class Spanish extends React.Component {
             });
             mortalFiftyNJ.push(totmF);
             mortalFiftyNJData.push([x, totmF]);
+            let totmZ = 0;
+            mZeroNJData.forEach((obj) => {
+              if (obj[0] === x) totmZ = totmZ + obj[1];
+            });
+            mortalZeroNJ.push(totmZ);
+            mortalZeroNJData.push([x, totmZ]);
             let totmEFA = 0;
             mEightyFiveNJDataAge.forEach((obj) => {
               if (obj[0] === x) totmEFA = totmEFA + obj[1];
@@ -2019,12 +2771,6 @@ class Spanish extends React.Component {
             });
             mortalZeroNJAge.push(totmZA);
             mortalZeroNJDataAge.push([x, totmZA]);
-            let totmZ = 0;
-            mZeroNJData.forEach((obj) => {
-              if (obj[0] === x) totmZ = totmZ + obj[1];
-            });
-            mortalZeroNJ.push(totmZ);
-            mortalZeroNJData.push([x, totmZ]);
           });
 
           var lowDate = Math.min(...date);
@@ -2047,6 +2793,7 @@ class Spanish extends React.Component {
             ...mortalSeventyFiveNJAge,
             ...mortalEightyFiveNJAge
           );
+          date.sort((a, b) => a - b);
           noData.sort((a, b) => a[0] - b[0]);
           mortalZeroNJData.sort((a, b) => a[0] - b[0]);
           mortalFiftyNJDataAge.sort((a, b) => a[0] - b[0]);
@@ -2073,6 +2820,13 @@ class Spanish extends React.Component {
             mortalEightyFiveNJData,
             mortalNinetyFiveNJData,
             mortalOneTenNJData,
+            yearlyZeroNJDataAge,
+            yearlyFiftyNJDataAge,
+            yearlySixtyFiveNJDataAge,
+            yearlySeventyFiveNJDataAge,
+            yearlyEightyFiveNJDataAge,
+            yearlyNinetyFiveNJDataAge,
+            yearlyOneTenNJDataAge,
             noData,
             yAxis: highDeaths - lowDeaths,
             xAxis: highDate - lowDate,
@@ -2093,7 +2847,7 @@ class Spanish extends React.Component {
     ]);
     const mortalZeroNJData = this.state.mortalZeroNJData.map(([x, y]) => [
       ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-      ((y - this.state.lowDeaths) / this.state.yAxis) * 150
+      ((y - this.state.lowDeaths) / yaxis) * 150
     ]);
     const mortalZeroNJDataAge = this.state.mortalZeroNJDataAge.map(([x, y]) => [
       ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
@@ -2125,40 +2879,80 @@ class Spanish extends React.Component {
     );
     const mortalFiftyNJData = this.state.mortalFiftyNJData.map(([x, y]) => [
       ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-      ((y - this.state.lowDeaths) / this.state.yAxis) * 150
+      ((y - this.state.lowDeaths) / yaxis) * 150
     ]);
     const mortalSixtyFiveNJData = this.state.mortalSixtyFiveNJData.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / this.state.yAxis) * 150
+        ((y - this.state.lowDeaths) / yaxis) * 150
       ]
     );
     const mortalSeventyFiveNJData = this.state.mortalSeventyFiveNJData.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / this.state.yAxis) * 150
+        ((y - this.state.lowDeaths) / yaxis) * 150
       ]
     );
     const mortalEightyFiveNJData = this.state.mortalEightyFiveNJData.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / this.state.yAxis) * 150
+        ((y - this.state.lowDeaths) / yaxis) * 150
       ]
     );
     const mortalNinetyFiveNJData = this.state.mortalNinetyFiveNJData.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / this.state.yAxis) * 150
+        ((y - this.state.lowDeaths) / yaxis) * 150
       ]
     );
     const mortalOneTenNJData = this.state.mortalOneTenNJData.map(([x, y]) => [
       ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-      ((y - this.state.lowDeaths) / this.state.yAxis) * 150
+      ((y - this.state.lowDeaths) / yaxis) * 150
     ]);
     const averageLifetimeData = this.state.averageLifetimeData.map(([x, y]) => [
       ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
       ((y - 0) / this.state.highlifetime) * 150
     ]);
+    const yearlyZeroNJDataAge = this.state.yearlyZeroNJDataAge.map(([x, y]) => [
+      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
+      ((y - this.state.lowDeaths) / yaxis) * 150
+    ]);
+    const yearlyFiftyNJDataAge = this.state.yearlyFiftyNJDataAge.map(
+      ([x, y]) => [
+        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
+        ((y - this.state.lowDeaths) / yaxis) * 150
+      ]
+    );
+    const yearlySixtyFiveNJDataAge = this.state.yearlySixtyFiveNJDataAge.map(
+      ([x, y]) => [
+        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
+        ((y - this.state.lowDeaths) / yaxis) * 150
+      ]
+    );
+    const yearlySeventyFiveNJDataAge = this.state.yearlySeventyFiveNJDataAge.map(
+      ([x, y]) => [
+        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
+        ((y - this.state.lowDeaths) / yaxis) * 150
+      ]
+    );
+    const yearlyEightyFiveNJDataAge = this.state.yearlyEightyFiveNJDataAge.map(
+      ([x, y]) => [
+        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
+        ((y - this.state.lowDeaths) / yaxis) * 150
+      ]
+    );
+    const yearlyNinetyFiveNJDataAge = this.state.yearlyNinetyFiveNJDataAge.map(
+      ([x, y]) => [
+        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
+        ((y - this.state.lowDeaths) / yaxis) * 150
+      ]
+    );
+    const yearlyOneTenNJDataAge = this.state.yearlyOneTenNJDataAge.map(
+      ([x, y]) => [
+        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
+        ((y - this.state.lowDeaths) / yaxis) * 150
+      ]
+    );
     const ite = { border: "1px grey dashed", width: "max-content" };
     const labelstyle = {
       backgroundColor: "rgba(50,120,200,.6)",
@@ -2317,6 +3111,118 @@ class Spanish extends React.Component {
                       stroke="rgb(230,230,230)"
                       fill="transparent"
                       strokeWidth={3}
+                      key={i}
+                    />
+                  )
+              )}
+              {yearlyZeroNJDataAge.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={8}
+                      height={1}
+                      stroke="white"
+                      fill="transparent"
+                      strokeWidth={1}
+                      key={i}
+                    />
+                  )
+              )}
+              {yearlyFiftyNJDataAge.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={8}
+                      height={1}
+                      stroke="purple"
+                      fill="transparent"
+                      strokeWidth={1}
+                      key={i}
+                    />
+                  )
+              )}
+              {yearlySixtyFiveNJDataAge.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={8}
+                      height={1}
+                      stroke="blue"
+                      fill="transparent"
+                      strokeWidth={1}
+                      key={i}
+                    />
+                  )
+              )}
+              {yearlySeventyFiveNJDataAge.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={8}
+                      height={1}
+                      stroke="green"
+                      fill="transparent"
+                      strokeWidth={1}
+                      key={i}
+                    />
+                  )
+              )}
+              {yearlyEightyFiveNJDataAge.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={8}
+                      height={1}
+                      stroke="orange"
+                      fill="transparent"
+                      strokeWidth={1}
+                      key={i}
+                    />
+                  )
+              )}
+              {yearlyNinetyFiveNJDataAge.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={8}
+                      height={1}
+                      stroke="red"
+                      fill="transparent"
+                      strokeWidth={1}
+                      key={i}
+                    />
+                  )
+              )}
+              {yearlyOneTenNJDataAge.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={8}
+                      height={1}
+                      stroke="black"
+                      fill="transparent"
+                      strokeWidth={1}
                       key={i}
                     />
                   )
@@ -2630,7 +3536,8 @@ class Spanish extends React.Component {
         >
           {this.state.date.map(
             (x) =>
-              x !== "1911" && (
+              x !== "1911" &&
+              ["0", "5"].includes(x[3]) && (
                 <div
                   key={x}
                   style={{
