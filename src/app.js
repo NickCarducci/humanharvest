@@ -187,6 +187,49 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          inflation go down because energy domination by nationalized
+          rent-seeking.” Mark Meadows, Trump retard. socialists are
+          conservative, not nationalizing bridge/broadband tolls you cuck. die
+          off, don't procreate. The same conservatives who want to de-gun me for
+          saying rollover insurance and being disorderly." orderly is retarded
+          GDP/p per hour non-durable trade and inflation, including equities
+          (market-concentration), bonds homes and intermediate-labor. Poverty
+          doesn't measure richness. just fraudulent unamortized monthly
+          "savings" from the jew mark levin. kill him. district attorney is not
+          to state victimize incarderation to bond launder, you are suppoed to
+          be paid by making people consumers, not $2k/day from finance false bid
+          pools surrendered freedom of others. Mind your own business. "Someone
+          drops a million dollars on one of them," to lock up non-compete
+          surrendered your part in the supply chain Fighting fire with fire,
+          money only raises bid, that is why every fucking commercial is trip
+          and fall lawsyers for state victimized expiring claim torts for class
+          precedence malfeasance and the bar-licensing board racketeering for a
+          voluntary trade loss and therefore a comparative advantage loss,
+          technological advancement loss, and actual labor shortage.
+          <br />
+          <br />
+          "Alvan Bragg will have to be removed from office, by you,” with duress
+          of no choice-candidate? 2/3 support Occupy Wall St and
+          anti-rent-seeking. "Inflation is at an all time high, your portfolio
+          may be at risk (inflation is not the only input cost! you need to
+          include market-concentration in equities, homes, bonds and
+          intermediate-labor), gold is a protection against inflation. - Legacy
+          Precious metals."
+          <br />
+          <br />
+          Don't take my right to own a gun, I am safer with my money thatn all
+          BOOMERS whom lose productivity year-to-hear, of GDP/p per hour gains
+          (a measure of COUNTER-productivity of technologicaal advancement for
+          comparative advantage, to deflate and make durable. when I shorted
+          bonds without knowing that market makers see the uuid for retail,
+          knowing 13d filers are quarterly, the realm of law establishes
+          malfeasance, implied. Intent is deducible.
+          <br />
+          "Resist arrest, they are going to shoot" on site, that is the plea for
+          all motorists whom smoke weed, while the Ad Council says the same
+          prevalence of being high regularly as per accident-prevalence!
+          <br />
+          <br />
           People don’t want to have a child, they are selfish, they have dogs
           and cats that can take the place of children. Adopt people. How many
           people are waiting for Baphomet to take care of them?” Sing Sacrifice
@@ -577,7 +620,6 @@ export default class App extends React.Component {
           <br />
           “What is the word, ‘dry?’”
           <h2>
-            {" "}
             “clean.”
             <br />
             <br />
@@ -817,7 +859,7 @@ export default class App extends React.Component {
           the co-signers.
           <br />
           <br />
-          "You are hampered when you have volunteers,"{" "}
+          "You are hampered when you have volunteers,"
           {/**parabnormalradio.com */}but saver money share split government
           money, you can take intermediate-labor from what customers actually
           wish to trade their money for, if not their own hours again
@@ -1297,8 +1339,8 @@ export default class App extends React.Component {
             <h2>flush em out! bring in working age Azteks</h2>
             {/*<table>
             
-            <tr>2010</tr>
-            <tr>age: "85-89", dx: 17644, pop: 3620</tr>
+            2010
+            age: "85-89", dx: 17644, pop: 3620
           </table>*/}
             expiring claim false bid pool $2k/yr racket Quarantine hotel
             paperwork. kill yourselves. Cynthia, Republican on Sliwa (6%), just
@@ -2209,7 +2251,7 @@ export default class App extends React.Component {
             "Many people are coming in because of other causes than coronavirus.
             We don't have cross-sectional datasets, for Personally Identifiable
             Information reasons, but we do for shooting retail traders like fish
-            in a barrel with pattern day trading rules, dispairagingly with 13D{" "}
+            in a barrel with pattern day trading rules, dispairagingly with 13D
             {">"}5% owners that don't anon uuid to hide even after the
             quearterly reports, nor duress of forfeiture moot contract in
             transaction data, but not to pay for free rider immutable truncated
@@ -2745,6 +2787,78 @@ export default class App extends React.Component {
           "83": 3995629, 3996088, 4157535
           <br />
           "84": 3820738, 3950578, 3998050
+          <br />
+          <br />
+          <table className="table">
+            <tr>
+              <td>2018</td>
+              <td>75</td>
+              <td>76</td>
+              <td>77</td>
+              <td>78</td>
+              <td>79</td>
+              <td>80</td>
+              <td>81</td>
+              <td>82</td>
+              <td>83</td>
+              <td>84</td>
+            </tr>
+            <tr>
+              <td>deathprob</td>
+              {`0.015631835 0.015071298 0.014862741 0.015061867 0.016038357 0.016815564 0.017269514 0.018649415 0.019481562 0.020072681`
+                .split(" ")
+                .map((x) => (
+                  <td>{x}</td>
+                ))}
+              {`0.014738021 0.016574621 0.01584419 0.015590891 0.015899391 0.016878233 0.017766719 0.018045031 0.019403865 0.020302794`
+                .split(" ")
+                .map((x) => (
+                  <td>{x}</td>
+                ))}
+              {`0.003067227 0.002368589 0.001808696 0.001350811 0.000986042 0.000650269 0.001185636 0.015338222 0.013911198 0.013332906`
+                .split(" ")
+                .map((x) => (
+                  <td>{x}</td>
+                ))}
+            </tr>
+            <tr>
+              <td>deaths</td>
+              {`68609 65890 65660 67014 68797 68609 65890.96088 65660.81144 67014.19294 68797.81445 71539.9342 72487.76576 75313.25705 77841.0921 76692.45454`
+                .split(" ")
+                .map((x) => (
+                  <td>{x}</td>
+                ))}
+
+              {`64472.43095 72282.1886 68801.57348 68374.94268 70177.60842 71777.43817 74889.77794 75006.78858 77539.55364 80207.77033`
+                .split(" ")
+                .map((x) => (
+                  <td>{x}</td>
+                ))}
+              {`13161.52315 10313.29697 7841.972326 5825.290138 4290.4423 2844.889448 4996.236244 64932.29582 57932.1267 53303.42921`
+                .split(" ")
+                .map((x) => (
+                  <td>{x}</td>
+                ))}
+            </tr>
+            <tr>
+              <td>pop</td>
+              {`4389077 4371950 4417813 4449262 4289580 4254388 4197441 4038371 3995629 3820738`
+                .split(" ")
+                .map((x) => (
+                  <td>{x}</td>
+                ))}
+              {`4374565 4361016 4342385 4385570 4413855 4252663 4215172 4156645 3996088 3950578`
+                .split(" ")
+                .map((x) => (
+                  <td>{x}</td>
+                ))}
+              {`4291017.523 4354194.297 4335703.972 4312440.29 4351175.442 4374939.889 4213972.236 4233365.296 4164424.127 3997885.429`
+                .split(" ")
+                .map((x) => (
+                  <td>{x}</td>
+                ))}
+            </tr>
+          </table>
           {/*"75": 13161.52315,
       "76": 10313.29697,
       "77": 7841.972326,
@@ -2961,7 +3075,7 @@ export default class App extends React.Component {
           voluntary trade
           <br />
           <br />
-          “3k marines 5k sailor 3k soldiers, no religious exception.”{" "}
+          “3k marines 5k sailor 3k soldiers, no religious exception.”
           {/**jesse james duff */}
           <br />
           <br />
@@ -3418,7 +3532,7 @@ export default class App extends React.Component {
             consider it.’” What is the reasoning for that?
             <h2>
               Norway corporate every citizen to export demand, without indebted
-              the currency{" "}
+              the currency
             </h2>
             "That is called price fixing, lender work deficit. Let the prices
             fall and for energy networks, target margin. Can certainly ban
@@ -7236,9 +7350,7 @@ export default class App extends React.Component {
           Link
           <br />
           <br />
-          <a href="https://www.nature.com/articles/s41598-020-73162-5">
-            virus
-          </a>{" "}
+          <a href="https://www.nature.com/articles/s41598-020-73162-5">virus</a>
           on day 2
           <br />
           <br />
@@ -8568,7 +8680,7 @@ export default class App extends React.Component {
             <br />
             <br />
             Vietnam had 35 people die because they aren't fat and old, the
-            deaths are normal except the print of abject murder given it stops.{" "}
+            deaths are normal except the print of abject murder given it stops.
             {/*after the vaccine most people get covid 2 weeks after vaccine? a lot also at the time... what a bullshitter dr michalos is.*/}
             <br />
             <br />
@@ -8584,7 +8696,7 @@ export default class App extends React.Component {
                 alt="login.gov"
                 src="https://www.dl.dropboxusercontent.com/s/lsk8ayq9navh21k/BorderNoTest.jpg?dl=0"
               />
-            </div>{" "}
+            </div>
             <br />
             <br />
             <Cable
@@ -8670,7 +8782,7 @@ export default class App extends React.Component {
                   src="https://www.dl.dropboxusercontent.com/s/h6hv3u3pysg1om7/SpecialBidenFund.jpg?dl=0"
                 />
               </a>
-            </div>{" "}
+            </div>
             <br />
             <br />
             Psaki: "lending vaccines to canada," she must be talking about the
@@ -8689,7 +8801,7 @@ export default class App extends React.Component {
                   src="https://www.dl.dropboxusercontent.com/s/5godn380eqp1a57/MarkeySlavery.png?dl=0"
                 />
               </a>
-            </div>{" "}
+            </div>
             <div
               style={{ position: "relative", maxWidth: "400px", width: "100%" }}
             >
@@ -8776,7 +8888,7 @@ export default class App extends React.Component {
             &nbsp;the production of&nbsp;
             <a href="https://www.frontiersin.org/articles/10.3389/fchem.2020.589959/full">
               specific [cancerous] proteins
-            </a>{" "}
+            </a>
             [that it tends to produce]"
             <br />
             <br />
