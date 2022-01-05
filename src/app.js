@@ -207,7 +207,8 @@ export default class App extends React.Component {
           <span role="img" aria-label="checkmark">
             ✅
           </span>
-          : honor system signatures on an error by actuary-analysis.
+          : honor system signatures on an error by actuary-analysis, not
+          shuffling before extrapolating and reporting. RETARDED.
           <br />
           <br />
           "Let me say what I know," without court expert jury
