@@ -187,7 +187,17 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          walgreens and expert jury is dangerous
+          is title 9 written for the school to be able to set a standard beyond
+          a 11/12 jury of peers with comparative advantage and character
+          evidence non-exhibitable? same with expert preconceived notions, all
+          admittance needs to be put thru various-industry jury discretion. Plea
+          bargains are moot, state victimization not with standing. walgreens
+          and expert jury is dangerous
+          <h2>
+            Inflation, threats from Iran, and possible recession (the opposite
+            of inflation GDP/p per hour, real not withstanding), no Ronald
+            Reagan to save us.”
+          </h2>
           <h3>
             "They would basically strap me in for four days at $2k/day expiring
             premiums in the Newark Beth Israel pool. false bid pool, dog won't
