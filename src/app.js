@@ -187,6 +187,7 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          He’s a nut,’ collecting nuts to break common sense<br/><br/>
           SUCK MY COCK for entry - be happy
           <br />
           is title 9 written for the school to be able to set a standard beyond
@@ -197,7 +198,7 @@ export default class App extends React.Component {
           and expert jury is dangerous.
           <h1>
             credit is haram (kills people, GDP/p per hour is not productivity
-            but inflation and non-durable trade
+            but inflation and non-durable trade)
           </h1>
           <h2>
             "Inflation, threats from Iran, and possible recession (the opposite
