@@ -187,7 +187,18 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          million dollar works, options sold to buy
+          <h3>
+            "They would basically strap me in for four days at $2k/day expiring
+            premiums in the Newark Beth Israel pool. false bid pool, dog won't
+            compete with cosnumers for economic retardation GDP/p per hour as
+            'productivity.'"
+          </h3>
+          million dollar works, options sold to buy, "bought and paid for," says
+          the racketeer-arsonist, methane for propaganda of markets and history
+          as a statistitiant that finds correlations with rates of change
+          instead of SUPUID regression, reandom of variable is folds over
+          normality, you have to shuffle before extrapolating and not tranche
+          value in Quickbooks reports.
           <h1>
             rollover
             <br />
