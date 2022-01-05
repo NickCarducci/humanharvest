@@ -187,7 +187,18 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          Use the funding, free rider mutable tax from outside the market just raises bid, especially expiring. It is saver party funds with U.S. and China in cahoots<br/><br/>
+          Tests are free rider mutable, useless tax from outside the market. The
+          only problem are trade secrets. China is where test originated.
+          Survivorship bias by what you set PCR for. A non-exclusive byproduct
+          of bacterial re-infection, injecting DNA into the cell is completely made
+          up!
+          <br />
+          <br />
+          Use the funding, free rider mutable tax from outside the market just
+          raises bid, especially expiring. It is saver party funds with U.S. and
+          China in cahoots
+          <br />
+          <br />
           "Need a straight jacket get him analyzed. Suspensions, falsified covid
           documents." Fucking die off Bradshow you fucking pussy. "Psychiatric,
           emotional problems." Brady, you are a cardboard cutout. My contempt
@@ -2280,7 +2291,9 @@ export default class App extends React.Component {
             1940 p
           </a>
           &nbsp;&bull;&nbsp;
-          <a href="https://www.census.gov/data/tables/time-series/demo/popest/pre-1980-national.html">pe</a>
+          <a href="https://www.census.gov/data/tables/time-series/demo/popest/pre-1980-national.html">
+            pe
+          </a>
           <br />
           <Spanish
             lastWidth={Math.min(600, this.state.lastWidth)}
@@ -2511,7 +2524,6 @@ export default class App extends React.Component {
           "83": 3995629, 3996088, 4157535
           <br />
           "84": 3820738, 3950578, 3998050
-
           {/*"75": 13161.52315,
       "76": 10313.29697,
       "77": 7841.972326,
