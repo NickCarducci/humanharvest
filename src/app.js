@@ -220,6 +220,16 @@ export default class App extends React.Component {
             &nbsp;DOESN'T KNOW HOW TO FIX MORTALITY NOR HOSPITALIZATIONS FOR
             AGAINST PERSONS
           </h2>
+          Find common ground for laughter. It’s stupid. Very interesting.
+          <br />
+          <br />
+          “Can’t say new things without breaking some eggheads. It only becomes
+          a new thing after the fact, doesn’t matter.”
+          <br />
+          - Nick Carducci Founder at Froth.app - Analysis, Micro-Theory.com, and
+          SaverParty.xyz (2018–present)
+          <br />
+          <br />
           oncogenic excess antibodies or fetal cell line 1986 vintage?
           immunocompromised CANNOT safely make their own (garbage collection of
           non-exclusive prevalence not all-incidence cause). "37% of schoolage
