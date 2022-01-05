@@ -187,6 +187,31 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          <Cable
+            style={{  height: "380px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1jPR4slHRjWybLc1Z5b9NuUL6ugWbFsy7/preview"
+            }
+            float="left"
+            title="Chicago Advocate, Father of 6 Willie Preston on school trade secrets from free rider mutable tax from outside the market, and rent-driven-employment"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “Children don’t want to go to school, they want to earn some money.”
+          <br />
+          <br />
+          I applied to THOUSANDS OF JOBS, non-compete, expiring claims or credit
+          as income, even some cross country. I am a bartender that would like
+          to keep my side-gig software IP, with an injury, but I shouldn’t be
+          forced to work, especially if it is YOUR FAULT
+          <br />
+          <br />
           Normal is thinking GDP/p per hour is productivity, but it is
           non-durable trade and inflation.
           <br />
