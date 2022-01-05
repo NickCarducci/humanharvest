@@ -2278,6 +2278,8 @@ export default class App extends React.Component {
           <a href="https://www2.census.gov/library/publications/decennial/1940/population-volume-4/33973538v4p1ch1.pdf#page=3">
             1940 p
           </a>
+          &nbsp;&bull;&nbsp;
+          <a href="https://www.census.gov/data/tables/time-series/demo/popest/pre-1980-national.html">pe</a>
           <br />
           <Spanish
             lastWidth={Math.min(600, this.state.lastWidth)}
@@ -2508,6 +2510,17 @@ export default class App extends React.Component {
           "83": 3995629, 3996088, 4157535
           <br />
           "84": 3820738, 3950578, 3998050
+
+          {/*"75": 13161.52315,
+      "76": 10313.29697,
+      "77": 7841.972326,
+      "78": 5825.290138,
+      "79": 4290.4423,
+      "80": 2844.889448,
+      "81": 4996.236244,
+      "82": 64932.29582,
+      "83": 57932.1267,
+        "84": 53303.42921,*/}
           {/*<br/>
           <br/>
    "75": 68609.32788, 64472.43095, 37000.14855<br/>
