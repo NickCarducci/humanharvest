@@ -215,7 +215,9 @@ export default class App extends React.Component {
           <br />
           <br />
           You do the crime, you do the time. state vic and pleas are literally,
-          "moot"
+          "moot." Limiting rights by statute and FDIC trust for bonds, a war
+          crime of viruosity and voluntary trade without surrendered freedom
+          (EULA).
           <br />
           <br />
           "covid relief white house covid coordinator jeff zines saying testing
@@ -259,7 +261,7 @@ export default class App extends React.Component {
           customers and employers. Eric Adams, you can only incarcerate for the
           crime. Not homelessness nor subjective label by worthless doctorates.
           You should be locked up, non-voters is a default vote, "no."
-          Espectially when homelessness is because of finance, we work
+          Especially when homelessness is because of finance, we work
           10x/boomers c1970 because of finance. "Thourough background check,"
           just use the current evidence. You cannot use the past to prosecute
           current crime nor even deduce intent for a different time.
@@ -269,7 +271,8 @@ export default class App extends React.Component {
           only problem are trade secrets. China is where test originated.
           Survivorship bias by what you set PCR for. A non-exclusive byproduct
           of bacterial re-infection, injecting DNA into the cell is completely
-          made up!
+          made up! "1m got it in one day, it is a failure of testing and
+          vaccinations.” T.W. Shannon. Black-Trump advisory Board Member
           <br />
           <br />
           Use the funding, free rider mutable tax from outside the market just
