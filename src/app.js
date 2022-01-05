@@ -238,7 +238,16 @@ export default class App extends React.Component {
           step up nobly to be the best fighting force in the world. They should
           be able to fight for freedom, their livelihood is at stake, their pay
           is being removed. [Some just want to ]people are looking to sacrifice
-          for the country[ out and out]."
+          for the country[ out and out]." modicum probability, “lazy takers
+          outnumber the doers.” More government handouts, free handouts, never
+          have to put down video game remote. Once those can vote en masse
+          conservatives will lose the senate.” Good people are tired. “The side
+          that can turnout the engaged, committed citizens wins, not the least
+          informed.” Until 2/3 support Occupy wall st anti-rent-seeking but no
+          candidate represents productivity is GDP/p per hour downwards for
+          durable trade and price deflation, real GDP/p per hour
+          notwithstanding, especially when inflation doesn’t include homes,
+          equities, bonds nor intermediate-trade.
           <br />
           <br />
           Marx would never remove freedom of Savers, albeit in the hands of
