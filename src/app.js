@@ -187,6 +187,15 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          <h1>
+            Bob Sellers, why do you need to take so much blood for an orthopedic
+            appointment? YOU caused 6 to 1 1970 hospital beds c1970 AND 10x
+            price inflation of homes per hour. meant to be serf and expiring
+            tranche, withdrawaling modicums of life! from savers and
+            co-signatories' consumers-and-employers, surrendered freedom grounds
+            against rent-seeking/competing-with-consumer standing.&nbsp;
+            <a href="https://qr.ae/pG6agd">Barter, in reality</a>.
+          </h1>
           <Cable
             style={{ height: "400px" }}
             onError={handleScollImgError}
