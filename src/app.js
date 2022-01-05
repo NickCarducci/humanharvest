@@ -188,7 +188,7 @@ export default class App extends React.Component {
             2052.live
           </a>
           <Cable
-            style={{ height: "200px" }}
+            style={{ height: "400px" }}
             onError={handleScollImgError}
             //img={true}
             src={
@@ -205,7 +205,7 @@ export default class App extends React.Component {
           />
           Marx had been dead for 50 years single co-options, Republicans call
           40% debt spending, tax payer funds, 1/3 debt. fuck off with
-          "Marxist-Democrats," arx would never reappropriate-laborless-demand or
+          "Marxist-Democrats," arx would never reappropriate-labor-demand nor
           -equity.
           <br />
           <br />
