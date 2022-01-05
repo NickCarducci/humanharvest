@@ -187,11 +187,18 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          There is no mental illness, they say that if they don’t understand
+          rollover insurance is surrendered freedom of the co-signatories’
+          customers and employers. Eric Adams, you can only incarcerate for the
+          crime. Not homelessness nor subjective label by worthless doctorates.
+          You should be locked up, non-voters is a default vote, "no."
+          <br />
+          <br />
           Tests are free rider mutable, useless tax from outside the market. The
           only problem are trade secrets. China is where test originated.
           Survivorship bias by what you set PCR for. A non-exclusive byproduct
-          of bacterial re-infection, injecting DNA into the cell is completely made
-          up!
+          of bacterial re-infection, injecting DNA into the cell is completely
+          made up!
           <br />
           <br />
           Use the funding, free rider mutable tax from outside the market just
