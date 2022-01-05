@@ -187,6 +187,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          “I want equality, not equity.” Meaning poverty to ownership. Rent
+          seeker or anti boomer, gun to head (jury-duty), what do you do?
+          <br />
+          <br />
           <h2>
             <a href="https://www.nytimes.com/interactive/2020/us/covid-hospitals-near-you.html?campaign_id=190&emc=edit_ufn_20220105&instance_id=49507&nl=updates-from-the-newsroom&regi_id=154584469&segment_id=78772&te=1&user_id=499d46112e083293479e1f5c8760b31e">
               NYTIMES
