@@ -194,10 +194,12 @@ export default class App extends React.Component {
           kill them
           <br />
           <br />
-          Bill O'Reilly says 5m dropped out of the workforce. we work
-          10x/boomers c1970 because actual labor shortage of finance, GDP/p used
-          to be nearly constant 1800-1913. you are retarded you ugly, useless
-          fuck.
+          Bill O'Reilly says 5m dropped out of the workforce. we work 10x/
+          <a href="https://www.self.inc/info/generational-wealth-gap/">
+            boomers
+          </a>
+          c1970 because actual labor shortage of finance, GDP/p used to be
+          nearly constant 1800-1913. you are retarded you ugly, useless fuck.
           <br />
           <br />
           <Cable
@@ -2466,7 +2468,7 @@ export default class App extends React.Component {
           out.
           <br />
           <br />
-          "75": 2288885, 2198286, 1738729.33
+          {/*"75": 2288885, 2198286, 1738729.33
           <br />
           "76": 1974261, 2222392, 1738729.33
           <br />
@@ -2484,7 +2486,40 @@ export default class App extends React.Component {
           <br />
           "83": 1143041, 1151190, 1532981.78
           <br />
-          "84": 995618, 1067757, 1532981.78
+          "84": 995618, 1067757, 1532981.78<br/>*/}
+          &nbsp; &nbsp; &nbsp;2018 &nbsp; 2019 &nbsp; 2020
+          <br />
+          "75": 4389077, 4374565, 4314856
+          <br />
+          "76": 4371950, 4361016, 4383479
+          <br />
+          "77": 4417813, 4342385, 4372553
+          <br />
+          "78": 4449262, 4385570, 4349650
+          <br />
+          "79": 4289580, 4413855, 4390421
+          <br />
+          "80": 4254388, 4252663, 4417674
+          <br />
+          "81": 4197441, 4215172, 4256425
+          <br />
+          "82": 4038371, 4156645, 4218687
+          <br />
+          "83": 3995629, 3996088, 4157535
+          <br />
+          "84": 3820738, 3950578, 3998050
+          {/*<br/>
+          <br/>
+   "75": 68609.32788, 64472.43095, 37000.14855<br/>
+   "76": 65890.96088, 72282.1886, 39598.24665<br/>
+   "77": 65660.81144, 68801.57348, 44691.82406<br/>
+   "78": 67014.19294, 68374.94268, 43035.41675<br/>
+   "79": 68797.81445, 70177.60842, 43536.33349<br/>
+   "80": 71539.9342, 71777.43817, 45579.66645<br/>
+   "81": 72487.76576, 74889.77794, 47449.48214<br/>
+   "82": 75313.25705, 75006.78858, 50254.0141<br/>
+   "83": 77841.0921, 77539.55364, 51043.36612<br/>
+   "84": 76692.45454, 80207.77033, 53468.25649*/}
           <br />
           <br />
           OPEN THE BORDERS there is sparingly proof of threats. plug the actual
