@@ -188,7 +188,7 @@ export default class App extends React.Component {
             2052.live
           </a>
           There is no mental illness, they say that if they don’t understand
-          rollover insurance is surrendered freedom of the co-signatories’
+          non-rollover insurance is surrendered freedom of the co-signatories’
           customers and employers. Eric Adams, you can only incarcerate for the
           crime. Not homelessness nor subjective label by worthless doctorates.
           You should be locked up, non-voters is a default vote, "no."
@@ -8845,3 +8845,4 @@ export default class App extends React.Component {
     );
   }
 }
+
