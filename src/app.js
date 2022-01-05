@@ -187,6 +187,7 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          You can decide what to do with your money, not my disability. slut. Jordan Peterson was right.<br/><br/>
           He’s a nut,’ collecting nuts to break common sense
           <br />
           <br />
