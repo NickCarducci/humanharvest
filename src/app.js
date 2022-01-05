@@ -188,7 +188,8 @@ export default class App extends React.Component {
             2052.live
           </a>
           oncogenic excess antibodies or fetal cell line 1986 vintage?
-          immunocompromised CANNOT safely make their own. "37% of schoolage
+          immunocompromised CANNOT safely make their own (garbage collection of
+          non-exclusive prevalence not all-incidence cause). "37% of schoolage
           hasn't been shot and we know there is defense against Omicron
           [non-exclusive byproduct of bacterial re-infection]. mortality 90%,
           10x infection, chance in hosp 82x 40-59."
