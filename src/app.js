@@ -187,26 +187,32 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          SUCK MY COCK for entry - be happy<br/>
+          SUCK MY COCK for entry - be happy
+          <br />
           is title 9 written for the school to be able to set a standard beyond
           a 11/12 jury of peers with comparative advantage and character
           evidence non-exhibitable? same with expert preconceived notions, all
           admittance needs to be put thru various-industry jury discretion. Plea
           bargains are moot, state victimization not with standing. walgreens
-          and expert jury is dangerous
+          and expert jury is dangerous.
+          <h1>
+            credit is haram (kills people, GDP/p per hour is not productivity
+            but inflation and non-durable trade
+          </h1>
           <h2>
-            Inflation, threats from Iran, and possible recession (the opposite
+            "Inflation, threats from Iran, and possible recession (the opposite
             of inflation GDP/p per hour, real not withstanding), no Ronald
-            Reagan to save us.”
+            Reagan to save us.
           </h2>
           <h3>
-            "They would basically strap me in for four days at $2k/day expiring
+            They would basically strap me in for four days at $2k/day expiring
             premiums in the Newark Beth Israel pool. false bid pool, dog won't
             compete with cosnumers for economic retardation GDP/p per hour as
             'productivity.'"
           </h3>
-          17x die 20x hospitalized, but you aren’t counting all-incidence cause,
-          just non-exclusive byproduct of bacterial-reinfection. Best snot on
+          "17x die 20x hospitalized," but you aren’t counting all-incidence
+          cause, just non-exclusive byproduct of bacterial-reinfection
+          (injecting viral DNA into cell is literally, 'made up'). Best snot on
           the floor than sniff it in.
           <br />
           <br />
