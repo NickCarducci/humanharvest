@@ -205,7 +205,44 @@ export default class App extends React.Component {
           and fall lawsyers for state victimized expiring claim torts for class
           precedence malfeasance and the bar-licensing board racketeering for a
           voluntary trade loss and therefore a comparative advantage loss,
-          technological advancement loss, and actual labor shortage.
+          technological advancement loss, and actual labor shortage. sex
+          trafficking has nothing to do with drugs, more to do with login.gov
+          malfeasance, faggot boomer retard. GDP/p per hour is not productivity!
+          Article 2 is to have republican government, and stop invasion in bonds
+          surrendered, $1/7/30 1/3 public debt china/foreign/ useless actual
+          work deficit. Dollars v bonds, Republicans be damned 40% debt spending
+          called tax payer funds, Democrats calling ccc parental gerontocracy
+          child funds, education helping children by keeping them from earning
+          money and having trade secrets and conflict of interest competing with
+          consumer as income instead of stopping surrendered fredom of
+          rent-seeking/finance by invoices, exporing premiums, implausible
+          landlord use and repo-cycle kept down payments. YOU DON'T LOVE ALL
+          PEOPLE IF YOU SAY HOMELESSNESS IS BECAUSE OF MENTAL ILLNESS with no
+          evidence other than expert conflict of interest psychiatrists that
+          involuntarily committ you on ythe basis of messy hair and bizarrness
+          for saying they should only be paid by rollover insurance. INSTEAD OF
+          RENT SEEKING bitch. Marx wouldn't do this. Republicans do. rot in
+          hell, I want you to die Cornel from Taxas, West4texas.com. You deserve
+          what you are entitled to, social security is forced corporate
+          investment Rita Cosby you fucking bitch. 40% debt spending is not tax
+          payer funds, nor is free rider mutable ppp existing business trust
+          building useful and not useless price inflation from outside the
+          market Long term smell and taste is less, you aren’t fixing for age
+          cohort size, just age. Dr. Seigel and John Cats. Die. Stop saying
+          French is not spreading when the only novel thing is you testing for
+          it. There is no legal basis to do these permits without scientific
+          consensus, not an expert jury with confirmation bias and save face
+          lest malpractice. You need to break a few eggheads to say something
+          new. Unvaccinated and vaccinated either work or not. a small portion
+          of breakthorough cases is just byproduct prevlence, not cause, you
+          literally make up DNA being injected into the cell for prevalence.
+          fucking retards, kill yourselves! Effective against previous variants
+          as well, it is garbage collection, it doesn't stop infection. 20%
+          placebo or warning mechanism of bacteiual-reinfection of non-exclusive
+          byproduct? only comes out 5% of time for pneumonia. Cameroon made the
+          test, not the virion. it is just debris of cell when bacteria
+          reinfects, that is in spittle and feces excrement. fucking die
+          boomers.
           <br />
           <br />
           "Alvan Bragg will have to be removed from office, by you,” with duress
@@ -2802,6 +2839,28 @@ export default class App extends React.Component {
               <td>82</td>
               <td>83</td>
               <td>84</td>
+              <td>2018</td>
+              <td>75</td>
+              <td>76</td>
+              <td>77</td>
+              <td>78</td>
+              <td>79</td>
+              <td>80</td>
+              <td>81</td>
+              <td>82</td>
+              <td>83</td>
+              <td>84</td>
+              <td>2018</td>
+              <td>75</td>
+              <td>76</td>
+              <td>77</td>
+              <td>78</td>
+              <td>79</td>
+              <td>80</td>
+              <td>81</td>
+              <td>82</td>
+              <td>83</td>
+              <td>84</td>
             </tr>
             <tr>
               <td>deathprob</td>
@@ -2810,11 +2869,13 @@ export default class App extends React.Component {
                 .map((x) => (
                   <td>{x}</td>
                 ))}
+              <td />
               {`0.014738021 0.016574621 0.01584419 0.015590891 0.015899391 0.016878233 0.017766719 0.018045031 0.019403865 0.020302794`
                 .split(" ")
                 .map((x) => (
                   <td>{x}</td>
                 ))}
+              <td />
               {`0.003067227 0.002368589 0.001808696 0.001350811 0.000986042 0.000650269 0.001185636 0.015338222 0.013911198 0.013332906`
                 .split(" ")
                 .map((x) => (
@@ -2823,17 +2884,19 @@ export default class App extends React.Component {
             </tr>
             <tr>
               <td>deaths</td>
-              {`68609 65890 65660 67014 68797 68609 65890.96088 65660.81144 67014.19294 68797.81445 71539.9342 72487.76576 75313.25705 77841.0921 76692.45454`
+              {`68609.32788 65890.96088 65660.81144 67014.19294 68797.81445 71539.9342 72487.76576 75313.25705 77841.0921 76692.45454`
                 .split(" ")
                 .map((x) => (
                   <td>{x}</td>
                 ))}
 
+              <td />
               {`64472.43095 72282.1886 68801.57348 68374.94268 70177.60842 71777.43817 74889.77794 75006.78858 77539.55364 80207.77033`
                 .split(" ")
                 .map((x) => (
                   <td>{x}</td>
                 ))}
+              <td />
               {`13161.52315 10313.29697 7841.972326 5825.290138 4290.4423 2844.889448 4996.236244 64932.29582 57932.1267 53303.42921`
                 .split(" ")
                 .map((x) => (
@@ -2847,11 +2910,13 @@ export default class App extends React.Component {
                 .map((x) => (
                   <td>{x}</td>
                 ))}
+              <td />
               {`4374565 4361016 4342385 4385570 4413855 4252663 4215172 4156645 3996088 3950578`
                 .split(" ")
                 .map((x) => (
                   <td>{x}</td>
                 ))}
+              <td />
               {`4291017.523 4354194.297 4335703.972 4312440.29 4351175.442 4374939.889 4213972.236 4233365.296 4164424.127 3997885.429`
                 .split(" ")
                 .map((x) => (
