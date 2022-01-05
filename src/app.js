@@ -224,6 +224,12 @@ export default class App extends React.Component {
             compete with cosnumers for economic retardation GDP/p per hour as
             'productivity.'"
           </h3>
+          "How did the gold standard affect the economy?"
+
+<br/>
+It is a fallacy that a depositary only can amalgamate into vault-share only with fractional reserves or the surrendered freedom of others (EULA), actualized. To say the standard is just gold or just parks, is nuts.
+<br/>
+<br/>
           "17x die 20x hospitalized," but you aren’t counting all-incidence
           cause, just non-exclusive byproduct of bacterial-reinfection
           (injecting viral DNA into cell is literally, 'made up'). Best snot on
