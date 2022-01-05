@@ -187,8 +187,24 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          “Half transactions/NYC were all-cash offers for [surrendering the freedoms (EULA) of others' ]$1.9m
-          average $30b/2021,” Amanda Brohante.
+          oncogenic excess antibodies or fetal cell line 1986 vintage?
+          immunocompromised CANNOT safely make their own. "37% of schoolage
+          hasn't been shot and we know there is defense against Omicron
+          [non-exclusive byproduct of bacterial re-infection]. mortality 90%,
+          10x infection, chance in hosp 82x 40-59."
+          <br />
+          <br />
+          nearly all patients [of non-exclusive byproduct of
+          bacterialre-infection, cell-injection of viral DNA is completely made
+          up] are unvaccinated, so it is saving millions." Everyone died on
+          time, no one has put decennial-annual together to actually-analyze
+          actuarials instead of compete with consumers on expiring, estimated or
+          implausibly-deniably (written-down/self-dealing) claims. You're
+          symptoms are raging when you are positive, you're very virulent."
+          <br />
+          <br />
+          “Half transactions/NYC were all-cash offers for [surrendering the
+          freedoms (EULA) of others' ]$1.9m average $30b/2021,” Amanda Brohante.
           <br />
           <Cable
             style={{ height: "240px" }}
