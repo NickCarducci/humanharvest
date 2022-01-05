@@ -187,6 +187,33 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Bill O'Reilly says 5m dropped out of the workforce. we work
+          10x/boomers c1970 because actual labor shortage of finance, GDP/p used
+          to be nearly constant 1800-1913. you are retarded you ugly, useless
+          fuck.
+          <br />
+          <br />
+          <Cable
+            style={{ width: "100%", height: "540px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://fred.stlouisfed.org/graph/graph-landing.php?g=Kw8t&width=600&height=475"
+            }
+            float="right"
+            title="https://fred.stlouisfed.org/graph/?g=Kw8t"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          making a false expiring bid non-rollover is third party beneficiary
+          claimable, donee as debt is to savers, insurance is to co-signatories'
+          customers and employers.
+          <br />
+          <br />
           "you don't take property of what others have done, because it prevents
           precedence." uhh, actually competitive advantage needs to be respected
           for past demand to have no actual labor shortage/deficit of labor in
@@ -238,16 +265,17 @@ export default class App extends React.Component {
           step up nobly to be the best fighting force in the world. They should
           be able to fight for freedom, their livelihood is at stake, their pay
           is being removed. [Some just want to ]people are looking to sacrifice
-          for the country[ out and out]." modicum probability, “lazy takers
-          outnumber the doers.” More government handouts, free handouts, never
-          have to put down video game remote. Once those can vote en masse
-          conservatives will lose the senate.” Good people are tired. “The side
-          that can turnout the engaged, committed citizens wins, not the least
-          informed.” Until 2/3 support Occupy wall st anti-rent-seeking but no
-          candidate represents productivity is GDP/p per hour downwards for
-          durable trade and price deflation, real GDP/p per hour
-          notwithstanding, especially when inflation doesn’t include homes,
-          equities, bonds nor intermediate-trade.
+          for the country[ out and out]." modicum probability
+          {/**extrapolate history */}, “lazy takers outnumber the doers.” More
+          government handouts, free handouts, never have to put down video game
+          remote. Once those can vote en masse conservatives will lose the
+          senate.” Good people are tired. “The side that can turnout the
+          engaged, committed citizens wins, not the least informed.” Until 2/3
+          support Occupy wall st anti-rent-seeking but no candidate represents
+          productivity is GDP/p per hour downwards for durable trade and price
+          deflation, real GDP/p per hour notwithstanding, especially when
+          inflation doesn’t include homes, equities, bonds nor
+          intermediate-trade.
           <br />
           <br />
           Marx would never remove freedom of Savers, albeit in the hands of
@@ -2430,6 +2458,30 @@ export default class App extends React.Component {
           Bacteria is in excrement because if that reinfects us virion comes
           out.
           <br />
+          <br />
+          "75": 2288885, 2198286, 1738729.33
+          <br />
+          "76": 1974261, 2222392, 1738729.33
+          <br />
+          "77": 1783292, 1911261, 1738729.33
+          <br />
+          "78": 1664122, 1720817, 1738729.33
+          <br />
+          "79": 1541515, 1599909, 1738729.33
+          <br />
+          "80": 1450820, 1475278, 1532981.78
+          <br />
+          "81": 1310691, 1381641, 1532981.78
+          <br />
+          "82": 1223611, 1241341, 1532981.78
+          <br />
+          "83": 1143041, 1151190, 1532981.78
+          <br />
+          "84": 995618, 1067757, 1532981.78
+          <br />
+          <br />
+          OPEN THE BORDERS there is sparingly proof of threats. plug the actual
+          work shortage by freeloading rent-seekers
           <Mortal
             lastWidth={Math.min(600, this.state.lastWidth)}
             style={{
@@ -8714,3 +8766,4 @@ export default class App extends React.Component {
     );
   }
 }
+
