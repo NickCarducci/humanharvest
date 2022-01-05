@@ -187,6 +187,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Normal is thinking GDP/p per hour is productivity, but it is
+          non-durable trade and inflation.
+          <br />
+          <br />
           There is no mental illness, they say that if they don’t understand
           non-rollover insurance is surrendered freedom of the co-signatories’
           customers and employers. Eric Adams, you can only incarcerate for the
@@ -8845,4 +8849,3 @@ export default class App extends React.Component {
     );
   }
 }
-
