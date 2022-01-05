@@ -187,8 +187,19 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          You do the crime, you do the time. state vic and pleas are literally,
+          "moot"
+          <br />
+          <br />
+          "covid relief white house covid coordinator jeff zines saying testing
+          and insurers will reimburse employees. It should be free [by writing
+          down to non-expiring bid]. If 'booster' is not 'vaccinated,' a lot of
+          people won't be, for the White House likes to promote its' own 200k/yr
+          americans." James Rosen.
+          <br />
+          <br />
           <Cable
-            style={{  height: "380px" }}
+            style={{ height: "380px" }}
             onError={handleScollImgError}
             //img={true}
             src={
@@ -8874,4 +8885,3 @@ export default class App extends React.Component {
     );
   }
 }
-
