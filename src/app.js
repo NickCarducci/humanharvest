@@ -210,11 +210,20 @@ export default class App extends React.Component {
           malfeasance, faggot boomer retard. GDP/p per hour is not productivity!
           Article 2 is to have republican government, and stop invasion in bonds
           surrendered, $1/7/30 1/3 public debt china/foreign/ useless actual
-          work deficit. Dollars v bonds, Republicans be damned 40% debt spending
-          called tax payer funds, Democrats calling ccc parental gerontocracy
-          child funds, education helping children by keeping them from earning
-          money and having trade secrets and conflict of interest competing with
-          consumer as income instead of stopping surrendered fredom of
+          work deficit.
+          <h1>
+            non-rollover is surrendered freedom (EULA) of Savers and
+            co-signatories' customers and employers
+          </h1>
+          <h2>
+            GDP/p per hour as productivity is bias and beliefs, expert jury
+            instead of industy-variable, too
+          </h2>
+          Dollars v bonds, Republicans be damned 40% debt spending called tax
+          payer funds, Democrats calling ccc parental gerontocracy child funds,
+          education helping children by keeping them from earning money and
+          having trade secrets and conflict of interest competing with consumer
+          as income instead of stopping surrendered fredom of
           rent-seeking/finance by invoices, exporing premiums, implausible
           landlord use and repo-cycle kept down payments. YOU DON'T LOVE ALL
           PEOPLE IF YOU SAY HOMELESSNESS IS BECAUSE OF MENTAL ILLNESS with no
