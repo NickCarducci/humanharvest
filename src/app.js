@@ -187,6 +187,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Stubie thinks the law should be prosecuted beyond natural comparative
+          innocence, before ajunication, defeating the point.
+          <br />
+          <br />
           ccc parental, ppp trust, bbb existing contractors. 40% debt spending
           is savers, the people. 1/3 public, 2/3 private.
           <br />
@@ -9489,4 +9493,3 @@ export default class App extends React.Component {
     );
   }
 }
-
