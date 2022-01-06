@@ -195,11 +195,22 @@ export default class App extends React.Component {
           your cash is not cash, because of bill clinton. don't obama my bernie!
           <h1>
             A chance to vote is not wall st pharma cop vs wall st pharma cop,
-            that is why non-voters wimply won against citarelli and Murphy.
+            that is why non-voters s/wimply won against citarelli and Murphy.
             neither a rent-seeking candidate choice. just government and closed
             source expert jury freaks.
           </h1>
-          <h2>behead mark levin</h2>
+          <h2>behead mark levin</h2>Modicum plurality eagle’s standing
+          <br />
+          "Are all practicing lawyers unqualified?"
+          <br />
+          An expert jury is quite counter-productive, those that use
+          exhibitable-character-assassination, double jeopardy nor state
+          victimized fines nor torts, to boot. Otherwise, the law is to tort
+          damages of what they bought for, not from value by neighborhood
+          trades, nor an expiring claim pool of surrendered freedoms (EULA) of
+          the co-signatories’ customers and employers, or here, the damages
+          appraisal.
+          <br />
           AMERICAN REPUBLICANISM AND CAPITRALISM SURRENDERED FREEDOMS OF SAVERED
           CONSUMERS AND EMPLOYERS BY EXPOIRINNG CLAIMS IN FALSE BID POOLS OR
           SCHEDULES OF NON-COMPETE HOURS NoR OUTLAYS COMPOUNDED BEFORE A
