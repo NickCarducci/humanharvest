@@ -187,6 +187,14 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          <h2>
+            TRUMP SPENT 20% MORE THAN USUAL, HE IS ESTABLISHMENT YOU FUCKING
+            RETARDS
+          </h2>
+          <h3>
+            "Everyone is begging to keep schools open." Allow kids to earn
+            wealth, stop the trade secredits and conflict of interest agitprop
+          </h3>
           Rep Stubie on Stinchfield: "People should have the Tranquility to
           decide their own healthcare, and not have government get involved."
           only 11/12 withut 1/12 reasonable down can designate after 2 week
