@@ -230,7 +230,10 @@ export default class App extends React.Component {
           <br />
           He refuses to accept the results of the election and the will of the
           American people,” you got less than a third of eligible voters,
-          non-voters are a default will, “no” to all choices
+          non-voters are a default will, “no” to all choices. "Elected by
+          tax-payers," bitch, savers pay 40% and amortized, tax-payers don't
+          even may a modicum, $2t when that much cash exists, most of GDP is
+          debt.
           <br />
           <br />
           Librarian-histrians saying prayers. Gentrifying libraries now. "This
