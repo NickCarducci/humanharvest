@@ -187,6 +187,15 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          I would call nationalized bridge/broadband fees a crisis of the
+          economy being labor-based-demand.
+          <br />
+          Direction with warning by un desistable lies about truth.
+          <br />
+          Woke up this morning, to the rising Sun, or actually, longitudinal
+          rate of change.
+          <br />
+          <br />
           I will defend my startup business aginst existing biz ppp by shooting
           trump.
           <br />
@@ -195,7 +204,6 @@ export default class App extends React.Component {
           testing for it, that doesn't mean it "caused deaths."
           <h1>creator of oncogenesis dysregulation</h1>
           <Cable
-            style={{ height: "400px" }}
             onError={handleScollImgError}
             //img={true}
             src={
