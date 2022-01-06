@@ -187,6 +187,26 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          $16k/64 cash/debt (new), "living out of his car, has more to worry
+          about than _." like the 10x hours per home, 6 to 1000 hospital beds
+          per person c1970, for no reason other than actual labor shortage of
+          IMPLAUSIBLE LANDLORD USE rent-seekers beyond 5 units or 30 days, 1/3
+          of the population, 40% Dem + swing, 10% GOP + swing.
+          <br />
+          <br />
+          Bob sellers wants everyone to work for eachother by using cash and
+          corporate flaccid profit. Promotes childcare as a way to increase
+          employment numbers from watching your own kids for the same
+          operational gain at best. Only comparative advantage works for
+          productions, not living requirements. Counts poverty as inclusive of
+          materials and rent, not homes, equities (market-concentration), bonds
+          and intermediate-labor. 65+ 56m/40m in comparison to other 10-year
+          cohorts, of-size, do, in fact, earn folds more than 25-54/3 for
+          useless impausible landord use and free rider mutable gentrification
+          and surrendered freedom (EULA), BUT ACTUALLY-WORK FOLD LESS. DIE
+          BOOMERS DIE
+          <br />
+          <br />
           Stubie thinks the law should be prosecuted beyond natural comparative
           innocence, before ajunication, defeating the point.
           <br />
