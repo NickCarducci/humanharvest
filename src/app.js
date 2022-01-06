@@ -187,6 +187,11 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "medicare difference makes relative to others, it's nice to be known,
+          a community of Christians havre a 90% approval rating." desist, it is
+          surrendered freedom (EULA) of your prisoners' consumers and employers
+          <br />
+          <br />
           your cash is not cash, because of bill clinton. don't obama my bernie!
           <h1>
             A chance to vote is not wall st pharma cop vs wall st pharma cop,
