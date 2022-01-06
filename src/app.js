@@ -188,12 +188,17 @@ export default class App extends React.Component {
             2052.live
           </a>
           my own reason, my own person. it comes from somewhere you fucking
-          bitch. 
+          bitch.
           <br />
           social security shows you more money than exists you afro-tool-bitch
           die. You had your whole life to save in CASH.
           <br />
-          Better shape in a nursing home, become more articulate.
+          Better shape in a nursing home, become more articulate. Incitement is
+          not a crime, it is orders given only, and it is justified to stop the
+          excess deaths age standardized (not by cohort size), nor injecting DNA
+          into cell without mitosis of already infected cell that
+          non-exclusively byproduct virion to dissolve to prevent blood clots as
+          bacteria is excrement in feces and spittle.
           <h1>loitering douche</h1>
           “Even though he is doing what he is prosecuting for,” Ellie honig it
           is a prisoners’ dillemma to sign a surrendered freedom (EULA) debt
