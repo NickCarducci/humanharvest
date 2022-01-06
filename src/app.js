@@ -189,7 +189,8 @@ export default class App extends React.Component {
           </a>
           KYS, MARX DIED 50 YEARS BEFORE GENOCIDE AND MISES CO-OPTION OF SUBWAY
           HELPING HOMELESS INSTEAD OF FORCING CONDOS OF RENTAL-INCOME ACTUAL
-          LABOR SHORTAGE BOOMERS
+          LABOR SHORTAGE BOOMERS. stop nationalizing for 40% debt service njta
+          douchebag 77WABC all of you DIE
           <br />
           <br />
           Drugs to not jeporadize public safety, expiring claims only
@@ -9728,4 +9729,3 @@ export default class App extends React.Component {
     );
   }
 }
-
