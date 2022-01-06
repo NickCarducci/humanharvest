@@ -187,9 +187,14 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          if virion injects DNA into cell, and it isn't population 75-79
-          decennial isn't "excess cause," it is a pandemic of the unvaxxed.
-          Mancihn is a top. I hate him.
+          Anytime you put money through the hands of Mark Levin, he takes some.
+          Money doesn't enable anything unless it is free rider immutable from
+          inside the market like truncated production tax for sewage, police and
+          lawsuits, without state victimized torts nor fine-bribes, nor duress
+          before industry-variable jury multiple of 11/12 without more than 1/12
+          reasonable doubt. if virion injects DNA into cell, and it isn't
+          population 75-79 decennial isn't "excess cause," it is a pandemic of
+          the unvaxxed. Mancihn is a top. I hate him.
           <h2>
             TRUMP SPENT 20% MORE THAN USUAL, HE IS ESTABLISHMENT YOU FUCKING
             RETARDS. ppp trust bbb existing contractor ccc parental, all bond
