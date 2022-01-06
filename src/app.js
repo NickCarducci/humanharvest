@@ -187,6 +187,7 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          I will defend my startup business aginst existing biz ppp by shooting trump.<br/><br/>
           rsv caused more deaths than vaccinated children.you just started
           testing for it, that doesn't mean it "caused deaths."
           <br />
