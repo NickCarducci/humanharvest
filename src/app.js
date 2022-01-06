@@ -187,8 +187,29 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          Eric Bolling "Spreading like crazy," you are only looking at 1 of
-          100,000's that exist, that is 5% of all cases.
+          "Unlicensed medical product cannot be advertised." That is fucking
+          stupid, force open source ingredient lists instead.
+          <br />
+          <br />
+          Eric Bolling, retard: "a virus that literally wiped out 1m and 5m
+          around the world." but most cases are asymptomatic and most actual
+          cases arent coronavirus. aggregate deaths is excess age standardized
+          without cohort size of 1942 births.
+          <br />
+          <br />
+          Dr. Robert Malone (Inventor of ecess antibody garbage collection
+          dissolution, "pioneering mRNA sporing grafts to defeat covid")
+          "Vaccines can only increase infections," judged by warning mechanism
+          or 20%+ placebo? Prevalence can mean byproduct. I know all the
+          answers. YOU are dangerous. Eric Bolling "Spreading like crazy," you
+          are only looking at 1 of 100,000's that exist, that is 5% of all
+          cases. "I can't know what happened, we cannot trace what occured,
+          documents in Wuhan has been damaged." It is a protein complex that
+          likely already existed, that is CELLULAR DEBRIS, respiratory sesicial
+          virus, didn't have rsv killing young children. that is survivorship
+          bias, that is just what you looked for. that doesn't mean it is cause.
+          you have to test all variants to say that there isn't a non-killer of
+          your suspect nor even ever the cause, not byproduct.
           <h1>Non-voters won</h1>
           "Deadly insurrection, 5 people died." You really value those lives a
           lot more than everyone else huh? stfu tapper. you fraudulently applied
