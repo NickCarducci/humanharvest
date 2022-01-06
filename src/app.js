@@ -187,6 +187,9 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          if virion injects DNA into cell, and it isn't population 75-79
+          decennial isn't "excess cause," it is a pandemic of the unvaxxed.
+          Mancihn is a top. I hate him.
           <h2>
             TRUMP SPENT 20% MORE THAN USUAL, HE IS ESTABLISHMENT YOU FUCKING
             RETARDS. ppp trust bbb existing contractor ccc parental, all bond
