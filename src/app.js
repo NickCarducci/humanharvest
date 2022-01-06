@@ -187,6 +187,36 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          your cash is not cash, because of bill clinton. don't obama my bernie!
+          <h1>
+            A chance to vote is not wall st pharma cop vs wall st pharma cop,
+            that is why non-voters wimply won against citarelli and Murphy.
+            neither a rent-seeking candidate choice. just government and closed
+            source expert jury freaks.
+          </h1>
+          <h2>behead mark levin</h2>
+          AMERICAN REPUBLICANISM AND CAPITRALISM SURRENDERED FREEDOMS OF SAVERED
+          CONSUMERS AND EMPLOYERS BY EXPOIRINNG CLAIMS IN FALSE BID POOLS OR
+          SCHEDULES OF NON-COMPETE HOURS NoR OUTLAYS COMPOUNDED BEFORE A
+          CONSIUMER IS READY WILLING AND ABLE WITH THEIR OWN MONEY. PROTECT THE
+          INDIVIDUAL, DO NOT RENT-SEEK BRIDGE TOLLS FOR 2/3 DEBT SERVICE. I AM A
+          RADICAL MARXIST. ROT IN HELL MARK LEVIN.
+          <h2>
+            MARXISTS ARE FOR CONSUMERS, NOT GOVERNMENT, PARENTS NOR RENT-SEEKERS
+            OR CORPORATE FLACCID TRUSTS
+          </h2>
+          1/3 $12k/64 debt/cash (new), per person, a year, is public.&nbsp;
+          <a href="https://fred.stlouisfed.org/graph/?g=Ksmd">GDP</a>. 1/4 being
+          healthcare, expiring premiums, is not a good sign. I believe real
+          GDP/p per hour is not productivity because real doesn’t include homes,
+          bonds, equities (market-concentration) nor intermediate-labor, just
+          rents and materials. Otherwise, GDP fixed for all inflation,
+          non-durable,
+          -duress-beyond-industry-variable-minimal-viable-product-jury, nor
+          -withheld-quality trade just doesn’t change, per person. It is best to
+          think of dollars as [fungible for ]on-market-ask (of someones’ own
+          bid, without surrendered freedoms of another invoking a third party
+          donee beneficiary, EULA).
           <h2>
             lawless involuntary trade racketeering when operating cost is
             mutable freeloader without rent-seeking for laborless-demand
