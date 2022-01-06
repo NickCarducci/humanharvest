@@ -187,6 +187,11 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Financially incentivized to admit nursing home people, the risk is
+          implied by being old. There is no significance to hospitalization nor
+          deaths risk. 2122272900 kglawteam.com is a fraud.
+          <br />
+          <br />
           "You’ll be a baby boomer or think I’m totally insane," Bill O'Reilly
           references Davey Crocket musket. I AM THE SMARTEST ECONOMIST IN THE
           WORLD OR THEAT LONG BRANCH BITCH OF A PSYCHOLOGIST WAS JUST SCARED OF
