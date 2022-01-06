@@ -187,7 +187,15 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          $16k/64 cash/debt (new), "living out of his car, has more to worry
+          Malferasance in surrendered freedom (EULA) reverse amortization
+          (cash/debt)*income every year back.
+          <br />
+          <br />
+          Social security using disability to service (not pay off
+          uncollateralized) parent collateralized debts
+          <br />
+          <br />
+          $12k/64 cash/debt (new), "living out of his car, has more to worry
           about than _." like the 10x hours per home, 6 to 1000 hospital beds
           per person c1970, for no reason other than actual labor shortage of
           IMPLAUSIBLE LANDLORD USE rent-seekers beyond 5 units or 30 days, 1/3
