@@ -187,6 +187,9 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          my own reason, my own person. it comes from somewhere you fucking
+          bitch. 
+          <br />
           social security shows you more money than exists you afro-tool-bitch
           die. You had your whole life to save in CASH.
           <br />
