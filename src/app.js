@@ -187,6 +187,15 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          <h1>Non-voters won</h1>
+          "Deadly insurrection, 5 people died." You really value those lives a
+          lot more than everyone else huh? stfu tapper. you fraudulently applied
+          for honor system signatures of 2/3 turnout, not shuffling before
+          announcing tranched votes. "Stop democracy in action." Dominion is not
+          democracy, content-addressible&nbsp;
+          <a href="https://thumbprint.us/voting">ArrayArrays</a>&nbsp;is.
+          <br />
+          <br />
           Not enough resources to return for a mostly asymptomatic positivity?
           fucking retard omar hermenez. stfu victor and allison. get a fucking
           1942 actuary dumbasses
