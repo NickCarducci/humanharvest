@@ -194,10 +194,14 @@ export default class App extends React.Component {
           surrendered freedom (EULA) grounds, and competiting with consumer
           intent by not-rollover nor allow contracted to compete nor settle
           trade is not voluntary especially before jury-permit to discriminate.
-          pay me to ban me. Anytime you put money through the hands of Mark
-          Levin, he takes some. Money doesn't enable anything unless it is free
-          rider immutable from inside the market like truncated production tax
-          for sewage, police and lawsuits, without state victimized torts nor
+          pay me to ban me. "He is going to a trade school and mechanics will
+          make more money than liberal arts." Yah, again because of insurance
+          claims, non-rollover and expiring, not collective bargain but
+          surrendered freedom (EULA) of the co-signatories' employers and
+          customers. Anytime you put money through the hands of Mark Levin, he
+          takes some. Money doesn't enable anything unless it is free rider
+          immutable from inside the market like truncated production tax for
+          sewage, police and lawsuits, without state victimized torts nor
           fine-bribes, nor duress before industry-variable jury multiple of
           11/12 without more than 1/12 reasonable doubt. if virion injects DNA
           into cell, and it isn't population 75-79 decennial isn't "excess
