@@ -187,6 +187,33 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          20%+ non-exclusive or garbage collection is warning mechanism or
+          placebo. the bottom-left is anti-vaxx, the right and top-left allow
+          business to operate upon the microeconomic Supply and Demand
+          assumption unacknowledged that output is extended as producers reach
+          infinite marginal propensity to trade on the bid (rather than wait on
+          the ask, or brought forward without rollover). The best way to release
+          product out of the government is to prohibit licensure, open-source
+          ingredient lists, don't gentrify like Republicans and Democrats with
+          expiring premiums for non-rollover insurance, public nor private. it
+          is a false bid pool, collective bargain only works if it rolls over or
+          is immediate, not flaccid like a corporate account. FUCK AMAZON IN NYC
+          CAHOOTS FOR YOUR PENSION FORCED INVESTMENT. YOU HAD YOUR ENTIRE LIVES
+          TO SAVE. 40% Occupy and swing, 10% GOP and swing anti-rent-seeking
+          Occupy Wall St. the right are not conservative, 1/3 public $12/64
+          debt/cash (new) surrendered freedom (EULA). Let customers decide what
+          is life-saving, only free rider immutable tax is useful. Test,
+          vaccines and antibody suppression or placebo 20% of garbage collection
+          warning mechanism of bacterial reinfection. the right are market
+          communists 1/3 public. This is not a "money problem," nor a "color of
+          skin problem," it is a producer option problem. quality, margin and
+          duress by McDonald's rent-seeking franchise needs to be controlled by
+          the industry-variable multiple of 11/12 jury, NOT business. THE RIGHT
+          ARE ANTI-CUSTOMER. Business can do whatever duress they want. so, suck
+          my dick stinchfeild if you want to get into my events, you obviously
+          have anger management issues.
+          <br />
+          <br />
           inflation go down because energy domination by nationalized
           rent-seeking.” Mark Meadows, Trump retard. socialists are
           conservative, not nationalizing bridge/broadband tolls you cuck. die
@@ -217,8 +244,10 @@ export default class App extends React.Component {
           </h1>
           <h2>
             GDP/p per hour as productivity is bias and beliefs, expert jury
-            instead of industy-variable, too
+            instead of industy-variable, too, for saveface lest malpractice.
           </h2>
+          get a permit for discrimination, pay me to ban me.
+          <br />
           Dollars v bonds, Republicans be damned 40% debt spending called tax
           payer funds, Democrats calling ccc parental gerontocracy child funds,
           education helping children by keeping them from earning money and
