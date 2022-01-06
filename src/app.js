@@ -189,7 +189,13 @@ export default class App extends React.Component {
           </a>
           <h2>
             TRUMP SPENT 20% MORE THAN USUAL, HE IS ESTABLISHMENT YOU FUCKING
-            RETARDS
+            RETARDS. ppp trust bbb existing contractor ccc parental, all bond
+            laundering, for rent-seeking operating costs, expiring premiums and
+            non-rollover surrendered freedoms (EULA) of your employers and
+            customers, let along Savers especially when 40% debt spending (1/3
+            public). crime problem is from the state victimization and insurance
+            false bid pool torts, non-concurrentable surrendered freedom (EULA)
+            third party donee claimable beneficiary.
           </h2>
           <h3>
             "Everyone is begging to keep schools open." Allow kids to earn
