@@ -187,10 +187,14 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          KYS, MARX DIED 50 YEARS BEFORE GENOCIDE AND MISES CO-OPTION OF SUBWAY
-          HELPING HOMELESS INSTEAD OF FORCING CONDOS OF RENTAL-INCOME ACTUAL
-          LABOR SHORTAGE BOOMERS. stop nationalizing for 40% debt service njta
-          douchebag 77WABC all of you DIE
+          only taxble is free rider mutable things that have no pigeonhole,
+          otherwise it is just an operating cost trust with natural market
+          customers. Thats why 1/4 debt spending is pensions of forced
+          investment in Amazon, Catsimitidis wants to trust build. Someone
+          decapitate him! KYS, MARX DIED 50 YEARS BEFORE GENOCIDE AND MISES
+          CO-OPTION OF SUBWAY HELPING HOMELESS INSTEAD OF FORCING CONDOS OF
+          RENTAL-INCOME ACTUAL LABOR SHORTAGE BOOMERS. stop nationalizing for
+          40% debt service njta douchebag 77WABC all of you DIE
           <br />
           <br />
           Drugs to not jeporadize public safety, expiring claims only
