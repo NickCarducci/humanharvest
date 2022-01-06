@@ -187,6 +187,32 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Won a trade war with China, by charging tariffs and gaining nothing
+          back in utility too broad for microeconomic Supply and Demand
+          counterproductivity of input cost like homes, equities
+          (market-concentration), bonds nor intermediate-labor is made by
+          people, because corporations aren't people (flaccid purchase, not a
+          collective-bargain). streamline no surprise medical bills, implausibly
+          deniable impossible is never foreseeable nor is possible never
+          unforseeable. "They were wrong and need to be punished for it." They
+          were fighting for a virtuous cause. YOU STOLE THE ELECTION GROUNDS
+          HONOR SYSTEM SIGNATURES, DOMINION MAGNETIC DATA IS NOT AUDITABLE LIKE
+          END TO END IS NOT ON THE CLOUD KEYS, EXCESS DEATHS AGE STANDARDIZED
+          DOESN'T ACCOUNT FOR COHORT SIZE, UNSHUFFLED EXTRAPOLATION && OF WHOLE
+          VARIANCE (BINARY EACH VOTE) IS SURVEY BIAS TRANCHED RESULTS, LIKE
+          OUSTANDING TREASURY SHARES UNCOUNTED, AND 13D RETAIL UUID ANON
+          DISCREPANCY. GO TO HELL DOUCHE
+          <h1>
+            get an actuary, get a life. get a job, non-compete copyright
+            quiuckening descritive/broad
+          </h1>
+          Bills are never a surprise but a surrender freedom (EULA) of third
+          party donee beneficiary of savers as insurance is of expiring of
+          customers and employers
+          <br />
+          Public pr private
+          <br />
+          <br />
           I would call nationalized bridge/broadband fees a crisis of the
           economy being labor-based-demand.
           <br />
@@ -9621,4 +9647,3 @@ export default class App extends React.Component {
     );
   }
 }
-
