@@ -187,6 +187,33 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Matt Gaetz: "every comittee in the congress to an oversight, analyze
+          pain of people."
+          <br />
+          Chris Salcedo: "Why are calls of violence unchecked from Democrat
+          Socialists?" Socialists wouldn't NATIONALIZE BRIDGE/BROADBAND fees nor
+          expiring hours of childcare for invoice surrendered freedoms of
+          Savers, customers and employers. Turn on spickets in CANADA AND
+          ALASKA! CRUDE WILL BE DOWN TO $60/barrel next week, and inflation will
+          go away, because the american people are poorer only by material, not
+          homes nor intermediate-labor. John Cats, gentrifier, rent-seeker,
+          competing with consumers. DIE YOU FAT SHIT. I'll cut your face off.
+          <br />
+          <br />
+          "Why does it seem like Bill Clinton has such a reputation for being
+          smart? Sex?"
+          <br />
+          Nick Carducci - Statistician, Historian of Markets and Propaganda
+          (2012–present)
+          <br />I would presume it is propoganda/agitprop for FDIC, Glass
+          Steagall destablishment, calling bond-index-funds for Treasury/war
+          bonds, “savings.” Or it is genuine genuflection of the populous for
+          his charisma. Certainly not popular amongst bona fide accountants.
+          <h1>
+            real GDP/p per hour is not productivity because homes, equities
+            (market-concentration), bonds (surrendered freedoms, EULA), and
+            intermediate-labor are actually input costs.
+          </h1>
           Won a trade war with China, by charging tariffs and gaining nothing
           back in utility too broad for microeconomic Supply and Demand
           counterproductivity of input cost like homes, equities
