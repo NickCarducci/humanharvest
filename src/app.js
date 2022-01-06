@@ -187,6 +187,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Terminate an employment contract cannot be guided by surrendered
+          freedom (EULA) of others, only by class of surrendered freedom (EULA).
+          <br />
+          <br />
           A lot of people are contracting it as hospitals increase, but the
           absolute change is not because of the viral seasonal significance from
           normal, there is 6 to 1000 hospital beds per person. Forest for the
