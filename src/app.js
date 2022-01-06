@@ -214,6 +214,16 @@ export default class App extends React.Component {
             (market-concentration), bonds (surrendered freedoms, EULA), and
             intermediate-labor are actually input costs.
           </h1>
+          Socialists are anti-rent-seeking, Marx doesn't want dead-weight
+          laborless-demand, public nor private. Assault law enforcement if they
+          countervail their own laws.
+          <br />
+          <br />
+          "Socialists hate prosperity that we enjoy,” as this borrower loiters
+          on MY surrendered freedom (EUL) making third party donee beneficiary,
+          homes is input transitive poprty of “milk in your babies bottle
+          <br />
+          <br />
           Won a trade war with China, by charging tariffs and gaining nothing
           back in utility too broad for microeconomic Supply and Demand
           counterproductivity of input cost like homes, equities
