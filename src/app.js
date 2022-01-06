@@ -187,6 +187,15 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          rsv caused more deaths than vaccinated children.you just started
+          testing for it, that doesn't mean it "caused deaths."
+          <br />
+          <br />
+          Vaccine specialist, "my entire livelihood depends on save face, I have
+          put hits on bona fide actuaries that are academic rather than paid by
+          health industry and expiring claims."
+          <br />
+          <br />
           "Unlicensed medical product cannot be advertised." That is fucking
           stupid, force open source ingredient lists instead.
           <br />
