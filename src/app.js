@@ -187,6 +187,8 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Eric Bolling "Spreading like crazy," you are only looking at 1 of
+          100,000's that exist, that is 5% of all cases.
           <h1>Non-voters won</h1>
           "Deadly insurrection, 5 people died." You really value those lives a
           lot more than everyone else huh? stfu tapper. you fraudulently applied
