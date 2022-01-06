@@ -187,6 +187,48 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "Senior UI Designer for NY Life Insurance"
+          <br />
+          Life insurance is surrendered freedom (EULA) of co-signatories'
+          customers and employers.
+          <br />
+          <br />
+          "Can a government regulate a price control on property and public
+          transport?"
+          <br />
+          Self-regulation of margins, duress and quality is co-opted from a
+          microeconomic assumption for Supply and Demand for *productive-output*
+          (per hour, discounted by material- and equity-, home-, bond- and
+          intermediate-labor-inflation). So, government is well within their
+          **reasoning to target-margins, duress or quality to provide a Tranquil
+          society** to citizens, from a *reality that there aren’t infinite
+          producers to determine the most efficient billboard price*, after
+          market makers lay their ask-to-bid spread, and own no more.
+          <br />
+          **Regulating by price is the last-resort, however, but not duress nor
+          quality**, for it is most efficient to be done after forbidding
+          implausible landlord use beyond 5 units or 30 days and surrendered
+          freedoms (EULA) in expiring or estimated claims, *margin-targeting
+          natural, operational network-monopolies like transportation is
+          appropriate,* according to the very self-regulatory reasoning made by
+          microeconomists, as an assumption re-worked for the real world with
+          finite producers first-regulates by quality and duress, by an
+          industry-variable jury at a multiple of 11/12 rate, with no more than
+          1/12 reasonable doubt that the duress or mal-quality is necessary for
+          the minimal viable product for voluntary trade.
+          <br />
+          “*Tranquil*” and “*voluntary trade*” does NOT give government reign to
+          monopsonize beyond free rider immutable truncated production tax in
+          Article 4, best applied by a truncated production tax to remove
+          receipts from state victimization of torts (defeating the purpose) and
+          fines as bribes.
+          <br />
+          <br />
+          He refuses to accept the results of the election and the will of the
+          American people,” you got less than a third of eligible voters,
+          non-voters are a default will, “no” to all choices
+          <br />
+          <br />
           Librarian-histrians saying prayers. Gentrifying libraries now.
           <br />
           <br />
