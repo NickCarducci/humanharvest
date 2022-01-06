@@ -187,6 +187,16 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "You’ll be a baby boomer or think I’m totally insane," Bill O'Reilly
+          references Davey Crocket musket. I AM THE SMARTEST ECONOMIST IN THE
+          WORLD OR THEAT LONG BRANCH BITCH OF A PSYCHOLOGIST WAS JUST SCARED OF
+          THE LAW STOP BEING MALFEASANT. “State can stop funds of universities
+          that are under the state banner.” Savers can stop the surrendered
+          freedom as consumers and employers of co-signatories to expiring
+          premium non-rollover insurance can to those false bid pool
+          participants.
+          <br />
+          <br />
           I know DNA is not injected into the cell, and prevalence can mean
           byproduct of bacterial-reinfection, as excrement in feces/spittle with
           bacterial is a Darwinian sign of utility. Antibodies are placebo or
