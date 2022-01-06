@@ -231,12 +231,35 @@ export default class App extends React.Component {
           He refuses to accept the results of the election and the will of the
           American people,” you got less than a third of eligible voters,
           non-voters are a default will, “no” to all choices. "Elected by
-          tax-payers," bitch, savers pay 40% and amortized, tax-payers don't
-          even may a modicum, $2t when that much cash exists, most of GDP is
-          debt.
+          tax-payers," bitch (MTG), savers pay 40% and amortized, tax-payers
+          don't even may a modicum, $2t when that much cash exists, most of GDP
+          is debt.
+          <h1>THE FAR-RIGHT</h1>
+          "How do capital markets assist an economy?"
+          <br />
+          Capital markets that compound the surrendered freedom (EULA) of third
+          party donee beneficiaries are useless price inflation. Only when the
+          account awaits consumers in a 1-level board max-royalty profit does
+          it, “add value,” by actualizing comparative advantage, as much as any
+          trade, but by profit-share rather than natural redistribution.
+          Time-based interest, on the other hand, is spending, not trade. Prices
+          are elastic, meaning more “investment” by spending the equity of third
+          party donee beneficiaries just raises bid-price to ask for the lot of
+          existing resources/materials.
           <br />
           <br />
-          Librarian-histrians saying prayers. Gentrifying libraries now. "This
+          Any equities are concurrentable, or can rollover, meaning there isn’t
+          a net loss of third party beneficiaries in setting-up outlay schedules
+          for royalties with a bank or collective bargain. For this reason,
+          1-level board max-royalty contracts are insulated risk to the
+          co-signatories exclusively when it is person-to-person (p2p) only.
+          Investment banks, however, can own by vault-share
+          concurrentable-equities.
+          <br />
+          <br />
+          <br />
+          <br />
+          Librarian-historians saying prayers. Gentrifying libraries now. "This
           is not a terrorist attack, no one has been charged." You can be a
           terrorist without adjunication, bitch. People can be wrongly charged
           as well, Rumson, NJ takes disrderly resisting arrest to shoot on site
@@ -9466,3 +9489,4 @@ export default class App extends React.Component {
     );
   }
 }
+
