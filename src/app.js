@@ -189,7 +189,8 @@ export default class App extends React.Component {
           </a>
           "medicare difference makes relative to others, it's nice to be known,
           a community of Christians havre a 90% approval rating." desist, it is
-          surrendered freedom (EULA) of your prisoners' consumers and employers
+          surrendered freedom (EULA) of your prisoners' consumers and employers,
+          expiring-claim with transitive-property of third party donee.
           <br />
           <br />
           your cash is not cash, because of bill clinton. don't obama my bernie!
@@ -211,7 +212,7 @@ export default class App extends React.Component {
           the co-signatories’ customers and employers, or here, the damages
           appraisal.
           <br />
-          AMERICAN REPUBLICANISM AND CAPITRALISM SURRENDERED FREEDOMS OF SAVERED
+          AMERICAN REPUBLICANISM AND CAPITRALISM SURRENDERED FREEDOMS OF SAVERS
           CONSUMERS AND EMPLOYERS BY EXPIRING CLAIMS IN FALSE BID POOLS OR
           SCHEDULES OF NON-COMPETE HOURS NoR OUTLAYS COMPOUNDED BEFORE A
           CONSIUMER IS READY WILLING AND ABLE WITH THEIR OWN MONEY. PROTECT THE
