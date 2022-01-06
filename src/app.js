@@ -187,6 +187,17 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Rep Stubie on Stinchfield: "People should have the Tranquility to
+          decide their own healthcare, and not have government get involved."
+          only 11/12 withut 1/12 reasonable down can designate after 2 week
+          public discovery for excecutions and abstain holdings with SEC
+          backdoor for anonuuid for closing 13d-retail discrepancy. But if
+          donated treatments don't stop the disease but the non-exclusive
+          byproduct because virion is NOT the cause-killer because it DOESN'T
+          inject its DNA into the cell as assumed to FIT SAVEFACE DOCTOR
+          NARRATIVE.
+          <br />
+          <br />
           20%+ non-exclusive or garbage collection is warning mechanism or
           placebo. the bottom-left is anti-vaxx, the right and top-left allow
           business to operate upon the microeconomic Supply and Demand
