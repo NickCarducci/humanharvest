@@ -187,11 +187,29 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          I will defend my startup business aginst existing biz ppp by shooting trump.<br/><br/>
+          I will defend my startup business aginst existing biz ppp by shooting
+          trump.
+          <br />
+          <br />
           rsv caused more deaths than vaccinated children.you just started
           testing for it, that doesn't mean it "caused deaths."
-          <br />
-          <br />
+          <h1>creator of oncogenesis dysregulation</h1>
+          <Cable
+            style={{ height: "400px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1pi9AEjB024FUqdNQFB7pjzjrokSG4VSR/preview"
+            }
+            float="left"
+            title="Eric Bolling (The Balance, Newsmax) - Dr. Robert Malone inventor of mRNA sporing grafts excess antibodies"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           Vaccine specialist, "my entire livelihood depends on save face, I have
           put hits on bona fide actuaries that are academic rather than paid by
           health industry and expiring claims."
@@ -9595,3 +9613,4 @@ export default class App extends React.Component {
     );
   }
 }
+
