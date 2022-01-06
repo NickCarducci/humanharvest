@@ -187,6 +187,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          ccc parental, ppp trust, bbb existing contractors. 40% debt spending
+          is savers, the people. 1/3 public, 2/3 private.
+          <br />
+          <br />
           "Senior UI Designer for NY Life Insurance"
           <br />
           Life insurance is surrendered freedom (EULA) of co-signatories'
@@ -229,7 +233,11 @@ export default class App extends React.Component {
           non-voters are a default will, “no” to all choices
           <br />
           <br />
-          Librarian-histrians saying prayers. Gentrifying libraries now.
+          Librarian-histrians saying prayers. Gentrifying libraries now. "This
+          is not a terrorist attack, no one has been charged." You can be a
+          terrorist without adjunication, bitch. People can be wrongly charged
+          as well, Rumson, NJ takes disrderly resisting arrest to shoot on site
+          weed smokers whom have equal prevalence of crashing as others.
           <br />
           <br />
           Financially incentivized to admit nursing home people, the risk is
