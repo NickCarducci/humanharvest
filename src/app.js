@@ -237,21 +237,44 @@ export default class App extends React.Component {
           payer funds, nor is free rider mutable ppp existing business trust
           building useful and not useless price inflation from outside the
           market Long term smell and taste is less, you aren’t fixing for age
-          cohort size, just age. Dr. Seigel and John Cats. Die. Stop saying
-          French is not spreading when the only novel thing is you testing for
-          it. There is no legal basis to do these permits without scientific
-          consensus, not an expert jury with confirmation bias and save face
-          lest malpractice. You need to break a few eggheads to say something
-          new. Unvaccinated and vaccinated either work or not. a small portion
-          of breakthorough cases is just byproduct prevlence, not cause, you
-          literally make up DNA being injected into the cell for prevalence.
-          fucking retards, kill yourselves! Effective against previous variants
-          as well, it is garbage collection, it doesn't stop infection. 20%
-          placebo or warning mechanism of bacteiual-reinfection of non-exclusive
-          byproduct? only comes out 5% of time for pneumonia. Cameroon made the
-          test, not the virion. it is just debris of cell when bacteria
-          reinfects, that is in spittle and feces excrement. fucking die
-          boomers.
+          cohort size, just age.
+          <h1>
+            Marx was co-opted 50 years after anti credit cycle for genocidal
+            market-communists nationalized, still competing with consumers free
+            rider mutable tax from outside the market, useless price inflation,
+            rent-seeking and gentrification (of input costs, counterproductive).
+          </h1>
+          <h2>
+            100 years after was by Mises for suggesting GDP/p per hour by debt
+            is at all useful, rather than implausibly-denaiable force majeure
+            purposeful, expiring and estimated option to buy, sold, based on
+            neighborhood sales rather than last trade for that specific property
+            (what you bought it for).
+          </h2>
+          non-compete student draft, a job non-compete and corporate profit
+          concentration isn't help- it is a withheld trade for flaccid loss and
+          actual labor shortage per labor-demand.
+          <h2>
+            children have more natural rights over themselves than fucking
+            parents, both more than business discrimination, get a permit from
+            an industry-variable jury multiple of 11/12 with no more than 1/12
+            reasonable doubt. Virion does not inject DNA into cell and GDP/p per
+            hour is not productive, but inflation anf non-durable trade
+          </h2>
+          Dr. Seigel and John Cats. Die. Stop saying French is not spreading
+          when the only novel thing is you testing for it. There is no legal
+          basis to do these permits without scientific consensus, not an expert
+          jury with confirmation bias and save face lest malpractice. You need
+          to break a few eggheads to say something new. Unvaccinated and
+          vaccinated either work or not. a small portion of breakthorough cases
+          is just byproduct prevlence, not cause, you literally make up DNA
+          being injected into the cell for prevalence. fucking retards, kill
+          yourselves! Effective against previous variants as well, it is garbage
+          collection, it doesn't stop infection. 20% placebo or warning
+          mechanism of bacteiual-reinfection of non-exclusive byproduct? only
+          comes out 5% of time for pneumonia. Cameroon made the test, not the
+          virion. it is just debris of cell when bacteria reinfects, that is in
+          spittle and feces excrement. fucking die boomers.
           <br />
           <br />
           "Alvan Bragg will have to be removed from office, by you,” with duress
