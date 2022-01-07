@@ -225,6 +225,20 @@ export default class App extends React.Component {
           donee beneficiary claimable), anyway.
           <br />
           <br />
+          "Does government spending increase inflation?"
+          <br />
+          <br />
+          Nick Carducci - Chairperson at Saver Party (2020–present)
+          <br />
+          Only does government spending increase inflation, let alone
+          malfeasance over operational costs, is when they profit themselves
+          over free rider mutable tax, or 40% debt spending, both as money from
+          outside the natural outlay market or free rider immutable receipt
+          scope. It also increases the cost of living, that is also an input
+          cost, by homes, equities (market-concentration), bonds (surrendered
+          freedom, EULA) and intermediate-labor (trust).
+          <br />
+          <br />
           Justice bail state vic and surrender freedom by co-signatories’
           customers and employers by transitive-property of input costs Endless
           cycle of jail to the streets is because you trust build scripts for
