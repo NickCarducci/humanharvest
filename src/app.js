@@ -189,7 +189,14 @@ export default class App extends React.Component {
           </a>
           "You buy it in advance," but bills expire and are surrendered freedom
           of savers, it would take 44 years for income to pay debts that are
-          counterfeit in contract.
+          counterfeit in contract. WAIT FOR CONSUMERS YOU AFRO BITCH -
+          REPUBLICANS WOULD NEVER REPLACE DEBT INVESTMENT WITH 1-LEVEL BOARD
+          MAX-ROYALTY PROFIT FOR THEY PROFIT ON COUNTERPRODUCTIVITY, AS INCPUT
+          COSTS AREN'T TO ACCOUNT FOR ALL HOMES, TREASURY SHARES OUTSTANDING,
+          FINITE PRODUCER DURESS WITHOUT INDUSTRY VARIABLE CONSENSUS SCIENCE,
+          INTERMEDIATE LABOR TRUST, EQUITIES MARKET CONCENTRATION, PROFITS NOR
+          BONDS SURRENDERED FREEDOM THIRD PARTY DONEE BENEFICIARY CLAIMABLE
+          (EULA).
           <br />
           <br />
           "Aren't you in the credential guys?" When you order a dug for a
