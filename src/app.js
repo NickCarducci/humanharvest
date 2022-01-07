@@ -187,7 +187,9 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          all ages and conditions. MY SLURS ARE OF NO DANGER TO YOU YOU CUNT.<br/><br/>
+          all ages and conditions. MY SLURS ARE OF NO DANGER TO YOU YOU CUNT.
+          <br />
+          <br />
           "Government cannot regulate the workplace," are you fucking kidding
           me? duress is voluntary trade and Tranquil? closed warnings of the
           workplace for workers' comp fraud is ok to you afro-tool-judge?
@@ -231,11 +233,15 @@ export default class App extends React.Component {
           If it stops the virion, and it causes rather than byproduct warning
           mechanism/placebo non-exclusive, it stops it (breakthrough isn't even
           a modicum of prevalence, but it is byproduct and injecting DNA into
-          cell is&nbsp;<a href="https://youtu.be/Weqb9KrQ-TU?t=22">MADE UP</a>).
-          Working outside can bring it elsewhere. YOU AREN'T COUNTING ALL
-          INCIDENCE CASES, 5% of all cases, if you did you would see
-          vaccinations haven't don't anything to lessen illness, just
-          non-exclusive debris of bacterial-reinfection.
+          cell is&nbsp;<a href="https://youtu.be/Weqb9KrQ-TU?t=22">MADE UP</a>,
+          in fact, prevalence of breakthrough likely matches immunnocompromised
+          prevalence, meaning marijuana drivers are just as likely to crash as
+          others, but you can't do maths as regulator).
+          <h1>Apparently, a violent insurrection has grounds, now.</h1>Working
+          outside can bring it elsewhere. YOU AREN'T COUNTING ALL INCIDENCE
+          CASES, 5% of all cases, if you did you would see vaccinations haven't
+          don't anything to lessen illness, just non-exclusive debris of
+          bacterial-reinfection.
           <br />
           <br />
           High risk workplaces are actually determined by the existence of the
