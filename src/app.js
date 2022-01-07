@@ -187,6 +187,14 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          precluding sections by non-exclusive byproduct as opposed to
+          eviolutionary weapon, is not your purview, neither by your excluse,
+          "to save hospital beds," especially when it was due to your
+          malfeasance, complicity and even profit-involvement from public
+          insurance? Student debt? what more teachers other than treacherous
+          ones did you, "invent?"
+          <br />
+          <br />
           Double jeopardy and character evidence cannot be extrapolated, albeit
           it can be predicted, by reason of variance, shuffling wouldn’t even be
           enough. Do NOT preclude prosecutions double-counting. state vic and
