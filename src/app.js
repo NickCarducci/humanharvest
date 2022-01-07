@@ -202,7 +202,7 @@ export default class App extends React.Component {
             security in business over propensity to quit? safety isn't even
             admittedly their priority!??!?!
           </h1>
-          "Everyone living their lnormal lives has been effected by this," no
+          "Everyone living their normal lives has been effected by this," no
           just your malfeasance, the excess deaths were overreacted for being
           not standardized for cohort size, just age. You don't understand 78 is
           hit a wall, and you are on the Supreme Court? I should be the supreme
@@ -228,10 +228,13 @@ export default class App extends React.Component {
           Don’t you handle Tranquil and voluntary trade you fucking bitch?
           <br />
           If it stops the virion, and it causes rather than byproduct warning
-          mechanism/placebo non-exclusive, it stops it. Working outside can
-          bring it elsewhere. YOU AREN'T COUNTING ALL INCIDENCE CASES, 5% of all
-          cases, if you did you would see vaccinations haven't don't anything to
-          lessen illness, just non-exclusive debris of bacterial-reinfection.
+          mechanism/placebo non-exclusive, it stops it (breakthrough isn't even
+          a modicum of prevalence, but it is byproduct and injecting DNA into
+          cell is&nbsp;<a href="https://youtu.be/Weqb9KrQ-TU?t=22">MADE UP</a>).
+          Working outside can bring it elsewhere. YOU AREN'T COUNTING ALL
+          INCIDENCE CASES, 5% of all cases, if you did you would see
+          vaccinations haven't don't anything to lessen illness, just
+          non-exclusive debris of bacterial-reinfection.
           <br />
           <br />
           High risk workplaces are actually determined by the existence of the
