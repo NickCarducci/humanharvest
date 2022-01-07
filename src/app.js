@@ -187,6 +187,8 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          <h2>You can fucking stick your 'power' up your ass</h2>
+          <h3>I'm the captain now</h3>
           "New facts on the ground. Moved to an endemic." Bitch, you can see the
           population growth in actuary tables, excess deaths age standardized
           isn't measured against per person. SIN SACRIFICE DOESN'T WORK RCB YOU
