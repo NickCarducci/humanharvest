@@ -187,9 +187,26 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          "we are all accountable to our own acterions," to whose account? sin sacrifice for the greater good? 
-          Actuaries disagree that the pandemic is not just population size
-          meeting life expectancy, virion is not even all-inclusive-artifact.
+          manslaughter cannot exclusively be remanded for, except: to suppress
+          intentional dangers in the future, not state vic double jeporady, or
+          removing false sentencing. Character evidence is not with standing.
+          Truncated sales tax geohash/mo sccounting software/congress from
+          paytech, allowed to spoof to protest precinct, cannot on device end to
+          end before login.gov repeat offenders, to ween cops off conflict of
+          interest saveface malpractivce expert jury net loss by bonded outlay
+          of Savers' surrendered freedom (EULA) by third party doneee
+          beneficiary claimable and co-signatories' customers and employers by
+          transitive-property of input costs, including homes, equities
+          (market-concentraction), profits, bonds (surrendered freedom, EULA)
+          and intermediate-labor (trust). Or else war has grounds in
+          international law. 40% debt spending for war is a WAR CRIME, on the
+          other hand.
+          <br />
+          <br />
+          "we are all accountable to our own acterions," to whose account? sin
+          sacrifice for the greater good? Actuaries disagree that the pandemic
+          is not just population size meeting life expectancy, virion is not
+          even all-inclusive-artifact.
           <br />
           <br />
           We all have jobs, so what can we do." $12k/64 debt/cash (new, per
