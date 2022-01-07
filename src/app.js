@@ -187,6 +187,31 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          the people arent' represented by the states individually, nor the
+          congress, there isn't a choice for people to turnout. "missing vaccine
+          appointments, and therefore, needs to be mandated."
+          <br />
+          <br />
+          <Cable
+            style={{ height: "280px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1oWynn7OfuC0Vj_AYX0sLVIVl9aeThUSC/preview"
+            }
+            float="left"
+            title="Spicer & co (Newsmax) - "
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “It doesn’t matter that your wages intermediate labor goes up when
+          your other input costs rise.”
+          <br />
+          <br />
           testing mandates Red states fighting for the american worker as a FLOP
           OVER RELIGIOUS PROOF. PUT ME IN, COACH!
           <br />
