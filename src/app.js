@@ -187,6 +187,14 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "New facts on the ground. Moved to an endemic." Bitch, you can see the
+          population growth in actuary tables, excess deaths age standardized
+          isn't measured against per person. SIN SACRIFICE DOESN'T WORK RCB YOU
+          INSANE CUNT. I wish you were dead
+          <br />
+          vaccines are single most effective in stopping byproduct non-exclusive
+          nor necessarily-incidence-artifact of bacterial-infection. YOU MAKE UP
+          THE STORY THAT DNA INJECTED INTO CELL.
           <h2>
             If you can make virion in a lab, not just find it acter you situate
             the test for it, I will be on your side wishing to mandate vaccines
