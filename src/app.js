@@ -187,13 +187,47 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "Go where virus has hurt the most, bring resources where it is most
+          hit," but wouldn't they have demand to buy it? where do you think the
+          labor for that area comes from? They will be cheap. Expiring claims
+          wouldn't sign up rollover.
+          <br />
+          <br />
+          <Cable
+            style={{ height: "280px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1wH8beNETJPPVHD7hpBF1LfABOsp8Wmwu/preview"
+            }
+            float="right"
+            title="Chris Salcedo (Newsmax) - Dr Robert Malone on stints"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          No matter who you are you have legal right to see and understand the
+          data
+          <br />
+          “Hypertension and put you on treatment.” Leave me the fuck alone, I am
+          disabled and can’t run but that should be your first treatment
+          <br />
+          <br />
+          "No we don't we don't even know where the money is in the first place.
+          keep tax cuts permenant, unlock energy trade secrets and trust, ppp
+          would make the problem tremendously worse."
+          <br />
+          <br />
           common sense DOESN't know better, galileo, redi, rcv and actuaries.
           STATUTE OF LIMITATIONS NOR RACKETEERING PLEA DURESS IS NOT WITH
           STANDING! DESIST!
           <br />
           <br />
           <Cable
-          style={{height:"280px"}}
+            style={{ height: "280px" }}
             onError={handleScollImgError}
             //img={true}
             src={
