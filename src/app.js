@@ -199,6 +199,12 @@ export default class App extends React.Component {
           lessen illness, just non-exclusive debris of bacterial-reinfection.
           <br />
           <br />
+          High risk workplaces are actually determined by the existence of the
+          virion, the high risk is not the cause but everyone is. Debris is not
+          dangerous, stop it with the saveface malpractice expert jury,
+          douchebags.
+          <br />
+          <br />
           "Arthur Kaplan: "You pay more and not get life and health insurance at
           affordable rates," the life and health insurance are a stick in
           itself, as it is expiring premiums.
