@@ -187,6 +187,11 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Fails to do something for employees doesn't make liability of the
+          employers if the worker is provided the information. Fucking expiring
+          claim pool frauds.
+          <br />
+          <br />
           “It is up to us, the vaccination policy in this country?” Asks a
           FUCKING SUPREME COURT JUDGE you have to prove virion inseminates the
           cell and Inst byproduct to add it you your minimal viable product.
