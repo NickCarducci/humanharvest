@@ -187,6 +187,26 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "Arthur Kaplan: "You pay more and not get life and health insurance at
+          affordable rates," the life and health insurance are a stick in
+          itself, as it is expiring premiums.
+          <br />
+          <br />
+          Non-exclusive byproduct dissolution is not affirminively cause, health
+          ethicist is misguided by what is affordable and accurate. Prevalence
+          means debris-artifact as well, not just cause, and here it is 5% of
+          all-incidence, non-exclusive byproduct, warning mechanism or placebo
+          notwithstanding, garbage collection dissolution from blood clot
+          potential, as bacterial-reinfection is excrement in feces/spittle.
+          <h1>Ms is paralytic polio and covid is 1942 boomers</h1>
+          Financial burdens that the disease imposes, no the invoices and
+          expiring premiums is most of the cost, not actual value without that
+          prisoners’ dilemma of surrendered freedom (EULA) of insurance, public
+          nor private. Doctors will never sign up for it and life insurance
+          never if redistributed right away or is not just an
+          investment/commercial bank by another name.
+          <br />
+          <br />
           Privacy by sekur server
           <h1>was hoping to drain the swamp,</h1>
           <h2>but 20%+ trust ppp for expiring claims by 40% debt spending</h2>
