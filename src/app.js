@@ -187,7 +187,16 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          <h1>Class action and statutes cannot limit natural comparative law</h1>
+          rhetorical political academic question, but at a certain point, stop
+          surrendering my freedoms (EULA) invoking third party donee beneficiary
+          by invoice, expiring premiums, implausible landlord use nor repo-cycle
+          kept down payments. Nor expert jury, but industry-variable multiple,
+          to permit or desist off platforms. PROOVE 1/12 reasonable doubt that
+          it is virion-debris of a bacterial-reinfection, prevalent in excrement
+          spittle/feces.
+          <h1>
+            Class action and statutes cannot limit natural comparative law
+          </h1>
           ​you can't expire medicare for all doctors. I'll fight you.
           <br />
           ​bernie was glass steagall but then the top obama replaced him with
