@@ -187,6 +187,22 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          testing mandates Red states fighting for the american worker as a FLOP
+          OVER RELIGIOUS PROOF. PUT ME IN, COACH!
+          <br />
+          "How does inflation affect?"
+          <br />
+          Inflation does count real, poverty and gini, excluding value last
+          traded, but including more concurrentable material, but all inclusive
+          of input costs, and GDP/p per hour (in a stasis vacuum for exogenous,
+          fixed).
+          <br />
+          <br />
+          Socialist democrats don’t think so far ahead, we’ll if the repo cycle
+          kept down payment is foreseeable that is intentionally surrendering
+          the freedom of others as the contract-ask (RFP)
+          <br />
+          <br />
           "You buy it in advance," but bills expire and are surrendered freedom
           of savers, it would take 44 years for income to pay debts that are
           counterfeit in contract. WAIT FOR CONSUMERS YOU AFRO BITCH -
