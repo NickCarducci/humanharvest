@@ -187,6 +187,36 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          ​you can't expire medicare for all doctors. I'll fight you.
+          <br />
+          ​bernie was glass steagall but then the top obama replaced him with
+          stunt plant. ​savings account is bond index value of last traded. fdic
+          ensured legally by itself. ​I had hoped we would have drained the
+          swamp.
+          <br />
+          <br />
+          unnecessarily involuntary commitment for brain lesions, incarceration
+          $2k/yr is conflict of interest moot. plea is operatingly durres-moot,
+          and they know it! yo twitter needs to get a industry-variable jury to
+          desist me.
+          <br />
+          ​cops don't care about white collar crime. ​because they get paid by
+          bonds. not customers out of jail. ​fines and bribes. ​friend and
+          family discounts, anger management payees.
+          <br />
+          ​$12k/64 debt/cash (new) retarded to work for instead of your own
+          copy.
+          <br />
+          Transitive property, input costs include homes and therefore real
+          GDP/p per hour is counterproductive.
+          <br />
+          <br />
+          ​social security forced corporate stock FAKE money, non
+          concurrentable. REVERSE AMORTIZE dont cancel/bailout,
+          (cash/debt)*income every year back. m4a used to invoices are theft, &
+          not 40% debt spending
+          <br />
+          <br />
           "medicare difference makes relative to others, it's nice to be known,
           a community of Christians havre a 90% approval rating." desist, it is
           surrendered freedom (EULA) of your prisoners' consumers and employers,
