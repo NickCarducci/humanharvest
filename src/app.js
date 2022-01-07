@@ -187,6 +187,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          in the actual science, it is only mitosis of already bacterially
+          infected cell.
+          <br />
+          <br />
           physically hazardous agent is a weapon, unless you are&nbsp;
           <a href="https://courses.lumenlearning.com/microbiology/chapter/spontaneous-generation/">
             mistaking
