@@ -187,12 +187,48 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Lindsay M. Keith, rent-seeking-plant: "the left will tell you the
+          economy is booming, but inflation is higher," bitch, input costs
+          includes equities, that does have a transitive-property of,... itself,
+          input costs.
+          <br />
+          <br />
+          "...growth & productivity," is an oxymoron, because durable trade and
+          deflation, discounting all material and input costs, IS productivity,
+          the reciprocol of time-lens of GDP/p per hour, real nor actualized
+          (including bonds, expiring premiums, profits, intermediate labor
+          trusts and unions or scripts barrier to vault share currency
+          depiositary competition, nor homes outright, just rental0income
+          implausible landlor use userers, ACTUAL labor shortage borne demand).
+          <br />
+          <br />
+          "Job report 1/2 of projected growth, labor crisis, not a job crisis,
+          we do not have a shortage of jobs," why Adam,
+          republic-market-communist-expert-jury-gentrification-plant? "People
+          were paid to stay home. People need to go back to work, there are 10m
+          [with free rider mutable tax of demand-less markets by the top-right]
+          jobs[ to surrender your hours over surrendered freedoms EULA third
+          party doneee beneficiary share split in accrual false expriing bids or
+          estimtes sold, by laundered transitive-property of input costs
+          burdened by your customers and employers or your co-signatories'
+          customers and employers, imposibly otherwise is necessarily forseeable
+          as NO-Surrender is a standard clause in contract making, because YOU
+          are therefore liable for entrapping in a contract of which yhour
+          victim is of partial voluntary consent but duress]." Adam Anjieski:
+          "Some trading up and that is a good thing, employing government by
+          regulation." that is an oxymoron, you can't regulate into a business,
+          you are obfuscating two different actions.
+          <br />
+          <br />
           "This isn’t like smallpox nor polio disease where you cannot spread it
           afterwards, that doesn’t appear to be the case." David Yost.
           prevalence of paralytic-bacteria with non-all-inclusive-artifact is of
           basis from sewage with negative correlation, just see&nbsp;
-          <a href="https://www.google.com/search?q=india+life+expectancy">India</a>, sewage
-          catching up with the dog-tail wagging cohort-size/average-age-at-death.
+          <a href="https://www.google.com/search?q=india+life+expectancy">
+            India
+          </a>
+          , sewage catching up with the dog-tail wagging
+          cohort-size/average-age-at-death.
           <br />
           <br />
           SOCIALISTS WOULD NOT REAPPROPRIATE LABOR EQUITY. cut out your tongue
