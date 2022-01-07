@@ -187,6 +187,23 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Gallileo would be booted off twitter before scientific consensus to
+          desist. Fuck your sin sacrifice excep/dejections
+          <br />
+          <br />
+          "closing facilities," doesn't just "deprive citizens of healthcare" by
+          effect but integrally. expiring claim false bid pools DO NOT increase
+          demand,&nbsp;
+          <a href="https://qr.ae/pG6zQu">just labor-less demand and bid</a>, nor
+          does closed-source ingredient lists &&&nbsp;
+          <a href="https://teapharmacy.party/drugs">
+            script prohibitions of trade
+          </a>
+          , input costs of torts for without disclosure and exorbinant by false
+          bid pools expiring third party donee beneficiary claimable, laundered.
+          Loitered if contract by collateral.
+          <br />
+          <br />
           U.S. Supreme Court Justice, entertaining: "Force to take medication,
           get sleep, do exercises every day.” I don’t care what you do with your
           body, but when an evolutionary trait that is cause but not byproduct
@@ -197,7 +214,8 @@ export default class App extends React.Component {
           apparently you cannot manage money and permit 40% debt spending to be
           called, "tax payer funds," nor $12k/64 (new, per person/yr) will be
           "paid by children," or repo-cycle kept down payments lauyndered isn't
-          surrendered freedoms of others (EULA, Savers). expiring claims are
+          surrendered freedoms of others (EULA,&nbsp;
+          <a href="https://saverparty.xyz">Savers</a>). expiring claims are
           retarded, third party donee beneficiary claimable of co-signatories'
           customers and employers by transitive-property of input costs. PAY ME
           TO BAN ME OR INDUSTRY-VARIABLE DESIST WITHOUT CHARACTER
