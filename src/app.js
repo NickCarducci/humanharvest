@@ -187,6 +187,7 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          SOCIALISTS WOULD NOT REAPPROPRIATE LABOR EQUITY. cut out your tongue AG<br/><br/>
           the people arent' represented by the states individually, nor the
           congress, there isn't a choice for people to turnout. "missing vaccine
           appointments, and therefore, needs to be mandated."
