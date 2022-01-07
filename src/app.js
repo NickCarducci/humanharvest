@@ -187,8 +187,8 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          If everyones income rose in line with inflation would it matter if
-          inflation were 100% or even 1000%?
+          "If everyones income rose in line with inflation would it matter if
+          inflation were 100% or even 1000%?"
           <br />
           <br />
           Not only would Savers, labor-equity and retirees be
