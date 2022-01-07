@@ -187,6 +187,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          <h1>
+            I don't care what you do with your money or time. you cannot
+            discriminate before industry-variable consensus-science
+          </h1>
           Prelogar: "The court considers political consequences as abscuring
           precedence. Does it have economic, diservice separation of powers,"
           CONGRESS HAS NO BUSINESS EXCEPT IN ENFORCING MVP BY INDUSTRY VARIABLE
