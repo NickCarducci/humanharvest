@@ -187,8 +187,15 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          Gallileo would be booted off twitter before scientific consensus to
-          desist. Fuck your sin sacrifice excep/dejections
+          U.S. Supreme Court Justice, stating as fact: "700k got it today
+          (asymptomatic is the vast majority of non-artifactual cases),
+          hospitals are overflowing (because of laborless-input-costs of
+          expiring claim premiums, not even of Tranquil and voluntary trade but
+          to predilemma-duress before industry-variable non-saveface malpractice
+          expert character racket 'evidence'), it is worse than diptheria
+          (asymptomatic testing is new )." Gallileo would be booted off twitter
+          before scientific consensus to desist. Fuck your sin sacrifice
+          excep/dejections
           <br />
           <br />
           "closing facilities," doesn't just "deprive citizens of healthcare" by
