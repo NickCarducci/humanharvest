@@ -187,6 +187,13 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Prelogar: "Some people are protected for deeply held religious
+          beliefs," after saying the byproduct of bacterial-infection is an
+          actual danger to others? you have to be kidding me? We are often
+          producing virions as debris without being sick. the microbiome is
+          quintillions of centimeter scale of our world
+          <br />
+          <br />
           Regulators cannot force hard hats, side effects notwithstanding. They
           can only suggest and force warnings.
           <br />
@@ -207,13 +214,17 @@ export default class App extends React.Component {
           <br />
           <br />
           Justice Socamayor: "Testing." That is mostly asymptomatic and
-          non-exclusive, constituting 5% of all-incident-byproduct cases. That
-          is null hypothesis, a symptomatic-testing regime is free rider
-          mutable, STOP RENT-SEEKING AND FORCE OPEN SOURCE, SAVE THE ANIMALS
-          FROM TESTING, STOP PROHIBITING NO-SCRIPT TRADE AND CURRENCY
-          COMPETITION VAULT SHARE. Locking me up for 13 days in Carrier for
-          saying rollover insurance to an orthopedic surgeon's secretary. FUCK
-          OFF AND DIE 'JUSTICES' NO ONE CARES ABOUT WHAT YOU THINK
+          non-exclusive, constituting 5% of&nbsp;
+          <a href="https://www.fda.gov/media/144245/download#page=42">
+            all-incident-byproduct
+          </a>
+          &nbsp;cases (by symptom-testing-regime). That is null hypothesis, a
+          symptomatic-testing regime is free rider mutable, STOP RENT-SEEKING
+          AND FORCE OPEN SOURCE, SAVE THE ANIMALS FROM TESTING, STOP PROHIBITING
+          NO-SCRIPT TRADE AND CURRENCY COMPETITION VAULT SHARE. Locking me up
+          for 13 days in Carrier for saying rollover insurance to an orthopedic
+          surgeon's secretary. FUCK OFF AND DIE 'JUSTICES' NO ONE CARES ABOUT
+          WHAT YOU THINK
           <br />
           <br />
           "Our view is that the harm has existed," 2020 saw no increase in
@@ -265,9 +276,12 @@ export default class App extends React.Component {
           court cunt, falling for basis rate fallacy, null hypothesis by
           prevalence-cause-byproduct: "Those numbers show omicron is as deadly
           and caused as much disease as delta did." Actually, prevalence doesn't
-          mean cause, and aggregate pneumonia and deaths are insignificcant thru
-          covid, and MS is paralytic polio, you have cured nothing just wasted a
-          century of Saver funds.
+          mean cause, and aggregate&nbsp;
+          <a href="https://www.cdc.gov/flu/weekly/overview.htm#:~:text=5.%20Mortality%20Surveillance">
+            pneumonia
+          </a>
+          &nbsp;and deaths are insignificcant thru covid, and MS is paralytic
+          polio, you have cured nothing just wasted a century of Saver funds.
           <h1>
             this fucking supreme court is deciding a duress for national
             security in business over propensity to quit? safety isn't even
