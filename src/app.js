@@ -187,6 +187,7 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          <h1>time has no bearing on limiting rights you dastardly-fucks</h1>
           {/**Brian H. */}Fletcher: "subject to medical or religious
           excemptions." Aren't we relitigating the mootness of religion? Your
           current exhibited evidence of injecting DNA into cell and then citing
@@ -214,6 +215,12 @@ export default class App extends React.Component {
           invisible fires in a crowded theatre, things of that nature. We have
           forgone price&nbsp;<a href="https://qr.ae/pG6zln">stability</a>
           &nbsp;for&nbsp;<a href="https://qr.ae/pG6zqO">value stability</a>."
+          "Psychiatric residential treatment institutions," are involuntary and
+          a racket. You can’t involuntarily commit people on assumptions nor in
+          jail without evidence. emotions are natural, you fucking lobotomized
+          non-compliance like a fucking pussy who should die, Brian H. Fletcher.
+          "Rate of turnover in Healthcare industry is 25%(/yr?)," that is
+          because tuition and surrendered freedom of others (EULA) of debt.
           <br />
           {/**scott */}Keller: "Our department does not allow agencies to act
           unlawfully even if it is towards desireable ends." Law permits
