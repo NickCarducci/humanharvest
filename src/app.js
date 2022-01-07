@@ -187,7 +187,16 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          <h2>"so prevalent, so much harm," IT ONLY COMES OUT AS BYPRODUCT BITCH</h2>
+          physically hazardous agent is a weapon, unless you are&nbsp;
+          <a href="https://courses.lumenlearning.com/microbiology/chapter/spontaneous-generation/">
+            mistaking
+          </a>
+          &nbsp; forest (byproduct) for the trees (cause)
+          <h2>
+            "so prevalent, so much harm," IT ONLY COMES OUT AS BYPRODUCT BITCH
+          </h2>
+          congress doesn't have the consent of the plural majority.
+          <br />
           Prelogar: "Deadliest pandemic in human history, bacteria is acute,
           workers acute." It is made up that virion inceminates cell, rather
           than comes out. Desist the precedence in calling it deadly. You are
@@ -9991,4 +10000,3 @@ export default class App extends React.Component {
     );
   }
 }
-
