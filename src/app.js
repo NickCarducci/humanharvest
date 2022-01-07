@@ -187,6 +187,14 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Double jeopardy and character evidence cannot be extrapolated, albeit
+          it can be predicted, by reason of variance, shuffling wouldn’t even be
+          enough. Do NOT preclude prosecutions double-counting. state vic and
+          saveface malpractice is just racketeering for bond index funds,
+          operational-inflation integral relative to relative time-lens absolute
+          rates of changes (the world is your vacuum)
+          <br />
+          <br />
           "Covid no longer presents the 1942&nbsp;
           <a href="https://humanharvest.info/polio">boomer-78</a>&nbsp;emergency
           it once did." Actually, sir, it never did. You are also holding
