@@ -187,6 +187,7 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Privacy by sekur server
           <h1>was hoping to drain the swamp,</h1>
           <h2>but 20%+ trust ppp for expiring claims by 40% debt spending</h2>
           <h3>
