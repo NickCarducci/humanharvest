@@ -187,18 +187,20 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          Prelogar: "Deadliest pandemic in human history, bacteria is acute, workers acute."
-          It is made up that virion inceminates cell, rather than comes out.
-          Desist the precedence in calling it deadly. You are making shit up to
-          fit your hypothesis! Antibodies are merely garbage collection!
-          hospitalizations still happen without significance from normality.
-          Solicitor General, you should die. You are a danger to others.
+          Prelogar: "Deadliest pandemic in human history, bacteria is acute,
+          workers acute." It is made up that virion inceminates cell, rather
+          than comes out. Desist the precedence in calling it deadly. You are
+          making shit up to fit your hypothesis! Antibodies are merely garbage
+          collection! hospitalizations still happen without significance from
+          normality. Solicitor General, you should die. You are a danger to
+          others.
           <br />
           <br />
           "Anything that affects millions of lives is a major question issue,
           where laws countervail and/or are ambiguous as it pertains to
           precedence and current events. I haven't heard a peep." Says the
-          rapist "justice." IT IS YOUR HONOR!
+          rapist "justice." IT IS YOUR HONOR! An industry variable jury to
+          desist would vote differently than one to convict, or permit.
           <br />
           <br />
           all ages and conditions. MY SLURS ARE OF NO DANGER TO YOU YOU CUNT.
