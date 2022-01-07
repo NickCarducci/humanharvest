@@ -207,7 +207,13 @@ export default class App extends React.Component {
           secrets, and trust saveface malpractice scared doctors intead of
           statistician/actuaries whom understand population growth, and how
           basis rate fallacies can prove a null hypothesis, by desistation
-          (false negative) or conviction (false positive).
+          (false negative) or conviction (false positive). "Patient health and
+          safety is up to conflict of interest net loss bond profit saveface
+          malpractice jury experts, infection control (allegedly) is long in the
+          tooth as required. I am scared for the standing of this court. Methane
+          invisible fires in a crowded theatre, things of that nature. We have
+          forgone price&nbsp;<a href="https://qr.ae/pG6zln">stability</a>
+          &nbsp;for&nbsp;<a href="https://qr.ae/pG6zqO">value stability</a>."
           <br />
           {/**scott */}Keller: "Our department does not allow agencies to act
           unlawfully even if it is towards desireable ends." Law permits
