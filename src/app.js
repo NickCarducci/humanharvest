@@ -187,6 +187,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Regulators cannot force hard hats, side effects notwithstanding. They
+          can only suggest and force warnings.
+          <br />
+          <br />
           Immunocompromised should use fetal cell line vaccines, not when prone
           to oncogenic-dysregulation with excess antibodies for
           mRNA-sporing-graft, if they believe the count isn't merely a byproduct
