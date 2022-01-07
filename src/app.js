@@ -187,11 +187,15 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          Prelogar: "Some people are protected for deeply held religious
-          beliefs," after saying the byproduct of bacterial-infection is an
-          actual danger to others? you have to be kidding me? We are often
-          producing virions as debris without being sick. the microbiome is
-          quintillions of centimeter scale of our world
+          Prelogar: "The court considers political consequences as abscuring
+          precedence. Does it have economic, diservice separation of powers,"
+          CONGRESS HAS NO BUSINESS EXCEPT IN ENFORCING MVP BY INDUSTRY VARIABLE
+          JURY 11/12 without more than 1/12 responable doubt. "Some people are
+          protected for deeply held religious beliefs," after saying the
+          byproduct of bacterial-infection is an actual danger to others? you
+          have to be kidding me? We are often producing virions as debris
+          without being sick. the microbiome is quintillions of centimeter scale
+          of our world
           <br />
           <br />
           Regulators cannot force hard hats, side effects notwithstanding. They
