@@ -187,6 +187,31 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Inclusion in medicare doesn't preclude standing here and grounds to
+          protect other patients," discrimination in the false bid pool pot is
+          illegal to tranche your needs by labeling under $25k day traders as
+          pattern and problematic rather than your ask-to-bid market maker
+          spread before billboard/telephone price, doing. 
+          <br/><br/>"If big pay raises are
+          coming to employees in 2022, what effect will they ultimately have
+          with the increased inflation and companies slashing positions to make
+          room for the pay increases?"
+          <br />
+          <br />
+          Nick Carducci policy-drafting software-developer & microeconomist
+          <br />
+          Making room for pay increases by slashing employment per person is an
+          interesting phenomenon, making skilled labor a superior good, for
+          input requirements beyond a changing preference alone. Prices are
+          elastic, however, remaining constant, actually in velocity per time
+          period, per person, as GDP, when discounting all the costs of life,
+          including material-inflation, homes outright, bonds’ EULA surrendered
+          freedom, equities’ market-concentration, and intermediate-labor with
+          corporate flaccid profits. So, wages have the transitive-property of
+          allowing the producer-ask to request more from the demand-bid and all
+          of actual-labor-based-demand.
+          <br />
+          <br />
           precluding sections by non-exclusive byproduct as opposed to
           eviolutionary weapon, is not your purview, neither by your excluse,
           "to save hospital beds," especially when it was due to your
