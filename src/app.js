@@ -192,6 +192,10 @@ export default class App extends React.Component {
           “I think someone has a plane."
           <br />
           <br />
+          "No one can control," if you can tort for obvious hazards, I can too.
+          65+ 2.8m continuing claims and most disability
+          <br />
+          <br />
           "Go where virus has hurt the most, bring resources where it is most
           hit," but wouldn't they have demand to buy it? where do you think the
           labor for that area comes from? They will be cheap. Expiring claims
