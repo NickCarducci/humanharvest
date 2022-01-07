@@ -187,6 +187,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Red and Blue is non-exclusively patriotic, well,at this point we are
+          disenfranchised. White is non-voter/scientific-consensus/anti-rent-seeker
+          <br />
+          <br />
           <a href="https://moldmask.co">heat</a>/(
           <a href="https://magnate.company">density</a>)
           <h2>A net loss, competing with consumers, a dead-weight</h2>
