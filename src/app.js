@@ -187,6 +187,21 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "Everyone living their lnormal lives has been effected by this," no
+          just your malfeasance, the excess deaths were overreacted for being
+          not standardized for cohort size, just age. You don't understand 78 is
+          hit a wall, and you are on the Supreme Court? I should be the supreme
+          court, evidently.
+          <br />
+          <br />
+          "Have to stay home with children instead of them going to school."
+          That is the same thing just keeps kids from earning wealth, not a
+          comparative advantage, totally redundant. THE ONLY JOBS ARE
+          SURRENDERED FREEDOM (EULA) supreme court is filled with white collar
+          criminals. There are many jobs here because there is $12k/64 debt/cash
+          (new). Law clerks aren't 'yours,' you fat gluttonous slob.
+          <br />
+          <br />
           Fails to do something for employees doesn't make liability of the
           employers if the worker is provided the information. Fucking expiring
           claim pool frauds.
