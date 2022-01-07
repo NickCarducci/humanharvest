@@ -187,6 +187,11 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "Our view is that the harm has existed," 2020 saw no increase in
+          deaths nor hospitalizations, per capita (a.k.a. 'on average') and
+          discounted by sewage.
+          <br />
+          <br />
           in the actual science, it is only mitosis of already bacterially
           infected cell.
           <br />
