@@ -187,6 +187,13 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Dr. Robert Malone (40 years to saveface malpractice): "vaccine would
+          not stop infection replication and spread of omicron." mitosis happens
+          1/day, that isn't production of virion from "infection, replication &
+          spread." Therefore, you sin sacrifice nuts will be excused for
+          thinking it is an evolutionary trait weapon.
+          <br />
+          <br />
           manslaughter cannot exclusively be remanded for, except: to suppress
           intentional dangers in the future, not state vic double jeporady, or
           removing false sentencing. Character evidence is not with standing.
