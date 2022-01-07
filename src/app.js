@@ -1,4 +1,4 @@
-importimport React from "react";
+import React from "react";
 import Cable from "./Dropwire"; //"react-dropwire";
 import AgeAdjustedMortality from "./AgeAdjustedMortality";
 import Epiology from "./epiology";
@@ -187,6 +187,11 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          <h2>
+            If you can make virion in a lab, not just find it acter you situate
+            the test for it, I will be on your side wishing to mandate vaccines
+            for all disease.
+          </h2>
           vaccines are like a rooster claiming credit for the rising Sun or
           longitudinal rate of change rather than&nbsp;
           <a href="https://www.google.com/search?q=india+life+expectancy">
