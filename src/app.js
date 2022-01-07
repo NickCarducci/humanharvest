@@ -187,6 +187,8 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          free rider mutable tax is faster than demand actually wants, and is
+          pure inflation of input costs, too.
           <h1>time has no bearing on limiting rights you dastardly-fucks</h1>
           {/**Brian H. */}Fletcher: "subject to medical or religious
           excemptions." Aren't we relitigating the mootness of religion? Your
