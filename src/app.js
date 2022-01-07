@@ -187,6 +187,19 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Grant Stinchfield, rodney davis (illinois) 'america first' retard by
+          selling out net export for foreign state lands share split of third
+          party donee, actually or by accrual withdrawalable by counterfeiting
+          market makers (treasury shares not counted in outstanding shares on
+          the evil accountant licensing boards' subjects'/grunts' books, per
+          share counts) with unfair advantages (13D-retail uuid anon disparity,
+          pattern day trading cap under $25k 3/wk). "nobody disputes republicans
+          prosecute the law." Rot in hell grant. cops don't care about whitre
+          collar crime because they are paid by net loss bonds. that's why 1/4
+          $4t/yr debt spending 40% is itemized to meet Social Security forced
+          investment last traded value, non-concurrentable (neighbor-appraisal).
+          <br />
+          <br />
           rhetorical political academic question, but at a certain point, stop
           surrendering my freedoms (EULA) invoking third party donee beneficiary
           by invoice, expiring premiums, implausible landlord use nor repo-cycle
@@ -218,7 +231,22 @@ export default class App extends React.Component {
           copy.
           <br />
           Transitive property, input costs include homes and therefore real
-          GDP/p per hour is counterproductive.
+          GDP/p per hour is&nbsp;
+          <a href="https://www.quora.com/Do-all-macroeconomists-believe-GDP-per-hour-is-productivity">
+            counterproductive
+          </a>
+          .
+          <br />
+          <br />
+          By, “a lot of zeros,” do you mean attendance?? Maybe you don’t make it
+          interesting or the student notices misconceptions by yourself. I am
+          reflecting on the nature of teaching, especially with so much actual
+          labor shortage in demand and input costs of life.
+          <br />
+          <br />
+          {/*Joshua Gross -*/}_: "No, by 'a lot of zeros,' I mean they don’t
+          turn in work. And I would have to work very hard to make this stuff
+          uninteresting! That would be way too much work for me."
           <br />
           <br />
           ​social security forced corporate stock FAKE money, non
