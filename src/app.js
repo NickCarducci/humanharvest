@@ -187,6 +187,15 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Precedence is a poor argument. mortality has lessened over the years
+          due to sewage improvements, and matches paralytic polio per capita to
+          &nbsp;
+          <a href="https://www.christopherreeve.org/living-with-paralysis/stats-about-paralysis">
+            multiple sclerosis
+          </a>
+          .
+          <br />
+          <br />
           Justice Socamayor: "Testing." That is mostly asymptomatic and
           non-exclusive, constituting 5% of all-incident-byproduct cases. That
           is null hypothesis, a symptomatic-testing regime is free rider
