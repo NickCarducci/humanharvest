@@ -187,6 +187,11 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "Covid no longer presents the 1942&nbsp;
+          <a href="https://humanharvest.info/polio">boomer-78</a>&nbsp;emergency
+          it once did." Actually, sir, it never did. You are also holding
+          productivity by input costs, upsidedown, in your time-lens.
+          <br />
           What if the isolated variant of concern are people whom are depleted
           of semen? How will I make customers happy to&nbsp;
           <a href="http://trajectory-inc.com/about-us/#team-members">
