@@ -187,6 +187,12 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "Pass a rule to isolate because they are infected with something," not
+          before proving that evolutionary trait can be such as well as cause,
+          rather than something in the room or the weather, proving no
+          correlation other than the expgenous-hypothesis one.
+          <br />
+          <br />
           U.S. Supreme Court Justice, stating as fact: "700k got it today
           (asymptomatic is the vast majority of non-artifactual cases),
           hospitals are overflowing (because of laborless-input-costs of
