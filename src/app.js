@@ -187,6 +187,12 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          <h1>was hoping to drain the swamp,</h1>
+          <h2>but 20%+ trust ppp for expiring claims by 40% debt spending</h2>
+          <h3>
+            blackrock corporate implausible landlord use beyond 5 units or 30
+            days, in addition to boomers 20x/millenials rental-income
+          </h3>
           Grant Stinchfield, rodney davis (illinois) 'america first' retard by
           selling out net export for foreign state lands share split of third
           party donee, actually or by accrual withdrawalable by counterfeiting
