@@ -189,7 +189,11 @@ export default class App extends React.Component {
           </a>
           "Our view is that the harm has existed," 2020 saw no increase in
           deaths nor hospitalizations, per capita (a.k.a. 'on average') and
-          discounted by sewage.
+          discounted by sewage. "
+          <a href="https://humanharvest.info/polio">
+            The 'pandemic' is 'dynamic' and 'constantly-evolving
+          </a>
+          .'"
           <br />
           <br />
           in the actual science, it is only mitosis of already bacterially
