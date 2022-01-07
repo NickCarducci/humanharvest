@@ -187,8 +187,13 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          We all have jobs, so what can we do." $12k/64 debt/cash (new, per
+          person/yr) is retarded, I can smoke weed.
+          <br />
+          <br />
           Red and Blue is non-exclusively patriotic, well,at this point we are
-          disenfranchised. White is non-voter/scientific-consensus/anti-rent-seeker
+          disenfranchised. White is
+          non-voter/scientific-consensus/anti-rent-seeker
           <br />
           <br />
           <a href="https://moldmask.co">heat</a>/(
