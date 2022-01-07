@@ -187,6 +187,16 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          expiring claims are retarded, third party donee beneficiary claimable
+          of co-signatories' customers and employers by transitive-property of
+          input costs. PAY ME TO BAN ME OR INDUSTRY-VARIABLE DESIST WITHOUT
+          CHARACTER EVIDENCE/DOUBLE JEPORADY.
+          <br />
+          <br />
+          "by withholding money we are not controlling who you hire," money
+          controls what efforts are put forth, war bonds are a war crime
+          implicitly reemoving virtuousity of the war.
+          <br />
           free rider mutable tax is faster than demand actually wants, and is
           pure inflation of input costs, too.
           <h1>time has no bearing on limiting rights you dastardly-fucks</h1>
