@@ -187,6 +187,14 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          What if the isolated variant of concern are people whom are depleted
+          of semen? How will I make customers happy to&nbsp;
+          <a href="http://trajectory-inc.com/about-us/#team-members">
+            prevent covid transmission
+          </a>
+          ?
+          <br />
+          <br />
           "Pass a rule to isolate because they are infected with something," not
           before proving that evolutionary trait can be such as well as cause,
           rather than something in the room or the weather, proving no
