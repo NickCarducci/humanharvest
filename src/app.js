@@ -187,6 +187,11 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "Waiting for my free ticket to FL 1/4 illegal working age share."
+          <br />
+          “I think someone has a plane."
+          <br />
+          <br />
           "Go where virus has hurt the most, bring resources where it is most
           hit," but wouldn't they have demand to buy it? where do you think the
           labor for that area comes from? They will be cheap. Expiring claims
