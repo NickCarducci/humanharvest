@@ -187,6 +187,12 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "Anything that affects millions of lives is a major question issue,
+          where laws countervail and/or are ambiguous as it pertains to
+          precedence and current events. I haven't heard a peep." Says the
+          rapist "justice." IT IS YOUR HONOR!
+          <br />
+          <br />
           all ages and conditions. MY SLURS ARE OF NO DANGER TO YOU YOU CUNT.
           <br />
           <br />
