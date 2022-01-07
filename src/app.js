@@ -187,6 +187,11 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "we are all accountable to our own acterions," to whose account? sin sacrifice for the greater good? 
+          Actuaries disagree that the pandemic is not just population size
+          meeting life expectancy, virion is not even all-inclusive-artifact.
+          <br />
+          <br />
           We all have jobs, so what can we do." $12k/64 debt/cash (new, per
           person/yr) is retarded, I can smoke weed.
           <br />
