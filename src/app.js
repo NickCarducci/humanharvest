@@ -210,7 +210,11 @@ export default class App extends React.Component {
           byproduct of bacterial-infection is an actual danger to others? you
           have to be kidding me? We are often producing virions as debris
           without being sick. the microbiome is quintillions of centimeter scale
-          of our world
+          of our world. Encouragement is not discrimination. It is either
+          required by multiple of 11/12 industry variable jury, shuffling
+          notwithstanding, or it is certified, by saveface malpractice experts.
+          It's ok. Don't be complicit in the error. Accidents are part of the
+          trade, they aren't tortable.
           <br />
           <br />
           Regulators cannot force hard hats, side effects notwithstanding. They
