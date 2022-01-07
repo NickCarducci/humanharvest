@@ -187,6 +187,12 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Immunocompromised should use fetal cell line vaccines, not when prone
+          to oncogenic-dysregulation with excess antibodies for
+          mRNA-sporing-graft, if they believe the count isn't merely a byproduct
+          of another cause.
+          <br />
+          <br />
           Precedence is a poor argument. mortality has lessened over the years
           due to sewage improvements, and matches paralytic polio per capita to
           &nbsp;
