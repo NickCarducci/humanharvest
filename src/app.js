@@ -193,6 +193,21 @@ export default class App extends React.Component {
           mitosis of already infected in a lab as contageon. It only comes out
           after bacterial-reinfection, logic dictates in Darwinian fasion:
           bacteria is excrement spittle/feces FOR REASON TO PREVENT INFECTION.
+          Expiring premiums does not cover nor provide, just abetts surrendered
+          freedom (EULA) of Savers in invoices, third party donee beneficiary
+          claimable, and IS surrendered freedom of co-signatories' customers and
+          employers by transitive-property of input-costs, beind of all
+          principals of life, not just monthly implausible use competing with
+          consumers duress. The point of the supreme court is to adjunicate new
+          questions of law, stop appealing to an unmade higher power. "Provider
+          discrimination of price," without industry-variable jury of without
+          character, precedencial (nor double jeporady) is involuntary servitude
+          by duress and moot. You really need to understand natural law before
+          state victimized law and how to racketeer actuary-=table trade
+          secrets, and trust saveface malpractice scared doctors intead of
+          statistician/actuaries whom understand population growth, and how
+          basis rate fallacies can prove a null hypothesis, by desistation
+          (false negative) or conviction (false positive).
           <br />
           {/**scott */}Keller: "Our department does not allow agencies to act
           unlawfully even if it is towards desireable ends." Law permits
