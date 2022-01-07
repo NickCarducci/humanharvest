@@ -187,7 +187,18 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          SOCIALISTS WOULD NOT REAPPROPRIATE LABOR EQUITY. cut out your tongue AG<br/><br/>
+          "This isn’t like smallpox nor polio disease where you cannot spread it
+          afterwards, that doesn’t appear to be the case." David Yost.
+          prevalence of paralytic-bacteria with non-all-inclusive-artifact is of
+          basis from sewage with negative correlation, just see&nbsp;
+          <a href="https://www.google.com/search?q=india+life+expectancy">India</a>, sewage
+          catching up with the dog-tail wagging cohort-size/average-age-at-death.
+          <br />
+          <br />
+          SOCIALISTS WOULD NOT REAPPROPRIATE LABOR EQUITY. cut out your tongue
+          AG
+          <br />
+          <br />
           the people arent' represented by the states individually, nor the
           congress, there isn't a choice for people to turnout. "missing vaccine
           appointments, and therefore, needs to be mandated."
