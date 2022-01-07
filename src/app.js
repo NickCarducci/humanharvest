@@ -187,6 +187,13 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          {/**Brian H. */}Fletcher: "subject to medical or religious
+          excemptions." Aren't we relitigating the mootness of religion? Your
+          current exhibited evidence of injecting DNA into cell and then citing
+          mitosis of already infected in a lab as contageon. It only comes out
+          after bacterial-reinfection, logic dictates in Darwinian fasion:
+          bacteria is excrement spittle/feces FOR REASON TO PREVENT INFECTION.
+          <br />
           {/**scott */}Keller: "Our department does not allow agencies to act
           unlawfully even if it is towards desireable ends." Law permits
           desireable ends if they are to be lawful but malfeasance exists! I can
