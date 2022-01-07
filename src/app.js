@@ -1,4 +1,4 @@
-import React from "react";
+importimport React from "react";
 import Cable from "./Dropwire"; //"react-dropwire";
 import AgeAdjustedMortality from "./AgeAdjustedMortality";
 import Epiology from "./epiology";
@@ -188,7 +188,11 @@ export default class App extends React.Component {
             2052.live
           </a>
           vaccines are like a rooster claiming credit for the rising Sun or
-          longitudinal rate of change rather than&nbsp;<a href="https://www.google.com/search?q=india+life+expectancy">sewage</a>.
+          longitudinal rate of change rather than&nbsp;
+          <a href="https://www.google.com/search?q=india+life+expectancy">
+            sewage
+          </a>
+          .
           <h1>
             I don't care what you do with your money or time. you cannot
             discriminate before industry-variable consensus-science
@@ -273,7 +277,11 @@ export default class App extends React.Component {
           where laws countervail and/or are ambiguous as it pertains to
           precedence and current events. I haven't heard a peep." Says the
           rapist "justice." IT IS YOUR HONOR! An industry variable jury to
-          desist would vote differently than one to convict, or permit.
+          desist would vote differently than one to convict, or permit. "We
+          haven’t used the major question doctrine out of context." Who fucking
+          Cares douche that is meaningless If there is a question you have to
+          raise it or you are complicity malfeasant. What are you, fucking a
+          retarded rapist?
           <br />
           <br />
           all ages and conditions. MY SLURS ARE OF NO DANGER TO YOU YOU CUNT.
