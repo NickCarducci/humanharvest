@@ -187,6 +187,13 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          <h2>the chicken or egg field of science, doesn't matter</h2>
+          A supreme court cunt, falling for basis rate fallacy, null hypothesis
+          by prevalence-cause-byproduct: "Those numbers show omicron is as
+          deadly and caused as much disease as delta did." Actually, prevalence
+          doesn't mean cause, and aggregate pneumonia and deaths are
+          insignificcant thru covid, and MS is paralytic polio, you have cured
+          nothing just wasted a century of Saver funds.
           <h1>
             this fucking supreme court is deciding a duress for national
             security in business over propensity to quit? safety isn't even
