@@ -187,6 +187,41 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          common sense DOESN't know better, galileo, redi, rcv and actuaries.
+          STATUTE OF LIMITATIONS NOR RACKETEERING PLEA DURESS IS NOT WITH
+          STANDING! DESIST!
+          <br />
+          <br />
+          <Cable
+          style={{height:"280px"}}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1QMTepGOqPvrZx6UwkHFgli_L7dSoNlDR/preview"
+            }
+            float="left"
+            title="Chris Salcedo (Newsmax) - Lee Zeldin conserving bonds homes equities and intermediate labor but not discounting in input costs"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          "Take away the means to fight this virus," like it injects DNA into
+          cell ratjer be byproduct prevalence nor cause,
+          non-all-inclusive-artifact, to boot.
+          <br />
+          <br />
+          Productivity is less jobs, it doesn't miss the mark of jobs to be
+          created by per capita/average population growth. 100m workers doesn't
+          count chores nor innovation, just flaccid gorporate, government or
+          gerontocracy. Implausible use and surrendered freedoms (EULA) means
+          borrowers loitering is mine. I will shoot. "Let individuals have
+          freedom to invoke duress over finite businss over consennsus science
+          permit by industry variable rights."
+          <br />
+          <br />
           "If everyones income rose in line with inflation would it matter if
           inflation were 100% or even 1000%?"
           <br />
