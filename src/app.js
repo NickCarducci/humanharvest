@@ -187,6 +187,7 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          <h1>Class action and statutes cannot limit natural comparative law</h1>
           ​you can't expire medicare for all doctors. I'll fight you.
           <br />
           ​bernie was glass steagall but then the top obama replaced him with
