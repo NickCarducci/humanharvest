@@ -187,6 +187,16 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Justice Socamayor: "Testing." That is mostly asymptomatic and
+          non-exclusive, constituting 5% of all-incident-byproduct cases. That
+          is null hypothesis, a symptomatic-testing regime is free rider
+          mutable, STOP RENT-SEEKING AND FORCE OPEN SOURCE, SAVE THE ANIMALS
+          FROM TESTING, STOP PROHIBITING NO-SCRIPT TRADE AND CURRENCY
+          COMPETITION VAULT SHARE. Locking me up for 13 days in Carrier for
+          saying rollover insurance to an orthopedic surgeon's secretary. FUCK
+          OFF AND DIE 'JUSTICES' NO ONE CARES ABOUT WHAT YOU THINK
+          <br />
+          <br />
           "Our view is that the harm has existed," 2020 saw no increase in
           deaths nor hospitalizations, per capita (a.k.a. 'on average') and
           discounted by sewage. "
