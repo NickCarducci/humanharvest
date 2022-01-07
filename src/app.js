@@ -243,11 +243,17 @@ export default class App extends React.Component {
           <br />
           <br />
           "Have to stay home with children instead of them going to school."
-          That is the same thing just keeps kids from earning wealth, not a
-          comparative advantage, totally redundant. THE ONLY JOBS ARE
-          SURRENDERED FREEDOM (EULA) supreme court is filled with white collar
-          criminals. There are many jobs here because there is $12k/64 debt/cash
-          (new). Law clerks aren't 'yours,' you fat gluttonous slob.
+          That is the same thing just keeps kids from earning wealth && you get
+          the same work hours, just instead over time, not a comparative
+          advantage, totally redundant. THOSE TEACHERS CAN BE DOING SOMETHING
+          PRODUCTIVE AS WELL, instead of just watching kids temporarily so the
+          parent can slave for the implauysible use landlord and competing with
+          consumer insurer expiring premiums for pure harm of raised
+          bid-capacity for the SAME ACTUAL CONSUMPTION with ACTUAL LABOR
+          SHORTAGE-BORNE DEMAND. THE ONLY JOBS ARE SURRENDERED FREEDOM (EULA)
+          supreme court is filled with white collar criminals. There are many
+          jobs here because there is $12k/64 debt/cash (new). Law clerks aren't
+          'yours,' you fat gluttonous slob.
           <br />
           <br />
           Fails to do something for employees doesn't make liability of the
