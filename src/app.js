@@ -194,7 +194,7 @@ export default class App extends React.Component {
           will behead you as unvaxxed in advance.
           <br />
           <br />
-          apparently you cannot manage money an d permit 40% debt spending to be
+          apparently you cannot manage money and permit 40% debt spending to be
           called, "tax payer funds," nor $12k/64 (new, per person/yr) will be
           "paid by children," or repo-cycle kept down payments lauyndered isn't
           surrendered freedoms of others (EULA, Savers). expiring claims are
