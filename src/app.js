@@ -187,6 +187,11 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          <h1>
+            this fucking supreme court is deciding a duress for national
+            security in business over propensity to quit? safety isn't even
+            admittedly their priority!??!?!
+          </h1>
           "Everyone living their lnormal lives has been effected by this," no
           just your malfeasance, the excess deaths were overreacted for being
           not standardized for cohort size, just age. You don't understand 78 is
