@@ -187,15 +187,40 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          <a href="https://moldmask.co">heat</a>/(
+          <a href="https://magnate.company">density</a>)
+          <h2>A net loss, competing with consumers, a dead-weight</h2>
+          <h3>
+            over productivity of output per marginal propensity demand derived
+            of actual labor, not dead weight or free rider mutable tax from
+            outside the market itself, or declaring net exports for foreign
+            share split state park lands as 'merica first, nor fines bribed for
+            bond index funds of TSY debt shown differently to the borrower
+            precluding written down to reverse amortization of full-correction,
+            (cash/debt)*income every year back, nor visa fees for said bribes
+            and laundering and prohibition of trade, later claiing growth in FL
+            GDP/p not working age illegals 1/4 share, but non-mask
+            bacteria-catchers.
+          </h3>
+          Out of a job, write-down a trauche o' pension, all those who are
+          excluded to tranche social security, now most disability is payee 65+
+          and continuing claims 2.8m/2, meanwhile, we work 10x/boomer c1970 and
+          6-1000 hospital beds per person while it is verifiably doesn't have to
+          be productivity by real GDP/p per hour with the preclusion that people
+          are to be forever rental-serfs and not discounting homes, equities,
+          profits, bonds nor intermediate-labor in gini nor poverty as well.
+          <br />
+          <br />
           Inclusion in medicare doesn't preclude standing here and grounds to
           protect other patients," discrimination in the false bid pool pot is
           illegal to tranche your needs by labeling under $25k day traders as
           pattern and problematic rather than your ask-to-bid market maker
-          spread before billboard/telephone price, doing. 
-          <br/><br/>"If big pay raises are
-          coming to employees in 2022, what effect will they ultimately have
-          with the increased inflation and companies slashing positions to make
-          room for the pay increases?"
+          spread before billboard/telephone price, doing.
+          <br />
+          <br />
+          "If big pay raises are coming to employees in 2022, what effect will
+          they ultimately have with the increased inflation and companies
+          slashing positions to make room for the pay increases?"
           <br />
           <br />
           Nick Carducci policy-drafting software-developer & microeconomist
