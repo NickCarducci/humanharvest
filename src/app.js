@@ -187,6 +187,51 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          If everyones income rose in line with inflation would it matter if
+          inflation were 100% or even 1000%?
+          <br />
+          <br />
+          Not only would Savers, labor-equity and retirees be
+          counterproductively depreciated and trust-built against, abetting
+          actual labor shortage of new labor, but even the new labor doesn’t
+          gain in productivity, nor ease of life, when their wages keep up with
+          input costs (inflation of materials, plus homes, equities, bonds,
+          profits and intermediate-labor), that which has transitive-property of
+          elasticity and is actually at a constant level-rate thru a time-lens
+          when discounting ALL input costs, best measured by per capita/average.
+          Although free rider mutable tax or 40% debt spending is quick, it is
+          quick for something without customers and if it does have a natural
+          market it is useless price inflation for the same input
+          cost/intermediate good, from outside the market.
+          <br />
+          <br />
+          Prosecuting by admitted testimony as evidence of reasonable doubt,
+          that it is injecting DNA into cell but not mitosis of non
+          all-inclusive-artifact
+          <br />
+          Already infected cell
+          <br />
+          <br />
+          "Why does DeSantis keep Florida at almost the bottom of 50 states in
+          terms of the weekly and maximum unemployment insurance rates?"
+          <br />
+          <br />
+          Unemployment 2.8m continuing claims is useless price inflation, half
+          being 65+, of free rider mutable markets. Instead of bailing out,
+          maybe he intends to keep debt “investment” implausibly deniably as
+          impossible, requiring 44 years of current income servicing current
+          debt for our children to plausibly pay. Free rider mutable tax and 40%
+          debt spending 1/3 public is surrendered freedom (EULA, third party
+          donee beneficiary claimable), anyway.
+          <br />
+          <br />
+          Justice bail state vic and surrender freedom by co-signatories’
+          customers and employers by transitive-property of input costs Endless
+          cycle of jail to the streets is because you trust build scripts for
+          Walgreens, then animal test instead of open source ingredient lists,
+          likely exasperated by bond conflict of interest receipt method
+          <br />
+          <br />
           Dr. Robert Malone (40 years to saveface malpractice): "vaccine would
           not stop infection replication and spread of omicron." mitosis happens
           1/day, that isn't production of virion from "infection, replication &
