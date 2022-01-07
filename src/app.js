@@ -187,10 +187,14 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          expiring claims are retarded, third party donee beneficiary claimable
-          of co-signatories' customers and employers by transitive-property of
-          input costs. PAY ME TO BAN ME OR INDUSTRY-VARIABLE DESIST WITHOUT
-          CHARACTER EVIDENCE/DOUBLE JEPORADY.
+          apparently you cannot manage money an d permit 40% debt spending to be
+          called, "tax payer funds," nor $12k/64 (new, per person/yr) will be "paid by
+          children," or repo-cycle kept down payments lauyndered isn't
+          surrendered freedoms of others (EULA, Savers). expiring claims are
+          retarded, third party donee beneficiary claimable of co-signatories'
+          customers and employers by transitive-property of input costs. PAY ME
+          TO BAN ME OR INDUSTRY-VARIABLE DESIST WITHOUT CHARACTER
+          EVIDENCE/DOUBLE JEPORADY.
           <br />
           <br />
           "by withholding money we are not controlling who you hire," money
