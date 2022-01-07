@@ -187,9 +187,16 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          U.S. Supreme Court Justice, entertaining: "Force to take medication,
+          get sleep, do exercises every day.” I don’t care what you do with your
+          body, but when an evolutionary trait that is cause but not byproduct
+          starts attacking me, you NEED to desist, for your own good, because I
+          will behead you as unvaxxed in advance.
+          <br />
+          <br />
           apparently you cannot manage money an d permit 40% debt spending to be
-          called, "tax payer funds," nor $12k/64 (new, per person/yr) will be "paid by
-          children," or repo-cycle kept down payments lauyndered isn't
+          called, "tax payer funds," nor $12k/64 (new, per person/yr) will be
+          "paid by children," or repo-cycle kept down payments lauyndered isn't
           surrendered freedoms of others (EULA, Savers). expiring claims are
           retarded, third party donee beneficiary claimable of co-signatories'
           customers and employers by transitive-property of input costs. PAY ME
