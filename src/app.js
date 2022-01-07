@@ -187,16 +187,21 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          {/**scott */}Keller: "Our department does not allow agencies to act
+          unlawfully even if it is towards desireable ends." Law permits
+          desireable ends if they are to be lawful but malfeasance exists! I can
+          start a war with how ridiculous you all are.
           <h2>You can fucking stick your 'power' up your ass</h2>
           <h3>I'm the captain now</h3>
           "New facts on the ground. Moved to an endemic." Bitch, you can see the
           population growth in actuary tables, excess deaths age standardized
           isn't measured against per person. SIN SACRIFICE DOESN'T WORK RCB YOU
-          INSANE CUNT. I wish you were dead
+          INSANE CUNT. I wish you were dead.
           <br />
-          vaccines are single most effective in stopping byproduct non-exclusive
-          nor necessarily-incidence-artifact of bacterial-infection. YOU MAKE UP
-          THE STORY THAT DNA INJECTED INTO CELL.
+          "vaccines are single most effective," in stopping byproduct
+          non-exclusive nor necessarily-incidence-artifact of
+          bacterial-infection. YOU MAKE UP THE STORY THAT DNA INJECTED INTO
+          CELL.
           <h2>
             If you can make virion in a lab, not just find it acter you situate
             the test for it, I will be on your side wishing to mandate vaccines
