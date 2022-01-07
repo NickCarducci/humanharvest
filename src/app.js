@@ -187,7 +187,7 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          Deadliest pandemic in human history, bacteria is acute, workers acute.
+          Prelogar: "Deadliest pandemic in human history, bacteria is acute, workers acute."
           It is made up that virion inceminates cell, rather than comes out.
           Desist the precedence in calling it deadly. You are making shit up to
           fit your hypothesis! Antibodies are merely garbage collection!
