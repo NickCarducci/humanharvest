@@ -187,6 +187,8 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          vaccines are like a rooster claiming credit for the rising Sun or
+          longitudinal rate of change rather than&nbsp;<a href="https://www.google.com/search?q=india+life+expectancy">sewage</a>.
           <h1>
             I don't care what you do with your money or time. you cannot
             discriminate before industry-variable consensus-science
