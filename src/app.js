@@ -192,7 +192,9 @@ export default class App extends React.Component {
           advancement ends. "Virtually no inflation -2%. 20%+/yr by trump ppp
           trust. Real wealth for bottom rose 20%," that is material deflated
           homes, equities, bonds, profits, and intermediate-labor? Income
-          inequality and poverty only
+          inequality and poverty only. "Biden voted for supply side tax cuts 30
+          years of prosperity after raegan. Revived prosperity by corporate tax
+          cut."
           <br />
           <br />
           "What are the causes of built-in inflation?"
