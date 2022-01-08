@@ -187,15 +187,22 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Jillian Adnerson, Turning Point: "more people died in 2021, than 2020,
+          so he should step down himself." the excess deaths grew and 1918 looks
+          fake too, how can 20-29 jump up to make up 1918 loss? Doesn't compute,
+          but decennial and single year still puts it out. 1918 was fake.
+          <br />
+          <br />
           "live with virus rather than wiping it out, rather than push vaccines
           and boosters, the only options to end it." asyumptomatic prevalence
           exists for hundreds of thousands of virions that are byproduct
           prevalence, not all-inclusive cause, let alone all-incidence artifact
           (for sickness). "No one can define/find testing." Do you mean USPTO,
           if thereare customers, there would be investors/entrepreneurs. "We are
-          not talking about him reading a book." Yeah you fucking cun, I ewas
-          held for 13 days by a behavior health institution for $2k/day by for
-          complaining about that very expiring claim fraudulent bid pools.
+          not talking about him reading a book." Yeah you fucking cunt Betsy
+          Mcgovern, I ewas held for 13 days by a behavior health institution for
+          $2k/day by for complaining about that very expiring claim fraudulent
+          bid pools.
           <br />
           <br />
           they all had jobs in haiti, but they have an opportunity to come to
