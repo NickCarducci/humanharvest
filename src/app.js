@@ -187,6 +187,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Mark George: "Lying to the investor implies you’d be lying to the
+          consumer," just lofty goals to tech advance. Did she open source?
+          <br />
+          <br />
           "They don't have a choice, they are doing their job." jobs are only
           not a choice because of implauysible landlord use, racketeering expert
           jury and repo-cycle kept down payments, including expiry and
