@@ -193,7 +193,9 @@ export default class App extends React.Component {
           productive, the only money you bring in is from lawyers for which that
           are claiming an actuarial increase in 78 year olds from a year ago is
           a pandemic. People aren't perverted because of a mental disorder. You
-          just want everyone to be like you!
+          just want everyone to be like you! "A victim of poverty." That doesn't
+          count homes, just income to rent. The world would be better without
+          you Curtis, and 93% of NYC agrees.
           <br />
           <br />
           “Try to group people by types,” is not a random selection, nor is
