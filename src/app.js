@@ -192,6 +192,11 @@ export default class App extends React.Component {
           {/** megan mcglovern*/}
           <br />
           <br />
+          Once some guy asked me if my bill feed that now is events (but now
+          have to build my own paytech to boycott credit), is like Quora. I’ve
+          been using that every day for a month now, to my surprise! Good luck!
+          <br />
+          <br />
           Russell Stuart ('Beverly Hills guns' shop): "Not woke about public
           safety, police just revolve criminals," because the current laws for
           non-criminals, but slandered character evidence expert save face
