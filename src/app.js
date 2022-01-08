@@ -187,6 +187,21 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "They don't have a choice, they are doing their job." jobs are only
+          not a choice because of implauysible landlord use, racketeering expert
+          jury and repo-cycle kept down payments, including expiry and
+          estimating.
+          <br />
+          <br />
+          Craig Haufman, NJ Dem speaker: "100's protected," when most testing is
+          asymptomatic non all-incidence artifact warning mechanism, not cause
+          and with precedence but still illegal. you can't move to duress in
+          business-consumer relation beyond mvp without proof that DNA is
+          injected by virion into cell, not merely deduction, as byproduct is
+          also reasonable. NEW JERSEY SIMPLY DOESN'T TURNOUT BECAUSE THEY
+          DISAGREE WITH ALL EXISTING PARTIES, ALL RENT-SEEKERS.
+          <br />
+          <br />
           "Homeless and emotionally disturbed people." people are homeless not
           because of emotions you ballless prick. I am having a psychotic
           disprder because you don't count homes as an input cost. You aren't
