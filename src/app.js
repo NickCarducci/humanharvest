@@ -187,6 +187,9 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "homeowners" according to the right is 1/11 down, surrendered freedom
+          of Savers that actually have the bid-money
+          <br />
           ableist, sexist and racist? no, you are presumptive for correcting my
           scientific use of retard and faggot tool
           <h1>
