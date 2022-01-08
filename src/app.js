@@ -188,7 +188,8 @@ export default class App extends React.Component {
             2052.live
           </a>
           "consumer spending depends on savings accounts, bonds last traded, 44
-          years to pay off with current income for all debts."
+          years to pay off with current income for all debts. Fed comes in to
+          hot to late that economy already ameleiate its growth rate."
           <br />
           <br />
           "Issues like low immigration, early retirement, low population growth,
@@ -199,7 +200,9 @@ export default class App extends React.Component {
           <h2>excess doesn't discount cohort size</h2>
           “I want workers to make a buck above inflation.” Because you are
           selling your stock and bonds of surrendered freedom. “Can costs be
-          passed to consumers to keep margins.” Bitch, you are a consumer
+          passed to consumers to keep margins.” Bitch, you are a consumer. "We
+          foresee the dollar to strengthen against the Yen, even the doves are
+          getting hawkish."
           <br />
           <br />
           stocks are literally pure market concentration and flaccid profit loss
