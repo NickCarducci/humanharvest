@@ -187,6 +187,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "consumer spending depends on savings accounts, bonds last traded, 44
+          years to pay off with current income for all debts."
+          <br />
+          <br />
           "Issues like low immigration, early retirement, low population growth,
           made worst over the pandemic, get back to basics in terms on suplly
           and demand, coming back in growth pretty quickly." In terms of the
