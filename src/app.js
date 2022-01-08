@@ -191,7 +191,10 @@ export default class App extends React.Component {
           <br />
           <br />
           "$130b where did it go?" What about ppp trust stephen "double home
-          inflation no way" Moore, 5th best economist in the world?
+          inflation no way" Moore, 5th best economist in the world? "small biz
+          back on their feet, self inflicted wounds," Stephen Forbes, "who is
+          going to finance the 40% $4t/yr deficit of m2 = mutual funds +
+          checking?"
           <br />
           "consumer spending depends on savings accounts, bonds last traded, 44
           years to pay off with current income for all debts. Fed comes in to
@@ -204,6 +207,12 @@ export default class App extends React.Component {
           terms of the data, covid did nothing except insurance fraud.
           <h1>Don't lie to an academic actuary</h1>
           <h2>excess doesn't discount cohort size</h2>
+          Jo Pinion: “14% suddenly had covid,” something like bacteria can be in
+          the room or that matches asymptomatic prevalence, not all-incidence
+          (of pneumonia) artifact. "4.5m left according to 2020 numbers," why
+          don't you add back the new entrants? Trying to terrorize black man?
+          <br />
+          <br />
           “I want workers to make a buck above inflation.” Because you are
           selling your stock and bonds of surrendered freedom. “Can costs be
           passed to consumers to keep margins.” Bitch, you are a consumer. "We
