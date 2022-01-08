@@ -187,6 +187,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          republicans say big government socialism to pull/agitprop
+          conservatives.
+          <br />
+          <br />
           "Not going to slow employment with such inflation, 50 basis points is
           just want the doctor ordered. Jolt expectations back down. Yeah need a
           little shock value here. Need a wake up call. Linger to act like
