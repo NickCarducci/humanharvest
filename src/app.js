@@ -188,7 +188,7 @@ export default class App extends React.Component {
             2052.live
           </a>
           Amanda Brohante: "50% of admissions are not due to covid, but
-          asymptomatic positive."
+          asymptomatic positive, neither all-incidence-artifact."
           <br />
           <br />
           Public housing is rent-seeking beyond plausible use yet make use of
