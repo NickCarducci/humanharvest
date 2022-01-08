@@ -188,9 +188,10 @@ export default class App extends React.Component {
             2052.live
           </a>
           Russell Stuart ('Beverly Hills guns' shop): "Not woke about public
-          safety, police just revolve criminals because the current laws for
-          non-criminals but slandered character evidence expert save face
-          malpractice jury. I don't even want to touch one, but I will. Might not.
+          safety, police just revolve criminals," because the current laws for
+          non-criminals, but slandered character evidence expert save face
+          malpractice jury. I don't even want to touch one, but I will. Might
+          not.
           <br />
           <br />
           "homeowners" according to the right is 1/11 down, surrendered freedom
@@ -235,8 +236,7 @@ export default class App extends React.Component {
           It is forced investment in equities, market concentration away from
           your own equity, at fake prices. Mark and Bernie calls this, reality,
           but accountants are just lying.
-          <br />
-          <br />
+          <h2>but most of all, mv1===mv2==GDP/yr impossibly</h2>
           “Give people what they need to reduce crime and sexual assaults.” You
           yourself need to have your tongue cut out
           <Cable
