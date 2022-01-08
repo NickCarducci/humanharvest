@@ -187,6 +187,11 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Economic growth, jobs, in the mid or long term, reality not what he
+          says, pension fixed income, do you see an economic recovery? That is
+          forced corporate investment you fucking market commie mark levin.
+          <br />
+          <br />
           “Give people what they need to reduce crime and sexual assaults.” You
           yourself need to have your tongue cut out
           <Cable
