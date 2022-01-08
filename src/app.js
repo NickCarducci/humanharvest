@@ -199,7 +199,11 @@ export default class App extends React.Component {
           claims by neighborhood last trades non-concurrentables value not
           prices, settled. Living in reality, the accountants are lying! What
           does apiration invest in to get 5% APR? I'm sure it is just pizza
-          delivery money. $12k/64 debt/cash (new per person/yr)
+          delivery money. $12k/64 debt/cash (new per person/yr). Now actuaries
+          over cohort size becoming a pandemic of excess deaths age
+          standardized?? for the very insurance fraud they non-academically
+          search for, evidently to shadenfraude and agitprop these basis rate
+          errors.
           <br />
           Republicans/Libertarians are for market communist/corporate flaccid
           loss rent seeking and actual labor shortage demand, Democrats only
