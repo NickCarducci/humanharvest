@@ -1303,6 +1303,34 @@ export default class App extends React.Component {
           will behead you as unvaxxed in advance.
           <br />
           <br />
+          <Cable
+            style={{ height: "280px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1j5FX2ZtOg3cRdnr_7AWgyZZCOmoFIpCS/preview"
+            }
+            float="left"
+            title="GBNews NHS shilling unreasonable anger management professional solutions, behind a scripted trust and for drug war"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “Unreasonable depression.” Shilling help in doctors and professional
+          help. You really shouldn't be changing your chemical nature. the
+          doctors saveface malpractice and are SELKING YOU SOMETHING, harm,
+          dependence, placebo not with standing.
+          <br />
+          <br />
+          Stop stigmatizing people who like to party, nerd. Get a lobotomy you
+          are showcasing too much human emotion to natural reason. Like finding
+          a literal longstanding web of lies in economic-accounting, coming from
+          a notion of altruism.
+          <br />
+          <br />
           apparently you cannot manage money and permit 40% debt spending to be
           called, "tax payer funds," nor $12k/64 (new, per person/yr) will be
           "paid by children," or repo-cycle kept down payments lauyndered isn't
