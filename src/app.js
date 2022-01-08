@@ -187,6 +187,34 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          I was a bartender who became disabled on a run next to a running
+          trail. All hazards are self-evident, and lawyers have a conflict of
+          interest to be malfeasant for trial v class lest surrendered freedoms
+          (EULA) limitations of non-responders.
+          <br />
+          <br />
+          "What is the most important economic factor in determining
+          production?"
+          <br />
+          Input costs that is material-inflation, as well as bonds, stocks,
+          homes, and labor, discounted by non-working-age.
+          <br />
+          <br />
+          "When did economic recovery start?"
+          <br />
+          Recovery is depreciation of productivity by price deflation,
+          retirement and durable-trade (less GDP/p per hour). 25–54 85%
+          participation for corporate flaccid loss is not enough because of
+          actual-labor-shortage-demand of rent-seeking/finance (invoices,
+          expiring claims, implausible landlord use and repo-cycle kept down
+          payments laundered surrendered freedom, EULA, third party donee
+          beneficiary claimable) because GDP/p 1800–1913 being nearly constant
+          amongst (3%/yr+ population), proves that actual consumption discounted
+          for inflation is constant and population scarcity is labor elastic,
+          meaning population growth only raises price, when it isn’t working
+          age.
+          <br />
+          <br />
           "color not character," what about slurs?
           <br />
           <br />
