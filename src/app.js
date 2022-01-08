@@ -187,6 +187,8 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Marx would be terrorizing Democrats, Republicans, Libertarians, Greens
+          and People
           <h1>
             WHAT THE FUCK IS REAL WEALTH, DISCOUNTING MATERIAL FOR ASSETS?
           </h1>
