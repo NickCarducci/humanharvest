@@ -194,7 +194,12 @@ export default class App extends React.Component {
           $12k/64 debt/cash (new).
           <br />
           <br />
-          Price stability not value stability non-concurrentable, last traded
+          Price stability not value stability non-concurrentable, last traded.
+          The accountants are lying, treasury shares and expiring or esptimated
+          claims by neighborhood last trades non-concurrentables value not
+          prices, settled. Living in reality, the accountants are lying! What
+          does apiration invest in to get 5% APR? I'm sure it is just pizza
+          delivery money. $12k/64 debt/cash (new per person/yr)
           <br />
           Republicans/Libertarians are for market communist/corporate flaccid
           loss rent seeking and actual labor shortage demand, Democrats only
