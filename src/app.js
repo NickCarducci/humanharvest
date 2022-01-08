@@ -187,6 +187,9 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Mark Morgan: "American citizen, pay your mortgage, go to work."
+          <br />
+          <br />
           I was a bartender who became disabled on a run next to a running
           trail. All hazards are self-evident, and lawyers have a conflict of
           interest to be malfeasant for trial v class lest surrendered freedoms
