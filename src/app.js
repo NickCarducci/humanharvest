@@ -187,11 +187,68 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          1/3 unemployed are long term unemplyed, 85% of 25-55 is not 2/3
+          raining condos implausible landlord use, allow hotels to continue by 5
+          units or 30 days
           <br />
           <br />
+          1/3 unemployed are long term unemplyed, 85% of 25-54 is not 2/3
+          <br />
+          <br />
+   
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                :
+                "https://www.youtube.com/embed/4hrMuZEGGmk"   }
+            float="right"
+            title="Dick Morris CPI https://youtu.be/4hrMuZEGGmk"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          
           Rob Schmitt and Peter Navarro: ECONOMIC GROWTH CLAIMED AS FL NOT 1/4
-          illegal immigrants but anti-masking.
+          illegal immigrants but anti-masking. "Highest productivity, in terms
+          of GDP growth. ...The real problem is they are going to turn our
+          millennials into serf, let them eat cake,' Zuckerberg, 'they can tour
+          the property virtually.'
+          <br />
+          <br />
+          "What happens when supply is greater than demand?"
+          <br />
+          Nick Carducci - , BA Political Science & Economics, Johns Hopkins
+          University (2015)
+          <br />
+          <br />
+          Depends on if you define actual-Labor, -Demand or -Supply, or nominal.
+          <br />
+          <br />
+          We do measure nominal changes per time, or allocation (place in
+          space). Any other presentation of Supply and Demand might not have
+          such parity to claim as Supply nor Demand, nor a stasis disparity to
+          compare. Although the curves’ marginal-propensities are cited all on
+          their respective-curves, just in order, with elasticity strongest at
+          the inception of the market, there is a shared-transitive-property to
+          prices that is set after brokers/market-makers lay their spread of
+          ask-to-bid until Supply and Demand can be comfortable enough to make a
+          move. Maybe they are the only ones with the platform and collateral to
+          play both sides.
+          <br />
+          <br />
+          Normally we are measuring over the absolute of time, not a
+          cross-sectional. If Supply is booned by cash alone, rather than
+          working-age population, then productivity of real GDP/p per hour, if
+          also discounting equities, bonds, homes and intermediate-labor,
+          falters. Or, just measure hours per home (average-traded-value), or
+          really, homes per hour (index over index rates of change, derivative).
+          <br />
+          <br />
+          Population also doesn’t create scarcity, as proven by nearly-constant
+          GDP/p, 1800–1913.
           <br />
           <br />
           Cops aren’t the ones giving malfeasant orders.
