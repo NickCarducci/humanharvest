@@ -187,6 +187,11 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Trumps' president's truth social is exactly what China was doing to
+          USPTO that triggered his trade-war. He still pays bonds with 40% debt
+          spending.
+          <br />
+          <br />
           "Help send packages," is all charities can add, but then, they are
           just gift stewards.
           <br />
