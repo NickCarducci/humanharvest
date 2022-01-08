@@ -187,6 +187,13 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Price stability not value stability non-concurrentable, last traded
+          <br />
+          Republicans/Libertarians are for market communist/corporate flaccid
+          loss rent seeking and actual labor shortage demand, Democrats only
+          public 1/3.
+          <br />
+          <br />
           Greg Kelly: "Who is the tech booting? Trump and his supporters, whom
           all have jobs full-time. Trump is not the only one to get big things
           done." All he did was tariff and got no trade secrets virtuously trust
