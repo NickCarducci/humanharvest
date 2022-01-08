@@ -187,8 +187,11 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          I added a picture for you, the mortality matches population growth.
-          “We can only speculate that&nbsp;
+          "Help send packages," is all charities can add, but then, they are
+          just gift stewards.
+          <br />
+          <br />I added a picture for you, the mortality matches population
+          growth. “We can only speculate that&nbsp;
           <a href="https://youtu.be/Weqb9KrQ-TU?t=21">
             DNA of virion is injected into the cell, because it only happens in
             an instant
