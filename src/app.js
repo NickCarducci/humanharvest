@@ -187,15 +187,18 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "$130b where did it go?" What about ppp trust stephen "double home
+          inflation no way" Moore, 5th best economist in the world?
+          <br />
           "consumer spending depends on savings accounts, bonds last traded, 44
           years to pay off with current income for all debts. Fed comes in to
           hot to late that economy already ameleiate its growth rate."
           <br />
           <br />
-          "Issues like low immigration, early retirement, low population growth,
-          made worst over the pandemic, get back to basics in terms on suplly
-          and demand, coming back in growth pretty quickly." In terms of the
-          data, covid did nothing except insurance fraud.
+          Michelle Gerard: "Issues like low immigration, early retirement, low
+          population growth, made worst over the pandemic, get back to basics in
+          terms on suplly and demand, coming back in growth pretty quickly." In
+          terms of the data, covid did nothing except insurance fraud.
           <h1>Don't lie to an academic actuary</h1>
           <h2>excess doesn't discount cohort size</h2>
           “I want workers to make a buck above inflation.” Because you are
@@ -203,7 +206,7 @@ export default class App extends React.Component {
           passed to consumers to keep margins.” Bitch, you are a consumer. "We
           foresee the dollar to strengthen against the Yen, even the doves are
           getting hawkish."
-          <br/>
+          <br />
           Larry Kudlow: "Supply siders hate inflation."
           <br />
           <br />
