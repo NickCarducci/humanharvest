@@ -187,6 +187,9 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "color not character," what about slurs?
+          <br />
+          <br />
           "$130b where did it go?" What about ppp trust stephen "double home
           inflation no way" Moore, 5th best economist in the world?
           <br />
