@@ -194,6 +194,12 @@ export default class App extends React.Component {
           consumer," just lofty goals to tech advance. Did she open source?
           <br />
           <br />
+          What is to stop people from resisting arrest if you do not shoot on
+          sight next time? Someone is under arrest, dutifully, and they start
+          fighting back," that is like a plea bargain you're in on the lie to
+          duress non-state-vic.
+          <br />
+          <br />
           "They don't have a choice, they are doing their job." jobs are only
           not a choice because of implauysible landlord use, racketeering expert
           jury and repo-cycle kept down payments, including expiry and
@@ -290,7 +296,10 @@ export default class App extends React.Component {
           <br />
           <br />
           "color not character," what about slurs?
-          <h3>187.5x new, 44x actual, debt/cash. Looking to reverse amortize OUR income</h3>
+          <h3>
+            187.5x new, 44x actual, debt/cash. Looking to reverse amortize OUR
+            income
+          </h3>
           <h1>financials doing well, 1x book</h1>
           <h2>over my dead body</h2>
           "$130b where did it go?" What about ppp trust stephen "double home
