@@ -201,6 +201,9 @@ export default class App extends React.Component {
           public 1/3.
           <br />
           <br />
+          "If everyones income rose in line with inflation would it matter if
+          inflation were 100% or even 1000%?"
+          <br />
           1. Not only would Savers, labor-equity and retirees be
           counterproductively-depreciated and trust-built against, abetting the
           actual labor shortage of the new-labor, but even the new-labor doesn’t
@@ -219,7 +222,11 @@ export default class App extends React.Component {
           or contractor market-ask (RFP)**: *when you yourself cheat the system,
           or the system cheats you in a malfeasant or complicit
           saveface-malpractice, way*. Or more commonly-known as, “you get what
-          you put in, actually.”
+          you put in, actually,” and it is useless price-elasticity of more
+          money for the same things, especially when it isn’t just a plunder of
+          resourced, but others’ labor-equity unvalued for actual-labor deficit,
+          by market-depository certificates that is currency share-split of
+          state lands, as made up today.
           <hr />
           3. So, these aren’t accounted for in poverty, gini, nor discounted in
           real GDP/p per hour, but rather the very opposite!
