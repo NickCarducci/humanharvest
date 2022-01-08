@@ -187,6 +187,12 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Rassmuson: "Only 1/4 voters don’t trust the elections, but 1/4 of all
+          people (non-voters are more than swing!
+          <br />
+          No one has won 50%," but rcv enables that to happen over 1/3 majority
+          <br />
+          <br />
           republicans say big government socialism to pull/agitprop
           conservatives.
           <br />
