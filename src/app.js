@@ -190,7 +190,10 @@ export default class App extends React.Component {
           Rassmuson: "Only 1/4 voters don’t trust the elections, but 1/4 of all
           people (non-voters are more than swing! "Gas is a real-world issue."
           <br />
-          No one has won 50%," but rcv enables that to happen over 1/3 majority
+          No one has won 50%," but rcv enables that to happen over 1/3 majority.
+          <br/>
+          <br/>
+          Dersh: "Vaccines are a last resport, constitutionally," is that a threat?
           <br />
           <br />
           republicans say big government socialism to pull/agitprop
