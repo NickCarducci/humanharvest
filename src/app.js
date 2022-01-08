@@ -191,9 +191,10 @@ export default class App extends React.Component {
           people (non-voters are more than swing! "Gas is a real-world issue."
           <br />
           No one has won 50%," but rcv enables that to happen over 1/3 majority.
-          <br/>
-          <br/>
-          Dersh: "Vaccines are a last resport, constitutionally," is that a threat?
+          <br />
+          <br />
+          Dersh: "Vaccines are a last resport, constitutionally," is that a
+          threat?
           <br />
           <br />
           republicans say big government socialism to pull/agitprop
@@ -226,7 +227,26 @@ export default class App extends React.Component {
           <h1>
             WHAT THE FUCK IS REAL WEALTH, DISCOUNTING MATERIAL FOR ASSETS?
           </h1>
-          <h2>WE WANT GENERAL DEFLATION AND RETIREMENT</h2>
+          <h2>WE WANT GENERAL DEFLATION AND RETIREMENT</h2> 10k/day reaching
+          social security. demand for optimum social security claiming decision,
+          ensuriong all they earned, and entitled to! Educated and trained to
+          maximize benefits, competing with consumers, says WABC250 to get $250
+          off, compliments of 77WABC.
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1e84UBIo3jiAoqh5LdDcq58da4GTC6EEZ/preview"
+            }
+            float="right"
+            title="Legacy Precious Metals on the 77WABC iOS app"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           Kudlow: “Slow jobs, strong household income,” gerontocracy douche!!!!
           less jobs and durable (less) trade is literally technological
           advancement ends. "Virtually no inflation -2%. 20%+/yr by trump ppp
