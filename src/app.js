@@ -187,6 +187,93 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          stocks are literally pure market concentration and flaccid profit loss
+          (not a bargain)
+          <br />
+          <br />
+          "Policy mistake," is a strawman of reverse amortization, then they
+          bailout. "Asset market coming off, bond market backs off, inflation
+          rises, that is the worst kind of scenario, higher 10-year rates
+          continues to harm labor."
+          <br />
+          <br />
+          "What is a way to boost your economy?"
+          <br />
+          We would like deflation, durability and retirement. We can reverse
+          amortize (cash/debt)*income every year back surrendered freedom (EULA,
+          third party donee beneficiary), truncated production/sales tax for
+          free rider immutable, have permits by industry-variable for
+          business-consumer duress, and cap implausible landlord use above 5
+          units or 30 days.
+          <br />
+          <br />
+          "What happens when supply is greater than demand?"
+          <br />
+          Depends on if you define actual-Labor, -Demand or -Supply, or nominal.
+          <br />
+          <br />
+          We do measure nominal changes per time, or allocation (place in
+          space). Any other presentation of Supply and Demand might not have
+          such parity to claim as Supply nor Demand, nor a stasis disparity to
+          compare. Although the curves’ marginal-propensities are cited all on
+          their respective-curves, just in order, with elasticity strongest at
+          the inception of the market, there is a shared-transitive-property to
+          prices that is set after brokers/market-makers lay their spread of
+          ask-to-bid until Supply and Demand can be comfortable enough to make a
+          move. Maybe they are the only ones with the platform and collateral to
+          play both sides.
+          <br />
+          <br />
+          Normally we are measuring over the absolute of time, not a
+          cross-sectional. If Supply is booned by cash alone, rather than
+          working-age population, then productivity of real GDP/p per hour, if
+          also discounting equities, bonds, homes and intermediate-labor,
+          falters. Or, just measure hours per home (average-traded-value), or
+          really, homes per hour (index over index rates of change, derivative).
+          <br />
+          <br />
+          Population also doesn’t create scarcity, as proven by nearly-constant
+          GDP/p, 1800–1913.
+          <br />
+          <br />
+          "low unemployment rate means good, they are still buying bonds from
+          our proflogous, gov never has been confused in being nostraomous." I
+          think they just admitted to trading against me as I shorted my
+          competitors to 0. "Inflattion too-transitory and not an issue, too
+          persistent." Inflation is a transitive-property of excess spending to
+          operational consumption (doesn't fucking change you fatass glutton),
+          monopsony and less working age per person.
+          <br />
+          <br />
+          "Where are the workers who once had the nearly eleven million jobs
+          that are now unfilled?"
+          <br />I believe you misheard the person reporting this, or they
+          intentionally misguided you and you fell for it. We are back to&nbsp;
+          <a href="https://fred.stlouisfed.org/graph/?g=KEig">
+            normal employment
+          </a>
+          , nearly 85% participation of 25–54 working age.
+          <br />
+          <br />
+          "there is no money velocity, very low, get past debt to gdp, it has a
+          negative multiplier."
+          <br />
+          <br />
+          "Why does TLT go down when treasury yields go up?"
+          <br />I think you might be witnessing an effect before the cause, as
+          it happens in an instant. When TSY bond-index-funds lose investment,
+          interest rates for new bonds rise to attract investors. TLT
+          constitutes the 20–30 year tranche of newly-issued bonds, that which
+          are surrendered freedom (EULA, third party donee beneficiary) of
+          Savers and are&nbsp;
+          <a href="https://fred.stlouisfed.org/graph/?g=KEt6">shown</a>&nbsp;
+          different principal amounts to the borrower than the lender.
+          <br />
+          <br />
+          real GDP/p per hour growth only isn’t $0 nor 0%/yr+ of m2 mutual
+          fund+checking velocity per year, because they are a devious
+          accounting-disparity! We all do pay the same actual-things, but the
+          price and durability is the only change in GDP or velocity per year.
           <h2>"Year over year base effect numbers," WHAT THE FUCK IS THAT?</h2>
           <h3>
             GDP/p is proven to be unaffected by population growth, 1800-1913 was
