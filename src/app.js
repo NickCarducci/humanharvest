@@ -237,6 +237,7 @@ export default class App extends React.Component {
           your own equity, at fake prices. Mark and Bernie calls this, reality,
           but accountants are just lying.
           <h2>but most of all, mv1===mv2==GDP/yr impossibly</h2>
+          <h3>m2 = mutual funds + checking</h3>
           “Give people what they need to reduce crime and sexual assaults.” You
           yourself need to have your tongue cut out
           <Cable
