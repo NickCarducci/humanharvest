@@ -206,7 +206,11 @@ export default class App extends React.Component {
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
-          Jillian Adnerson, Turning Point: "more people died in 2021, than 2020,
+          “Are we missing a trick here by letting the school do it’s thing and
+          having a vibrant external series of activities.”
+          <br />
+          <br />
+          Jillian Anderson, Turning Point: "more people died in 2021, than 2020,
           so he should step down himself." the excess deaths grew and 1918 looks
           fake too, how can 20-29 jump up to make up 1918 loss? Doesn't compute,
           but decennial and single year still puts it out. 1918 was fake.
@@ -226,10 +230,10 @@ export default class App extends React.Component {
           state? They aren't, actually, that, because, those are operating
           costs, that are free rider mutable, rent-seeking, out of scope for
           free rider immutable reasons, as the nomen is now. The Users are
-          rather contributors of Tranquil and voluntary trade without quo. The grounds cannot
-          automatically make platforms public owned. The platforms must get a
-          desist order, with industry-variable jury without more than 1/12
-          reasonable doubts.
+          rather contributors of Tranquil and voluntary trade without quo. The
+          grounds cannot automatically make platforms public owned. The
+          platforms must get a desist order, with industry-variable jury without
+          more than 1/12 reasonable doubts.
           <br />
           <br />
           they all had jobs in haiti, but they have an opportunity to come to
