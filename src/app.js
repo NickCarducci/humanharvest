@@ -192,7 +192,6 @@ export default class App extends React.Component {
           <br />
           <br />
           <Cable
-            style={{ height: "380px" }}
             onError={handleScollImgError}
             //img={true}
             src={
@@ -200,7 +199,7 @@ export default class App extends React.Component {
                 ? ""
                 : "https://drive.google.com/file/d/1iA500bT2DkEAeJ5W83McZG1AR25a2wU2/preview"
             }
-            float="left"
+            float="right"
             title="(GBNews) - Sam Collins Senior Policy Advisor to the Institute of Economic Affairs"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
@@ -227,7 +226,7 @@ export default class App extends React.Component {
           state? They aren't, actually, that, because, those are operating
           costs, that are free rider mutable, rent-seeking, out of scope for
           free rider immutable reasons, as the nomen is now. The Users are
-          rather contributors of voluntary trade without quo. The grounds cannot
+          rather contributors of Tranquil and voluntary trade without quo. The grounds cannot
           automatically make platforms public owned. The platforms must get a
           desist order, with industry-variable jury without more than 1/12
           reasonable doubts.
