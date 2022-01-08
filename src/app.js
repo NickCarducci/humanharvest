@@ -187,6 +187,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          <h1>
+            WHAT THE FUCK IS REAL WEALTH, DISCOUNTING MATERIAL FOR ASSETS?
+          </h1>
+          <h2>WE WANT GENERAL DEFLATION AND RETIREMENT</h2>
           Kudlow: “Slow jobs, strong household income,” gerontocracy douche!!!!
           less jobs and durable (less) trade is literally technological
           advancement ends. "Virtually no inflation -2%. 20%+/yr by trump ppp
