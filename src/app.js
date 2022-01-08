@@ -187,6 +187,12 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Russell Stuart ('Beverly Hills guns' shop): "Not woke about public
+          safety, police just revolve criminals because the current laws for
+          non-criminals but slandered character evidence expert save face
+          malpractice jury. I don't even want to touch one, but I will. Might not.
+          <br />
+          <br />
           "homeowners" according to the right is 1/11 down, surrendered freedom
           of Savers that actually have the bid-money
           <br />
