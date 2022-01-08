@@ -187,9 +187,13 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          Homeless and emotionally disturbed people. people are homeless not
+          "Homeless and emotionally disturbed people." people are homeless not
           because of emotions you ballless prick. I am having a psychotic
-          disprder because you don't count homes as an input cost.
+          disprder because you don't count homes as an input cost. You aren't
+          productive, the only money you bring in is from lawyers for which that
+          are claiming an actuarial increase in 78 year olds from a year ago is
+          a pandemic. People aren't perverted because of a mental disorder. You
+          just want everyone to be like you!
           <br />
           <br />
           “Try to group people by types,” is not a random selection, nor is
