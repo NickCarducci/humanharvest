@@ -108,7 +108,7 @@ class Cable extends React.Component {
             cache &&
             (children.length === 0 || !children.find((x) => x === cache))
           ) {
-            console.log("replenishing, new scroll", cache);
+            //console.log("replenishing, new scroll", cache);
             return (page.innerHTML = this.state.cache);
           }
         }
