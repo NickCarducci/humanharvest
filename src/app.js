@@ -339,8 +339,8 @@ export default class App extends React.Component {
           <br />
           <br />
           "Why does TLT go down when treasury yields go up?"
-          <br />I think you might be witnessing an effect before the cause, as
-          it happens in an instant. When TSY bond-index-funds lose investment,
+          <h2>I think you might be witnessing an effect before the cause, as
+          it happens in an instant.</h2>When TSY bond-index-funds lose investment,
           interest rates for new bonds rise to attract investors. TLT
           constitutes the 20–30 year tranche of newly-issued bonds, that which
           are surrendered freedom (EULA, third party donee beneficiary) of
