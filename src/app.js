@@ -191,6 +191,22 @@ export default class App extends React.Component {
           parents, not free rider mutable tax. Just let the kids work.
           <br />
           <br />
+          <Cable
+            style={{ height: "380px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1iA500bT2DkEAeJ5W83McZG1AR25a2wU2/preview"
+            }
+            float="left"
+            title="(GBNews) - Sam Collins Senior Policy Advisor to the Institute of Economic Affairs"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           Jillian Adnerson, Turning Point: "more people died in 2021, than 2020,
           so he should step down himself." the excess deaths grew and 1918 looks
           fake too, how can 20-29 jump up to make up 1918 loss? Doesn't compute,
@@ -206,7 +222,15 @@ export default class App extends React.Component {
           not talking about him reading a book." Yeah you fucking cunt Betsy
           Mcgovern, I ewas held for 13 days by a behavior health institution for
           $2k/day by for complaining about that very expiring claim fraudulent
-          bid pools.
+          bid pools. "Social media platforms should be regulated as public
+          utilities, because that is what they 'are.'" You were a governor of a
+          state? They aren't, actually, that, because, those are operating
+          costs, that are free rider mutable, rent-seeking, out of scope for
+          free rider immutable reasons, as the nomen is now. The Users are
+          rather contributors of voluntary trade without quo. The grounds cannot
+          automatically make platforms public owned. The platforms must get a
+          desist order, with industry-variable jury without more than 1/12
+          reasonable doubts.
           <br />
           <br />
           they all had jobs in haiti, but they have an opportunity to come to
@@ -225,7 +249,7 @@ export default class App extends React.Component {
                 : "https://drive.google.com/file/d/1N6IQaXGGNjDSmUUre-Pd_sCdrPuq2N01/preview"
             }
             float="left"
-            title="Stinchfield (Newsmax) - Sam Collins Senior Policy Advisor to the Institute of Economic Affairs"
+            title="(GBNews) - Sam Collins Senior Policy Advisor to the Institute of Economic Affairs"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
