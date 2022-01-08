@@ -187,6 +187,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Homeless and emotionally disturbed people. people are homeless not
+          because of emotions you ballless prick.
+          <br />
+          <br />
           “Try to group people by types,” is not a random selection, nor is
           disqualifying jury for being experts of choosing, Jack Kingston.
           <br />
