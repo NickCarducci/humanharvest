@@ -193,13 +193,28 @@ export default class App extends React.Component {
           estimating.
           <br />
           <br />
-          Craig Haufman, NJ Dem speaker: "100's protected," when most testing is
+          Craig Cauflin, NJ Dem speaker: "100's protected," when most testing is
           asymptomatic non all-incidence artifact warning mechanism, not cause
           and with precedence but still illegal. you can't move to duress in
           business-consumer relation beyond mvp without proof that DNA is
           injected by virion into cell, not merely deduction, as byproduct is
           also reasonable. NEW JERSEY SIMPLY DOESN'T TURNOUT BECAUSE THEY
-          DISAGREE WITH ALL EXISTING PARTIES, ALL RENT-SEEKERS.
+          DISAGREE WITH ALL EXISTING PARTIES, ALL RENT-SEEKERS. "Homestead
+          freeze, student loan freeze, standing up for NJ. Because of covid." It
+          is literally white collar fraud given 78 actuarially increase is
+          called a hazard. $3.5m spent the right way, you 40% debt service,
+          gentrify for rent-seeking government HUD, 50% debt-spending. You
+          shouldn't be able to manage your own money. Fighting food and security
+          by front-running food and libaries is self-defeating. the same
+          consumption for more money is only supply-side, not demand-side.
+          "mental health because of the 'pandemic,' friends and family who got
+          sick," sickness is not greater than usual, you just are reacting now
+          to misappropriating funds into expiring claims and non-rollover
+          insurance. You put me in Carrier for 13 days for saying that.. I WILL KILL YOU. "Not
+          fully understand the nature of this. We know people who lost job and
+          scrape by on rent." Those rents are actual labor shortage, that
+          doesn't serve people of new jersey, just rent-seeks and let landlords
+          not work because you are favoring old people over young.
           <br />
           <br />
           "Homeless and emotionally disturbed people." people are homeless not
