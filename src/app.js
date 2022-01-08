@@ -187,6 +187,9 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Cops aren’t the ones giving malfeasant orders.
+          <br />
+          <br />
           "School arts programs," will be determined its usefullness if paid by
           parents, not free rider mutable tax. Just let the kids work.
           <br />
