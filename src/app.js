@@ -187,6 +187,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Michael Goodwin, NYPOST: “Any poll is an even split, that is the
+          nature of the economy right now. There was no conspiracy.”
+          <br />
+          <br />
           "What is a way to boost your economy?"
           <br />
           We would like deflation, durability and retirement. We can reverse
