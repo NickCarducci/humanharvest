@@ -187,8 +187,19 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          “Try to group people by types,” is not a random selection, nor is
+          disqualifying jury for being experts of choosing, Jack Kingston.
+          <br />
+          <br />
           Amanda Brohante: "50% of admissions are not due to covid, but
-          asymptomatic positive, neither all-incidence-artifact."
+          asymptomatic positive, neither all-incidence-artifact." Catherin
+          Millington-Sanders; "Not vaccinated, severe disease, IVU and death is
+          much less likely," you are suffering from a basis rate fallacy, as the
+          virion is a byproduct of a bacterial-infection, not cause. You
+          honestly think virion is an evolutionary trait? It has no taxonomy
+          like bacteria and cell does, although out excrement is filled with
+          bacteria.. Virion are debris dissolved by the antibody evolutionary
+          trait, but VACCINES DO NOT PREVENT ILLNESS NOR DEATH.
           <br />
           <br />
           Public housing is rent-seeking beyond plausible use yet make use of
