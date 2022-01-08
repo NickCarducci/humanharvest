@@ -187,6 +187,12 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Greg Kelly: "Who is the tech booting? Trump and his supporters, whom
+          all have jobs full-time. Trump is not the only one to get big things
+          done." All he did was tariff and got no trade secrets virtuously trust
+          built too broad.
+          <br />
+          <br />
           Lindsay M. Keith, rent-seeking-plant: "the left will tell you the
           economy is booming, but inflation is higher," bitch, input costs
           includes equities, that does have a transitive-property of,... itself,
@@ -198,7 +204,7 @@ export default class App extends React.Component {
           the reciprocol of time-lens of GDP/p per hour, real nor actualized
           (including bonds, expiring premiums, profits, intermediate labor
           trusts and unions or scripts barrier to vault share currency
-          depiositary competition, nor homes outright, just rental0income
+          depiositary competition, nor homes outright, just rental-income
           implausible landlor use userers, ACTUAL labor shortage borne demand).
           <br />
           <br />
