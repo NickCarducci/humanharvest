@@ -187,6 +187,36 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          they all had jobs in haiti, but they have an opportunity to come to
+          the greatest country in the world." Why would you prohibit comparative
+          advantage, and technological advancement by retirement, durable trade
+          (not foreign land share-split prone accrual) and price deflation.
+          <br />
+          <br />
+          <Cable
+            style={{ height: "260px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1N6IQaXGGNjDSmUUre-Pd_sCdrPuq2N01/preview"
+            }
+            float="left"
+            title="Stinchfield (Newsmax) - Sam Collins Senior Policy Advisor to the Institute of Economic Affairs"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          "We borrowed and made a healthier state." Aren't prices elastic, why
+          trust good-will value?
+          <br />
+          <br />
+          "Fentanyl up 130%" over what time period? is it at least an average of
+          a longer term than... whatever, than monthly.
+          <br />
+          <br />
           Viruses isn't the only thing immigrants bring with them, but also
           morking age populous. Social security, your entire lives to sve but
           forced value (last-trade), not price (concurrentable-currency),
@@ -10731,4 +10761,3 @@ export default class App extends React.Component {
     );
   }
 }
-
