@@ -187,6 +187,13 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          1/3 unemployed are long term unemplyed, 85% of 25-55 is not 2/3
+          <br />
+          <br />
+          Rob Schmitt and Peter Navarro: ECONOMIC GROWTH CLAIMED AS FL NOT 1/4
+          illegal immigrants but anti-masking.
+          <br />
+          <br />
           Cops aren’t the ones giving malfeasant orders.
           <br />
           <br />
