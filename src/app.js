@@ -384,6 +384,16 @@ export default class App extends React.Component {
           GDP/p, 1800–1913.
           <br />
           <br />
+          “banks exist” you lost me there. Life expectancy age cohort size is
+          larger, I don’t use life expectancy but the single year population
+          size growth that people like you terrorize as excess deaths
+          unexpected. How many bonds do you have? They can go to zero and people
+          will be able to barter with vault share depositary. Don’t lie to an
+          actuary academic.
+          <br />
+          No one has won 50%, but rcv enables that to happen over 1/3 majority
+          <hr />
+          <br />
           Cops aren’t the ones giving malfeasant orders.
           <br />
           <br />
