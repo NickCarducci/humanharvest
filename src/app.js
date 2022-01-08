@@ -282,7 +282,12 @@ export default class App extends React.Component {
           />
           "Your money will in fact double every 10 years with compound interest
           surrendered freedom, hours per last-home-traded does double double
-          that!
+          that! "Time" doesn’t always, "go against you" it is compounding the
+          surrendered freedoms of your customers and employers as co-signatory
+          be it expiring or estimated claims. Even payday loans musn't be
+          general income but 1-level max-royalty-contracts as to not invoke
+          third party donee beneficiary of surrendered freedoms (EULA). Mediate
+          by reverse amortization (cash/debt)*income every year back.
           <br />
           <br />
           "consumer spending depends on savings accounts, bonds last traded, 44
