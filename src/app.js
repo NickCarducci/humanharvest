@@ -187,6 +187,16 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "What is a way to boost your economy?"
+          <br />
+          We would like deflation, durability and retirement. We can reverse
+          amortize (cash/debt)*income every year back surrendered freedom (EULA,
+          third party donee beneficiary), truncated production/sales tax for
+          free rider immutable, have permits by industry-variable for
+          business-consumer duress, and cap implausible landlord use above 5
+          units or 30 days.
+          <br />
+          <br />
           Marx would be terrorizing Democrats, Republicans, Libertarians, Greens
           and People
           <h1>
@@ -204,7 +214,10 @@ export default class App extends React.Component {
           keeping them out of school. Social, no money, enslavement. These
           teachers don’t want to teach, first to cry uncle, teach less and less,
           require more and more. fire Striking teachers. we've seen detroit.
-          Kids first, put american kids first. ccc parent v kids.”
+          Kids first, put american kids first. ccc parent v kids. All the income
+          they have earned, and are entitled to. Maximize benefits at RRSA
+          NURISSA.” THAT IS FORCED CORPORATE INVESTMENT like amazon that AOC
+          wants government to be
           <br />
           <br />
           "What are the causes of built-in inflation?"
