@@ -239,6 +239,28 @@ export default class App extends React.Component {
           have your tongue cut out.
           <br />
           <br />
+          <Cable
+            style={{
+              height: "380px"
+            }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/15ecBGRvq__trKMGMnBkJEZYCYaQDZw89/preview"
+            }
+            float="left"
+            title="GBNews (Youtube) - Justin Urquhart Stewart, 'Bank of England aims to make economics easier to understand'"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          "Your money will in fact double every 10 years with compound interest
+          surrendered freedom, hours per last-home-traded does double double
+          that!
+          <br />
           <br />
           "consumer spending depends on savings accounts, bonds last traded, 44
           years to pay off with current income for all debts. Fed comes in to
@@ -339,12 +361,14 @@ export default class App extends React.Component {
           <br />
           <br />
           "Why does TLT go down when treasury yields go up?"
-          <h2>I think you might be witnessing an effect before the cause, as
-          it happens in an instant.</h2>When TSY bond-index-funds lose investment,
-          interest rates for new bonds rise to attract investors. TLT
-          constitutes the 20–30 year tranche of newly-issued bonds, that which
-          are surrendered freedom (EULA, third party donee beneficiary) of
-          Savers and are&nbsp;
+          <h2>
+            I think you might be witnessing an effect before the cause, as it
+            happens in an instant.
+          </h2>
+          When TSY bond-index-funds lose investment, interest rates for new
+          bonds rise to attract investors. TLT constitutes the 20–30 year
+          tranche of newly-issued bonds, that which are surrendered freedom
+          (EULA, third party donee beneficiary) of Savers and are&nbsp;
           <a href="https://fred.stlouisfed.org/graph/?g=KEt6">shown</a>&nbsp;
           different principal amounts to the borrower than the lender.
           <br />
