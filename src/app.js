@@ -203,6 +203,8 @@ export default class App extends React.Component {
           passed to consumers to keep margins.” Bitch, you are a consumer. "We
           foresee the dollar to strengthen against the Yen, even the doves are
           getting hawkish."
+          <br/>
+          Larry Kudlow: "Supply siders hate inflation."
           <br />
           <br />
           stocks are literally pure market concentration and flaccid profit loss
