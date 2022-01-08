@@ -187,7 +187,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          Mark George: "Lying to the investor implies you’d be lying to the
+          "Pay your mortgage and put food on your table." That's an oxymoron!
+          <br />
+          <br />
+          Mark Geragos: "Lying to the investor implies you’d be lying to the
           consumer," just lofty goals to tech advance. Did she open source?
           <br />
           <br />
