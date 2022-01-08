@@ -187,6 +187,13 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          End user license agreement notwithstanding surrendered freedom is a
+          general question because it comes from a place of due diligence poorly
+          when in absense.
+          <br />
+          Durable trade is not gdp
+          <br />
+          <br />
           raining condos implausible landlord use, allow hotels to continue by 5
           units or 30 days
           <br />
@@ -194,15 +201,14 @@ export default class App extends React.Component {
           1/3 unemployed are long term unemplyed, 85% of 25-54 is not 2/3
           <br />
           <br />
-   
           <Cable
             onError={handleScollImgError}
             //img={true}
             src={
               this.state.noyoutube
                 ? ""
-                :
-                "https://www.youtube.com/embed/4hrMuZEGGmk"   }
+                : "https://www.youtube.com/embed/4hrMuZEGGmk"
+            }
             float="right"
             title="Dick Morris CPI https://youtu.be/4hrMuZEGGmk"
             scrolling={this.state.scrolling}
@@ -210,7 +216,6 @@ export default class App extends React.Component {
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
             scrollTop={this.state.scrollTop}
           />
-          
           Rob Schmitt and Peter Navarro: ECONOMIC GROWTH CLAIMED AS FL NOT 1/4
           illegal immigrants but anti-masking. "Highest productivity, in terms
           of GDP growth. ...The real problem is they are going to turn our
