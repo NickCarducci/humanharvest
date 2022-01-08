@@ -187,16 +187,20 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          
-          <h1>LEADERS DO NOT MAKE JOBS FOR PEOPLE YOU FUCKING FAGGOT, THEY RETIRE THEM</h1>
+          ableist, sexist and racist? no, you are presumptive for correcting my
+          scientific use of retard and faggot tool
+          <h1>
+            LEADERS DO NOT MAKE JOBS FOR PEOPLE YOU FUCKING FAGGOT, THEY RETIRE
+            THEM
+          </h1>
           <Cable
-            style={{ height: "360px" }}
+            style={{ height: "260px" }}
             onError={handleScollImgError}
             //img={true}
             src={
               this.state.noyoutube
                 ? ""
-                :"https://drive.google.com/file/d/1RZDCfMA4A5EIdywTK_VTfRXmL27sBehr/preview"
+                : "https://drive.google.com/file/d/1RZDCfMA4A5EIdywTK_VTfRXmL27sBehr/preview"
             }
             float="right"
             title="Stinchfield (Newsmax) - Gary Rabine"
@@ -267,6 +271,22 @@ export default class App extends React.Component {
           public 1/3.
           <br />
           <br />
+          <Cable
+            style={{ height: "360px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1l9_Z80g6jQv7kDPvOz5LRZBzcLXxnCVM/preview"
+            }
+            float="right"
+            title="Stinchfield (Newsmax) - Trumoy bear"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           "If everyones income rose in line with inflation would it matter if
           inflation were 100% or even 1000%?"
           <br />
