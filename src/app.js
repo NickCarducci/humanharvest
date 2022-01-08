@@ -194,7 +194,23 @@ export default class App extends React.Component {
           inflation no way" Moore, 5th best economist in the world? "small biz
           back on their feet, self inflicted wounds," Stephen Forbes, "who is
           going to finance the 40% $4t/yr deficit of m2 = mutual funds +
-          checking?"
+          checking? Antitrust-socialist solutions without congress-consent,"
+          pussy, they are not representative of all options (
+          <a href="https://saverparty.xyz">anti-rent-seeking</a>) and it is
+          already law to counterfeit in contract: you need to await consumers
+          willingness and ability to surrender their own freedoms, not future
+          except in outlay caccount of 1-level board max-profit-royalty. People
+          need security, consistency, just use Tranquility and voluntary trade,
+          homes are still appreased by neighbord's last-trade-value, and should
+          be inclusive of "input costs," not just material, as well with labor,
+          equities and bonds. "Kiddie, non-classroom, science has no
+          precedencial-backing up. We should force education trusts, those
+          teacher union leaders should be in jail." I think the kids working for
+          non-gerontocratic-wealth is self-evidently good for comparative
+          advantage for deflation, durability and retirement and you need to
+          have your tongue cut out.
+          <br />
+          <br />
           <br />
           "consumer spending depends on savings accounts, bonds last traded, 44
           years to pay off with current income for all debts. Fed comes in to
