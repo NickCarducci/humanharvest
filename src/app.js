@@ -187,6 +187,13 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "Not going to slow employment with such inflation, 50 basis points is
+          just want the doctor ordered. Jolt expectations back down. Yeah need a
+          little shock value here. Need a wake up call. Linger to act like
+          normal cycle, more pain in the end." Are you saying these values are
+          fake?
+          <br />
+          <br />
           Michael Goodwin, NYPOST: “Any poll is an even split, that is the
           nature of the economy right now. There was no conspiracy.”
           <br />
