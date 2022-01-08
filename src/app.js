@@ -192,9 +192,11 @@ export default class App extends React.Component {
           {/** megan mcglovern*/}
           <br />
           <br />
-          Once some guy asked me if my bill feed that now is events (but now
-          have to build my own paytech to boycott credit), is like Quora. I’ve
-          been using that every day for a month now, to my surprise! Good luck!
+          Once some guy asked me if my&nbsp;
+          <a href="https://carducci.sh">bill feed that now is events</a>
+          &nbsp;(but now have to build my own paytech to boycott credit), is
+          like Quora. I’ve been using that every day for a month now, to my
+          surprise! Good luck!
           <br />
           <br />
           Russell Stuart ('Beverly Hills guns' shop): "Not woke about public
