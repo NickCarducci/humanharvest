@@ -187,6 +187,17 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "Issues like low immigration, early retirement, low population growth,
+          made worst over the pandemic, get back to basics in terms on suplly
+          and demand, coming back in growth pretty quickly." In terms of the
+          data, covid did nothing except insurance fraud.
+          <h1>Don't lie to an academic actuary</h1>
+          <h2>excess doesn't discount cohort size</h2>
+          “I want workers to make a buck above inflation.” Because you are
+          selling your stock and bonds of surrendered freedom. “Can costs be
+          passed to consumers to keep margins.” Bitch, you are a consumer
+          <br />
+          <br />
           stocks are literally pure market concentration and flaccid profit loss
           (not a bargain)
           <br />
