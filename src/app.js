@@ -187,6 +187,11 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Public housing is rent-seeking beyond plausible use yet make use of 5
+          units or 30 days, otherwise purchase was deduced intent to compete
+          with consumers uselessly.
+          <br />
+          <br />
           Mark Morgan: "American citizen, pay your mortgage, go to work."
           <br />
           <br />
