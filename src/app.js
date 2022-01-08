@@ -187,11 +187,47 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "Own your own journies," and don't sellout surrendered freedom (EULA,
+          third party donee beneficiary claimable) your future labor or from
+          other people measured by labor-equity, for implausible landlord use
+          and implausibly-deniably-purposeful repo-cycle kept down payments
+          $12k/64 debt/cash (new).
+          <br />
+          <br />
           Price stability not value stability non-concurrentable, last traded
           <br />
           Republicans/Libertarians are for market communist/corporate flaccid
           loss rent seeking and actual labor shortage demand, Democrats only
           public 1/3.
+          <br />
+          <br />
+          1. Not only would Savers, labor-equity and retirees be
+          counterproductively-depreciated and trust-built against, abetting the
+          actual labor shortage of the new-labor, but even the new-labor doesn’t
+          gain in productivity, nor ease-of-life, when their wages themselves
+          keep up with input-costs. Input-costs are inflation of materials, PLUS
+          homes, equities, bonds, profits and intermediate-labor, that of which
+          *has the transitive-property of price-elasticity, and such is actually
+          at a constant level-rate, thru a time-lens, when discounting ALL input
+          costs* (which best measured by per capita/average). In other words,
+          real GDP/p per hour growth only isn’t $0 nor 0%/yr+ of m2 mutual
+          fund+checking velocity per year, because they are a devious
+          accounting-disparity! We all do pay the same actual-things, but the
+          price and durability is the only change in GDP or velocity per year.
+          <hr />
+          2. **These costs are borne by all of us that must accept the producer
+          or contractor market-ask (RFP)**: *when you yourself cheat the system,
+          or the system cheats you in a malfeasant or complicit
+          saveface-malpractice, way*. Or more commonly-known as, “you get what
+          you put in, actually.”
+          <hr />
+          3. So, these aren’t accounted for in poverty, gini, nor discounted in
+          real GDP/p per hour, but rather the very opposite!
+          <hr />
+          4. Although free rider mutable tax or 40% debt spending is quick, it
+          is quick for something without customers and if it does have a natural
+          market it is useless price inflation for the same input
+          cost/intermediate good, from outside the market.
           <br />
           <br />
           Greg Kelly: "Who is the tech booting? Trump and his supporters, whom
