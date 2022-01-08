@@ -187,6 +187,22 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          I added a picture for you, the mortality matches population growth.
+          “We can only speculate that&nbsp;
+          <a href="https://youtu.be/Weqb9KrQ-TU?t=21">
+            DNA of virion is injected into the cell, because it only happens in
+            an instant
+          </a>
+          ,” makes my&nbsp;
+          <a href="https://www.pfizer.com/news/hot-topics/viral_vs_bacterial_pneumonia_understanding_the_difference">
+            hypothesis
+          </a>
+          &nbsp; that bacterial-reinfection is the cause, and virion is merely
+          debris, non all-incidence-artifact.
+          <br />
+          Comes from nowhere, so evolutionary?
+          <br />
+          <br />
           It has always been the case that&nbsp;
           <a href="https://humanharvest.info/polio">flu is worst</a>," from
           bacterial infection and viorion non- all-incidence-artifact, Rob
