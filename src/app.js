@@ -187,6 +187,11 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          anger management, "eric adams got everything he had from his
+          parents,'" and got 7% of the vote, rcv ruins 1/3 majority.{" "}
+          {/** megan mcglovern*/}
+          <br />
+          <br />
           Russell Stuart ('Beverly Hills guns' shop): "Not woke about public
           safety, police just revolve criminals," because the current laws for
           non-criminals, but slandered character evidence expert save face
