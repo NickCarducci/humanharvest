@@ -187,6 +187,26 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          “Give people what they need to reduce crime and sexual assaults.” You
+          yourself need to have your tongue cut out
+          <Cable
+            style={{ height: "360px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1H_4qcCyO28ieMUJimMi15HLmqVhzY2p1/preview"
+            }
+            float="left"
+            title="Stinchfield (Newsmax) - "
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          <br />
+          <br />
           "Own your own journies," and don't sellout surrendered freedom (EULA,
           third party donee beneficiary claimable) your future labor or from
           other people measured by labor-equity, for implausible landlord use
