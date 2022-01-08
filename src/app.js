@@ -194,7 +194,11 @@ export default class App extends React.Component {
           homes, equities, bonds, profits, and intermediate-labor? Income
           inequality and poverty only. "Biden voted for supply side tax cuts 30
           years of prosperity after raegan. Revived prosperity by corporate tax
-          cut."
+          cut." Your problem is all the snot in your brain “Damages the kids
+          keeping them out of school. Social, no money, enslavement. These
+          teachers don’t want to teach, first to cry uncle, teach less and less,
+          require more and more. fire Striking teachers. we've seen detroit.
+          Kids first, put american kids first. ccc parent v kids.”
           <br />
           <br />
           "What are the causes of built-in inflation?"
