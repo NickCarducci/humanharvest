@@ -187,6 +187,13 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          <h2>"Year over year base effect numbers," WHAT THE FUCK IS THAT?</h2>
+          <h3>
+            GDP/p is proven to be unaffected by population growth, 1800-1913 was
+            nearly constant amongst (3%/yr+). PCE deflator only includes
+            materials and rents, not homes, equities, bonds, profits nor labor.
+          </h3>
+          <br />
           "You can do anything if you put enough money into it," You mean you
           just take skilled labor from elsewhere, money doesn't actually do it,
           just raises bid-to-ask for actual labor shortage relative to leaving
