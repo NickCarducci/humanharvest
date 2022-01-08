@@ -257,7 +257,7 @@ export default class App extends React.Component {
           interest to be malfeasant for trial v class lest surrendered freedoms
           (EULA) limitations of non-responders. Every hazard is a "victim of
           their own creation," unless you have closed source scripts to
-          racketeer slip & fall.
+          racketeer slip & fall. Isaac Ivalosae, Trentonian.
           <br />
           <br />
           "What is the most important economic factor in determining
