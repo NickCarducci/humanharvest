@@ -187,6 +187,13 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "You can do anything if you put enough money into it," You mean you
+          just take skilled labor from elsewhere, money doesn't actually do it,
+          just raises bid-to-ask for actual labor shortage relative to leaving
+          starups to their "fixed costs," not operational. 'Fixed' have no
+          marginal cost reduction by collective bargain.
+          <br />
+          <br />
           Rassmuson: "Only 1/4 voters don’t trust the elections, but 1/4 of all
           people (non-voters are more than swing! "Gas is a real-world issue."
           <br />
