@@ -239,8 +239,8 @@ export default class App extends React.Component {
           <br />
           <br />
           "color not character," what about slurs?
-          <br />
-          <br />
+          <h1>financials doing well, 1x book</h1>
+          <h2>over my dead body</h2>
           "$130b where did it go?" What about ppp trust stephen "double home
           inflation no way" Moore, 5th best economist in the world? "small biz
           back on their feet, self inflicted wounds," Stephen Forbes, "who is
@@ -250,16 +250,41 @@ export default class App extends React.Component {
           <a href="https://saverparty.xyz">anti-rent-seeking</a>) and it is
           already law to counterfeit in contract: you need to await consumers
           willingness and ability to surrender their own freedoms, not future
-          except in outlay caccount of 1-level board max-profit-royalty. People
-          need security, consistency, just use Tranquility and voluntary trade,
-          homes are still appreased by neighbord's last-trade-value, and should
-          be inclusive of "input costs," not just material, as well with labor,
-          equities and bonds. "Kiddie, non-classroom, science has no
-          precedencial-backing up. We should force education trusts, those
-          teacher union leaders should be in jail." I think the kids working for
-          non-gerontocratic-wealth is self-evidently good for comparative
-          advantage for deflation, durability and retirement and you need to
-          have your tongue cut out.
+          except in outlay caccount of 1-level board max-profit-royalty.
+          <br />
+          <br />
+          <Cable
+            style={{
+              height: "380px"
+            }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/18pLLuQRk8e0J01OEWIhnnpAi7HHk-xX6/preview"
+            }
+            float="right"
+            title="(Newsmax) - Seth Densen & Melissa Armo, 'stock swoosh' giving advice for Visa stock"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          "Processed $13t in transactions." With only $2t checking, and GDP is
+          mutual funds + checking velocity, GDP is fake, $20t is all fraudulent
+          freedoms! You need to await customers to outlay!
+          <br />
+          <br />
+          "People need security, consistency," just use Tranquility and
+          voluntary trade, homes are still appreased by neighbord's
+          last-trade-value, and should be inclusive of "input costs," not just
+          material, as well with labor, equities and bonds. "Kiddie,
+          non-classroom, science has no precedencial-backing up. We should force
+          education trusts, those teacher union leaders should be in jail." I
+          think the kids working for non-gerontocratic-wealth is self-evidently
+          good for comparative advantage for deflation, durability and
+          retirement and you need to have your tongue cut out.
           <br />
           <br />
           <Cable
@@ -365,8 +390,8 @@ export default class App extends React.Component {
           <br />
           Population also doesn’t create scarcity, as proven by nearly-constant
           GDP/p, 1800–1913.
-          <h1>financials doing well, 1x book</h1>
-          <h2>over my dead body</h2>
+          <br />
+          <br />
           "low unemployment rate means good, they are still buying bonds from
           our proflogous, gov never has been confused in being nostraomous." I
           think they just admitted to trading against me as I shorted my
