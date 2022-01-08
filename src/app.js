@@ -234,8 +234,8 @@ export default class App extends React.Component {
           <br />
           Population also doesn’t create scarcity, as proven by nearly-constant
           GDP/p, 1800–1913.
-          <br />
-          <br />
+          <h1>financials doing well, 1x book</h1>
+          <h2>over my dead body</h2>
           "low unemployment rate means good, they are still buying bonds from
           our proflogous, gov never has been confused in being nostraomous." I
           think they just admitted to trading against me as I shorted my
