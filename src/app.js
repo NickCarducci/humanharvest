@@ -192,6 +192,25 @@ export default class App extends React.Component {
           spending.
           <br />
           <br />
+          jury of experts<br/><br/>
+          <Cable
+            style={{
+              height: "380px"
+            }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.dl.dropboxusercontent.com/s/gbsf6bcd3mb5ete/Screen%20Shot%202022-01-08%20at%206.56.35%20PM.png?dl=0"
+            }
+            float="right"
+            title="newsmax.com - 'Dershowitz: Congress, Not Biden, Has Authority on Vaccine Mandates'"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           "Help send packages," is all charities can add, but then, they are
           just gift stewards.
           <br />
