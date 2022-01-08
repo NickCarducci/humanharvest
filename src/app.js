@@ -187,6 +187,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "School arts programs," will be determined its usefullness if paid by
+          parents, not free rider mutable tax. Just let the kids work.
+          <br />
+          <br />
           Jillian Adnerson, Turning Point: "more people died in 2021, than 2020,
           so he should step down himself." the excess deaths grew and 1918 looks
           fake too, how can 20-29 jump up to make up 1918 loss? Doesn't compute,
