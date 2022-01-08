@@ -187,9 +187,59 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Kudlow: “Slow jobs, strong household income,” gerontocracy douche!!!!
+          less jobs and durable (less) trade is literally technological
+          advancement ends. "Virtually no inflation -2%. 20%+/yr by trump ppp
+          trust."
+          <br />
+          <br />
+          "What are the causes of built-in inflation?"
+          <br />
+          Built-in inflation is not true, GDP/p 1800–1913 being nearly constant
+          proves not only that actual consumption is constant but inflation can
+          be zero, population growth (then 3%/yr+) notwithstanding.
+          <br />
+          <br />
+          Inflation otherwise is caused by money, debt (surrendered freedom,
+          EULA, third party donee beneficiary, non-reversed amortization),
+          expiring premiums, implausible landlord use (uncapped 5 units or 30
+          days), free rider mutable tax (untruncated production/sales tax), less
+          working age per person (25–54).
+          <br />
+          <br />
+          ccc,ppp,bbb,market communism free rider mutable tax is supply side!
+          <br />
+          "tax less, get more, jobs or investment, stimulate more, get more,
+          grow the pie larger," share-split? selling out for foreign state
+          lands? People still. "Socialist view has class warfare, give wealth to
+          people already well off." who "taxing rich people for a larger
+          government, hence big government socialism, coined by my friend newt
+          gingrich," that is an oxymoron! "Entitlement middle class plus," those
+          are Savers' surrendered freedom. "Do you want your taxes to go up for
+          more welfare, without work attempts to get the benefits?" Why do you
+          want to allow benefits of surrendered freedoms (EULA, third party
+          donee beneficiary) for work hazards at all? "Legal working-age,
+          actual-labor-shortage, law and order! Disrespects the jury system,"
+          right now it is not industry variable. Government taxing and
+          regulating is socialism," only regulating, not reappropriating actual
+          labor but torts for white collar crimes like counterfeit in contract
+          or government, corporate and gerontocracy rent-seeking. 2/3 are
+          anti-rent-seeking, candidates for this option aren't presented, and
+          this is why my voters don't turn out for debt king trump nor obama.
+          "The emergency economy was over 2021 when deaths were more than 2020.
+          Biden's new approach is big-government socialism, taxing regulating
+          success, not free enterprise, free market capitalism, but
+          big-government socia,lism, massive increase in demand from stimulus,"
+          same consumption of actual durable-goods, materials and services, just
+          supply side MONEY LAUNDERING. "Didn;t need the money because going
+          back to work." The only need was your actual labor shortage landlords,
+          lenders and insurers.
+          <br />
+          <br />
           End user license agreement notwithstanding surrendered freedom is a
           general question because it comes from a place of due diligence poorly
-          when in absense.
+          when in absense. “Can’t expect people to finish at the same time.” He
+          wants to extend the implausible deniability of impossibility
           <br />
           Durable trade is not gdp
           <br />
