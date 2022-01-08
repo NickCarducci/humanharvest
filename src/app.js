@@ -187,9 +187,23 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "I run a company, I can’t hire people, we increase our wages, we are
+          dealing with a supply of workers not coming back to work," 2.8m
+          continuing claims is back to normal. The reason you can't operate
+          isn't the fake pandemic nor vaccines, but because of implausible
+          landlord use input costs, and surrendered freedoms of others by
+          expiration and estimates. 2/3 spending is private. I will pour gold
+          down your throat.
+          <br />
+          <br />
           Economic growth, jobs, in the mid or long term, reality not what he
           says, pension fixed income, do you see an economic recovery? That is
-          forced corporate investment you fucking market commie mark levin.
+          forced corporate investment you fucking market commie mark levin. Hey
+          you paid into the social security system, your entire working life,
+          but the principal amount if value fixxation, not concurrentable price.
+          It is forced investment in equities, market concentration away from
+          your own equity, at fake prices. Mark and Bernie calls this, reality,
+          but accountants are just lying.
           <br />
           <br />
           “Give people what they need to reduce crime and sexual assaults.” You
