@@ -187,6 +187,24 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          
+          <h1>LEADERS DO NOT MAKE JOBS FOR PEOPLE YOU FUCKING FAGGOT, THEY RETIRE THEM</h1>
+          <Cable
+            style={{ height: "360px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                :"https://drive.google.com/file/d/1RZDCfMA4A5EIdywTK_VTfRXmL27sBehr/preview"
+            }
+            float="right"
+            title="Stinchfield (Newsmax) - Gary Rabine"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           "I run a company, I can’t hire people, we increase our wages, we are
           dealing with a supply of workers not coming back to work," 2.8m
           continuing claims is back to normal. The reason you can't operate
