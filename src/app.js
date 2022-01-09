@@ -187,6 +187,15 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          <h1>
+            Dick Morris: "Madonna: 'We are living in a material world,' is like
+            Biden and inflation!"
+          </h1><h2>
+          as printing operte, crisis of confidence as medium of exchange, make
+          something, set a price, no idea if you can get that value or not.
+          incredible.
+          </h2>
+          <br />
           "Do stablecoins really cause inflation?"
           <br />
           A variable coin (without backing or with fractional “inflation,” as if
