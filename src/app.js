@@ -201,7 +201,7 @@ export default class App extends React.Component {
                 : "https://drive.google.com/file/d/13hOrZNwCx3o5hF_fQJsVbENdl3YZzdvI/preview"
             }
             float="left"
-            title="newsmax.com - Mark Hayes"
+            title="newsmax.com - Mark Kaye"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
@@ -210,7 +210,7 @@ export default class App extends React.Component {
           jury of experts - "Mix yourself up a cold cocktail"
           <br />
           <br />
-          Mark Hayes: "There are still people dying for it, you can expect treatment if you
+          Mark Kaye: "There are still people dying for it, you can expect treatment if you
           have shingles, that doesn’t happen in america, not here, not now at
           least."
           <br />
