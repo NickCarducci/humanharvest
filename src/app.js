@@ -187,12 +187,6 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          you can't even say monoclonal antibodies (donated thru government
-          rent-seeking, currency-competitor no script), becasue aggregate deaths
-          still matches mortality to population growth, actually. Grant
-          Stinchfield: "leftists want us all dead, 'fl political leadership over crisis.'"
-          <br />
-          <br />
           radical nation is available anywhere books are 'sold'
           <br />
           <br />
@@ -235,6 +229,22 @@ export default class App extends React.Component {
           change over rate of change... over time has no elasticity of
           population growth, GDP/p per hour just doesn't matter, except for
           deprecation and innovation.
+          <br />
+          <br />
+          "this is a money problem, we know lower class is obese, causing covid
+          vulnerabilities, overweight euro won't overweight afro will." you
+          can't even say monoclonal antibodies (donated thru government
+          rent-seeking, currency-competitor no script, craig stubie: 'doses
+          whenever we need them? Gov have power to decide what state governments
+          need, to make sure people are getting the "treatments."', why does
+          government want licensure over drugs? To prohibit currency
+          competition, no-script? 'I suspect they want to discriminate treatment
+          condemning Trump supporters today,' 'grim reaper is joe biden, 25k
+          doses NY, not "red states."'), becsaue aggregate deaths still matches
+          mortality to population growth, actually. Grant Stinchfield: "leftists
+          want us all dead, 'fl political leadership over crisis.' they own
+          these deaths." There isn't 11/12 scientific consensus, yeast cleaner.
+          "1/2 per 1000 FL to NY."
           <br />
           <br />
           <Cable
