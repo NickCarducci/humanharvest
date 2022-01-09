@@ -187,6 +187,7 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Re: Repo-cycle, kept down payments, Rudy: "don't be sostupid."
           BLS unemployment survey of 60,000 households
           <br />
           <br />
