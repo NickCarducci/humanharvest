@@ -233,14 +233,13 @@ export default class App extends React.Component {
           marijuana because you usually do the other stuff. Prostitution is an
           economic thing, ruins neighborhood.” A lot of the times girls will
           choose to do it because they are drug/rent addicted” I pay up front
-          <br />
-          <br />
-          "we should know WHO in the population is vaccinated," Rudy Giuliani.
-          <br />
-          <br />
-          "more money from unemployment, not hwere at work because being paid by
+          <h1>
+            "we should know WHO in the population is vaccinated," Rudy Giuliani.
+          </h1>
+          <h2>
+          "more money from unemployment, not here at work, because being paid by
           taxes."
-          <br />
+          </h2>
           <br />
           Re: Repo-cycle, kept down payments, Rudy: "don't be sostupid." BLS
           unemployment survey of 60,000 households. If you have awork ethic I'm
@@ -284,16 +283,22 @@ export default class App extends React.Component {
             oncogenesis
           </a>
           .
-          <h2>
+          <h1>
             “If public officials don’t check their own anxieties for sharing
             fear based messaging then we should take a break.”
-          </h2>
-          <h3>
+          </h1>
+          <h2>
             Feel affects decisions, reduce risk for covid by losing weight.
             <br />
             Give partial information range in nuanced behaviors to relay their
             unique risks"
-          </h3>
+          </h2>
+          "Taking pandemic far more seriously than the average,
+          all-eligible-voter persons. meet people where they all when taking
+          about covid, oliver." Dr. McBride: "let it rip, don't protect the
+          vulneratble."
+          <br />
+          <br />
           "Last thing we want to do to have excess injections of
           antibody-invocation (not antibody donations, suppression of placebo or
           warning mechanism). Certainly have a right to own." Dr. Robert Malone
@@ -346,6 +351,8 @@ export default class App extends React.Component {
             scrollTop={this.state.scrollTop}
           />
           jury of experts - "Mix yourself up a cold cocktail"
+          <br/>
+          "It can be done because we did it before, judge!"
           <h2>
             Dr. Maria Ryan: "If we want white collar law to be followed, go
             through the court system. ...We let abuse happen.
