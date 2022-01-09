@@ -187,6 +187,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          natural immunity, military vaccine and all treatments after the excess
+          deaths of a ONE-TIME 78 cohort size WALL.
+          <br />
+          <br />
           radical nation is available anywhere books are 'sold'
           <br />
           <br />
