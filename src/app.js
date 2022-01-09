@@ -192,7 +192,9 @@ export default class App extends React.Component {
           spending.
           <br />
           <br />
-          jury of experts<br/><br/>
+          jury of experts - "Mix yourself up a cold cocktail"
+          <br />
+          <br />
           <Cable
             style={{
               height: "380px"
