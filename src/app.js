@@ -187,6 +187,17 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Peter McCullough, "risks to health against religion, 400/1m expected
+          60/1m, no reason to take on risk."&nbsp;
+          <a href="https://link.springer.com/article/10.1007/s00259-021-05314-2">
+            immunocompromised vaccines are excess antibodies for dysregulated
+            oncogenesis
+          </a>
+          . "Last thing we want to do to have excess injections of
+          antibody-invocation (not antibody donations, suppression of placebo or
+          warning mechanism). Certainly have a right to own."
+          <br />
+          <br />
           natural immunity, military vaccine and all treatments after the excess
           deaths of a ONE-TIME 78 cohort size WALL.&nbsp;
           <a href="https://qr.ae/pG6dSN">Is the economic recovery V-shaped?</a>
