@@ -2547,7 +2547,8 @@ class Spanish extends React.Component {
             /*const thisdecade = popdata.find(
           (x) => x.year - year < 5 && x.year - year > -5
         );*/
-            const val = (d, p = 0 /*1000*/) => Math.round((d / 100000) * p); // *1000);
+            const val = (d, p = 0 /*1000*/, rate = 1) =>
+              Math.round(((d / 100000) * p) / rate); // *1000);
             Object.values(usmortality)[i].forEach((x) => {
               if (frequency(chosenfrequency, 0).includes(x.age)) {
                 mZeroNJDataAge.push([year, chosenRate ? x.pop : x.pop]);
@@ -2574,32 +2575,32 @@ class Spanish extends React.Component {
               } else if (frequency(chosenfrequency, 1).includes(x.age)) {
                 mFiftyNJData.push([
                   year,
-                  chosenRate ? x.pop / 10 : val(x.dx, x.pop)
+                  chosenRate ? val(x.dx, x.pop, 10) : val(x.dx, x.pop)
                 ]);
               } else if (frequency(chosenfrequency, 2).includes(x.age)) {
                 mSixtyFiveNJData.push([
                   year,
-                  chosenRate ? x.pop / 3 : val(x.dx, x.pop)
+                  chosenRate ? val(x.dx, x.pop, 3) : val(x.dx, x.pop)
                 ]);
               } else if (frequency(chosenfrequency, 3).includes(x.age)) {
                 mSeventyFiveNJData.push([
                   year,
-                  chosenRate ? x.pop / 2 : val(x.dx, x.pop)
+                  chosenRate ? val(x.dx, x.pop, 2) : val(x.dx, x.pop)
                 ]);
               } else if (frequency(chosenfrequency, 4).includes(x.age)) {
                 mEightyFiveNJData.push([
                   year,
-                  chosenRate ? x.pop / 2 : val(x.dx, x.pop)
+                  chosenRate ? val(x.dx, x.pop, 2) : val(x.dx, x.pop)
                 ]);
               } else if (frequency(chosenfrequency, 5).includes(x.age)) {
                 mNinetyFiveNJData.push([
                   year,
-                  chosenRate ? x.pop / 2 : val(x.dx, x.pop)
+                  chosenRate ? val(x.dx, x.pop, 2) : val(x.dx, x.pop)
                 ]);
               } else if (frequency(chosenfrequency, 6).includes(x.age)) {
                 mOneTenNJData.push([
                   year,
-                  chosenRate ? x.pop / 4 : val(x.dx, x.pop)
+                  chosenRate ? val(x.dx, x.pop, 4) : val(x.dx, x.pop)
                 ]);
               }
             });
@@ -2851,30 +2852,30 @@ class Spanish extends React.Component {
     ]);
     const mortalZeroNJDataAge = this.state.mortalZeroNJDataAge.map(([x, y]) => [
       ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-      ((y - this.state.lowDeaths) / yaxis) * 150
+      ((y - this.state.lowDeaths) / this.state.cappop) * 150
     ]);
     const mortalFiftyNJDataAge = this.state.mortalFiftyNJDataAge.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
+        ((y - this.state.lowDeaths) / this.state.cappop) * 150
       ]
     );
     const mortalSixtyFiveNJDataAge = this.state.mortalSixtyFiveNJDataAge.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
+        ((y - this.state.lowDeaths) / this.state.cappop) * 150
       ]
     );
     const mortalSeventyFiveNJDataAge = this.state.mortalSeventyFiveNJDataAge.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
+        ((y - this.state.lowDeaths) / this.state.cappop) * 150
       ]
     );
     const mortalEightyFiveNJDataAge = this.state.mortalEightyFiveNJDataAge.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
+        ((y - this.state.lowDeaths) / this.state.cappop) * 150
       ]
     );
     const mortalFiftyNJData = this.state.mortalFiftyNJData.map(([x, y]) => [
@@ -2915,42 +2916,42 @@ class Spanish extends React.Component {
     ]);
     const yearlyZeroNJDataAge = this.state.yearlyZeroNJDataAge.map(([x, y]) => [
       ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-      ((y - this.state.lowDeaths) / yaxis) * 150
+      ((y - this.state.lowDeaths) / this.state.cappop) * 150
     ]);
     const yearlyFiftyNJDataAge = this.state.yearlyFiftyNJDataAge.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
+        ((y - this.state.lowDeaths) / this.state.cappop) * 150
       ]
     );
     const yearlySixtyFiveNJDataAge = this.state.yearlySixtyFiveNJDataAge.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
+        ((y - this.state.lowDeaths) / this.state.cappop) * 150
       ]
     );
     const yearlySeventyFiveNJDataAge = this.state.yearlySeventyFiveNJDataAge.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
+        ((y - this.state.lowDeaths) / this.state.cappop) * 150
       ]
     );
     const yearlyEightyFiveNJDataAge = this.state.yearlyEightyFiveNJDataAge.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
+        ((y - this.state.lowDeaths) / this.state.cappop) * 150
       ]
     );
     const yearlyNinetyFiveNJDataAge = this.state.yearlyNinetyFiveNJDataAge.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
+        ((y - this.state.lowDeaths) / this.state.cappop) * 150
       ]
     );
     const yearlyOneTenNJDataAge = this.state.yearlyOneTenNJDataAge.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
+        ((y - this.state.lowDeaths) / this.state.cappop) * 150
       ]
     );
     const ite = { border: "1px grey dashed", width: "max-content" };
