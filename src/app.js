@@ -247,7 +247,12 @@ export default class App extends React.Component {
             scrollTop={this.state.scrollTop}
           />
           "Help send packages," is all charities can add, but then, they are
-          just gift stewards.
+          just gift stewards. 'Get the money where it needs to go.' 'Build
+          credit history as you and all your customers and employers repay' -
+          NetCredit Surrendered Freedoms of Others&nbsp;
+          <span role="img" aria-label="trademark">
+            ™️
+          </span>
           <br />
           <br />I added a picture for you, the mortality matches population
           growth. “We can only speculate that&nbsp;
