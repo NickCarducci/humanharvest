@@ -189,7 +189,8 @@ export default class App extends React.Component {
           </a>
           "someone who just had covid." The bacteria was in the room! it was
           cooooooooold! You set Italian-americans or semen depleted as a variant
-          of concern. NOOOOOOOOO
+          of concern. NOOOOOOOOO. IT IS NON-EXCLUSIVE, NON-ALL-INCIDENCE
+          ARTIFACT (OF SICKNESS).
           <br />
           <br />
           "I'm not saying I am not guilty, and shouldn't be held to
@@ -237,8 +238,8 @@ export default class App extends React.Component {
             "we should know WHO in the population is vaccinated," Rudy Giuliani.
           </h1>
           <h2>
-          "more money from unemployment, not here at work, because being paid by
-          taxes."
+            "more money from unemployment, not here at work, because being paid
+            by taxes."
           </h2>
           <br />
           Re: Repo-cycle, kept down payments, Rudy: "don't be sostupid." BLS
@@ -351,8 +352,9 @@ export default class App extends React.Component {
             scrollTop={this.state.scrollTop}
           />
           jury of experts - "Mix yourself up a cold cocktail"
-          <br/>
-          "It can be done because we did it before, judge!" "Tipping the scales, when all else fails." Just like Rudy!
+          <br />
+          "It can be done because we did it before, judge!" "Tipping the scales,
+          when all else fails." Just like Rudy!
           <h2>
             Dr. Maria Ryan: "If we want white collar law to be followed, go
             through the court system. ...We let abuse happen.
@@ -1209,6 +1211,9 @@ export default class App extends React.Component {
           is quick for something without customers and if it does have a natural
           market it is useless price inflation for the same input
           cost/intermediate good, from outside the market.
+          <br />
+          <br />
+          "You bet," is a negative sum for you Bub, that isn’t good for anybody.
           <br />
           <br />
           Greg Kelly: "Who is the tech booting? Trump and his supporters, whom
