@@ -187,6 +187,12 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          you can't even say monoclonal antibodies (donated thru government
+          rent-seeking, currency-competitor no script), becasue aggregate deaths
+          still matches mortality to population growth, actually. Grant
+          Stinchfield: "leftists want us all dead, 'fl political leadership over crisis.'"
+          <br />
+          <br />
           radical nation is available anywhere books are 'sold'
           <br />
           <br />
