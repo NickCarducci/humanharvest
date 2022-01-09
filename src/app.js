@@ -283,7 +283,18 @@ export default class App extends React.Component {
             immunocompromised vaccines are excess antibodies for dysregulated
             oncogenesis
           </a>
-          . "Last thing we want to do to have excess injections of
+          .
+          <h2>
+            “If public officials don’t check their own anxieties for sharing
+            fear based messaging then we should take a break.”
+          </h2>
+          <h3>
+            Feel affects decisions, reduce risk for covid by losing weight.
+            <br />
+            Give partial information range in nuanced behaviors to relay their
+            unique risks"
+          </h3>
+          "Last thing we want to do to have excess injections of
           antibody-invocation (not antibody donations, suppression of placebo or
           warning mechanism). Certainly have a right to own." Dr. Robert Malone
           :"this is the same stalinist process, german people french revolution,
