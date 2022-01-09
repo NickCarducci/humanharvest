@@ -255,7 +255,10 @@ export default class App extends React.Component {
           surrendered freedoms (EULA), delayed, laundered and loitered third
           party donee beneficiary claimable. Work for yourself, Vote Saver
           party, account homes, bonds, equities, profits and labor in discounted
-          input costs of living instead of 'real' for GDP/p per hour.
+          input costs of living instead of 'real' for GDP/p per hour. LET ALONE
+          DURESS FOR NET LOSS AND USELESS PRICE INELASTICITY OF UNSETTLED VALUE
+          AS PRICE INSTEAD OF BID-CAPACITY WITHOUT EXPIRIGN NOR ESTIMATED
+          CLAIMS, THIRD PARTY BENEFICIARY by COMPOUND OR GENERAL-FUTURE-INCOME.
           <br />
           <br />
           "monitoring and deciding if you want them to have a vaccine or not.
