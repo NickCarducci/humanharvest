@@ -187,6 +187,9 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          radical nation is available anywhere books are 'sold'
+          <br />
+          <br />
           You can't reproduce unless it is integral to utility too broad, or of
           scientific importance.
           <br />
