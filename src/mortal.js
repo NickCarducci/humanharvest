@@ -5296,7 +5296,193 @@ const yearly = {
     "98": 25075.89588,
     "99": 17534.72592,
     "100": 32476.23784
-  }
+  },
+  "2020": {
+    "20": 3646.114368,
+    "21": 3415.620416,
+    "22": 3344.851328,
+    "23": 3306.984512,
+    "24": 3206.56128,
+    "25": 6264.327225,
+    "26": 6060.058311,
+    "27": 6141.318388,
+    "28": 6407.642002,
+    "29": 6762.315403,
+    "30": 6836.714725,
+    "31": 6468.487188,
+    "32": 6322.857597,
+    "33": 6318.813778,
+    "34": 6424.715729,
+    "35": 10600.39459,
+    "36": 10770.17903,
+    "37": 10736.82139,
+    "38": 10690.95187,
+    "39": 10797.27334,
+    "40": 10866.91101,
+    "41": 10470.05631,
+    "42": 10377.75346,
+    "43": 10233.65999,
+    "44": 9838.368656,
+    "45": 18480.80388,
+    "46": 17657.56477,
+    "47": 16925.32678,
+    "48": 16206.63629,
+    "49": 15650.13205,
+    "50": 15214.83479,
+    "51": 14673.50131,
+    "52": 14422.66227,
+    "53": 14927.72254,
+    "54": 10920.47757,
+    "55": 23482.34174,
+    "56": 22609.37151,
+    "57": 22857.30172,
+    "58": 19657.31939,
+    "59": 17698.60285,
+    "60": 16455.06407,
+    "61": 15173.23423,
+    "62": 14210.17769,
+    "63": 12767.19219,
+    "64": 11839.98915,
+    "65": 22089.75682,
+    "66": 19083.9973,
+    "67": 17722.29245,
+    "68": 16114.35902,
+    "69": 14545.27766,
+    "70": 13157.19562,
+    "71": 11098.01554,
+    "72": 9664.854336,
+    "73": 8152.458096,
+    "74": 6636.40008,
+    "75": 13161.52315,
+    "76": 10313.29697,
+    "77": 7841.972326,
+    "78": 5825.290138,
+    "79": 4290.4423,
+    "80": 2844.889448,
+    "81": 4996.236244,
+    "82": 64932.29582,
+    "83": 57932.1267,
+    "84": 53303.42921,
+    "85": 147724.2914,
+    "86": 126396.2247,
+    "87": 116252.7231,
+    "88": 104472.2142,
+    "89": 93133.37314,
+    "90": 83112.93216,
+    "91": 69057.60162,
+    "92": 59160.82161,
+    "93": 49037.12972,
+    "94": 39122.79106,
+    "95": 31610.53684,
+    "96": 24192.67917,
+    "97": 17970.46106,
+    "98": 12931.72651,
+    "99": 9349.6102,
+    "100": 15730.60661
+  } /*
+  "2020": {
+    /*"0": 6581.08762,
+    "1": 1664.282844,
+    "2": 1125.0833,
+    "3": 909.794032,
+    "4": 711.158919,
+    "5": 652.748096,
+    "6": 618.145857,
+    "7": 584.314185,
+    "8": 532.59162,
+    "9": 517.990836,
+    "10": 521.494144,
+    "11": 549.85419,
+    "12": 613.342642,
+    "13": 692.067044,
+    "14": 803.780736,
+    "15": 931.23016,
+    "16": 1059.532122,
+    "17": 1149.510468,
+    "18": 1218.838101,
+    "19": 1298.80504,*
+    "20": 1359.851036,
+    "21": 1469.12045,
+    "22": 1618.46854,
+    "23": 1816.70762,
+    "24": 2031.197538,
+    "25": 2319.72312,
+    "26": 2646.751891,
+    "27": 2916.02934,
+    "28": 3216.427677,
+    "29": 3481.27704,
+    "30": 3678.484803,
+    "31": 3697.24466,
+    "32": 3720.142464,
+    "33": 3692.438267,
+    "34": 3687.31401,
+    "35": 3676.132781,
+    "36": 3537.556659,
+    "37": 3604.539384,
+    "38": 3647.185432,
+    "39": 3672.244329,
+    "40": 3849.103203,
+    "41": 3727.03635,
+    "42": 3793.501215,
+    "43": 3888.4538,
+    "44": 3919.770996,
+    "45": 4215.24018,
+    "46": 4331.817608,
+    "47": 4749.230675,
+    "48": 5438.43756,
+    "49": 6334.369965,
+    "50": 7138.46952,
+    "51": 7639.237316,
+    "52": 8449.484967,
+    "53": 9539.968914,
+    "54": 10924.82653,
+    "55": 12970.45939,
+    "56": 14725.75659,
+    "57": 16333.35119,
+    "58": 18005.95732,
+    "59": 20052.18051,
+    "60": 22170.89375,
+    "61": 23376.6527,
+    "62": 25306.55674,
+    "63": 27201.40301,
+    "64": 28499.60495,
+    "65": 30727.25928,
+    "66": 30648.73758,
+    "67": 30845.40152,
+    "68": 31219.09237,
+    "69": 32099.43107,
+    "70": 33487.57624,
+    "71": 34922.80606,
+    "72": 37367.68761,
+    "73": 42390.20123,
+    "74": 34148.02177,
+    "75": 37000.14855,
+    "76": 39598.24665,
+    "77": 44691.82406,
+    "78": 43035.41675,
+    "79": 43536.33349,
+    "80": 45579.66645,
+    "81": 47449.48214,
+    "82": 50254.0141,
+    "83": 51043.36612,
+    "84": 53468.25649,
+    "85": 55909.69806,
+    "86": 54269.67454,
+    "87": 56457.02095,
+    "88": 57178.68691,
+    "89": 57200.37628,
+    "90": 56997.88015,
+    "91": 52616.19201,
+    "92": 49909.08366,
+    "93": 45724.50781,
+    "94": 40366.28236,
+    "95": 36208.23397,
+    "96": 30179.18805,
+    "97": 24506.6873,
+    "98": 19208.87965,
+    "99": 15069.3732,
+    "100": 27407.65284
+  }*/
 };
 const yearlypop = {
   "2010": {
@@ -6128,6 +6314,109 @@ const yearlypop = {
     "98": 86150,
     "99": 57124,
     "100": 100322
+  },
+  "2020": {
+    /*"0": 3735010,
+    "1": 3773884,
+    "2": 3853025,
+    "3": 3921526,
+    "4": 4017847,
+    "5": 4054336,
+    "6": 4040169,
+    "7": 4029753,
+    "8": 4034785,
+    "9": 4078668,
+    "10": 4074173,
+    "11": 4072994,
+    "12": 4200977,
+    "13": 4219921,
+    "14": 4186358,
+    "15": 4175920,
+    "16": 4187874,
+    "17": 4164893,
+    "18": 4159857,
+    "19": 4272385,*/
+    "20": 4344572,
+    "21": 4283150,
+    "22": 4293020,
+    "23": 4315220,
+    "24": 4358793,
+    "25": 4461006,
+    "26": 4555511,
+    "27": 4628618,
+    "28": 4751001,
+    "29": 4835107,
+    "30": 4821081,
+    "31": 4627340,
+    "32": 4514736,
+    "33": 4432699,
+    "34": 4442547,
+    "35": 4466747,
+    "36": 4319361,
+    "37": 4374441,
+    "38": 4362662,
+    "39": 4305093,
+    "40": 4378957,
+    "41": 4100150,
+    "42": 4014287,
+    "43": 3967810,
+    "44": 3846684,
+    "45": 3957972,
+    "46": 3826694,
+    "47": 3876923,
+    "48": 4043448,
+    "49": 4265569,
+    "50": 4310670,
+    "51": 4076434,
+    "52": 3983727,
+    "53": 3979962,
+    "54": 4044734,
+    "55": 4277856,
+    "56": 4343881,
+    "57": 4327862,
+    "58": 4306615,
+    "59": 4346885,
+    "60": 4372095,
+    "61": 4208976,
+    "62": 4168433,
+    "63": 4106492,
+    "64": 3944582,
+    "65": 3897420,
+    "66": 3720410,
+    "67": 3562236,
+    "68": 3407082,
+    "69": 3286519,
+    "70": 3192029,
+    "71": 3074732,
+    "72": 3017173,
+    "73": 3117385,
+    "74": 2274412,
+    "75": 2219565,
+    "76": 2130427,
+    "77": 2147097,
+    "78": 1839828,
+    "79": 1649916,
+    "80": 1526957,
+    "81": 1400392,
+    "82": 1303809,
+    "83": 1163249,
+    "84": 1070307,
+    "85": 984343,
+    "86": 842226,
+    "87": 774636,
+    "88": 696138,
+    "89": 620583,
+    "90": 553813,
+    "91": 460157,
+    "92": 394211,
+    "93": 326753,
+    "94": "260690",
+    "95": "210633",
+    "96": "161205",
+    "97": 119744,
+    "98": 86169,
+    "99": 62300,
+    "100": 104819
   }
 };
 const frequency = (chosenfrequency, a, range) => {
@@ -6370,7 +6659,7 @@ class Mortal extends React.Component {
       dates.push(year);
       var yearSet = null;
       Object.keys(usmortality).forEach((y, i) => {
-        if (y - year > -1 && y - year < 5) {
+        if (y - year > -1 && y - year < 6) {
           yearSet = Object.values(usmortality)[i];
         }
       });
@@ -6379,10 +6668,10 @@ class Mortal extends React.Component {
       const ageDec = Object.values(yearly)[i];
       Object.keys(ageDec).forEach((age, i) => {
         const pop = yearSet.find(
-          (y) => y.age.split("-")[1] - age > -1 && y.age.split("-")[1] - age < 5
+          (y) => y.age.split("-")[1] - age > -1 && y.age.split("-")[1] - age < 6
         );
         const deaths = Number(Object.values(ageDec)[i]);
-
+        if (!pop) console.log(age);
         if (!obj[pop.age]) obj[pop.age] = 0;
         if (deaths) obj[pop.age] = obj[pop.age] + deaths; //Math.round(deathprob * (pop.pop / 5) * 1000);
       });
@@ -6671,6 +6960,36 @@ class Mortal extends React.Component {
       ...mortalSeventyFiveNJAge,
       ...mortalEightyFiveNJAge
     );
+    /*Object.keys(yearly).forEach((x) => {
+      Object.keys(yearlypop).forEach((y, n) => {
+        const yearSet = Object.values(yearly)[n];
+        const yearSetPop = Object.values(yearlypop)[n];
+        if (y === x) {
+          /* var total = 0;
+          for (let i = 0; i < 10; i++) {
+            total = total + yearSetPop[75 + i];
+            //console.log(yearSet[75 + i]);
+          }*
+          //console.log(y,x[1] / total, x[1], total);
+          Object.values(yearSet).forEach((e, i) => {
+            const pop = yearSetPop[i];
+            if (
+              [17, 18, 19, 20, 21, 22, 23, 24, 25, 26].includes(
+                Object.values(yearSet).length - i
+              )
+            )
+              ["2018", "2019", "2020"].includes(y) &&
+                console.log(
+                  y,
+                  Object.keys(yearSet)[i],
+                  y === "2020" ? e / (e + pop) : e / pop,
+                  e,
+                  y === "2020" ? e + pop : pop
+                );
+          });
+        }
+      });
+    });*/
     noData.sort((a, b) => a[0] - b[0]);
     mortalZeroNJData.sort((a, b) => a[0] - b[0]);
     mortalZeroNJDataAge.sort((a, b) => a[0] - b[0]);
@@ -6830,7 +7149,8 @@ class Mortal extends React.Component {
             /*const thisdecade = popdata.find(
           (x) => x.year - year < 5 && x.year - year > -5
         );*/
-            const val = (d, p = 1000) => Math.round((d / 100000) * p * 1000);
+            const val = (d, p = 1000, rate = 1) =>
+              Math.round(((d / 100000) * p * 1000) / rate);
             Object.values(usmortality)[i].forEach((x) => {
               if (frequency(chosenfrequency, 0).includes(x.age)) {
                 mZeroNJDataAge.push([
@@ -6861,37 +7181,37 @@ class Mortal extends React.Component {
               if (frequency(chosenfrequency, 0).includes(x.age)) {
                 mZeroNJData.push([
                   year,
-                  chosenRate ? x.pop * 1000 : val(x.dx, x.pop)
+                  chosenRate ? val(x.dx, x.pop, 1) : val(x.dx, x.pop)
                 ]);
               } else if (frequency(chosenfrequency, 1).includes(x.age)) {
                 mFiftyNJData.push([
                   year,
-                  chosenRate ? (x.pop * 1000) / 10 : val(x.dx, x.pop)
+                  chosenRate ? val(x.dx, x.pop, 10) : val(x.dx, x.pop)
                 ]);
               } else if (frequency(chosenfrequency, 2).includes(x.age)) {
                 mSixtyFiveNJData.push([
                   year,
-                  chosenRate ? (x.pop * 1000) / 3 : val(x.dx, x.pop)
+                  chosenRate ? val(x.dx, x.pop, 3) : val(x.dx, x.pop)
                 ]);
               } else if (frequency(chosenfrequency, 3).includes(x.age)) {
                 mSeventyFiveNJData.push([
                   year,
-                  chosenRate ? (x.pop * 1000) / 2 : val(x.dx, x.pop)
+                  chosenRate ? val(x.dx, x.pop, 2) : val(x.dx, x.pop)
                 ]);
               } else if (frequency(chosenfrequency, 4).includes(x.age)) {
                 mEightyFiveNJData.push([
                   year,
-                  chosenRate ? (x.pop * 1000) / 2 : val(x.dx, x.pop)
+                  chosenRate ? val(x.dx, x.pop, 2) : val(x.dx, x.pop)
                 ]);
               } else if (frequency(chosenfrequency, 5).includes(x.age)) {
                 mNinetyFiveNJData.push([
                   year,
-                  chosenRate ? (x.pop * 1000) / 2 : val(x.dx, x.pop)
+                  chosenRate ? val(x.dx, x.pop, 2) : val(x.dx, x.pop)
                 ]);
               } else if (frequency(chosenfrequency, 6).includes(x.age)) {
                 mOneTenNJData.push([
                   year,
-                  chosenRate ? (x.pop * 1000) / 4 : val(x.dx, x.pop)
+                  chosenRate ? val(x.dx, x.pop, 4) : val(x.dx, x.pop)
                 ]);
               }
             });
@@ -6901,7 +7221,7 @@ class Mortal extends React.Component {
             dates.push(year);
             var yearSet = null;
             Object.keys(usmortality).forEach((y, i) => {
-              if (y - year > -1 && y - year < 5) {
+              if (y - year > -1 && y - year < 6) {
                 yearSet = Object.values(usmortality)[i];
               }
             });
@@ -6912,7 +7232,7 @@ class Mortal extends React.Component {
               const pop = yearSet.find(
                 (y) =>
                   y.age.split("-")[1] - age > -1 &&
-                  y.age.split("-")[1] - age < 5
+                  y.age.split("-")[1] - age < 6
               );
               const deaths = Number(Object.values(ageDec)[i]);
               //console.log(deaths);
@@ -7280,30 +7600,30 @@ class Mortal extends React.Component {
     ]);
     const mortalZeroNJDataAge = this.state.mortalZeroNJDataAge.map(([x, y]) => [
       ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-      ((y - this.state.lowDeaths) / yaxis) * 150
+      ((y - this.state.lowDeaths) / this.state.cappop) * 150
     ]);
     const mortalFiftyNJDataAge = this.state.mortalFiftyNJDataAge.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
+        ((y - this.state.lowDeaths) / this.state.cappop) * 150
       ]
     );
     const mortalSixtyFiveNJDataAge = this.state.mortalSixtyFiveNJDataAge.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
+        ((y - this.state.lowDeaths) / this.state.cappop) * 150
       ]
     );
     const mortalSeventyFiveNJDataAge = this.state.mortalSeventyFiveNJDataAge.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
+        ((y - this.state.lowDeaths) / this.state.cappop) * 150
       ]
     );
     const mortalEightyFiveNJDataAge = this.state.mortalEightyFiveNJDataAge.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
+        ((y - this.state.lowDeaths) / this.state.cappop) * 150
       ]
     );
     const mortalZeroNJData = this.state.mortalZeroNJData.map(([x, y]) => [
@@ -7382,47 +7702,47 @@ class Mortal extends React.Component {
     const yearlyOneTenNJData = this.state.yearlyOneTenNJDataAge.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
+        ((y - this.state.lowDeaths) / this.state.cappop) * 150
       ]
     );
     const yearlyZeroNJDataAge = this.state.yearlyZeroNJDataAge.map(([x, y]) => [
       ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-      ((y - this.state.lowDeaths) / yaxis) * 150
+      ((y - this.state.lowDeaths) / this.state.cappop) * 150
     ]);
     const yearlyFiftyNJDataAge = this.state.yearlyFiftyNJDataAge.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
+        ((y - this.state.lowDeaths) / this.state.cappop) * 150
       ]
     );
     const yearlySixtyFiveNJDataAge = this.state.yearlySixtyFiveNJDataAge.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
+        ((y - this.state.lowDeaths) / this.state.cappop) * 150
       ]
     );
     const yearlySeventyFiveNJDataAge = this.state.yearlySeventyFiveNJDataAge.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
+        ((y - this.state.lowDeaths) / this.state.cappop) * 150
       ]
     );
     const yearlyEightyFiveNJDataAge = this.state.yearlyEightyFiveNJDataAge.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
+        ((y - this.state.lowDeaths) / this.state.cappop) * 150
       ]
     );
     const yearlyNinetyFiveNJDataAge = this.state.yearlyNinetyFiveNJDataAge.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
+        ((y - this.state.lowDeaths) / this.state.cappop) * 150
       ]
     );
     const yearlyOneTenNJDataAge = this.state.yearlyOneTenNJDataAge.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
+        ((y - this.state.lowDeaths) / this.state.cappop) * 150
       ]
     );
     const ite = { border: "1px grey dashed", width: "max-content" };
