@@ -232,6 +232,25 @@ export default class App extends React.Component {
           is more important than any prophecy.
           <br />
           <br />
+          "Nurses 2-4x teachers by government entitlements, no cap, congress
+          votes pay each year for teachers when covid was serious issues and a
+          lot of people near retirement or with co-morbidities on time,
+          actually. buckle up guys, you might get sore throat or larangitis,
+          there has always been cold flu, you chose this occupation knowing
+          those risks, you knew it was important to educate our children." Maybe
+          have them trade in the economy and buy condos outright, not keep
+          education behind a paywall, but open source. Trump is for IP hypocrisy
+          with truth social because he wants to ruin all copyright precedence.
+          "Against liberals and regulating wall st (surrendered freedom of
+          others, EULA third party beneficiary donee Savers and co-signatoriers'
+          customers and employers need to WAIT FOR CONSUMERS BEFORE COMPOUNDING
+          MUTUAL FUND OUTLAYS M2 = GDP/V2 per year by fractional reserve in
+          contract, after bashing currency fractional reserve). Require bail
+          bribe before getting out of prison, for the backlog of court case
+          analysis or review is malfeasant malpractice and with juries with only
+          experts with no historical knowledge of the case law space.
+          <br />
+          <br />
           monitoring and deciding if you want them to have a vaccine or not. way
           more viral immunity by opening schools. can't play with another kids,
           anxiety and depression and suicidal thinking. (without suicidal you
