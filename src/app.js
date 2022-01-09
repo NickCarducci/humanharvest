@@ -187,6 +187,36 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "Independent historically valid political entity," Dolan.
+          <br />
+          Religious freedom cannot be purported as evidence
+          <br />
+          <br />
+          "Does the GOP have a platform anymore or is it just grovel at the feet
+          of Trump?"
+          <br />
+          <br />
+          Their platform seems to be melding with Democrats, and 1/3 potential
+          voters agree.
+          <br />
+          • nationalizing bridge/broadband fees is necessary
+          <br />
+          • bailing out landlords, lenders and insurance
+          <br />
+          • real GDP/p per hour is productivity, homes, equities, bonds,
+          profits, nor labor withstanding discount
+          <br />
+          • virion infects call and sewage isn’t negatively correlated with
+          mortality, and positively with the population at 78, now
+          <br />
+          • 40% debt spending and 60% free rider mutable tax for $4t/yr, plus
+          actuary-mortality excess age standardized propaganda (without full
+          information) of cohort size by ppp trust, known-hazard-tort-fraud,
+          expert jury-permits, convictions and desistations, ccc for parent
+          gerontocracy “on the table.”
+          <br />• unrelenting rent-seeking with said malpractice accounting as
+          ignoring input costs of life other than materials (and rents beyond
+          plausible use by 5 units or 30 days)
           <h1>
             Dick Morris: "Madonna: 'We are living in a material world,' is like
             Biden and inflation!"
