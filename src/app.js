@@ -187,6 +187,26 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "Do stablecoins really cause inflation?"
+          <br />
+          A variable coin (without backing or with fractional “inflation,” as if
+          it excludes homes, equities, bonds, profit, and labor) is ostensibly
+          share of the market (ask), but not as much as dollar is state land
+          depositary. So, a stable coin is just that, or easily though of a
+          net-asset-value, or an “sdr,” yet it doesn’t require debt
+          “investment,” as purported to work. In fact, fractional reserve
+          lending can still permeate with RSA-keybox or, “blockchain.”
+          <br />
+          <br />
+          Prices are made in the location market-making/broker by laying a
+          spread of ask-to-bid to entice intrepid investing pioneers, by their
+          labor or coin.
+          <br />
+          <br />
+          Sin sacrifice nor virion injecting DNA into cell I believe hypocrisy
+          is more important than any prophecy.
+          <br />
+          <br />
           monitoring and deciding if you want them to have a vaccine or not. way
           more viral immunity by opening schools. can't play with another kids,
           anxiety and depression and suicidal thinking. (without suicidal you
