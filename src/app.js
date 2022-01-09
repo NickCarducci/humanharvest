@@ -248,16 +248,17 @@ export default class App extends React.Component {
           contract, after bashing currency fractional reserve). Require bail
           bribe before getting out of prison, for the backlog of court case
           analysis or review is malfeasant malpractice and with juries with only
-          experts with no historical knowledge of the case law space.
+          experts with no historical knowledge of the case law space. "Posession
+          is 9/10th everything." Rental income is 20x/millennial to boomer
           <br />
           <br />
-          monitoring and deciding if you want them to have a vaccine or not. way
-          more viral immunity by opening schools. can't play with another kids,
-          anxiety and depression and suicidal thinking. (without suicidal you
-          are activist). No eyeecare, dental expriing claims for pediatrician.
-          interesting lancet study from decreased mobility. kids need to move
-          around in order to be health, they need to play. we can be sure now.
-          Judge Janine: "this crazy post-covid era."
+          "monitoring and deciding if you want them to have a vaccine or not.
+          way more viral immunity by opening schools. can't play with another
+          kids, anxiety and depression and suicidal thinking. (without suicidal
+          you are activist). No eyeecare, dental expriing claims for
+          pediatrician. interesting lancet study from decreased mobility. kids
+          need to move around in order to be health, they need to play. we can
+          be sure now." Judge Janine: "this crazy post-covid era."
           <br />
           "no variant that will come along that will outcompete omicron, outrun
           and milder than delta, 5 to 10m/day, 300m/mo, most of america will
