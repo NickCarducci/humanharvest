@@ -273,8 +273,11 @@ export default class App extends React.Component {
           jury of experts - "Mix yourself up a cold cocktail"
           <h2>
             Dr. Maria Ryan: "If we want white collar law to be followed, go
-            through the court system. ...We let abuse happen."
+            through the court system. ...We let abuse happen.
           </h2>
+          <h3>
+            ...social worker, substance abuse, treatment, not his job. safety?"
+          </h3>
           <br />
           Mark Kaye: "There are still people dying for it, you can expect
           treatment if you have shingles, that doesn’t happen in america, not
