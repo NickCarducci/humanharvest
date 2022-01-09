@@ -190,11 +190,17 @@ export default class App extends React.Component {
           <h1>
             Dick Morris: "Madonna: 'We are living in a material world,' is like
             Biden and inflation!"
-          </h1><h2>
-          as printing operte, crisis of confidence as medium of exchange, make
-          something, set a price, no idea if you can get that value or not.
-          incredible.
+          </h1>
+          <h2>
+            as printing operte, crisis of confidence as medium of exchange, make
+            something, set a price, no idea if you can get that value or not.
+            incredible.
           </h2>
+          "Buy gold 10% premium, gold storage..."
+          <br />
+          "Firms I work with don’t charge for storage," they trade futures and
+          set price.
+          <br />
           <br />
           "Do stablecoins really cause inflation?"
           <br />
@@ -210,6 +216,16 @@ export default class App extends React.Component {
           Prices are made in the location market-making/broker by laying a
           spread of ask-to-bid to entice intrepid investing pioneers, by their
           labor or coin.
+          <br />
+          <br />
+          "Choose not to be vaxxed, might be stupid or precient. ...If you do
+          you know you won't show a deadly form," you do with another
+          indicence-artifact by byproduct not cause.
+          <br />
+          "Without autopsy, doesn't know what issues you have."
+          <br />
+          "100 endorsements who will not go along with america first, IP
+          hypocrisy."
           <br />
           <br />
           Sin sacrifice nor virion injecting DNA into cell I believe hypocrisy
