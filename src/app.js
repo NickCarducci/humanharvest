@@ -187,6 +187,33 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "Why doesn’t the U.S. have a third political party?"
+          <br />
+          There aren’t any anti-rent-seeking candidates because naive policies
+          thus far and possibly due to no interested investors in the gains of
+          comparative advantage over plundering and competing with consumers.
+          <br />
+          <br />
+          * cap rental-income by 5 units or 30 days, not price.
+          <br />
+          * truncate production/sales tax for free rider immutable sewage police
+          lawsuits of industry-variable, non-character nor expert evidence, only
+          vivo lest no jail nor bail.
+          <br />
+          * explicitly ban expiring premiums and estimated claims as surrendered
+          freedoms (EULA, third party donee beneficiary) of co-signatories’
+          customers and employers, as invoices are of Savers’ labor-equity in
+          dollar-lands, share-split.
+          <br />
+          <br />
+          When they are innocent, they don’t take the fifth,” unless the law is
+          criminal.
+          <br />
+          Elected officials, democrats and republicans.
+          <br />
+          Not his job.
+          <br />
+          <br />
           "homes should be counted in inflation."
           <br />
           "certainly we don't want a recession, nothing investors want to have."
@@ -5367,108 +5394,126 @@ export default class App extends React.Component {
           "84": 3820738, 3950578, 3998050
           <br />
           <br />
-          <table className="table">
-            <thead>
-              <tr>
-                <td>2018</td>
-                <td>75</td>
-                <td>76</td>
-                <td>77</td>
-                <td>78</td>
-                <td>79</td>
-                <td>80</td>
-                <td>81</td>
-                <td>82</td>
-                <td>83</td>
-                <td>84</td>
-                <td>2018</td>
-                <td>75</td>
-                <td>76</td>
-                <td>77</td>
-                <td>78</td>
-                <td>79</td>
-                <td>80</td>
-                <td>81</td>
-                <td>82</td>
-                <td>83</td>
-                <td>84</td>
-                <td>2018</td>
-                <td>75</td>
-                <td>76</td>
-                <td>77</td>
-                <td>78</td>
-                <td>79</td>
-                <td>80</td>
-                <td>81</td>
-                <td>82</td>
-                <td>83</td>
-                <td>84</td>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>deathprob</td>
-                {`0.015631835 0.015071298 0.014862741 0.015061867 0.016038357 0.016815564 0.017269514 0.018649415 0.019481562 0.020072681`
-                  .split(" ")
-                  .map((x) => (
-                    <td key={x}>{x}</td>
-                  ))}
-                <td />
-                {`0.014738021 0.016574621 0.01584419 0.015590891 0.015899391 0.016878233 0.017766719 0.018045031 0.019403865 0.020302794`
-                  .split(" ")
-                  .map((x) => (
-                    <td key={x}>{x}</td>
-                  ))}
-                <td />
-                {`0.003067227 0.002368589 0.001808696 0.001350811 0.000986042 0.000650269 0.001185636 0.015338222 0.013911198 0.013332906`
-                  .split(" ")
-                  .map((x) => (
-                    <td key={x}>{x}</td>
-                  ))}
-              </tr>
-              <tr>
-                <td>deaths</td>
-                {`68609.32788 65890.96088 65660.81144 67014.19294 68797.81445 71539.9342 72487.76576 75313.25705 77841.0921 76692.45454`
-                  .split(" ")
-                  .map((x) => (
-                    <td key={x}>{x}</td>
-                  ))}
+          <div style={{ overflowX: "auto" }}>
+            <table className="table">
+              <thead>
+                <tr>
+                  <td>2018</td>
+                  <td>75</td>
+                  <td>76</td>
+                  <td>77</td>
+                  <td>78</td>
+                  <td>79</td>
+                  <td>80</td>
+                  <td>81</td>
+                  <td>82</td>
+                  <td>83</td>
+                  <td>84</td>
+                  <td>2019</td>
+                  <td>75</td>
+                  <td>76</td>
+                  <td>77</td>
+                  <td>78</td>
+                  <td>79</td>
+                  <td>80</td>
+                  <td>81</td>
+                  <td>82</td>
+                  <td>83</td>
+                  <td>84</td>
+                  <td>
+                    <a href="https://www.federalregister.gov/documents/2020/11/12/2020-24723/updated-life-expectancy-and-distribution-period-tables-used-for-purposes-of-determining-minimum#:~:text=Table%204%20to">
+                      2020
+                    </a>
+                  </td>
+                  <td>75</td>
+                  <td>76</td>
+                  <td>77</td>
+                  <td>78</td>
+                  <td>79</td>
+                  <td>80</td>
+                  <td>81</td>
+                  <td>82</td>
+                  <td>83</td>
+                  <td>84</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>deathprob</td>
+                  {`0.015631835 0.015071298 0.014862741 0.015061867 0.016038357 0.016815564 0.017269514 0.018649415 0.019481562 0.020072681`
+                    .split(" ")
+                    .map((x) => (
+                      <td key={x}>{x}</td>
+                    ))}
+                  <td />
+                  {`0.014738021 0.016574621 0.01584419 0.015590891 0.015899391 0.016878233 0.017766719 0.018045031 0.019403865 0.020302794`
+                    .split(" ")
+                    .map((x) => (
+                      <td key={x}>{x}</td>
+                    ))}
+                  <td />
+                  {`0.016670000 0.018587000 0.020815000 0.023391000 0.026387000 0.029850000 0.033883000 0.038544000 0.043880000 0.049956000`
+                    .split(" ")
+                    .map((x) => (
+                      <td key={x}>{x}</td>
+                    ))}
+                  {/*<td />
+                  {`0.003067227 0.002368589 0.001808696 0.001350811 0.000986042 0.000650269 0.001185636 0.015338222 0.013911198 0.013332906`
+                    .split(" ")
+                    .map((x) => (
+                      <td key={x}>{x}</td>
+                    ))*/}
+                </tr>
+                <tr>
+                  <td>deaths</td>
+                  {`68609 65890 65660 67014 68797 71539 72487 75313 77841 76692`
+                    .split(" ")
+                    .map((x) => (
+                      <td key={x}>{x}</td>
+                    ))}
 
-                <td />
-                {`64472.43095 72282.1886 68801.57348 68374.94268 70177.60842 71777.43817 74889.77794 75006.78858 77539.55364 80207.77033`
-                  .split(" ")
-                  .map((x) => (
-                    <td key={x}>{x}</td>
-                  ))}
-                <td />
-                {`13161.52315 10313.29697 7841.972326 5825.290138 4290.4423 2844.889448 4996.236244 64932.29582 57932.1267 53303.42921`
-                  .split(" ")
-                  .map((x) => (
-                    <td key={x}>{x}</td>
-                  ))}
-              </tr>
-              <tr>
-                <td>pop</td>
-                {`4389077 4371950 4417813 4449262 4289580 4254388 4197441 4038371 3995629 3820738`
-                  .split(" ")
-                  .map((x) => (
-                    <td key={x}>{x}</td>
-                  ))}
-                <td />
-                {`4374565 4361016 4342385 4385570 4413855 4252663 4215172 4156645 3996088 3950578`
-                  .split(" ")
-                  .map((x) => (
-                    <td key={x}>{x}</td>
-                  ))}
-                <td />
-                {`4291017.523 4354194.297 4335703.972 4312440.29 4351175.442 4374939.889 4213972.236 4233365.296 4164424.127 3997885.429`
-                  .split(" ")
-                  .map((x) => (
-                    <td key={x}>{x}</td>
-                  ))}
-              </tr>
-            </tbody>
-          </table>
+                  <td />
+                  {`64472 72282 68801 68374 70177 71777 74889 75006 77539 80207`
+                    .split(" ")
+                    .map((x) => (
+                      <td key={x}>{x}</td>
+                    ))}
+                  <td />
+                  {`71531 80931 90247 100872 114814 129785 142782 163170 182734 199718`
+                    .split(" ")
+                    .map((x) => (
+                      <td key={x}>{x}</td>
+                    ))}
+                  {/*<td />
+                  {`13161 10313 7841 5825 4290 2844 4996 64932 57932 53303`
+                    .split(" ")
+                    .map((x) => (
+                      <td key={x}>{x}</td>
+                    ))*/}
+                </tr>
+                <tr>
+                  <td>pop</td>
+                  {`4389077 4371950 4417813 4449262 4289580 4254388 4197441 4038371 3995629 3820738`
+                    .split(" ")
+                    .map((x) => (
+                      <td key={x}>{x}</td>
+                    ))}
+                  <td />
+                  {`4374565 4361016 4342385 4385570 4413855 4252663 4215172 4156645 3996088 3950578`
+                    .split(" ")
+                    .map((x) => (
+                      <td key={x}>{x}</td>
+                    ))}
+                  <td />
+                  {`4291017 4354194 4335703 4312440 4351175 4347939 4213972 4233365 4164424 3997885`
+                    .split(" ")
+                    .map((x) => (
+                      <td key={x}>{x}</td>
+                    ))}
+                </tr>
+              </tbody>
+            </table>
+          </div>
           {/*"75": 13161.52315,
       "76": 10313.29697,
       "77": 7841.972326,
