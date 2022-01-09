@@ -2520,7 +2520,7 @@ class Worldwide extends React.Component {
     let mOneTenNJData = [];
     let avgLifetime = {};
     const numer = (d) => Number(String(d).replaceAll(",", ""));
-    const val = (d, p = 1000) => numer(d) * 1000 * p;
+    const val = (d, p = 1000) => numer(d) * p;
     // Math.round((numer(d) / 100000) * numer(p) );
     Object.keys(worldwide).forEach((yearSet, i) => {
       const year = yearSet; //Number(yearSet.split("-")[1]);
@@ -2534,7 +2534,8 @@ class Worldwide extends React.Component {
           length: avgLifetime[x.age].length + 1,
           total:
             avgLifetime[x.age].total +
-            val(x.deaths) /*val(x.deaths, popp))*/ / avgLifetime[x.age].total
+            numer(x.deaths) /*numer(x.deaths, popp))*/ /
+              avgLifetime[x.age].total
         };
         avgLifetime[x.age] = state;
       });
@@ -2555,7 +2556,7 @@ class Worldwide extends React.Component {
       Object.values(worldwide)[i].forEach((x) => {
         const pop = numer(popdata[year].find((y) => y.age === x.age).pop);
         if (x.age === "0-4") {
-          mZeroNJData.push([year, val(x.deaths, pop)]);
+          mZeroNJData.push([year, numer(x.deaths)]);
           mZeroNJDataAge.push([year, pop]);
         } else if (
           x.age === "5-9" ||
@@ -2568,30 +2569,30 @@ class Worldwide extends React.Component {
           x.age === "40-44" ||
           x.age === "45-49"
         ) {
-          mFiftyNJData.push([year, val(x.deaths, pop)]);
+          mFiftyNJData.push([year, numer(x.deaths)]);
           mFiftyNJDataAge.push([year, pop]);
         } else if (
           x.age === "50-54" ||
           x.age === "55-59" ||
           x.age === "60-64"
         ) {
-          mSixtyFiveNJData.push([year, val(x.deaths, pop)]);
+          mSixtyFiveNJData.push([year, numer(x.deaths)]);
           mSixtyFiveNJDataAge.push([year, pop]);
         } else if (x.age === "65-69" || x.age === "70-74") {
-          mSeventyFiveNJData.push([year, val(x.deaths, pop)]);
+          mSeventyFiveNJData.push([year, numer(x.deaths)]);
           mSeventyFiveNJDataAge.push([year, pop]);
         } else if (x.age === "75-79" || x.age === "80-84") {
-          mEightyFiveNJData.push([year, val(x.deaths, pop)]);
+          mEightyFiveNJData.push([year, numer(x.deaths)]);
           mEightyFiveNJDataAge.push([year, pop]);
         } else if (x.age === "85-89" || x.age === "90-94") {
-          mNinetyFiveNJData.push([year, val(x.deaths, pop)]);
+          mNinetyFiveNJData.push([year, numer(x.deaths)]);
         } else if (
           x.age === "95" ||
           x.age === "100-104" ||
           x.age === "105-109" ||
           x.age === "110"
         ) {
-          mOneTenNJData.push([year, val(x.deaths, pop)]);
+          mOneTenNJData.push([year, numer(x.deaths)]);
         }
       });
     });
@@ -2790,7 +2791,7 @@ class Worldwide extends React.Component {
           (x) => x.year - year < 5 && x.year - year > -5
         );*/
             const numer = (d) => Number(String(d).replaceAll(",", ""));
-            const val = (d, p = 1000, rate = 1) => (numer(d) * p * 1000) / rate;
+            const val = (d, p = 0, rate = 1) => (numer(d) * p) / rate;
             // Math.round((numer(d) / 100000) * numer(p) );
             Object.values(worldwide)[i].forEach((x) => {
               const popp = numer(
@@ -2813,37 +2814,37 @@ class Worldwide extends React.Component {
               if (frequency(chosenfrequency, 0).includes(x.age)) {
                 mZeroNJData.push([
                   year,
-                  chosenRate ? val(x.deaths, popp) : val(x.deaths, popp)
+                  chosenRate ? numer(x.deaths) : numer(x.deaths)
                 ]);
               } else if (frequency(chosenfrequency, 1).includes(x.age)) {
                 mFiftyNJData.push([
                   year,
-                  chosenRate ? val(x.deaths, popp, 10) : val(x.deaths, popp)
+                  chosenRate ? numer(x.deaths) / 10 : numer(x.deaths)
                 ]);
               } else if (frequency(chosenfrequency, 2).includes(x.age)) {
                 mSixtyFiveNJData.push([
                   year,
-                  chosenRate ? val(x.deaths, popp, 3) : val(x.deaths, popp)
+                  chosenRate ? numer(x.deaths) / 3 : numer(x.deaths)
                 ]);
               } else if (frequency(chosenfrequency, 3).includes(x.age)) {
                 mSeventyFiveNJData.push([
                   year,
-                  chosenRate ? val(x.deaths, popp, 2) : val(x.deaths, popp)
+                  chosenRate ? numer(x.deaths) / 2 : numer(x.deaths)
                 ]);
               } else if (frequency(chosenfrequency, 4).includes(x.age)) {
                 mEightyFiveNJData.push([
                   year,
-                  chosenRate ? val(x.deaths, popp, 2) : val(x.deaths, popp)
+                  chosenRate ? numer(x.deaths) / 2 : numer(x.deaths)
                 ]);
               } else if (frequency(chosenfrequency, 5).includes(x.age)) {
                 mNinetyFiveNJData.push([
                   year,
-                  chosenRate ? val(x.deaths, popp, 2) : val(x.deaths, popp)
+                  chosenRate ? numer(x.deaths) / 2 : numer(x.deaths)
                 ]);
               } else if (frequency(chosenfrequency, 6).includes(x.age)) {
                 mOneTenNJData.push([
                   year,
-                  chosenRate ? val(x.deaths, popp, 4) : val(x.deaths, popp)
+                  chosenRate ? numer(x.deaths) / 4 : numer(x.deaths)
                 ]);
               }
             });
@@ -2989,10 +2990,6 @@ class Worldwide extends React.Component {
       ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
       0
     ]);
-    const mortalZeroNJData = this.state.mortalZeroNJData.map(([x, y]) => [
-      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-      ((y - this.state.lowDeaths) / yaxis) * 150
-    ]);
     const mortalZeroNJDataAge = this.state.mortalZeroNJDataAge.map(([x, y]) => [
       ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
       ((y - this.state.lowDeaths) / this.state.cappop) * 150
@@ -3021,6 +3018,10 @@ class Worldwide extends React.Component {
         ((y - this.state.lowDeaths) / this.state.cappop) * 150
       ]
     );
+    const mortalZeroNJData = this.state.mortalZeroNJData.map(([x, y]) => [
+      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
+      ((y - this.state.lowDeaths) / yaxis) * 150
+    ]);
     const mortalFiftyNJData = this.state.mortalFiftyNJData.map(([x, y]) => [
       ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
       ((y - this.state.lowDeaths) / yaxis) * 150
