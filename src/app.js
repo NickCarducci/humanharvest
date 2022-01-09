@@ -249,7 +249,13 @@ export default class App extends React.Component {
           bribe before getting out of prison, for the backlog of court case
           analysis or review is malfeasant malpractice and with juries with only
           experts with no historical knowledge of the case law space. "Posession
-          is 9/10th everything." Rental income is 20x/millennial to boomer
+          is 9/10th everything." Rental income is 20x/millennial to boomer.
+          "Literally making laws that make it impossible to win elections in
+          NY," like repo-cycle kept down payments implausible deniability of
+          surrendered freedoms (EULA), delayed, laundered and loitered third
+          party donee beneficiary claimable. Work for yourself, Vote Saver
+          party, account homes, bonds, equities, profits and labor in discounted
+          input costs of living instead of 'real' for GDP/p per hour.
           <br />
           <br />
           "monitoring and deciding if you want them to have a vaccine or not.
