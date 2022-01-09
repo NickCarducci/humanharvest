@@ -187,6 +187,14 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "homes should be counted in inflation."
+          <br />
+          "certainly we don't want a recession, nothing investors want to have."
+          2 years of falling GDP/p of hour, certainly not. But you are only
+          keeping at zero, not making productive gains as input costs inclusive
+          of euities (market-share and profit account collective-flaccid-loss.)
+          <br />
+          <br />
           "Independent historically valid political entity," Dolan.
           <br />
           Religious freedom cannot be purported as evidence
