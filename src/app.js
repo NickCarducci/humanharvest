@@ -187,6 +187,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          You can't reproduce unless it is integral to utility too broad, or of
+          scientific importance.
+          <br />
+          <br />
           Trumps' president's truth social is exactly what China was doing to
           USPTO that triggered his trade-war. He still pays bonds with 40% debt
           spending.
@@ -11446,4 +11450,3 @@ export default class App extends React.Component {
     );
   }
 }
-
