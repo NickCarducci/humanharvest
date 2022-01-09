@@ -192,7 +192,27 @@ export default class App extends React.Component {
           spending.
           <br />
           <br />
+          <Cable
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/13hOrZNwCx3o5hF_fQJsVbENdl3YZzdvI/preview"
+            }
+            float="left"
+            title="newsmax.com - Mark Hayes"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           jury of experts - "Mix yourself up a cold cocktail"
+          <br />
+          <br />
+          Mark Hayes: "There are still people dying for it, you can expect treatment if you
+          have shingles, that doesn’t happen in america, not here, not now at
+          least."
           <br />
           <br />
           <Cable
