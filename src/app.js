@@ -187,6 +187,11 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "someone who just had covid." The bacteria was in the room! it was
+          cooooooooold! You set Italian-americans or semen depleted as a variant
+          of concern. NOOOOOOOOO
+          <br />
+          <br />
           "I'm not saying I am not guilty, and shouldn't be held to
           policy-crimes, Things I could have done right, things I could have
           done better to solve those problems." *Salutes
@@ -204,8 +209,8 @@ export default class App extends React.Component {
           example." Or, provide all options, even respect abstainers for their
           power of NOT VOTING. 10 years in the company is history you cannot
           throw away, there’s intent/nomen there, Johnny! "Social impact in
-          others' freedoms, surrendered, lest ressurected, is important for us to
-          control." ONLY IF YOU PAY THEM, bitch! "Why is it so hard to be
+          others' freedoms, surrendered, lest ressurected, is important for us
+          to control." ONLY IF YOU PAY THEM, bitch! "Why is it so hard to be
           disuede beliefs that are already upshot? We find out with a
           literal-fucking cult member next, on CNN."
           <h1>you want to kill people in jail? that is what you wanna do?</h1>
