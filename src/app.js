@@ -259,6 +259,19 @@ export default class App extends React.Component {
           DURESS FOR NET LOSS AND USELESS PRICE INELASTICITY OF UNSETTLED VALUE
           AS PRICE INSTEAD OF BID-CAPACITY WITHOUT EXPIRIGN NOR ESTIMATED
           CLAIMS, THIRD PARTY BENEFICIARY by COMPOUND OR GENERAL-FUTURE-INCOME.
+          <h1>FUCKING NATIONALIST BIPARTISANS, RETARDED</h1>
+          If we hold for trial no decent sentence because mandatory sentence was
+          appealed. By 34k ornaments, handcuffs on cops themselves, not white
+          collar criminals and robbers, withheld by Brags to prosecute," for
+          state victimized unbound Article 4 scope tax free rider immutable as
+          paid by consumers, before they get arrested, with interest to have
+          business by taking costs, not 40% debt spending. Drugs, violence, and
+          terrorists for Islamic banking, non-treason of debt service, free
+          rider mutable tax rent-seeking for said future income by Savers 40%
+          compounded = 99% amortized, 1% taxpayer. "Military throw out
+          Reagan/Nixon wipeout," they are working age, we need them to make up
+          the rental-income/capital gains of forced social security corporate
+          investment of boomers.
           <br />
           <br />
           "monitoring and deciding if you want them to have a vaccine or not.
