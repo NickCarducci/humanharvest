@@ -3166,7 +3166,7 @@ class Worldwide extends React.Component {
             <div>
               -&nbsp;
               <br />
-              {shortNumber(Math.round(this.state.highDeaths /*/5 */))}
+              {shortNumber(Math.round(this.state.highDeaths * 1000 /*/5 */))}
             </div>
             <div
               style={{
