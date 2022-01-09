@@ -2960,6 +2960,7 @@ class Worldwide extends React.Component {
             date,
             cappop,
             mortalZeroNJData,
+            mortalZeroNJDataAge,
             mortalFiftyNJDataAge,
             mortalSixtyFiveNJDataAge,
             mortalSeventyFiveNJDataAge,
