@@ -187,7 +187,22 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          Judge Janine: "this crazy post-covid era."<br/><br/>
+          monitoring and deciding if you want them to have a vaccine or not. way
+          more viral immunity by opening schools. can't play with another kids,
+          anxiety and depression and suicidal thinking. (without suicidal you
+          are activist). No eyeecare, dental expriing claims for pediatrician.
+          interesting lancet study from decreased mobility. kids need to move
+          around in order to be health, they need to play. we can be sure now.
+          Judge Janine: "this crazy post-covid era."
+          <br />
+          "no variant that will come along that will outcompete omicron, outrun
+          and milder than delta, 5 to 10m/day, 300m/mo, most of america will
+          have much more antibodies and see a seasonal thing."
+          <br />
+          You can see population single annual is positively correlates with
+          mortality.
+          <br />
+          <br />
           "someone who just had covid." The bacteria was in the room! it was
           cooooooooold! You set Italian-americans or semen depleted as a variant
           of concern. NOOOOOOOOO. IT IS NON-EXCLUSIVE, NON-ALL-INCIDENCE
