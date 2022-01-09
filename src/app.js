@@ -298,7 +298,7 @@ export default class App extends React.Component {
           just non-exclusive garbage collection, warning mechanism or placebo,
           certainly mRNA-sporing grafts EXCESS DYSREGULATED ANTIBODIES TO
           HAIRCUT YOUR CELL THAT IS FROM MRNA BACTERIA INFECTION NEVER VIRION
-          INJECTION OF DNA INTO CELL.
+          INJECTION OF DNA INTO CELL. "Improving the lives of others with good healthcare."
           <br />
           Mark Kaye: "There are still people dying for it, you can expect
           treatment if you have shingles, that doesn’t happen in america, not
