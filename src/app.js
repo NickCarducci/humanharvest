@@ -187,6 +187,11 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "I'm not saying I am not guilty, and shouldn't be held to
+          policy-crimes, Things I could have done right, things I could have
+          done better to solve those problems." *Salutes
+          <br />
+          <br />
           "Tax relief how will they spent the billions! Government watchdogs
           want to spend the funds on government watchdogs in catastrophe, if
           covid picks up"
