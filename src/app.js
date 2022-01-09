@@ -187,6 +187,9 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "Tax relief how will they spent the billions! Government watchdogs
+          want to spend the funds on government watchdogs in catastrophe, if
+          covid picks up"
           <h1>you want to kill people in jail? that is what you wanna do?</h1>
           '...substance abuse, and have an issue with it, it doesn't only hurt
           themselves because they take your money, right?"
