@@ -200,7 +200,15 @@ export default class App extends React.Component {
           have much more antibodies and see a seasonal thing."
           <br />
           You can see population single annual is positively correlates with
-          mortality.
+          mortality. "too incompetent to order tests for tax-paying americans,
+          law-abiding citizens." 40% debt spending on a free rider mutable test?
+          No reason within Article 4 but for 40% debt spending TREASON. OFF WITH
+          YOUR HEAD JUDGE. "millions on public schools, but you lazy asses don't
+          want to teach, but go to a bar without a mask? you are lazy, our kids
+          are suffering with mental health, bad habits, drugs, gangs, whatever,
+          depression, suicide, my butt it is not safe enough, go to the
+          classroom or WE won't pay you." SAVERS PAY COMPOUNDED 40% and 60% free
+          rider mutable useless operational-cost rent-seeking.
           <br />
           <br />
           "someone who just had covid." The bacteria was in the room! it was
