@@ -187,17 +187,21 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          <h1>you want to kill people in jail? that is what you wanna do?</h1>
           '...substance abuse, and have an issue with it, it doesn't only hurt
-          themselves because they take your money, right?" 
-          <br/>"city-wide wipe out
-          drugs, cannot reduce crime without going after 50-60%." 
-          <br/>"tough love,
-          try to stop them, if you love homeless, get them off the streets." 
-          <br/>"a
-          man tried to sell me a child, so there drugs is a problem, they will
-          dry out in jail." 
-          <br/>"victimless crime system is [market-]communism. roage
-          of morals in society will take it over."
+          themselves because they take your money, right?"
+          <br />
+          "city-wide wipe out drugs, cannot reduce crime without going after
+          50-60%."
+          <br />
+          "tough love, try to stop them, if you love homeless, get them off the
+          streets."
+          <br />
+          "a man tried to sell me a child, so there drugs is a problem, they
+          will dry out in jail."
+          <br />
+          "victimless crime system is [market-]communism. roage of morals in
+          society will take it over."
           <br />
           No victim of crime, hurting themselves? “maybe a big dealer of
           marijuana because you usually do the other stuff. Prostitution is an
