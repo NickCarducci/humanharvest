@@ -187,6 +187,24 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          '...substance abuse, and have an issue with it, it doesn't only hurt
+          themselves because they take your money, right?" 
+          <br/>"city-wide wipe out
+          drugs, cannot reduce crime without going after 50-60%." 
+          <br/>"tough love,
+          try to stop them, if you love homeless, get them off the streets." 
+          <br/>"a
+          man tried to sell me a child, so there drugs is a problem, they will
+          dry out in jail." 
+          <br/>"victimless crime system is [market-]communism. roage
+          of morals in society will take it over."
+          <br />
+          No victim of crime, hurting themselves? “maybe a big dealer of
+          marijuana because you usually do the other stuff. Prostitution is an
+          economic thing, ruins neighborhood.” A lot of the times girls will
+          choose to do it because they are drug/rent addicted” I pay up front
+          <br />
+          <br />
           "we should know WHO in the population is vaccinated," Rudy Giuliani.
           <br />
           <br />
@@ -298,7 +316,8 @@ export default class App extends React.Component {
           just non-exclusive garbage collection, warning mechanism or placebo,
           certainly mRNA-sporing grafts EXCESS DYSREGULATED ANTIBODIES TO
           HAIRCUT YOUR CELL THAT IS FROM MRNA BACTERIA INFECTION NEVER VIRION
-          INJECTION OF DNA INTO CELL. "Improving the lives of others with good healthcare."
+          INJECTION OF DNA INTO CELL. "Improving the lives of others with good
+          healthcare."
           <br />
           Mark Kaye: "There are still people dying for it, you can expect
           treatment if you have shingles, that doesn’t happen in america, not
