@@ -352,7 +352,7 @@ export default class App extends React.Component {
           />
           jury of experts - "Mix yourself up a cold cocktail"
           <br/>
-          "It can be done because we did it before, judge!"
+          "It can be done because we did it before, judge!" "Tipping the scales, when all else fails." Just like Rudy!
           <h2>
             Dr. Maria Ryan: "If we want white collar law to be followed, go
             through the court system. ...We let abuse happen.
