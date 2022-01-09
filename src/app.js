@@ -210,9 +210,18 @@ export default class App extends React.Component {
           jury of experts - "Mix yourself up a cold cocktail"
           <br />
           <br />
-          Mark Kaye: "There are still people dying for it, you can expect treatment if you
-          have shingles, that doesn’t happen in america, not here, not now at
-          least."
+          Mark Kaye: "There are still people dying for it, you can expect
+          treatment if you have shingles, that doesn’t happen in america, not
+          here, not now at least. ... cases are much, much milder than delta and
+          the other variants. Buiklding up DFeSantis, 'undo all the damage
+          ggoing to to,' say FL get vaxxed, not mandate, treat so they don't
+          have to go to hospital to work to pay for food and a roof over your
+          head. Treating covid rather than prevented it? 'G-d, how did that guy
+          ever get elected?'" to pre-prop Trump/Desantis ticket 2024,
+          obfuscating the integral basis, not even overwhelming partial rate of
+          change over rate of change... over time has no elasticity of
+          population growth, GDP/p per hour just doesn't matter, except for
+          deprecation and innovation.
           <br />
           <br />
           <Cable
@@ -11437,3 +11446,4 @@ export default class App extends React.Component {
     );
   }
 }
+
