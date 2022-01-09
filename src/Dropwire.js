@@ -18,7 +18,13 @@ import ExecutionEnvironment from "exenv";
 class Cable extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { limit: [], cache: null, mountsCount: 0, cacheStyle: "" };
+    this.state = {
+      limit: [],
+      cache: null,
+      mountsCount: 0,
+      cacheStyle: "",
+      framewidth: 200
+    };
     this.page = React.createRef();
     this.fwdtwe = React.createRef();
   }
@@ -102,7 +108,7 @@ class Cable extends React.Component {
           continuee.remove();
           return (page.innerHTML = "");
           // this.setState({ mount: false });
-        } else {
+        } else if (page.innerHTML === "") {
           const children = [...page.children];
           if (
             cache &&
