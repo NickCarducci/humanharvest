@@ -187,8 +187,13 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          Re: Repo-cycle, kept down payments, Rudy: "don't be sostupid."
-          BLS unemployment survey of 60,000 households
+          Re: Repo-cycle, kept down payments, Rudy: "don't be sostupid." BLS
+          unemployment survey of 60,000 households. If you have awork ethic I'm
+          going to put you to work, idiot. We have so many jobs, no one should
+          be on welfare.&nbsp;
+          <a href="https://www.google.com/search?q=percent+of+population+disabled">
+            85% is the maximum for 19% have a disability
+          </a>
           <br />
           <br />
           <Cable
