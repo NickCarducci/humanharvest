@@ -187,6 +187,13 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "we should know WHO in the population is vaccinated," Rudy Giuliani.
+          <br />
+          <br />
+          "more money from unemployment, not hwere at work because being paid by
+          taxes."
+          <br />
+          <br />
           Re: Repo-cycle, kept down payments, Rudy: "don't be sostupid." BLS
           unemployment survey of 60,000 households. If you have awork ethic I'm
           going to put you to work, idiot. We have so many jobs, no one should
@@ -287,6 +294,11 @@ export default class App extends React.Component {
           <h3>
             ...social worker, substance abuse, treatment, not his job. safety?"
           </h3>
+          Obese over 65+ or co-morbidities. How long antibodies last." That is
+          just non-exclusive garbage collection, warning mechanism or placebo,
+          certainly mRNA-sporing grafts EXCESS DYSREGULATED ANTIBODIES TO
+          HAIRCUT YOUR CELL THAT IS FROM MRNA BACTERIA INFECTION NEVER VIRION
+          INJECTION OF DNA INTO CELL.
           <br />
           Mark Kaye: "There are still people dying for it, you can expect
           treatment if you have shingles, that doesn’t happen in america, not
