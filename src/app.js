@@ -195,7 +195,21 @@ export default class App extends React.Component {
           </a>
           . "Last thing we want to do to have excess injections of
           antibody-invocation (not antibody donations, suppression of placebo or
-          warning mechanism). Certainly have a right to own."
+          warning mechanism). Certainly have a right to own." Dr. Robert Malone
+          :"this is the same stalinist process, german people french revolution,
+          socrates, confronted by jesus, full knowledge of crucifixion. only one
+          JEsus Christ, we are not it." That's all he said, never that he would
+          cleanse sins by sacrifice, merely blessings and anti-userer rants.
+          mark of beast is exclusion from markets. Etymologically,
+          reappropriating labor-equity, gentrification and rent-seeking isn’t
+          ‘socialism’ but ‘market-communism.’ Marx was negative on the
+          credit-cycle, by any trust, be it government, corporation, or
+          castigations as wee are seeing versus youth by ppp, bbb and ccc, and
+          died before being co-opted by genocide-purveyors and Mises. However,
+          get this, 15m and 3m were the expected excess deaths during China and
+          Russian famines, the same phenomenon that has happened with
+          coronavirus, where the excess deaths match population growth of 78
+          year olds.
           <br />
           <br />
           natural immunity, military vaccine and all treatments after the excess
@@ -236,7 +250,7 @@ export default class App extends React.Component {
           Mark Kaye: "There are still people dying for it, you can expect
           treatment if you have shingles, that doesn’t happen in america, not
           here, not now at least. ... cases are much, much milder than delta and
-          the other variants. Buiklding up DFeSantis, 'undo all the damage
+          the other variants. Buiklding up DeSantis, 'undo all the damage
           ggoing to to,' say FL get vaxxed, not mandate, treat so they don't
           have to go to hospital to work to pay for food and a roof over your
           head. Treating covid rather than prevented it? 'G-d, how did that guy
