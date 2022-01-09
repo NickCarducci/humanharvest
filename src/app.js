@@ -187,6 +187,32 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          <Cable
+            style={{
+              height: "380px"
+            }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1lVV6CdrHQQLpevS5EJDtixYauHn2LukR/preview"
+            }
+            float="left"
+            title="newsmax.com - Michael Wood and Christian Troffei, CFO CEO Sonar"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          <h2>keybox tools</h2>
+          Lending tools, secure, on the blockchain. Understand what is going on.
+          Another conversation.
+          <br />
+          It’s a binary, friend or foe script, screenshooting everyone to pass
+          my Screen.
+          <br />
+          <br />
           Peter McCullough, "risks to health against religion, 400/1m expected
           60/1m, no reason to take on risk."&nbsp;
           <a href="https://link.springer.com/article/10.1007/s00259-021-05314-2">
@@ -245,20 +271,22 @@ export default class App extends React.Component {
             scrollTop={this.state.scrollTop}
           />
           jury of experts - "Mix yourself up a cold cocktail"
-          <br />
+          <h2>
+            Dr. Maria Ryan: "If we want white collar law to be followed, go
+            through the court system. ...We let abuse happen."
+          </h2>
           <br />
           Mark Kaye: "There are still people dying for it, you can expect
           treatment if you have shingles, that doesn’t happen in america, not
           here, not now at least. ... cases are much, much milder than delta and
-          the other variants. Buiklding up DeSantis, 'undo all the damage
-          ggoing to to,' say FL get vaxxed, not mandate, treat so they don't
-          have to go to hospital to work to pay for food and a roof over your
-          head. Treating covid rather than prevented it? 'G-d, how did that guy
-          ever get elected?'" to pre-prop Trump/Desantis ticket 2024,
-          obfuscating the integral basis, not even overwhelming partial rate of
-          change over rate of change... over time has no elasticity of
-          population growth, GDP/p per hour just doesn't matter, except for
-          deprecation and innovation.
+          the other variants. Buiklding up DeSantis, 'undo all the damage ggoing
+          to to,' say FL get vaxxed, not mandate, treat so they don't have to go
+          to hospital to work to pay for food and a roof over your head.
+          Treating covid rather than prevented it? 'G-d, how did that guy ever
+          get elected?'" to pre-prop Trump/Desantis ticket 2024, obfuscating the
+          integral basis, not even overwhelming partial rate of change over rate
+          of change... over time has no elasticity of population growth, GDP/p
+          per hour just doesn't matter, except for deprecation and innovation.
           <br />
           <br />
           "this is a money problem, we know lower class is obese, causing covid
