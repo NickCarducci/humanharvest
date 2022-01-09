@@ -188,7 +188,8 @@ export default class App extends React.Component {
             2052.live
           </a>
           natural immunity, military vaccine and all treatments after the excess
-          deaths of a ONE-TIME 78 cohort size WALL.
+          deaths of a ONE-TIME 78 cohort size WALL.&nbsp;
+          <a href="https://qr.ae/pG6dSN">Is the economic recovery V-shaped?</a>
           <br />
           <br />
           radical nation is available anywhere books are 'sold'
