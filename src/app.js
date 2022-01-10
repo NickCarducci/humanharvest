@@ -190,7 +190,9 @@ export default class App extends React.Component {
           The fed increasing interesty rates by NOT buying outstanding ask to
           price fix value to ask of pensions. "Better than getting rent from
           some deadbeats. Take surrendered freedoms of others in $12k/64
-          debt/cash (new)."
+          debt/cash (new). Bancruptcy abean no better than 6% DiBlasio, all the
+          down payments and time loitered from Savers' third party donee
+          beneficiary (EULA)."
           <br />
           “Pay for their past services after they are gone?”
           <br />
