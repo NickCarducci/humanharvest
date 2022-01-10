@@ -187,10 +187,20 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          "What is the relationship between inflation and economic growth?"<br/>
-          Economic growth is integrally population, but once that is of basis, the amount of trade per person is constant throughout life, the only thing that changes is price.
-          <br/>
-          <br/>
+          "What is the relationship between inflation and economic growth?"
+          <br />
+          Economic growth is integrally population, but once that is of basis,
+          the amount of trade per person is constant throughout life, the only
+          thing that changes is price.
+          <br />
+          Job, copy or science
+          <br />
+          <br />
+          “ME&A t4-up t1 diabetis rheumatoid arthritis inflammatory bowel
+          disease and multiple sclersois, only eat roasted beef, apple cider,
+          overwhelming sense of impending doom”
+          <br />
+          <br />
           Dick Morris: "We can't let liberals end wall st."
           <br />
           <br />
