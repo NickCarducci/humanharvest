@@ -187,6 +187,9 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "oragel, actually a product." I will not take credit, it is fake.
+          <br />
+          <br />
           let's face it, these are your investments. we should kepp them from
           real GDP, count it as M2 is mutual funds and checking, velocity of
           that per year or quarter is GDP.
@@ -5796,6 +5799,10 @@ export default class App extends React.Component {
           <a href="https://www.cdc.gov/nchs/products/databriefs/db427.htm">
             more
           </a>
+          {/*&nbsp;&bull;&nbsp;
+          <a href="https://usa.mortality.org/">
+            usa&bull;mortality
+          </a>*/}
           <Mortal
             lastWidth={Math.min(600, this.state.lastWidth)}
             style={{
