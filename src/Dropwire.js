@@ -105,7 +105,7 @@ class Cable extends React.Component {
                   gl.getExtension("WEBGL_lose_context").loseContext();
                 }
               }*/
-          continuee.remove();
+          // continuee.remove();
           return (page.innerHTML = "");
           // this.setState({ mount: false });
         } else if (page.innerHTML === "") {
