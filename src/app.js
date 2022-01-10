@@ -187,6 +187,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "What is the relationship between inflation and economic growth?"<br/>
+          Economic growth is integrally population, but once that is of basis, the amount of trade per person is constant throughout life, the only thing that changes is price.
+          <br/>
+          <br/>
           Dick Morris: "We can't let liberals end wall st."
           <br />
           <br />
@@ -5565,21 +5569,25 @@ export default class App extends React.Component {
           <a href="https://www.ssa.gov/oact/STATS/table4c6.html">
            death prob
           </a>*/}
-          
           <br />
           <br />
           OPEN THE BORDERS there is sparingly proof of threats. plug the actual
           work shortage by freeloading rent-seekers
           <br />
-          
           <a href="https://wonder.cdc.gov/Bridged-Race-v2020.HTML">
             single year
-          </a>&nbsp;&bull;&nbsp;
+          </a>
+          &nbsp;&bull;&nbsp;
           <a href="https://www.census.gov/programs-surveys/popest/technical-documentation/research/evaluation-estimates/2020-evaluation-estimates/2010s-national-detail.html">
             census
-          </a>&nbsp;&bull;&nbsp;
+          </a>
+          &nbsp;&bull;&nbsp;
           <a href="https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm#Mortality_Multiple">
-           mortality
+            mortality
+          </a>
+          &nbsp;&bull;&nbsp;
+          <a href="https://www.cdc.gov/nchs/products/databriefs/db427.htm">
+            more
           </a>
           <Mortal
             lastWidth={Math.min(600, this.state.lastWidth)}
