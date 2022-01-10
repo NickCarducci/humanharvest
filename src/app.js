@@ -2070,9 +2070,9 @@ export default class App extends React.Component {
           &nbsp;and deaths are insignificcant thru covid, and MS is paralytic
           polio, you have cured nothing just wasted a century of Saver funds.
           <h1>
-            this fucking supreme court is deciding a duress for national
-            security in business over propensity to quit? safety isn't even
-            admittedly their priority!??!?!
+            This fucking supreme court, deciding a, duress, for, National
+            Security, in business, over propensity, to quit? Safety isn't even
+            admittedly their, 'priority!??!?!'
           </h1>
           "Everyone living their normal lives has been effected by this," no
           just your malfeasance, the excess deaths were overreacted for being
