@@ -591,7 +591,7 @@ import { linecss, shortNumber } from "./vaxx";
     }
   ]
 };*/
-
+//usa.mortality.org
 const usmortality = {
   "1965": [
     {
@@ -9423,19 +9423,19 @@ const frequency = (chosenfrequency, a, range) => {
   var frequency = null;
   if (!chosenfrequency && range) {
     if (a === 0) {
-      frequency = ["0"];
+      frequency = ["0-24"];
     } else if (a === 1) {
-      frequency = ["1-49"];
+      frequency = ["25-34"];
     } else if (a === 2) {
-      frequency = ["50-64"];
+      frequency = ["35-49"];
     } else if (a === 3) {
-      frequency = ["65-74"];
+      frequency = ["50-64"];
     } else if (a === 4) {
-      frequency = ["75-84"];
+      frequency = ["65-74"];
     } else if (a === 5) {
-      frequency = ["85-94"];
+      frequency = ["75-84"];
     } else if (a === 6) {
-      frequency = ["95-110"];
+      frequency = ["85-109"];
     }
   } else if (chosenfrequency || range) {
     //high
@@ -9457,30 +9457,19 @@ const frequency = (chosenfrequency, a, range) => {
   } else {
     //cohort
     if (a === 0) {
-      frequency = ["0"];
+      frequency = ["0", "1-4", "5-9", "10-14", "15-19", "20-24", "25-29"];
     } else if (a === 1) {
-      frequency = [
-        "1-4",
-        "5-9",
-        "10-14",
-        "15-19",
-        "20-24",
-        "25-29",
-        "30-34",
-        "35-39",
-        "40-44",
-        "45-49"
-      ];
+      frequency = ["30-34", "35-39"];
     } else if (a === 2) {
-      frequency = ["50-54", "55-59", "60-64"];
+      frequency = ["40-44", "45-49"];
     } else if (a === 3) {
-      frequency = ["65-69", "70-74"];
+      frequency = ["50-54", "55-59", "60-64"];
     } else if (a === 4) {
-      frequency = ["75-79", "80-84"];
+      frequency = ["65-69", "70-74"];
     } else if (a === 5) {
-      frequency = ["85-89", "90-94"];
+      frequency = ["75-79", "80-84"];
     } else if (a === 6) {
-      frequency = ["95-99", "100-104", "105-109", "110"];
+      frequency = ["85-89", "90-94", "95-99", "100-104", "105-109", "110"];
     }
   }
   return frequency;
@@ -9578,6 +9567,7 @@ class Mortal extends React.Component {
     let mNinetyFiveNJData = [];
     let mOneTenNJData = [];
     let avgLifetime = {};
+    let chosenfrequency = null;
     Object.keys(usmortality).forEach((yearSet, i) => {
       const year = yearSet; //Number(yearSet.split("-")[1]);
 
@@ -9611,44 +9601,24 @@ class Mortal extends React.Component {
       );*/
       const val = (d, p = 1000) => Math.round((d / 100000) * p * 1000);
       Object.values(usmortality)[i].forEach((x) => {
-        if (x.age === "0") {
+        if (frequency(chosenfrequency, 0).includes(x.age)) {
           mZeroNJData.push([year, val(x.dx, x.pop)]);
           mZeroNJDataAge.push([year, x.pop * 1000]);
-        } else if (
-          x.age === "1-4" ||
-          x.age === "5-9" ||
-          x.age === "10-14" ||
-          x.age === "15-19" ||
-          x.age === "20-24" ||
-          x.age === "25-29" ||
-          x.age === "30-34" ||
-          x.age === "35-39" ||
-          x.age === "40-44" ||
-          x.age === "45-49"
-        ) {
+        } else if (frequency(chosenfrequency, 1).includes(x.age)) {
           mFiftyNJData.push([year, val(x.dx, x.pop)]);
           mFiftyNJDataAge.push([year, x.pop * 1000]);
-        } else if (
-          x.age === "50-54" ||
-          x.age === "55-59" ||
-          x.age === "60-64"
-        ) {
+        } else if (frequency(chosenfrequency, 2).includes(x.age)) {
           mSixtyFiveNJData.push([year, val(x.dx, x.pop)]);
           mSixtyFiveNJDataAge.push([year, x.pop * 1000]);
-        } else if (x.age === "65-69" || x.age === "70-74") {
+        } else if (frequency(chosenfrequency, 3).includes(x.age)) {
           mSeventyFiveNJData.push([year, val(x.dx, x.pop)]);
           mSeventyFiveNJDataAge.push([year, x.pop * 1000]);
-        } else if (x.age === "75-79" || x.age === "80-84") {
+        } else if (frequency(chosenfrequency, 4).includes(x.age)) {
           mEightyFiveNJData.push([year, val(x.dx, x.pop)]);
           mEightyFiveNJDataAge.push([year, x.pop * 1000]);
-        } else if (x.age === "85-89" || x.age === "90-94") {
+        } else if (frequency(chosenfrequency, 5).includes(x.age)) {
           mNinetyFiveNJData.push([year, val(x.dx, x.pop)]);
-        } else if (
-          x.age === "95-99" ||
-          x.age === "100-104" ||
-          x.age === "105-109" ||
-          x.age === "110"
-        ) {
+        } else if (frequency(chosenfrequency, 6).includes(x.age)) {
           mOneTenNJData.push([year, val(x.dx, x.pop)]);
         }
       });
@@ -9676,35 +9646,19 @@ class Mortal extends React.Component {
         if (deaths) obj[pop.age] = obj[pop.age] + deaths; //Math.round(deathprob * (pop.pop / 5) * 1000);
       });
       Object.keys(obj).forEach((age, i) => {
-        if (age === "0") {
+        if (frequency(chosenfrequency, 0).includes(age)) {
           yZeroNJData.push([year, Object.values(obj)[i]]);
-        } else if (
-          age === "1-4" ||
-          age === "5-9" ||
-          age === "10-14" ||
-          age === "15-19" ||
-          age === "20-24" ||
-          age === "25-29" ||
-          age === "30-34" ||
-          age === "35-39" ||
-          age === "40-44" ||
-          age === "45-49"
-        ) {
+        } else if (frequency(chosenfrequency, 1).includes(age)) {
           yFiftyNJData.push([year, Object.values(obj)[i]]);
-        } else if (age === "50-54" || age === "55-59" || age === "60-64") {
+        } else if (frequency(chosenfrequency, 2).includes(age)) {
           ySixtyFiveNJData.push([year, Object.values(obj)[i]]);
-        } else if (age === "65-69" || age === "70-74") {
+        } else if (frequency(chosenfrequency, 3).includes(age)) {
           ySeventyFiveNJData.push([year, Object.values(obj)[i]]);
-        } else if (age === "75-79" || age === "80-84") {
+        } else if (frequency(chosenfrequency, 4).includes(age)) {
           yEightyFiveNJData.push([year, Object.values(obj)[i]]);
-        } else if (age === "85-89" || age === "90-94") {
+        } else if (frequency(chosenfrequency, 5).includes(age)) {
           yNinetyFiveNJData.push([year, Object.values(obj)[i]]);
-        } else if (
-          age === "95-99" ||
-          age === "100-104" ||
-          age === "105-109" ||
-          age === "110"
-        ) {
+        } else if (frequency(chosenfrequency, 6).includes(age)) {
           yOneTenNJData.push([year, Object.values(obj)[i]]);
         }
       });
@@ -9736,35 +9690,19 @@ class Mortal extends React.Component {
         if (population) obj[pop.age] = obj[pop.age] + Math.round(population); //Math.round(deathprob * (pop.pop / 5) * 1000);
       });
       Object.keys(obj).forEach((age, i) => {
-        if (age === "0") {
+        if (frequency(chosenfrequency, 0).includes(age)) {
           yZeroNJDataAge.push([year, Object.values(obj)[i]]);
-        } else if (
-          age === "1-4" ||
-          age === "5-9" ||
-          age === "10-14" ||
-          age === "15-19" ||
-          age === "20-24" ||
-          age === "25-29" ||
-          age === "30-34" ||
-          age === "35-39" ||
-          age === "40-44" ||
-          age === "45-49"
-        ) {
+        } else if (frequency(chosenfrequency, 1).includes(age)) {
           yFiftyNJDataAge.push([year, Object.values(obj)[i]]);
-        } else if (age === "50-54" || age === "55-59" || age === "60-64") {
+        } else if (frequency(chosenfrequency, 2).includes(age)) {
           ySixtyFiveNJDataAge.push([year, Object.values(obj)[i]]);
-        } else if (age === "65-69" || age === "70-74") {
+        } else if (frequency(chosenfrequency, 3).includes(age)) {
           ySeventyFiveNJDataAge.push([year, Object.values(obj)[i]]);
-        } else if (age === "75-79" || age === "80-84") {
+        } else if (frequency(chosenfrequency, 4).includes(age)) {
           yEightyFiveNJDataAge.push([year, Object.values(obj)[i]]);
-        } else if (age === "85-89" || age === "90-94") {
+        } else if (frequency(chosenfrequency, 5).includes(age)) {
           yNinetyFiveNJDataAge.push([year, Object.values(obj)[i]]);
-        } else if (
-          age === "95-99" ||
-          age === "100-104" ||
-          age === "105-109" ||
-          age === "110"
-        ) {
+        } else if (frequency(chosenfrequency, 6).includes(age)) {
           yOneTenNJDataAge.push([year, Object.values(obj)[i]]);
         }
       });
@@ -10155,22 +10093,22 @@ class Mortal extends React.Component {
               if (frequency(chosenfrequency, 0).includes(x.age)) {
                 mZeroNJDataAge.push([
                   year,
-                  chosenRate ? x.pop * 1000 : x.pop * 1000
+                  chosenRate ? (x.pop * 1000) / 7 : x.pop * 1000
                 ]);
               } else if (frequency(chosenfrequency, 1).includes(x.age)) {
                 mFiftyNJDataAge.push([
                   year,
-                  chosenRate ? (x.pop * 1000) / 10 : x.pop * 1000
+                  chosenRate ? (x.pop * 1000) / 2 : x.pop * 1000
                 ]);
               } else if (frequency(chosenfrequency, 2).includes(x.age)) {
                 mSixtyFiveNJDataAge.push([
                   year,
-                  chosenRate ? (x.pop * 1000) / 3 : x.pop * 1000
+                  chosenRate ? (x.pop * 1000) / 2 : x.pop * 1000
                 ]);
               } else if (frequency(chosenfrequency, 3).includes(x.age)) {
                 mSeventyFiveNJDataAge.push([
                   year,
-                  chosenRate ? (x.pop * 1000) / 2 : x.pop * 1000
+                  chosenRate ? (x.pop * 1000) / 3 : x.pop * 1000
                 ]);
               } else if (frequency(chosenfrequency, 4).includes(x.age)) {
                 mEightyFiveNJDataAge.push([
@@ -10181,22 +10119,22 @@ class Mortal extends React.Component {
               if (frequency(chosenfrequency, 0).includes(x.age)) {
                 mZeroNJData.push([
                   year,
-                  chosenRate ? val(x.dx, x.pop, 1) : val(x.dx, x.pop)
+                  chosenRate ? val(x.dx, x.pop, 7) : val(x.dx, x.pop)
                 ]);
               } else if (frequency(chosenfrequency, 1).includes(x.age)) {
                 mFiftyNJData.push([
                   year,
-                  chosenRate ? val(x.dx, x.pop, 10) : val(x.dx, x.pop)
+                  chosenRate ? val(x.dx, x.pop, 2) : val(x.dx, x.pop)
                 ]);
               } else if (frequency(chosenfrequency, 2).includes(x.age)) {
                 mSixtyFiveNJData.push([
                   year,
-                  chosenRate ? val(x.dx, x.pop, 3) : val(x.dx, x.pop)
+                  chosenRate ? val(x.dx, x.pop, 2) : val(x.dx, x.pop)
                 ]);
               } else if (frequency(chosenfrequency, 3).includes(x.age)) {
                 mSeventyFiveNJData.push([
                   year,
-                  chosenRate ? val(x.dx, x.pop, 2) : val(x.dx, x.pop)
+                  chosenRate ? val(x.dx, x.pop, 3) : val(x.dx, x.pop)
                 ]);
               } else if (frequency(chosenfrequency, 4).includes(x.age)) {
                 mEightyFiveNJData.push([
@@ -10211,7 +10149,7 @@ class Mortal extends React.Component {
               } else if (frequency(chosenfrequency, 6).includes(x.age)) {
                 mOneTenNJData.push([
                   year,
-                  chosenRate ? val(x.dx, x.pop, 4) : val(x.dx, x.pop)
+                  chosenRate ? val(x.dx, x.pop, 6) : val(x.dx, x.pop)
                 ]);
               }
             });
@@ -10243,24 +10181,22 @@ class Mortal extends React.Component {
               if (frequency(chosenfrequency, 0).includes(age)) {
                 yZeroNJData.push([
                   year,
-                  chosenRate ? Object.values(obj)[i] : Object.values(obj)[i]
+                  chosenRate ? Object.values(obj)[i] / 7 : Object.values(obj)[i]
                 ]);
               } else if (frequency(chosenfrequency, 1).includes(age)) {
                 yFiftyNJData.push([
                   year,
-                  chosenRate
-                    ? Object.values(obj)[i] / 10
-                    : Object.values(obj)[i]
+                  chosenRate ? Object.values(obj)[i] / 2 : Object.values(obj)[i]
                 ]);
               } else if (frequency(chosenfrequency, 2).includes(age)) {
                 ySixtyFiveNJData.push([
                   year,
-                  chosenRate ? Object.values(obj)[i] / 3 : Object.values(obj)[i]
+                  chosenRate ? Object.values(obj)[i] / 2 : Object.values(obj)[i]
                 ]);
               } else if (frequency(chosenfrequency, 3).includes(age)) {
                 ySeventyFiveNJData.push([
                   year,
-                  chosenRate ? Object.values(obj)[i] / 2 : Object.values(obj)[i]
+                  chosenRate ? Object.values(obj)[i] / 3 : Object.values(obj)[i]
                 ]);
               } else if (frequency(chosenfrequency, 4).includes(age)) {
                 yEightyFiveNJData.push([
@@ -10275,7 +10211,7 @@ class Mortal extends React.Component {
               } else if (frequency(chosenfrequency, 6).includes(age)) {
                 yOneTenNJData.push([
                   year,
-                  chosenRate ? Object.values(obj)[i] / 4 : Object.values(obj)[i]
+                  chosenRate ? Object.values(obj)[i] / 6 : Object.values(obj)[i]
                 ]);
               }
             });
@@ -10313,24 +10249,22 @@ class Mortal extends React.Component {
               if (frequency(chosenfrequency, 0).includes(age)) {
                 yZeroNJDataAge.push([
                   year,
-                  chosenRate ? Object.values(obj)[i] : Object.values(obj)[i]
+                  chosenRate ? Object.values(obj)[i] / 7 : Object.values(obj)[i]
                 ]);
               } else if (frequency(chosenfrequency, 1).includes(age)) {
                 yFiftyNJDataAge.push([
                   year,
-                  chosenRate
-                    ? Object.values(obj)[i] / 10
-                    : Object.values(obj)[i]
+                  chosenRate ? Object.values(obj)[i] / 2 : Object.values(obj)[i]
                 ]);
               } else if (frequency(chosenfrequency, 2).includes(age)) {
                 ySixtyFiveNJDataAge.push([
                   year,
-                  chosenRate ? Object.values(obj)[i] / 3 : Object.values(obj)[i]
+                  chosenRate ? Object.values(obj)[i] / 2 : Object.values(obj)[i]
                 ]);
               } else if (frequency(chosenfrequency, 3).includes(age)) {
                 ySeventyFiveNJDataAge.push([
                   year,
-                  chosenRate ? Object.values(obj)[i] / 2 : Object.values(obj)[i]
+                  chosenRate ? Object.values(obj)[i] / 3 : Object.values(obj)[i]
                 ]);
               } else if (frequency(chosenfrequency, 4).includes(age)) {
                 yEightyFiveNJDataAge.push([
@@ -10345,7 +10279,7 @@ class Mortal extends React.Component {
               } else if (frequency(chosenfrequency, 6).includes(age)) {
                 yOneTenNJDataAge.push([
                   year,
-                  chosenRate ? Object.values(obj)[i] / 4 : Object.values(obj)[i]
+                  chosenRate ? Object.values(obj)[i] / 6 : Object.values(obj)[i]
                 ]);
               }
             });
@@ -10909,230 +10843,6 @@ class Mortal extends React.Component {
                     />
                   )
               )}
-              {yearlyZeroNJDataAge.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={8}
-                      height={1}
-                      stroke="white"
-                      fill="transparent"
-                      strokeWidth={1}
-                      key={i}
-                    />
-                  )
-              )}
-              {yearlyFiftyNJDataAge.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={8}
-                      height={1}
-                      stroke="purple"
-                      fill="transparent"
-                      strokeWidth={1}
-                      key={i}
-                    />
-                  )
-              )}
-              {yearlySixtyFiveNJDataAge.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={8}
-                      height={1}
-                      stroke="blue"
-                      fill="transparent"
-                      strokeWidth={1}
-                      key={i}
-                    />
-                  )
-              )}
-              {yearlySeventyFiveNJDataAge.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={8}
-                      height={1}
-                      stroke="green"
-                      fill="transparent"
-                      strokeWidth={1}
-                      key={i}
-                    />
-                  )
-              )}
-              {yearlyEightyFiveNJDataAge.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={8}
-                      height={1}
-                      stroke="orange"
-                      fill="transparent"
-                      strokeWidth={1}
-                      key={i}
-                    />
-                  )
-              )}
-              {yearlyNinetyFiveNJDataAge.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={8}
-                      height={1}
-                      stroke="red"
-                      fill="transparent"
-                      strokeWidth={1}
-                      key={i}
-                    />
-                  )
-              )}
-              {yearlyOneTenNJDataAge.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={8}
-                      height={1}
-                      stroke="black"
-                      fill="transparent"
-                      strokeWidth={1}
-                      key={i}
-                    />
-                  )
-              )}
-              {yearlyZeroNJData.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={2}
-                      height={2}
-                      stroke="white"
-                      fill="transparent"
-                      strokeWidth={3}
-                      key={i}
-                    />
-                  )
-              )}
-              {yearlyFiftyNJData.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={2}
-                      height={2}
-                      stroke="purple"
-                      fill="transparent"
-                      strokeWidth={3}
-                      key={i}
-                    />
-                  )
-              )}
-              {yearlySixtyFiveNJData.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={2}
-                      height={2}
-                      stroke="blue"
-                      fill="transparent"
-                      strokeWidth={3}
-                      key={i}
-                    />
-                  )
-              )}
-              {yearlySeventyFiveNJData.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={2}
-                      height={2}
-                      stroke="green"
-                      fill="transparent"
-                      strokeWidth={3}
-                      key={i}
-                    />
-                  )
-              )}
-              {yearlyEightyFiveNJData.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={2}
-                      height={2}
-                      stroke="orange"
-                      fill="transparent"
-                      strokeWidth={3}
-                      key={i}
-                    />
-                  )
-              )}
-              {yearlyNinetyFiveNJData.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={2}
-                      height={2}
-                      stroke="red"
-                      fill="transparent"
-                      strokeWidth={3}
-                      key={i}
-                    />
-                  )
-              )}
-              {yearlyOneTenNJData.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={2}
-                      height={2}
-                      stroke="black"
-                      fill="transparent"
-                      strokeWidth={3}
-                      key={i}
-                    />
-                  )
-              )}
               {/** */}
               {mortalZeroNJData.map(
                 ([x, y], i) =>
@@ -11332,6 +11042,198 @@ class Mortal extends React.Component {
                     />
                   )
               )}
+              {yearlyZeroNJDataAge.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={8}
+                      height={1}
+                      stroke="white"
+                      fill="transparent"
+                      strokeWidth={1}
+                      key={i}
+                    />
+                  )
+              )}
+              {yearlyFiftyNJDataAge.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={8}
+                      height={1}
+                      stroke="purple"
+                      fill="transparent"
+                      strokeWidth={1}
+                      key={i}
+                    />
+                  )
+              )}
+              {yearlySixtyFiveNJDataAge.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={8}
+                      height={1}
+                      stroke="blue"
+                      fill="transparent"
+                      strokeWidth={1}
+                      key={i}
+                    />
+                  )
+              )}
+              {yearlySeventyFiveNJDataAge.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={8}
+                      height={1}
+                      stroke="green"
+                      fill="transparent"
+                      strokeWidth={1}
+                      key={i}
+                    />
+                  )
+              )}
+              {yearlyEightyFiveNJDataAge.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={8}
+                      height={1}
+                      stroke="orange"
+                      fill="transparent"
+                      strokeWidth={1}
+                      key={i}
+                    />
+                  )
+              )}
+              {yearlyNinetyFiveNJDataAge.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={8}
+                      height={1}
+                      stroke="red"
+                      fill="transparent"
+                      strokeWidth={1}
+                      key={i}
+                    />
+                  )
+              )}
+              {yearlyOneTenNJDataAge.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={8}
+                      height={1}
+                      stroke="black"
+                      fill="transparent"
+                      strokeWidth={1}
+                      key={i}
+                    />
+                  )
+              )}
+              {yearlyZeroNJData.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={2}
+                      height={2}
+                      stroke="white"
+                      fill="transparent"
+                      strokeWidth={3}
+                      key={i}
+                    />
+                  )
+              )}
+              {yearlySeventyFiveNJData.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={2}
+                      height={2}
+                      stroke="green"
+                      fill="transparent"
+                      strokeWidth={3}
+                      key={i}
+                    />
+                  )
+              )}
+              {yearlyEightyFiveNJData.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={2}
+                      height={2}
+                      stroke="orange"
+                      fill="transparent"
+                      strokeWidth={3}
+                      key={i}
+                    />
+                  )
+              )}
+              {yearlyNinetyFiveNJData.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={2}
+                      height={2}
+                      stroke="red"
+                      fill="transparent"
+                      strokeWidth={3}
+                      key={i}
+                    />
+                  )
+              )}
+              {yearlyOneTenNJData.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={2}
+                      height={2}
+                      stroke="black"
+                      fill="transparent"
+                      strokeWidth={3}
+                      key={i}
+                    />
+                  )
+              )}
               {averageLifetimeData.map(
                 ([x, y], i) =>
                   !isNaN(x) &&
@@ -11342,6 +11244,38 @@ class Mortal extends React.Component {
                       width={2}
                       height={2}
                       stroke="black"
+                      fill="transparent"
+                      strokeWidth={3}
+                      key={i}
+                    />
+                  )
+              )}
+              {yearlySixtyFiveNJData.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={2}
+                      height={2}
+                      stroke="blue"
+                      fill="transparent"
+                      strokeWidth={3}
+                      key={i}
+                    />
+                  )
+              )}
+              {yearlyFiftyNJData.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={2}
+                      height={2}
+                      stroke="purple"
                       fill="transparent"
                       strokeWidth={3}
                       key={i}
