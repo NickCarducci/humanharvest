@@ -5571,8 +5571,12 @@ export default class App extends React.Component {
           OPEN THE BORDERS there is sparingly proof of threats. plug the actual
           work shortage by freeloading rent-seekers
           <br />
-          <a href="https://www.census.gov/programs-surveys/popest/technical-documentation/research/evaluation-estimates/2020-evaluation-estimates/2010s-national-detail.html">
+          
+          <a href="https://wonder.cdc.gov/Bridged-Race-v2020.HTML">
             single year
+          </a>&nbsp;&bull;&nbsp;
+          <a href="https://www.census.gov/programs-surveys/popest/technical-documentation/research/evaluation-estimates/2020-evaluation-estimates/2010s-national-detail.html">
+            census
           </a>&nbsp;&bull;&nbsp;
           <a href="https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm#Mortality_Multiple">
            mortality
