@@ -187,6 +187,11 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          No victim, no fine without state vic
+<br/>
+Law to replace old buildings, by jail. required, how?
+<br/>
+<br/>
           "Help children make eat their pizza."<br/><br/>
           The fed increasing interesty rates by NOT buying outstanding ask to
           price fix value to ask of pensions. "Better than getting rent from
