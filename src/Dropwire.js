@@ -18,13 +18,7 @@ import ExecutionEnvironment from "exenv";
 class Cable extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      limit: [],
-      cache: null,
-      mountsCount: 0,
-      cacheStyle: "",
-      framewidth: 200
-    };
+    this.state = { limit: [], cache: null, mountsCount: 0, cacheStyle: "" };
     this.page = React.createRef();
     this.fwdtwe = React.createRef();
   }
@@ -50,9 +44,18 @@ class Cable extends React.Component {
     clearTimeout(this.setset);
   };
   checkIfBetween = () => {
-    const { cache } = this.state;
+    const { frameheight, cache } = this.state;
     const { scrollTopAndHeight, scrollTop, girth, timeout } = this.props;
-    var girt = girth ? girth : 500;
+    var girt =
+      girth && !isNaN(girth)
+        ? girth + 500
+        : this.props.style &&
+          this.props.style.height &&
+          !isNaN(this.props.style.height)
+        ? this.props.style.height + 500
+        : frameheight
+        ? frameheight
+        : 500;
     var timeou = timeout ? timeout : 1500;
     clearTimeout(this.setset);
     this.setset = setTimeout(() => {
@@ -67,7 +70,7 @@ class Cable extends React.Component {
       } else {
         var continuee = this.props.fwd.current;
         //between && console.log(between, continuee.outerHTML);
-        //if (!continuee && !cache) return;
+        if (!continuee && !cache) return;
         /*const cacheStyle = JSON.parse(
           (cache ? cache : continuee.outerHTML)
             .split(`style="`)[1]
@@ -85,6 +88,7 @@ class Cable extends React.Component {
             framewidth: continuee.offsetWidth
           });
         } else if (!between) {
+          //console.log("!between", continuee.outerHTML);
           /* if (continuee) {
                 
                 const children = [...continuee.children];
@@ -105,10 +109,14 @@ class Cable extends React.Component {
                   gl.getExtension("WEBGL_lose_context").loseContext();
                 }
               }*/
-          // continuee.remove();
+          //continuee.remove();
+          if (scrollTop !== 0) return;
+          continuee && continuee.remove();
+          //      console.log(girt);
           return (page.innerHTML = "");
           // this.setState({ mount: false });
         } else if (page.innerHTML === "") {
+          console.log("reloading");
           const children = [...page.children];
           if (
             cache &&
