@@ -187,6 +187,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Bob Sellers: "I'm a little slower mentally, cannot withstand Dick
+          Morris’ phrases, three word chants and puns."
+          <br />
+          <br />
           No one should be surprised about claiming commitments that have not
           been made,” likely doxxing compound and general-income/competing with
           instead of for consumers in Supply and Demand microeconomics,
