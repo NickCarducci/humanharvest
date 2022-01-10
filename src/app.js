@@ -197,6 +197,11 @@ export default class App extends React.Component {
           <br />
           “Calm down!”
           <br />
+          Can’t give opinion without facts derived from consensus science of
+          industry-variance."Have to be smart, and not lose your cool," I'm
+          doing to give you a&nbsp;<a href="https://qr.ae/pG3X5Y">labotomy</a>. "I'm sorry for overreacting, what can I
+          tell you." No, you're not. Your plea is inherently moot.
+          <br />
           <br />
           "Have someone manage a blind trust that gets the info from NANCY." ANY
           HOLDINGS CAN BE FORCED ABSTAIN THAT ISN'T A VOTE, like non-voters
