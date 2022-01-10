@@ -187,6 +187,9 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Dick Morris: "We can't let liberals end wall st."
+          <br />
+          <br />
           "Why doesn’t the U.S. have a third political party?"
           <br />
           There aren’t any anti-rent-seeking candidates because naive policies
@@ -5438,7 +5441,7 @@ export default class App extends React.Component {
                 </tr>
               </thead>
               <tbody>
-                <tr>
+                {/*<tr>
                   <td>deathprob</td>
                   {`0.015631835 0.015071298 0.014862741 0.015061867 0.016038357 0.016815564 0.017269514 0.018649415 0.019481562 0.020072681`
                     .split(" ")
@@ -5451,19 +5454,33 @@ export default class App extends React.Component {
                     .map((x) => (
                       <td key={x}>{x}</td>
                     ))}
-                  <td />
-                  {`0.016670000 0.018587000 0.020815000 0.023391000 0.026387000 0.029850000 0.033883000 0.038544000 0.043880000 0.049956000`
+                  <td />0.03237
+0.03552
+0.03906
+0.04305
+0.04753
+0.0527
+0.05857
+0.06513
+0.07236
+0.0802
+                  {`0.03237 0.018587000 0.020815000 0.023391000 0.026387000 0.029850000 0.033883000 0.038544000 0.043880000 0.049956000`
                     .split(" ")
                     .map((x) => (
                       <td key={x}>{x}</td>
                     ))}
+                  {/*`0.016670000 0.018587000 0.020815000 0.023391000 0.026387000 0.029850000 0.033883000 0.038544000 0.043880000 0.049956000`
+                    .split(" ")
+                    .map((x) => (
+                      <td key={x}>{x}</td>
+                    ))*}
                   {/*<td />
                   {`0.003067227 0.002368589 0.001808696 0.001350811 0.000986042 0.000650269 0.001185636 0.015338222 0.013911198 0.013332906`
                     .split(" ")
                     .map((x) => (
                       <td key={x}>{x}</td>
-                    ))*/}
-                </tr>
+                    ))*}
+                </tr>*/}
                 <tr>
                   <td>deaths</td>
                   {`68609 65890 65660 67014 68797 71539 72487 75313 77841 76692`
@@ -5479,11 +5496,18 @@ export default class App extends React.Component {
                       <td key={x}>{x}</td>
                     ))}
                   <td />
-                  {`71531 80931 90247 100872 114814 129785 142782 163170 182734 199718`
+                  {`60671 64115 71305 67567 67126 69171 70614 73326 73011 74889`
                     .split(" ")
                     .map((x) => (
                       <td key={x}>{x}</td>
                     ))}
+
+                  {/*<td />
+                  {`71531 80931 90247 100872 114814 129785 142782 163170 182734 199718`
+                    .split(" ")
+                    .map((x) => (
+                      <td key={x}>{x}</td>
+                    ))*/}
                   {/*<td />
                   {`13161 10313 7841 5825 4290 2844 4996 64932 57932 53303`
                     .split(" ")
@@ -5535,11 +5559,24 @@ export default class App extends React.Component {
    "81": 72487.76576, 74889.77794, 47449.48214<br/>
    "82": 75313.25705, 75006.78858, 50254.0141<br/>
    "83": 77841.0921, 77539.55364, 51043.36612<br/>
-   "84": 76692.45454, 80207.77033, 53468.25649*/}
+   "84": 76692.45454, 80207.77033, 53468.25649
+          <br />
+          <br />
+          <a href="https://www.ssa.gov/oact/STATS/table4c6.html">
+           death prob
+          </a>*/}
+          
           <br />
           <br />
           OPEN THE BORDERS there is sparingly proof of threats. plug the actual
           work shortage by freeloading rent-seekers
+          <br />
+          <a href="https://www.census.gov/programs-surveys/popest/technical-documentation/research/evaluation-estimates/2020-evaluation-estimates/2010s-national-detail.html">
+            single year
+          </a>&nbsp;&bull;&nbsp;
+          <a href="https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm#Mortality_Multiple">
+           mortality
+          </a>
           <Mortal
             lastWidth={Math.min(600, this.state.lastWidth)}
             style={{
