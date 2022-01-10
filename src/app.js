@@ -187,8 +187,12 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          Greg Kelly, "Did Eric Adams (6%) just say the virus that came from China being
-          called a Chinese virus cannot be called that?"
+          Greg Kelly, "Did Eric Adams (6%) just say the virus that came from
+          China being called a Chinese virus cannot be called that? The Chinese
+          virus has crushed the american dollar!" Wouldn't accrual do that? You
+          tariff for bond-index-funds and accomplished nothing in USPTO
+          international law, as if prohibiting trade of broad utility is gained
+          by making it claimable in copy/earnings.
           <br />
           <br />
           If it only comes out, it is an evolutionary trait or byproduct.
