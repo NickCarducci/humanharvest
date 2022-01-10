@@ -187,8 +187,12 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          "Practice what you preach," unless you are talking your way out of a
-          prisoners' dilemma.
+          No one should be surprised about claiming commitments that have not
+          been made,” likely doxxing compound and general-income/competing with
+          instead of for consumers in Supply and Demand microeconomics,
+          academically, in a bona fide perogative (as stated/named). "Practice
+          what you preach," unless you are talking your way out of a prisoners'
+          dilemma.
           <br />
           <br />
           Psychopath has no remorse for crime, not view of law like calling
