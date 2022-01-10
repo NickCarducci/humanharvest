@@ -187,6 +187,8 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Karl Marx is our grande teacher and philospher, he died in 1888.
+          <br />
           Dick Morris: "Comparative advancement is bending over. ...His goal is
           to make money," at anyone's undue expense. I don't care what you do
           with your money, douche (useless).
