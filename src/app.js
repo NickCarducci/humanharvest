@@ -187,6 +187,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "Practice what you preach," unless you are talking your way out of a
+          prisoners' dilemma.
+          <br />
+          <br />
           Psychopath has no remorse for crime, not view of law like calling
           rollover insurance, “bizzare.”
           <br />
@@ -199,8 +203,9 @@ export default class App extends React.Component {
           <br />
           Can’t give opinion without facts derived from consensus science of
           industry-variance."Have to be smart, and not lose your cool," I'm
-          doing to give you a&nbsp;<a href="https://qr.ae/pG3X5Y">labotomy</a>. "I'm sorry for overreacting, what can I
-          tell you." No, you're not. Your plea is inherently moot.
+          doing to give you a&nbsp;<a href="https://qr.ae/pG3X5Y">labotomy</a>.
+          "I'm sorry for overreacting, what can I tell you." No, you're not.
+          Your plea is inherently moot.
           <br />
           <br />
           "Have someone manage a blind trust that gets the info from NANCY." ANY
