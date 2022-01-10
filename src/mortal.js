@@ -10797,11 +10797,7 @@ class Mortal extends React.Component {
                 });
               }}
             >
-              {!this.state.yaxis
-                ? "pop"
-                : this.state.chosen5yrs && !chosenRate
-                ? "high"
-                : "cohort"}
+              {!this.state.yaxis ? "pop" : !averageIt ? "high" : "cohort"}
             </button>
             <div>
               -&nbsp;
