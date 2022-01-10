@@ -188,7 +188,9 @@ export default class App extends React.Component {
             2052.live
           </a>
           The fed increasing interesty rates by NOT buying outstanding ask to
-          price fix value to ask of pensions.
+          price fix value to ask of pensions. "Better than getting rent from
+          some deadbeats. Take surrendered freedoms of others in $12k/64
+          debt/cash (new)."
           <br />
           “Pay for their past services after they are gone?”
           <br />
