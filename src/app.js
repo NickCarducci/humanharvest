@@ -193,6 +193,10 @@ export default class App extends React.Component {
           “Professional case reader." Slander, conflict of interest to be
           bona-fide. ANGER MANAGEMENT
           <br />
+          “Surprised and disappointed.”
+          <br />
+          “Calm down!”
+          <br />
           <br />
           "Have someone manage a blind trust that gets the info from NANCY." ANY
           HOLDINGS CAN BE FORCED ABSTAIN THAT ISN'T A VOTE, like non-voters
