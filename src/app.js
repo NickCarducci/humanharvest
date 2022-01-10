@@ -187,6 +187,9 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          “Pay for their past services after they are gone?”
+          <br />
+          Like choring
           <h1>Mark Zuckerberg can suck my cock</h1>
           "What is the relationship between inflation and economic growth?"
           <br />
