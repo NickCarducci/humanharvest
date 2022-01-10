@@ -342,6 +342,7 @@ export default class App extends React.Component {
           AS PRICE INSTEAD OF BID-CAPACITY WITHOUT EXPIRIGN NOR ESTIMATED
           CLAIMS, THIRD PARTY BENEFICIARY by COMPOUND OR GENERAL-FUTURE-INCOME.
           <h1>FUCKING NATIONALIST BIPARTISANS, RETARDED</h1>
+          <h2>repo-cycle kept down payments</h2>
           If we hold for trial no decent sentence because mandatory sentence was
           appealed. By 34k ornaments, handcuffs on cops themselves, not white
           collar criminals and robbers, withheld by Brags to prosecute," for
