@@ -187,6 +187,11 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "Have someone manage a blind trust that gets the info from NANCY." ANY
+          HOLDINGS CAN BE FORCED ABSTAIN THAT ISN'T A VOTE, like non-voters would. Built wealth up by
+          Savers' share split without consent of unsettled trade.
+          <br />
+          <br />
           Greg Kelly, "Did Eric Adams (6%) just say the virus that came from
           China being called a Chinese virus cannot be called that? The Chinese
           virus has crushed the american dollar!" Wouldn't accrual do that? You
