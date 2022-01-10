@@ -9423,9 +9423,9 @@ const frequency = (chosenfrequency, a, range) => {
   var frequency = null;
   if (!chosenfrequency && range) {
     if (a === 0) {
-      frequency = ["0-24"];
+      frequency = ["0-29"];
     } else if (a === 1) {
-      frequency = ["25-34"];
+      frequency = ["30-34"];
     } else if (a === 2) {
       frequency = ["35-49"];
     } else if (a === 3) {
@@ -9881,6 +9881,11 @@ class Mortal extends React.Component {
     var highDate = Math.max(...date);
     var lowDeaths = 0; //Math.min(...mortalZeroNJ);
     const all = [
+      ...yearlyZeroNJ,
+      ...yearlyFiftyNJ,
+      ...yearlySixtyFiveNJ,
+      ...yearlySeventyFiveNJ,
+      ...yearlyEightyFiveNJ,
       ...mortalZeroNJ,
       ...mortalFiftyNJ,
       ...mortalSixtyFiveNJ,
@@ -9892,6 +9897,11 @@ class Mortal extends React.Component {
     var highlifetime = Math.max(...averageLifetime);
     var highDeaths = Math.max(...all);
     var cappop = Math.max(
+      ...yearlyZeroNJAge,
+      ...yearlyFiftyNJAge,
+      ...yearlySixtyFiveNJAge,
+      ...yearlySeventyFiveNJAge,
+      ...yearlyEightyFiveNJAge,
       ...mortalZeroNJAge,
       ...mortalFiftyNJAge,
       ...mortalSixtyFiveNJAge,
@@ -10093,7 +10103,7 @@ class Mortal extends React.Component {
               if (frequency(chosenfrequency, 0).includes(x.age)) {
                 mZeroNJDataAge.push([
                   year,
-                  chosenRate ? (x.pop * 1000) / 7 : x.pop * 1000
+                  chosenRate ? (x.pop * 1000) / 6 : x.pop * 1000
                 ]);
               } else if (frequency(chosenfrequency, 1).includes(x.age)) {
                 mFiftyNJDataAge.push([
@@ -10119,7 +10129,7 @@ class Mortal extends React.Component {
               if (frequency(chosenfrequency, 0).includes(x.age)) {
                 mZeroNJData.push([
                   year,
-                  chosenRate ? val(x.dx, x.pop, 7) : val(x.dx, x.pop)
+                  chosenRate ? val(x.dx, x.pop, 6) : val(x.dx, x.pop)
                 ]);
               } else if (frequency(chosenfrequency, 1).includes(x.age)) {
                 mFiftyNJData.push([
@@ -10181,7 +10191,7 @@ class Mortal extends React.Component {
               if (frequency(chosenfrequency, 0).includes(age)) {
                 yZeroNJData.push([
                   year,
-                  chosenRate ? Object.values(obj)[i] / 7 : Object.values(obj)[i]
+                  chosenRate ? Object.values(obj)[i] / 6 : Object.values(obj)[i]
                 ]);
               } else if (frequency(chosenfrequency, 1).includes(age)) {
                 yFiftyNJData.push([
@@ -10249,7 +10259,7 @@ class Mortal extends React.Component {
               if (frequency(chosenfrequency, 0).includes(age)) {
                 yZeroNJDataAge.push([
                   year,
-                  chosenRate ? Object.values(obj)[i] / 7 : Object.values(obj)[i]
+                  chosenRate ? Object.values(obj)[i] / 6 : Object.values(obj)[i]
                 ]);
               } else if (frequency(chosenfrequency, 1).includes(age)) {
                 yFiftyNJDataAge.push([
@@ -10456,10 +10466,16 @@ class Mortal extends React.Component {
             mortalZeroNJAge.push(totmZA);
             mortalZeroNJDataAge.push([x, totmZA]);
           });
+          //console.log(yearlyFiftyNJAge, yearlyZeroNJAge);
           var lowDate = Math.min(...date);
           var highDate = Math.max(...date);
           var lowDeaths = 0; //Math.min(...mortalZeroNJ);
           const all = [
+            ...yearlyZeroNJ,
+            ...yearlyFiftyNJ,
+            ...yearlySixtyFiveNJ,
+            ...yearlySeventyFiveNJ,
+            ...yearlyEightyFiveNJ,
             ...mortalZeroNJ,
             ...mortalFiftyNJ,
             ...mortalSixtyFiveNJ,
@@ -10470,6 +10486,11 @@ class Mortal extends React.Component {
           ];
           var highDeaths = Math.max(...all);
           var cappop = Math.max(
+            ...yearlyZeroNJAge,
+            ...yearlyFiftyNJAge,
+            ...yearlySixtyFiveNJAge,
+            ...yearlySeventyFiveNJAge,
+            ...yearlyEightyFiveNJAge,
             ...mortalZeroNJAge,
             ...mortalFiftyNJAge,
             ...mortalSixtyFiveNJAge,
@@ -10517,7 +10538,7 @@ class Mortal extends React.Component {
             yearlyNinetyFiveNJDataAge,
             yearlyOneTenNJDataAge,
             noData,
-            yAxis: highDeaths - lowDeaths,
+            yAxis: highDeaths, //- lowDeaths,
             xAxis: highDate - lowDate,
             lowDate,
             highDate,
@@ -10752,11 +10773,12 @@ class Mortal extends React.Component {
               style={buttonStyle}
               onClick={() =>
                 this.setState(
-                  this.state.chosenRate && this.state.chosenfrequency
+                  { chosenfrequency: !this.state.chosenfrequency }
+                  /*  this.state.chosenRate && this.state.chosenfrequency
                     ? { chosenRate: false, chosenfrequency: false }
                     : !this.state.chosenfrequency
                     ? { chosenfrequency: true }
-                    : { chosenRate: true }
+                    : { chosenRate: true }*/
                 )
               }
             >
@@ -11154,22 +11176,6 @@ class Mortal extends React.Component {
                     />
                   )
               )}
-              {yearlyZeroNJData.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={2}
-                      height={2}
-                      stroke="white"
-                      fill="transparent"
-                      strokeWidth={3}
-                      key={i}
-                    />
-                  )
-              )}
               {yearlySeventyFiveNJData.map(
                 ([x, y], i) =>
                   !isNaN(x) &&
@@ -11260,6 +11266,22 @@ class Mortal extends React.Component {
                       width={2}
                       height={2}
                       stroke="blue"
+                      fill="transparent"
+                      strokeWidth={3}
+                      key={i}
+                    />
+                  )
+              )}
+              {yearlyZeroNJData.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={2}
+                      height={2}
+                      stroke="white"
                       fill="transparent"
                       strokeWidth={3}
                       key={i}
