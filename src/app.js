@@ -188,8 +188,37 @@ export default class App extends React.Component {
             2052.live
           </a>
           "Have someone manage a blind trust that gets the info from NANCY." ANY
-          HOLDINGS CAN BE FORCED ABSTAIN THAT ISN'T A VOTE, like non-voters would. Built wealth up by
-          Savers' share split without consent of unsettled trade.
+          HOLDINGS CAN BE FORCED ABSTAIN THAT ISN'T A VOTE, like non-voters
+          would. Built wealth up by Savers' share split without consent of
+          unsettled trade. This rule doesnt give sway to Congress beyond Article
+          4 free rider immutable sewage, police and lawsuits, like
+          broadband/bridge fee nationalization, gentrification rent-seeking for
+          bond-laundering with 50% debt spending, to boot. $4t/yr is too much
+          because 1/4 1/4 1/4 empiring premiums, pentagon (can be local) and
+          pensions (forced corporate collective flaccid loss investment trust),
+          like amazon or aarp stock promoted by old people.
+          <br />
+          <br />
+          "How does the budget affect microeconomics?"
+          <br />
+          <br />
+          A budget necessarily endows settled trade as a surrendered freedom
+          (EULA) graphically a dead-weight box between Supply and Demand. Some
+          microeconomists will describe liabilities or outstanding bonds as a
+          supplier to a “money-market,” but I believe academic and bona fide
+          microeconomics will view compounding or general-income, non-compete,
+          as merely an increase in the bid from laborless-demand, loitering to
+          collude for laundering down payments and reposess intentionally,
+          implausibly-deniable as the “business-“ or “credit-cycle.” Usurpers of
+          Savers will describe force majeure as foreseeable, showing their
+          intent to compete with consumers, rather than for them, by unsettling
+          and outstanding trade. Sometimes, even to the point of blind exclusion
+          of outstanding shares from accounting price to earnings or book
+          (treasury shares). Alternatives to liabilities and bonds as assets is
+          1-level board (of persons) max-profit-royalty, as outlay schedules are
+          non-concurrentable, and banks keep to equities or transaction fees as
+          to not surrender the freedom of others in a likewise false bid pool,
+          laundered from the co-signatories’ customers and employers.
           <br />
           <br />
           Greg Kelly, "Did Eric Adams (6%) just say the virus that came from
