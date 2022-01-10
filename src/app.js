@@ -187,6 +187,13 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Psychopath has no remorse for crime, not view of law like calling
+          rollover insurance, “bizzare.”
+          <br />
+          “Professional case reader." Slander, conflict of interest to be
+          bona-fide. ANGER MANAGEMENT
+          <br />
+          <br />
           "Have someone manage a blind trust that gets the info from NANCY." ANY
           HOLDINGS CAN BE FORCED ABSTAIN THAT ISN'T A VOTE, like non-voters
           would. Built wealth up by Savers' share split without consent of
