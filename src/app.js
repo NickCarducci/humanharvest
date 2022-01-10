@@ -187,6 +187,10 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Dick Morris: "Comparative advancement is bending over. ...His goal is
+          to make money," at anyone's undue expense. I don't care what you do
+          with your money, douche (useless).
+          <br />
           Bob Sellers: "I'm a little slower mentally, cannot withstand Dick
           Morris’ phrases, three word chants and puns."
           <br />
