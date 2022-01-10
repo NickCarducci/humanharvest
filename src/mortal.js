@@ -9419,9 +9419,9 @@ const yearlypop = {
     "100": 104819
   }
 };
-const frequency = (chosenfrequency, a, range) => {
+const frequency = (chosen5yrs, a, print) => {
   var frequency = null;
-  if (!chosenfrequency && range) {
+  if (!chosen5yrs && print) {
     if (a === 0) {
       frequency = ["0-29"];
     } else if (a === 1) {
@@ -9437,7 +9437,7 @@ const frequency = (chosenfrequency, a, range) => {
     } else if (a === 6) {
       frequency = ["85-109"];
     }
-  } else if (chosenfrequency || range) {
+  } else if (chosen5yrs || print) {
     //high
     if (a === 0) {
       frequency = ["75-79"];
@@ -9455,6 +9455,7 @@ const frequency = (chosenfrequency, a, range) => {
       frequency = ["105-109"];
     }
   } else {
+    //programmatic range not 5 yrs
     //cohort
     if (a === 0) {
       frequency = ["0", "1-4", "5-9", "10-14", "15-19", "20-24", "25-29"];
@@ -9567,7 +9568,7 @@ class Mortal extends React.Component {
     let mNinetyFiveNJData = [];
     let mOneTenNJData = [];
     let avgLifetime = {};
-    let chosenfrequency = null;
+    let chosen5yrs = null;
     Object.keys(usmortality).forEach((yearSet, i) => {
       const year = yearSet; //Number(yearSet.split("-")[1]);
 
@@ -9601,24 +9602,24 @@ class Mortal extends React.Component {
       );*/
       const val = (d, p = 1000) => Math.round((d / 100000) * p * 1000);
       Object.values(usmortality)[i].forEach((x) => {
-        if (frequency(chosenfrequency, 0).includes(x.age)) {
+        if (frequency(chosen5yrs, 0).includes(x.age)) {
           mZeroNJData.push([year, val(x.dx, x.pop)]);
           mZeroNJDataAge.push([year, x.pop * 1000]);
-        } else if (frequency(chosenfrequency, 1).includes(x.age)) {
+        } else if (frequency(chosen5yrs, 1).includes(x.age)) {
           mFiftyNJData.push([year, val(x.dx, x.pop)]);
           mFiftyNJDataAge.push([year, x.pop * 1000]);
-        } else if (frequency(chosenfrequency, 2).includes(x.age)) {
+        } else if (frequency(chosen5yrs, 2).includes(x.age)) {
           mSixtyFiveNJData.push([year, val(x.dx, x.pop)]);
           mSixtyFiveNJDataAge.push([year, x.pop * 1000]);
-        } else if (frequency(chosenfrequency, 3).includes(x.age)) {
+        } else if (frequency(chosen5yrs, 3).includes(x.age)) {
           mSeventyFiveNJData.push([year, val(x.dx, x.pop)]);
           mSeventyFiveNJDataAge.push([year, x.pop * 1000]);
-        } else if (frequency(chosenfrequency, 4).includes(x.age)) {
+        } else if (frequency(chosen5yrs, 4).includes(x.age)) {
           mEightyFiveNJData.push([year, val(x.dx, x.pop)]);
           mEightyFiveNJDataAge.push([year, x.pop * 1000]);
-        } else if (frequency(chosenfrequency, 5).includes(x.age)) {
+        } else if (frequency(chosen5yrs, 5).includes(x.age)) {
           mNinetyFiveNJData.push([year, val(x.dx, x.pop)]);
-        } else if (frequency(chosenfrequency, 6).includes(x.age)) {
+        } else if (frequency(chosen5yrs, 6).includes(x.age)) {
           mOneTenNJData.push([year, val(x.dx, x.pop)]);
         }
       });
@@ -9646,19 +9647,19 @@ class Mortal extends React.Component {
         if (deaths) obj[pop.age] = obj[pop.age] + deaths; //Math.round(deathprob * (pop.pop / 5) * 1000);
       });
       Object.keys(obj).forEach((age, i) => {
-        if (frequency(chosenfrequency, 0).includes(age)) {
+        if (frequency(chosen5yrs, 0).includes(age)) {
           yZeroNJData.push([year, Object.values(obj)[i]]);
-        } else if (frequency(chosenfrequency, 1).includes(age)) {
+        } else if (frequency(chosen5yrs, 1).includes(age)) {
           yFiftyNJData.push([year, Object.values(obj)[i]]);
-        } else if (frequency(chosenfrequency, 2).includes(age)) {
+        } else if (frequency(chosen5yrs, 2).includes(age)) {
           ySixtyFiveNJData.push([year, Object.values(obj)[i]]);
-        } else if (frequency(chosenfrequency, 3).includes(age)) {
+        } else if (frequency(chosen5yrs, 3).includes(age)) {
           ySeventyFiveNJData.push([year, Object.values(obj)[i]]);
-        } else if (frequency(chosenfrequency, 4).includes(age)) {
+        } else if (frequency(chosen5yrs, 4).includes(age)) {
           yEightyFiveNJData.push([year, Object.values(obj)[i]]);
-        } else if (frequency(chosenfrequency, 5).includes(age)) {
+        } else if (frequency(chosen5yrs, 5).includes(age)) {
           yNinetyFiveNJData.push([year, Object.values(obj)[i]]);
-        } else if (frequency(chosenfrequency, 6).includes(age)) {
+        } else if (frequency(chosen5yrs, 6).includes(age)) {
           yOneTenNJData.push([year, Object.values(obj)[i]]);
         }
       });
@@ -9690,19 +9691,19 @@ class Mortal extends React.Component {
         if (population) obj[pop.age] = obj[pop.age] + Math.round(population); //Math.round(deathprob * (pop.pop / 5) * 1000);
       });
       Object.keys(obj).forEach((age, i) => {
-        if (frequency(chosenfrequency, 0).includes(age)) {
+        if (frequency(chosen5yrs, 0).includes(age)) {
           yZeroNJDataAge.push([year, Object.values(obj)[i]]);
-        } else if (frequency(chosenfrequency, 1).includes(age)) {
+        } else if (frequency(chosen5yrs, 1).includes(age)) {
           yFiftyNJDataAge.push([year, Object.values(obj)[i]]);
-        } else if (frequency(chosenfrequency, 2).includes(age)) {
+        } else if (frequency(chosen5yrs, 2).includes(age)) {
           ySixtyFiveNJDataAge.push([year, Object.values(obj)[i]]);
-        } else if (frequency(chosenfrequency, 3).includes(age)) {
+        } else if (frequency(chosen5yrs, 3).includes(age)) {
           ySeventyFiveNJDataAge.push([year, Object.values(obj)[i]]);
-        } else if (frequency(chosenfrequency, 4).includes(age)) {
+        } else if (frequency(chosen5yrs, 4).includes(age)) {
           yEightyFiveNJDataAge.push([year, Object.values(obj)[i]]);
-        } else if (frequency(chosenfrequency, 5).includes(age)) {
+        } else if (frequency(chosen5yrs, 5).includes(age)) {
           yNinetyFiveNJDataAge.push([year, Object.values(obj)[i]]);
-        } else if (frequency(chosenfrequency, 6).includes(age)) {
+        } else if (frequency(chosen5yrs, 6).includes(age)) {
           yOneTenNJDataAge.push([year, Object.values(obj)[i]]);
         }
       });
@@ -9988,20 +9989,20 @@ class Mortal extends React.Component {
       lowDate,
       highDate,
       lowDeaths,
-      highDeaths,
+      highDeaths
       //chosenRate: true
     };
     this.state = state;
   }
   componentDidUpdate = (prevProps) => {
-    const { chosenRate, chosenfrequency } = this.state;
+    const { chosenRate, chosen5yrs } = this.state;
     if (
       chosenRate !== this.state.lastChosenRate ||
-      this.state.lastchosenfrequency !== chosenfrequency
+      this.state.lastchosenfrequency !== chosen5yrs
     )
       this.setState(
         {
-          lastchosenfrequency: chosenfrequency,
+          lastchosenfrequency: chosen5yrs,
           lastChosenRate: chosenRate
         },
         () => {
@@ -10090,6 +10091,7 @@ class Mortal extends React.Component {
           let yEightyFiveNJDataAge = [];
           let yNinetyFiveNJDataAge = [];
           let yOneTenNJDataAge = [];
+          const averageIt = chosenRate && !chosen5yrs;
           Object.keys(usmortality).forEach((yearSet, i) => {
             const year = yearSet; //Number(yearSet.split("-")[1]);
             noData.push([year, 0]);
@@ -10100,66 +10102,66 @@ class Mortal extends React.Component {
             const val = (d, p = 1000, rate = 1) =>
               Math.round(((d / 100000) * p * 1000) / rate);
             Object.values(usmortality)[i].forEach((x) => {
-              if (frequency(chosenfrequency, 0).includes(x.age)) {
+              if (frequency(chosen5yrs, 0).includes(x.age)) {
                 mZeroNJDataAge.push([
                   year,
-                  chosenRate ? (x.pop * 1000) / 6 : x.pop * 1000
+                  averageIt ? (x.pop * 1000) / 6 : x.pop * 1000
                 ]);
-              } else if (frequency(chosenfrequency, 1).includes(x.age)) {
+              } else if (frequency(chosen5yrs, 1).includes(x.age)) {
                 mFiftyNJDataAge.push([
                   year,
-                  chosenRate ? (x.pop * 1000) / 2 : x.pop * 1000
+                  averageIt ? (x.pop * 1000) / 2 : x.pop * 1000
                 ]);
-              } else if (frequency(chosenfrequency, 2).includes(x.age)) {
+              } else if (frequency(chosen5yrs, 2).includes(x.age)) {
                 mSixtyFiveNJDataAge.push([
                   year,
-                  chosenRate ? (x.pop * 1000) / 2 : x.pop * 1000
+                  averageIt ? (x.pop * 1000) / 2 : x.pop * 1000
                 ]);
-              } else if (frequency(chosenfrequency, 3).includes(x.age)) {
+              } else if (frequency(chosen5yrs, 3).includes(x.age)) {
                 mSeventyFiveNJDataAge.push([
                   year,
-                  chosenRate ? (x.pop * 1000) / 3 : x.pop * 1000
+                  averageIt ? (x.pop * 1000) / 3 : x.pop * 1000
                 ]);
-              } else if (frequency(chosenfrequency, 4).includes(x.age)) {
+              } else if (frequency(chosen5yrs, 4).includes(x.age)) {
                 mEightyFiveNJDataAge.push([
                   year,
-                  chosenRate ? (x.pop * 1000) / 2 : x.pop * 1000
+                  averageIt ? (x.pop * 1000) / 2 : x.pop * 1000
                 ]);
               }
-              if (frequency(chosenfrequency, 0).includes(x.age)) {
+              if (frequency(chosen5yrs, 0).includes(x.age)) {
                 mZeroNJData.push([
                   year,
-                  chosenRate ? val(x.dx, x.pop, 6) : val(x.dx, x.pop)
+                  averageIt ? val(x.dx, x.pop, 6) : val(x.dx, x.pop)
                 ]);
-              } else if (frequency(chosenfrequency, 1).includes(x.age)) {
+              } else if (frequency(chosen5yrs, 1).includes(x.age)) {
                 mFiftyNJData.push([
                   year,
-                  chosenRate ? val(x.dx, x.pop, 2) : val(x.dx, x.pop)
+                  averageIt ? val(x.dx, x.pop, 2) : val(x.dx, x.pop)
                 ]);
-              } else if (frequency(chosenfrequency, 2).includes(x.age)) {
+              } else if (frequency(chosen5yrs, 2).includes(x.age)) {
                 mSixtyFiveNJData.push([
                   year,
-                  chosenRate ? val(x.dx, x.pop, 2) : val(x.dx, x.pop)
+                  averageIt ? val(x.dx, x.pop, 2) : val(x.dx, x.pop)
                 ]);
-              } else if (frequency(chosenfrequency, 3).includes(x.age)) {
+              } else if (frequency(chosen5yrs, 3).includes(x.age)) {
                 mSeventyFiveNJData.push([
                   year,
-                  chosenRate ? val(x.dx, x.pop, 3) : val(x.dx, x.pop)
+                  averageIt ? val(x.dx, x.pop, 3) : val(x.dx, x.pop)
                 ]);
-              } else if (frequency(chosenfrequency, 4).includes(x.age)) {
+              } else if (frequency(chosen5yrs, 4).includes(x.age)) {
                 mEightyFiveNJData.push([
                   year,
-                  chosenRate ? val(x.dx, x.pop, 2) : val(x.dx, x.pop)
+                  averageIt ? val(x.dx, x.pop, 2) : val(x.dx, x.pop)
                 ]);
-              } else if (frequency(chosenfrequency, 5).includes(x.age)) {
+              } else if (frequency(chosen5yrs, 5).includes(x.age)) {
                 mNinetyFiveNJData.push([
                   year,
-                  chosenRate ? val(x.dx, x.pop, 2) : val(x.dx, x.pop)
+                  averageIt ? val(x.dx, x.pop, 2) : val(x.dx, x.pop)
                 ]);
-              } else if (frequency(chosenfrequency, 6).includes(x.age)) {
+              } else if (frequency(chosen5yrs, 6).includes(x.age)) {
                 mOneTenNJData.push([
                   year,
-                  chosenRate ? val(x.dx, x.pop, 6) : val(x.dx, x.pop)
+                  averageIt ? val(x.dx, x.pop, 6) : val(x.dx, x.pop)
                 ]);
               }
             });
@@ -10188,40 +10190,40 @@ class Mortal extends React.Component {
               if (deaths) obj[pop.age] = obj[pop.age] + deaths; //Math.round(deathprob * (pop.pop / 5) * 1000);
             });
             Object.keys(obj).forEach((age, i) => {
-              if (frequency(chosenfrequency, 0).includes(age)) {
+              if (frequency(chosen5yrs, 0).includes(age)) {
                 yZeroNJData.push([
                   year,
-                  chosenRate ? Object.values(obj)[i] / 6 : Object.values(obj)[i]
+                  averageIt ? Object.values(obj)[i] / 6 : Object.values(obj)[i]
                 ]);
-              } else if (frequency(chosenfrequency, 1).includes(age)) {
+              } else if (frequency(chosen5yrs, 1).includes(age)) {
                 yFiftyNJData.push([
                   year,
-                  chosenRate ? Object.values(obj)[i] / 2 : Object.values(obj)[i]
+                  averageIt ? Object.values(obj)[i] / 2 : Object.values(obj)[i]
                 ]);
-              } else if (frequency(chosenfrequency, 2).includes(age)) {
+              } else if (frequency(chosen5yrs, 2).includes(age)) {
                 ySixtyFiveNJData.push([
                   year,
-                  chosenRate ? Object.values(obj)[i] / 2 : Object.values(obj)[i]
+                  averageIt ? Object.values(obj)[i] / 2 : Object.values(obj)[i]
                 ]);
-              } else if (frequency(chosenfrequency, 3).includes(age)) {
+              } else if (frequency(chosen5yrs, 3).includes(age)) {
                 ySeventyFiveNJData.push([
                   year,
-                  chosenRate ? Object.values(obj)[i] / 3 : Object.values(obj)[i]
+                  averageIt ? Object.values(obj)[i] / 3 : Object.values(obj)[i]
                 ]);
-              } else if (frequency(chosenfrequency, 4).includes(age)) {
+              } else if (frequency(chosen5yrs, 4).includes(age)) {
                 yEightyFiveNJData.push([
                   year,
-                  chosenRate ? Object.values(obj)[i] / 2 : Object.values(obj)[i]
+                  averageIt ? Object.values(obj)[i] / 2 : Object.values(obj)[i]
                 ]);
-              } else if (frequency(chosenfrequency, 5).includes(age)) {
+              } else if (frequency(chosen5yrs, 5).includes(age)) {
                 yNinetyFiveNJData.push([
                   year,
-                  chosenRate ? Object.values(obj)[i] / 2 : Object.values(obj)[i]
+                  averageIt ? Object.values(obj)[i] / 2 : Object.values(obj)[i]
                 ]);
-              } else if (frequency(chosenfrequency, 6).includes(age)) {
+              } else if (frequency(chosen5yrs, 6).includes(age)) {
                 yOneTenNJData.push([
                   year,
-                  chosenRate ? Object.values(obj)[i] / 6 : Object.values(obj)[i]
+                  averageIt ? Object.values(obj)[i] / 6 : Object.values(obj)[i]
                 ]);
               }
             });
@@ -10256,40 +10258,40 @@ class Mortal extends React.Component {
                 obj[pop.age] = obj[pop.age] + Math.round(population); //Math.round(deathprob * (pop.pop / 5) * 1000);
             });
             Object.keys(obj).forEach((age, i) => {
-              if (frequency(chosenfrequency, 0).includes(age)) {
+              if (frequency(chosen5yrs, 0).includes(age)) {
                 yZeroNJDataAge.push([
                   year,
-                  chosenRate ? Object.values(obj)[i] / 6 : Object.values(obj)[i]
+                  averageIt ? Object.values(obj)[i] / 6 : Object.values(obj)[i]
                 ]);
-              } else if (frequency(chosenfrequency, 1).includes(age)) {
+              } else if (frequency(chosen5yrs, 1).includes(age)) {
                 yFiftyNJDataAge.push([
                   year,
-                  chosenRate ? Object.values(obj)[i] / 2 : Object.values(obj)[i]
+                  averageIt ? Object.values(obj)[i] / 2 : Object.values(obj)[i]
                 ]);
-              } else if (frequency(chosenfrequency, 2).includes(age)) {
+              } else if (frequency(chosen5yrs, 2).includes(age)) {
                 ySixtyFiveNJDataAge.push([
                   year,
-                  chosenRate ? Object.values(obj)[i] / 2 : Object.values(obj)[i]
+                  averageIt ? Object.values(obj)[i] / 2 : Object.values(obj)[i]
                 ]);
-              } else if (frequency(chosenfrequency, 3).includes(age)) {
+              } else if (frequency(chosen5yrs, 3).includes(age)) {
                 ySeventyFiveNJDataAge.push([
                   year,
-                  chosenRate ? Object.values(obj)[i] / 3 : Object.values(obj)[i]
+                  averageIt ? Object.values(obj)[i] / 3 : Object.values(obj)[i]
                 ]);
-              } else if (frequency(chosenfrequency, 4).includes(age)) {
+              } else if (frequency(chosen5yrs, 4).includes(age)) {
                 yEightyFiveNJDataAge.push([
                   year,
-                  chosenRate ? Object.values(obj)[i] / 2 : Object.values(obj)[i]
+                  averageIt ? Object.values(obj)[i] / 2 : Object.values(obj)[i]
                 ]);
-              } else if (frequency(chosenfrequency, 5).includes(age)) {
+              } else if (frequency(chosen5yrs, 5).includes(age)) {
                 yNinetyFiveNJDataAge.push([
                   year,
-                  chosenRate ? Object.values(obj)[i] / 2 : Object.values(obj)[i]
+                  averageIt ? Object.values(obj)[i] / 2 : Object.values(obj)[i]
                 ]);
-              } else if (frequency(chosenfrequency, 6).includes(age)) {
+              } else if (frequency(chosen5yrs, 6).includes(age)) {
                 yOneTenNJDataAge.push([
                   year,
-                  chosenRate ? Object.values(obj)[i] / 6 : Object.values(obj)[i]
+                  averageIt ? Object.values(obj)[i] / 6 : Object.values(obj)[i]
                 ]);
               }
             });
@@ -10721,6 +10723,7 @@ class Mortal extends React.Component {
       padding: "5px",
       margin: "2px"
     };
+    const averageIt = chosenRate && !this.state.chosen5yrs;
     return (
       <div style={this.props.style}>
         {/*<div
@@ -10773,16 +10776,16 @@ class Mortal extends React.Component {
               style={buttonStyle}
               onClick={() =>
                 this.setState(
-                  { chosenfrequency: !this.state.chosenfrequency }
-                  /*  this.state.chosenRate && this.state.chosenfrequency
-                    ? { chosenRate: false, chosenfrequency: false }
-                    : !this.state.chosenfrequency
-                    ? { chosenfrequency: true }
-                    : { chosenRate: true }*/
+                  //{ chosen5yrs: !this.state.chosen5yrs }
+                  this.state.chosenRate && this.state.chosen5yrs
+                    ? { chosenRate: false, chosen5yrs: false }
+                    : !this.state.chosenRate
+                    ? { chosenRate: true }
+                    : { chosen5yrs: true }
                 )
               }
             >
-              {chosenRate
+              {averageIt
                 ? "population per 5yr "
                 : `highest accu yearly mortality `}
             </div>
@@ -10796,7 +10799,7 @@ class Mortal extends React.Component {
             >
               {!this.state.yaxis
                 ? "pop"
-                : this.state.chosenfrequency && !chosenRate
+                : this.state.chosen5yrs && !chosenRate
                 ? "high"
                 : "cohort"}
             </button>
@@ -11322,7 +11325,7 @@ class Mortal extends React.Component {
                     backgroundColor: "white"
                   }}
                 />
-                {frequency(this.state.chosenfrequency, 0, true)}&nbsp;&nbsp;
+                {frequency(this.state.chosen5yrs, 0, true)}&nbsp;&nbsp;
               </div>
               <div style={{ width: "max-content" }}>
                 <div
@@ -11332,7 +11335,7 @@ class Mortal extends React.Component {
                     backgroundColor: "purple"
                   }}
                 />
-                {frequency(this.state.chosenfrequency, 1, true)}&nbsp;&nbsp;
+                {frequency(this.state.chosen5yrs, 1, true)}&nbsp;&nbsp;
               </div>
               <div style={{ width: "max-content" }}>
                 <div
@@ -11342,7 +11345,7 @@ class Mortal extends React.Component {
                     backgroundColor: "blue"
                   }}
                 />
-                {frequency(this.state.chosenfrequency, 2, true)}&nbsp;&nbsp;
+                {frequency(this.state.chosen5yrs, 2, true)}&nbsp;&nbsp;
               </div>
               <div style={{ width: "max-content" }}>
                 <div
@@ -11352,7 +11355,7 @@ class Mortal extends React.Component {
                     backgroundColor: "green"
                   }}
                 />
-                {frequency(this.state.chosenfrequency, 3, true)}&nbsp;&nbsp;
+                {frequency(this.state.chosen5yrs, 3, true)}&nbsp;&nbsp;
               </div>
               <div style={{ width: "max-content" }}>
                 <div
@@ -11362,7 +11365,7 @@ class Mortal extends React.Component {
                     backgroundColor: "orange"
                   }}
                 />
-                {frequency(this.state.chosenfrequency, 4, true)}&nbsp;&nbsp;
+                {frequency(this.state.chosen5yrs, 4, true)}&nbsp;&nbsp;
               </div>
               <div style={{ width: "max-content" }}>
                 <div
@@ -11372,7 +11375,7 @@ class Mortal extends React.Component {
                     backgroundColor: "red"
                   }}
                 />
-                {frequency(this.state.chosenfrequency, 5, true)}&nbsp;&nbsp;
+                {frequency(this.state.chosen5yrs, 5, true)}&nbsp;&nbsp;
               </div>
               <div style={{ width: "max-content" }}>
                 <div
@@ -11383,7 +11386,7 @@ class Mortal extends React.Component {
                   }}
                 />
                 {
-                  frequency(this.state.chosenfrequency, 6, true) //chosenfrequency, index, range defaults cohort
+                  frequency(this.state.chosen5yrs, 6, true) //chosen5yrs, index, range defaults cohort
                 }
                 &nbsp;&nbsp;
               </div>
