@@ -187,6 +187,21 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          "I will kill you," or "I will kill you, if you do this," still is ok
+          for before law since the word is non-exclusive of ability, nor
+          wanting. Going to is if yoou are confident in your view of the law or
+          natural/international law, in appeal. Saying, "I hope antivaxxers
+          die," shows a hypocrisy in bona fides, not dispensible without paying
+          the writers, and especially when prohibiting undiscovered reasonable
+          doubts from becoming more than 1/12, industry-invariability not with
+          standing.
+          <br />
+          <br />
+          variant spreading rapidly, and everyone must wear inside, and that
+          means all day." easyflowusa.com. EZPASS 40% debt service, 50%
+          debt-spending (in aggregate, laundererers).
+          <br />
+          <br />
           Karl Marx is our grande teacher and philospher, he died in 1888.
           <br />
           Dick Morris: "Comparative advancement is bending over. ...His goal is
