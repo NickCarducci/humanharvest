@@ -187,12 +187,19 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          let's face it, these are your investments. we should kepp them from
+          real GDP, count it as M2 is mutual funds and checking, velocity of
+          that per year or quarter is GDP.
+          <br />
+          <br />
           No victim, no fine without state vic
-<br/>
-Law to replace old buildings, by jail. required, how?
-<br/>
-<br/>
-          "Help children make eat their pizza."<br/><br/>
+          <br />
+          Law to replace old buildings, by jail. required, how?
+          <br />
+          <br />
+          "Help children make eat their pizza."
+          <br />
+          <br />
           The fed increasing interesty rates by NOT buying outstanding ask to
           price fix value to ask of pensions. "Better than getting rent from
           some deadbeats. Take surrendered freedoms of others in $12k/64
