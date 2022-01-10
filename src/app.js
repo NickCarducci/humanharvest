@@ -187,9 +187,6 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          "oragel, actually a product." I will not take credit, it is fake.
-          <br />
-          <br />
           let's face it, these are your investments. we should kepp them from
           real GDP, count it as M2 is mutual funds and checking, velocity of
           that per year or quarter is GDP.
@@ -221,6 +218,21 @@ export default class App extends React.Component {
           thing that changes is price.
           <br />
           Job, copy or science
+          <br />
+          <br />
+          Prevalence is not all-incidence artifact (of sickness), nor
+          all-inclusive (of sickness). It cannot be output only, without being
+          evolutionary trait or byproduct.
+          <br />
+          "They don’t want to see you suceed at your expense," it isn’t up for a
+          vote, my surrendered freedoms (EULA) by your valuing/expiring but not
+          discounting ALL input costs: homes, equities, bonds, profits,
+          expiring-premiums and labor. A keynsian admitting the world is zero
+          sum except for comparative advantage labor, and more money only bids
+          up the same resources?
+          <br />
+          <br />
+          "oragel, actually a product." I will not take credit, it is fake.
           <br />
           <br />
           “ME&A t4-up t1 diabetis rheumatoid arthritis inflammatory bowel
