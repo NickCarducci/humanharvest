@@ -187,6 +187,16 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          Greg Kelly, "Did Eric Adams (6%) just say the virus that came from China being
+          called a Chinese virus cannot be called that?"
+          <br />
+          <br />
+          If it only comes out, it is an evolutionary trait or byproduct.
+          Prevalence doesn't mean causation. Hundreds of unsaught variants exist
+          without our knowledge, of non-all-incidence artifact nor -exclusive
+          byproduct.
+          <br />
+          <br />
           let's face it, these are your investments. we should kepp them from
           real GDP, count it as M2 is mutual funds and checking, velocity of
           that per year or quarter is GDP.
