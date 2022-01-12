@@ -96,17 +96,14 @@ class Cable extends React.Component {
                 console.log(children);
                 if (children.length > 0) {
                   var gl = null;
-
                   const foun = children.find(
                     (x) => (gl = x.getContext("webgl"))
                   );
-
                   foun.addEventListener(
                     "webglcontextlost",
                     (e) => console.log(e),
                     false
                   );
-
                   gl.getExtension("WEBGL_lose_context").loseContext();
                 }
               }*/
@@ -161,23 +158,22 @@ class Cable extends React.Component {
           overflowX: "auto",
           shapeOutside: "rect()",
           float,
-          height: this.state.frameheight ? this.state.frameheight + 20 : "",
+          height: this.state.frameheight
+            ? this.state.frameheight + 20
+            : "max-content",
           width: optionalwidth,
           maxWidth: "100%"
           //minWidth: optionalwidth // "max-content"
         }}
       >
-        {!mount || src === "" ? (
+        {src === "" ? (
           <span style={{ border: "2px gray solid" }}>{title}</span>
-        ) : img ? (
-          <img
+        ) : !img ? (
+          <iframe
             onLoad={onLoad}
             onError={onError}
-            alt={title}
+            title={title}
             style={{
-              overflowX: "auto",
-              shapeOutside: "rect()",
-              float,
               width: "200px",
               border: 0,
               ...this.props.style
@@ -186,16 +182,13 @@ class Cable extends React.Component {
             src={src}
           />
         ) : (
-          <iframe
-            onLoad={onLoad}
+          <img
+            //onLoad={onLoad}
             onError={onError}
-            title={title}
+            alt={title}
             style={{
-              overflowX: "auto",
-              shapeOutside: "rect()",
-              float,
               width: "200px",
-              border: 0,
+              border: !mount || src === "" ? "2px gray solid" : 0,
               ...this.props.style
             }}
             ref={this.props.fwd}
@@ -245,7 +238,6 @@ export default React.forwardRef((props, ref) => <Cable fwd={ref} {...props} />);
           //continuee.click();
           //}
           //continuee.parentNode.removeChild(continuee);
-
           return;
         }
         //if (!between && continuee) return continuee.remove();
