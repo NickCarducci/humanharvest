@@ -187,9 +187,14 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          "Work[-hour] numbers are down," only counts working for others not chores and
-          errands, watching your own kids, paying for your own schools, etc.
-          Corporate flaccid loss.
+          85% since 2000 25-54, 19% population are disabled, above 65+.
+          <br />
+          "Work[-hour] numbers are down," only counts working for others not
+          chores and errands, watching your own kids, paying for your own
+          schools, etc. Corporate flaccid loss, forced social security
+          investment, you old people had your entire lives to save checking, GDP
+          is mostly m2 mutual funds, so. velocity of such per year or quarter.
+          inflation
           <br />
           <br />
           "The government colludes with the law bar licensure by class
@@ -5942,11 +5947,33 @@ export default class App extends React.Component {
               backgroundColor: "rgb(190,150,180)"
             }}
           />
+          <Cable
+            style={{ height: "440px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://drive.google.com/file/d/1IkFesv7Ri837lrUczgT962Tz1z2P8X1o/preview"
+            }
+            float="left"
+            title="Stinchfield (Newsmax) - 'gain of function research'"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
+          “Virus that now cause[d], a global pandemic,” we can defend threats
+          over anybody else," but not socialists to drop dead? or our countries'
+          founding over fucking&nbsp;<a href="https://teapharmacy.party">tea</a>
+          ...
+          <br />
+          <br />
           CDC put pneumonia influenza covid together, for Cause of Death and
           hospitalizations, all of which are insignificant changes year to year.
           <h2>I’m not a doctor, but I am a statistician.</h2>
           <Cable
-            style={{ height: "280px" }}
+            style={{ height: "240px" }}
             onError={handleScollImgError}
             //img={true}
             src={
@@ -5987,7 +6014,7 @@ export default class App extends React.Component {
                 ? ""
                 : "https://www.youtube.com/embed/ZmUozfOPquk"
             }
-            float="right"
+            float="left"
             title="Left vs Right (77WABC) - sundays 3-5pm Sliwa vs Hahn"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
