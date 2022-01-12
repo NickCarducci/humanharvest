@@ -145,6 +145,13 @@ class Cable extends React.Component {
         loaded: true
       });
     };
+    const optionalwidth = this.state.framewidth
+      ? this.state.framewidth
+      : this.props.style &&
+        this.props.style.width &&
+        !isNaN(this.props.style.width)
+      ? this.props.style.width
+      : "";
     return (
       <div
         ref={this.page}
@@ -155,13 +162,8 @@ class Cable extends React.Component {
           shapeOutside: "rect()",
           float,
           height: this.state.frameheight,
-          width: this.state.framewidth
-            ? this.state.framewidth
-            : this.props.style &&
-              this.props.style.width &&
-              !isNaN(this.props.style.width)
-            ? this.props.style.width
-            : "100%"
+          width: optionalwidth !== "" ? optionalwidth : "",
+          maxWidth: optionalwidth
         }}
       >
         {!mount || src === "" ? (
