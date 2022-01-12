@@ -175,6 +175,7 @@ class Cable extends React.Component {
             onError={onError}
             alt={title}
             style={{
+              overflowX: "auto",
               shapeOutside: "rect()",
               float,
               width: "200px",
@@ -190,6 +191,7 @@ class Cable extends React.Component {
             onError={onError}
             title={title}
             style={{
+              overflowX: "auto",
               shapeOutside: "rect()",
               float,
               width: "200px",
