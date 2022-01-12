@@ -151,6 +151,7 @@ class Cable extends React.Component {
       ? //!isNaN(this.props.style.width)
         this.props.style.width
       : "max-content";
+    //console.log(optionalwidth);
     return (
       <div
         ref={this.page}
