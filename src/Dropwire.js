@@ -63,10 +63,10 @@ class Cable extends React.Component {
       var between =
         page.offsetTop - scrollTop > Number(`-${girt}`) &&
         scrollTopAndHeight - page.offsetTop > Number(`-${girt}`);
-
+      //console.log(page.offsetTop);
       if (!this.state.mount) {
         //console.log(between, page.offsetTop, scrollTop);
-        between && this.setState({ mount: between }, () => {});
+        /*between && */ this.setState({ mount: between }, () => {});
       } else {
         var continuee = this.props.fwd.current;
         //between && console.log(between, continuee.outerHTML);
@@ -81,13 +81,13 @@ class Cable extends React.Component {
         //console.log(cacheStyle);
         //console.log(cache, continuee.offsetHeight, continuee.offsetWidth);
         if (!cache && this.state.loaded) {
-          if (continuee.offsetHeight !== 0)
-            this.setState({
-              cache: continuee.outerHTML,
-              //cacheStyle,
-              frameheight: continuee.offsetHeight,
-              framewidth: continuee.offsetWidth
-            });
+          //if (continuee.offsetHeight !== 0)
+          this.setState({
+            cache: continuee.outerHTML,
+            //cacheStyle,
+            frameheight: continuee.offsetHeight,
+            framewidth: continuee.offsetWidth
+          });
         } else if (!between) {
           //console.log("!between", continuee.outerHTML);
           /* if (continuee) {
@@ -161,7 +161,7 @@ class Cable extends React.Component {
           overflowX: "auto",
           shapeOutside: "rect()",
           float,
-          height: this.state.frameheight + 5,
+          height: this.state.frameheight ? this.state.frameheight + 5 : "",
           width: /*optionalwidth !== "" ? optionalwidth : */ "200px",
           maxWidth: optionalwidth,
           minWidth: optionalwidth // "max-content"
