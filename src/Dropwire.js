@@ -66,7 +66,7 @@ class Cable extends React.Component {
 
       if (!this.state.mount) {
         //console.log(between, page.offsetTop, scrollTop);
-        this.setState({ mount: between }, () => {});
+        between && this.setState({ mount: between }, () => {});
       } else {
         var continuee = this.props.fwd.current;
         //between && console.log(between, continuee.outerHTML);
@@ -81,12 +81,13 @@ class Cable extends React.Component {
         //console.log(cacheStyle);
         //console.log(cache, continuee.offsetHeight, continuee.offsetWidth);
         if (!cache && this.state.loaded) {
-          this.setState({
-            cache: continuee.outerHTML,
-            //cacheStyle,
-            frameheight: continuee.offsetHeight,
-            framewidth: continuee.offsetWidth
-          });
+          if (continuee.offsetHeight !== 0)
+            this.setState({
+              cache: continuee.outerHTML,
+              //cacheStyle,
+              frameheight: continuee.offsetHeight,
+              framewidth: continuee.offsetWidth
+            });
         } else if (!between) {
           //console.log("!between", continuee.outerHTML);
           /* if (continuee) {
@@ -148,15 +149,23 @@ class Cable extends React.Component {
       <div
         ref={this.page}
         style={{
+          //width: this.state.framewidth,
+          ...this.props.style,
+          overflowX: "auto",
           shapeOutside: "rect()",
           float,
           height: this.state.frameheight,
-          width: this.state.framewidth,
-          ...this.props.style
+          width: this.state.framewidth
+            ? this.state.framewidth
+            : this.props.style &&
+              this.props.style.width &&
+              !isNaN(this.props.style.width)
+            ? this.props.style.width
+            : "100%"
         }}
       >
         {!mount || src === "" ? (
-          <span style={{ border: "1px gray solid" }}>{title}</span>
+          <span style={{ border: "2px gray solid" }}>{title}</span>
         ) : img ? (
           <img
             onLoad={onLoad}
