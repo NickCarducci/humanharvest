@@ -150,7 +150,7 @@ class Cable extends React.Component {
       : this.props.style && this.props.style.width // &&
       ? //!isNaN(this.props.style.width)
         this.props.style.width
-      : "max-content";
+      : "200px";
     //console.log(optionalwidth);
     return (
       <div
@@ -161,10 +161,10 @@ class Cable extends React.Component {
           overflowX: "auto",
           shapeOutside: "rect()",
           float,
-          height: this.state.frameheight ? this.state.frameheight + 5 : "",
-          width: /*optionalwidth !== "" ? optionalwidth : */ "200px",
-          maxWidth: optionalwidth,
-          minWidth: optionalwidth // "max-content"
+          height: this.state.frameheight ? this.state.frameheight + 20 : "",
+          width: optionalwidth,
+          maxWidth: "100%"
+          //minWidth: optionalwidth // "max-content"
         }}
       >
         {!mount || src === "" ? (
