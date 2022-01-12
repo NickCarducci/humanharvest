@@ -49,12 +49,12 @@ class Cable extends React.Component {
     var girt =
       girth && !isNaN(girth)
         ? girth + 500
+        : frameheight
+        ? frameheight
         : this.props.style &&
           this.props.style.height &&
           !isNaN(this.props.style.height)
         ? this.props.style.height + 500
-        : frameheight
-        ? frameheight
         : 500;
     var timeou = timeout ? timeout : 1500;
     clearTimeout(this.setset);
@@ -147,11 +147,10 @@ class Cable extends React.Component {
     };
     const optionalwidth = this.state.framewidth
       ? this.state.framewidth
-      : this.props.style &&
-        this.props.style.width &&
-        !isNaN(this.props.style.width)
-      ? this.props.style.width
-      : "";
+      : this.props.style && this.props.style.width // &&
+      ? //!isNaN(this.props.style.width)
+        this.props.style.width
+      : "max-content";
     return (
       <div
         ref={this.page}
@@ -161,9 +160,10 @@ class Cable extends React.Component {
           overflowX: "auto",
           shapeOutside: "rect()",
           float,
-          height: this.state.frameheight,
-          width: optionalwidth !== "" ? optionalwidth : "",
-          maxWidth: optionalwidth
+          height: this.state.frameheight + 5,
+          width: /*optionalwidth !== "" ? optionalwidth : */ "200px",
+          maxWidth: optionalwidth,
+          minWidth: optionalwidth // "max-content"
         }}
       >
         {!mount || src === "" ? (
