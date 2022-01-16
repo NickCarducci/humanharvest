@@ -4483,7 +4483,7 @@ export default class App extends React.Component {
                   : "https://www.youtube.com/embed/4hrMuZEGGmk"
               }
               float="right"
-              title=""
+              title="Dick Morris to hide homes from inflation - https://youtu.be/4hrMuZEGGmk"
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
@@ -10045,7 +10045,7 @@ export default class App extends React.Component {
                 : "https://www.youtube.com/embed/m-CwPBcrMYQ"
             }
             float="left"
-            title="Rudy Giuliani on T2T 77WABC - bacteria is cause"
+            title="Rudy Giuliani on T2T 77WABC - bacteria is cause - https://youtu.be/m-CwPBcrMYQ"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
@@ -10412,7 +10412,7 @@ export default class App extends React.Component {
                 : "https://www.youtube.com/embed/nKvUf7F4Xn4"
             }
             float="right"
-            title="Dick Morris 77WABC - bacteria is cause"
+            title="Dick Morris 77WABC - french revolution - https://youtu.be/nKvUf7F4Xn4"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
@@ -10764,7 +10764,7 @@ export default class App extends React.Component {
                   : "https://www.youtube.com/embed/1D6n2om9I6A"
               }
               float="right"
-              title="Dick Morris 77WABC - bacteria is cause"
+              title="nj 101.5 Bill Spaedea excess deaths from population size single year  - https://youtu.be/1D6n2om9I6A"
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
@@ -10928,7 +10928,7 @@ export default class App extends React.Component {
                   : "https://www.youtube.com/embed/mlEFtVlivjs"
               }
               float="right"
-              title=""
+              title="Com Carter on bacteria v viral diagnosis by Pfizer and Harvard Wyss - https://youtu.be/mlEFtVlivjs"
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
@@ -11027,7 +11027,7 @@ export default class App extends React.Component {
                   : "https://www.youtube.com/embed/m55ZAB47LHg"
               }
               float="right"
-              title="Dick Morris 77WABC - bacteria is cause"
+              title="nj 101.5 Deminski & Doyle hung jury reasonable doubt 'quack science' being virial injecting DNA into cell - https://youtu.be/m55ZAB47LHg"
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
@@ -11077,7 +11077,7 @@ export default class App extends React.Component {
                   : "https://www.youtube.com/embed/-spTY4y8euI"
               }
               float="left"
-              title="Ford Brewer MD bacteria notions, reasonable doubt"
+              title="Ford Brewer MD bacteria notions, reasonable doubt - https://youtu.be/-spTY4y8euI"
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
@@ -11479,7 +11479,7 @@ export default class App extends React.Component {
                   : "https://www.youtube.com/embed/Jxj0-TaTm4o"
               }
               float="right"
-              title=""
+              title="nj 101.5 Dennis and Judy interview on insignificant unemployment then slander from insurance sponsored radio - https://youtu.be/Jxj0-TaTm4o"
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
@@ -11538,7 +11538,7 @@ export default class App extends React.Component {
                   : "https://www.youtube.com/embed/MTM2Pw73Ol0"
               }
               float="right"
-              title="Dick Morris 77WABC - bacteria is cause"
+              title="nj 101.5 Dennis and Judy bacteria may be cause, prevalence can be byproduct, injecting into DNA is made up - https://youtu.be/MTM2Pw73Ol0"
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
