@@ -187,6 +187,8 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          <h2>Cindy Adams: "we could wear and afford jewlery then"</h2>
+          <h3>it is because of banks, not population 3%/yr+ 1800-1913 GDP/p being nearly constant</h3>
           85% since 2000 25-54, 19% population are disabled, above 65+.
           <br />
           "Work[-hour] numbers are down," only counts working for others not
@@ -212,9 +214,9 @@ export default class App extends React.Component {
           wanting. Going to is if yoou are confident in your view of the law or
           natural/international law, in appeal. Saying, "I hope antivaxxers
           die," shows a hypocrisy in bona fides, not dispensible without paying
-          the writers, and especially when prohibiting undiscovered reasonable
-          doubts from becoming more than 1/12, industry-invariability not with
-          standing.
+          the writers, and especially when prohibiting undiscovered
+          <h2>reasonable doubts from becoming more than 1/12</h2>
+          industry-invariability not with standing.
           <br />
           <br />
           variant spreading rapidly, and everyone must wear inside, and that
@@ -5654,6 +5656,11 @@ export default class App extends React.Component {
           because it was after the average cohort age met life
           expectancy/average age at death.
           <br />
+          <br />
+          Immunocompromised means dysregulated oncogenesis of garbage collection
+          by antibodies of bacterial reinfection
+          <br />
+          <br />
           "Antibiotics put me in a wheelchair in a month," antiviral just stops
           the warning mechanism. "Don’t realize how much power, when they
           realize how much power they have, can’t fine us," says Howie Hurley.
@@ -9897,7 +9904,7 @@ export default class App extends React.Component {
                 : "https://www.youtube.com/embed/IPQIsodwMwY"
             }
             float="left"
-            title="Stephen Moore June 13th, 2021 Moore Money, Population Growth, Epiology & GDP/population"
+            title="Stephen Moore June 13th, 2021 Moore Money, Population Growth, Epiology & GDP/population - https://youtu.be/IPQIsodwMwY"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
