@@ -9423,7 +9423,7 @@ const frequency = (chosen5yrs, a, print) => {
   var frequency = null;
   if (!chosen5yrs && print) {
     if (a === 0) {
-      frequency = ["0-29"];
+      frequency = ["15-29"];
     } else if (a === 1) {
       frequency = ["30-34"];
     } else if (a === 2) {
@@ -9458,7 +9458,7 @@ const frequency = (chosen5yrs, a, print) => {
     //programmatic range not 5 yrs
     //cohort
     if (a === 0) {
-      frequency = ["0", "1-4", "5-9", "10-14", "15-19", "20-24", "25-29"];
+      frequency = [/*"0", "1-4", "5-9", "10-14", */ "15-19", "20-24", "25-29"];
     } else if (a === 1) {
       frequency = ["30-34", "35-39"];
     } else if (a === 2) {
@@ -10493,7 +10493,7 @@ class Mortal extends React.Component {
             ...yearlySixtyFiveNJAge,
             ...yearlySeventyFiveNJAge,
             ...yearlyEightyFiveNJAge,
-            ...mortalZeroNJAge,
+            ...(averageIt ? [] : mortalZeroNJAge),
             ...mortalFiftyNJAge,
             ...mortalSixtyFiveNJAge,
             ...mortalSeventyFiveNJAge,
