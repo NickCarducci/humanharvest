@@ -2413,9 +2413,9 @@ const frequency = (chosenfrequency, a, range) => {
   var frequency = null;
   if (!chosenfrequency && range) {
     if (a === 0) {
-      frequency = ["0-4"];
+      frequency = ["15-29"];
     } else if (a === 1) {
-      frequency = ["5-49"];
+      frequency = ["30-49"];
     } else if (a === 2) {
       frequency = ["50-64"];
     } else if (a === 3) {
@@ -2447,19 +2447,9 @@ const frequency = (chosenfrequency, a, range) => {
   } else {
     //cohort
     if (a === 0) {
-      frequency = ["0-4"];
+      frequency = [/*"0-4", "5-9", "10-14", */ "15-19", "20-24", "25-29"];
     } else if (a === 1) {
-      frequency = [
-        "5-9",
-        "10-14",
-        "15-19",
-        "20-24",
-        "25-29",
-        "30-34",
-        "35-39",
-        "40-44",
-        "45-49"
-      ];
+      frequency = ["30-34", "35-39", "40-44", "45-49"];
     } else if (a === 2) {
       frequency = ["50-54", "55-59", "60-64"];
     } else if (a === 3) {
