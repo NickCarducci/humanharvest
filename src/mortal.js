@@ -9989,7 +9989,8 @@ class Mortal extends React.Component {
       lowDate,
       highDate,
       lowDeaths,
-      highDeaths
+      highDeaths,
+      yaxis: true
       //chosenRate: true
     };
     this.state = state;
