@@ -3636,14 +3636,16 @@ class Worldwide extends React.Component {
         </div>
         <div
           style={{
-            display: "flex",
-            width: "100%"
+            display: "grid",
+            width: "100%",
+            gridTemplateColumns: "repeat(auto-fit,  minmax(10px, max-content))"
           }}
         >
           {this.state.date.map((x) => (
             <div
               key={x}
               style={{
+                transform: "rotate(40deg)",
                 width: "max-content",
                 wordBreak: "none",
                 margin: "0px 10px"
