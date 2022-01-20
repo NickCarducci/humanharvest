@@ -11392,7 +11392,8 @@ class Mortal extends React.Component {
         </div>
         <div
           style={{
-            display: "flex",
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit,  minmax(10px, max-content))",
             width: "100%"
           }}
         >
@@ -11402,6 +11403,7 @@ class Mortal extends React.Component {
                 <div
                   key={x}
                   style={{
+                    transform: "rotate(40deg)",
                     width: "max-content",
                     wordBreak: "none",
                     margin: "0px 10px"
