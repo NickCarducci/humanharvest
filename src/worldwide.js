@@ -2413,9 +2413,9 @@ const frequency = (chosenfrequency, a, range) => {
   var frequency = null;
   if (!chosenfrequency && range) {
     if (a === 0) {
-      frequency = ["15-29"];
+      frequency = ["0-4"];
     } else if (a === 1) {
-      frequency = ["30-49"];
+      frequency = ["5-49"];
     } else if (a === 2) {
       frequency = ["50-64"];
     } else if (a === 3) {
@@ -2447,9 +2447,19 @@ const frequency = (chosenfrequency, a, range) => {
   } else {
     //cohort
     if (a === 0) {
-      frequency = [/*"0-4", "5-9", "10-14", */ "15-19", "20-24", "25-29"];
+      frequency = ["0-4"];
     } else if (a === 1) {
-      frequency = ["30-34", "35-39", "40-44", "45-49"];
+      frequency = [
+        "5-9",
+        "10-14",
+        "15-19",
+        "20-24",
+        "25-29",
+        "30-34",
+        "35-39",
+        "40-44",
+        "45-49"
+      ];
     } else if (a === 2) {
       frequency = ["50-54", "55-59", "60-64"];
     } else if (a === 3) {
@@ -2474,6 +2484,10 @@ class Worldwide extends React.Component {
     var averageLifetime = [];
     let mortalZeroNJData = [];
     var mortalZeroNJ = [];
+    let mortalNinetyFiveNJAge = [];
+    let mortalNinetyFiveNJDataAge = [];
+    let mortalOneTenNJAge = [];
+    let mortalOneTenNJDataAge = [];
     let mortalEightyFiveNJDataAge = [];
     let mortalEightyFiveNJAge = [];
     let mortalSixtyFiveNJDataAge = [];
@@ -2497,6 +2511,8 @@ class Worldwide extends React.Component {
     let mortalOneTenNJData = [];
     let mortalOneTenNJ = [];
     let mZeroNJData = [];
+    let mOneTenNJDataAge = [];
+    let mNinetyFiveNJDataAge = [];
     let mEightyFiveNJDataAge = [];
     let mSixtyFiveNJDataAge = [];
     let mSeventyFiveNJDataAge = [];
@@ -2576,6 +2592,7 @@ class Worldwide extends React.Component {
           mEightyFiveNJDataAge.push([year, pop]);
         } else if (x.age === "85-89" || x.age === "90-94") {
           mNinetyFiveNJData.push([year, numer(x.deaths)]);
+          mNinetyFiveNJDataAge.push([year, pop]);
         } else if (
           x.age === "95" ||
           x.age === "100-104" ||
@@ -2583,6 +2600,7 @@ class Worldwide extends React.Component {
           x.age === "110"
         ) {
           mOneTenNJData.push([year, numer(x.deaths)]);
+          mOneTenNJDataAge.push([year, pop]);
         }
       });
     });
@@ -2624,6 +2642,18 @@ class Worldwide extends React.Component {
       });
       mortalFiftyNJ.push(totmF);
       mortalFiftyNJData.push([x, totmF]);
+      let totmOT = 0;
+      mOneTenNJDataAge.forEach((obj) => {
+        if (obj[0] === x) totmOT = totmOT + obj[1];
+      });
+      mortalOneTenNJAge.push(totmOT);
+      mortalOneTenNJDataAge.push([x, totmOT]);
+      let totmNFA = 0;
+      mNinetyFiveNJDataAge.forEach((obj) => {
+        if (obj[0] === x) totmNFA = totmNFA + obj[1];
+      });
+      mortalNinetyFiveNJAge.push(totmNFA);
+      mortalNinetyFiveNJDataAge.push([x, totmNFA]);
       let totmEFA = 0;
       mEightyFiveNJDataAge.forEach((obj) => {
         if (obj[0] === x) totmEFA = totmEFA + obj[1];
@@ -2706,6 +2736,8 @@ class Worldwide extends React.Component {
       mortalSixtyFiveNJDataAge,
       mortalSeventyFiveNJDataAge,
       mortalEightyFiveNJDataAge,
+      mortalNinetyFiveNJDataAge,
+      mortalOneTenNJDataAge,
       mortalFiftyNJData,
       mortalSixtyFiveNJData,
       mortalSeventyFiveNJData,
@@ -2749,6 +2781,10 @@ class Worldwide extends React.Component {
           let mortalSeventyFiveNJAge = [];
           let mortalEightyFiveNJDataAge = [];
           let mortalEightyFiveNJAge = [];
+          let mortalNinetyFiveNJAge = [];
+          let mortalNinetyFiveNJDataAge = [];
+          let mortalOneTenNJAge = [];
+          let mortalOneTenNJDataAge = [];
           let mortalFiftyNJData = [];
           let mortalFiftyNJ = [];
           let mortalSixtyFiveNJData = [];
@@ -2767,6 +2803,8 @@ class Worldwide extends React.Component {
           let mSixtyFiveNJDataAge = [];
           let mSeventyFiveNJDataAge = [];
           let mEightyFiveNJDataAge = [];
+          let mNinetyFiveNJDataAge = [];
+          let mOneTenNJDataAge = [];
           let mFiftyNJData = [];
           let mSixtyFiveNJData = [];
           let mSeventyFiveNJData = [];
@@ -2800,6 +2838,10 @@ class Worldwide extends React.Component {
                 ]);
               } else if (frequency(chosenfrequency, 4).includes(x.age)) {
                 mEightyFiveNJDataAge.push([year, chosenRate ? popp / 2 : popp]);
+              } else if (frequency(chosenfrequency, 5).includes(x.age)) {
+                mNinetyFiveNJDataAge.push([year, chosenRate ? popp / 2 : popp]);
+              } else if (frequency(chosenfrequency, 6).includes(x.age)) {
+                mOneTenNJDataAge.push([year, chosenRate ? popp / 2 : popp]);
               }
               if (frequency(chosenfrequency, 0).includes(x.age)) {
                 mZeroNJData.push([
@@ -2877,6 +2919,18 @@ class Worldwide extends React.Component {
             });
             mortalFiftyNJ.push(totmF);
             mortalFiftyNJData.push([x, totmF]);
+            let totmOT = 0;
+            mOneTenNJDataAge.forEach((obj) => {
+              if (obj[0] === x) totmOT = totmOT + obj[1];
+            });
+            mortalOneTenNJAge.push(totmOT);
+            mortalOneTenNJDataAge.push([x, totmOT]);
+            let totmNFA = 0;
+            mNinetyFiveNJDataAge.forEach((obj) => {
+              if (obj[0] === x) totmNFA = totmNFA + obj[1];
+            });
+            mortalNinetyFiveNJAge.push(totmNFA);
+            mortalNinetyFiveNJDataAge.push([x, totmNFA]);
             let totmEFA = 0;
             mEightyFiveNJDataAge.forEach((obj) => {
               if (obj[0] === x) totmEFA = totmEFA + obj[1];
@@ -2933,7 +2987,9 @@ class Worldwide extends React.Component {
             ...mortalFiftyNJAge,
             ...mortalSixtyFiveNJAge,
             ...mortalSeventyFiveNJAge,
-            ...mortalEightyFiveNJAge
+            ...mortalEightyFiveNJAge,
+            ...mortalNinetyFiveNJAge,
+            ...mortalOneTenNJAge
           );
           noData.sort((a, b) => a[0] - b[0]);
           mortalZeroNJData.sort((a, b) => a[0] - b[0]);
@@ -2941,6 +2997,8 @@ class Worldwide extends React.Component {
           mortalSixtyFiveNJDataAge.sort((a, b) => a[0] - b[0]);
           mortalSeventyFiveNJDataAge.sort((a, b) => a[0] - b[0]);
           mortalEightyFiveNJDataAge.sort((a, b) => a[0] - b[0]);
+          mortalNinetyFiveNJDataAge.sort((a, b) => a[0] - b[0]);
+          mortalOneTenNJDataAge.sort((a, b) => a[0] - b[0]);
           mortalFiftyNJData.sort((a, b) => a[0] - b[0]);
           mortalSixtyFiveNJData.sort((a, b) => a[0] - b[0]);
           mortalSeventyFiveNJData.sort((a, b) => a[0] - b[0]);
@@ -2956,6 +3014,8 @@ class Worldwide extends React.Component {
             mortalSixtyFiveNJDataAge,
             mortalSeventyFiveNJDataAge,
             mortalEightyFiveNJDataAge,
+            mortalNinetyFiveNJDataAge,
+            mortalOneTenNJDataAge,
             mortalFiftyNJData,
             mortalSixtyFiveNJData,
             mortalSeventyFiveNJData,
@@ -3003,6 +3063,18 @@ class Worldwide extends React.Component {
       ]
     );
     const mortalEightyFiveNJDataAge = this.state.mortalEightyFiveNJDataAge.map(
+      ([x, y]) => [
+        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
+        ((y - this.state.lowDeaths) / this.state.cappop) * 150
+      ]
+    );
+    const mortalNinetyFiveNJDataAge = this.state.mortalNinetyFiveNJDataAge.map(
+      ([x, y]) => [
+        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
+        ((y - this.state.lowDeaths) / this.state.cappop) * 150
+      ]
+    );
+    const mortalOneTenNJDataAge = this.state.mortalOneTenNJDataAge.map(
       ([x, y]) => [
         ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
         ((y - this.state.lowDeaths) / this.state.cappop) * 150
@@ -3326,6 +3398,38 @@ class Worldwide extends React.Component {
                       width={8}
                       height={1}
                       stroke="orange"
+                      fill="transparent"
+                      strokeWidth={1}
+                      key={i}
+                    />
+                  )
+              )}
+              {mortalNinetyFiveNJDataAge.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={8}
+                      height={1}
+                      stroke="red"
+                      fill="transparent"
+                      strokeWidth={1}
+                      key={i}
+                    />
+                  )
+              )}
+              {mortalOneTenNJDataAge.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={8}
+                      height={1}
+                      stroke="black"
                       fill="transparent"
                       strokeWidth={1}
                       key={i}
