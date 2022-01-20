@@ -3530,9 +3530,9 @@ class Spanish extends React.Component {
         </div>
         <div
           style={{
-            display: "flex",
-            width: "100%",
-            justifyContent: "space-between"
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit,  minmax(10px, max-content))",
+            width: "100%"
           }}
         >
           {this.state.date.map(
@@ -3542,7 +3542,7 @@ class Spanish extends React.Component {
                 <div
                   key={x}
                   style={{
-                    transform: "rotate(20deg)",
+                    transform: "rotate(40deg)",
                     width: "max-content",
                     wordBreak: "none",
                     margin: "0px 10px"
