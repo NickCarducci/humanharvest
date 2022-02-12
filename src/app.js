@@ -187,7 +187,31 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
-          <h2>Cindy Adams: "we could wear and afford jewlery then"</h2>
+          <a href="https://qr.ae/pGjwup">
+            If Covid is asymptomatic, does that mean it is uncorrelated?
+          </a>
+          <br />
+          "Jewish Survivors relenting in poverty," but that is equality,
+          competition, tech advancement (-GDP/p), Expected earlier retirement,
+          and economic welfare, productive-efficiency (
+          <a href="https://vaults.biz/newecon">GDP/hour-GDP/p</a>)!
+          
+          <button
+            style={buttonStyle}
+            onClick={(e) => {
+              e.stopPropagation();
+              this.setState({ oldecon: !this.state.oldecon });
+            }}
+          >
+            <h3>oldecon</h3>
+          </button>
+          <br />
+          <div
+            style={{
+              position: this.state.oldecon ? "relative" : "fixed",
+              zIndex: this.state.oldecon ? "0" : "-9999"
+            }}
+          ><h2>Cindy Adams: "we could wear and afford jewlery then"</h2>
           <h3>
             it is because of banks, not population 3%/yr+ 1800-1913 GDP/p being
             nearly constant
@@ -629,7 +653,7 @@ export default class App extends React.Component {
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
+            scrollTop={!this.state.oldecon ?0:this.state.scrollTop}
           />
           <h2>keybox tools</h2>
           Lending tools, secure, on the blockchain. Understand what is going on.
@@ -711,7 +735,7 @@ export default class App extends React.Component {
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
+            scrollTop={!this.state.oldecon ?0:this.state.scrollTop}
           />
           jury of experts - "Mix yourself up a cold cocktail"
           <br />
@@ -776,7 +800,7 @@ export default class App extends React.Component {
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
+            scrollTop={!this.state.oldecon ?0:this.state.scrollTop}
           />
           "Help send packages," is all charities can add, but then, they are
           just gift stewards. 'Get the money where it needs to go.' 'Build
@@ -952,7 +976,7 @@ export default class App extends React.Component {
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
+            scrollTop={!this.state.oldecon ?0:this.state.scrollTop}
           />
           "Processed $13t in transactions." With only $2t checking, and GDP is
           mutual funds + checking velocity, GDP is fake, $20t is all fraudulent
@@ -986,7 +1010,7 @@ export default class App extends React.Component {
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
+            scrollTop={!this.state.oldecon ?0:this.state.scrollTop}
           />
           "Your money will in fact double every 10 years with compound interest
           surrendered freedom, hours per last-home-traded does double double
@@ -1187,7 +1211,7 @@ export default class App extends React.Component {
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
+            scrollTop={!this.state.oldecon ?0:this.state.scrollTop}
           />
           Kudlow: “Slow jobs, strong household income,” gerontocracy douche!!!!
           less jobs and durable (less) trade is literally technological
@@ -1277,7 +1301,7 @@ export default class App extends React.Component {
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
+            scrollTop={!this.state.oldecon ?0:this.state.scrollTop}
           />
           Rob Schmitt and Peter Navarro: ECONOMIC GROWTH CLAIMED AS FL NOT 1/4
           illegal immigrants but anti-masking. "Highest productivity, in terms
@@ -1349,7 +1373,7 @@ export default class App extends React.Component {
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
+            scrollTop={!this.state.oldecon ?0:this.state.scrollTop}
           />
           “Are we missing a trick here by letting the school do it’s thing and
           having a vibrant external series of activities.”
@@ -1401,7 +1425,7 @@ export default class App extends React.Component {
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
+            scrollTop={!this.state.oldecon ?0:this.state.scrollTop}
           />
           "We borrowed and made a healthier state." Aren't prices elastic, why
           trust good-will value?
@@ -1459,7 +1483,7 @@ export default class App extends React.Component {
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
+            scrollTop={!this.state.oldecon ?0:this.state.scrollTop}
           />
           "I run a company, I can’t hire people, we increase our wages, we are
           dealing with a supply of workers not coming back to work," 2.8m
@@ -1496,7 +1520,7 @@ export default class App extends React.Component {
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
+            scrollTop={!this.state.oldecon ?0:this.state.scrollTop}
           />
           <br />
           <br />
@@ -1537,7 +1561,7 @@ export default class App extends React.Component {
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
+            scrollTop={!this.state.oldecon ?0:this.state.scrollTop}
           />
           "If everyones income rose in line with inflation would it matter if
           inflation were 100% or even 1000%?"
@@ -1651,7 +1675,7 @@ export default class App extends React.Component {
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
+            scrollTop={!this.state.oldecon ?0:this.state.scrollTop}
           />
           “It doesn’t matter that your wages intermediate labor goes up when
           your other input costs rise.”
@@ -1727,7 +1751,7 @@ export default class App extends React.Component {
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
+            scrollTop={!this.state.oldecon ?0:this.state.scrollTop}
           />
           No matter who you are you have legal right to see and understand the
           data
@@ -1738,7 +1762,7 @@ export default class App extends React.Component {
           <br />
           "No we don't we don't even know where the money is in the first place.
           keep tax cuts permenant, unlock energy trade secrets and trust, ppp
-          would make the problem tremendously worse."
+          would make the problem tremendously worse."</div>
           <br />
           <br />
           <button
@@ -1776,7 +1800,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.solution ?0:this.state.scrollTop}
             />
             "Take away the means to fight this virus," like it injects DNA into
             cell ratjer be byproduct prevalence nor cause,
@@ -2024,7 +2048,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.solution ?0:this.state.scrollTop}
             />
             “Unreasonable depression.” Shilling help in doctors and professional
             help. You really shouldn't be changing your chemical nature. the
@@ -2668,7 +2692,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.socialistInternational ?0:this.state.scrollTop}
             />
             Vaccine specialist, "my entire livelihood depends on save face, I
             have put hits on bona fide actuaries that are academic rather than
@@ -3298,7 +3322,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.econcovid ?0:this.state.scrollTop}
             />
             The attack/insurrection on Lexington (war crime grounds)&nbsp;
             <span role="img" aria-label="checkmark">
@@ -3338,7 +3362,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.econcovid ?0:this.state.scrollTop}
             />
             “Children don’t want to go to school, they want to earn some money.”
             <br />
@@ -3406,7 +3430,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.econcovid ?0:this.state.scrollTop}
             />
             making a false expiring bid non-rollover is third party beneficiary
             claimable, donee as debt is to savers, insurance is to
@@ -3529,7 +3553,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.econcovid ?0:this.state.scrollTop}
             />
             "We can save the elderly and the immunocompromised with antibodies
             by the suppression of the non-exclusive of all-incidence byproduct,
@@ -3576,7 +3600,7 @@ export default class App extends React.Component {
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
+            scrollTop={!this.state.econcovid ?0:this.state.scrollTop}
           />
           Get your fucking hand out of my face, trump trust built ppp and I open
           design everything.
@@ -3650,7 +3674,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.boomer ?0:this.state.scrollTop}
             />
             <a href="https://www.americanhistorycentral.com/entries/battle-of-lexington/">
               american history channel
@@ -3941,7 +3965,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.government ?0:this.state.scrollTop}
             />
             <h1>
               "
@@ -4061,7 +4085,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.government ?0:this.state.scrollTop}
             />
             "We are not at a place right now that we cannot be welcoming,"
             Republican.
@@ -4132,7 +4156,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.government ?0:this.state.scrollTop}
             />
             <h2>
               "Most time spent in high school, instead of ability to earn wealth
@@ -4490,7 +4514,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.government ?0:this.state.scrollTop}
             />
             if you can borrow, I can cash advance to short your debt.
             <br />
@@ -5062,7 +5086,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.economy ?0:this.state.scrollTop}
             />
             <h1>
               i deserve my alcholohic lesions in my head, or 10 speedballs a
@@ -5184,7 +5208,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.economy ?0:this.state.scrollTop}
             />
             "If you are looking for tax function sanity, you are wasting your
             time. Most people don’t and most-modicum pay 40%." Those poor
@@ -5291,7 +5315,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.economy ?0:this.state.scrollTop}
             />
             {/**johny carson: diapers on horse drawn carriages in NY, free rider immutable or collective bargain? only if rollover non-expiring! */}
             "ever wonder how your favorite artist earned money," $12k/yr
@@ -5354,7 +5378,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.economy ?0:this.state.scrollTop}
             />
             <a href="https://fred.stlouisfed.org/graph/?g=KlwO">
               participation
@@ -6441,7 +6465,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.hypothesis ?0:this.state.scrollTop}
             />
             "In america we have more food than we can possibly use. My parents
             raised me to love this country, a beautiful and rare thing. If we go
@@ -6496,7 +6520,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.hypothesis ?0:this.state.scrollTop}
             />
             "They are giving people money for a whole year, did it help? "<br />
             "They are bidding up tennis shoes and flat screens." Continuing
@@ -6876,7 +6900,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.rooster ?0:this.state.scrollTop}
             />
             "Almost all fentanyl deaths match Vietnam war loss (120k)?" Same
             with missing children from repeat citizen offenders. We can have
@@ -6904,7 +6928,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.rooster ?0:this.state.scrollTop}
             />
             “Police shouldn’t police tweets, but police the streets,”
             <br />
@@ -6993,7 +7017,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.rooster ?0:this.state.scrollTop}
             />
             “Omicron is like a natural&nbsp;
             <a href="https://www.mayoclinic.org/coronavirus-covid-19/vaccine-tracker">
@@ -7201,7 +7225,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.rooster ?0:this.state.scrollTop}
             />
             15% evidence higher in unvaxxed groups, so we do have evidence it
             saves lives,” not if you are counting 5% of cases, it sounds like a
@@ -7266,7 +7290,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.rooster ?0:this.state.scrollTop}
             />
             <h2>
               "Conservatives," front running&nbsp;
@@ -7290,7 +7314,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.rooster ?0:this.state.scrollTop}
             />
             Just count 5% of&nbsp;
             <a href="https://www.fda.gov/media/144245/download#page=42">
@@ -7403,7 +7427,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.rooster ?0:this.state.scrollTop}
             />
             “Allow schools to make the medical determination, and allow students
             to choose which school they want to go to.”
@@ -7455,7 +7479,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.rooster ?0:this.state.scrollTop}
             />
             "<a href="https://humanharvest.info/polio">Every Death is Tragic</a>
             ." If your guy wants to&nbsp;
@@ -7479,7 +7503,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.rooster ?0:this.state.scrollTop}
             />
             "Many of you have suffered in the panemic when nursing homes
             admitted patients into their facilities, 15k ny state cretsel gubmit
@@ -7500,7 +7524,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.rooster ?0:this.state.scrollTop}
             />
             “Spike in new cases because of spread of omicron. Failed who chose
             not to be vaccinated now having another covid spike now planning a
@@ -7520,7 +7544,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.rooster ?0:this.state.scrollTop}
             />
             <br />
             <br />
@@ -7550,7 +7574,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.rooster ?0:this.state.scrollTop}
             />
             lender work deficit, get rid of them 1/3 of debt. You dumb, old
             hypocrites&nbsp;<a href="https://qr.ae/pGqeJd">own bonds</a>, that
@@ -7580,7 +7604,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.rooster ?0:this.state.scrollTop}
             />
             “Losing voting rights in New York, that is socialism, embodied.”
             <br />
@@ -7606,7 +7630,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.rooster ?0:this.state.scrollTop}
             />
             do you have a dent in your head?
             <br />“<a href="https://truncatedsalestax.com">Socialists</a>
@@ -7627,7 +7651,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.rooster ?0:this.state.scrollTop}
             />
             Fauci: “The first virus where the health is worse, need to make the
             infection worse to get rid of it.”
@@ -7700,7 +7724,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.tories ?0:this.state.scrollTop}
             />
             “There is a lot who would like a radical change in how the
             government run, in my party,” Nigel
@@ -7737,7 +7761,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.tories ?0:this.state.scrollTop}
             />
             “There is a lot of jobs in those drone gov jobs monopsony free rider
             mutable contractors.”
@@ -7756,7 +7780,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.tories ?0:this.state.scrollTop}
             />
             “Relieved of any development costs because it was purchased from the
             federal government,”
@@ -7781,7 +7805,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.tories ?0:this.state.scrollTop}
             />
             <Cable
               style={{ height: "300px" }}
@@ -7797,7 +7821,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.tories ?0:this.state.scrollTop}
             />
             “High case rates, being labeled as high transmission without vivo
             insemination of cell without bacteria nor mitosis,”
@@ -7837,7 +7861,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.tories ?0:this.state.scrollTop}
             />
             <h2>
               Work deficit means of labor from labor, not social Comparative
@@ -7861,7 +7885,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.tories ?0:this.state.scrollTop}
             />
             "No known benefits to the measures we are trying to informate, err,
             implement, today. Working from home 11x more abuse, as is gdp to
@@ -7891,7 +7915,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.tories ?0:this.state.scrollTop}
             />
             To ween off NHS: on the mandatory vaccination of NHS staff beyond
             &nbsp;
@@ -7949,7 +7973,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.tories ?0:this.state.scrollTop}
             />
             “People who are not vaccinated are not only causing themselves
             risks, they are blocking others in pathways of receiving care. 2/3
@@ -7974,7 +7998,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.tories ?0:this.state.scrollTop}
             />
             It is not fair for the person who has been waiting for that hip
             operation for 18 months, or any other elective procedure due to
@@ -8028,7 +8052,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.tories ?0:this.state.scrollTop}
             />
             “I fully support the government front-running the booster for the
             free rider mutable racket that it is, and nothing I am about to say
@@ -8094,7 +8118,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.tories ?0:this.state.scrollTop}
             />
             "A protected NHS is not MP’s going off and abandoning about
             vaccinations, a protected NHS is the best way to get thru this wave
@@ -8134,7 +8158,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.tories ?0:this.state.scrollTop}
             />
             “Not an MP nor no longer a conservative. If mp or part of party, I
             would be part of the gov this evening, not in the way the PM has,
@@ -8181,7 +8205,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.tories ?0:this.state.scrollTop}
             />
             “A lateral flow test, that which we already do, I do not believe
             that is too much to ask,” it is not an exclusive byproduct-artifact,
@@ -8205,7 +8229,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.tories ?0:this.state.scrollTop}
             />
             “Michael Animote is one of those cases where he is toeing the line,
             he, ‘nearly died from it,’ (implies is is alive or evolutionary
@@ -8231,7 +8255,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.tories ?0:this.state.scrollTop}
             />
             “Every time a virus mutates, because it will - it is in the virus’
             nature to mutate.”
@@ -8749,7 +8773,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.insurance ?0:this.state.scrollTop}
             />
             Immunity is not antibodies cleaning up blood clot potential cell
             debris, it is stopping bacterial-infection to begin with
@@ -8800,7 +8824,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.juryPermitting ?0:this.state.scrollTop}
             />
             <Cable
               style={{
@@ -8817,7 +8841,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.juryPermitting ?0:this.state.scrollTop}
             />
             “Courts refuse to enforce their own orders,” based on jury-science
             permittance of duress in minimal viable product.
@@ -8844,7 +8868,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.juryPermitting ?0:this.state.scrollTop}
             />
             n=25 14 positive vaccinated, 11 positive unvaccinated
             <br />
@@ -8891,7 +8915,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.juryPermitting ?0:this.state.scrollTop}
             />
             “I think we should be talking remediations,” if you test for it, you
             will find it.
@@ -8939,7 +8963,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.juryPermitting ?0:this.state.scrollTop}
             />
             “Omicron has yet to kill a single person,” GBNews anchor projects
             from prevalence of byproduct not bacterial-cause.
@@ -8983,7 +9007,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.juryPermitting ?0:this.state.scrollTop}
             />
             “We believe in free speech, we don’t want to censor ourselves.”
             Right, convict intranet for on device end to end encryption keys
@@ -9044,7 +9068,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.juryPermitting ?0:this.state.scrollTop}
             />
             "How do you get people to vote on Election Day?" By providing an
             actual choice, not just two&nbsp;
@@ -9069,7 +9093,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.juryPermitting ?0:this.state.scrollTop}
             />
             <h2>right retards, them</h2>
             it is sensible, prevalence being the chicken rather than the egg, or
@@ -9169,7 +9193,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.juryPermitting ?0:this.state.scrollTop}
             />
             “Antibody response positively-correlates with aggressive symptoms.”
           </div>
@@ -9528,7 +9552,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.politics ?0:this.state.scrollTop}
             />
             "We shipped for&nbsp;<a href="https://carducci.us">free</a>&nbsp;to
             other parts of the world, to more than all countries combined,”
@@ -9585,7 +9609,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.politics ?0:this.state.scrollTop}
             />
             what is facts about a case to be called a bias if exonerated is
             permissible
@@ -9606,7 +9630,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.politics ?0:this.state.scrollTop}
             />
             6 per 100 in florida because they are testing less, "per" cannot be
             per person AND per tested
@@ -9631,7 +9655,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.politics ?0:this.state.scrollTop}
             />
             “Encourage people with&nbsp;
             <a href="https://link.springer.com/article/10.1007/s00259-021-05314-2">
@@ -9694,7 +9718,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.politics ?0:this.state.scrollTop}
             />
             do not implement asymptomaic-testing, unless you want to obfuscate
             time-series detection of the universal cause of similar symptoms
@@ -9716,7 +9740,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.politics ?0:this.state.scrollTop}
             />
             Simple majority is quicker to find guilty than 11/12
             <br />
@@ -9780,7 +9804,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.politics ?0:this.state.scrollTop}
             />
             <br />
             "Republicans wouldn't go along with this," but will in 60/40 wall
@@ -9806,7 +9830,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.politics ?0:this.state.scrollTop}
             />
             <Cable
               style={{
@@ -9826,7 +9850,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.politics ?0:this.state.scrollTop}
             />
             <br />
             <Cable
@@ -9846,7 +9870,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.politics ?0:this.state.scrollTop}
             />
             <Cable
               style={{ height: "40px", width: "60px" }}
@@ -9861,7 +9885,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.politics ?0:this.state.scrollTop}
             />
             assumptions make an ass out of you and me
             <br />
@@ -10208,7 +10232,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.science ?0:this.state.scrollTop}
             />
             "Transmissible doesn’t mean illness," but prevalence doesn’t mean
             transmissible
@@ -10242,7 +10266,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.science ?0:this.state.scrollTop}
             />
             “I think we will have Christmas, but it may hit older people more,”
             just because it is prevalent in hospitalizations and deaths doesn’t
@@ -10258,7 +10282,6 @@ export default class App extends React.Component {
             random testing can produce a range in historical variation in
             prevelance as well as if you change testing method, with no bearing
             on causal-prevalence
-          </div>
           <br />
           Replace all McDonald's with beets me (free range meats and veggies
           <span role="img" aria-label="trademark">
@@ -10279,7 +10302,7 @@ export default class App extends React.Component {
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
+            scrollTop={!this.state.science ?0:this.state.scrollTop}
           />
           We aren’t technically in a pandemic when excess deaths is less than
           expected
@@ -10298,7 +10321,7 @@ export default class App extends React.Component {
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
+            scrollTop={!this.state.science ?0:this.state.scrollTop}
           />
           Vaccines don’t stop hospitalizations, nor does "virus spread," on
           account of an artifact-byproduct that doesn’t necessarily make when
@@ -10350,7 +10373,7 @@ export default class App extends React.Component {
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
+            scrollTop={!this.state.science ?0:this.state.scrollTop}
           />
           Increased rate of infection measured by asymptomatic testing? You are
           so stupid Alex
@@ -10373,7 +10396,7 @@ export default class App extends React.Component {
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
+            scrollTop={!this.state.science ?0:this.state.scrollTop}
           />
           Asymptomatic testing isn’t prevalence to compare, as you can see
           hospitalizations are even for covid and flu over time because there
@@ -10424,7 +10447,7 @@ export default class App extends React.Component {
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
+            scrollTop={!this.state.science ?0:this.state.scrollTop}
           />
           Cause
           <br />
@@ -10465,7 +10488,7 @@ export default class App extends React.Component {
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
+            scrollTop={!this.state.science ?0:this.state.scrollTop}
           />
           <Cable
             style={{ width: "110px", height: "100px" }}
@@ -10480,7 +10503,7 @@ export default class App extends React.Component {
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
+            scrollTop={!this.state.science ?0:this.state.scrollTop}
           />
           “We are told by the top-left if we don’t want to mask up and separate
           outside while we go to a Broadway show inside, we don’t think the
@@ -10528,10 +10551,11 @@ export default class App extends React.Component {
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-            scrollTop={this.state.scrollTop}
+            scrollTop={!this.state.science ?0:this.state.scrollTop}
           />
           Groundbreaking: researcher says managment put outlays and
           accrual/false-bid-pools over science and settlement
+          </div>
           <br />
           <br />
           <div
@@ -10664,7 +10688,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.fall2021?0:this.state.scrollTop}
             />
             <Cable
               style={{ height: "auto", width: "300px" }}
@@ -10680,7 +10704,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.fall2021?0:this.state.scrollTop}
             />
             <Cable
               style={{ height: "auto", width: "300px" }}
@@ -10696,7 +10720,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.fall2021?0:this.state.scrollTop}
             />
             <br />
             froth.app/stats
@@ -10776,7 +10800,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.fall2021?0:this.state.scrollTop}
             />
             Humoral response is more safe
             <br />
@@ -10940,7 +10964,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.fall2021?0:this.state.scrollTop}
             />
             Cory Andre: "you’re not a doctor so shut the fuck up"
             <br />
@@ -11039,7 +11063,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.fall2021?0:this.state.scrollTop}
             />
             Nick Carducci doctors are not financially/legally inclined to not
             act, and they mostly get paid for acting too boot. I am also expert
@@ -11461,7 +11485,7 @@ export default class App extends React.Component {
             do except to harm @BarackObama @POTUS @MittRomney
             <br />
             <br />
-            "GET GADDAFI!"
+            "<a href="https://www.africanexponent.com/post/7633-150b-reserves-and-0-debt-gaddafis-vision-for-a-debt-free-africa">GET GADDAFI</a>!"
             <br />
             'appease the finances,' don't diminish anecdotes like they are at
             all different than samples when the population is unshuffled,
@@ -11491,7 +11515,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.springsummer2021?0:this.state.scrollTop}
             />
             More than 528,000 Americans have signed up for Affordable Care Act
             coverage on the federal exchange in the first six weeks of the
@@ -11550,7 +11574,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.springsummer2021?0:this.state.scrollTop}
             />
             <h1>Starve the unjabbed</h1>
             “White House will make vaccine passport, you won’t have a job
@@ -11797,7 +11821,7 @@ export default class App extends React.Component {
               scrolling={this.state.scrolling}
               fwd={this["scrollImg" + scrollnum()]}
               scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
+              scrollTop={!this.state.late2020?0:this.state.scrollTop}
             />
             “It’s spreading at the border.” He even looks like Trump&nbsp;
             <span
