@@ -188,7 +188,10 @@ export default class App extends React.Component {
             2052.live
           </a>
           <h2>Cindy Adams: "we could wear and afford jewlery then"</h2>
-          <h3>it is because of banks, not population 3%/yr+ 1800-1913 GDP/p being nearly constant</h3>
+          <h3>
+            it is because of banks, not population 3%/yr+ 1800-1913 GDP/p being
+            nearly constant
+          </h3>
           85% since 2000 25-54, 19% population are disabled, above 65+.
           <br />
           "Work[-hour] numbers are down," only counts working for others not
@@ -5520,6 +5523,11 @@ export default class App extends React.Component {
             }}
           />
           <br />
+          Etymologist of baby boomer{" "}
+          <a href="https://www.cdc.gov/nchs/data/vsus/vsus_1950_1.pdf#page=104">
+            predicted Covid
+          </a>
+          .<br />
           <Cable
             style={{ height: "200px", width: "100%" }}
             onError={handleScollImgError}
@@ -5530,7 +5538,7 @@ export default class App extends React.Component {
                 : "https://drive.google.com/file/d/1BGJag8pW3KxZTbimfp0Nvc3rNf0tgsY2/preview"
             }
             float="right"
-            title="https://www.cdc.gov/nchs/data/lifetables/life1890-1910.pdf"
+            title="1: https://www.cdc.gov/nchs/data/lifetables/life1890-1910.pdf or 2: https://www.cdc.gov/nchs/data/vsus/vsus_1950_1.pdf#page=104"
             scrolling={this.state.scrolling}
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
@@ -8503,7 +8511,7 @@ export default class App extends React.Component {
           penalize you for that choice?" If it is caused/spread/transmitted by
           people who produce it as artifact of being sick, by&nbsp;
           <a href="https://www.nature.com/articles/d41586-019-00991-4">
-            bacterial-cause of virus
+            bacterial-(regulation)cause of virus
           </a>
           &nbsp;or not, it isn't our own fault. Your own words are admittance of
           it being a smoking gun.
@@ -11676,8 +11684,9 @@ export default class App extends React.Component {
             <br />
             <a href="https://news.ncsu.edu/2020/05/how-long-can-viruses-survive/">
               Virus cannot live without reproducing
-            </a>
-            , how long can virus survive in a hijacked cell?
+            </a>{" "}
+            (or is debris of bacterial regulation) , how long can virus survive
+            in a hijacked cell?
             <br />
             <br />
             I think virus come not from other virus exclusively.
