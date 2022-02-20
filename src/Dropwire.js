@@ -45,7 +45,7 @@ class Cable extends React.Component {
   };
   checkIfBetween = () => {
     const { frameheight, cache } = this.state;
-    const { scrollTopAndHeight, scrollTop, girth, timeout } = this.props;
+    const { /*scrollTopAndHeight,*/ scrollTop, girth, timeout } = this.props;
     var girt =
       girth && !isNaN(girth)
         ? girth + 500
@@ -63,8 +63,11 @@ class Cable extends React.Component {
       var between =
         //Math.abs(scrollTop + page.offsetTop - window.scrollY) <
         //girt + window.innerHeight;
-        page.offsetTop - scrollTop > Number(`-${girt}`) &&
-        scrollTopAndHeight - page.offsetTop > Number(`-${girt}`);
+        page.offsetTop - scrollTop <
+        Math.abs(
+          girt
+        ); /*Number(`-${girt}`) &&
+        scrollTopAndHeight - page.offsetTop > Number(`-${girt}`);*/
       /* Math.abs(
             scrollTop +
               page.offsetTop -
@@ -145,13 +148,14 @@ class Cable extends React.Component {
           //if (Object.keys(page.children).length !== 0 /*page.innerHTML !== ""*/)
           //return (page.innerHTML = "");
           // this.setState({ mount: false });
-        } else if (page.innerHTML === "") {
-          console.log("reloading");
+        } /*if (page.innerHTML === "") */ else {
           const children = [...page.children];
           if (
+            //frusterated the second, paniced the first" ca
             cache &&
             (children.length === 0 || !children.find((x) => x === cache))
           ) {
+            console.log("reloading");
             //console.log("replenishing, new scroll", cache);
             return (page.innerHTML = this.state.cache);
           }
@@ -175,18 +179,21 @@ class Cable extends React.Component {
       });
     };
     const optionalwidth =
-      (this.state.img || this.state.loaded) && this.state.framewidth
+      /*(this.state.img || this.state.loaded) && this.state.framewidth
         ? this.state.framewidth
-        : this.props.style && this.props.style.width // &&
+        :*/ this
+        .props.style && this.props.style.width // &&
         ? //!isNaN(this.props.style.width)
           this.props.style.width
-        : "200px";
-    const optionalheight = this.state.height
+        : 200;
+    const optionalheight =
+      /*this.state.height
       ? this.state.height
-      : this.props.style && this.props.style.height // &&
-      ? //!isNaN(this.props.style.width)
-        this.props.style.height
-      : "min-content";
+      :*/ this.props.style &&
+      this.props.style.height // &&
+        ? //!isNaN(this.props.style.width)
+          this.props.style.height
+        : "auto";
     //console.log(optionalwidth);
     return (
       <div
@@ -194,16 +201,17 @@ class Cable extends React.Component {
         style={{
           boxShadow: "inset 0px 0px 50px 15px rgb(200,100,120)",
           //width: this.state.framewidth,
-          //width: optionalwidth,
           ...this.props.style,
           //overflowX: "auto",
           shapeOutside: "rect()",
           float,
           overflow: "hidden",
-          height: this.state.frameheight
+          height: optionalheight,
+          /*this.state.frameheight
             ? this.state.frameheight + 10
-            : "max-content",
-          maxWidth: "100%"
+            : "max-content",*/
+          width: optionalwidth // "max-content"
+          //maxWidth: "100%"
           //minWidth: optionalwidth // "max-content"
         }}
       >
@@ -217,9 +225,9 @@ class Cable extends React.Component {
             style={{
               //width: "100%",
               border: src === "" ? "2px gray solid" : 0,
+              //...this.props.style,
               height: optionalheight,
-              minWidth: optionalwidth, // "max-content"
-              ...this.props.style,
+              width: optionalwidth, // "max-content"
               overflowX: "auto",
               maxWidth: "100%"
             }}
@@ -234,11 +242,12 @@ class Cable extends React.Component {
             style={{
               //width: "100%",
               border: 0,
-              height: optionalheight,
-              width: optionalwidth, // "max-content"
-              ...this.props.style,
-              overflowX: "auto",
-              maxWidth: "100%"
+              //...this.props.style,
+              //height: optionalheight,
+              //width: optionalwidth, // "max-content"
+              //overflowX: "auto",
+              height: "100%",
+              width: "100%"
             }}
             ref={this.props.fwd}
             src={src}
