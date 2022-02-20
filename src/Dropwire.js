@@ -3,7 +3,7 @@ import React from "react";
 //import ReactHtmlParser from "react-html-parser";
 //import reactElementToJSXString from "react-element-to-jsx-string";
 //import ReactDOMServer from "react-dom/server";
-import ExecutionEnvironment from "exenv";
+//import ExecutionEnvironment from "exenv";
 
 /*class Forward extends React.Component {
   constructor(props) {
@@ -18,15 +18,15 @@ import ExecutionEnvironment from "exenv";
 class Cable extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { limit: [], cache: null, mountsCount: 0, cacheStyle: "" };
+    this.state = { limit: [], cache: null, mountsCount: 0, cacheStyle: "",go:true };
     this.page = React.createRef();
     this.fwdtwe = React.createRef();
   }
-  componentDidMount() {
+  /*componentDidMount() {
     if (ExecutionEnvironment.canUseDOM) {
       this.setState({ go: true }, () => this.checkIfBetween());
     }
-  }
+  }*/
   componentDidUpdate = (prevProps) => {
     if (this.state.go && this.props.scrolling !== prevProps.scrolling) {
       this.checkIfBetween();
@@ -63,10 +63,9 @@ class Cable extends React.Component {
       var between =
         //Math.abs(scrollTop + page.offsetTop - window.scrollY) <
         //girt + window.innerHeight;
-        page.offsetTop - scrollTop <
-        Math.abs(
+        Math.abs(page.offsetTop - scrollTop) <
           girt
-        ); /*Number(`-${girt}`) &&
+        /*Number(`-${girt}`) &&
         scrollTopAndHeight - page.offsetTop > Number(`-${girt}`);*/
       /* Math.abs(
             scrollTop +
