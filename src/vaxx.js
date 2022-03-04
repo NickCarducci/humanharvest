@@ -17276,6 +17276,51 @@ class Vaxx extends React.Component {
   };
 
   render() {
+    const { derivative } = this.state;
+    const labelstyle = {
+      backgroundColor: "rgba(50,120,200,.6)",
+      top: "20px",
+      height: "min-content",
+      display: "flex",
+      maxWidth: "100%",
+      left: "2px",
+      flexWrap: "wrap"
+    };
+    const buttonStyle = {
+      userSelect: "none",
+      border: "1px solid black",
+      color: "black",
+      backgroundColor: "rgb(220,220,220)",
+      borderRadius: "4px",
+      padding: "5px",
+      margin: "2px"
+    };
+    const linecss = {
+      left: "0px",
+      bottom: "0px",
+      display: "flex",
+      position: "absolute",
+      width: "100%",
+      height: "200px",
+      transform: "translate(0%,0%) scale(1,-1)"
+    };
+    const shortNumber = (scler, notRound) => {
+      var newnum = String(Math.round(scler));
+      if (notRound) newnum = String(scler);
+      var app = null;
+      var decimal = null;
+      const suff = ["", "k", "m", "b", "t"];
+      for (let i = 0; i < suff.length; i++) {
+        if (newnum.length > 3) {
+          decimal = newnum[newnum.length - 3];
+          newnum = newnum.substring(0, newnum.length - 3);
+        } else {
+          app = i;
+          break;
+        }
+      }
+      return newnum + (decimal ? "." + decimal : "") + suff[app];
+    };
     const noData = this.state.noData.map(([x, y]) => [
       ((x - this.state.lowDate) / this.state.xAxis) *
         this.props.lastWidth *
@@ -17337,398 +17382,299 @@ class Vaxx extends React.Component {
       ((y - this.state.lowiliprop) / this.state.highiliprop) * 150
     ]);
     return (
-      <div style={this.props.style}>
+      <div
+        style={{
+          marginTop: "30px",
+          width: "100%",
+          minHeight: "270px",
+          position: "relative",
+          backgroundColor: "rgb(190,150,180)"
+        }}
+      >
         <div
           style={{
-            right: "10px",
             position: "absolute",
-            height: "100%"
-          }}
-        >
-          <div
-            style={{
-              backgroundColor: "rgba(50,120,200,.6)",
-              right: "20px",
-              textAlign: "right"
-            }}
-          >
-            {this.state.highiliprop &&
-              String(this.state.highiliprop).substring(
-                0,
-                String(this.state.highiliprop).indexOf(".") + 3
-              )}
-            %
-          </div>
-          <div
-            style={{
-              right: "0px",
-              width: "100%",
-              borderTop: "1px solid",
-              position: "absolute",
-              top: `calc(100% * ${
-                this.state.highiliprop /
-                (this.state.highiliprop - this.state.lowiliprop)
-              })`,
-              textAlign: "right"
-            }}
-          >
-            0
-          </div>
-        </div>
-        <div
-          onClick={() =>
-            this.setState(
-              { addCovid: !this.setState.addCovid },
-              () => {} //this.fetchAllStates()
-            )
-          }
-          style={{
             backgroundColor: "rgba(50,120,200,.6)",
-            maxWidth: "50%",
-
-            top: "40px",
-            height: "min-content",
             display: "flex",
-            position: "absolute",
-            left: "20px",
-            flexDirection: "column",
-            zIndex: "9999"
-          }}
-        >
-          highest weekly admissions&nbsp;-&nbsp;
-          {shortNumber(this.state.highDischarges)}
-          <br />
-          {
-            /*this.state.addCovid && */ `${shortNumber(
-              this.state.highCovid
-            )} high wkly covid admission`
-          }
-          <div
-            style={{
-              top: "0px",
-              height: "min-content",
-              display: "flex",
-              position: "relative",
-              right: "0px"
-            }}
-          >
-            {this.state.lowDate}&nbsp;
-            {this.state.highDate}
-          </div>
-          {/*<div
-              style={{
-                top: "200px",
-                height: "min-content",
-                display: "flex",
-                position: "absolute",
-                right: "0px",
-                flexDirection: "column"
-              }}
-            >
-              {this.state.lowDischarges}
-            </div>*/}
-        </div>
-        <svg style={linecss} xmlns="http://www.w3.org/2000/svg">
-          {noData.map(
-            ([x, y], i) =>
-              !isNaN(x) &&
-              !isNaN(y) && (
-                <rect
-                  x={x}
-                  y={y}
-                  width={2}
-                  height="100%"
-                  stroke="rgb(230,230,230)"
-                  fill="transparent"
-                  strokeWidth="4"
-                  key={i}
-                />
-              )
-          )}
-        </svg>
-        <svg style={linecss} xmlns="http://www.w3.org/2000/svg">
-          {popuData.map(
-            ([x, y], i) =>
-              !isNaN(x) &&
-              !isNaN(y) && (
-                <rect
-                  x={x}
-                  y={y}
-                  width={2}
-                  height={2}
-                  stroke="rgb(10,10,20)"
-                  fill="transparent"
-                  strokeWidth={1}
-                  key={i}
-                />
-              )
-          )}
-        </svg>
-        <svg style={linecss} xmlns="http://www.w3.org/2000/svg">
-          {ilikeiData.map(
-            ([x, y], i) =>
-              !isNaN(x) &&
-              !isNaN(y) && (
-                <rect
-                  x={x}
-                  y={y}
-                  width={2}
-                  height={2}
-                  stroke="rgb(220,150,150)"
-                  fill="transparent"
-                  strokeWidth={1}
-                  key={i}
-                />
-              )
-          )}
-        </svg>
-        <svg style={linecss} xmlns="http://www.w3.org/2000/svg">
-          {ilipropData.map(
-            ([x, y], i) =>
-              !isNaN(x) &&
-              !isNaN(y) && (
-                <rect
-                  x={x}
-                  y={y}
-                  width={2}
-                  height={2}
-                  stroke="orange"
-                  fill="transparent"
-                  strokeWidth={1}
-                  key={i}
-                />
-              )
-          )}
-        </svg>
-        <svg style={linecss} xmlns="http://www.w3.org/2000/svg">
-          {uscovidhospDat.map(
-            ([x, y], i) =>
-              !isNaN(x) &&
-              !isNaN(y) && (
-                <rect
-                  x={x}
-                  y={y}
-                  width={2}
-                  height={2}
-                  stroke="rgb(250,100,150)"
-                  fill="transparent"
-                  strokeWidth={1}
-                  key={i}
-                />
-              )
-          )}
-        </svg>
-        <svg style={linecss} xmlns="http://www.w3.org/2000/svg">
-          {vaxxedData.map(
-            ([x, y], i) =>
-              !isNaN(x) &&
-              !isNaN(y) && (
-                <rect
-                  x={x}
-                  y={y}
-                  width={2}
-                  height={2}
-                  stroke="rgb(100,140,200)"
-                  fill="transparent"
-                  strokeWidth={1}
-                  key={i}
-                />
-              )
-          )}
-        </svg>
-        <svg style={linecss} xmlns="http://www.w3.org/2000/svg">
-          {vaxxedDataVax.map(
-            ([x, y], i) =>
-              !isNaN(x) &&
-              !isNaN(y) && (
-                <rect
-                  x={x}
-                  y={y}
-                  width={2}
-                  height={2}
-                  stroke="rgb(100,140,200)"
-                  fill="transparent"
-                  strokeWidth={1}
-                  key={i}
-                />
-              )
-          )}
-        </svg>
-        <svg style={linecss} xmlns="http://www.w3.org/2000/svg">
-          {vaxpropData.map(
-            ([x, y], i) =>
-              !isNaN(x) &&
-              !isNaN(y) && (
-                <rect
-                  x={x}
-                  y={y}
-                  width={2}
-                  height={2}
-                  stroke="blue"
-                  fill="transparent"
-                  strokeWidth={1}
-                  key={i}
-                />
-              )
-          )}
-        </svg>
-        <svg style={linecss} xmlns="http://www.w3.org/2000/svg">
-          {ilikeiCohortData.map(
-            ([x, y], i) =>
-              !isNaN(x) &&
-              !isNaN(y) && (
-                <rect
-                  x={x}
-                  y={y}
-                  width={"30%"}
-                  height={2}
-                  stroke="red"
-                  fill="transparent"
-                  strokeWidth={1}
-                  key={i}
-                />
-              )
-          )}
-        </svg>
-        {/*<svg
-          
-          style={{
-            top: "0px",
-            display: "flex",
-            position: "absolute",
+            justifyContent: "space-between",
             width: "100%",
-            height: "200px",
-            transform: "scale(1,-1)"
-          }}
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <CardinalCurve
-            showPoints={false}
-            strokeWidth={2}
-            stroke="red"
-            data={this.state.patpropData.map(([x, y]) => [
-              `${((x - this.state.lowDate) / this.state.xAxis) *
-                this.props.lastWidth *
-                0.9,
-              `${((y - this.state.lowiliprop) / this.state.highiliprop) * 150
-            ])}
-          />
-          </svg>
-        <svg
-          
-          style={{
-            top: "0px",
-            display: "flex",
-            position: "absolute",
-            width: "100%",
-            height: "200px",
-            transform: "scale(1,-1)"
-          }}
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <CardinalCurve
-            showPoints={false}
-            strokeWidth={2}
-            stroke="red"
-            data={this.state.patientsData.map(([x, y]) => [
-              ((x - this.state.lowDate) / this.state.xAxis) *
-                this.props.lastWidth *
-                0.9,
-              ((y - this.state.lowpatientsNom) / this.state.highpatientsNom) *
-                150
-            ])}
-          />
-        </svg>*/}
-        <div
-          style={{
-            backgroundColor: "rgba(50,120,200,.6)",
-            top: "0px",
-            height: "40px",
-            display: "flex",
-            position: "relative",
-            width: "100%",
-            left: "2px",
-            zIndex: "0",
             overflowX: "auto",
             overflowY: "hidden"
           }}
         >
           <div
             style={{
-              display: "flex",
-              position: "absolute",
               width: "max-content"
             }}
           >
-            <div style={{ width: "max-content" }}>
+            {!derivative ? (
+              <div style={{ width: "max-content" }}>
+                <div style={{ display: "flex" }}>
+                  <span
+                    style={{
+                      width: "5px",
+                      height: "5px",
+                      backgroundColor: "rgb(220,150,150)"
+                    }}
+                  />
+                  influenza-like-illness&nbsp;
+                  <span
+                    style={{
+                      width: "5px",
+                      height: "5px",
+                      backgroundColor: "rgb(250,100,150)"
+                    }}
+                  />
+                  covid&nbsp;
+                  <span
+                    style={{
+                      width: "5px",
+                      height: "5px",
+                      backgroundColor: "purple"
+                    }}
+                  />
+                  vaxxed
+                </div>
+                <button
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.href = "https://humanharvest.info/polio";
+                  }}
+                  style={{ margin: "10px" }}
+                >
+                  polio
+                </button>
+              </div>
+            ) : (
+              <div style={{ width: "max-content", display: "flex" }}>
+                <div style={{ width: "max-content" }}>
+                  <div
+                    style={{
+                      width: "5px",
+                      height: "5px",
+                      backgroundColor: "purple"
+                    }}
+                  />
+                  vax/pop rate of change&nbsp;
+                  <div
+                    style={{
+                      width: "5px",
+                      height: "5px",
+                      backgroundColor: "darkgreen"
+                    }}
+                  />
+                  iliHosp/pop rate of change
+                </div>
+              </div>
+            )}
+          </div>
+          <div
+            onClick={() =>
+              this.setState({ derivative: !this.state.derivative })
+            }
+            style={{
+              width: "100%",
+              textAlign: "right"
+            }}
+          >
+            {`${shortNumber(this.state.highCovid)} high wkly covid admission `}
+            &bull;
+            {" " + this.state.highiliprop &&
+              String(this.state.highiliprop).substring(
+                0,
+                String(this.state.highiliprop).indexOf(".") + 3
+              )}
+            %
+            <br />
+            highest weekly admissions&nbsp;-&nbsp;
+            {shortNumber(this.state.highDischarges)}
+            <br />
+            {this.state.lowDate}&nbsp;
+            {this.state.highDate}
+          </div>
+        </div>
+        <div
+          style={{
+            transform: "translate(0px,260px)"
+          }}
+        >
+          {derivative && (
+            <div
+              style={{
+                position: "relative"
+              }}
+            >
               <div
                 style={{
-                  width: "5px",
-                  height: "5px",
-                  backgroundColor: "rgb(220,150,150)"
-                }}
-              />
-              influenza-like-illness&nbsp;
-            </div>
-            <div style={{ width: "max-content" }}>
-              <div
-                style={{
-                  width: "5px",
-                  height: "5px",
-                  backgroundColor: "rgb(250,100,150)"
-                }}
-              />
-              covid&nbsp;
-            </div>
-            <div style={{ width: "max-content" }}>
-              <div
-                style={{
-                  backgroundColor: "black",
-                  width: "7px",
-                  height: "6px"
+                  right: "0px",
+                  width: "100%",
+                  borderTop: "1px solid",
+                  position: "absolute",
+                  bottom:
+                    -200 *
+                    (this.state.lowiliprop /
+                      (this.state.highiliprop - this.state.lowiliprop)),
+                  /*transform: `translate(0px,${
+                (200 * this.state.highiliprop) /
+                (this.state.highiliprop - this.state.lowiliprop)
+            }%`,*/
+                  textAlign: "right"
                 }}
               >
-                <div
-                  style={{
-                    border: "1px solid rgb(100,140,200)",
-                    width: "3px",
-                    height: "2px"
-                  }}
-                />
+                0
               </div>
-              vaxxed&nbsp;
             </div>
-            <div style={{ width: "max-content" }}>
-              <div
-                style={{
-                  width: "5px",
-                  height: "5px",
-                  backgroundColor: "blue"
-                }}
-              />
-              vax/pop rate of change&nbsp;
-            </div>
-            <div style={{ width: "max-content", marginLeft: "3px" }}>
-              <div
-                style={{
-                  width: "5px",
-                  height: "5px",
-                  backgroundColor: "orange"
-                }}
-              />
-              iliHosp/pop rate of change
-            </div>
-            {/*<div style={{ width: "min-content", marginLeft: "3px" }}>
-              <div
-                style={{
-                  width: "5px",
-                  height: "5px",
-                  backgroundColor: "red"
-                }}
-              />
-              pneHosp/pop rate of change
-              </div>*/}
-          </div>
+          )}
+          <svg style={linecss} xmlns="http://www.w3.org/2000/svg">
+            {noData.map(
+              ([x, y], i) =>
+                !isNaN(x) &&
+                !isNaN(y) && (
+                  <rect
+                    x={x}
+                    y={y}
+                    width={2}
+                    height="100%"
+                    stroke="rgb(230,230,230)"
+                    fill="transparent"
+                    strokeWidth="4"
+                    key={i}
+                  />
+                )
+            )}
+            {popuData.map(
+              ([x, y], i) =>
+                !isNaN(x) &&
+                !isNaN(y) && (
+                  <rect
+                    x={x}
+                    y={y}
+                    width={2}
+                    height={2}
+                    stroke="black"
+                    fill="transparent"
+                    strokeWidth={1}
+                    key={i}
+                  />
+                )
+            )}
+            {uscovidhospDat.map(
+              ([x, y], i) =>
+                !isNaN(x) &&
+                !isNaN(y) && (
+                  <rect
+                    x={x}
+                    y={y}
+                    width={2}
+                    height={2}
+                    stroke="rgb(250,100,150)"
+                    fill="transparent"
+                    strokeWidth={1}
+                    key={i}
+                  />
+                )
+            )}
+            {ilikeiData.map(
+              ([x, y], i) =>
+                !isNaN(x) &&
+                !isNaN(y) && (
+                  <rect
+                    x={x}
+                    y={y}
+                    width={2}
+                    height={2}
+                    stroke="rgb(220,150,150)"
+                    fill="transparent"
+                    strokeWidth={1}
+                    key={i}
+                  />
+                )
+            )}
+            {!derivative &&
+              vaxxedData.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={2}
+                      height={2}
+                      stroke="green"
+                      fill="transparent"
+                      strokeWidth={1}
+                      key={i}
+                    />
+                  )
+              )}
+            {!derivative &&
+              vaxxedDataVax.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={2}
+                      height={2}
+                      stroke="teal" //rgb(100,140,200)
+                      fill="transparent"
+                      strokeWidth={1}
+                      key={i}
+                    />
+                  )
+              )}
+            {derivative &&
+              vaxpropData.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={2}
+                      height={2}
+                      stroke="purple"
+                      fill="transparent" //"rgb(190,150,180)"
+                      strokeWidth={1}
+                      key={i}
+                    />
+                  )
+              )}
+            {derivative &&
+              ilipropData.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={2}
+                      height={2}
+                      stroke="darkgreen"
+                      fill="transparent"
+                      strokeWidth={1}
+                      key={i}
+                    />
+                  )
+              )}
+            {ilikeiCohortData.map(
+              ([x, y], i) =>
+                !isNaN(x) &&
+                !isNaN(y) && (
+                  <rect
+                    x={x}
+                    y={y}
+                    width={"30%"}
+                    height={2}
+                    stroke="red"
+                    fill="transparent"
+                    strokeWidth={1}
+                    key={i}
+                  />
+                )
+            )}
+          </svg>
         </div>
       </div>
     );
