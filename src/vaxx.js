@@ -17391,91 +17391,12 @@ class Vaxx extends React.Component {
           backgroundColor: "rgb(190,150,180)"
         }}
       >
-        <div
-          style={{
-            position: "absolute",
-            backgroundColor: "rgba(50,120,200,.6)",
-            display: "flex",
-            justifyContent: "space-between",
-            width: "100%",
-            overflowX: "auto",
-            overflowY: "hidden"
-          }}
-        >
-          <div
-            style={{
-              width: "max-content"
-            }}
-          >
-            {!derivative ? (
-              <div style={{ width: "max-content" }}>
-                <div style={{ display: "flex" }}>
-                  <span
-                    style={{
-                      width: "5px",
-                      height: "5px",
-                      backgroundColor: "rgb(220,150,150)"
-                    }}
-                  />
-                  influenza-like-illness&nbsp;
-                  <span
-                    style={{
-                      width: "5px",
-                      height: "5px",
-                      backgroundColor: "rgb(250,100,150)"
-                    }}
-                  />
-                  covid&nbsp;
-                  <span
-                    style={{
-                      width: "5px",
-                      height: "5px",
-                      backgroundColor: "purple"
-                    }}
-                  />
-                  vaxxed
-                </div>
-                <button
-                  onClick={(e) => {
-                    e.preventDefault();
-                    window.href = "https://humanharvest.info/polio";
-                  }}
-                  style={{ margin: "10px" }}
-                >
-                  polio
-                </button>
-              </div>
-            ) : (
-              <div style={{ width: "max-content", display: "flex" }}>
-                <div style={{ width: "max-content" }}>
-                  <div
-                    style={{
-                      width: "5px",
-                      height: "5px",
-                      backgroundColor: "purple"
-                    }}
-                  />
-                  vax/pop rate of change&nbsp;
-                  <div
-                    style={{
-                      width: "5px",
-                      height: "5px",
-                      backgroundColor: "darkgreen"
-                    }}
-                  />
-                  iliHosp/pop rate of change
-                </div>
-              </div>
-            )}
-          </div>
+        <div style={labelstyle}>
           <div
             onClick={() =>
               this.setState({ derivative: !this.state.derivative })
             }
-            style={{
-              width: "100%",
-              textAlign: "right"
-            }}
+            style={{ textAlign: "right", ...buttonStyle }}
           >
             {`${shortNumber(this.state.highCovid)} high wkly covid admission `}
             &bull;
@@ -17488,14 +17409,23 @@ class Vaxx extends React.Component {
             <br />
             highest weekly admissions&nbsp;-&nbsp;
             {shortNumber(this.state.highDischarges)}
-            <br />
-            {this.state.lowDate}&nbsp;
+          </div>
+          <div
+            style={{
+              backgroundColor: "rgba(255,255,255,.3)",
+              padding: "4px 8px",
+              position: "absolute",
+              right: "0px"
+            }}
+          >
+            {this.state.lowDate}
+            &nbsp;-&nbsp;
             {this.state.highDate}
           </div>
         </div>
         <div
           style={{
-            transform: "translate(0px,260px)"
+            transform: "translate(0px,200px)"
           }}
         >
           {derivative && (
@@ -17583,7 +17513,7 @@ class Vaxx extends React.Component {
                     y={y}
                     width={2}
                     height={2}
-                    stroke="rgb(220,150,150)"
+                    stroke="rgb(240,180,180)"
                     fill="transparent"
                     strokeWidth={1}
                     key={i}
@@ -17675,6 +17605,68 @@ class Vaxx extends React.Component {
                 )
             )}
           </svg>
+        </div>
+        <div style={{ position: "absolute", width: "max-content" }}>
+          {!derivative ? (
+            <div style={{ width: "max-content" }}>
+              <div style={{ display: "flex" }}>
+                <span
+                  style={{
+                    width: "5px",
+                    height: "5px",
+                    backgroundColor: "rgb(240,180,180)"
+                  }}
+                />
+                influenza-like-illness&nbsp;
+                <span
+                  style={{
+                    width: "5px",
+                    height: "5px",
+                    backgroundColor: "rgb(250,100,150)"
+                  }}
+                />
+                covid&nbsp;
+                <span
+                  style={{
+                    width: "5px",
+                    height: "5px",
+                    backgroundColor: "green"
+                  }}
+                />
+                vaxxed
+              </div>
+              <button
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.href = "https://humanharvest.info/polio";
+                }}
+                style={{ margin: "10px" }}
+              >
+                polio
+              </button>
+            </div>
+          ) : (
+            <div style={{ width: "max-content", display: "flex" }}>
+              <div style={{ width: "max-content" }}>
+                <div
+                  style={{
+                    width: "5px",
+                    height: "5px",
+                    backgroundColor: "purple"
+                  }}
+                />
+                vax/pop rate of change&nbsp;
+                <div
+                  style={{
+                    width: "5px",
+                    height: "5px",
+                    backgroundColor: "darkgreen"
+                  }}
+                />
+                iliHosp/pop rate of change
+              </div>
+            </div>
+          )}
         </div>
       </div>
     );
