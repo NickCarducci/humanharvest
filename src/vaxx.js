@@ -17655,7 +17655,7 @@ class Vaxx extends React.Component {
                     backgroundColor: "purple"
                   }}
                 />
-                vax/pop rate of change&nbsp;
+                vax/pop change-rate&nbsp;
                 <div
                   style={{
                     width: "5px",
@@ -17663,7 +17663,7 @@ class Vaxx extends React.Component {
                     backgroundColor: "darkgreen"
                   }}
                 />
-                iliHosp/pop rate of change
+                iliHosp/pop change-rate
               </div>
             </div>
           )}
