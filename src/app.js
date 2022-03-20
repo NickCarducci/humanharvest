@@ -19,7 +19,6 @@ export default class App extends React.Component {
     var parser = new UAParser();
     const name = parser.getBrowser().name;
     console.log(name);
-    document.cookie = "";
     this.state = {
       //noyoutube: true,
       browser: name,
@@ -158,6 +157,19 @@ export default class App extends React.Component {
             position: "relative"
           }}
         >
+      <div
+        onClick={() => {
+          window.scroll(0, 1);
+          this.setState({ trigger: true });
+        }}
+        style={{
+          display: this.state.trigger ? "none" : "block",
+          position: "absolute",
+          height: "101%",
+          width: "100%",
+          backgroundColor: "rgba(20,20,20,.5)"
+        }}
+      />
           <a
             style={{
               shapeOutside: "rect()",
@@ -794,7 +806,7 @@ export default class App extends React.Component {
             src={
               this.state.noyoutube
                 ? ""
-                : "https://www.dl.dropboxusercontent.com/s/gbsf6bcd3mb5ete/Screen%20Shot%202022-01-08%20at%206.56.35%20PM.png?dl=0"
+                : "https://www.dropbox.com/s/gbsf6bcd3mb5ete/Screen%20Shot%202022-01-08%20at%206.56.35%20PM.png?raw=1"
             }
             float="right"
             title="newsmax.com - 'Dershowitz: Congress, Not Biden, Has Authority on Vaccine Mandates'"
@@ -7284,7 +7296,7 @@ export default class App extends React.Component {
               src={
                 this.state.noyoutube
                   ? ""
-                  : "https://www.dl.dropboxusercontent.com/s/xk5lfqiw4k936e4/BeFunky-collage.png?dl=0"
+                  : "https://www.dropbox.com/s/xk5lfqiw4k936e4/BeFunky-collage.png?raw=1"
               }
               float="left"
               title="Phil Murphy (Facebook) - healthcare banking"
@@ -10034,7 +10046,7 @@ export default class App extends React.Component {
               src={
                 this.state.settleDropboxFree
                   ? ""
-                  : "https://www.dl.dropboxusercontent.com/s/u9kahqiqiiqse5t/froth%20logo300150.png?dl=0"
+                  : "https://www.dropbox.com/s/u9kahqiqiiqse5t/froth%20logo300150.png?raw=1"
               }
               float="right"
               title="froth.app"
@@ -10617,7 +10629,7 @@ export default class App extends React.Component {
               src={
                 this.state.iosNoPhoto
                   ? ""
-                  : "https://www.dl.dropboxusercontent.com/s/3lmwgcqcvrj1gx2/Projected%20mortality%20census.png?dl=0"
+                  : "https://www.dropbox.com/s/3lmwgcqcvrj1gx2/Projected%20mortality%20census.png?raw=1"
               }
               float={"right"}
               title="https://www.census.gov/library/stories/2017/10/aging-boomers-deaths.html"
@@ -10677,7 +10689,7 @@ export default class App extends React.Component {
               src={
                 this.state.serviceCancelingImages
                   ? ""
-                  : "https://www.dl.dropboxusercontent.com/s/mgm24pg4qqzelyy/2009%20index%20wwii%20life%20expectancy.jpeg?dl=0"
+                  : "https://www.dropbox.com/s/mgm24pg4qqzelyy/2009%20index%20wwii%20life%20expectancy.jpeg?raw=1"
               }
               float={"left"}
               title={
@@ -10698,7 +10710,7 @@ export default class App extends React.Component {
               src={
                 this.state.serviceCancelingImages
                   ? ""
-                  : "https://www.dl.dropboxusercontent.com/s/7juhzw918i6hxwm/index%20of%20growths.jpeg?dl=0"
+                  : "https://www.dropbox.com/s/7juhzw918i6hxwm/index%20of%20growths.jpeg?raw=1"
               }
               float={"right"}
               title="full chart of the above that is zoomed-in"
@@ -10714,7 +10726,7 @@ export default class App extends React.Component {
               src={
                 this.state.serviceCancelingImages
                   ? ""
-                  : "https://www.dl.dropboxusercontent.com/s/6a47ublnabh49ze/evidence%20rent%20no%2045%20to%2055%20work.jpeg?dl=0"
+                  : "https://www.dropbox.com/s/6a47ublnabh49ze/evidence%20rent%20no%2045%20to%2055%20work.jpeg?raw=1"
               }
               float={"left"}
               title="population cohorts show dramatic increase of 65-74 cohort over 2010's, absolutely"
@@ -10837,7 +10849,7 @@ export default class App extends React.Component {
               <img
                 style={{ height: "auto", width: "100%" }}
                 alt="many 60+ now 5x than 1950, gradually"
-                src="https://www.dl.dropboxusercontent.com/s/q8n2wh39sk1u0me/Population-Pyramid-1950-to-2100-793x550.jpeg?dl=0"
+                src="https://www.dropbox.com/s/q8n2wh39sk1u0me/Population-Pyramid-1950-to-2100-793x550.jpeg?raw=1"
               />
             </div>
             School is one of the schemes to keep youth from earning wealth while
@@ -11541,7 +11553,7 @@ export default class App extends React.Component {
                   height: "auto"
                 }}
                 alt="login.gov"
-                src="https://www.dl.dropboxusercontent.com/s/2xsbg2n4mhw6ud9/GraftPassport.jpg?dl=0"
+                src="https://www.dropbox.com/s/2xsbg2n4mhw6ud9/GraftPassport.jpg?raw=1"
               />
             </div>
             <br />
@@ -11558,7 +11570,7 @@ export default class App extends React.Component {
                   height: "auto"
                 }}
                 alt="login.gov"
-                src="https://www.dl.dropboxusercontent.com/s/ne3liq4zpxuu04l/StarveTheUnjabbed.jpg?dl=0"
+                src="https://www.dropbox.com/s/ne3liq4zpxuu04l/StarveTheUnjabbed.jpg?raw=1"
               />
             </div>
             <br />
@@ -11805,7 +11817,7 @@ export default class App extends React.Component {
                   height: "auto"
                 }}
                 alt="login.gov"
-                src="https://www.dl.dropboxusercontent.com/s/lsk8ayq9navh21k/BorderNoTest.jpg?dl=0"
+                src="https://www.dropbox.com/s/lsk8ayq9navh21k/BorderNoTest.jpg?raw=1"
               />
             </div>
             <br />
@@ -11890,7 +11902,7 @@ export default class App extends React.Component {
                     height: "auto"
                   }}
                   alt="login.gov"
-                  src="https://www.dl.dropboxusercontent.com/s/h6hv3u3pysg1om7/SpecialBidenFund.jpg?dl=0"
+                  src="https://www.dropbox.com/s/h6hv3u3pysg1om7/SpecialBidenFund.jpg?raw=1"
                 />
               </a>
             </div>
@@ -11909,7 +11921,7 @@ export default class App extends React.Component {
                     height: "auto"
                   }}
                   alt="login.gov"
-                  src="https://www.dl.dropboxusercontent.com/s/5godn380eqp1a57/MarkeySlavery.png?dl=0"
+                  src="https://www.dropbox.com/s/5godn380eqp1a57/MarkeySlavery.png?raw=1"
                 />
               </a>
             </div>
@@ -11923,7 +11935,7 @@ export default class App extends React.Component {
                     height: "auto"
                   }}
                   alt="login.gov"
-                  src="https://www.dl.dropboxusercontent.com/s/oe1upothtyrd3jt/Screen%20Shot%202021-03-22%20at%202.13.28%20PM.png?dl=0"
+                  src="https://www.dropbox.com/s/oe1upothtyrd3jt/Screen%20Shot%202021-03-22%20at%202.13.28%20PM.png?raw=1"
                 />
               </a>
             </div>
@@ -12163,7 +12175,7 @@ export default class App extends React.Component {
                   height: "auto"
                 }}
                 alt="login.gov"
-                src="https://www.dl.dropboxusercontent.com/s/6rd01u8rfqhejxt/KrispyKreme.jpg?dl=0"
+                src="https://www.dropbox.com/s/6rd01u8rfqhejxt/KrispyKreme.jpg?raw=1"
               />
             </a>
           </div>
@@ -12222,7 +12234,7 @@ export default class App extends React.Component {
                 height: "auto"
               }}
               alt="my twitter @nickcarducci account has deleted my work and evidence for multiple financial crime cases before what is probably locally stored"
-              src="https://www.dl.dropboxusercontent.com/s/ui8zf22lo7qko3f/Screen%20Shot%202021-03-15%20at%2011.04.06%20AM.png?dl=0"
+              src="https://www.dropbox.com/s/ui8zf22lo7qko3f/Screen%20Shot%202021-03-15%20at%2011.04.06%20AM.png?raw=1"
             />
           </div>
           <br />
@@ -12254,7 +12266,7 @@ export default class App extends React.Component {
                 width: "100%",
                 height: "auto"
               }}
-              src="https://www.dl.dropboxusercontent.com/s/uj6ekumw3iv9pj5/IMG_3420.png?dl=0"
+              src="https://www.dropbox.com/s/uj6ekumw3iv9pj5/IMG_3420.png?raw=1"
             />
           </div>
           <br />
