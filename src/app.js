@@ -95,10 +95,14 @@ export default class App extends React.Component {
             },
             () => window.scroll(0, this.claims.current.offsetTop)
           );
+        } else if (["/testing","/pcr"].includes(this.props.pathname)) {
+          this.setState({ tories: true }, () =>
+            window.scroll(0, this.pcr.current.offsetTop)
+          );
         } else if (this.props.pathname === "/walter") {
-          window.scroll(0, this.walter.current.offsetTop);
-        } else if (this.props.pathname === "/testing") {
-          window.scroll(0, this.pcr.current.offsetTop);
+          this.setState({ rooster: true }, () =>
+            window.scroll(0, this.walter.current.offsetTop)
+          );
         } else if (this.props.pathname === "/jury") {
           this.setState(
             {
@@ -133,6 +137,7 @@ export default class App extends React.Component {
       arrayOfnumbers.push(num);
       return num;
     };
+    const space = " ";
     return (
       <div
         style={{
@@ -200,14 +205,25 @@ export default class App extends React.Component {
           >
             2052.live
           </a>
+          “They are effective by all indications,” all-cause is not
+          categorically, a meaningful indicator, such is polyphyletic, in
+          taxonomic classification, categorically. We need paraphyleticism.
+          “Usually are reclassified once they are discovered to be
+          polyphyletic.”
+          <br />
+          Misled, did not see, notwithstanding levity to diminish capital of a
+          plaintiff, definitively
+          <br />
+          <br />
           <a href="https://qr.ae/pGjwup">
             If Covid is asymptomatic, does that mean it is uncorrelated?
           </a>
           <br />
-          "Jewish Survivors relenting in poverty," but that is equality,
+          "Jewish Survivors relenting in poverty," but that is{space}
+          <a href="https://courttechnology.quora.coms">equality</a>,
           competition, tech advancement (-GDP/p), Expected earlier retirement,
           and economic welfare, productive-efficiency (
-          <a href="https://vaults.biz/newecon">GDP/hour-GDP/p</a>)!
+          <a href="https://vaults.biz/newecon">1/hour-GDP/p</a>)!
           <button
             style={buttonStyle}
             onClick={(e) => {
@@ -5887,15 +5903,15 @@ export default class App extends React.Component {
                       <td key={x}>{x}</td>
                     ))}
                   <td />0.03237
-0.03552
-0.03906
-0.04305
-0.04753
-0.0527
-0.05857
-0.06513
-0.07236
-0.0802
+                  0.03552
+                  0.03906
+                  0.04305
+                  0.04753
+                  0.0527
+                  0.05857
+                  0.06513
+                  0.07236
+                  0.0802
                   {`0.03237 0.018587000 0.020815000 0.023391000 0.026387000 0.029850000 0.033883000 0.038544000 0.043880000 0.049956000`
                     .split(" ")
                     .map((x) => (
@@ -5971,27 +5987,27 @@ export default class App extends React.Component {
             </table>
           </div>
           {/*"75": 13161.52315,
-      "76": 10313.29697,
-      "77": 7841.972326,
-      "78": 5825.290138,
-      "79": 4290.4423,
-      "80": 2844.889448,
-      "81": 4996.236244,
-      "82": 64932.29582,
-      "83": 57932.1267,
-        "84": 53303.42921,*/}
+          "76": 10313.29697,
+          "77": 7841.972326,
+          "78": 5825.290138,
+          "79": 4290.4423,
+          "80": 2844.889448,
+          "81": 4996.236244,
+          "82": 64932.29582,
+          "83": 57932.1267,
+            "84": 53303.42921,*/}
           {/*<br/>
           <br/>
-   "75": 68609.32788, 64472.43095, 37000.14855<br/>
-   "76": 65890.96088, 72282.1886, 39598.24665<br/>
-   "77": 65660.81144, 68801.57348, 44691.82406<br/>
-   "78": 67014.19294, 68374.94268, 43035.41675<br/>
-   "79": 68797.81445, 70177.60842, 43536.33349<br/>
-   "80": 71539.9342, 71777.43817, 45579.66645<br/>
-   "81": 72487.76576, 74889.77794, 47449.48214<br/>
-   "82": 75313.25705, 75006.78858, 50254.0141<br/>
-   "83": 77841.0921, 77539.55364, 51043.36612<br/>
-   "84": 76692.45454, 80207.77033, 53468.25649
+          "75": 68609.32788, 64472.43095, 37000.14855<br/>
+          "76": 65890.96088, 72282.1886, 39598.24665<br/>
+          "77": 65660.81144, 68801.57348, 44691.82406<br/>
+          "78": 67014.19294, 68374.94268, 43035.41675<br/>
+          "79": 68797.81445, 70177.60842, 43536.33349<br/>
+          "80": 71539.9342, 71777.43817, 45579.66645<br/>
+          "81": 72487.76576, 74889.77794, 47449.48214<br/>
+          "82": 75313.25705, 75006.78858, 50254.0141<br/>
+          "83": 77841.0921, 77539.55364, 51043.36612<br/>
+          "84": 76692.45454, 80207.77033, 53468.25649
           <br />
           <br />
           <a href="https://www.ssa.gov/oact/STATS/table4c6.html">
