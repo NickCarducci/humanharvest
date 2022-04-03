@@ -208,6 +208,11 @@ export default class App extends React.Component {
           >
             2024nj.com
           </a>
+          <h1>Larry Kudlow is a fucking retard</h1>
+          Tech advancement lowers GDP, expenses government and structures for
+          implausible use leases
+          <br />
+          <br />
           “They are effective by all indications,” all-cause is not
           categorically, a meaningful indicator, such is polyphyletic, in
           taxonomic classification, categorically. We need paraphyleticism.
@@ -234,7 +239,7 @@ export default class App extends React.Component {
           <br />
           <div
             style={{
-              height:"min-content",
+              height: "min-content",
               //color:`rgba(240,240,240,${ this.state.arguments ?1:0})`,
               transform: `translateX(${this.state.arguments ? 0 : "-100%"})`,
               position: this.state.arguments ? "" : "fixed",
@@ -6499,6 +6504,25 @@ export default class App extends React.Component {
               }}
             />
           )}
+          <button
+            style={buttonStyle}
+            onClick={(e) => {
+              e.stopPropagation();
+              this.setState({ arguments: !this.state.arguments });
+            }}
+          >
+            <h3>arguments</h3>
+          </button>
+          <br />
+          <div
+            style={{
+              height: "min-content",
+              //color:`rgba(240,240,240,${ this.state.arguments ?1:0})`,
+              transform: `translateX(${this.state.arguments ? 0 : "-100%"})`,
+              position: this.state.arguments ? "" : "fixed",
+              zIndex: this.state.arguments ? "0" : "-9999"
+            }}
+          >
           "I know from experience, don't self-medicate oxy," Sliwa just says
           this because doctor trust building,&nbsp;
           <a href="https://qr.ae/pGqmOq">dollar-depositary consortium</a>&nbsp;
@@ -12228,6 +12252,7 @@ export default class App extends React.Component {
               </a>
             </div>
           </div>
+          </div>
           <h1>
             <a
               style={{
@@ -12578,3 +12603,4 @@ export default class App extends React.Component {
     );
   }
 }
+
