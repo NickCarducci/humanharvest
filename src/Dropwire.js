@@ -217,24 +217,8 @@ class Cable extends React.Component {
             style={{
               position: "relative",
               border: src === "" ? "2px gray solid" : 0,
-              height:
-                Style &&
-                Style.width &&
-                (!isNaN(Style.width) ||
-                  ["px", "em", "vw", "vh"].includes(
-                    Style.width.substring(Style.width.length - 2, Style.width)
-                  ))
-                  ? "auto"
-                  : optionalheight,
-              width:
-                Style &&
-                Style.width &&
-                (!isNaN(Style.height) ||
-                  ["px", "em", "vw", "vh"].includes(
-                    Style.width.substring(Style.width.length - 2, Style.width)
-                  ))
-                  ? "auto"
-                  : optionalwidth
+              height: Style && !isNaN(Style.width) ? "auto" : optionalheight,
+              width: Style && !isNaN(Style.height) ? "auto" : optionalwidth
             }}
             ref={this.props.fwd}
             src={src}
