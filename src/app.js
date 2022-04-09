@@ -3965,17 +3965,45 @@ export default class App extends React.Component {
             </button>
             <br />
             <div style={setting(this.state.italian)}>
-              We can instead reverse amortize debt “investment” force majeure or
-              surrendered freedom (EULA) of Savers implausibly deniable as third
-              party donee beneficiary claimable repo-cycle kept down payments
-              loitered and laundered. That means (cash/debt)*income every year
-              back so we all paid what we would have without debt “investment.”
-              Move government then to truncated production tax for free rider
-              immutable Article 4 sewage, police and lawsuits, while moving to
-              alternative finance for new investment p2p 1-level board
-              max-royalty contracts and just concurrentable equity for banks,
-              lest surrender freedoms by expiry or estimated-property of a third
-              party donee, again assumed by the co-signers.
+              you are either poignant or abstract, unsure-etymology and without
+              a paraphyletic story - substitutable by labor-demand of other
+              markets
+              <br />
+              <br />
+              real (Real Economics) GDP is what? PCE and CPI average realecon
+              .quora.com
+              <br />
+              <br />
+              science is open source and naming
+              <br />
+              <br />
+              “I am not aware,{space}
+              <a href="https://quora.com/nickcarducci">I am a Luddite</a>.” -
+              Curtis Sliwa
+              <br />
+              <br />
+              commie.dev (no-lessing; outright-sales, -alone) - employer
+              contributions as PCE certainly-proves, at least intent, to cause a
+              net expense. All for invoice negative margin estimate. Hourly or
+              inventory-debit. 1/hour-GDP/p
+              <br />
+              <br />
+              Ima take out 40% of the{space}
+              <a href="https://qr.ae/pvKjsH">workforce</a>
+              <br />
+              We can instead{space}
+              <a href="https://saverparty.xyz/racists">reverse</a>
+              {space}amortize debt “investment” force majeure or surrendered
+              freedom (EULA) of Savers implausibly deniable as third party donee
+              beneficiary claimable repo-cycle kept down payments loitered and
+              laundered. That means (cash/debt)*income every year back so we all
+              paid what we would have without debt “investment.” Move government
+              then to truncated production tax for free rider immutable Article
+              4 sewage, police and lawsuits, while moving to alternative finance
+              for new investment p2p 1-level board max-royalty contracts and
+              just concurrentable equity for banks, lest surrender freedoms by
+              expiry or estimated-property of a third party donee, again assumed
+              by the co-signers.
               <br />
               <br />
               "You are hampered when you have volunteers,"
