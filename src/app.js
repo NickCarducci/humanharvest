@@ -2746,9 +2746,7 @@ export default class App extends React.Component {
               <h3>socialist-internationale</h3>
             </button>
             <br />
-            <div
-              style={setting(this.state.socialistInternational)}
-            >
+            <div style={setting(this.state.socialistInternational)}>
               Nick Carducci - Statistician, Historian of Markets and Propaganda
               (2012–present)
               <br />I would presume it is propoganda/agitprop for FDIC, Glass
@@ -6139,105 +6137,6 @@ export default class App extends React.Component {
           </a>*/}
             <br />
             <br />
-            OPEN THE BORDERS there is sparingly proof of threats. plug the
-            actual work shortage by freeloading rent-seekers
-            <br />
-            <a href="https://wonder.cdc.gov/Bridged-Race-v2020.HTML">
-              single year
-            </a>
-            &nbsp;&bull;&nbsp;
-            <a href="https://www.census.gov/programs-surveys/popest/technical-documentation/research/evaluation-estimates/2020-evaluation-estimates/2010s-national-detail.html">
-              census
-            </a>
-            &nbsp;&bull;&nbsp;
-            <a href="https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm#Mortality_Multiple">
-              mortality
-            </a>
-            &nbsp;&bull;&nbsp;
-            <a href="https://www.cdc.gov/nchs/products/databriefs/db427.htm">
-              more
-            </a>
-            {/*&nbsp;&bull;&nbsp;
-          <a href="https://usa.mortality.org/">
-            usa&bull;mortality
-          </a>*/}
-            <Mortal
-              lastWidth={Math.min(600, this.state.lastWidth)}
-              style={{
-                paddingBottom: "15px",
-                backgroundColor: "rgb(190,150,180)"
-              }}
-            />
-            <Worldwide
-              lastWidth={Math.min(600, this.state.lastWidth)}
-              style={{
-                paddingBottom: "15px",
-                backgroundColor: "rgb(190,150,180)"
-              }}
-            />
-            <Cable
-              style={{ height: "440px" }}
-              onError={handleScollImgError}
-              //img={true}
-              src={
-                this.state.noyoutube
-                  ? ""
-                  : "https://drive.google.com/file/d/1IkFesv7Ri837lrUczgT962Tz1z2P8X1o/preview"
-              }
-              float="left"
-              title="Stinchfield (Newsmax) - 'gain of function research'"
-              scrolling={this.state.scrolling}
-              fwd={this["scrollImg" + scrollnum()]}
-              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
-            />
-            “Virus that now cause[d], a global pandemic,” we can defend threats
-            over anybody else," but not socialists to drop dead? or our
-            countries' founding over fucking&nbsp;
-            <a href="https://teapharmacy.party">tea</a>
-            ...
-            <br />
-            <br />
-            CDC put pneumonia influenza covid together, for Cause of Death and
-            hospitalizations, all of which are insignificant changes year to
-            year.
-            <h2>
-              I’m not a doctor, but I am a{" "}
-              <a href="https://www.cdc.gov/nchs/data/vsus/vsus_1950_1.pdf#page=104">
-                statistician
-              </a>
-              .
-            </h2>
-            <Cable
-              style={{ height: "240px" }}
-              onError={handleScollImgError}
-              //img={true}
-              src={
-                this.state.noyoutube
-                  ? ""
-                  : "https://drive.google.com/file/d/1JGqVnppMe5Fb3r5tVd32GEEfL75bVr3t/preview"
-              }
-              float="right"
-              title="1943 births"
-              scrolling={this.state.scrolling}
-              fwd={this["scrollImg" + scrollnum()]}
-              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
-            />
-            800k deaths or 500k/yr, 1.2m/yr expected from population growth, 80
-            is life expectancy we are made for that age as we start getting
-            wrinkly,
-            <br />
-            Cause is not merely from prevalence, they literally make up
-            injecting DNA into cell. 1/3 businesses are gone, because rent
-            beyond plausible use below 5 units or 30 days not price intent
-            deduced.
-            <br />
-            <br />
-            “200 respiratory virus that circulate,” prevalence doesn’t mean
-            circulation. Politics is reason beyond law.
-            <br />
-            <br />
             "I don’t discuss my vaccination status, I think that depends on each
             person." If vaccinations aren’t perfect, and it comes from somewhere
             (and it isn’t merely debris of bacterial infection that you look for
@@ -6412,26 +6311,119 @@ export default class App extends React.Component {
                 }}
               />
             )}
+            OPEN THE BORDERS there is sparingly proof of threats. plug the
+            actual work shortage by freeloading rent-seekers
+            <br />
+            <br />
+            <a href="https://wonder.cdc.gov/Bridged-Race-v2020.HTML">
+              single year
+            </a>
+            &nbsp;&bull;&nbsp;
+            <a href="https://www.census.gov/programs-surveys/popest/technical-documentation/research/evaluation-estimates/2020-evaluation-estimates/2010s-national-detail.html">
+              census
+            </a>
+            &nbsp;&bull;&nbsp;
+            <a href="https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm#Mortality_Multiple">
+              mortality
+            </a>
+            &nbsp;&bull;&nbsp;
+            <a href="https://www.cdc.gov/nchs/products/databriefs/db427.htm">
+              more
+            </a>
+            {/*&nbsp;&bull;&nbsp;
+          <a href="https://usa.mortality.org/">
+            usa&bull;mortality
+          </a>*/}
+            <Mortal
+              lastWidth={Math.min(600, this.state.lastWidth)}
+              style={{
+                marginTop: "20px",
+                paddingBottom: "50px",
+                backgroundColor: "rgb(190,150,180)"
+              }}
+            />
+            <Worldwide
+              lastWidth={Math.min(600, this.state.lastWidth)}
+              style={{
+                paddingBottom: "15px",
+                backgroundColor: "rgb(190,150,180)"
+              }}
+            />
+            <Cable
+              style={{ height: "440px" }}
+              onError={handleScollImgError}
+              //img={true}
+              src={
+                this.state.noyoutube
+                  ? ""
+                  : "https://drive.google.com/file/d/1IkFesv7Ri837lrUczgT962Tz1z2P8X1o/preview"
+              }
+              float="left"
+              title="Stinchfield (Newsmax) - 'gain of function research'"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + scrollnum()]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            “Virus that now cause[d], a global pandemic,” we can defend threats
+            over anybody else," but not socialists to drop dead? or our
+            countries' founding over fucking&nbsp;
+            <a href="https://teapharmacy.party">tea</a>
+            ...
+            <br />
+            <br />
+            CDC put pneumonia influenza covid together, for Cause of Death and
+            hospitalizations, all of which are insignificant changes year to
+            year.
+            <h2>
+              I’m not a doctor, but I am a{" "}
+              <a href="https://www.cdc.gov/nchs/data/vsus/vsus_1950_1.pdf#page=104">
+                statistician
+              </a>
+              .
+            </h2>
+            <Cable
+              style={{ height: "240px" }}
+              onError={handleScollImgError}
+              //img={true}
+              src={
+                this.state.noyoutube
+                  ? ""
+                  : "https://drive.google.com/file/d/1JGqVnppMe5Fb3r5tVd32GEEfL75bVr3t/preview"
+              }
+              float="right"
+              title="1943 births"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + scrollnum()]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+            800k deaths or 500k/yr, 1.2m/yr expected from population growth, 80
+            is life expectancy we are made for that age as we start getting
+            wrinkly,
+            <br />
+            Cause is not merely from prevalence, they literally make up
+            injecting DNA into cell. 1/3 businesses are gone, because rent
+            beyond plausible use below 5 units or 30 days not price intent
+            deduced.
+            <br />
+            <br />
+            “200 respiratory virus that circulate,” prevalence doesn’t mean
+            circulation. Politics is reason beyond law.
+            <br />
+            <br />
           </div>
           <button
             style={buttonStyle}
             onClick={(e) => {
               e.stopPropagation();
-              this.setState({ arguments: !this.state.arguments });
+              this.setState({ furtherarguments: !this.state.furtherarguments });
             }}
           >
-            <h3>arguments</h3>
+            <h3>further arguments</h3>
           </button>
           <br />
-          <div
-            style={{
-              height: "min-content",
-              //color:`rgba(240,240,240,${ this.state.arguments ?1:0})`,
-              transform: `translateX(${this.state.arguments ? 0 : "-100%"})`,
-              position: this.state.arguments ? "" : "fixed",
-              zIndex: this.state.arguments ? "0" : "-9999"
-            }}
-          >
+          <div style={setting(this.state.furtherarguments)}>
             "I know from experience, don't self-medicate oxy," Sliwa just says
             this because doctor trust building,&nbsp;
             <a href="https://qr.ae/pGqmOq">dollar-depositary consortium</a>
@@ -12578,4 +12570,3 @@ export default class App extends React.Component {
     );
   }
 }
-
