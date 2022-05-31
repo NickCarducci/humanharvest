@@ -5707,7 +5707,8 @@ export default class App extends React.Component {
             population growth alone life expectancy ago (850,000 actual excess).
             ((1870-80)/10)
             <br />
-            ANNUAL reports (targeting age: 5yr-cohorts, varies by rate or level):
+            ANNUAL reports (targeting age: 5yr-cohorts, varies by rate or
+            level):
             <br />
             <a href="https://www.cdc.gov/nchs/products/vsus/vsus_1890_1938.htm">
               annual Mortality only 1905- (includes mortality and rate 5x1
@@ -5721,6 +5722,16 @@ export default class App extends React.Component {
             BUT THE CONSTANT POPULATION THROUGH PROVES THE EXCESS DEATHS WERE
             EXPECTED. What is the significance of a real-population-meaningless
             sample?
+            <br />
+            If population level only goes back to 1937 vitals, and 1905 only has
+            death rates, the 5 year cohorts can hide the
+            end-(and-beginning-heavy lifetime expectation.
+            <br/>
+            <TwitterTweetEmbed
+                style={{ float: "right", width: "300px" }}
+                key="1428050191094095878"
+                tweetId="1428050191094095878"
+              />
             <h1>
               A pandemic measured by growth without any basis rate exogenous
               fixations
