@@ -217,7 +217,16 @@ export default class App extends React.Component {
           >
             2024nj.com
           </a>
-          <h1>Larry Kudlow is a fucking retard</h1>
+          <a href="https://jester.com.co">propaganda research</a>
+          <br />
+          <h1>
+            Larry Kudlow is{space}
+            <a href="https://www.quora.com/Why-does-Larry-Kudlow-say-2-inflation-is-desirable-when-zero-is-historically-possible">
+              a fucking
+            </a>
+            {space}
+            <a href="https://www.quora.com/Why-are-developmental-disabilities-called-retardation-if-the-condition-doesn-t-degrade-over-time">retard</a>
+          </h1>
           Tech advancement lowers GDP, expenses government and structures for
           implausible use leases
           <br />
@@ -5726,12 +5735,12 @@ export default class App extends React.Component {
             If population level only goes back to 1937 vitals, and 1905 only has
             death rates, the 5 year cohorts can hide the
             end-(and-beginning-heavy lifetime expectation.
-            <br/>
+            <br />
             <TwitterTweetEmbed
-                style={{ float: "right", width: "300px" }}
-                key="1428050191094095878"
-                tweetId="1428050191094095878"
-              />
+              style={{ float: "right", width: "300px" }}
+              key="1428050191094095878"
+              tweetId="1428050191094095878"
+            />
             <h1>
               A pandemic measured by growth without any basis rate exogenous
               fixations
