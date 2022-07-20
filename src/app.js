@@ -219,13 +219,35 @@ export default class App extends React.Component {
           </a>
           <a href="https://jester.com.co">propaganda research</a>
           <br />
+          <a href="https://stats.stackexchange.com/questions/581479/should-excess-deaths-not-measure-against-the-population-expected-as-opposed-to-s">
+            <Cable
+              style={{
+                width: "100%"
+              }}
+              onError={handleScollImgError}
+              img={true}
+              src={
+                this.state.noyoutube
+                  ? ""
+                  : "https://www.dropbox.com/s/5hq07n284kerxi6/1918%201919%20flu%20%281%29.png?raw=1"
+              }
+              float="left"
+              title="https://stats.stackexchange.com/questions/581479/should-excess-deaths-not-measure-against-the-population-expected-as-opposed-to-s"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + scrollnum()]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={!this.state.oldecon ? 0 : this.state.scrollTop}
+            />
+          </a>
           <h1>
             Larry Kudlow is{space}
             <a href="https://www.quora.com/Why-does-Larry-Kudlow-say-2-inflation-is-desirable-when-zero-is-historically-possible">
               a fucking
             </a>
             {space}
-            <a href="https://www.quora.com/Why-are-developmental-disabilities-called-retardation-if-the-condition-doesn-t-degrade-over-time">retard</a>
+            <a href="https://www.quora.com/Why-are-developmental-disabilities-called-retardation-if-the-condition-doesn-t-degrade-over-time">
+              retard
+            </a>
           </h1>
           Tech advancement lowers GDP, expenses government and structures for
           implausible use leases
