@@ -3,7 +3,24 @@ import ReactDOM from "react-dom";
 import { Route, Switch, BrowserRouter } from "react-router-dom";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import App from "./app";
+import Main from "./Main";
 
+class Path extends React.Component {
+  state = {};
+  render() {
+    return this.state.more ? (
+      <App
+        pathname={this.props.pathname}
+        toggle={() => this.setState({ more: !this.state.more })}
+      />
+    ) : (
+      <Main
+        pathname={this.props.pathname}
+        toggle={() => this.setState({ more: !this.state.more })}
+      />
+    );
+  }
+}
 class PathRouter extends React.Component {
   state = {};
   componentDidUpdate = () => {
@@ -40,7 +57,7 @@ class PathRouter extends React.Component {
                   <Route
                     //exact
                     path="/"
-                    render={(props) => <App pathname={this.state.pathname} />}
+                    render={(props) => <Path pathname={this.state.pathname} />}
                   />
                 </Switch>
               </CSSTransition>
