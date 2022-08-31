@@ -217,6 +217,17 @@ export default class App extends React.Component {
           >
             2024nj.com
           </a>
+          <div
+            onClick={this.props.toggle}
+            style={{
+              bottom: "0px",
+              right: "0px",
+              position: "fixed",
+              cursor: "pointer"
+            }}
+          >
+            less
+          </div>
           <a href="https://jester.com.co">propaganda research</a>
           <br />
           <a href="https://stats.stackexchange.com/questions/581479/should-excess-deaths-not-measure-against-the-population-expected-as-opposed-to-s">
@@ -6203,7 +6214,7 @@ export default class App extends React.Component {
             "82": 64932.29582,
             "83": 57932.1267,
               "84": 53303.42921,*/}
-              {/*<br/>
+            {/*<br/>
             <br/>
             "75": 68609.32788, 64472.43095, 37000.14855<br/>
             "76": 65890.96088, 72282.1886, 39598.24665<br/>
@@ -12595,3 +12606,4 @@ export default class App extends React.Component {
     );
   }
 }
+
