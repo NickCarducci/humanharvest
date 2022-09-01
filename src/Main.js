@@ -108,6 +108,7 @@ export default class Main extends React.Component {
             backgroundColor: "rgb(190,150,180)"
           }}
         />
+        <h2>2025 3m natural rate increase 78</h2>
       </div>
     );
   }
