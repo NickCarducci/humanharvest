@@ -1050,7 +1050,12 @@ class Retro extends React.Component {
             transform: "translateX(-10px)",
             display: "grid",
             gridTemplateColumns: "repeat(auto-fit,  minmax(10px, max-content))",
-            width: this.props.lastWidth - 35
+            width:
+              this.props.lastWidth < 300
+                ? this.props.lastWidth - 20
+                : this.props.lastWidth < 400
+                ? this.props.lastWidth - 20
+                : this.props.lastWidth - 55
           }}
         >
           {this.state.date.map(
@@ -1085,3 +1090,4 @@ class Retro extends React.Component {
 }
 
 export default Retro;
+
