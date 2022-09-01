@@ -195,7 +195,7 @@ class Retro extends React.Component {
           mOneTenNJData.push([year, retroo[year][age]]);
         }
       });
-    });
+    }); //everywhere wrourl
     date.forEach((x) => {
       let yOA = 0;
       yOneTenNJDataAge.forEach((obj) => {
@@ -607,7 +607,7 @@ class Retro extends React.Component {
               {this.state.lowDeaths}
             </div>*/}
           </div>
-          <div style={{ transform: "translate(0px,180px)" }}>
+          <div style={{ transform: "translate(0px,195px)" }}>
             <svg
               className="all"
               style={linecss}
@@ -1047,9 +1047,10 @@ class Retro extends React.Component {
         </div>
         <div
           style={{
+            transform: "translateX(-10px)",
             display: "grid",
             gridTemplateColumns: "repeat(auto-fit,  minmax(10px, max-content))",
-            width: this.props.lastWidth - 55
+            width: this.props.lastWidth - 35
           }}
         >
           {this.state.date.map(
@@ -1057,15 +1058,23 @@ class Retro extends React.Component {
               x !== "1911" &&
               ["0", "5"].includes(x[3]) && (
                 <div
-                  key={x}
                   style={{
-                    transform: "rotate(40deg)",
                     width: "max-content",
                     wordBreak: "none",
                     margin: "0px 10px"
                   }}
                 >
-                  {x}
+                  |
+                  <div
+                    key={x}
+                    style={{
+                      transform: "rotate(30deg)",
+                      width: "max-content",
+                      wordBreak: "none"
+                    }}
+                  >
+                    {x}
+                  </div>
                 </div>
               )
           )}
