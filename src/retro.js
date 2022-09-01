@@ -196,7 +196,6 @@ class Retro extends React.Component {
         }
       });
     });
-    console.log(avgLifetime);
     date.forEach((x) => {
       let yOA = 0;
       yOneTenNJDataAge.forEach((obj) => {
@@ -1050,7 +1049,7 @@ class Retro extends React.Component {
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(auto-fit,  minmax(10px, max-content))",
-            width: "100%"
+            width: this.props.lastWidth - 55
           }}
         >
           {this.state.date.map(
