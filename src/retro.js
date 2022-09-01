@@ -149,6 +149,7 @@ class Retro extends React.Component {
     });
     //console.log(retroo);
     const isbtwn = (age, test) => {
+      if (isNaN(age)) return null;
       const beg = test.split("-");
       return age > Number(beg[0]) && age < Number(beg[1]);
     };
