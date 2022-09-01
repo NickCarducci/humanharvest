@@ -19,7 +19,6 @@ export default class Main extends React.Component {
   componentWillUnmount = () => {
     clearTimeout(this.scrollTimeout);
     clearTimeout(this.resizeTimer);
-    clearTimeout(this.check);
     window.removeEventListener("resize", this.refresh);
     window.removeEventListener("scroll", this.handleScroll);
   };
@@ -108,7 +107,11 @@ export default class Main extends React.Component {
             backgroundColor: "rgb(190,150,180)"
           }}
         />
-        <h2>2025 3m natural rate increase 78</h2>
+        <h2>
+          2025 3m{space}
+          <a href="https://2024nj.com">natural rate increase</a>
+          {space}78
+        </h2>
       </div>
     );
   }
