@@ -112,6 +112,23 @@ export default class Main extends React.Component {
           <a href="https://2024nj.com">natural rate increase</a>
           {space}78
         </h2>
+        <i>
+          I do recommend{space}
+          <a href="https://epiology.quora.com">lockdowns when humans</a>
+          {space}
+          <a href="https://www.reddit.com/r/thumbprint/comments/xhmehy/covid_has_woken_me_to_the_word_polyphyletic/">
+            begin
+          </a>
+          {space}to make{space}
+          <a href="https://www.reddit.com/r/Virology/comments/wr05mg/hightech_images_show_how_viruses_infect_cells/">
+            weapons
+          </a>
+          {space}outside of their{space}
+          <a href="https://sewageisamatterofdomesticviolence.quora.com">
+            buttholes
+          </a>
+          .
+        </i>
       </div>
     );
   }
