@@ -162,6 +162,8 @@ export default class Main extends React.Component {
             including breathing in{space}
             <b>droplets containing the</b>
             {space}disease
+            {/*you (all) are gonna be so (hung) 'faggot' vax named-riot, mosques-too
+          divorce and chastidy; life, sex and 'filth' */}
           </i>
           , exhaled by others.'
           <br />I adhere to Francisco Redi’s approach to the scientific
@@ -210,8 +212,16 @@ export default class Main extends React.Component {
           drug use
           {space}
           <a href="https://cfah.org/marijuana-statistics/">survey</a>.
+          <br />
+          <br />
+          <h4>
+            Why do liberals and conservatives want Medicare for All to
+            incarcerate the mentally ill on hearsay or similarly unprovable
+            testimonial evidence?
+          </h4>
         </div>
       </div>
     );
   }
 }
+
