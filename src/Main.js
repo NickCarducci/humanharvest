@@ -88,11 +88,7 @@ export default class Main extends React.Component {
     };
     const space = " ";
     return (
-      <div
-        style={{
-          padding: "20px"
-        }}
-      >
+      <div style={{ padding: "20px" }}>
         <div
           onClick={this.props.toggle}
           style={{
@@ -136,8 +132,9 @@ export default class Main extends React.Component {
         <br />
         <div
           style={{
+            wordBreak: "break-word",
             margin: "20px 6px",
-            width: "100%",
+            width: "calc(100% - 40px)",
             maxWidth: "300px",
             borderTopLeftRadius: "20px",
             padding: "10px",
@@ -173,6 +170,19 @@ export default class Main extends React.Component {
           non-oncogenic lymphatic system make antibodies for the carbon hydrogen
           virion? Isn't the product of the mRNA D614G spike protein not that?
         </div>
+        About 40% of the state prison population and sentenced jail population
+        report using drugs at the time of the offense for which they were
+        {space}
+        <a href="https://www.prisonpolicy.org/blog/2017/06/28/drugs/">
+          incarcerated
+        </a>
+        .
+        <br />
+        <br />
+        44% of American college students have used marijuana regularly in 2020.
+        It’s a significant increase from 2016’s 39% says NIDA’s 2020 drug use
+        {space}
+        <a href="https://cfah.org/marijuana-statistics/">survey</a>.
       </div>
     );
   }
