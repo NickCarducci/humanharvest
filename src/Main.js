@@ -1,4 +1,5 @@
 import React from "react";
+import Cable from "./Dropwire"; //"react-dropwire";
 //import Cable from "./Dropwire"; //"react-dropwire";
 import { UAParser } from "ua-parser-js";
 import Retro from "./retro";
@@ -170,19 +171,46 @@ export default class Main extends React.Component {
           non-oncogenic lymphatic system make antibodies for the carbon hydrogen
           virion? Isn't the product of the mRNA D614G spike protein not that?
         </div>
-        About 40% of the state prison population and sentenced jail population
-        report using drugs at the time of the offense for which they were
-        {space}
-        <a href="https://www.prisonpolicy.org/blog/2017/06/28/drugs/">
-          incarcerated
-        </a>
-        .
-        <br />
-        <br />
-        44% of American college students have used marijuana regularly in 2020.
-        It’s a significant increase from 2016’s 39% says NIDA’s 2020 drug use
-        {space}
-        <a href="https://cfah.org/marijuana-statistics/">survey</a>.
+        <div
+          style={{
+            wordBreak: "break-word",
+            width: "calc(100% - 40px)",
+            maxWidth: "300px"
+          }}
+        >
+          <a href="https://www.prisonpolicy.org/blog/2017/06/28/drugs/">
+            <Cable
+              style={{ maxWidth: "300px", width: "100%" }}
+              onError={handleScollImgError}
+              img={true}
+              src={
+                this.state.noyoutube
+                  ? ""
+                  : "https://www.dropbox.com/s/kbxo4r6tkz35cvv/Screen%20Shot%202022-10-12%20at%201.49.25%20PM.png?raw=1"
+              }
+              float="left"
+              title="https://www.prisonpolicy.org/blog/2017/06/28/drugs/"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + scrollnum()]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={!this.state.oldecon ? 0 : this.state.scrollTop}
+            />
+          </a>
+          About 40% of the state prison population and sentenced jail population
+          report using drugs at the time of the offense for which they were
+          {space}
+          <a href="https://www.prisonpolicy.org/blog/2017/06/28/drugs/">
+            incarcerated
+          </a>
+          .
+          <br />
+          <br />
+          44% of American college students have used marijuana regularly in
+          2020. It’s a significant increase from 2016’s 39% says NIDA’s 2020
+          drug use
+          {space}
+          <a href="https://cfah.org/marijuana-statistics/">survey</a>.
+        </div>
       </div>
     );
   }
