@@ -137,9 +137,12 @@ export default class Main extends React.Component {
             margin: "20px 6px",
             width: "calc(100% - 40px)",
             maxWidth: "300px",
-            borderTopLeftRadius: "20px",
+            //borderTopLeftRadius: "20px",
             padding: "10px",
-            boxShadow: "-4px -4px 1px 4px black"
+            boxShadow: `-80px -80px 0 -70px black\n80px -80px 0 -70px black\n-80px  80px 0 -70px black\n80px  80px 0 -70px black`
+            //borderLeft: "4px solid",
+            //borderTop: "4px solid"
+            //boxShadow: "-4px -4px 1px 4px black"
           }}
         >
           John F. Eldredge '
@@ -162,8 +165,6 @@ export default class Main extends React.Component {
             including breathing in{space}
             <b>droplets containing the</b>
             {space}disease
-            {/*you (all) are gonna be so (hung) 'faggot' vax named-riot, mosques-too
-          divorce and chastidy; life, sex and 'filth' */}
           </i>
           , exhaled by others.'
           <br />I adhere to Francisco Redi’s approach to the scientific
@@ -207,9 +208,12 @@ export default class Main extends React.Component {
           .
           <br />
           <br />
-          44% of American college students have used marijuana regularly in
-          2020. It’s a significant increase from 2016’s 39% says NIDA’s 2020
-          drug use
+          44% of American college{space}
+          <a href="https://www.bop.gov/about/statistics/statistics_inmate_age.jsp">
+            students
+          </a>
+          {space}have used marijuana regularly in 2020. It’s a significant
+          increase from 2016’s 39% says NIDA’s 2020 drug use
           {space}
           <a href="https://cfah.org/marijuana-statistics/">survey</a>.
           <br />
@@ -219,9 +223,10 @@ export default class Main extends React.Component {
             incarcerate the mentally ill on hearsay or similarly unprovable
             testimonial evidence?
           </h4>
+          {/*you (all) are gonna be so (hung) 'faggot' vax named-riot, mosques-too
+          divorce and chastidy; life, sex and 'filth' UNTIL preg test fatties */}
         </div>
       </div>
     );
   }
 }
-
