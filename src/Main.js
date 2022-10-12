@@ -88,7 +88,11 @@ export default class Main extends React.Component {
     };
     const space = " ";
     return (
-      <div>
+      <div
+        style={{
+          padding: "20px"
+        }}
+      >
         <div
           onClick={this.props.toggle}
           style={{
@@ -101,7 +105,7 @@ export default class Main extends React.Component {
           more
         </div>
         <Retro
-          lastWidth={Math.min(600, this.state.lastWidth)}
+          lastWidth={Math.min(600, this.state.lastWidth - 40)}
           style={{
             paddingBottom: "15px",
             backgroundColor: "rgb(190,150,180)"
@@ -129,6 +133,46 @@ export default class Main extends React.Component {
           </a>
           .
         </i>
+        <br />
+        <div
+          style={{
+            margin: "20px 6px",
+            width: "100%",
+            maxWidth: "300px",
+            borderTopLeftRadius: "20px",
+            padding: "10px",
+            boxShadow: "-4px -4px 1px 4px black"
+          }}
+        >
+          John F. Eldredge '
+          <a href="https://www.quora.com/Why-do-you-believe-vaccines-do-more-than-prevent-blood-clots/answer/John-F-Eldredge">
+            Note
+          </a>{" "}
+          that{space}
+          <a href="https://sewageisamatterofdomesticviolence.quora.com/What-do-you-think-caused-infectious-disease-mortality-to-decline-around-1800-1">
+            <i>many infectious diseases</i>
+            {space}are{space}
+            <b>not</b>
+            {space}spread by poor sanitation
+          </a>
+          , but by{space}
+          <i>
+            <b>other contact with infected people</b>
+          </i>
+          ,{space}
+          <i>
+            including breathing in{space}
+            <b>droplets containing the</b>
+            {space}disease
+          </i>
+          , exhaled by others.'
+          <br />I adhere to Francisco Redi’s approach to the scientific
+          dialectic. Why don’t you inject me with a virus to prove it isn’t
+          debris? Do virologists/epidemiologists believe in evolution? Do you
+          think humans evolved viruses to attack each other? Doesn’t the
+          non-oncogenic lymphatic system make antibodies for the carbon hydrogen
+          virion? Isn't the product of the mRNA D614G spike protein not that?
+        </div>
       </div>
     );
   }
