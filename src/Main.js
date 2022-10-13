@@ -101,6 +101,17 @@ export default class Main extends React.Component {
         >
           more
         </div>
+        <div
+          style={{
+            top: "0px",
+            left: "0px",
+            position: "fixed",
+            cursor: "pointer"
+          }}
+        >
+          Don't Indian actuaries use natural rate increases to describe excess
+          mortality?
+        </div>
         <Retro
           lastWidth={Math.min(600, this.state.lastWidth - 40)}
           style={{
