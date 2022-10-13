@@ -131,6 +131,13 @@ export default class Main extends React.Component {
           .
         </i>
         <br />
+        What do you think caused infectious disease mortality to decline around
+        {space}
+        <a href="https://phyletic.quora.com/Do-you-think-humans-evolved-viruses-to-attack-each-other-https-www-quora-com-unanswered-Do-you-think-humans-evolved">
+          1800
+        </a>
+        ? toilet{">"}vaxx.{space}
+        <i style={{ color: "grey" }}>garbage self dealing</i>
         <div
           style={{
             wordBreak: "break-word",
