@@ -3,6 +3,7 @@ import Cable from "./Dropwire"; //"react-dropwire";
 //import Cable from "./Dropwire"; //"react-dropwire";
 import { UAParser } from "ua-parser-js";
 import Retro from "./retro";
+import Youth from "./Youth";
 
 export default class Main extends React.Component {
   constructor(props) {
@@ -244,6 +245,13 @@ export default class Main extends React.Component {
           {/*you (all) are gonna be so (hung) 'faggot' vax named-riot, mosques-too
           divorce and chastidy; life, sex and 'filth' UNTIL preg test fatties */}
         </div>
+        <Youth
+          lastWidth={Math.min(600, this.state.lastWidth - 40)}
+          style={{
+            paddingBottom: "15px",
+            backgroundColor: "rgb(190,150,180)"
+          }}
+        />
       </div>
     );
   }
