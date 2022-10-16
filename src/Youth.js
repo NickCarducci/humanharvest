@@ -840,7 +840,8 @@ class Youth extends React.Component {
             }}
           >
             <div>
-              {shortNumber(Math.round(this.state.highDeaths /* / 5*/))}/100k
+              Youth {shortNumber(Math.round(this.state.highDeaths /* / 5*/))}
+              /100k
             </div>
             <a href="https://www.ojjdp.gov/ojstatbb/crime/ucr_trend.asp?table_in=1&selOffenses=1&rdoGroups=1&rdoDataType=3">
               <div
