@@ -252,6 +252,13 @@ export default class Main extends React.Component {
             backgroundColor: "rgb(190,150,180)"
           }}
         />
+        <a href="https://commie.dev/police">
+          Is the NBER business cycle committee serious
+        </a>
+        {space}when they{space}
+        <a href="https://thetaxparty.com">say</a>
+        {space}non-inflationary unemployment is{space}
+        <a href="https://reddit.com/r/realeconomics">recessionary</a>?
       </div>
     );
   }
