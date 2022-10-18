@@ -133,14 +133,16 @@ export default class Main extends React.Component {
             begin
           </a>
           {space}to make{space}
-          <a href="https://www.reddit.com/r/Virology/comments/wr05mg/hightech_images_show_how_viruses_infect_cells/">
-            weapons
-          </a>
-          {space}outside of their{space}
+          {space}
           <a href="https://sewageisamatterofdomesticviolence.quora.com">
-            buttholes
+            butthole
           </a>
-          .
+          -presiding
+          {space}
+          <a href="https://www.reddit.com/r/Virology/comments/wr05mg/hightech_images_show_how_viruses_infect_cells/">
+            weaponry
+          </a>
+          {/*outside of their*/}.
         </i>
         <br />
         What do you think caused infectious disease mortality to decline around
