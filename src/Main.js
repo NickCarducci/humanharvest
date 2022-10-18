@@ -186,12 +186,21 @@ export default class Main extends React.Component {
             {space}disease
           </i>
           , exhaled by others.'
-          <br />I adhere to Francisco Redi’s approach to the scientific
-          dialectic. Why don’t you inject me with a virus to prove it isn’t
-          debris? Do virologists/epidemiologists believe in evolution? Do you
-          think humans evolved viruses to attack each other? Doesn’t the
-          non-oncogenic lymphatic system make antibodies for the carbon hydrogen
-          virion? Isn't the product of the mRNA D614G spike protein not that?
+          <br />I adhere to Francisco{space}
+          <a href="https://www.dailymail.co.uk/health/article-11323677/Outrage-Boston-University-CREATES-Covid-strain-80-kill-rate.html">
+            Redi
+          </a>
+          ’s approach to the scientific dialectic. Why don’t you inject me with
+          a virus to prove it isn’t debris? Do virologists/epidemiologists
+          believe in evolution? Do you think humans evolved viruses to attack
+          each other? Doesn’t the non-oncogenic lymphatic system make antibodies
+          for the carbon hydrogen virion? Isn't the product of the mRNA D614G
+          spike protein not that?
+          {space}
+          <a href="https://bacterium.quora.com">Bacterial</a>
+          {space}artificial chromosome. How have vaccines proven to save lives?
+          Don’t virologists have regard for more positive correlation with
+          sewage and/or negative with bivariate, polyphyletic symptoms?
         </div>
         <div
           style={{
