@@ -103,6 +103,15 @@ export default class Main extends React.Component {
           more
         </div>
         <div
+          onMouseEnter={
+            () =>
+              this.setState({ nodeDevtimeout: true }, () => {
+                clearTimeout(this.nodeDevtimeout);
+                this.nodeDevtimeout = setTimeout(() => {
+                  this.setState({ nodeDevtimeout: false });
+                }, 5000);
+              }) //scopebook
+          }
           style={{
             top: "0px",
             left: "0px",
@@ -110,8 +119,18 @@ export default class Main extends React.Component {
             cursor: "pointer"
           }}
         >
-          Don't Indian actuaries use natural rate increases to describe excess
-          mortality?
+          {!this.state.nodeDevtimeout ? (
+            <span>
+              Don't Indian actuaries use{space}
+              <i>natural rate increases</i>
+              {space}to describe excess mortality?
+            </span>
+          ) : (
+            <span>
+              Isn’t the NIH for first-timers{space}
+              <i>notwithstanding rare diseases</i>?
+            </span>
+          )}
         </div>
         <Retro
           lastWidth={Math.min(600, this.state.lastWidth - 40)}
@@ -199,7 +218,9 @@ export default class Main extends React.Component {
           for the carbon hydrogen virion? Isn't the product of the mRNA D614G
           spike protein not that?
           {space}
-          <a href="https://bacterium.quora.com">Bacterial</a>
+          <a href="https://bacterium.quora.com/Did-Boston-University-National-Emerging-Infectious-Diseases-Laboratory-really-use-bacterial-artificial-chromosomes-to-en">
+            Bacterial
+          </a>
           {space}artificial chromosome. How have vaccines proven to save lives?
           Don’t virologists have regard for more positive correlation with
           sewage and/or negative with bivariate, polyphyletic symptoms?
