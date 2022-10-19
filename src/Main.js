@@ -140,9 +140,15 @@ export default class Main extends React.Component {
           }}
         />
         <h2>
-          2025 3m{space}
+          <span role="img" aria-label="tombstone">
+            🪦
+          </span>
+          <a href="https://stats.stackexchange.com/questions/585927/what-is-the-significance-of-population-growth-a-life-expectancy-ago">
+            2025
+          </a>
+          {space}3m{space}
           <a href="https://2024nj.com">natural rate increase</a>
-          {space}78
+          {space}78{space}(73 first vector/wave)
         </h2>
         <i>
           I do recommend{space}
