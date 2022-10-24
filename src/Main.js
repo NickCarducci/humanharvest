@@ -290,13 +290,62 @@ export default class Main extends React.Component {
             backgroundColor: "rgb(190,150,180)"
           }}
         />
-        <a href="https://commie.dev/police">
-          Is the NBER business cycle committee serious
-        </a>
-        {space}when they{space}
-        <a href="https://thetaxparty.com">say</a>
-        {space}non-inflationary unemployment is{space}
-        <a href="https://reddit.com/r/realeconomics">recessionary</a>?
+        <b>
+          <i>
+            <a href="https://commie.dev/police">
+              Is the NBER business cycle committee serious
+            </a>
+            {space}when they{space}
+            <a href="https://thetaxparty.com">say</a>
+            {space}non-inflationary unemployment is{space}
+            <a href="https://reddit.com/r/realeconomics">recessionary</a>?
+          </i>
+        </b>
+        <hr />
+        <div style={{ borderLeft: "2px solid", paddingLeft: "4px" }}>
+          There are repeated high demands on Police and NHS resources in
+          response to this level of crimes (not all of these being{space}
+          <a href="https://research.tees.ac.uk/ws/portalfiles/portal/25580379/FINAL_Heroin_Assisted_Treatment_Pilot_Evaluation_Report.pdf">
+            financial but also physical and psychological harms)
+          </a>
+          .{space}
+          <i>Beyond more obvious impacts on the public purse</i>, other groups
+          such as family members are{space}
+          <a href="https://minimalviableduress.quora.com/Isnt-competence-subjective">
+            disproportionately{space}
+            <i>a</i>ffected
+          </a>
+          {space}[
+          <i>
+            in having been caused endogeneously in said physical and
+            psychological harms
+          </i>
+          ] . A policy paper analysing the impact of drug taking on family
+          members, by the UK Drug Policy Commission (2009) estimated that the
+          cost of the harms to family members was around 1.8 billion a year.
+          {space}
+          <i>
+            Taken together, the hidden and associated costs with 52 years of
+            offending is likely in the millions, if not billions.
+          </i>
+        </div>
+        <br />
+        <div style={{ borderLeft: "2px solid", paddingLeft: "4px" }}>
+          The evidence highlights that HAT is associated with large reductions
+          in the volume of offences, the crime severity score and associated
+          costs to the Ministry of Justice (MOJ)iv, with approximate savings of
+          £97,800. Importantly, costs do not include those past sentencing i.e.
+          prison or probation so the cost savings associated with a reduction of
+          the volume and severity of offences is likely far greater than this
+          figure. Therefore, individuals who engage with HAT not only commit
+          less offences, but the offences that they do commit are less serious
+          than the year preceding HAT. The rate of offending per person reduced
+          from three crimes per participant to 1.2 crimes per participant. This
+          reduction in offending is corroborated in the TOPs self-report data
+          set, where 9 out of 14 individuals reported shoplifting every day in
+          the previous 28 day period on entry to the pilot, which reduced to 0
+          days by month 1 for majority of these individuals (6 out of 9).
+        </div>
       </div>
     );
   }
