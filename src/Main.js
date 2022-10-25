@@ -327,6 +327,7 @@ export default class Main extends React.Component {
           <i>
             Taken together, the hidden and associated costs with 52 years of
             offending is likely in the millions, if not billions.
+            {/**Why wouldn't https://api.congress.gov/bill be able to sort by last instead of latest action already? This is what Thumbprint will need. */}
           </i>
         </div>
         <br />
@@ -346,6 +347,92 @@ export default class Main extends React.Component {
           the previous 28 day period on entry to the pilot, which reduced to 0
           days by month 1 for majority of these individuals (6 out of 9).
         </div>
+        <h3>
+          1968 gun control,{space}
+          <a href="https://beingstable.quora.com/Isn-t-mean-proportionality-the-average-rounded-How-might-reversing-the-mean-proportional-operation-affect-multiplicatio-1">
+            weed
+          </a>
+        </h3>
+        The{space}
+        <a href="https://www.cdc.gov/nchs/nhis/pre1997.htm">
+          National Health Survey Act
+        </a>
+        {space}of 1956 provided for a continuing survey and special studies to
+        secure accurate and current statistical information on the amount,
+        distribution, and effects of illness and disability in the United States
+        and{space}
+        <a href="https://www.cdc.gov/nchs/nhis/data-questionnaires-documentation.htm">
+          the services rendered for or because of such conditions
+        </a>
+        .
+        <h3 style={{ margin: "4px 0px" }}>
+          Isn't{space}
+          <a href="https://generalmaintenanceunit.quora.com/Isnt-the-right-to-speak-as-an-unpaid-user-granted-prima-facie-but-for-desist-orders">
+            a pair
+          </a>
+          {space}of crazy{space}
+          <a href="https://www.quora.com/Don-t-ableists-use-tropes">
+            a modicum of sanity
+          </a>
+          ? (Isn't a survey sample modicum variable by industry types?)
+        </h3>
+        If weed is a performance enhancer, why is it illegal to drive with it?
+        Are top nationally ranked gains really gains? Is a testimony of hate
+        mental illness?{space}
+        <i>
+          If Rudy Giuliani doesn't want to prevent robbery and/or homicide with
+          red flag laws, why does he want to call convicts mentally ill?
+        </i>
+        <br />
+        Shouldn’t criminals stop getting SSDI already?{space}
+        <i>Shouldn’t the depressed stop getting SSDI already?</i>
+        {space}Shouldn’t the SSDI assume an injured applicant will not be hired
+        into a new industry already?{space}Can people with cerebral palsywork
+        with computers?{space}Shouldn’t the{space}
+        <a href="https://actuapedia.quora.com/Does-the-polio-epidemic-match-today-s-nervous-system-disease-presentation-1">
+          speaking developmentally disabled
+        </a>
+        {space}and/or{space}
+        <a href="">injured</a>
+        {space}get desk jobs if they have experience in the field instead of
+        receive SSDI already?{space}
+        <a href="">Aren't voters tired?</a>
+        <br />
+        Do you agree with healthfeedback.org that the Amish have less autism and
+        cancer because of{space}
+        <a href="https://www.reddit.com/r/realeconomics/comments/ycld00/dont_pensions_cause_market_concentration_wouldnt">
+          incest
+        </a>
+        {space}and living{space}
+        <a href="https://saltbank.org">salt-free</a>?
+        <h4>
+          Doesn't the true geometric mean occur when studying exogenous
+          variables in a vacuum control?
+        </h4>
+        <i>
+          Kelli Halliburton: Downvoted{space}
+          <a href="https://www.quora.com/unanswered/Doesnt-the-true-geometric-mean-occur-when-studying-exogenous-variables-in-a-vacuum-control">
+            word salad
+          </a>
+          .
+        </i>
+        <br />
+        do you even know the difference between arithmetic and geometric mean?
+        are you smoking crack?
+        <h4>
+          If weed is a performance enhancer, why is it illegal to drive with it?
+        </h4>
+        <i>
+          Brian Jones (Lives in Santa Monica): It’s not.
+          <br />
+          it’s banned in tested competition partly because of politics but also
+          because it can be mood altering; mental jitters are a real thing in
+          high level competition.
+        </i>
+        <h4>
+          Is the reason to prevent drugs for performance enhancement,
+          benchmarking, or subjective abuse?
+        </h4>
       </div>
     );
   }
