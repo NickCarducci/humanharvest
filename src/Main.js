@@ -347,6 +347,12 @@ export default class Main extends React.Component {
           the previous 28 day period on entry to the pilot, which reduced to 0
           days by month 1 for majority of these individuals (6 out of 9).
         </div>
+        <div>
+          <a href="https://www.cdc.gov/nchs/nhis/shs/tables.htm">
+            nchs/nhis/shs
+          </a>
+          :{" "}
+        </div>
         <h3>
           1968 gun control,{space}
           <a href="https://beingstable.quora.com/Isn-t-mean-proportionality-the-average-rounded-How-might-reversing-the-mean-proportional-operation-affect-multiplicatio-1">
@@ -434,7 +440,10 @@ export default class Main extends React.Component {
           benchmarking, or subjective abuse?
         </h4>
         <h2>
-          hours cost/ uh hour costs,{space}
+          <a href="https://www.cdc.gov/nchs/products/series/series16.htm">
+            hours
+          </a>
+          {space}cost/ uh hour costs,{space}
           <a href="https://commie.dev/banking">social labor</a>!
         </h2>
       </div>
