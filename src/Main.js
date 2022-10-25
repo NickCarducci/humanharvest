@@ -433,6 +433,10 @@ export default class Main extends React.Component {
           Is the reason to prevent drugs for performance enhancement,
           benchmarking, or subjective abuse?
         </h4>
+        <h2>
+          hours cost/ uh hour costs,{space}
+          <a href="https://commie.dev/banking">social labor</a>!
+        </h2>
       </div>
     );
   }
