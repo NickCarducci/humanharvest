@@ -1,4 +1,5 @@
 import React from "react";
+import { linecss, shortNumber } from "./vaxx";
 
 /*const mortalagenj = {
   "1960-1969": [
@@ -591,7 +592,7 @@ import React from "react";
   ]
 };*/
 
-const usmortality = {
+export const usmortality = {
   "1880": [
     {
       age: "0-4",
@@ -2462,8 +2463,7 @@ class Spanish extends React.Component {
       highDate,
       lowDeaths,
       highDeaths,
-      chosenRate: true,
-      chosenfrequency: true
+      chosenRate: true
     };
     this.state = state;
   }
@@ -2840,7 +2840,7 @@ class Spanish extends React.Component {
       );
   };
   render() {
-    const yaxis = this.state.yAxis; //this.state.yaxis ? this.state.yAxis : this.state.cappop;
+    const yaxis = this.state.yaxis ? this.state.yAxis : this.state.cappop;
     const { chosenRate, lowDate } = this.state;
     const noData = this.state.noData.map(([x, y]) => [
       ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
@@ -2973,52 +2973,53 @@ class Spanish extends React.Component {
       padding: "5px",
       margin: "2px"
     };
-    const linecss = {
-      left: "0px",
-      bottom: "0px",
-      display: "flex",
-      position: "absolute",
-      width: "100%",
-      height: "200px",
-      transform: "translate(0%,0%) scale(1,-1)"
-    };
-    const shortNumber = (scler, notRound) => {
-      var newnum = String(Math.round(scler));
-      if (notRound) newnum = String(scler);
-      var app = null;
-      var decimal = null;
-      const suff = ["", "k", "m", "b", "t"];
-      for (let i = 0; i < suff.length; i++) {
-        if (newnum.length > 3) {
-          decimal = newnum[newnum.length - 3];
-          newnum = newnum.substring(0, newnum.length - 3);
-        } else {
-          app = i;
-          break;
-        }
-      }
-      return newnum + (decimal ? "." + decimal : "") + suff[app];
-    };
     return (
-      <div
-        style={{
-          width: "100%",
-          minHeight: "260px",
-          position: "relative",
-          backgroundColor: "rgb(190,150,180)"
-        }}
-      >
-        <div
+      <div style={this.props.style}>
+        {/*<div
           style={{
-            width: "100%",
+            position: "relative",
             top: "0px",
-            display: "flex",
-            position: "absolute",
-            left: "0px",
-            flexDirection: "column",
-            zIndex: "1"
+            height: "min-content",
+            flexWrap: "wrap",
+            display: "flex"
           }}
         >
+          {["New Jersey"].map((x, i) => {
+            return (
+              <div
+                key={i}
+                onMouseEnter={() =>
+                  this.setState({}, () => {
+                    clearTimeout(this.unHover);
+                    this.unHover = setTimeout(
+                      () => this.setState({ hoveredBtn: x }),
+                      200
+                    );
+                  })
+                }
+                style={{
+                  transition: ".3s ease-in",
+                  boxShadow: `inset 0px 0px ${
+                    this.state.hoveredBtn === x ? 7 : 0
+                  }px  ${this.state.hoveredBtn === x ? 2 : 0.5}px black`,
+                  alignItems: "center",
+                  padding: "4px 7px",
+                  border: this.state.chosenState === x ? "1px solid black" : {1},
+                  display: "flex"
+                }}
+              >
+                <div onClick={() => this.setState({ chosenState: x })}>{x}</div>
+                &nbsp;
+                {this.state.chosenState === x && (
+                  <button onClick={() => this.setState({ chosenState: null })}>
+                    &times;
+                  </button>
+                )}
+              </div>
+            );
+          })}
+        </div>*/}
+        <div style={{ width: "100%", minHeight: "230px" }}>
           <div style={labelstyle}>
             <div
               style={buttonStyle}
@@ -3036,12 +3037,7 @@ class Spanish extends React.Component {
                 ? "population per 5yr "
                 : `highest accu yearly mortality `}
             </div>
-            <div>
-              {shortNumber(Math.round(this.state.highDeaths /* / 5*/))}
-              <br />
-              scale{" "}
-            </div>
-            {/* <button
+            <button
               style={buttonStyle}
               onClick={() => {
                 this.setState({
@@ -3054,21 +3050,51 @@ class Spanish extends React.Component {
                 : this.state.chosenfrequency && !chosenRate
                 ? "high"
                 : "cohort"}
-              </button>*/}
+            </button>
+            <div>
+              -&nbsp;
+              <br />
+              {shortNumber(Math.round(this.state.highDeaths /* / 5*/))}
+            </div>
             <div
               style={{
-                backgroundColor: "rgba(255,255,255,.3)",
-                padding: "4px 8px",
-                position: "absolute",
+                top: "0px",
+                height: "min-content",
+                display: "flex",
+                position: "relative",
                 right: "0px"
               }}
             >
-              {this.state.lowDate}
-              &nbsp;-&nbsp;
+              {lowDate}&nbsp;
               {this.state.highDate}
             </div>
+            <br />
+            {/* <div
+              style={{
+                textAlign: "right",
+                top: "0px",
+                height: "min-content",
+                display: "flex",
+                position: "relative",
+                right: "0px"
+              }}
+            >
+              {this.state.highlifetime} average
+            </div>
+            {/*<div
+              style={{
+                top: "200px",
+                height: "min-content",
+                display: "flex",
+                position: "absolute",
+                right: "0px",
+                flexDirection: "column"
+              }}
+            >
+              {this.state.lowDeaths}
+            </div>*/}
           </div>
-          <div style={{ transform: "translate(0px,210px)" }}>
+          <div style={{ transform: "translate(0px,200px)" }}>
             <svg
               className="all"
               style={linecss}
@@ -3501,6 +3527,31 @@ class Spanish extends React.Component {
               </div>
             </div>
           </div>
+        </div>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit,  minmax(10px, max-content))",
+            width: "100%"
+          }}
+        >
+          {this.state.date.map(
+            (x) =>
+              x !== "1911" &&
+              ["0", "5"].includes(x[3]) && (
+                <div
+                  key={x}
+                  style={{
+                    transform: "rotate(40deg)",
+                    width: "max-content",
+                    wordBreak: "none",
+                    margin: "0px 10px"
+                  }}
+                >
+                  {x}
+                </div>
+              )
+          )}
         </div>
       </div>
     );
