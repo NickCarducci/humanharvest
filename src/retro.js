@@ -1,5 +1,7 @@
+import { node, object } from "prop-types";
 import React from "react";
 import { retroo } from "./retrodata";
+import { usmortality } from "./spanish";
 import { linecss, shortNumber } from "./vaxx";
 
 const frequency = (chosenfrequency, a, range) => {
@@ -351,6 +353,8 @@ class Retro extends React.Component {
     mortalNinetyFiveNJData.sort((a, b) => a[0] - b[0]);
     mortalOneTenNJData.sort((a, b) => a[0] - b[0]);
     var state = {
+      scale: false,
+      mortals: [],
       highlifetime,
       averageLifetimeData,
       date,
@@ -386,134 +390,174 @@ class Retro extends React.Component {
     };
     this.state = state;
   }
+  componentDidMount = () => {
+    this.setState({ scale: true });
+  };
+  componentDidUpdate = () => {
+    if (this.state.scale !== this.state.lastscale) {
+      this.setState({ lastscale: this.state.scale }, () => {
+        const lastWidth = this.props.lastWidth * 0.9;
+        const yaxis = this.state.yaxis ? this.state.yAxis : this.state.cappop;
+        var scales = [],
+          noData = [];
+        const val = (d, p = 0 /*1000*/) => Math.round((d / 100000) * p); // *1000);
+        const calculate = (x) => {
+          return x.deaths ? x.deaths : val(x.dx, x.pop);
+        };
+        const usm = Object.keys(usmortality).map((k) => {
+          return {
+            [k]: usmortality[k].map((x) => {
+              const s = x.age.split("-")[0];
+              return {
+                ...x,
+                age: Number(s)
+              };
+            })
+          };
+        });
+        const deaths = (age, yr) => {
+          const us = usm.find((x) => String(yr) === String(Object.keys(x)[0]));
+          return !us || !us[yr]
+            ? 1
+            : us[yr]
+                .filter((x) => {
+                  let nums = [];
+                  for (let i = 0; i < 5; i++) {
+                    nums.push(x.age + i);
+                  }
+                  return nums.includes(age);
+                })
+                .map((d) => {
+                  //console.log(d.age, age);
+                  if (d.age === Number(age)) {
+                    //console.log(d.dx);
+                    var dres = calculate(d);
+                    //console.log(d);
+                    //return dres;
+                    if (!d || !d.dx) return null;
+
+                    if (isNaN(dres) || !isFinite(dres)) return null;
+                    return dres;
+                  } else return null;
+                })
+                .find((x) => x);
+        };
+        //console.log(usm);
+
+        var lowscale = 0,
+          highscale = 1;
+        /*const scale = (yr, popu, first, yax, high, i) => {
+          var y = !this.state.scale && popu;
+          if (this.state.scale) {
+            const d = deaths([5, 15, 25, 40, 55, 70, 80][i], yr);
+            console.log(d);
+            y = d === 0 ? popu : d / popu;
+            //console.log(y);
+          }
+          const trans = this.state.scale
+            ? (y - lowscale) / highscale
+            : (y - (high ? this.state.highlifetime : this.state.lowDeaths)) /
+              (yax ? yaxis : this.state.cappop);
+          if (isNaN(trans) || !isFinite(trans)) {
+            //console.log(highscale);
+            return 0;
+          }
+          scales.push(trans);
+          return trans;
+        };*/
+        const scale = (yr, popu, i) => {
+          const d = deaths([5, 15, 25, 40, 55, 70, 80][i], yr);
+          if (isNaN(d) || !isFinite(d)) {
+            //console.log(d, yr);
+            return 1;
+          }
+          if (d !== 1) scales.push(d);
+          /*if (first) {
+            return scale(yr, popu, null, yax, null, i);
+          }*/
+          return d;
+        };
+        lowscale = 0; ////Math.min(...scales);
+        highscale = 500000; //Math.max(...scales);
+        //console.log(highscale);
+        /*const mortalsAge = [
+          this.state.mortalZeroNJDataAge,
+          this.state.mortalFiftyNJDataAge,
+          this.state.mortalSixtyFiveNJDataAge,
+          this.state.mortalSeventyFiveNJDataAge,
+          this.state.mortalEightyFiveNJDataAge
+        ].map((x) =>
+          x.map(([x, y], i) => [
+            ((x - this.state.lowDate) / this.state.xAxis) * lastWidth,
+            scale(y, true, null, null, i) * 150
+          ])
+        );*/
+        const date = (x) =>
+          ((x - this.state.lowDate) / this.state.xAxis) * lastWidth;
+        const mortals = [
+          this.state.mortalZeroNJData,
+          this.state.mortalFiftyNJData,
+          this.state.mortalSixtyFiveNJData,
+          this.state.mortalSeventyFiveNJData,
+          this.state.mortalEightyFiveNJData,
+          this.state.mortalNinetyFiveNJData,
+          this.state.mortalOneTenNJData
+        ].map((x, i) =>
+          //x.map(([x, y]) => [date(x), scale(x, y, true, yaxis, null, i) * 150])
+          x.map(([x, y]) => {
+            const g = scale(x, y, i);
+            //console.log(g, lowscale, highscale);
+            return [
+              date(x),
+              this.state.scale
+                ? ((g - lowscale) / highscale) * 150
+                : /*(y - (high ? this.state.highlifetime : this.state.lowDeaths)) /
+                (yax ? yaxis : this.state.cappop)) * 150*/
+                  ((y - this.state.lowDeaths) / yaxis) * 150
+            ];
+          })
+        );
+        //console.log(mortals);
+        //console.log(this.state.mortalZeroNJData);
+        this.setState({ mortals });
+      });
+    }
+  };
   render() {
-    const yaxis = this.state.yaxis ? this.state.yAxis : this.state.cappop;
-    const { chosenRate, lowDate } = this.state;
-    const noData = this.state.noData.map(([x, y]) => [
-      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-      0
-    ]);
-    const mortalZeroNJData = this.state.mortalZeroNJData.map(([x, y]) => [
-      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-      ((y - this.state.lowDeaths) / yaxis) * 150
-    ]);
-    const mortalZeroNJDataAge = this.state.mortalZeroNJDataAge.map(([x, y]) => [
-      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-      ((y - this.state.lowDeaths) / this.state.cappop) * 150
-    ]);
-    const mortalFiftyNJDataAge = this.state.mortalFiftyNJDataAge.map(
-      ([x, y]) => [
-        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / this.state.cappop) * 150
+    const lastWidth = this.props.lastWidth * 0.9;
+    const date = (x) =>
+      ((x - this.state.lowDate) / this.state.xAxis) * lastWidth;
+    const { mortals } = this.state;
+    const noData = this.state.noData.map(([x, y]) => [date(x), 0]);
+    /*const averageLifetimeData = this.state.averageLifetimeData.map(
+      ([x, y], i) => [
+        ((x - this.state.lowDate) / this.state.xAxis) * lastWidth,
+        scale(y, true, null, this.state.highlifetime, i) * 150
       ]
-    );
-    const mortalSixtyFiveNJDataAge = this.state.mortalSixtyFiveNJDataAge.map(
-      ([x, y]) => [
-        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / this.state.cappop) * 150
-      ]
-    );
-    const mortalSeventyFiveNJDataAge = this.state.mortalSeventyFiveNJDataAge.map(
-      ([x, y]) => [
-        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / this.state.cappop) * 150
-      ]
-    );
-    const mortalEightyFiveNJDataAge = this.state.mortalEightyFiveNJDataAge.map(
-      ([x, y]) => [
-        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / this.state.cappop) * 150
-      ]
-    );
-    const mortalFiftyNJData = this.state.mortalFiftyNJData.map(([x, y]) => [
-      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-      ((y - this.state.lowDeaths) / yaxis) * 150
-    ]);
-    const mortalSixtyFiveNJData = this.state.mortalSixtyFiveNJData.map(
-      ([x, y]) => [
-        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
-      ]
-    );
-    const mortalSeventyFiveNJData = this.state.mortalSeventyFiveNJData.map(
-      ([x, y]) => [
-        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
-      ]
-    );
-    const mortalEightyFiveNJData = this.state.mortalEightyFiveNJData.map(
-      ([x, y]) => [
-        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
-      ]
-    );
-    const mortalNinetyFiveNJData = this.state.mortalNinetyFiveNJData.map(
-      ([x, y]) => [
-        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
-      ]
-    );
-    const mortalOneTenNJData = this.state.mortalOneTenNJData.map(([x, y]) => [
-      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-      ((y - this.state.lowDeaths) / yaxis) * 150
-    ]);
-    const averageLifetimeData = this.state.averageLifetimeData.map(([x, y]) => [
-      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-      ((y - 0) / this.state.highlifetime) * 150
-    ]);
-    const yearlyZeroNJDataAge = this.state.yearlyZeroNJDataAge.map(([x, y]) => [
-      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-      ((y - this.state.lowDeaths) / this.state.cappop) * 150
-    ]);
-    const yearlyFiftyNJDataAge = this.state.yearlyFiftyNJDataAge.map(
-      ([x, y]) => [
-        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / this.state.cappop) * 150
-      ]
-    );
-    const yearlySixtyFiveNJDataAge = this.state.yearlySixtyFiveNJDataAge.map(
-      ([x, y]) => [
-        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / this.state.cappop) * 150
-      ]
-    );
-    const yearlySeventyFiveNJDataAge = this.state.yearlySeventyFiveNJDataAge.map(
-      ([x, y]) => [
-        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / this.state.cappop) * 150
-      ]
-    );
-    const yearlyEightyFiveNJDataAge = this.state.yearlyEightyFiveNJDataAge.map(
-      ([x, y]) => [
-        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / this.state.cappop) * 150
-      ]
-    );
-    const yearlyNinetyFiveNJDataAge = this.state.yearlyNinetyFiveNJDataAge.map(
-      ([x, y]) => [
-        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / this.state.cappop) * 150
-      ]
-    );
-    const yearlyOneTenNJDataAge = this.state.yearlyOneTenNJDataAge.map(
-      ([x, y]) => [
-        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / this.state.cappop) * 150
-      ]
-    );
+    ); //highlifetime
+    const mortalsYear = [
+      this.state.yearlyZeroNJDataAge,
+      this.state.yearlyFiftyNJDataAge,
+      this.state.yearlySixtyFiveNJDataAge,
+      this.state.yearlySeventyFiveNJDataAge,
+      this.state.yearlyEightyFiveNJDataAge,
+      this.state.yearlyNinetyFiveNJDataAge,
+      this.state.yearlyOneTenNJDataAge
+    ].map((x, i) =>
+      x.map(([x, y]) => [
+        ((x - this.state.lowDate) / this.state.xAxis) * lastWidth,
+        scale(y, true, null, null, i) * 150
+      ])
+    );*/
     //console.log(yearlyOneTenNJDataAge);
-    const ite = { border: "1px grey dashed", width: "max-content" };
-    const buttonStyle = {
-      userSelect: "none",
-      border: "1px solid black",
-      color: "black",
-      backgroundColor: "rgb(220,220,220)",
-      borderRadius: "4px",
-      padding: "5px",
-      margin: "2px"
-    };
     return (
-      <div style={{ ...this.props.style, width: this.props.lastWidth }}>
+      <div
+        onClick={() => this.setState({ scale: !this.state.scale })}
+        style={{
+          ...this.props.style,
+          width: !isNaN(this.props.lastWidth) && this.props.lastWidth
+        }}
+      >
         {/*<div
           style={{
             position: "relative",
@@ -578,7 +622,7 @@ class Retro extends React.Component {
                 right: "0px"
               }}
             >
-              {lowDate}&nbsp;
+              {this.state.lowDate}&nbsp;
               {this.state.highDate}
             </div>
             <br />
@@ -625,123 +669,39 @@ class Retro extends React.Component {
                       stroke="rgb(230,230,230)"
                       fill="transparent"
                       strokeWidth={3}
-                      key={i}
+                      key={i + "no"}
                     />
                   )
               )}
-              {yearlyZeroNJDataAge.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={8}
-                      height={1}
-                      stroke="white"
-                      fill="transparent"
-                      strokeWidth={1}
-                      key={i}
-                    />
-                  )
-              )}
-              {yearlyFiftyNJDataAge.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={8}
-                      height={1}
-                      stroke="purple"
-                      fill="transparent"
-                      strokeWidth={1}
-                      key={i}
-                    />
-                  )
-              )}
-              {yearlySixtyFiveNJDataAge.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={8}
-                      height={1}
-                      stroke="blue"
-                      fill="transparent"
-                      strokeWidth={1}
-                      key={i}
-                    />
-                  )
-              )}
-              {yearlySeventyFiveNJDataAge.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={8}
-                      height={1}
-                      stroke="green"
-                      fill="transparent"
-                      strokeWidth={1}
-                      key={i}
-                    />
-                  )
-              )}
-              {yearlyEightyFiveNJDataAge.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={8}
-                      height={1}
-                      stroke="orange"
-                      fill="transparent"
-                      strokeWidth={1}
-                      key={i}
-                    />
-                  )
-              )}
-              {yearlyNinetyFiveNJDataAge.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={8}
-                      height={1}
-                      stroke="red"
-                      fill="transparent"
-                      strokeWidth={1}
-                      key={i}
-                    />
-                  )
-              )}
-              {yearlyOneTenNJDataAge.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={8}
-                      height={1}
-                      stroke="black"
-                      fill="transparent"
-                      strokeWidth={1}
-                      key={i}
-                    />
-                  )
-              )}
-              {mortalZeroNJData.map(
+              {/*mortalsYear.map((x) => {
+                return x.map(
+                  ([x, y], i) =>
+                    !isNaN(x) &&
+                    !isNaN(y) && (
+                      <rect
+                        x={x}
+                        y={y}
+                        width={2}
+                        height={2}
+                        stroke={
+                          [
+                            "white",
+                            "purple",
+                            "blue",
+                            "green",
+                            "orange",
+                            "red",
+                            "black"
+                          ][i]
+                        }
+                        fill="transparent"
+                        strokeWidth={3}
+                        key={i}
+                      />
+                    )
+                );
+              })*/}
+              {/*mortalZeroNJData.map(
                 ([x, y], i) =>
                   !isNaN(x) &&
                   !isNaN(y) && (
@@ -756,189 +716,61 @@ class Retro extends React.Component {
                       key={i}
                     />
                   )
-              )}
+                  )*/}
               {/*<BasisCurve
               showPoints={false}
               strokeWidth={4}
               stroke="purple"
               data={mortalZeroNJData}
             />*/}
-              {mortalZeroNJDataAge.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={8}
-                      height={1}
-                      stroke="white"
-                      fill="transparent"
-                      strokeWidth={1}
-                      key={i}
-                    />
-                  )
-              )}
-              {mortalFiftyNJDataAge.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={8}
-                      height={1}
-                      stroke="purple"
-                      fill="transparent"
-                      strokeWidth={1}
-                      key={i}
-                    />
-                  )
-              )}
-              {mortalSixtyFiveNJDataAge.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={8}
-                      height={1}
-                      stroke="blue"
-                      fill="transparent"
-                      strokeWidth={1}
-                      key={i}
-                    />
-                  )
-              )}
-              {mortalSeventyFiveNJDataAge.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={8}
-                      height={1}
-                      stroke="green"
-                      fill="transparent"
-                      strokeWidth={1}
-                      key={i}
-                    />
-                  )
-              )}
-              {mortalEightyFiveNJDataAge.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={8}
-                      height={1}
-                      stroke="orange"
-                      fill="transparent"
-                      strokeWidth={1}
-                      key={i}
-                    />
-                  )
-              )}
-              {mortalFiftyNJData.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={2}
-                      height={2}
-                      stroke="purple"
-                      fill="transparent"
-                      strokeWidth={3}
-                      key={i}
-                    />
-                  )
-              )}
-              {mortalSixtyFiveNJData.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={2}
-                      height={2}
-                      stroke="blue"
-                      fill="transparent"
-                      strokeWidth={3}
-                      key={i}
-                    />
-                  )
-              )}
-              {mortalSeventyFiveNJData.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={2}
-                      height={2}
-                      stroke="green"
-                      fill="transparent"
-                      strokeWidth={3}
-                      key={i}
-                    />
-                  )
-              )}
-              {mortalEightyFiveNJData.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={2}
-                      height={2}
-                      stroke="orange"
-                      fill="transparent"
-                      strokeWidth={3}
-                      key={i}
-                    />
-                  )
-              )}
-              {mortalNinetyFiveNJData.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={2}
-                      height={2}
-                      stroke="red"
-                      fill="transparent"
-                      strokeWidth={3}
-                      key={i}
-                    />
-                  )
-              )}
-              {mortalOneTenNJData.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={2}
-                      height={2}
-                      stroke="black"
-                      fill="transparent"
-                      strokeWidth={3}
-                      key={i}
-                    />
-                  )
-              )}
+              {mortals.map((x, c) => {
+                return x.map(
+                  ([x, y], i) =>
+                    !isNaN(x) &&
+                    !isNaN(y) && (
+                      <rect
+                        x={x}
+                        y={y}
+                        width={2}
+                        height={2}
+                        stroke={
+                          ["white", "purple", "blue", "green", "orange"][c]
+                        }
+                        fill="transparent"
+                        strokeWidth={3}
+                        key={c + i}
+                      />
+                    )
+                );
+              })}
+              {/*mortalsAge.map((x) => {
+                return x.map(
+                  ([x, y], i) =>
+                    !isNaN(x) &&
+                    !isNaN(y) && (
+                      <rect
+                        x={x}
+                        y={y}
+                        width={2}
+                        height={2}
+                        stroke={
+                          [
+                            "white",
+                            "purple",
+                            "blue",
+                            "green",
+                            "orange",
+                            "red",
+                            "black"
+                          ][i]
+                        }
+                        fill="transparent"
+                        strokeWidth={3}
+                        key={i}
+                      />
+                    )
+                );
+              })}
               {averageLifetimeData.map(
                 ([x, y], i) =>
                   !isNaN(x) &&
@@ -954,7 +786,7 @@ class Retro extends React.Component {
                       key={i}
                     />
                   )
-              )}
+                  )*/}
             </svg>
           </div>
           <div
@@ -1038,6 +870,8 @@ class Retro extends React.Component {
                   }}
                 />
                 {
+                  //no economics on /opengovgroup, "boomers and whatever is o,k."
+                  //"it ain't over if you play that losing game"
                   frequency(this.state.chosenfrequency, 6, true) //chosenfrequency, index, range defaults cohort
                 }
                 &nbsp;&nbsp;
@@ -1050,12 +884,13 @@ class Retro extends React.Component {
             transform: "translateX(-10px)",
             display: "grid",
             gridTemplateColumns: "repeat(auto-fit,  minmax(10px, max-content))",
-            width:
-              this.props.lastWidth < 300
-                ? this.props.lastWidth - 20
-                : this.props.lastWidth < 400
-                ? this.props.lastWidth - 20
-                : this.props.lastWidth - 55
+            width: !this.props.lastWidth
+              ? "100%"
+              : this.props.lastWidth < 300
+              ? this.props.lastWidth - 20
+              : this.props.lastWidth < 400
+              ? this.props.lastWidth - 20
+              : this.props.lastWidth - 55
           }}
         >
           {this.state.date.map(
@@ -1063,6 +898,7 @@ class Retro extends React.Component {
               x !== "1911" &&
               ["0", "5"].includes(x[3]) && (
                 <div
+                  key={x}
                   style={{
                     width: "max-content",
                     wordBreak: "none",
@@ -1071,7 +907,6 @@ class Retro extends React.Component {
                 >
                   |
                   <div
-                    key={x}
                     style={{
                       transform: "rotate(30deg)",
                       width: "max-content",
@@ -1090,4 +925,3 @@ class Retro extends React.Component {
 }
 
 export default Retro;
-
