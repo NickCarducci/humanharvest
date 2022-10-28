@@ -102,6 +102,10 @@ export default class Main extends React.Component {
         >
           more
         </div>
+        <br />
+        <br />
+        Significance of single-year will always have 1/20 significant
+        single-year mortality.
         <div
           onMouseEnter={
             () =>
