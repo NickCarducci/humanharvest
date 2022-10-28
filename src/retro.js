@@ -386,12 +386,15 @@ class Retro extends React.Component {
       lowDeaths,
       highDeaths,
       chosenRate: true,
-      yaxis: true
+      yaxis: true,
+      scale: true
     };
     this.state = state;
   }
   componentDidMount = () => {
-    this.setState({ scale: true });
+    setTimeout(() => {
+      this.setState({ scale: false });
+    }, 200);
   };
   componentDidUpdate = () => {
     if (this.state.scale !== this.state.lastscale) {
