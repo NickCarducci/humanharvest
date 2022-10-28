@@ -394,7 +394,7 @@ class Retro extends React.Component {
   componentDidMount = () => {
     setTimeout(() => {
       this.setState({ scale: false });
-    }, 200);
+    }, 1000);
   };
   componentDidUpdate = () => {
     if (this.state.scale !== this.state.lastscale) {
