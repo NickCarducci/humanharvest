@@ -450,6 +450,10 @@ export default class Main extends React.Component {
           {space}cost/ uh hour costs,{space}
           <a href="https://commie.dev/banking">social labor</a>!
         </h2>
+        Why do some people choose not to vote?
+        <br />
+        1. It’s got to be on my lap, 2. trached voting results dissuades me, 3.
+        not voting == budget reconciliation, 4. thetax.party.
       </div>
     );
   }
