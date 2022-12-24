@@ -102,6 +102,9 @@ export default class Main extends React.Component {
         >
           more
         </div>
+        If PCR tests only capture 10 viruses at a time and every 30 years
+        mortality and birth rates are significant, can't the governments
+        fabricate pandemics?
         <h4>
           Antibodies 2025 1941 46; they found it outside the lab - they can't
           prove it.
