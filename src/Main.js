@@ -102,7 +102,75 @@ export default class Main extends React.Component {
         >
           more
         </div>
-        Maybe labor should deflate shit idiot
+        <h3>
+          <span
+            style={{
+              color: "grey"
+            }}
+          >
+            I wanted to boycott credit
+          </span>
+          {space}and end ticket scalping airline{space}
+          <a href="https://www.reddit.com/user/AdFabulous9451">McGhee</a>
+        </h3>
+        Should I pay more in undergraduate courses if my ideology fails? I don’t
+        think I had to take statistics or calculus freshman economic program
+        courses with my AP tests. It’s when I read Krugman I believe when I
+        thought C+I+G was quite redundant, and when I thought principal with
+        interest over collateral doesn’t settle from marginal consumption, that
+        I failed Macroeconomics twice and Financial Markets and Institutions
+        once. Now I’m soliciting an 12.1.5 OCC sponsorship for my electronic
+        safety deposit box at FedCash atm processor and industry specific payday
+        loans idea for my said business.
+        <br />
+        <br />I believe my overall GPA was 2.5. I was concentrating on operating
+        my own business. I am well rounded in my final semester, but in high
+        school I excelled relatively then in math and science (710 math and 590,
+        590 reading/writing; AP Stats and AB Calc). I also wrestled Freshman and
+        Sophomore Junior year, but generally was originally going for an East
+        Asian and Economics double major. Econometrics was a B- I think, but
+        again I’ve come clean publicly now and to my educators then I like a
+        decreasing real exchange velocity. I was 17 when 2008 happened to my
+        family’s home contracting business which set me off to end contracts for
+        intention. My B.A. is political science.
+        <br />
+        <br />
+        The only harmful recession is an accelerating inflation rate of marginal
+        unemployment, I say. Otherwise, a recession is either the opposite of
+        shrinkflation or a normal trade-off. I also don’t think exchanging
+        durable goods for currency is a decent trade. Should I even try to
+        apply? I have an economics minor from JHU in the U.S. but am interested
+        in global universities too.
+        <h3>
+          <span
+            style={{
+              color: "grey"
+            }}
+          >
+            I wanted to become an economist
+          </span>
+          {space}but, are complainants or rats racketeers?
+        </h3>
+        <i>
+          How do microeconomists substitute escrow for prevention and not
+          coverage of loss and unknown dangers for safety?
+        </i>
+        <br />
+        Stop holding us back. "How come visit to the emergency room costs so
+        much even if you have insurance?" The hospital can charge a larger
+        account, making the market price themselves. - Nick Carducci T0 Advocate
+        at Insurance (2011–present)
+        <br />
+        Maybe labor should deflate shit idiot.{space}
+        <a href="https://comlib.quora.com">
+          <i>
+            Is human action what happens in the absence of derivatives across
+            time?
+          </i>
+        </a>
+        {space}What laws would have to be revoked to tax electronic fund account
+        transfers only? Assume everyone can have their own FedCash account and
+        be their own bank, if you would.
         <br />
         <a href="https://www.nestseekers.com/agent/erin-sykes">
           <Cable
@@ -154,6 +222,14 @@ export default class Main extends React.Component {
         <b style={{ color: "cornflowerblue" }}>
           If vaccines were proven to have claim credit for what sewage has done
           for life expectancy, who would go to prison?{space}
+          <span style={{ color: "navy" }}>
+            All cause or artifact of many (10 base thousands);
+          </span>
+          {space}
+          <a href="https://anchor.fm/micro-theory/episodes/Strategic-Voting-with-a-potential-network-effect-and-new-antifinance-alternative-e1qvulq">
+            we evolve to control our debris
+          </a>
+          .{space}
           <a
             href="https://www.reddit.com/r/Wallstreetsilver/comments/zxf4is/are_communicable_diseases_observationally/"
             style={{ color: "cadetblue" }}
@@ -167,7 +243,11 @@ export default class Main extends React.Component {
             <a href="https://generalmaintenanceunit.quora.com">test</a>
             {space}measures vivo?
           </i>
-          , 12/28/2022)
+          , 12/28/2022){space}
+          <span style={{ color: "tan" }}>
+            Are politicians intent on widening poverty or do they not think
+            landlords cause an accelerating inflation rate of unemployment?
+          </span>
         </b>
         <h4>
           Antibodies 2025 1941 46; they found it outside the lab - they can't
@@ -177,8 +257,6 @@ export default class Main extends React.Component {
             confirmable placebo test measures vivo?
           </span>
         </h4>
-        All cause or artifact of many (10 base thousands). we evolve to control
-        our debris.
         <h3>Aren't significances expected to happen every 20-40 times?</h3>
         Significance of single-year will always have 1/20 significant
         single-year mortality. why is the government lying? should they die?
