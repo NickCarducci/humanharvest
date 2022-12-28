@@ -90,7 +90,7 @@ export default class Main extends React.Component {
     };
     const space = " ";
     return (
-      <div style={{ padding: "20px" }}>
+      <div style={{ padding: "20px", wordWrap: "break-word" }}>
         <div
           onClick={this.props.toggle}
           style={{
@@ -102,12 +102,31 @@ export default class Main extends React.Component {
         >
           more
         </div>
+        <h3>
+          Catastrophic hell security Contagion{space}
+          <span style={{ color: "salmon" }}>
+            Isn’t 2025 pandemic going to happen from expected excess mortality?
+          </span>
+          {space}
+          https://www.reddit.com/r/PhD/comments/zwjk5u/i_want_to_become_an_economist/
+        </h3>
         If PCR tests only capture 10 viruses at a time and every 30 years
         mortality and birth rates are significant, can't the governments
-        fabricate pandemics?
+        fabricate pandemics?{space}
+        <b style={{ color: "cornflowerblue" }}>
+          If vaccines were proven to have claim credit for what sewage has done
+          for life expectancy, who would go to prison?{space}
+          <span style={{ color: "cadetblue" }}>
+            Is a viral pandemic natural by evolutionary logic?
+          </span>
+        </b>
         <h4>
           Antibodies 2025 1941 46; they found it outside the lab - they can't
-          prove it.
+          prove it.{space}
+          <span style={{ color: "darkviolet" }}>
+            Doesn’t an observational control measure vitro while a null
+            confirmable placebo test measures vivo?
+          </span>
         </h4>
         All cause or artifact of many (10 base thousands). we evolve to control
         our debris.
@@ -203,6 +222,10 @@ export default class Main extends React.Component {
             //boxShadow: "-4px -4px 1px 4px black"
           }}
         >
+          Could know your customer regulations have stopped Jeffery Epstein’s
+          abusive behavior or discounted sales as gifts?
+          <br />
+          <br />
           John F. Eldredge '
           <a href="https://www.quora.com/Why-do-you-believe-vaccines-do-more-than-prevent-blood-clots/answer/John-F-Eldredge">
             Note
