@@ -103,6 +103,8 @@ export default class Main extends React.Component {
           more
         </div>
         <h3>
+          Is human action what happens in the absence of derivatives across
+          time?
           <span style={{ color: "firebrick" }}>
             https://www.reddit.com/r/bacterium/comments/zwi1sy/catastrophic_contagion_highlights_reel_2025_is/
           </span>
@@ -134,7 +136,14 @@ export default class Main extends React.Component {
           >
             Is a viral pandemic natural by evolutionary logic?
           </a>
-          {space}(Wall Street Silver)
+          {space}(Wall Street Silver,{space}
+          <i>
+            Doesn’t an observational control measure vitro while a null
+            confirmable placebo{space}
+            <a href="https://generalmaintenanceunit.quora.com">test</a>
+            {space}measures vivo?
+          </i>
+          , 12/28/2022)
         </b>
         <h4>
           Antibodies 2025 1941 46; they found it outside the lab - they can't
