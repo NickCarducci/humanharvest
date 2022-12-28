@@ -102,6 +102,12 @@ export default class Main extends React.Component {
         >
           more
         </div>
+        <h2>Shrinkflation Johns Hopkins</h2>
+        Google malfeasance is a plant{space}Medi-Share contracts are labor
+        indemnity surrendered purchase (fair right to ownership, "
+        <a href="https://bankingisnot.biz">usufruct</a>"). (Rollover medishare
+        fraud, "free premium contractors" or "producer aussie price")
+        <br />
         <i style={{ color: "limegreen" }}>
           Why would virus evolve as a prokaryotic weapon instead of excrement?
           Wouldn't clearing vessels for cardiovascularity be good reason for the
