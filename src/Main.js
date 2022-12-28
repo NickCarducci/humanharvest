@@ -102,6 +102,11 @@ export default class Main extends React.Component {
         >
           more
         </div>
+        <i>
+          Buttgiegs' poor job - it's known, covered not prevented, maybe 2025
+          won't be a pandemic but it will be timely
+        </i>
+        <br />
         <a href="https://thetaxparty.com">Putin</a>
         {space}and Cosco can{space}
         <a href="https://saltbank.quora.com">broker a deal</a>.
