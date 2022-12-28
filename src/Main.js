@@ -102,6 +102,10 @@ export default class Main extends React.Component {
         >
           more
         </div>
+        <h2 style={{ color: "cadetblue" }}>
+          Is the extrapolation of a select virus or all cause mortality
+          statistically important?
+        </h2>
         <h3>
           Expected significance; I will stand for plaintiffing not
           whistleblowing. f a whistleblower rat n ur job - right to try and
