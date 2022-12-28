@@ -110,6 +110,18 @@ export default class Main extends React.Component {
           <span style={{ color: "black" }}>
             I'm not buying the weapon not excrement prokaryote.
           </span>
+          {space}
+          <span style={{ color: "chocolate" }}>
+            Doesn't a{space}
+            <a href="https://vau.money">tax break account</a>
+            {space}to up to a reporting threshold while a tax exemption is still
+            reported? I want to be able to at least produce my own pac. no one
+            will donate to use the{space}
+            <a href="https://truncatedwholesaletax.com">
+              uniform constitution monolith
+            </a>
+            .
+          </span>
         </i>
         <h3>
           <span
