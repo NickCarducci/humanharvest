@@ -102,6 +102,12 @@ export default class Main extends React.Component {
         >
           more
         </div>
+        <i style={{ color: "limegreen" }}>
+          Why would virus evolve as a prokaryotic weapon instead of excrement?
+          Wouldn't clearing vessels for cardiovascularity be good reason for the
+          prevalence of antibodies upon virus? Are people even necessarily sick
+          from the virus or tested for all causes?
+        </i>
         <h3>
           <span
             style={{
