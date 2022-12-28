@@ -103,22 +103,38 @@ export default class Main extends React.Component {
           more
         </div>
         <h3>
+          <span style={{ color: "firebrick" }}>
+            https://www.reddit.com/r/bacterium/comments/zwi1sy/catastrophic_contagion_highlights_reel_2025_is/
+          </span>
+          {space}
           Catastrophic hell security Contagion{space}
           <span style={{ color: "salmon" }}>
             Isn’t 2025 pandemic going to happen from expected excess mortality?
           </span>
           {space}
           https://www.reddit.com/r/PhD/comments/zwjk5u/i_want_to_become_an_economist/
+          {space}
+          <span
+            style={{
+              fontWeight: "normal"
+            }}
+          >
+            If PCR tests only capture 10 viruses at a time and every 30 years
+            mortality and birth rates are significant, can't the governments
+            fabricate pandemics?
+          </span>
         </h3>
-        If PCR tests only capture 10 viruses at a time and every 30 years
-        mortality and birth rates are significant, can't the governments
-        fabricate pandemics?{space}
+        {space}
         <b style={{ color: "cornflowerblue" }}>
           If vaccines were proven to have claim credit for what sewage has done
           for life expectancy, who would go to prison?{space}
-          <span style={{ color: "cadetblue" }}>
+          <a
+            href="https://www.reddit.com/r/Wallstreetsilver/comments/zxf4is/are_communicable_diseases_observationally/"
+            style={{ color: "cadetblue" }}
+          >
             Is a viral pandemic natural by evolutionary logic?
-          </span>
+          </a>
+          {space}(Wall Street Silver)
         </b>
         <h4>
           Antibodies 2025 1941 46; they found it outside the lab - they can't
