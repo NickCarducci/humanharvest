@@ -104,7 +104,10 @@ export default class Main extends React.Component {
         </div>
         <i>
           Buttgiegs' poor job - it's known, covered not prevented, maybe 2025
-          won't be a pandemic but it will be timely
+          won't be a "pandemic" but elderly dealth significance will be timely
+          (adailyimpeachment. get buttgieg out - retroactive profit neglegence
+          "stakeholder fiduciary" police state repreave public sport, "game-made
+          risks")
         </i>
         <br />
         <a href="https://thetaxparty.com">Putin</a>
