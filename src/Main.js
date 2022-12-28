@@ -132,7 +132,10 @@ export default class Main extends React.Component {
             I wanted to boycott credit
           </span>
           {space}and end ticket scalping airline{space}
-          <a href="https://www.reddit.com/user/AdFabulous9451">McGhee</a>
+          <a href="https://www.reddit.com/user/AdFabulous9451">McGhee</a>;
+          recession is inflationary, marginal, or atomic,{space}
+          <i>shrinkflation bros</i>. Investment is consumption or shrinkflation
+          before deflationary use. Marginal benefit is market made not in kind.
         </h3>
         Should I pay more in undergraduate courses if my ideology fails? I don’t
         think I had to take statistics or calculus freshman economic program
