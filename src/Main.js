@@ -597,6 +597,21 @@ export default class Main extends React.Component {
             a modicum of sanity
           </a>
           ? (Isn't a survey sample modicum variable by industry types?)
+          {/**Does establishing a New Jersey political party require using a party 
+        from another state? Which state allows for a manifest? 
+        Does establishing a New Jersey political party require using a party 
+        from another state? Which state allows for a manifest?
+
+        Statistical significance requires 100-periods. I see our world in 
+        data uses a p-score, but I use my site, humanharvest.info for 
+        annual charts back to the Spanish flu.
+
+        Does no one being above the law imply an innocence precedence?
+
+        Connected political action committee content has copyright restrictions 
+        (11 CFR), unless its dissemination method usually is a personal expense 
+        like internet services, social media, and talk radio.
+        */}
         </h3>
         If weed is a performance enhancer, why is it illegal to drive with it?
         Are top nationally ranked gains really gains? Is a testimony of hate
