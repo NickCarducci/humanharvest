@@ -671,6 +671,11 @@ export default class Main extends React.Component {
           <a href="https://beingstable.quora.com/Isn-t-mean-proportionality-the-average-rounded-How-might-reversing-the-mean-proportional-operation-affect-multiplicatio-1">
             weed
           </a>
+          :{space}
+          <i>
+            Does the government not like pot smokers working as productive
+            employees anywhere?
+          </i>
         </h3>
         The{space}
         <a href="https://www.cdc.gov/nchs/nhis/pre1997.htm">
