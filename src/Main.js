@@ -220,15 +220,26 @@ export default class Main extends React.Component {
         durable goods for currency is a decent trade. Should I even try to
         apply? I have an economics minor from JHU in the U.S. but am interested
         in global universities too.
-        <h3>
+        <h3
+          style={{
+            color: "grey"
+          }}
+        >
+          I wanted to become an economist
+          {space}
           <span
             style={{
-              color: "grey"
+              color: "black"
             }}
           >
-            I wanted to become an economist
+            but, are complainants or rats racketeers?
           </span>
-          {space}but, are complainants or rats racketeers?
+          {space}"Whatever that means after making a deal for a lesser sentance
+          or surrendering your ethics or stakeholder fiduciary duty in{space}
+          <a href="https://www.reddit.com/r/realeconomics/comments/zxewsa/who_is_your_favourite_living_economist_whats/">
+            usufructuary bound rights
+          </a>
+          ."
         </h3>
         <i>
           How do microeconomists substitute escrow for prevention and not
