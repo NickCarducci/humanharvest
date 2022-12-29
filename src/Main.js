@@ -106,6 +106,13 @@ export default class Main extends React.Component {
           Do you think that the current debate about health care in America is
           focusing too much on insurance and not enough on actual patient care?
         </a>
+        {/**Don’t republicans, democrats, and nonvoters want prevention based government escrow but only the powerful want deficits?
+        Does a New Jersey political party become recognized after 10% of the Assembly switches parties at once?
+        Does establishing a New Jersey political party require using a party from another state? Which state allows for a manifest?
+        Do candidate committees require an EIN to contribute self-produced content?
+
+        Do candidate committees require an EIN to contribute self-produced and/or connected content? Are EIN's for subcontracting or W2 withholdings?
+        */}
         {space}
         <i>Why does insurance make you jump through so many hoops?</i>
         {space}
@@ -257,7 +264,7 @@ export default class Main extends React.Component {
         close down{space}
         <a href="https://saverparty.xyz">bureau of land management</a>
         {space}is that a threat, housing is how to gain? Plausible use lease
-        microfinance or else I die
+        microfinance or else I die (we work kennelworth micro finance)
         <h3>
           Is human action what happens in the absence of derivatives across
           time?
