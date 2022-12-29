@@ -102,6 +102,16 @@ export default class Main extends React.Component {
         >
           more
         </div>
+        <a href="https://www.quora.com/Do-you-think-that-the-current-debate-about-health-care-in-America-is-focusing-too-much-on-insurance-and-not-enough-on-actual-patient-care/answer/Rick-Swartz-1">
+          Do you think that the current debate about health care in America is
+          focusing too much on insurance and not enough on actual patient care?
+        </a>
+        {space}
+        <i>Why does insurance make you jump through so many hoops?</i>
+        {space}
+        The debate is a very product of the focus that happens as a cause of
+        insurance, like a perpetual, compound, concurrent lag-bug.
+        <br />
         2026 death panels won't be as scary.
         <br />
         Are uncollateralized nor industry specified loans garnishable or a
