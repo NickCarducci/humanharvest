@@ -115,6 +115,11 @@ export default class Main extends React.Component {
           >
             Why didn’t Trump show up for his January 6th riot supporters?
           </a>
+          {space}
+          <i style={{ backgroundColor: "darkgreen", color: "skyblue" }}>
+            How can CEO's stay ahead of the curve during a recession without
+            hedging and layoffs quickly unless they benefit from inflation?
+          </i>
         </span>
         <br />
         <a href="https://www.quora.com/Do-you-think-that-the-current-debate-about-health-care-in-America-is-focusing-too-much-on-insurance-and-not-enough-on-actual-patient-care/answer/Rick-Swartz-1">
