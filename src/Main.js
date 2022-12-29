@@ -683,13 +683,19 @@ export default class Main extends React.Component {
               color: "darkviolet"
             }}
           >
-            Did alcohol prohibition or hard hats and other safety equipment
+            Did alcohol prohibition or hard hats and other safety{space}
+            <a href="https://reddit.com/r/generalservices">equipment</a>
+            {space}
             decrease workplace deaths?
           </span>
           {space}vaults.biz/sdr{space}
           <span style={{ textDecoration: "line-through" }}>
             depo corner section
           </span>
+          {space}
+          <a href="https://parcelpolice.quora.com">asyluminportugal</a>
+          {space}Who is{space}
+          <a href="https://virtualid.quora.com">Q-vendetta</a>?
         </h3>
         The{space}
         <a href="https://www.cdc.gov/nchs/nhis/pre1997.htm">
