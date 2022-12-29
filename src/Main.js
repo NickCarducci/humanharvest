@@ -707,8 +707,19 @@ export default class Main extends React.Component {
         <a href="https://www.reddit.com/r/realeconomics/comments/ycld00/dont_pensions_cause_market_concentration_wouldnt">
           incest
         </a>
-        {space}and living{space}
-        <a href="https://saltbank.org">salt-free</a>?
+        {space}and{space}
+        <span
+          style={{
+            backgroundColor: "rgb(190,150,180)",
+            color: "white"
+          }}
+        >
+          living{space}
+          <a href="https://saltbank.org" style={{ color: "white" }}>
+            salt-free
+          </a>
+        </span>
+        ?
         <h4>
           Doesn't the true geometric mean occur when studying exogenous
           variables in a vacuum control?
