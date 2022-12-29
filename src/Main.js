@@ -102,6 +102,8 @@ export default class Main extends React.Component {
         >
           more
         </div>
+        Shouldn't Trump be improsoned for enabling bank runs on checking?
+        <br />
         <a href="https://www.quora.com/Do-you-think-that-the-current-debate-about-health-care-in-America-is-focusing-too-much-on-insurance-and-not-enough-on-actual-patient-care/answer/Rick-Swartz-1">
           Do you think that the current debate about health care in America is
           focusing too much on insurance and not enough on actual patient care?
