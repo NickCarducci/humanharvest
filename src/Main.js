@@ -105,7 +105,15 @@ export default class Main extends React.Component {
         <span style={{ backgroundColor: "darkslateblue", color: "tan" }}>
           Shouldn't{space}
           <a href="https://reddit.com/r/2020haters">Trump</a>
-          {space}be improsoned for enabling bank runs on checking?
+          {space}&bull;{space}be improsoned for enabling bank runs on checking?
+          {space}Is real income either transitive and/or marginal? Isn't real
+          income marginally transitive unless despondency is competitive?{space}
+          <a
+            style={{ backgroundColor: "darkgreen", color: "tan" }}
+            href="https://micro-theory.podbean.com/e/trump-s-reason-for-insurrection/"
+          >
+            Why didn’t Trump show up for his January 6th riot supporters?
+          </a>
         </span>
         <br />
         <a href="https://www.quora.com/Do-you-think-that-the-current-debate-about-health-care-in-America-is-focusing-too-much-on-insurance-and-not-enough-on-actual-patient-care/answer/Rick-Swartz-1">
