@@ -232,14 +232,16 @@ export default class Main extends React.Component {
             textDecoration: "line-through"
           }}
         >
-          Sophomore
+          Sophomore{/**can I get your comment on just about everything */}
         </span>
         {space}Junior year, but generally was originally going for an East Asian
         and Economics double major. Econometrics was a B- I think, but again
-        I’ve come clean publicly now and to my educators then I like a
-        decreasing real exchange velocity. I was 17 when 2008 happened to my
-        family’s home contracting business which set me off to end contracts for
-        intention. My B.A. is political science.
+        I’ve{space}
+        <a href="https://scopes.cc">come clean publicly</a>
+        {space}now and to my educators then I like a decreasing real exchange
+        velocity. I was 17 when 2008 happened to my family’s home contracting
+        business which set me off to end contracts for intention. My B.A. is
+        political science.
         <br />
         <br />
         The only harmful recession is an accelerating inflation rate of marginal
