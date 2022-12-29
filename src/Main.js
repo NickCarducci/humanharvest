@@ -147,7 +147,11 @@ export default class Main extends React.Component {
         {space}and Cosco can{space}
         <a href="https://saltbank.quora.com">broker a deal</a>.
         <h2>
-          Shrinkflation Johns Hopkins; Nick Carducci for{space}
+          Shrinkflation Johns{space}
+          <a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Physical_imports_and_exports">
+            Hopkins
+          </a>
+          ; Nick Carducci for{space}
           <a href="https://cdlf.quora.com">Carface</a>
           {space}Bank
         </h2>
