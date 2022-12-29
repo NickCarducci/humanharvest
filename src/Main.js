@@ -102,7 +102,11 @@ export default class Main extends React.Component {
         >
           more
         </div>
-        Shouldn't Trump be improsoned for enabling bank runs on checking?
+        <span style={{ backgroundColor: "darkslateblue", color: "tan" }}>
+          Shouldn't{space}
+          <a href="https://reddit.com/r/2020haters">Trump</a>
+          {space}be improsoned for enabling bank runs on checking?
+        </span>
         <br />
         <a href="https://www.quora.com/Do-you-think-that-the-current-debate-about-health-care-in-America-is-focusing-too-much-on-insurance-and-not-enough-on-actual-patient-care/answer/Rick-Swartz-1">
           Do you think that the current debate about health care in America is
@@ -247,6 +251,7 @@ export default class Main extends React.Component {
           </a>
           ."
         </h3>
+        {/**common trade name thumbprint and apple are explicitly-implicitly generic */}
         <i>
           How do microeconomists substitute escrow for prevention and not
           coverage of loss and unknown dangers for safety?
@@ -685,9 +690,11 @@ export default class Main extends React.Component {
         like internet services, social media, and talk radio.
         */}
         </h3>
-        If weed is a performance enhancer, why is it illegal to drive with it?
-        Are top nationally ranked gains really gains? Is a testimony of hate
-        mental illness?{space}
+        If weed is a performance enhancer, why is it{space}
+        <a href="https://commie.dev/mod">illegal</a>
+        {space}to drive with{space}
+        <a href="https://reddit.com/askdemocracy">it</a>? Are top nationally
+        ranked gains really gains? Is a testimony of hate mental illness?{space}
         <i>
           If Rudy Giuliani doesn't want to{space}
           <a href="https://courttechnology.quora.com/How-does-hearsay-differ-from-testimony-1">
