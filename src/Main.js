@@ -133,8 +133,9 @@ export default class Main extends React.Component {
           carface bank. Everyone's a tie breaker.
         </h3>
         <i>
-          Buttgiegs' poor job - it's known, covered not prevented, maybe 2025
-          won't be a "pandemic" but elderly dealth significance will be timely
+          Buttgiegs' poor job - it's known, covered not{space}
+          <a href="https://commie.dev/police">prevented</a>, maybe 2025 won't be
+          a "pandemic" but elderly dealth significance will be timely
           (adailyimpeachment. get buttgieg out - retroactive profit neglegence
           "stakeholder fiduciary" police state repreave public sport, "game-made
           risks")
