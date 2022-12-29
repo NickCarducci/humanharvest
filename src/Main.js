@@ -254,7 +254,30 @@ export default class Main extends React.Component {
           <span style={{ color: "firebrick" }}>
             https://www.reddit.com/r/bacterium/comments/zwi1sy/catastrophic_contagion_highlights_reel_2025_is/
           </span>
-          {space}
+          <div style={{ position: "relative", float: "right" }}>
+            <div style={{ position: "absolute", zIndex: 1, bottom: "0px" }}>
+              I don't think the government here is who needs to learn
+              statistics. Best of luck to you. – Jeff Lambert
+            </div>
+            <a href="https://politics.stackexchange.com/questions/77373/why-do-governments-and-institutions-claim-expected-significant-mortality-is-a-pa">
+              <Cable
+                style={{ maxWidth: "300px", width: "100%" }}
+                onError={handleScollImgError}
+                img={true}
+                src={
+                  this.state.noyoutube
+                    ? ""
+                    : "https://www.dropbox.com/s/qnh743niv413496/Screen%20Shot%202022-12-29%20at%2012.08.17%20PM.png?raw=1"
+                }
+                float={null}
+                title="https://politics.stackexchange.com/questions/77373/why-do-governments-and-institutions-claim-expected-significant-mortality-is-a-pa"
+                scrolling={this.state.scrolling}
+                fwd={this["scrollImg" + scrollnum()]}
+                scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+                scrollTop={!this.state.oldecon ? 0 : this.state.scrollTop}
+              />
+            </a>
+          </div>
           Catastrophic hell security Contagion{space}
           <span style={{ color: "salmon" }}>
             Isn’t 2025 pandemic going to happen from expected excess mortality?
