@@ -381,7 +381,11 @@ export default class Main extends React.Component {
         </h4>
         <h3>Aren't significances expected to happen every 20-40 times?</h3>
         Significance of single-year will always have 1/20 significant
-        single-year mortality. why is the government lying? should they die?
+        single-year mortality. why is the government lying? should they{space}
+        <a href="https://www.quora.com/Can-you-tell-someone-to-drop-dead-or-perish">
+          die
+        </a>
+        ?
         <div
           onMouseEnter={
             () =>
