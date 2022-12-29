@@ -143,8 +143,10 @@ export default class Main extends React.Component {
           <a href="https://commie.dev/police">prevented</a>, maybe 2025 won't be
           a "pandemic" but elderly dealth significance will be timely
           (adailyimpeachment. get buttgieg out - retroactive profit neglegence
-          "stakeholder fiduciary" police state repreave public sport, "game-made
-          risks")
+          "stakeholder fiduciary" police state repreave public sport, "
+          <a href="https://saverparty.xyz/global">game</a>-made
+          {space}
+          <a href="https://froth.quora.com">risks</a>")
         </i>
         <br />
         <a href="https://thetaxparty.com">Putin</a>
