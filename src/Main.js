@@ -105,7 +105,8 @@ export default class Main extends React.Component {
         <span style={{ backgroundColor: "darkslateblue", color: "tan" }}>
           Shouldn't{space}
           <a href="https://reddit.com/r/2020haters">Trump</a>
-          {space}&bull;{space}be improsoned for enabling bank runs on checking?
+          {space}&bull;{space}be improsoned for enabling bank runs on
+          (commercial legislationless piggie)?
           {space}Is real income either transitive and/or marginal? Isn't real
           income marginally transitive unless despondency is competitive?{space}
           <a
@@ -676,6 +677,19 @@ export default class Main extends React.Component {
             Does the government not like pot smokers working as productive
             employees anywhere?
           </i>
+          {space}
+          <span
+            style={{
+              color: "darkviolet"
+            }}
+          >
+            Did alcohol prohibition or hard hats and other safety equipment
+            decrease workplace deaths?
+          </span>
+          {space}vaults.biz/sdr{space}
+          <span style={{ textDecoration: "line-through" }}>
+            depo corner section
+          </span>
         </h3>
         The{space}
         <a href="https://www.cdc.gov/nchs/nhis/pre1997.htm">
