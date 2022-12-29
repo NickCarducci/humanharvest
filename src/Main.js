@@ -160,7 +160,7 @@ export default class Main extends React.Component {
           prevalence of antibodies upon virus? Are people even necessarily sick
           from the virus or tested for all causes?{space}
           <span style={{ color: "black" }}>
-            I'm not buying the weapon not excrement prokaryote.
+            I'm not buying the weapon-not-excrement prokaryote.
           </span>
           {space}
           <span style={{ color: "chocolate" }}>
@@ -679,8 +679,13 @@ export default class Main extends React.Component {
         Are top nationally ranked gains really gains? Is a testimony of hate
         mental illness?{space}
         <i>
-          If Rudy Giuliani doesn't want to prevent robbery and/or homicide with
-          red flag laws, why does he want to call convicts mentally ill?
+          If Rudy Giuliani doesn't want to{space}
+          <a href="https://courttechnology.quora.com/How-does-hearsay-differ-from-testimony-1">
+            <b>prevent</b>
+            {space}robbery
+          </a>
+          {space}and/or homicide with red flag laws, why does he want to call
+          convicts mentally ill?
         </i>
         <br />
         Shouldn’t criminals stop getting SSDI already?{space}
@@ -692,10 +697,10 @@ export default class Main extends React.Component {
           speaking developmentally disabled
         </a>
         {space}and/or{space}
-        <a href="">injured</a>
+        <a href="https://2024nj.com/disability">injured</a>
         {space}get desk jobs if they have experience in the field instead of
         receive SSDI already?{space}
-        <a href="">Aren't voters tired?</a>
+        <a href="https://vaults.biz/party">Aren't voters tired?</a>
         <br />
         Do you agree with healthfeedback.org that the Amish have less autism and
         cancer because of{space}
