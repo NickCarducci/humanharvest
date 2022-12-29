@@ -102,6 +102,10 @@ export default class Main extends React.Component {
         >
           more
         </div>
+        2026 death panels won't be as scary.
+        <br />
+        Are uncollateralized nor industry specified loans garnishable or a
+        foreseeable loss?
         <h2 style={{ color: "cadetblue" }}>
           Is the extrapolation of a select virus or all cause mortality
           statistically important?
