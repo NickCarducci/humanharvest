@@ -226,9 +226,17 @@ export default class Main extends React.Component {
         my own business. I am well rounded in my final semester, but in high
         school I excelled relatively then in math and science (710 math and 590,
         590 reading/writing; AP Stats and AB Calc). I also wrestled Freshman and
-        Sophomore Junior year, but generally was originally going for an East
-        Asian and Economics double major. Econometrics was a B- I think, but
-        again I’ve come clean publicly now and to my educators then I like a
+        {space}
+        <span
+          style={{
+            textDecoration: "line-through"
+          }}
+        >
+          Sophomore
+        </span>
+        {space}Junior year, but generally was originally going for an East Asian
+        and Economics double major. Econometrics was a B- I think, but again
+        I’ve come clean publicly now and to my educators then I like a
         decreasing real exchange velocity. I was 17 when 2008 happened to my
         family’s home contracting business which set me off to end contracts for
         intention. My B.A. is political science.
@@ -703,7 +711,7 @@ export default class Main extends React.Component {
         If weed is a performance enhancer, why is it{space}
         <a href="https://commie.dev/mod">illegal</a>
         {space}to drive with{space}
-        <a href="https://reddit.com/askdemocracy">it</a>? Are top nationally
+        <a href="https://reddit.com/r/askdemocracy">it</a>? Are top nationally
         ranked gains really gains? Is a testimony of hate mental illness?{space}
         <i>
           If Rudy Giuliani doesn't want to{space}
