@@ -265,6 +265,9 @@ export default class Main extends React.Component {
         <a href="https://saverparty.xyz">bureau of land management</a>
         {space}is that a threat, housing is how to gain? Plausible use lease
         microfinance or else I die (we work kennelworth micro finance) r/sayists
+        (warehousing truncated wholesale complementary supply and demand tax, Is
+        a down payment or an option to buy a security at a certain price until
+        either an expiration or expected perishing?)
         <h3>
           Is human action what happens in the absence of derivatives across
           time?
