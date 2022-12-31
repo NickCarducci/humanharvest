@@ -102,6 +102,7 @@ export default class Main extends React.Component {
         >
           more
         </div>
+        What kind of medical science questions don't belong on skeptics?{space}
         <span style={{ backgroundColor: "darkslateblue", color: "tan" }}>
           Shouldn't{space}
           <a href="https://reddit.com/r/2020haters">Trump</a>
