@@ -102,6 +102,16 @@ export default class Main extends React.Component {
         >
           more
         </div>
+        Wouldn’t you need to test for all comparable causes of sickness to
+        assess how exogenous covid is to outcomes are, first? Even if you are
+        capturing prevalence, isn’t the test useless without testing for all
+        causes of{space}
+        <a href="https://www.reddit.com/r/science/comments/zzwwf8">
+          pneumonia, influenza, and covid
+        </a>
+        ?
+        <br />
+        <br />
         What kind of medical science questions don't belong on skeptics?{space}
         <span style={{ backgroundColor: "darkslateblue", color: "tan" }}>
           Shouldn't{space}
