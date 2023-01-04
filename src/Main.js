@@ -90,7 +90,14 @@ export default class Main extends React.Component {
     };
     const space = " ";
     return (
-      <div style={{ padding: "20px", wordWrap: "break-word" }}>
+      <div
+        style={{
+          lineHeight: "14px",
+          padding: "20px",
+          wordWrap: "break-word",
+          fontFamily: "'Kanit', sans-serif"
+        }}
+      >
         <div
           onClick={this.props.toggle}
           style={{
@@ -102,6 +109,10 @@ export default class Main extends React.Component {
         >
           more
         </div>
+        <h2>
+          Is atherosclerosis or infection a more concerning theory about
+          mortality from virus to have?
+        </h2>
         Wouldn’t you need to test for all comparable causes of sickness to
         assess how exogenous covid is to outcomes are, first? Even if you are
         capturing prevalence, isn’t the test useless without testing for all
@@ -113,7 +124,13 @@ export default class Main extends React.Component {
         <br />
         <br />
         What kind of medical science questions don't belong on skeptics?{space}
-        <span style={{ backgroundColor: "darkslateblue", color: "tan" }}>
+        <span
+          style={{
+            lineHeight: "20px",
+            backgroundColor: "darkslateblue",
+            color: "tan"
+          }}
+        >
           Shouldn't{space}
           <a href="https://reddit.com/r/2020haters">Trump</a>
           {space}&bull;{space}be improsoned for enabling bank runs on
