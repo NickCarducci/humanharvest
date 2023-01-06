@@ -111,7 +111,11 @@ export default class Main extends React.Component {
         </div>
         <h2>
           Is atherosclerosis or infection a more concerning theory about
-          mortality from virus to have?
+          mortality from virus to have?{space}
+          <i>
+            (YouTube) Is the CDC valid if either they say expected mortality
+            significance is a problem and/or test viruses one at a time?
+          </i>
         </h2>
         Wouldn’t you need to test for all comparable causes of sickness to
         assess how exogenous covid is to outcomes are, first? Even if you are
@@ -276,8 +280,7 @@ export default class Main extends React.Component {
         velocity. I was 17 when 2008 happened to my family’s home contracting
         business which set me off to end contracts for intention. My B.A. is
         political science.
-        <br />
-        <br />
+        <h1>Is non-competitive job growth worth the expense and work?</h1>
         The only harmful recession is an accelerating inflation rate of marginal
         unemployment, I say. Otherwise, a recession is either the opposite of
         shrinkflation or a normal trade-off. I also don’t think exchanging
