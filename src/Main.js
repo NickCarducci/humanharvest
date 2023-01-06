@@ -109,6 +109,11 @@ export default class Main extends React.Component {
         >
           more
         </div>
+        <h1>Free Enterprise System</h1>
+        Do employees of regular businesses with diverse customers have to report
+        gifted sweat up to $15,000 per year? Should the government media
+        continue to suggest markets liking an excess and sustaining resource
+        productivity over material consumption?
         <h2>
           Is atherosclerosis or infection a more concerning theory about
           mortality from virus to have?{space}
