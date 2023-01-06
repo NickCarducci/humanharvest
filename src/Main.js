@@ -205,10 +205,15 @@ export default class Main extends React.Component {
           </a>
           ; Nick Carducci for{space}
           <a href="https://cdlf.quora.com">Carface</a>
-          {space}Bank
+          {space}Bank{space}
+          <span style={{ fontSize: "16px" }}>
+            (Shouldn't the Speaker of the U.S. House of Representatives be
+            bipartisan on the federal reserve question to either end it or not?)
+          </span>
         </h2>
-        Google malfeasance is a plant{space}Medi-Share contracts are labor
-        indemnity surrendered purchase (fair right to ownership, "
+        <span style={{ color: "red" }}>Google malfeasance is a plant</span>
+        {space}Medi-Share contracts are labor indemnity surrendered purchase
+        (fair right to ownership, "
         <a href="https://bankingisnot.biz">usufruct</a>"). (Rollover medishare
         fraud, "free premium contractors" or "producer aussie price")
         <br />
@@ -280,7 +285,24 @@ export default class Main extends React.Component {
         velocity. I was 17 when 2008 happened to my family’s home contracting
         business which set me off to end contracts for intention. My B.A. is
         political science.
-        <h1>Is non-competitive job growth worth the expense and work?</h1>
+        <h2>
+          Is non-competitive job growth worth the expense and work?{space}
+          <i style={{ color: "cornflowerblue" }}>
+            Is a good gain in industry sector employments just that or
+            deflationary?
+          </i>
+          {space}What is an example of a job that currently does not exist, but
+          that you really, really WANT to exist?{space}
+          <i>
+            Why does the United States want to create good paying jobs against
+            voluntary human action?
+          </i>
+          {space}Does the Department of Labor want more people working if it is
+          non-deflationary?{space}
+          <i style={{ color: "cadetblue" }}>
+            Is a recession a problem if it isn't acceleratingly inflationary?
+          </i>
+        </h2>
         The only harmful recession is an accelerating inflation rate of marginal
         unemployment, I say. Otherwise, a recession is either the opposite of
         shrinkflation or a normal trade-off. I also don’t think exchanging
