@@ -109,7 +109,13 @@ export default class Main extends React.Component {
         >
           more
         </div>
-        <h1>Free Enterprise System</h1>
+        <h1>
+          Free Enterprise System:{space}
+          <span style={{ fontSize: "26px" }}>
+            Stop making my question so complicated. Antibodies treat phages like
+            garbage, through and through.
+          </span>
+        </h1>
         Do employees of regular businesses with diverse customers have to report
         gifted sweat up to $15,000 per year? Should the government media
         continue to suggest markets liking an excess and sustaining resource
