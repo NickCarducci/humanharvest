@@ -418,6 +418,7 @@ export default class Main extends React.Component {
               />
             </a>
           </div>
+          <h2>Are viruses a matter of epidemiology or cardiology?</h2>
           Catastrophic hell security Contagion{space}
           <span style={{ color: "salmon" }}>
             Isn’t 2025 pandemic going to happen from expected excess mortality?
@@ -434,6 +435,11 @@ export default class Main extends React.Component {
             mortality and birth rates are significant, can't the governments
             fabricate pandemics?
           </span>
+          {space}@Yorik That's the question I'm seeking a straight answer on. Is
+          it or not? MDPI is fake news if antibodies do not stop virus from
+          causing blood clots. An answer to this would allow me to ask if
+          dysregular antibody production also contributes to general
+          atherosclerotic plaque, too. –
         </h3>
         {space}
         <b style={{ color: "cornflowerblue" }}>
