@@ -2249,15 +2249,18 @@ export default class Rapid extends React.Component {
         "2": 1376
       }
     };
+    const minAge = 30,
+      maxAge = 70;
     let dates = [];
     let populationData = {};
     let deathData = {};
     let alldeaths = [];
+    let all = [];
     Object.keys(yearlypop).forEach((year) => {
       dates.push(year);
       Object.keys(usdeaths).forEach((age) => {
         if (year < 2018) {
-          if (Number(age) < 30 || Number(age) > 70) return null;
+          if (Number(age) < minAge || Number(age) > maxAge) return null;
           if (!populationData[age]) populationData[age] = [];
           populationData[age].push([year, yearlypop[year][age]]);
           if (!deathData[age]) deathData[age] = [];
@@ -2268,7 +2271,7 @@ export default class Rapid extends React.Component {
 
           return null;
         }
-        if (Number(age) < 30 || Number(age) > 70) return null;
+        if (Number(age) < minAge || Number(age) > maxAge) return null;
         if (!populationData[age]) populationData[age] = [];
         populationData[age].push([year, yearlypop[year][age]]);
         if (!deathData[age]) deathData[age] = [];
@@ -2277,11 +2280,13 @@ export default class Rapid extends React.Component {
         );
         if (!deathObj || !yearlypop[year][age]) return null; //console.log("deathObj", deathObj);
         alldeaths.push(deathObj.deaths / yearlypop[year][age]);
+        all.push(deathObj.deaths); // / yearlypop[year][age]);
         deathData[age].push([year, deathObj.deaths / yearlypop[year][age]]);
       });
     });
 
     var highDeaths = Math.max(...alldeaths),
+      highestDeaths = Math.max(...all),
       lowDeaths = Math.min(...alldeaths),
       highDate = Math.max(...dates),
       lowDate = Math.min(...dates);
@@ -2295,9 +2300,87 @@ export default class Rapid extends React.Component {
       highDeaths,
       lowDeaths,
       highDate,
-      lowDate
+      lowDate,
+      highestDeaths,
+      minAge,
+      maxAge
     };
   }
+  componentDidUpdate = () => {
+    if (
+      this.state.minAge !== this.state.lastMinAge ||
+      this.state.maxAge !== this.state.lastMaxAge
+    ) {
+      this.setState(
+        { lastMaxAge: this.state.maxAge, lastMinAge: this.state.minAge },
+        () => {
+          let dates = [];
+          let populationData = {};
+          let deathData = {};
+          let alldeaths = [];
+          let all = [];
+          Object.keys(yearlypop).forEach((year) => {
+            dates.push(year);
+            Object.keys(usdeaths).forEach((age) => {
+              if (year < 2018) {
+                if (
+                  Number(age) < this.state.minAge ||
+                  Number(age) > this.state.maxAge
+                )
+                  return null;
+                if (!populationData[age]) populationData[age] = [];
+                populationData[age].push([year, yearlypop[year][age]]);
+                if (!deathData[age]) deathData[age] = [];
+                const deaths = yearly[year] && yearly[year][age];
+                if (!deaths || !yearlypop[year][age]) return null; //console.log("deathObj", yearly[year]);
+                alldeaths.push(deaths / yearlypop[year][age]);
+                deathData[age].push([year, deaths / yearlypop[year][age]]);
+
+                return null;
+              }
+              if (
+                Number(age) < this.state.minAge ||
+                Number(age) > this.state.maxAge
+              )
+                return null;
+              if (!populationData[age]) populationData[age] = [];
+              populationData[age].push([year, yearlypop[year][age]]);
+              if (!deathData[age]) deathData[age] = [];
+              const deathObj = usdeaths[age].find(
+                (x) => String(x.year) === String(year)
+              );
+              if (!deathObj || !yearlypop[year][age]) return null; //console.log("deathObj", deathObj);
+              alldeaths.push(deathObj.deaths / yearlypop[year][age]);
+              all.push(deathObj.deaths); // / yearlypop[year][age]);
+              deathData[age].push([
+                year,
+                deathObj.deaths / yearlypop[year][age]
+              ]);
+            });
+          });
+
+          var highDeaths = Math.max(...alldeaths),
+            highestDeaths = Math.max(...all),
+            lowDeaths = Math.min(...alldeaths),
+            highDate = Math.max(...dates),
+            lowDate = Math.min(...dates);
+          console.log(highDeaths);
+          this.setState({
+            noData: [],
+            deathsData: [],
+            deathData,
+            yAxis: highDeaths - lowDeaths,
+            xAxis: highDate - lowDate,
+            highDeaths,
+            lowDeaths,
+            highDate,
+            lowDate,
+            highestDeaths
+          });
+        }
+      );
+    }
+  };
   render() {
     const yaxis = this.state.yAxis;
     const { lowDate } = this.state;
@@ -2333,11 +2416,11 @@ export default class Rapid extends React.Component {
     const space = " ";
     //console.log(deathsData);
     return (
-      <div style={this.props.style}>
+      <div style={{ ...this.props.style, position: "relative" }}>
         <div style={{ width: "100%", minHeight: "230px" }}>
           <div style={labelstyle}>
             most annual single age deaths{" "}
-            {shortNumber(Math.round(this.state.highDeaths /*/5 */))}:{space}
+            {shortNumber(Math.round(this.state.highestDeaths /*/5 */))}:{space}
             {lowDate}
             {space}-{space}
             {this.state.highDate}
@@ -2385,6 +2468,27 @@ export default class Rapid extends React.Component {
               })}
             </svg>
           </div>
+        </div>
+        <div
+          style={{
+            position: "absolute",
+            bottom: "0px"
+          }}
+        >
+          <input
+            type="number"
+            onChange={(e) => {
+              this.setState({ minAge: e.target.value });
+            }}
+            value={this.state.minAge}
+          />
+          <input
+            type="number"
+            onChange={(e) => {
+              this.setState({ maxAge: e.target.value });
+            }}
+            value={this.state.maxAge}
+          />
         </div>
       </div>
     );
