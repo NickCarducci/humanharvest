@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+}
+a {
+  color: rgb(100, 180, 255);
+}
+.table {
+  max-width: 100%;
+  overflow-x: auto;
+}
+th:nth-child(odd),
+td:nth-child(even) {
+  border: 1px solid white;
+}
+
+th,
+td {
+  width: max-content;
+}
