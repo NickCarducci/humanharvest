@@ -2493,7 +2493,7 @@ export default class Rapid extends React.Component {
           />
           <div
             onClick={() => {
-              this.setState({ maxAge: 84, minAge: 79 });
+              this.setState({ maxAge: 84, minAge: 72 });
             }}
           >
             old
