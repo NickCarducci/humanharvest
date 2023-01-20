@@ -1,2512 +1,956 @@
 import React from "react";
-import { yearly, yearlypop } from "./mortal";
-import { linecss, shortNumber } from "./vaxx";
+import Cable from "./Dropwire"; //"react-dropwire";
+//import Cable from "./Dropwire"; //"react-dropwire";
+import { UAParser } from "ua-parser-js";
+import Retro from "./retro";
+import Youth from "./Youth";
+import Rapid from "./rapid";
 
-const usdeaths = {
-  1: [
-    {
-      year: 2018,
-      deaths: 1448
-    },
-    {
-      year: 2019,
-      deaths: 1474
-    },
-    {
-      year: 2020,
-      deaths: 1364
-    },
-    {
-      year: 2021,
-      deaths: 1490
-    },
-    {
-      year: 2022,
-      deaths: 1439
-    }
-  ],
-  2: [
-    {
-      year: 2018,
-      deaths: 1047
-    },
-    {
-      year: 2019,
-      deaths: 916
-    },
-    {
-      year: 2020,
-      deaths: 889
-    },
-    {
-      year: 2021,
-      deaths: 960
-    },
-    {
-      year: 2022,
-      deaths: 955
-    }
-  ],
-  3: [
-    {
-      year: 2018,
-      deaths: 745
-    },
-    {
-      year: 2019,
-      deaths: 710
-    },
-    {
-      year: 2020,
-      deaths: 725
-    },
-    {
-      year: 2021,
-      deaths: 737
-    },
-    {
-      year: 2022,
-      deaths: 758
-    }
-  ],
-  4: [
-    {
-      year: 2018,
-      deaths: 590
-    },
-    {
-      year: 2019,
-      deaths: 576
-    },
-    {
-      year: 2020,
-      deaths: 551
-    },
-    {
-      year: 2021,
-      deaths: 629
-    },
-    {
-      year: 2022,
-      deaths: 581
-    }
-  ],
-  5: [
-    {
-      year: 2018,
-      deaths: 524
-    },
-    {
-      year: 2019,
-      deaths: 536
-    },
-    {
-      year: 2020,
-      deaths: 516
-    },
-    {
-      year: 2021,
-      deaths: 540
-    },
-    {
-      year: 2022,
-      deaths: 575
-    }
-  ],
-  6: [
-    {
-      year: 2018,
-      deaths: 460
-    },
-    {
-      year: 2019,
-      deaths: 490
-    },
-    {
-      year: 2020,
-      deaths: 450
-    },
-    {
-      year: 2021,
-      deaths: 517
-    },
-    {
-      year: 2022,
-      deaths: 489
-    }
-  ],
-  7: [
-    {
-      year: 2018,
-      deaths: 419
-    },
-    {
-      year: 2019,
-      deaths: 439
-    },
-    {
-      year: 2020,
-      deaths: 441
-    },
-    {
-      year: 2021,
-      deaths: 470
-    },
-    {
-      year: 2022,
-      deaths: 417
-    }
-  ],
-  8: [
-    {
-      year: 2018,
-      deaths: 457
-    },
-    {
-      year: 2019,
-      deaths: 435
-    },
-    {
-      year: 2020,
-      deaths: 405
-    },
-    {
-      year: 2021,
-      deaths: 437
-    },
-    {
-      year: 2022,
-      deaths: 429
-    }
-  ],
-  9: [
-    {
-      year: 2018,
-      deaths: 470
-    },
-    {
-      year: 2019,
-      deaths: 433
-    },
-    {
-      year: 2020,
-      deaths: 398
-    },
-    {
-      year: 2021,
-      deaths: 442
-    },
-    {
-      year: 2022,
-      deaths: 427
-    }
-  ],
-  10: [
-    {
-      year: 2018,
-      deaths: 471
-    },
-    {
-      year: 2019,
-      deaths: 480
-    },
-    {
-      year: 2020,
-      deaths: 456
-    },
-    {
-      year: 2021,
-      deaths: 494
-    },
-    {
-      year: 2022,
-      deaths: 438
-    }
-  ],
-  11: [
-    {
-      year: 2018,
-      deaths: 494
-    },
-    {
-      year: 2019,
-      deaths: 536
-    },
-    {
-      year: 2020,
-      deaths: 526
-    },
-    {
-      year: 2021,
-      deaths: 523
-    },
-    {
-      year: 2022,
-      deaths: 508
-    }
-  ],
-  12: [
-    {
-      year: 2018,
-      deaths: 589
-    },
-    {
-      year: 2019,
-      deaths: 601
-    },
-    {
-      year: 2020,
-      deaths: 617
-    },
-    {
-      year: 2021,
-      deaths: 603
-    },
-    {
-      year: 2022,
-      deaths: 583
-    }
-  ],
-  13: [
-    {
-      year: 2018,
-      deaths: 676
-    },
-    {
-      year: 2019,
-      deaths: 687
-    },
-    {
-      year: 2020,
-      deaths: 800
-    },
-    {
-      year: 2021,
-      deaths: 855
-    },
-    {
-      year: 2022,
-      deaths: 745
-    }
-  ],
-  14: [
-    {
-      year: 2018,
-      deaths: 890
-    },
-    {
-      year: 2019,
-      deaths: 860
-    },
-    {
-      year: 2020,
-      deaths: 1014
-    },
-    {
-      year: 2021,
-      deaths: 1094
-    },
-    {
-      year: 2022,
-      deaths: 1053
-    }
-  ],
-  15: [
-    {
-      year: 2018,
-      deaths: 1186
-    },
-    {
-      year: 2019,
-      deaths: 1137
-    },
-    {
-      year: 2020,
-      deaths: 1332
-    },
-    {
-      year: 2021,
-      deaths: 1405
-    },
-    {
-      year: 2022,
-      deaths: 1326
-    }
-  ],
-  16: [
-    {
-      year: 2018,
-      deaths: 1493
-    },
-    {
-      year: 2019,
-      deaths: 1485
-    },
-    {
-      year: 2020,
-      deaths: 1793
-    },
-    {
-      year: 2021,
-      deaths: 1944
-    },
-    {
-      year: 2022,
-      deaths: 1741
-    }
-  ],
-  17: [
-    {
-      year: 2018,
-      deaths: 2028
-    },
-    {
-      year: 2019,
-      deaths: 1886
-    },
-    {
-      year: 2020,
-      deaths: 2229
-    },
-    {
-      year: 2021,
-      deaths: 2594
-    },
-    {
-      year: 2022,
-      deaths: 2303
-    }
-  ],
-  18: [
-    {
-      year: 2018,
-      deaths: 2701
-    },
-    {
-      year: 2019,
-      deaths: 2732
-    },
-    {
-      year: 2020,
-      deaths: 3159
-    },
-    {
-      year: 2021,
-      deaths: 3471
-    },
-    {
-      year: 2022,
-      deaths: 2936
-    }
-  ],
-  19: [
-    {
-      year: 2018,
-      deaths: 2972
-    },
-    {
-      year: 2019,
-      deaths: 3018
-    },
-    {
-      year: 2020,
-      deaths: 3765
-    },
-    {
-      year: 2021,
-      deaths: 3993
-    },
-    {
-      year: 2022,
-      deaths: 3251
-    }
-  ],
-  20: [
-    {
-      year: 2018,
-      deaths: 3273
-    },
-    {
-      year: 2019,
-      deaths: 3313
-    },
-    {
-      year: 2020,
-      deaths: 3983
-    },
-    {
-      year: 2021,
-      deaths: 4263
-    },
-    {
-      year: 2022,
-      deaths: 3523
-    }
-  ],
-  21: [
-    {
-      year: 2018,
-      deaths: 3721
-    },
-    {
-      year: 2019,
-      deaths: 3821
-    },
-    {
-      year: 2020,
-      deaths: 4576
-    },
-    {
-      year: 2021,
-      deaths: 4778
-    },
-    {
-      year: 2022,
-      deaths: 3883
-    }
-  ],
-  22: [
-    {
-      year: 2018,
-      deaths: 3960
-    },
-    {
-      year: 2019,
-      deaths: 3882
-    },
-    {
-      year: 2020,
-      deaths: 4685
-    },
-    {
-      year: 2021,
-      deaths: 5066
-    },
-    {
-      year: 2022,
-      deaths: 4126
-    }
-  ],
-  23: [
-    {
-      year: 2018,
-      deaths: 4252
-    },
-    {
-      year: 2019,
-      deaths: 4146
-    },
-    {
-      year: 2020,
-      deaths: 5032
-    },
-    {
-      year: 2021,
-      deaths: 5212
-    },
-    {
-      year: 2022,
-      deaths: 4381
-    }
-  ],
-  24: [
-    {
-      year: 2018,
-      deaths: 4568
-    },
-    {
-      year: 2019,
-      deaths: 4351
-    },
-    {
-      year: 2020,
-      deaths: 5262
-    },
-    {
-      year: 2021,
-      deaths: 5581
-    },
-    {
-      year: 2022,
-      deaths: 4587
-    }
-  ],
-  25: [
-    {
-      year: 2018,
-      deaths: 4844
-    },
-    {
-      year: 2019,
-      deaths: 4752
-    },
-    {
-      year: 2020,
-      deaths: 5706
-    },
-    {
-      year: 2021,
-      deaths: 6028
-    },
-    {
-      year: 2022,
-      deaths: 4928
-    }
-  ],
-  26: [
-    {
-      year: 2018,
-      deaths: 5230
-    },
-    {
-      year: 2019,
-      deaths: 5086
-    },
-    {
-      year: 2020,
-      deaths: 5962
-    },
-    {
-      year: 2021,
-      deaths: 6477
-    },
-    {
-      year: 2022,
-      deaths: 5254
-    }
-  ],
-  27: [
-    {
-      year: 2018,
-      deaths: 5699
-    },
-    {
-      year: 2019,
-      deaths: 5383
-    },
-    {
-      year: 2020,
-      deaths: 6533
-    },
-    {
-      year: 2021,
-      deaths: 6961
-    },
-    {
-      year: 2022,
-      deaths: 5698
-    }
-  ],
-  28: [
-    {
-      year: 2018,
-      deaths: 5829
-    },
-    {
-      year: 2019,
-      deaths: 5757
-    },
-    {
-      year: 2020,
-      deaths: 6970
-    },
-    {
-      year: 2021,
-      deaths: 7525
-    },
-    {
-      year: 2022,
-      deaths: 6094
-    }
-  ],
-  29: [
-    {
-      year: 2018,
-      deaths: 5859
-    },
-    {
-      year: 2019,
-      deaths: 5991
-    },
-    {
-      year: 2020,
-      deaths: 7525
-    },
-    {
-      year: 2021,
-      deaths: 8204
-    },
-    {
-      year: 2022,
-      deaths: 6789
-    }
-  ],
-  30: [
-    {
-      year: 2018,
-      deaths: 6100
-    },
-    {
-      year: 2019,
-      deaths: 6183
-    },
-    {
-      year: 2020,
-      deaths: 7906
-    },
-    {
-      year: 2021,
-      deaths: 8746
-    },
-    {
-      year: 2022,
-      deaths: 7161
-    }
-  ],
-  31: [
-    {
-      year: 2018,
-      deaths: 5959
-    },
-    {
-      year: 2019,
-      deaths: 6225
-    },
-    {
-      year: 2020,
-      deaths: 7944
-    },
-    {
-      year: 2021,
-      deaths: 9187
-    },
-    {
-      year: 2022,
-      deaths: 7583
-    }
-  ],
-  32: [
-    {
-      year: 2018,
-      deaths: 6299
-    },
-    {
-      year: 2019,
-      deaths: 6263
-    },
-    {
-      year: 2020,
-      deaths: 8049
-    },
-    {
-      year: 2021,
-      deaths: 9477
-    },
-    {
-      year: 2022,
-      deaths: 8111
-    }
-  ],
-  33: [
-    {
-      year: 2018,
-      deaths: 6478
-    },
-    {
-      year: 2019,
-      deaths: 6683
-    },
-    {
-      year: 2020,
-      deaths: 8345
-    },
-    {
-      year: 2021,
-      deaths: 9727
-    },
-    {
-      year: 2022,
-      deaths: 8317
-    }
-  ],
-  34: [
-    {
-      year: 2018,
-      deaths: 6547
-    },
-    {
-      year: 2019,
-      deaths: 6855
-    },
-    {
-      year: 2020,
-      deaths: 8546
-    },
-    {
-      year: 2021,
-      deaths: 9942
-    },
-    {
-      year: 2022,
-      deaths: 8329
-    }
-  ],
-  35: [
-    {
-      year: 2018,
-      deaths: 7090
-    },
-    {
-      year: 2019,
-      deaths: 6998
-    },
-    {
-      year: 2020,
-      deaths: 8785
-    },
-    {
-      year: 2021,
-      deaths: 10459
-    },
-    {
-      year: 2022,
-      deaths: 8386
-    }
-  ],
-  36: [
-    {
-      year: 2018,
-      deaths: 7205
-    },
-    {
-      year: 2019,
-      deaths: 7326
-    },
-    {
-      year: 2020,
-      deaths: 9051
-    },
-    {
-      year: 2021,
-      deaths: 10777
-    },
-    {
-      year: 2022,
-      deaths: 9056
-    }
-  ],
-  37: [
-    {
-      year: 2018,
-      deaths: 7463
-    },
-    {
-      year: 2019,
-      deaths: 7692
-    },
-    {
-      year: 2020,
-      deaths: 9771
-    },
-    {
-      year: 2021,
-      deaths: 10989
-    },
-    {
-      year: 2022,
-      deaths: 9357
-    }
-  ],
-  38: [
-    {
-      year: 2018,
-      deaths: 7835
-    },
-    {
-      year: 2019,
-      deaths: 8177
-    },
-    {
-      year: 2020,
-      deaths: 9872
-    },
-    {
-      year: 2021,
-      deaths: 11785
-    },
-    {
-      year: 2022,
-      deaths: 9493
-    }
-  ],
-  39: [
-    {
-      year: 2018,
-      deaths: 8024
-    },
-    {
-      year: 2019,
-      deaths: 8445
-    },
-    {
-      year: 2020,
-      deaths: 10602
-    },
-    {
-      year: 2021,
-      deaths: 12393
-    },
-    {
-      year: 2022,
-      deaths: 10173
-    }
-  ],
-  40: [
-    {
-      year: 2018,
-      deaths: 7907
-    },
-    {
-      year: 2019,
-      deaths: 8639
-    },
-    {
-      year: 2020,
-      deaths: 10945
-    },
-    {
-      year: 2021,
-      deaths: 12868
-    },
-    {
-      year: 2022,
-      deaths: 10621
-    }
-  ],
-  41: [
-    {
-      year: 2018,
-      deaths: 8185
-    },
-    {
-      year: 2019,
-      deaths: 8456
-    },
-    {
-      year: 2020,
-      deaths: 11118
-    },
-    {
-      year: 2021,
-      deaths: 13430
-    },
-    {
-      year: 2022,
-      deaths: 11070
-    }
-  ],
-  42: [
-    {
-      year: 2018,
-      deaths: 8293
-    },
-    {
-      year: 2019,
-      deaths: 8791
-    },
-    {
-      year: 2020,
-      deaths: 10991
-    },
-    {
-      year: 2021,
-      deaths: 13741
-    },
-    {
-      year: 2022,
-      deaths: 11312
-    }
-  ],
-  43: [
-    {
-      year: 2018,
-      deaths: 8902
-    },
-    {
-      year: 2019,
-      deaths: 8928
-    },
-    {
-      year: 2020,
-      deaths: 11538
-    },
-    {
-      year: 2021,
-      deaths: 14013
-    },
-    {
-      year: 2022,
-      deaths: 11518
-    }
-  ],
-  44: [
-    {
-      year: 2018,
-      deaths: 9476
-    },
-    {
-      year: 2019,
-      deaths: 9534
-    },
-    {
-      year: 2020,
-      deaths: 11817
-    },
-    {
-      year: 2021,
-      deaths: 14484
-    },
-    {
-      year: 2022,
-      deaths: 11854
-    }
-  ],
-  45: [
-    {
-      year: 2018,
-      deaths: 10509
-    },
-    {
-      year: 2019,
-      deaths: 10170
-    },
-    {
-      year: 2020,
-      deaths: 12743
-    },
-    {
-      year: 2021,
-      deaths: 14688
-    },
-    {
-      year: 2022,
-      deaths: 12208
-    }
-  ],
-  46: [
-    {
-      year: 2018,
-      deaths: 11925
-    },
-    {
-      year: 2019,
-      deaths: 11198
-    },
-    {
-      year: 2020,
-      deaths: 13429
-    },
-    {
-      year: 2021,
-      deaths: 16035
-    },
-    {
-      year: 2022,
-      deaths: 12375
-    }
-  ],
-  47: [
-    {
-      year: 2018,
-      deaths: 13249
-    },
-    {
-      year: 2019,
-      deaths: 12579
-    },
-    {
-      year: 2020,
-      deaths: 14763
-    },
-    {
-      year: 2021,
-      deaths: 16611
-    },
-    {
-      year: 2022,
-      deaths: 13597
-    }
-  ],
-  48: [
-    {
-      year: 2018,
-      deaths: 14182
-    },
-    {
-      year: 2019,
-      deaths: 14385
-    },
-    {
-      year: 2020,
-      deaths: 16683
-    },
-    {
-      year: 2021,
-      deaths: 18350
-    },
-    {
-      year: 2022,
-      deaths: 14213
-    }
-  ],
-  49: [
-    {
-      year: 2018,
-      deaths: 15008
-    },
-    {
-      year: 2019,
-      deaths: 15407
-    },
-    {
-      year: 2020,
-      deaths: 18813
-    },
-    {
-      year: 2021,
-      deaths: 20460
-    },
-    {
-      year: 2022,
-      deaths: 15578
-    }
-  ],
-  50: [
-    {
-      year: 2018,
-      deaths: 15823
-    },
-    {
-      year: 2019,
-      deaths: 16151
-    },
-    {
-      year: 2020,
-      deaths: 20160
-    },
-    {
-      year: 2021,
-      deaths: 23482
-    },
-    {
-      year: 2022,
-      deaths: 17521
-    }
-  ],
-  51: [
-    {
-      year: 2018,
-      deaths: 17543
-    },
-    {
-      year: 2019,
-      deaths: 17198
-    },
-    {
-      year: 2020,
-      deaths: 20976
-    },
-    {
-      year: 2021,
-      deaths: 24506
-    },
-    {
-      year: 2022,
-      deaths: 19633
-    }
-  ],
-  52: [
-    {
-      year: 2018,
-      deaths: 19504
-    },
-    {
-      year: 2019,
-      deaths: 18788
-    },
-    {
-      year: 2020,
-      deaths: 22399
-    },
-    {
-      year: 2021,
-      deaths: 25787
-    },
-    {
-      year: 2022,
-      deaths: 20911
-    }
-  ],
-  53: [
-    {
-      year: 2018,
-      deaths: 22113
-    },
-    {
-      year: 2019,
-      deaths: 20593
-    },
-    {
-      year: 2020,
-      deaths: 24222
-    },
-    {
-      year: 2021,
-      deaths: 26940
-    },
-    {
-      year: 2022,
-      deaths: 21662
-    }
-  ],
-  54: [
-    {
-      year: 2018,
-      deaths: 24981
-    },
-    {
-      year: 2019,
-      deaths: 23924
-    },
-    {
-      year: 2020,
-      deaths: 26954
-    },
-    {
-      year: 2021,
-      deaths: 29178
-    },
-    {
-      year: 2022,
-      deaths: 23098
-    }
-  ],
-  55: [
-    {
-      year: 2018,
-      deaths: 27310
-    },
-    {
-      year: 2019,
-      deaths: 26793
-    },
-    {
-      year: 2020,
-      deaths: 30507
-    },
-    {
-      year: 2021,
-      deaths: 32093
-    },
-    {
-      year: 2022,
-      deaths: 25466
-    }
-  ],
-  56: [
-    {
-      year: 2018,
-      deaths: 29857
-    },
-    {
-      year: 2019,
-      deaths: 28966
-    },
-    {
-      year: 2020,
-      deaths: 33814
-    },
-    {
-      year: 2021,
-      deaths: 36286
-    },
-    {
-      year: 2022,
-      deaths: 27709
-    }
-  ],
-  57: [
-    {
-      year: 2018,
-      deaths: 32543
-    },
-    {
-      year: 2019,
-      deaths: 31658
-    },
-    {
-      year: 2020,
-      deaths: 36561
-    },
-    {
-      year: 2021,
-      deaths: 39713
-    },
-    {
-      year: 2022,
-      deaths: 31362
-    }
-  ],
-  58: [
-    {
-      year: 2018,
-      deaths: 34611
-    },
-    {
-      year: 2019,
-      deaths: 34347
-    },
-    {
-      year: 2020,
-      deaths: 39240
-    },
-    {
-      year: 2021,
-      deaths: 43036
-    },
-    {
-      year: 2022,
-      deaths: 34923
-    }
-  ],
-  59: [
-    {
-      year: 2018,
-      deaths: 36642
-    },
-    {
-      year: 2019,
-      deaths: 36689
-    },
-    {
-      year: 2020,
-      deaths: 43106
-    },
-    {
-      year: 2021,
-      deaths: 46480
-    },
-    {
-      year: 2022,
-      deaths: 37899
-    }
-  ],
-  60: [
-    {
-      year: 2018,
-      deaths: 38701
-    },
-    {
-      year: 2019,
-      deaths: 38690
-    },
-    {
-      year: 2020,
-      deaths: 46304
-    },
-    {
-      year: 2021,
-      deaths: 50028
-    },
-    {
-      year: 2022,
-      deaths: 40998
-    }
-  ],
-  61: [
-    {
-      year: 2018,
-      deaths: 41292
-    },
-    {
-      year: 2019,
-      deaths: 41522
-    },
-    {
-      year: 2020,
-      deaths: 48871
-    },
-    {
-      year: 2021,
-      deaths: 53114
-    },
-    {
-      year: 2022,
-      deaths: 43772
-    }
-  ],
-  62: [
-    {
-      year: 2018,
-      deaths: 42834
-    },
-    {
-      year: 2019,
-      deaths: 43975
-    },
-    {
-      year: 2020,
-      deaths: 51325
-    },
-    {
-      year: 2021,
-      deaths: 56107
-    },
-    {
-      year: 2022,
-      deaths: 46669
-    }
-  ],
-  63: [
-    {
-      year: 2018,
-      deaths: 45095
-    },
-    {
-      year: 2019,
-      deaths: 45361
-    },
-    {
-      year: 2020,
-      deaths: 54811
-    },
-    {
-      year: 2021,
-      deaths: 59156
-    },
-    {
-      year: 2022,
-      deaths: 49352
-    }
-  ],
-  64: [
-    {
-      year: 2018,
-      deaths: 45951
-    },
-    {
-      year: 2019,
-      deaths: 46936
-    },
-    {
-      year: 2020,
-      deaths: 56010
-    },
-    {
-      year: 2021,
-      deaths: 62158
-    },
-    {
-      year: 2022,
-      deaths: 52418
-    }
-  ],
-  65: [
-    {
-      year: 2018,
-      deaths: 47257
-    },
-    {
-      year: 2019,
-      deaths: 48159
-    },
-    {
-      year: 2020,
-      deaths: 58027
-    },
-    {
-      year: 2021,
-      deaths: 63017
-    },
-    {
-      year: 2022,
-      deaths: 54626
-    }
-  ],
-  66: [
-    {
-      year: 2018,
-      deaths: 48642
-    },
-    {
-      year: 2019,
-      deaths: 49560
-    },
-    {
-      year: 2020,
-      deaths: 59907
-    },
-    {
-      year: 2021,
-      deaths: 64542
-    },
-    {
-      year: 2022,
-      deaths: 55696
-    }
-  ],
-  67: [
-    {
-      year: 2018,
-      deaths: 49857
-    },
-    {
-      year: 2019,
-      deaths: 50719
-    },
-    {
-      year: 2020,
-      deaths: 61164
-    },
-    {
-      year: 2021,
-      deaths: 66260
-    },
-    {
-      year: 2022,
-      deaths: 57210
-    }
-  ],
-  68: [
-    {
-      year: 2018,
-      deaths: 51107
-    },
-    {
-      year: 2019,
-      deaths: 52212
-    },
-    {
-      year: 2020,
-      deaths: 62889
-    },
-    {
-      year: 2021,
-      deaths: 67828
-    },
-    {
-      year: 2022,
-      deaths: 59046
-    }
-  ],
-  69: [
-    {
-      year: 2018,
-      deaths: 54383
-    },
-    {
-      year: 2019,
-      deaths: 53762
-    },
-    {
-      year: 2020,
-      deaths: 64401
-    },
-    {
-      year: 2021,
-      deaths: 69337
-    },
-    {
-      year: 2022,
-      deaths: 60813
-    }
-  ],
-  70: [
-    {
-      year: 2018,
-      deaths: 58141
-    },
-    {
-      year: 2019,
-      deaths: 57343
-    },
-    {
-      year: 2020,
-      deaths: 67279
-    },
-    {
-      year: 2021,
-      deaths: 71438
-    },
-    {
-      year: 2022,
-      deaths: 63002
-    }
-  ],
-  71: [
-    {
-      year: 2018,
-      deaths: 63825
-    },
-    {
-      year: 2019,
-      deaths: 61396
-    },
-    {
-      year: 2020,
-      deaths: 71049
-    },
-    {
-      year: 2021,
-      deaths: 73244
-    },
-    {
-      year: 2022,
-      deaths: 64523
-    }
-  ],
-  72: [
-    {
-      year: 2018,
-      deaths: 53943
-    },
-    {
-      year: 2019,
-      deaths: 67130
-    },
-    {
-      year: 2020,
-      deaths: 76103
-    },
-    {
-      year: 2021,
-      deaths: 76986
-    },
-    {
-      year: 2022,
-      deaths: 66595
-    }
-  ],
-  73: [
-    {
-      year: 2018,
-      deaths: 56033
-    },
-    {
-      year: 2019,
-      deaths: 56853
-    },
-    {
-      year: 2020,
-      deaths: 82553
-    },
-    {
-      year: 2021,
-      deaths: 82282
-    },
-    {
-      year: 2022,
-      deaths: 70731
-    }
-  ],
-  74: [
-    {
-      year: 2018,
-      deaths: 60590
-    },
-    {
-      year: 2019,
-      deaths: 58425
-    },
-    {
-      year: 2020,
-      deaths: 71135
-    },
-    {
-      year: 2021,
-      deaths: 89332
-    },
-    {
-      year: 2022,
-      deaths: 76021
-    }
-  ],
-  75: [
-    {
-      year: 2018,
-      deaths: 66524
-    },
-    {
-      year: 2019,
-      deaths: 63147
-    },
-    {
-      year: 2020,
-      deaths: 72225
-    },
-    {
-      year: 2021,
-      deaths: 75408
-    },
-    {
-      year: 2022,
-      deaths: 82919
-    }
-  ],
-  76: [
-    {
-      year: 2018,
-      deaths: 63365
-    },
-    {
-      year: 2019,
-      deaths: 69019
-    },
-    {
-      year: 2020,
-      deaths: 78100
-    },
-    {
-      year: 2021,
-      deaths: 76850
-    },
-    {
-      year: 2022,
-      deaths: 69370
-    }
-  ],
-  77: [
-    {
-      year: 2018,
-      deaths: 63017
-    },
-    {
-      year: 2019,
-      deaths: 65894
-    },
-    {
-      year: 2020,
-      deaths: 85310
-    },
-    {
-      year: 2021,
-      deaths: 82078
-    },
-    {
-      year: 2022,
-      deaths: 71555
-    }
-  ],
-  78: [
-    {
-      year: 2018,
-      deaths: 63188
-    },
-    {
-      year: 2019,
-      deaths: 65124
-    },
-    {
-      year: 2020,
-      deaths: 82048
-    },
-    {
-      year: 2021,
-      deaths: 89267
-    },
-    {
-      year: 2022,
-      deaths: 77275
-    }
-  ],
-  79: [
-    {
-      year: 2018,
-      deaths: 65651
-    },
-    {
-      year: 2019,
-      deaths: 66309
-    },
-    {
-      year: 2020,
-      deaths: 80508
-    },
-    {
-      year: 2021,
-      deaths: 85264
-    },
-    {
-      year: 2022,
-      deaths: 83071
-    }
-  ],
-  80: [
-    {
-      year: 2018,
-      deaths: 67987
-    },
-    {
-      year: 2019,
-      deaths: 68349
-    },
-    {
-      year: 2020,
-      deaths: 81661
-    },
-    {
-      year: 2021,
-      deaths: 83293
-    },
-    {
-      year: 2022,
-      deaths: 79593
-    }
-  ],
-  81: [
-    {
-      year: 2018,
-      deaths: 68584
-    },
-    {
-      year: 2019,
-      deaths: 70621
-    },
-    {
-      year: 2020,
-      deaths: 83337
-    },
-    {
-      year: 2021,
-      deaths: 83194
-    },
-    {
-      year: 2022,
-      deaths: 77443
-    }
-  ],
-  82: [
-    {
-      year: 2018,
-      deaths: 71290
-    },
-    {
-      year: 2019,
-      deaths: 71124
-    },
-    {
-      year: 2020,
-      deaths: 85630
-    },
-    {
-      year: 2021,
-      deaths: 84204
-    },
-    {
-      year: 2022,
-      deaths: 77200
-    }
-  ],
-  83: [
-    {
-      year: 2018,
-      deaths: 73173
-    },
-    {
-      year: 2019,
-      deaths: 73524
-    },
-    {
-      year: 2020,
-      deaths: 85649
-    },
-    {
-      year: 2021,
-      deaths: 85763
-    },
-    {
-      year: 2022,
-      deaths: 78963
-    }
-  ],
-  84: [
-    {
-      year: 2018,
-      deaths: 72426
-    },
-    {
-      year: 2019,
-      deaths: 74916
-    },
-    {
-      year: 2020,
-      deaths: 87616
-    },
-    {
-      year: 2021,
-      deaths: 84332
-    },
-    {
-      year: 2022,
-      deaths: 80123
-    }
-  ],
-  85: [
-    {
-      year: 2018,
-      deaths: 75023
-    },
-    {
-      year: 2019,
-      deaths: 73207
-    },
-    {
-      year: 2020,
-      deaths: 89658
-    },
-    {
-      year: 2021,
-      deaths: 85402
-    },
-    {
-      year: 2022,
-      deaths: 78963
-    }
-  ],
-  86: [
-    {
-      year: 2018,
-      deaths: 76643
-    },
-    {
-      year: 2019,
-      deaths: 75293
-    },
-    {
-      year: 2020,
-      deaths: 86428
-    },
-    {
-      year: 2021,
-      deaths: 85647
-    },
-    {
-      year: 2022,
-      deaths: 79036
-    }
-  ],
-  87: [
-    {
-      year: 2018,
-      deaths: 77989
-    },
-    {
-      year: 2019,
-      deaths: 76921
-    },
-    {
-      year: 2020,
-      deaths: 87456
-    },
-    {
-      year: 2021,
-      deaths: 82347
-    },
-    {
-      year: 2022,
-      deaths: 78644
-    }
-  ],
-  88: [
-    {
-      year: 2018,
-      deaths: 79099
-    },
-    {
-      year: 2019,
-      deaths: 76891
-    },
-    {
-      year: 2020,
-      deaths: 88017
-    },
-    {
-      year: 2021,
-      deaths: 81399
-    },
-    {
-      year: 2022,
-      deaths: 75047
-    }
-  ],
-  89: [
-    {
-      year: 2018,
-      deaths: 76362
-    },
-    {
-      year: 2019,
-      deaths: 76604
-    },
-    {
-      year: 2020,
-      deaths: 87692
-    },
-    {
-      year: 2021,
-      deaths: 80105
-    },
-    {
-      year: 2022,
-      deaths: 73788
-    }
-  ],
-  90: [
-    {
-      year: 2018,
-      deaths: 74794
-    },
-    {
-      year: 2019,
-      deaths: 72782
-    },
-    {
-      year: 2020,
-      deaths: 85205
-    },
-    {
-      year: 2021,
-      deaths: 78349
-    },
-    {
-      year: 2022,
-      deaths: 71872
-    }
-  ],
-  91: [
-    {
-      year: 2018,
-      deaths: 70835
-    },
-    {
-      year: 2019,
-      deaths: 69883
-    },
-    {
-      year: 2020,
-      deaths: 79355
-    },
-    {
-      year: 2021,
-      deaths: 74304
-    },
-    {
-      year: 2022,
-      deaths: 68737
-    }
-  ],
-  92: [
-    {
-      year: 2018,
-      deaths: 64200
-    },
-    {
-      year: 2019,
-      deaths: 64861
-    },
-    {
-      year: 2020,
-      deaths: 74460
-    },
-    {
-      year: 2021,
-      deaths: 67808
-    },
-    {
-      year: 2022,
-      deaths: 64333
-    }
-  ],
-  93: [
-    {
-      year: 2018,
-      deaths: 58805
-    },
-    {
-      year: 2019,
-      deaths: 58116
-    },
-    {
-      year: 2020,
-      deaths: 67957
-    },
-    {
-      year: 2021,
-      deaths: 61964
-    },
-    {
-      year: 2022,
-      deaths: 57297
-    }
-  ],
-  94: [
-    {
-      year: 2018,
-      deaths: 51435
-    },
-    {
-      year: 2019,
-      deaths: 51841
-    },
-    {
-      year: 2020,
-      deaths: 58709
-    },
-    {
-      year: 2021,
-      deaths: 54499
-    },
-    {
-      year: 2022,
-      deaths: 51402
-    }
-  ],
-  95: [
-    {
-      year: 2018,
-      deaths: 43573
-    },
-    {
-      year: 2019,
-      deaths: 43876
-    },
-    {
-      year: 2020,
-      deaths: 50701
-    },
-    {
-      year: 2021,
-      deaths: 46243
-    },
-    {
-      year: 2022,
-      deaths: 44205
-    }
-  ],
-  96: [
-    {
-      year: 2018,
-      deaths: 36338
-    },
-    {
-      year: 2019,
-      deaths: 36034
-    },
-    {
-      year: 2020,
-      deaths: 42141
-    },
-    {
-      year: 2021,
-      deaths: 38138
-    },
-    {
-      year: 2022,
-      deaths: 36098
-    }
-  ],
-  97: [
-    {
-      year: 2018,
-      deaths: 28908
-    },
-    {
-      year: 2019,
-      deaths: 28978
-    },
-    {
-      year: 2020,
-      deaths: 33368
-    },
-    {
-      year: 2021,
-      deaths: 30531
-    },
-    {
-      year: 2022,
-      deaths: 29149
-    }
-  ],
-  98: [
-    {
-      year: 2018,
-      deaths: 21307
-    },
-    {
-      year: 2019,
-      deaths: 22195
-    },
-    {
-      year: 2020,
-      deaths: 25839
-    },
-    {
-      year: 2021,
-      deaths: 23085
-    },
-    {
-      year: 2022,
-      deaths: 22618
-    }
-  ],
-  99: [
-    {
-      year: 2018,
-      deaths: 14720
-    },
-    {
-      year: 2019,
-      deaths: 15533
-    },
-    {
-      year: 2020,
-      deaths: 19187
-    },
-    {
-      year: 2021,
-      deaths: 17462
-    },
-    {
-      year: 2022,
-      deaths: 16577
-    }
-  ],
-  100: [
-    {
-      year: 2018,
-      deaths: 21307
-    },
-    {
-      year: 2019,
-      deaths: 22195
-    },
-    {
-      year: 2020,
-      deaths: 25839
-    },
-    {
-      year: 2021,
-      deaths: 23085
-    },
-    {
-      year: 2022,
-      deaths: 22618
-    }
-  ],
-  101: [
-    {
-      year: 2018,
-      deaths: 30249
-    },
-    {
-      year: 2019,
-      deaths: 30731
-    },
-    {
-      year: 2020,
-      deaths: 36632
-    },
-    {
-      year: 2021,
-      deaths: 33496
-    },
-    {
-      year: 2022,
-      deaths: 33444
-    }
-  ]
-};
-export default class Rapid extends React.Component {
+export default class Main extends React.Component {
   constructor(props) {
     super(props);
-
-    const yp = {
-      "1990": {
-        "20": 4054116,
-        "21": 3836827,
-        "22": 3671346,
-        "23": 3708282,
-        "24": 3879815,
-        "25": 4072660,
-        "26": 4193967,
-        "27": 4289896
-      }
-    };
-    const yealy = {
-      "1999": {
-        "0": 27937,
-        "1": 1989,
-        "2": 1376
-      }
-    };
-    const minAge = 30,
-      maxAge = 70;
-    let dates = [];
-    let populationData = {};
-    let deathData = {};
-    let alldeaths = [];
-    let all = [];
-    Object.keys(yearlypop).forEach((year) => {
-      dates.push(year);
-      Object.keys(usdeaths).forEach((age) => {
-        if (year < 2018) {
-          if (Number(age) < minAge || Number(age) > maxAge) return null;
-          if (!populationData[age]) populationData[age] = [];
-          populationData[age].push([year, yearlypop[year][age]]);
-          if (!deathData[age]) deathData[age] = [];
-          const deaths = yearly[year] && yearly[year][age];
-          if (!deaths || !yearlypop[year][age]) return null; //console.log("deathObj", yearly[year]);
-          alldeaths.push(deaths / yearlypop[year][age]);
-          deathData[age].push([year, deaths / yearlypop[year][age]]);
-
-          return null;
-        }
-        if (Number(age) < minAge || Number(age) > maxAge) return null;
-        if (!populationData[age]) populationData[age] = [];
-        populationData[age].push([year, yearlypop[year][age]]);
-        if (!deathData[age]) deathData[age] = [];
-        const deathObj = usdeaths[age].find(
-          (x) => String(x.year) === String(year)
-        );
-        if (!deathObj || !yearlypop[year][age]) return null; //console.log("deathObj", deathObj);
-        alldeaths.push(deathObj.deaths / yearlypop[year][age]);
-        all.push(deathObj.deaths); // / yearlypop[year][age]);
-        deathData[age].push([year, deathObj.deaths / yearlypop[year][age]]);
-      });
-    });
-
-    var highDeaths = Math.max(...alldeaths),
-      highestDeaths = Math.max(...all),
-      lowDeaths = Math.min(...alldeaths),
-      highDate = Math.max(...dates),
-      lowDate = Math.min(...dates);
-    console.log(highDeaths);
-    this.state = {
-      noData: [],
-      deathsData: [],
-      deathData,
-      yAxis: highDeaths - lowDeaths,
-      xAxis: highDate - lowDate,
-      highDeaths,
-      lowDeaths,
-      highDate,
-      lowDate,
-      highestDeaths,
-      minAge,
-      maxAge
-    };
+    this.state = {};
+    for (let i = 0; i < 250; i++) {
+      this["scrollImg" + i] = React.createRef();
+    }
   }
-  componentDidUpdate = () => {
-    if (
-      this.state.minAge !== this.state.lastMinAge ||
-      this.state.maxAge !== this.state.lastMaxAge
-    ) {
+  componentDidMount = () => {
+    window.addEventListener("resize", this.refresh);
+    window.addEventListener("scroll", this.handleScroll);
+    this.refresh(true);
+  };
+  componentWillUnmount = () => {
+    clearTimeout(this.scrollTimeout);
+    clearTimeout(this.resizeTimer);
+    window.removeEventListener("resize", this.refresh);
+    window.removeEventListener("scroll", this.handleScroll);
+  };
+  handleScroll = (e) => {
+    if (!this.state.offScroll) {
+      const scrollTop = window.scrollY;
       this.setState(
-        { lastMaxAge: this.state.maxAge, lastMinAge: this.state.minAge },
+        {
+          scrolling: true,
+          scrollTop
+        },
         () => {
-          let dates = [];
-          let populationData = {};
-          let deathData = {};
-          let alldeaths = [];
-          let all = [];
-          Object.keys(yearlypop).forEach((year) => {
-            dates.push(year);
-            Object.keys(usdeaths).forEach((age) => {
-              if (year < 2018) {
-                if (
-                  Number(age) < this.state.minAge ||
-                  Number(age) > this.state.maxAge
-                )
-                  return null;
-                if (!populationData[age]) populationData[age] = [];
-                populationData[age].push([year, yearlypop[year][age]]);
-                if (!deathData[age]) deathData[age] = [];
-                const deaths = yearly[year] && yearly[year][age];
-                if (!deaths || !yearlypop[year][age]) return null; //console.log("deathObj", yearly[year]);
-                alldeaths.push(deaths / yearlypop[year][age]);
-                deathData[age].push([year, deaths / yearlypop[year][age]]);
-
-                return null;
-              }
-              if (
-                Number(age) < this.state.minAge ||
-                Number(age) > this.state.maxAge
-              )
-                return null;
-              if (!populationData[age]) populationData[age] = [];
-              populationData[age].push([year, yearlypop[year][age]]);
-              if (!deathData[age]) deathData[age] = [];
-              const deathObj = usdeaths[age].find(
-                (x) => String(x.year) === String(year)
-              );
-              if (!deathObj || !yearlypop[year][age]) return null; //console.log("deathObj", deathObj);
-              alldeaths.push(deathObj.deaths / yearlypop[year][age]);
-              all.push(deathObj.deaths); // / yearlypop[year][age]);
-              deathData[age].push([
-                year,
-                deathObj.deaths / yearlypop[year][age]
-              ]);
+          clearTimeout(this.scrollTimeout);
+          this.scrollTimeout = setTimeout(() => {
+            this.setState({
+              scrolling: false
             });
-          });
-
-          var highDeaths = Math.max(...alldeaths),
-            highestDeaths = Math.max(...all),
-            lowDeaths = Math.min(...alldeaths),
-            highDate = Math.max(...dates),
-            lowDate = Math.min(...dates);
-          console.log(highDeaths);
-          this.setState({
-            noData: [],
-            deathsData: [],
-            deathData,
-            yAxis: highDeaths - lowDeaths,
-            xAxis: highDate - lowDate,
-            highDeaths,
-            lowDeaths,
-            highDate,
-            lowDate,
-            highestDeaths
-          });
+          }, 900);
         }
       );
     }
   };
+  refresh = (first) => {
+    const width = this.state.ios ? window.screen.availWidth : window.innerWidth;
+    if (first || Math.abs(this.state.lastWidth - width) > 0) {
+      clearTimeout(this.resizeTimer);
+      this.resizeTimer = setTimeout(() => {
+        this.setState({
+          lastWidth: width,
+          width,
+          availableHeight: this.state.ios
+            ? window.screen.availHeight - 20
+            : window.innerHeight
+        });
+      }, 600);
+    }
+  };
+
   render() {
-    const yaxis = this.state.yAxis;
-    const { lowDate } = this.state;
-    const noData = this.state.noData.map(([x, y]) => [
-      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-      0
-    ]);
-    var deathsData = {};
-    Object.keys(this.state.deathData).forEach((age) => {
-      deathsData[age] = this.state.deathData[age].map(([x, y]) => [
-        ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-        ((y - this.state.lowDeaths) / yaxis) * 150
-      ]);
-    });
-    const labelstyle = {
-      backgroundColor: "rgba(50,120,200,.6)",
-      top: "0px",
-      height: "min-content",
-      display: "flex",
-      maxWidth: "100%",
-      left: "2px",
-      flexWrap: "wrap"
+    const handleScollImgError = (e) => {
+      if (e.message) {
+        console.log(e.message);
+        this.setState({ serviceCancelingImages: true, noyoutube: true });
+      }
     };
     const buttonStyle = {
-      userSelect: "none",
       border: "1px solid black",
       color: "black",
       backgroundColor: "rgb(220,220,220)",
-      borderRadius: "4px",
-      padding: "5px",
-      margin: "2px"
+      borderRadius: "15px",
+      padding: "15px",
+      margin: "10px"
     };
+    let arrayOfnumbers = [0];
+    const scrollnum = () => {
+      const num = arrayOfnumbers[arrayOfnumbers.length - 1] + 1;
+      arrayOfnumbers.push(num);
+      return num;
+    };
+    const setting = (s) => {
+      return {
+        backgroundColor: "rgb(32, 22, 11)",
+        position: s ? "relative" : "fixed",
+        transform: `translateX(${s ? 0 : -130}%)`,
+        zIndex: s ? "0" : "-9999"
+      };
+    }; //money charges need; convenient yield is a bandaid
+    //fiduciary tax insolvency for strategy is no mistake
+    //rollover something you bill yourself roll customer merchant links
+    //rollover links
     const space = " ";
-    //console.log(deathsData);
     return (
-      <div style={{ ...this.props.style, position: "relative" }}>
-        <div style={{ width: "100%", minHeight: "230px" }}>
-          <div style={labelstyle}>
-            most annual single age deaths{" "}
-            {shortNumber(Math.round(this.state.highestDeaths /*/5 */))}:{space}
-            {lowDate}
-            {space}-{space}
-            {this.state.highDate}
+      <div
+        style={{
+          lineHeight: "14px",
+          padding: "20px",
+          wordWrap: "break-word",
+          fontFamily: "'Kanit', sans-serif"
+        }}
+      >
+        <div
+          onClick={this.props.toggle}
+          style={{
+            bottom: "0px",
+            right: "0px",
+            position: "fixed",
+            cursor: "pointer"
+          }}
+        >
+          more
+        </div>
+        Inflation reduction act renegs monthy. accelerating elderly spit. is
+        this significant?
+        <br />
+        <Rapid
+          lastWidth={Math.min(600, this.state.lastWidth - 40)}
+          style={{
+            marginTop: "20px",
+            paddingBottom: "50px",
+            backgroundColor: "rgb(190,150,180)"
+          }}
+        />
+        Always a{space}
+        <i>scheduling</i>
+        {space}or cardiology problem.
+        <br />
+        Is getcovered.NJ.gov nurse scheduling and southwest airline pilot
+        scheduling pricing mandated to be ameliorated per diem within a month
+        anywhere yet?
+        <h1>
+          Free Enterprise System:{space}
+          <span style={{ fontSize: "26px" }}>
+            Stop making my question so complicated. Antibodies treat phages like
+            garbage, through and through.
+          </span>
+        </h1>
+        {/*<Cable
+          style={{ maxWidth: "100px", width: "100%" }}
+          onError={handleScollImgError}
+          img={null}
+          src={
+            this.state.noyoutube
+              ? ""
+              : "https://www.youtube.com/embed/eJO5HU_7_1w"
+          }
+          float="right"
+          title="real slim Republican commie.dev"
+          scrolling={this.state.scrolling}
+          fwd={this["scrollImg" + scrollnum()]}
+          scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+          scrollTop={!this.state.oldecon ? 0 : this.state.scrollTop}
+        />*/}
+        <iframe
+          style={{ maxWidth: "300px", width: "100%", float: "right" }}
+          onError={handleScollImgError}
+          img={null}
+          src={
+            this.state.noyoutube
+              ? ""
+              : "https://www.youtube.com/embed/eJO5HU_7_1w"
+          }
+          title="real slim Republican commie.dev"
+          scrolling={this.state.scrolling}
+          fwd={this["scrollImg" + scrollnum()]}
+          scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+          scrollTop={!this.state.oldecon ? 0 : this.state.scrollTop}
+        />
+        Do employees of regular businesses with diverse customers have to report
+        gifted sweat up to $15,000 per year? Should the government media
+        continue to suggest markets liking an excess and sustaining resource
+        productivity over material consumption?
+        <h2>
+          Is atherosclerosis or infection a more concerning theory about
+          mortality from virus to have?{space}
+          <i>
+            (YouTube) Is the CDC valid if either they say expected mortality
+            significance is a problem and/or test viruses one at a time?
+          </i>
+        </h2>
+        Wouldn’t you need to test for all comparable causes of sickness to
+        assess how exogenous covid is to outcomes are, first? Even if you are
+        capturing prevalence, isn’t the test useless without testing for all
+        causes of{space}
+        <a href="https://www.reddit.com/r/science/comments/zzwwf8">
+          pneumonia, influenza, and covid
+        </a>
+        ?
+        <br />
+        <br />
+        What kind of medical science questions don't belong on skeptics?{space}
+        <span
+          style={{
+            lineHeight: "20px",
+            backgroundColor: "darkslateblue",
+            color: "tan"
+          }}
+        >
+          Shouldn't{space}
+          <a href="https://reddit.com/r/2020haters">Trump</a>
+          {space}&bull;{space}be improsoned for enabling bank runs on
+          (commercial legislationless piggie)?
+          {space}Is real income either transitive and/or marginal? Isn't real
+          income marginally transitive unless despondency is competitive?{space}
+          <a
+            style={{ backgroundColor: "darkgreen", color: "tan" }}
+            href="https://micro-theory.podbean.com/e/trump-s-reason-for-insurrection/"
+          >
+            Why didn’t Trump show up for his January 6th riot supporters?
+          </a>
+          {space}
+          <i style={{ backgroundColor: "darkgreen", color: "skyblue" }}>
+            How can CEO's stay ahead of the curve during a recession without
+            hedging and layoffs quickly unless they benefit from inflation?
+          </i>
+        </span>
+        <br />
+        <a href="https://www.quora.com/Do-you-think-that-the-current-debate-about-health-care-in-America-is-focusing-too-much-on-insurance-and-not-enough-on-actual-patient-care/answer/Rick-Swartz-1">
+          Do you think that the current debate about health care in America is
+          focusing too much on insurance and not enough on actual patient care?
+        </a>
+        {/**Don’t republicans, democrats, and nonvoters want prevention based government escrow but only the powerful want deficits?
+        Does a New Jersey political party become recognized after 10% of the Assembly switches parties at once?
+        Does establishing a New Jersey political party require using a party from another state? Which state allows for a manifest?
+        Do candidate committees require an EIN to contribute self-produced content?
+
+        Do candidate committees require an EIN to contribute self-produced and/or connected content? Are EIN's for subcontracting or W2 withholdings?
+        */}
+        {space}
+        <i>Why does insurance make you jump through so many hoops?</i>
+        {space}
+        The debate is a very product of the focus that happens as a cause of
+        insurance, like a perpetual, compound, concurrent lag-bug.
+        <br />
+        2026 death panels won't be as scary.
+        <br />
+        Are uncollateralized nor industry specified loans garnishable or a
+        foreseeable loss?
+        <h2 style={{ color: "cadetblue" }}>
+          Is the extrapolation of a select virus or all cause mortality
+          statistically important?
+        </h2>
+        <h3>
+          Expected significance; I will stand for plaintiffing not
+          whistleblowing. f a whistleblower rat n ur job - right to try and
+          carface bank. Everyone's a tie breaker.
+        </h3>
+        <i>
+          Buttgiegs' poor job - it's known, covered not{space}
+          <a href="https://commie.dev/police">prevented</a>, maybe 2025 won't be
+          a "pandemic" but elderly dealth significance will be timely
+          (adailyimpeachment. get buttgieg out - retroactive profit neglegence
+          "stakeholder fiduciary" police state repreave public sport, "
+          <a href="https://saverparty.xyz/global">game</a>-made
+          {space}
+          <a href="https://froth.quora.com">risks</a>")
+        </i>
+        <br />
+        <a href="https://thetaxparty.com">Putin</a>
+        {space}and Cosco can{space}
+        <a href="https://saltbank.quora.com">broker a deal</a>.
+        <h2>
+          Shrinkflation Johns{space}
+          <a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Physical_imports_and_exports">
+            Hopkins
+          </a>
+          ; Nick Carducci for{space}
+          <a href="https://cdlf.quora.com">Carface</a>
+          {space}Bank{space}
+          <span style={{ fontSize: "16px" }}>
+            (Shouldn't the Speaker of the U.S. House of Representatives be
+            bipartisan on the federal reserve question to either end it or not?)
+          </span>
+        </h2>
+        <span style={{ color: "red" }}>Google malfeasance is a plant</span>
+        {space}Medi-Share contracts are labor indemnity surrendered purchase
+        (fair right to ownership, "
+        <a href="https://bankingisnot.biz">usufruct</a>"). (Rollover medishare
+        fraud, "free premium contractors" or "producer aussie price")
+        <br />
+        <i style={{ color: "limegreen" }}>
+          Why would virus evolve as a prokaryotic weapon instead of excrement?
+          Wouldn't clearing vessels for cardiovascularity be good reason for the
+          prevalence of antibodies upon virus? Are people even necessarily sick
+          from the virus or tested for all causes?{space}
+          <span style={{ color: "black" }}>
+            I'm not buying the weapon-not-excrement prokaryote.
+          </span>
+          {space}
+          <span style={{ color: "chocolate" }}>
+            Doesn't a{space}
+            <a href="https://vau.money">tax break account</a>
+            {space}to up to a reporting threshold while a tax exemption is still
+            reported? I want to be able to at least produce my own{space}
+            <a href="https://nickcarducciforsenate.quora.com/Would-a-single-payer-healthcare-system-be-affordable-for-the-US-government-1">
+              pac
+            </a>
+            . no one will donate to use the{space}
+            <a href="https://truncatedwholesaletax.com">
+              uniform constitution monolith
+            </a>
+            .
+          </span>
+        </i>
+        <h3>
+          <span
+            style={{
+              color: "grey"
+            }}
+          >
+            I wanted to boycott credit
+          </span>
+          {space}and end ticket scalping airline{space}
+          <a href="https://www.reddit.com/user/AdFabulous9451">McGhee</a>;
+          recession is inflationary, marginal, or atomic,{space}
+          <i>shrinkflation bros</i>. Investment is consumption or shrinkflation
+          before deflationary use. Marginal benefit is market made not in kind.
+        </h3>
+        Should I pay more in undergraduate courses if my ideology fails? I don’t
+        think I had to take statistics or calculus freshman economic program
+        courses with my AP tests. It’s when I read Krugman I believe when I
+        thought C+I+G was quite redundant, and when I thought principal with
+        interest over collateral doesn’t settle from marginal consumption, that
+        I failed Macroeconomics twice and Financial Markets and Institutions
+        once. Now I’m soliciting an 12.1.5 OCC sponsorship for my electronic
+        safety deposit box at FedCash atm processor and industry specific payday
+        loans idea for my said business.
+        <br />
+        <br />I believe my overall GPA was 2.5. I was concentrating on operating
+        my own business. I am well rounded in my final semester, but in high
+        school I excelled relatively then in math and science (710 math and 590,
+        590 reading/writing; AP Stats and AB Calc). I also wrestled Freshman and
+        {space}
+        <span
+          style={{
+            textDecoration: "line-through"
+          }}
+        >
+          Sophomore{/**can I get your comment on just about everything */}
+        </span>
+        {space}Junior year, but generally was originally going for an East Asian
+        and Economics double major. Econometrics was a B- I think, but again
+        I’ve{space}
+        <a href="https://scopes.cc">come clean publicly</a>
+        {space}now and to my educators then I like a decreasing real exchange
+        velocity. I was 17 when 2008 happened to my family’s home contracting
+        business which set me off to end contracts for intention. My B.A. is
+        political science.
+        <h2>
+          Is non-competitive job growth worth the expense and work?{space}
+          <i style={{ color: "cornflowerblue" }}>
+            Is a good gain in industry sector employments just that or
+            deflationary?
+          </i>
+          {space}What is an example of a job that currently does not exist, but
+          that you really, really WANT to exist?{space}
+          <i>
+            Why does the United States want to create good paying jobs against
+            voluntary human action?
+          </i>
+          {space}Does the Department of Labor want more people working if it is
+          non-deflationary?{space}
+          <i style={{ color: "cadetblue" }}>
+            Is a recession a problem if it isn't acceleratingly inflationary?
+          </i>
+        </h2>
+        The only harmful recession is an accelerating inflation rate of marginal
+        unemployment, I say. Otherwise, a recession is either the opposite of
+        shrinkflation or a normal trade-off. I also don’t think exchanging
+        durable goods for currency is a decent trade. Should I even try to
+        apply? I have an economics minor from JHU in the U.S. but am interested
+        in global universities too.
+        <h3
+          style={{
+            color: "grey"
+          }}
+        >
+          I wanted to become an economist
+          {space}
+          <span
+            style={{
+              color: "black"
+            }}
+          >
+            but, are complainants or rats racketeers?
+          </span>
+          {space}"Whatever that means after making a deal for a lesser sentance
+          or surrendering your ethics or stakeholder fiduciary duty in{space}
+          <a href="https://www.reddit.com/r/realeconomics/comments/zxewsa/who_is_your_favourite_living_economist_whats/">
+            usufructuary bound rights
+          </a>
+          ."
+        </h3>
+        {/**common trade name thumbprint and apple are explicitly-implicitly generic */}
+        <i>
+          How do microeconomists substitute escrow for prevention and not
+          coverage of loss and unknown dangers for safety?
+        </i>
+        <br />
+        Stop holding us back. "How come visit to the emergency room costs so
+        much even if you have insurance?" The hospital can charge a larger
+        account, making the market price themselves. - Nick Carducci T0 Advocate
+        at Insurance (2011–present)
+        <br />
+        Maybe labor should deflate shit idiot.{space}
+        <a href="https://comlib.quora.com">
+          <i>
+            Is human action what happens in the absence of derivatives across
+            time?
+          </i>
+        </a>
+        {space}What laws would have to be revoked to tax electronic fund account
+        transfers only? Assume everyone can have their own FedCash account and
+        be their own bank, if you would.
+        <br />
+        <a href="https://www.nestseekers.com/agent/erin-sykes">
+          <Cable
+            style={{ maxWidth: "100px", width: "100%" }}
+            onError={handleScollImgError}
+            img={true}
+            src={
+              this.state.noyoutube
+                ? ""
+                : "https://www.dropbox.com/s/sciszo40vrcp45x/erin%20sykes.jpeg?raw=1"
+            }
+            float="left"
+            title="https://www.nestseekers.com/agent/erin-sykes"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={!this.state.oldecon ? 0 : this.state.scrollTop}
+          />
+        </a>
+        close down{space}
+        <a href="https://saverparty.xyz">bureau of land management</a>
+        {space}is that a threat, housing is how to gain? Plausible use lease
+        microfinance or else I die (we work kennelworth micro finance) r/sayists
+        (warehousing truncated wholesale complementary supply and demand tax, Is
+        a down payment or an option to buy a security at a certain price until
+        either an expiration or expected perishing?)
+        <h3>
+          Is human action what happens in the absence of derivatives across
+          time?
+          <span style={{ color: "firebrick" }}>
+            https://www.reddit.com/r/bacterium/comments/zwi1sy/catastrophic_contagion_highlights_reel_2025_is/
+          </span>
+          <div style={{ position: "relative", float: "right" }}>
+            <div style={{ position: "absolute", zIndex: 1, bottom: "0px" }}>
+              I don't think the government here is who needs to learn
+              statistics. Best of luck to you. – Jeff Lambert
+            </div>
+            <a href="https://politics.stackexchange.com/questions/77373/why-do-governments-and-institutions-claim-expected-significant-mortality-is-a-pa">
+              <Cable
+                style={{ maxWidth: "300px", width: "100%" }}
+                onError={handleScollImgError}
+                img={true}
+                src={
+                  this.state.noyoutube
+                    ? ""
+                    : "https://www.dropbox.com/s/qnh743niv413496/Screen%20Shot%202022-12-29%20at%2012.08.17%20PM.png?raw=1"
+                }
+                float={null}
+                title="https://politics.stackexchange.com/questions/77373/why-do-governments-and-institutions-claim-expected-significant-mortality-is-a-pa"
+                scrolling={this.state.scrolling}
+                fwd={this["scrollImg" + scrollnum()]}
+                scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+                scrollTop={!this.state.oldecon ? 0 : this.state.scrollTop}
+              />
+            </a>
           </div>
-          <div style={{ transform: "translate(0px,200px)" }}>
-            <svg
-              className="all"
-              style={linecss}
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              {noData.map(
-                ([x, y], i) =>
-                  !isNaN(x) &&
-                  !isNaN(y) && (
-                    <rect
-                      x={x}
-                      y={y}
-                      width={2}
-                      height={2}
-                      stroke="rgb(230,230,230)"
-                      fill="transparent"
-                      strokeWidth={3}
-                      key={i}
-                    />
-                  )
-              )}
-              {/** */}
-              {Object.keys(deathsData).map((age) => {
-                return deathsData[age].map(
-                  ([x, y], i) =>
-                    !isNaN(x) &&
-                    !isNaN(y) && (
-                      <rect
-                        x={x}
-                        y={y}
-                        width={2}
-                        height={2}
-                        stroke={`rgb(${(age / 100) * 250},${0},${200})`}
-                        fill="blue"
-                        strokeWidth={3}
-                        key={i}
-                      />
-                    )
-                );
-              })}
-            </svg>
-          </div>
+        </h3>
+        <h2>Are viruses a matter of epidemiology or cardiology?</h2>
+        <h3>
+          Catastrophic hell security Contagion{space}
+          <span style={{ color: "salmon" }}>
+            Isn’t 2025 pandemic going to happen from expected excess mortality?
+          </span>
+          {space}
+          https://www.reddit.com/r/PhD/comments/zwjk5u/i_want_to_become_an_economist/
+          {space}
+          <span
+            style={{
+              fontWeight: "normal"
+            }}
+          >
+            If PCR tests only capture 10 viruses at a time and every 30 years
+            mortality and birth rates are significant, can't the governments
+            fabricate pandemics?
+          </span>
+          {space}@Yorik That's the question I'm seeking a straight answer on. Is
+          it or not? MDPI is fake news if antibodies do not stop virus from
+          causing blood clots. An answer to this would allow me to ask if
+          dysregular antibody production also contributes to general
+          atherosclerotic plaque, too. –
+        </h3>
+        {space}
+        <b style={{ color: "cornflowerblue" }}>
+          If vaccines were proven to have claim credit for what sewage has done
+          for life expectancy, who would go to prison?{space}
+          <span style={{ color: "navy" }}>
+            All cause or artifact of many (10 base thousands);
+          </span>
+          {space}
+          <a href="https://anchor.fm/micro-theory/episodes/Strategic-Voting-with-a-potential-network-effect-and-new-antifinance-alternative-e1qvulq">
+            we evolve to control our debris
+          </a>
+          .{space}
+          <a
+            href="https://www.reddit.com/r/Wallstreetsilver/comments/zxf4is/are_communicable_diseases_observationally/"
+            style={{ color: "cadetblue" }}
+          >
+            Is a viral pandemic natural by evolutionary logic?
+          </a>
+          {space}(Wall Street Silver,{space}
+          <i>
+            Doesn’t an observational control measure vitro while a null
+            confirmable placebo{space}
+            <a href="https://generalmaintenanceunit.quora.com">test</a>
+            {space}measures vivo?
+          </i>
+          , 12/28/2022){space}
+          <span style={{ color: "tan" }}>
+            Are politicians intent on widening poverty or do they not think
+            landlords cause an accelerating inflation rate of unemployment?
+          </span>
+        </b>
+        <h4>
+          Antibodies 2025 1941 46; they found it outside the lab - they can't
+          prove it.{space}
+          <span style={{ color: "darkviolet" }}>
+            Doesn’t an observational control measure vitro while a null
+            confirmable placebo test measures vivo?
+          </span>
+        </h4>
+        <h3>Aren't significances expected to happen every 20-40 times?</h3>
+        Significance of single-year will always have 1/20 significant
+        single-year mortality. why is the government lying? should they{space}
+        <a href="https://www.quora.com/Can-you-tell-someone-to-drop-dead-or-perish">
+          die
+        </a>
+        ?
+        <div
+          onMouseEnter={
+            () =>
+              this.setState({ nodeDevtimeout: true }, () => {
+                clearTimeout(this.nodeDevtimeout);
+                this.nodeDevtimeout = setTimeout(() => {
+                  this.setState({ nodeDevtimeout: false });
+                }, 5000);
+              }) //scopebook
+          }
+          style={{
+            top: "0px",
+            left: "0px",
+            position: "fixed",
+            cursor: "pointer"
+          }}
+        >
+          {!this.state.nodeDevtimeout ? (
+            <span>
+              Don't Indian actuaries use{space}
+              <i>natural rate increases</i>
+              {space}to describe excess mortality?
+            </span>
+          ) : (
+            <span>
+              Isn’t the NIH for first-timers{space}
+              <i>notwithstanding rare diseases</i>?
+            </span>
+          )}
+        </div>
+        <Retro
+          lastWidth={Math.min(600, this.state.lastWidth - 40)}
+          style={{
+            paddingBottom: "15px",
+            backgroundColor: "rgb(190,150,180)"
+          }}
+        />
+        <h2>
+          <span role="img" aria-label="tombstone">
+            🪦
+          </span>
+          <a href="https://stats.stackexchange.com/questions/585927/what-is-the-significance-of-population-growth-a-life-expectancy-ago">
+            2025
+          </a>
+          {space}3m{space}
+          <a href="https://2024nj.com">natural rate increase</a>
+          {space}78{space}(73 first vector/wave)
+        </h2>
+        <i>
+          I do recommend{space}
+          <a href="https://epiology.quora.com">lockdowns when humans</a>
+          {space}
+          <a href="https://www.reddit.com/r/thumbprint/comments/xhmehy/covid_has_woken_me_to_the_word_polyphyletic/">
+            begin
+          </a>
+          {space}to make{space}
+          {space}
+          <a href="https://sewageisamatterofdomesticviolence.quora.com">
+            butthole
+          </a>
+          -presiding
+          {space}
+          <a href="https://www.reddit.com/r/Virology/comments/wr05mg/hightech_images_show_how_viruses_infect_cells/">
+            weaponry
+          </a>
+          {/*outside of their*/}.
+        </i>
+        <br />
+        What do you think caused infectious disease mortality to decline around
+        {space}
+        <a href="https://phyletic.quora.com/Do-you-think-humans-evolved-viruses-to-attack-each-other-https-www-quora-com-unanswered-Do-you-think-humans-evolved">
+          1800
+        </a>
+        ? toilet{">"}vaxx.{space}
+        <i style={{ color: "grey" }}>garbage self dealing</i>
+        <div
+          style={{
+            wordBreak: "break-word",
+            margin: "20px 6px",
+            width: "calc(100% - 40px)",
+            maxWidth: "300px",
+            //borderTopLeftRadius: "20px",
+            padding: "10px",
+            boxShadow: `-80px -80px 0 -70px black\n80px -80px 0 -70px black\n-80px  80px 0 -70px black\n80px  80px 0 -70px black`
+            //borderLeft: "4px solid",
+            //borderTop: "4px solid"
+            //boxShadow: "-4px -4px 1px 4px black"
+          }}
+        >
+          Could know your customer regulations have stopped Jeffery Epstein’s
+          abusive behavior or discounted sales as gifts?
+          <br />
+          <br />
+          John F. Eldredge '
+          <a href="https://www.quora.com/Why-do-you-believe-vaccines-do-more-than-prevent-blood-clots/answer/John-F-Eldredge">
+            Note
+          </a>{" "}
+          that{space}
+          <a href="https://sewageisamatterofdomesticviolence.quora.com/What-do-you-think-caused-infectious-disease-mortality-to-decline-around-1800-1">
+            <i>many infectious diseases</i>
+            {space}are{space}
+            <b>not</b>
+            {space}spread by poor sanitation
+          </a>
+          , but by{space}
+          <i>
+            <b>other contact with infected people</b>
+          </i>
+          ,{space}
+          <i>
+            including breathing in{space}
+            <b>droplets containing the</b>
+            {space}disease
+          </i>
+          , exhaled by others.'
+          <br />I adhere to Francisco{space}
+          <a href="https://www.dailymail.co.uk/health/article-11323677/Outrage-Boston-University-CREATES-Covid-strain-80-kill-rate.html">
+            Redi
+          </a>
+          ’s approach to the scientific dialectic. Why don’t you inject me with
+          a virus to prove it isn’t debris? Do virologists/epidemiologists
+          believe in evolution? Do you think humans evolved viruses to attack
+          each other? Doesn’t the non-oncogenic lymphatic system make antibodies
+          for the carbon hydrogen virion? Isn't the product of the mRNA D614G
+          spike protein not that?
+          {space}
+          <a href="https://bacterium.quora.com/Did-Boston-University-National-Emerging-Infectious-Diseases-Laboratory-really-use-bacterial-artificial-chromosomes-to-en">
+            Bacterial
+          </a>
+          {space}artificial chromosome. How have vaccines proven to save lives?
+          Don’t virologists have regard for more positive correlation with
+          sewage and/or negative with bivariate, polyphyletic symptoms?
         </div>
         <div
           style={{
-            cursor: "pointer",
-            display: "flex",
-            position: "absolute",
-            bottom: "0px"
+            wordBreak: "break-word",
+            width: "calc(100% - 40px)",
+            maxWidth: "300px"
           }}
         >
-          <input
-            type="number"
-            onChange={(e) => {
-              this.setState({ minAge: e.target.value });
-            }}
-            value={this.state.minAge}
-          />
-          <input
-            type="number"
-            onChange={(e) => {
-              this.setState({ maxAge: e.target.value });
-            }}
-            value={this.state.maxAge}
-          />
-          <div
-            onClick={() => {
-              this.setState({ maxAge: 84, minAge: 79 });
-            }}
-          >
-            old
-          </div>
-          {space}&bull;{space}
-          <div
-            onClick={() => {
-              this.setState({ maxAge: 70, minAge: 30 });
-            }}
-          >
-            general
-          </div>
+          <a href="https://www.prisonpolicy.org/blog/2017/06/28/drugs/">
+            <Cable
+              style={{ maxWidth: "300px", width: "100%" }}
+              onError={handleScollImgError}
+              img={true}
+              src={
+                this.state.noyoutube
+                  ? ""
+                  : "https://www.dropbox.com/s/kbxo4r6tkz35cvv/Screen%20Shot%202022-10-12%20at%201.49.25%20PM.png?raw=1"
+              }
+              float="left"
+              title="https://www.prisonpolicy.org/blog/2017/06/28/drugs/"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + scrollnum()]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={!this.state.oldecon ? 0 : this.state.scrollTop}
+            />
+          </a>
+          About 40% of the state prison population and sentenced jail population
+          report using drugs at the time of the offense for which they were
+          {space}
+          <a href="https://www.prisonpolicy.org/blog/2017/06/28/drugs/">
+            incarcerated
+          </a>
+          .
+          <br />
+          <br />
+          44% of American college{space}
+          <a href="https://www.bop.gov/about/statistics/statistics_inmate_age.jsp">
+            students
+          </a>
+          {space}have used marijuana regularly in 2020. It’s a significant
+          increase from 2016’s 39% says NIDA’s 2020 drug use
+          {space}
+          <a href="https://cfah.org/marijuana-statistics/">survey</a>.
+          <br />
+          <br />
+          <h4>
+            Why do liberals and conservatives want Medicare for All to
+            incarcerate the mentally ill on hearsay or similarly unprovable
+            testimonial evidence?
+          </h4>
+          {/*you (all) are gonna be so (hung) 'faggot' vax named-riot, mosques-too
+          divorce and chastidy; life, sex and 'filth' UNTIL preg test fatties */}
         </div>
+        <Youth
+          lastWidth={Math.min(600, this.state.lastWidth - 40)}
+          style={{
+            paddingBottom: "15px",
+            backgroundColor: "rgb(190,150,180)"
+          }}
+        />
+        <b>
+          <i>
+            <a href="https://commie.dev/police">
+              Is the NBER business cycle committee serious
+            </a>
+            {space}when they{space}
+            <a href="https://thetaxparty.com">say</a>
+            {space}non-inflationary unemployment is{space}
+            <a href="https://reddit.com/r/realeconomics">recessionary</a>?
+          </i>
+        </b>
+        <hr />
+        <div style={{ borderLeft: "2px solid", paddingLeft: "4px" }}>
+          There are repeated high demands on Police and NHS resources in
+          response to this level of crimes (not all of these being{space}
+          <a href="https://research.tees.ac.uk/ws/portalfiles/portal/25580379/FINAL_Heroin_Assisted_Treatment_Pilot_Evaluation_Report.pdf">
+            financial but also physical and psychological harms)
+          </a>
+          .{space}
+          <i>Beyond more obvious impacts on the public purse</i>, other groups
+          such as family members are{space}
+          <a href="https://minimalviableduress.quora.com/Isnt-competence-subjective">
+            disproportionately{space}
+            <i>a</i>ffected
+          </a>
+          {space}[
+          <i>
+            in having been caused endogeneously in said physical and
+            psychological harms
+          </i>
+          ] . A policy paper analysing the impact of drug taking on family
+          members, by the UK Drug Policy Commission (2009) estimated that the
+          cost of the harms to family members was around 1.8 billion a year.
+          {space}
+          <i>
+            Taken together, the hidden and associated costs with 52 years of
+            offending is likely in the millions, if not billions.
+            {/**Why wouldn't https://api.congress.gov/bill be able to sort by last instead of latest action already? This is what Thumbprint will need. */}
+          </i>
+        </div>
+        <br />
+        <div style={{ borderLeft: "2px solid", paddingLeft: "4px" }}>
+          The evidence highlights that HAT is associated with large reductions
+          in the volume of offences, the crime severity score and associated
+          costs to the Ministry of Justice (MOJ)iv, with approximate savings of
+          £97,800. Importantly, costs do not include those past sentencing i.e.
+          prison or probation so the cost savings associated with a reduction of
+          the volume and severity of offences is likely far greater than this
+          figure. Therefore, individuals who engage with HAT not only commit
+          less offences, but the offences that they do commit are less serious
+          than the year preceding HAT. The rate of offending per person reduced
+          from three crimes per participant to 1.2 crimes per participant. This
+          reduction in offending is corroborated in the TOPs self-report data
+          set, where 9 out of 14 individuals reported shoplifting every day in
+          the previous 28 day period on entry to the pilot, which reduced to 0
+          days by month 1 for majority of these individuals (6 out of 9).
+        </div>
+        <div>
+          <a href="https://www.cdc.gov/nchs/nhis/shs/tables.htm">
+            nchs/nhis/shs
+          </a>
+          :{" "}
+        </div>
+        <h3>
+          1968 gun control,{space}
+          <a href="https://beingstable.quora.com/Isn-t-mean-proportionality-the-average-rounded-How-might-reversing-the-mean-proportional-operation-affect-multiplicatio-1">
+            weed
+          </a>
+          :{space}
+          <i>
+            Does the government not like pot smokers working as productive
+            employees anywhere?
+          </i>
+          {space}
+          <span
+            style={{
+              color: "darkviolet"
+            }}
+          >
+            Did alcohol prohibition or hard hats and other safety{space}
+            <a href="https://reddit.com/r/generalservices">equipment</a>
+            {space}
+            decrease workplace deaths?
+          </span>
+          {space}vaults.biz/sdr{space}
+          <span style={{ textDecoration: "line-through" }}>
+            depo corner section
+          </span>
+          {space}
+          <a href="https://parcelpolice.quora.com">asyluminportugal</a>
+          {space}Who is{space}
+          <a href="https://virtualid.quora.com">Q-vendetta</a>?
+        </h3>
+        The{space}
+        <a href="https://www.cdc.gov/nchs/nhis/pre1997.htm">
+          National Health Survey Act
+        </a>
+        {space}of 1956 provided for a continuing survey and special studies to
+        secure accurate and current statistical information on the amount,
+        distribution, and effects of illness and disability in the United States
+        and{space}
+        <a href="https://www.cdc.gov/nchs/nhis/data-questionnaires-documentation.htm">
+          the services rendered for or because of such conditions
+        </a>
+        .
+        <h3 style={{ margin: "4px 0px" }}>
+          Isn't{space}
+          <a href="https://generalmaintenanceunit.quora.com/Isnt-the-right-to-speak-as-an-unpaid-user-granted-prima-facie-but-for-desist-orders">
+            a pair
+          </a>
+          {space}of crazy{space}
+          <a href="https://www.quora.com/Don-t-ableists-use-tropes">
+            a modicum of sanity
+          </a>
+          ? (Isn't a survey sample modicum variable by industry types?)
+          {/**Does establishing a New Jersey political party require using a party 
+        from another state? Which state allows for a manifest? 
+        Does establishing a New Jersey political party require using a party 
+        from another state? Which state allows for a manifest?
+
+        Statistical significance requires 100-periods. I see our world in 
+        data uses a p-score, but I use my site, humanharvest.info for 
+        annual charts back to the Spanish flu.
+
+        Does no one being above the law imply an innocence precedence?
+
+        Connected political action committee content has copyright restrictions 
+        (11 CFR), unless its dissemination method usually is a personal expense 
+        like internet services, social media, and talk radio.
+        */}
+        </h3>
+        If weed is a performance enhancer, why is it{space}
+        <a href="https://commie.dev/mod">illegal</a>
+        {space}to drive with{space}
+        <a href="https://reddit.com/r/askdemocracy">it</a>? Are top nationally
+        ranked gains really gains? Is a testimony of hate mental illness?{space}
+        <i>
+          If Rudy Giuliani doesn't want to{space}
+          <a href="https://courttechnology.quora.com/How-does-hearsay-differ-from-testimony-1">
+            <b>prevent</b>
+            {space}robbery
+          </a>
+          {space}and/or homicide with red flag laws, why does he want to call
+          convicts mentally ill?
+        </i>
+        <br />
+        Shouldn’t criminals stop getting SSDI already?{space}
+        <i>Shouldn’t the depressed stop getting SSDI already?</i>
+        {space}Shouldn’t the SSDI assume an injured applicant will not be hired
+        into a new industry already?{space}Can people with cerebral palsywork
+        with computers?{space}Shouldn’t the{space}
+        <a href="https://actuapedia.quora.com/Does-the-polio-epidemic-match-today-s-nervous-system-disease-presentation-1">
+          speaking developmentally disabled
+        </a>
+        {space}and/or{space}
+        <a href="https://2024nj.com/disability">injured</a>
+        {space}get desk jobs if they have experience in the field instead of
+        receive SSDI already?{space}
+        <a href="https://vaults.biz/party">Aren't voters tired?</a>
+        <br />
+        Do you agree with healthfeedback.org that the Amish have less autism and
+        cancer because of{space}
+        <a href="https://www.reddit.com/r/realeconomics/comments/ycld00/dont_pensions_cause_market_concentration_wouldnt">
+          incest
+        </a>
+        {space}and{space}
+        <span
+          style={{
+            backgroundColor: "rgb(190,150,180)",
+            color: "white"
+          }}
+        >
+          living{space}
+          <a href="https://saltbank.org" style={{ color: "white" }}>
+            salt-free
+          </a>
+        </span>
+        ?
+        <h4>
+          Doesn't the true geometric mean occur when studying exogenous
+          variables in a vacuum control?
+        </h4>
+        <i>
+          Kelli Halliburton: Downvoted{space}
+          <a href="https://www.quora.com/unanswered/Doesnt-the-true-geometric-mean-occur-when-studying-exogenous-variables-in-a-vacuum-control">
+            word salad
+          </a>
+          .
+        </i>
+        <br />
+        do you even know the difference between arithmetic and geometric mean?
+        are you smoking crack?
+        <h4>
+          If weed is a performance enhancer, why is it illegal to drive with it?
+        </h4>
+        <i>
+          Brian Jones (Lives in Santa Monica): It’s not.
+          <br />
+          it’s banned in tested competition partly because of politics but also
+          because it can be mood altering; mental jitters are a real thing in
+          high level competition.
+        </i>
+        <h4>
+          Is the reason to prevent drugs for performance enhancement,
+          benchmarking, or subjective abuse?
+        </h4>
+        <h2>
+          <a href="https://www.cdc.gov/nchs/products/series/series16.htm">
+            hours
+          </a>
+          {space}cost/ uh hour costs,{space}
+          <a href="https://commie.dev/banking">social labor</a>!
+        </h2>
+        Why do some people choose not to vote?
+        <br />
+        1. It’s got to be on my lap, 2. trached voting results dissuades me, 3.
+        not voting == budget reconciliation, 4. thetax.party.
       </div>
     );
   }
