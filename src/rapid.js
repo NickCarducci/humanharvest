@@ -2308,13 +2308,24 @@ export default class Rapid extends React.Component {
     };
   }
   componentDidUpdate = () => {
+    /*if (this.state.singleToggle !== this.state.lastSingleToggle) {
+      this.setState({
+        lastSingleToggle: this.state.singleToggle
+      });
+    }*/
     if (
       this.state.minAge !== this.state.lastMinAge ||
       this.state.maxAge !== this.state.lastMaxAge
     ) {
       this.setState(
-        { lastMaxAge: this.state.maxAge, lastMinAge: this.state.minAge },
+        {
+          lastMaxAge: this.state.maxAge,
+          lastMinAge: this.state.minAge
+        },
         () => {
+          const compare = this.state.singleToggle
+            ? this.state.maxAge
+            : this.state.minAge;
           let dates = [];
           let populationData = {};
           let deathData = {};
@@ -2324,10 +2335,7 @@ export default class Rapid extends React.Component {
             dates.push(year);
             Object.keys(usdeaths).forEach((age) => {
               if (year < 2018) {
-                if (
-                  Number(age) < this.state.minAge ||
-                  Number(age) > this.state.maxAge
-                )
+                if (Number(age) < compare || Number(age) > this.state.maxAge)
                   return null;
                 if (!populationData[age]) populationData[age] = [];
                 populationData[age].push([year, yearlypop[year][age]]);
@@ -2339,10 +2347,7 @@ export default class Rapid extends React.Component {
 
                 return null;
               }
-              if (
-                Number(age) < this.state.minAge ||
-                Number(age) > this.state.maxAge
-              )
+              if (Number(age) < compare || Number(age) > this.state.maxAge)
                 return null;
               if (!populationData[age]) populationData[age] = [];
               populationData[age].push([year, yearlypop[year][age]]);
@@ -2490,7 +2495,10 @@ export default class Rapid extends React.Component {
             type="number"
             onChange={(e) => {
               const maxAge = e.target.value;
-              this.setState({ maxAge: maxAge < 101 ? maxAge : 100 });
+              this.setState({
+                maxAge: maxAge < 101 ? maxAge : 100,
+                minAge: this.state.singleToggle ? maxAge : this.state.minAge
+              });
             }}
             value={this.state.maxAge}
           />
@@ -2525,6 +2533,20 @@ export default class Rapid extends React.Component {
           >
             20
           </div>
+          {space}&bull;{space}
+          <input
+            type="checkbox"
+            value={this.state.singleToggle}
+            onClick={(e) => {
+              const singleToggle = e.target.checked;
+              console.log(singleToggle);
+              this.setState({
+                singleToggle,
+                minAge: this.state[singleToggle ? "maxAge" : "minAge"]
+              });
+            }}
+          />
+          single
         </div>
       </div>
     );
