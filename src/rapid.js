@@ -2250,8 +2250,8 @@ export default class Rapid extends React.Component {
         "2": 1376
       }
     };
-    const minAge = 30,
-      maxAge = 70;
+    const minAge = 20,
+      maxAge = 34;
     let dates = [];
     let populationData = {};
     let deathData = {};
@@ -2524,6 +2524,14 @@ export default class Rapid extends React.Component {
             }}
           >
             plant
+          </div>
+          {space}&bull;{space}
+          <div
+            onClick={() => {
+              this.setState({ maxAge: 34, minAge: 20 });
+            }}
+          >
+            34
           </div>
           {space}&bull;{space}
           <div
