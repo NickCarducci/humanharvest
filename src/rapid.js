@@ -2471,6 +2471,8 @@ export default class Rapid extends React.Component {
         </div>
         <div
           style={{
+            cursor: "pointer",
+            display: "flex",
             position: "absolute",
             bottom: "0px"
           }}
@@ -2489,6 +2491,29 @@ export default class Rapid extends React.Component {
             }}
             value={this.state.maxAge}
           />
+          <div
+            onClick={() => {
+              this.setState({ maxAge: 84, minAge: 79 });
+            }}
+          >
+            old
+          </div>
+          {space}&bull;{space}
+          <div
+            onClick={() => {
+              this.setState({ maxAge: 70, minAge: 30 });
+            }}
+          >
+            general
+          </div>
+          {space}&bull;{space}
+          <div
+            onClick={() => {
+              this.setState({ maxAge: 89, minAge: 85 });
+            }}
+          >
+            plant
+          </div>
         </div>
       </div>
     );
