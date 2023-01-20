@@ -113,6 +113,9 @@ export default class Main extends React.Component {
         >
           more
         </div>
+        Inflation reduction act renegs monthy. accelerating elderly spit. is
+        this significant?
+        <br />
         <Rapid
           lastWidth={Math.min(600, this.state.lastWidth - 40)}
           style={{
