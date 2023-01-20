@@ -2517,6 +2517,14 @@ export default class Rapid extends React.Component {
           >
             plant
           </div>
+          {space}&bull;{space}
+          <div
+            onClick={() => {
+              this.setState({ maxAge: 20, minAge: 20 });
+            }}
+          >
+            20
+          </div>
         </div>
       </div>
     );
