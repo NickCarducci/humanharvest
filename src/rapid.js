@@ -3,6 +3,7 @@ import { yearly, yearlypop } from "./mortal";
 import { linecss, shortNumber } from "./vaxx";
 
 const usdeaths = {
+  /*
   1: [
     {
       year: 2018,
@@ -420,7 +421,7 @@ const usdeaths = {
       year: 2022,
       deaths: 3251
     }
-  ],
+  ],*/
   20: [
     {
       year: 2018,
@@ -2480,14 +2481,16 @@ export default class Rapid extends React.Component {
           <input
             type="number"
             onChange={(e) => {
-              this.setState({ minAge: e.target.value });
+              const minAge = e.target.value;
+              this.setState({ minAge: minAge > 19 ? minAge : 20 });
             }}
             value={this.state.minAge}
           />
           <input
             type="number"
             onChange={(e) => {
-              this.setState({ maxAge: e.target.value });
+              const maxAge = e.target.value;
+              this.setState({ maxAge: maxAge < 101 ? maxAge : 100 });
             }}
             value={this.state.maxAge}
           />
