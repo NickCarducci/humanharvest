@@ -259,7 +259,50 @@ export default class App extends React.Component {
             <a href="https://www.quora.com/Why-are-developmental-disabilities-called-retardation-if-the-condition-doesn-t-degrade-over-time">
               retard
             </a>
+            : Do you like the government spending as a percentage of GDP in line
+            with its takeover of private values for pennywise degrowth or would
+            you prefer banning labor contracts for wholesale degrowth?
           </h1>
+          <h2>
+            Who has seen monopoly and competition, except by their effects, that
+            is, by their signs? Who has felt credit and property? What is
+            collective force, division of labour and value? And yet, what is
+            stronger, more certain, more intelligible, more real than all that?
+            Look in the distance at this carriage drawn by eight horses on a
+            beaten field, and driven by a man dressed in a old smock: it is only
+            a mass of matter, moved on four wheels by an animal form. You
+            discover there, in appearance, only a phenomenon of mechanics,
+            determined by a phenomenon of physiology, beyond which you perceive
+            nothing more. Penetrate further: ask this man what he does, where he
+            goes; by what thought, what title, he drives this vehicle. And
+            presently he will show you a letter, his authority, his providence,
+            as he himself is the providence of his equipment. You will read in
+            this letter that he is a carter, that it is in this capacity that he
+            carries out the transportation of a certain quantity of merchandise,
+            so much according upon the weight and distance; that he must carry
+            out his journey by such a route and within such a time, barely
+            covering the cost of his service; that this service implies on the
+            part of the carter the responsibility for the losses and damages
+            that result from other causes than force majeure and an inherent
+            defect of the objects; that the price of the vehicle includes or not
+            includes insurance against unforeseen accidents, and a thousand
+            other details which are the hazard of the law and the torment of
+            jurists. (Pierre-Joseph Proudhon, The System of Economic
+            Contradictions, Volume 1: The Philosophy of Poverty, Chapter XIV.
+            Summary and Conclusion, 1847)
+            <br />
+            Is insurance pricing bad just because you cannot prove not to need
+            healthcare first? Is getcovered.NJ.gov nurse and Southwest pilot
+            schedule pricing exclusion ameliorated per diem within a month in
+            any county yet? Does GetCoveredNJ.gov financial help help the
+            patient or doctor financially? Are the Democrats, Libertarians, Ron
+            DeSantis, and the rest of the Republicans happy that Trump tripled
+            checking?
+          </h2>
+          <h3>
+            Isn't income and growth loss the opposite of the cost of living
+            inflation?
+          </h3>
           Tech advancement lowers GDP, expenses government and structures for
           implausible use leases
           <br />
