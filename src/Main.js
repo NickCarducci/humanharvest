@@ -92,6 +92,9 @@ export default class Main extends React.Component {
     //fiduciary tax insolvency for strategy is no mistake
     //rollover something you bill yourself roll customer merchant links
     //rollover links
+    //​and it is either fun or lucrative to make people depressed
+    //​it's called a buddy producer pac
+    //ach is taxable
     const space = " ";
     return (
       <div
@@ -115,6 +118,13 @@ export default class Main extends React.Component {
         </div>
         Inflation reduction act renegs monthy. accelerating elderly spit. is
         this significant?
+        <br />
+        global poverty is deflation and spm resets third nationally
+        <br />
+        Are people too rudimentary to know that a virus needing a living host
+        means it either has to do with the weather and people just make them
+        when they are sick as a covalent coincidence or is it just generally
+        prevalent?
         <br />
         <Rapid
           lastWidth={Math.min(600, this.state.lastWidth - 40)}
@@ -951,6 +961,7 @@ export default class Main extends React.Component {
         <br />
         1. It’s got to be on my lap, 2. trached voting results dissuades me, 3.
         not voting == budget reconciliation, 4. thetax.party.
+        {/**goes to watch an old pink floyd video seeing the guy there for julian assange AGAIN */}
       </div>
     );
   }
