@@ -116,6 +116,12 @@ export default class Main extends React.Component {
         >
           more
         </div>
+        {/*gotta make the money although it WASN'T significant humanharvest.info*/}
+        Was the $7t additional checkable deposits spent after 2019 mostly on
+        continuing unemployment benefit claims, the paycheck protection program,
+        build back better, or general regular government expenditure increases?
+        <br />
+        <br />
         Inflation reduction act renegs monthy. accelerating elderly spit. is
         this significant?
         <br />
