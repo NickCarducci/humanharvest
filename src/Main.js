@@ -116,14 +116,17 @@ export default class Main extends React.Component {
         >
           more
         </div>
+        <h3>zombie physiological nonsense</h3>
         {/*gotta make the money although it WASN'T significant humanharvest.info*/}
         Was the $7t additional checkable deposits spent after 2019 mostly on
         continuing unemployment benefit claims, the paycheck protection program,
         build back better, or general regular government expenditure increases?
         <br />
         <br />
-        Inflation reduction act renegs monthy. accelerating elderly spit. is
-        this significant?
+        <a href="https://occupywall.us">
+          Inflation reduction act renegs monthy
+        </a>
+        . accelerating elderly spit. is this significant?
         <br />
         global poverty is deflation and spm resets third nationally
         <br />
