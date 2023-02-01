@@ -123,6 +123,8 @@ export default class Main extends React.Component {
         build back better, or general regular government expenditure increases?
         <br />
         <br />
+        The Congress shall have Power To lay and collect Taxes, Duties, Imposts
+        and Excises[,] uniform[ly] throughout the United States;{space}
         <a href="https://occupywall.us">
           Inflation reduction act renegs monthy
         </a>
@@ -130,10 +132,33 @@ export default class Main extends React.Component {
         <br />
         global poverty is deflation and spm resets third nationally
         <br />
-        Are people too rudimentary to know that a virus needing a living host
-        means it either has to do with the weather and people just make them
-        when they are sick as a covalent coincidence or is it just generally
-        prevalent?
+        <span style={{ color: "firebrick" }}>
+          Safe assets play an important role in the financial system as
+          collateral and store of [good will] value;{space}
+          <i style={{ color: "darkred" }}>
+            as a result of their ability to tax households and corporations,
+            governments are natural suppliers of such safe assets
+          </i>
+          . (Gorton and Ordon, 2022)
+        </span>
+        {space}
+        <span style={{ color: "dodgerblue" }}>
+          Governments have incentive to manufacture safe debt, because safe debt
+          earns sizeable convenience yields,{space}
+          <i style={{ color: "navy" }}>
+            lowering the interest they must pay on their debt
+          </i>
+          . (Zhengyang Jiang, Hanno Lustig, Stijn Van Nieuwerburgh, and Mindy Z.
+          Xiaolan, Manufacturing Risk Free Government Debt, September 2020,
+          revised February 2022)
+        </span>
+        <br />
+        <b style={{ color: "darkgreen" }}>
+          Are people too rudimentary to know that a virus needing a living host
+          means it either has to do with the weather and people just make them
+          when they are sick as a covalent coincidence or is it just generally
+          prevalent?
+        </b>
         <br />
         <Rapid
           lastWidth={Math.min(600, this.state.lastWidth - 40)}
