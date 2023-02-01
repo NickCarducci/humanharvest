@@ -170,7 +170,8 @@ export default class Main extends React.Component {
         />
         Always a{space}
         <i>scheduling</i>
-        {space}or cardiology problem.
+        {space}or cardiology problem. (I will make landlord liquidity and
+        doctors book a month out)
         <br />
         Is getcovered.NJ.gov nurse scheduling and southwest airline pilot
         scheduling pricing mandated to be ameliorated per diem within a month
