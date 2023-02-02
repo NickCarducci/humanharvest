@@ -3879,10 +3879,10 @@ export default class Rapid extends React.Component {
     let alldeaths = [];
     let all = [];
     Object.keys(yearlypop).forEach((year) => {
-      dates.push(year);
       Object.keys(usdeaths).forEach((age) => {
         if (year < 2018) {
           if (Number(age) < minAge || Number(age) > maxAge) return null;
+          dates.push(year);
           if (!populationData[age]) populationData[age] = [];
           populationData[age].push([year, yearlypop[year][age]]);
           if (!deathData[age]) deathData[age] = [];
@@ -3894,6 +3894,7 @@ export default class Rapid extends React.Component {
           return null;
         }
         if (Number(age) < minAge || Number(age) > maxAge) return null;
+        dates.push(year);
         if (!populationData[age]) populationData[age] = [];
         populationData[age].push([year, yearlypop[year][age]]);
         if (!deathData[age]) deathData[age] = [];
@@ -4127,7 +4128,7 @@ export default class Rapid extends React.Component {
           <div style={labelstyle}>
             most annual single age deaths{" "}
             {shortNumber(Math.round(this.state.highestDeaths /*/5 */))}:{space}
-            {lowDate}
+            {1999 /*lowDate */}
             {space}-{space}
             {this.state.highDate}
           </div>
