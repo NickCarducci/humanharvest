@@ -2227,6 +2227,1627 @@ const usdeaths = {
     }
   ]
 };
+//https://www.cdc.gov/nchs/nhanes/visualization/index.htm#data-tables
+const allobese = [
+  {
+    year: 2000,
+    age: 39,
+    title: "cholesterol",
+    Percent: 11
+  },
+  {
+    year: 2000,
+    age: 39,
+    title: "hypertension",
+    Percent: 25.2
+  },
+  {
+    year: 2000,
+    age: 39,
+    title: "obesity",
+    Percent: 26
+  },
+  {
+    year: 2000,
+    age: 59,
+    title: "cholesterol",
+    Percent: 22.7
+  },
+  {
+    year: 2000,
+    age: 59,
+    title: "hypertension",
+    Percent: 53.5
+  },
+  {
+    year: 2000,
+    age: 59,
+    title: "obesity",
+    Percent: 33.5
+  },
+  {
+    year: 2000,
+    age: 99,
+    title: "cholesterol",
+    Percent: 23.8
+  },
+  {
+    year: 2000,
+    age: 99,
+    title: "hypertension",
+    Percent: 79.5
+  },
+  {
+    year: 2000,
+    age: 99,
+    title: "obesity",
+    Percent: 33.5
+  },
+  {
+    year: 2002,
+    age: 39,
+    title: "cholesterol",
+    Percent: 10.3
+  },
+  {
+    year: 2002,
+    age: 39,
+    title: "hypertension",
+    Percent: 25.6
+  },
+  {
+    year: 2002,
+    age: 39,
+    title: "obesity",
+    Percent: 26.1
+  },
+  {
+    year: 2002,
+    age: 59,
+    title: "cholesterol",
+    Percent: 20.4
+  },
+  {
+    year: 2002,
+    age: 59,
+    title: "hypertension",
+    Percent: 50.5
+  },
+  {
+    year: 2002,
+    age: 59,
+    title: "obesity",
+    Percent: 33.9
+  },
+  {
+    year: 2002,
+    age: 99,
+    title: "cholesterol",
+    Percent: 20.9
+  },
+  {
+    year: 2002,
+    age: 99,
+    title: "hypertension",
+    Percent: 79.4
+  },
+  {
+    year: 2002,
+    age: 99,
+    title: "obesity",
+    Percent: 32.8
+  },
+  {
+    year: 2004,
+    age: 39,
+    title: "cholesterol",
+    Percent: 10.9
+  },
+  {
+    year: 2004,
+    age: 39,
+    title: "hypertension",
+    Percent: 21.2
+  },
+  {
+    year: 2004,
+    age: 39,
+    title: "obesity",
+    Percent: 28.5
+  },
+  {
+    year: 2004,
+    age: 59,
+    title: "cholesterol",
+    Percent: 21.3
+  },
+  {
+    year: 2004,
+    age: 59,
+    title: "hypertension",
+    Percent: 53.3
+  },
+  {
+    year: 2004,
+    age: 59,
+    title: "obesity",
+    Percent: 36.8
+  },
+  {
+    year: 2004,
+    age: 99,
+    title: "cholesterol",
+    Percent: 19.8
+  },
+  {
+    year: 2004,
+    age: 99,
+    title: "hypertension",
+    Percent: 78.3
+  },
+  {
+    year: 2004,
+    age: 99,
+    title: "obesity",
+    Percent: 31
+  },
+  {
+    year: 2006,
+    age: 39,
+    title: "cholesterol",
+    Percent: 11.7
+  },
+  {
+    year: 2006,
+    age: 39,
+    title: "hypertension",
+    Percent: 19.7
+  },
+  {
+    year: 2006,
+    age: 39,
+    title: "obesity",
+    Percent: 29.1
+  },
+  {
+    year: 2006,
+    age: 59,
+    title: "cholesterol",
+    Percent: 19
+  },
+  {
+    year: 2006,
+    age: 59,
+    title: "hypertension",
+    Percent: 52.7
+  },
+  {
+    year: 2006,
+    age: 59,
+    title: "obesity",
+    Percent: 40.4
+  },
+  {
+    year: 2006,
+    age: 99,
+    title: "cholesterol",
+    Percent: 17.1
+  },
+  {
+    year: 2006,
+    age: 99,
+    title: "hypertension",
+    Percent: 76
+  },
+  {
+    year: 2006,
+    age: 99,
+    title: "obesity",
+    Percent: 33.4
+  },
+  {
+    year: 2008,
+    age: 39,
+    title: "cholesterol",
+    Percent: 8.8
+  },
+  {
+    year: 2008,
+    age: 39,
+    title: "hypertension",
+    Percent: 20.4
+  },
+  {
+    year: 2008,
+    age: 39,
+    title: "obesity",
+    Percent: 30.7
+  },
+  {
+    year: 2008,
+    age: 59,
+    title: "cholesterol",
+    Percent: 19
+  },
+  {
+    year: 2008,
+    age: 59,
+    title: "hypertension",
+    Percent: 49.7
+  },
+  {
+    year: 2008,
+    age: 59,
+    title: "obesity",
+    Percent: 36.2
+  },
+  {
+    year: 2008,
+    age: 99,
+    title: "cholesterol",
+    Percent: 16.1
+  },
+  {
+    year: 2008,
+    age: 99,
+    title: "hypertension",
+    Percent: 77.7
+  },
+  {
+    year: 2008,
+    age: 99,
+    title: "obesity",
+    Percent: 35.1
+  },
+  {
+    year: 2010,
+    age: 39,
+    title: "cholesterol",
+    Percent: 7.9
+  },
+  {
+    year: 2010,
+    age: 39,
+    title: "hypertension",
+    Percent: 21.3
+  },
+  {
+    year: 2010,
+    age: 39,
+    title: "obesity",
+    Percent: 32.6
+  },
+  {
+    year: 2010,
+    age: 59,
+    title: "cholesterol",
+    Percent: 17.8
+  },
+  {
+    year: 2010,
+    age: 59,
+    title: "hypertension",
+    Percent: 46.9
+  },
+  {
+    year: 2010,
+    age: 59,
+    title: "obesity",
+    Percent: 36.6
+  },
+  {
+    year: 2010,
+    age: 99,
+    title: "cholesterol",
+    Percent: 15.5
+  },
+  {
+    year: 2010,
+    age: 99,
+    title: "hypertension",
+    Percent: 76.3
+  },
+  {
+    year: 2010,
+    age: 99,
+    title: "obesity",
+    Percent: 39.7
+  },
+  {
+    year: 2012,
+    age: 39,
+    title: "cholesterol",
+    Percent: 7.4
+  },
+  {
+    year: 2012,
+    age: 39,
+    title: "hypertension",
+    Percent: 22
+  },
+  {
+    year: 2012,
+    age: 39,
+    title: "obesity",
+    Percent: 30.3
+  },
+  {
+    year: 2012,
+    age: 59,
+    title: "cholesterol",
+    Percent: 18.2
+  },
+  {
+    year: 2012,
+    age: 59,
+    title: "hypertension",
+    Percent: 51.2
+  },
+  {
+    year: 2012,
+    age: 59,
+    title: "obesity",
+    Percent: 39.5
+  },
+  {
+    year: 2012,
+    age: 99,
+    title: "cholesterol",
+    Percent: 13.6
+  },
+  {
+    year: 2012,
+    age: 99,
+    title: "hypertension",
+    Percent: 75.7
+  },
+  {
+    year: 2012,
+    age: 99,
+    title: "obesity",
+    Percent: 35.4
+  },
+  {
+    year: 2014,
+    age: 39,
+    title: "cholesterol",
+    Percent: 7.6
+  },
+  {
+    year: 2014,
+    age: 39,
+    title: "hypertension",
+    Percent: 18.8
+  },
+  {
+    year: 2014,
+    age: 39,
+    title: "obesity",
+    Percent: 34.3
+  },
+  {
+    year: 2014,
+    age: 59,
+    title: "cholesterol",
+    Percent: 13.8
+  },
+  {
+    year: 2014,
+    age: 59,
+    title: "hypertension",
+    Percent: 48.5
+  },
+  {
+    year: 2014,
+    age: 59,
+    title: "obesity",
+    Percent: 41
+  },
+  {
+    year: 2014,
+    age: 99,
+    title: "cholesterol",
+    Percent: 12.3
+  },
+  {
+    year: 2014,
+    age: 99,
+    title: "hypertension",
+    Percent: 76.2
+  },
+  {
+    year: 2014,
+    age: 99,
+    title: "obesity",
+    Percent: 38.5
+  },
+  {
+    year: 2016,
+    age: 39,
+    title: "cholesterol",
+    Percent: 7.9
+  },
+  {
+    year: 2016,
+    age: 39,
+    title: "hypertension",
+    Percent: 22.1
+  },
+  {
+    year: 2016,
+    age: 39,
+    title: "obesity",
+    Percent: 35.7
+  },
+  {
+    year: 2016,
+    age: 59,
+    title: "cholesterol",
+    Percent: 17.1
+  },
+  {
+    year: 2016,
+    age: 59,
+    title: "hypertension",
+    Percent: 52
+  },
+  {
+    year: 2016,
+    age: 59,
+    title: "obesity",
+    Percent: 42.8
+  },
+  {
+    year: 2016,
+    age: 99,
+    title: "cholesterol",
+    Percent: 12.5
+  },
+  {
+    year: 2016,
+    age: 99,
+    title: "hypertension",
+    Percent: 72.7
+  },
+  {
+    year: 2016,
+    age: 99,
+    title: "obesity",
+    Percent: 41
+  },
+  {
+    year: 2018,
+    age: 39,
+    title: "cholesterol",
+    Percent: 7.2
+  },
+  {
+    year: 2018,
+    age: 39,
+    title: "hypertension",
+    Percent: 24.1
+  },
+  {
+    year: 2018,
+    age: 39,
+    title: "obesity",
+    Percent: 40
+  },
+  {
+    year: 2018,
+    age: 59,
+    title: "cholesterol",
+    Percent: 14.2
+  },
+  {
+    year: 2018,
+    age: 59,
+    title: "hypertension",
+    Percent: 54.5
+  },
+  {
+    year: 2018,
+    age: 59,
+    title: "obesity",
+    Percent: 44.8
+  },
+  {
+    year: 2018,
+    age: 99,
+    title: "cholesterol",
+    Percent: 10.3
+  },
+  {
+    year: 2018,
+    age: 99,
+    title: "hypertension",
+    Percent: 74.5
+  },
+  {
+    year: 2018,
+    age: 99,
+    title: "obesity",
+    Percent: 42.8
+  }
+];
+const femaleobese = [
+  {
+    year: 2000,
+    age: 39,
+    title: "cholesterol",
+    Percent: 10.7
+  },
+  {
+    year: 2000,
+    age: 39,
+    title: "hypertension",
+    Percent: 16.5
+  },
+  {
+    year: 2000,
+    age: 39,
+    title: "obesity",
+    Percent: 28.3
+  },
+  {
+    year: 2000,
+    age: 59,
+    title: "cholesterol",
+    Percent: 20.7
+  },
+  {
+    year: 2000,
+    age: 59,
+    title: "hypertension",
+    Percent: 49.1
+  },
+  {
+    year: 2000,
+    age: 59,
+    title: "obesity",
+    Percent: 37.7
+  },
+  {
+    year: 2000,
+    age: 99,
+    title: "cholesterol",
+    Percent: 30.9
+  },
+  {
+    year: 2000,
+    age: 99,
+    title: "hypertension",
+    Percent: 80
+  },
+  {
+    year: 2000,
+    age: 99,
+    title: "obesity",
+    Percent: 35
+  },
+  {
+    year: 2002,
+    age: 39,
+    title: "cholesterol",
+    Percent: 8.3
+  },
+  {
+    year: 2002,
+    age: 39,
+    title: "hypertension",
+    Percent: 14.9
+  },
+  {
+    year: 2002,
+    age: 39,
+    title: "obesity",
+    Percent: 29.8
+  },
+  {
+    year: 2002,
+    age: 59,
+    title: "cholesterol",
+    Percent: 18.9
+  },
+  {
+    year: 2002,
+    age: 59,
+    title: "hypertension",
+    Percent: 48.3
+  },
+  {
+    year: 2002,
+    age: 59,
+    title: "obesity",
+    Percent: 35.7
+  },
+  {
+    year: 2002,
+    age: 99,
+    title: "cholesterol",
+    Percent: 27.7
+  },
+  {
+    year: 2002,
+    age: 99,
+    title: "hypertension",
+    Percent: 82
+  },
+  {
+    year: 2002,
+    age: 99,
+    title: "obesity",
+    Percent: 35
+  },
+  {
+    year: 2004,
+    age: 39,
+    title: "cholesterol",
+    Percent: 10.1
+  },
+  {
+    year: 2004,
+    age: 39,
+    title: "hypertension",
+    Percent: 12.9
+  },
+  {
+    year: 2004,
+    age: 39,
+    title: "obesity",
+    Percent: 28.9
+  },
+  {
+    year: 2004,
+    age: 59,
+    title: "cholesterol",
+    Percent: 19.4
+  },
+  {
+    year: 2004,
+    age: 59,
+    title: "hypertension",
+    Percent: 49.2
+  },
+  {
+    year: 2004,
+    age: 59,
+    title: "obesity",
+    Percent: 38.8
+  },
+  {
+    year: 2004,
+    age: 99,
+    title: "cholesterol",
+    Percent: 25.2
+  },
+  {
+    year: 2004,
+    age: 99,
+    title: "hypertension",
+    Percent: 79.4
+  },
+  {
+    year: 2004,
+    age: 99,
+    title: "obesity",
+    Percent: 31.5
+  },
+  {
+    year: 2006,
+    age: 39,
+    title: "cholesterol",
+    Percent: 12.6
+  },
+  {
+    year: 2006,
+    age: 39,
+    title: "hypertension",
+    Percent: 8.5
+  },
+  {
+    year: 2006,
+    age: 39,
+    title: "obesity",
+    Percent: 30.5
+  },
+  {
+    year: 2006,
+    age: 59,
+    title: "cholesterol",
+    Percent: 18.8
+  },
+  {
+    year: 2006,
+    age: 59,
+    title: "hypertension",
+    Percent: 51.9
+  },
+  {
+    year: 2006,
+    age: 59,
+    title: "obesity",
+    Percent: 41.1
+  },
+  {
+    year: 2006,
+    age: 99,
+    title: "cholesterol",
+    Percent: 23
+  },
+  {
+    year: 2006,
+    age: 99,
+    title: "hypertension",
+    Percent: 76.8
+  },
+  {
+    year: 2006,
+    age: 99,
+    title: "obesity",
+    Percent: 34.4
+  },
+  {
+    year: 2008,
+    age: 39,
+    title: "cholesterol",
+    Percent: 7.4
+  },
+  {
+    year: 2008,
+    age: 39,
+    title: "hypertension",
+    Percent: 14.8
+  },
+  {
+    year: 2008,
+    age: 39,
+    title: "obesity",
+    Percent: 34
+  },
+  {
+    year: 2008,
+    age: 59,
+    title: "cholesterol",
+    Percent: 18.6
+  },
+  {
+    year: 2008,
+    age: 59,
+    title: "hypertension",
+    Percent: 43.7
+  },
+  {
+    year: 2008,
+    age: 59,
+    title: "obesity",
+    Percent: 38.1
+  },
+  {
+    year: 2008,
+    age: 99,
+    title: "cholesterol",
+    Percent: 22.4
+  },
+  {
+    year: 2008,
+    age: 99,
+    title: "hypertension",
+    Percent: 80.6
+  },
+  {
+    year: 2008,
+    age: 99,
+    title: "obesity",
+    Percent: 33.5
+  },
+  {
+    year: 2010,
+    age: 39,
+    title: "cholesterol",
+    Percent: 6.5
+  },
+  {
+    year: 2010,
+    age: 39,
+    title: "hypertension",
+    Percent: 14.3
+  },
+  {
+    year: 2010,
+    age: 39,
+    title: "obesity",
+    Percent: 31.9
+  },
+  {
+    year: 2010,
+    age: 59,
+    title: "cholesterol",
+    Percent: 19
+  },
+  {
+    year: 2010,
+    age: 59,
+    title: "hypertension",
+    Percent: 42.9
+  },
+  {
+    year: 2010,
+    age: 59,
+    title: "obesity",
+    Percent: 36
+  },
+  {
+    year: 2010,
+    age: 99,
+    title: "cholesterol",
+    Percent: 20.2
+  },
+  {
+    year: 2010,
+    age: 99,
+    title: "hypertension",
+    Percent: 78.7
+  },
+  {
+    year: 2010,
+    age: 99,
+    title: "obesity",
+    Percent: 42.3
+  },
+  {
+    year: 2012,
+    age: 39,
+    title: "cholesterol",
+    Percent: 7.2
+  },
+  {
+    year: 2012,
+    age: 39,
+    title: "hypertension",
+    Percent: 15.6
+  },
+  {
+    year: 2012,
+    age: 39,
+    title: "obesity",
+    Percent: 31.8
+  },
+  {
+    year: 2012,
+    age: 59,
+    title: "cholesterol",
+    Percent: 19.1
+  },
+  {
+    year: 2012,
+    age: 59,
+    title: "hypertension",
+    Percent: 47
+  },
+  {
+    year: 2012,
+    age: 59,
+    title: "obesity",
+    Percent: 39.5
+  },
+  {
+    year: 2012,
+    age: 99,
+    title: "cholesterol",
+    Percent: 19.4
+  },
+  {
+    year: 2012,
+    age: 99,
+    title: "hypertension",
+    Percent: 76.2
+  },
+  {
+    year: 2012,
+    age: 99,
+    title: "obesity",
+    Percent: 38.1
+  },
+  {
+    year: "2013-2014",
+    age: 39,
+    title: "cholesterol",
+    Percent: 6.5
+  },
+  {
+    year: "2013-2014",
+    age: 39,
+    title: "hypertension",
+    Percent: 12.7
+  },
+  {
+    year: "2013-2014",
+    age: 39,
+    title: "obesity",
+    Percent: 37
+  },
+  {
+    year: "2013-2014",
+    age: 59,
+    title: "cholesterol",
+    Percent: 14.4
+  },
+  {
+    year: "2013-2014",
+    age: 59,
+    title: "hypertension",
+    Percent: 45.2
+  },
+  {
+    year: "2013-2014",
+    age: 59,
+    title: "obesity",
+    Percent: 44.6
+  },
+  {
+    year: "2013-2014",
+    age: 99,
+    title: "cholesterol",
+    Percent: 16.1
+  },
+  {
+    year: "2013-2014",
+    age: 99,
+    title: "hypertension",
+    Percent: 76.8
+  },
+  {
+    year: "2013-2014",
+    age: 99,
+    title: "obesity",
+    Percent: 39.4
+  },
+  {
+    year: 2016,
+    age: 39,
+    title: "cholesterol",
+    Percent: 6.7
+  },
+  {
+    year: 2016,
+    age: 39,
+    title: "hypertension",
+    Percent: 14.3
+  },
+  {
+    year: 2016,
+    age: 39,
+    title: "obesity",
+    Percent: 36.5
+  },
+  {
+    year: 2016,
+    age: 59,
+    title: "cholesterol",
+    Percent: 17.7
+  },
+  {
+    year: 2016,
+    age: 59,
+    title: "hypertension",
+    Percent: 47.7
+  },
+  {
+    year: 2016,
+    age: 59,
+    title: "obesity",
+    Percent: 44.7
+  },
+  {
+    year: 2016,
+    age: 99,
+    title: "cholesterol",
+    Percent: 17.2
+  },
+  {
+    year: 2016,
+    age: 99,
+    title: "hypertension",
+    Percent: 76
+  },
+  {
+    year: 2016,
+    age: 99,
+    title: "obesity",
+    Percent: 43.1
+  },
+  {
+    year: 2018,
+    age: 39,
+    title: "cholesterol",
+    Percent: 4.4
+  },
+  {
+    year: 2018,
+    age: 39,
+    title: "hypertension",
+    Percent: 14.1
+  },
+  {
+    year: 2018,
+    age: 39,
+    title: "obesity",
+    Percent: 39.7
+  },
+  {
+    year: 2018,
+    age: 59,
+    title: "cholesterol",
+    Percent: 16
+  },
+  {
+    year: 2018,
+    age: 59,
+    title: "hypertension",
+    Percent: 49.9
+  },
+  {
+    year: 2018,
+    age: 59,
+    title: "obesity",
+    Percent: 43.3
+  },
+  {
+    year: 2018,
+    age: 99,
+    title: "cholesterol",
+    Percent: 14.7
+  },
+  {
+    year: 2018,
+    age: 99,
+    title: "obesity",
+    Percent: 43.3
+  }
+];
+const maleobese = [
+  {
+    year: 2000,
+    age: 39,
+    title: "cholesterol",
+    Percent: 11.3
+  },
+  {
+    year: 2000,
+    age: 39,
+    title: "hypertension",
+    Percent: 33
+  },
+  {
+    year: 2000,
+    age: 39,
+    title: "obesity",
+    Percent: 23.7
+  },
+  {
+    year: 2000,
+    age: 59,
+    title: "cholesterol",
+    Percent: 24.8
+  },
+  {
+    year: 2000,
+    age: 59,
+    title: "hypertension",
+    Percent: 58.1
+  },
+  {
+    year: 2000,
+    age: 59,
+    title: "obesity",
+    Percent: 28.8
+  },
+  {
+    year: 2000,
+    age: 99,
+    title: "cholesterol",
+    Percent: 15.1
+  },
+  {
+    year: 2000,
+    age: 99,
+    title: "hypertension",
+    Percent: 79
+  },
+  {
+    year: 2000,
+    age: 99,
+    title: "obesity",
+    Percent: 31.7
+  },
+  {
+    year: 2002,
+    age: 39,
+    title: "cholesterol",
+    Percent: 12.4
+  },
+  {
+    year: 2002,
+    age: 39,
+    title: "hypertension",
+    Percent: 36.1
+  },
+  {
+    year: 2002,
+    age: 39,
+    title: "obesity",
+    Percent: 22.3
+  },
+  {
+    year: 2002,
+    age: 59,
+    title: "cholesterol",
+    Percent: 21.8
+  },
+  {
+    year: 2002,
+    age: 59,
+    title: "hypertension",
+    Percent: 52.6
+  },
+  {
+    year: 2002,
+    age: 59,
+    title: "obesity",
+    Percent: 32.2
+  },
+  {
+    year: 2002,
+    age: 99,
+    title: "cholesterol",
+    Percent: 11.8
+  },
+  {
+    year: 2002,
+    age: 99,
+    title: "hypertension",
+    Percent: 75.8
+  },
+  {
+    year: 2002,
+    age: 99,
+    title: "obesity",
+    Percent: 29.9
+  },
+  {
+    year: 2004,
+    age: 39,
+    title: "cholesterol",
+    Percent: 11.6
+  },
+  {
+    year: 2004,
+    age: 39,
+    title: "hypertension",
+    Percent: 28.8
+  },
+  {
+    year: 2004,
+    age: 39,
+    title: "obesity",
+    Percent: 28
+  },
+  {
+    year: 2004,
+    age: 59,
+    title: "cholesterol",
+    Percent: 23.3
+  },
+  {
+    year: 2004,
+    age: 59,
+    title: "hypertension",
+    Percent: 57.4
+  },
+  {
+    year: 2004,
+    age: 59,
+    title: "obesity",
+    Percent: 34.8
+  },
+  {
+    year: 2004,
+    age: 99,
+    title: "cholesterol",
+    Percent: 12.9
+  },
+  {
+    year: 2004,
+    age: 99,
+    title: "hypertension",
+    Percent: 76.9
+  },
+  {
+    year: 2004,
+    age: 99,
+    title: "obesity",
+    Percent: 30.4
+  },
+  {
+    year: 2006,
+    age: 39,
+    title: "cholesterol",
+    Percent: 10.8
+  },
+  {
+    year: 2006,
+    age: 39,
+    title: "hypertension",
+    Percent: 29.7
+  },
+  {
+    year: 2006,
+    age: 39,
+    title: "obesity",
+    Percent: 27.9
+  },
+  {
+    year: 2006,
+    age: 59,
+    title: "cholesterol",
+    Percent: 19.2
+  },
+  {
+    year: 2006,
+    age: 59,
+    title: "hypertension",
+    Percent: 53.6
+  },
+  {
+    year: 2006,
+    age: 59,
+    title: "obesity",
+    Percent: 39.6
+  },
+  {
+    year: 2006,
+    age: 99,
+    title: "cholesterol",
+    Percent: 10
+  },
+  {
+    year: 2006,
+    age: 99,
+    title: "hypertension",
+    Percent: 75.1
+  },
+  {
+    year: 2006,
+    age: 99,
+    title: "obesity",
+    Percent: 32.2
+  },
+  {
+    year: 2008,
+    age: 39,
+    title: "cholesterol",
+    Percent: 10.3
+  },
+  {
+    year: 2008,
+    age: 39,
+    title: "hypertension",
+    Percent: 25.8
+  },
+  {
+    year: 2008,
+    age: 39,
+    title: "obesity",
+    Percent: 27.4
+  },
+  {
+    year: 2008,
+    age: 59,
+    title: "cholesterol",
+    Percent: 19.5
+  },
+  {
+    year: 2008,
+    age: 59,
+    title: "hypertension",
+    Percent: 56.1
+  },
+  {
+    year: 2008,
+    age: 59,
+    title: "obesity",
+    Percent: 34.2
+  },
+  {
+    year: 2008,
+    age: 99,
+    title: "cholesterol",
+    Percent: 8.3
+  },
+  {
+    year: 2008,
+    age: 99,
+    title: "hypertension",
+    Percent: 74
+  },
+  {
+    year: 2008,
+    age: 99,
+    title: "obesity",
+    Percent: 37
+  },
+  {
+    year: 2010,
+    age: 39,
+    title: "cholesterol",
+    Percent: 9.3
+  },
+  {
+    year: 2010,
+    age: 39,
+    title: "hypertension",
+    Percent: 27.8
+  },
+  {
+    year: 2010,
+    age: 39,
+    title: "obesity",
+    Percent: 33.2
+  },
+  {
+    year: 2010,
+    age: 59,
+    title: "cholesterol",
+    Percent: 16.7
+  },
+  {
+    year: 2010,
+    age: 59,
+    title: "hypertension",
+    Percent: 50.9
+  },
+  {
+    year: 2010,
+    age: 59,
+    title: "obesity",
+    Percent: 37.2
+  },
+  {
+    year: 2010,
+    age: 99,
+    title: "cholesterol",
+    Percent: 9.9
+  },
+  {
+    year: 2010,
+    age: 99,
+    title: "hypertension",
+    Percent: 73.4
+  },
+  {
+    year: 2010,
+    age: 99,
+    title: "obesity",
+    Percent: 36.6
+  },
+  {
+    year: 2012,
+    age: 39,
+    title: "cholesterol",
+    Percent: 7.7
+  },
+  {
+    year: 2012,
+    age: 39,
+    title: "hypertension",
+    Percent: 28
+  },
+  {
+    year: 2012,
+    age: 39,
+    title: "obesity",
+    Percent: 29
+  },
+  {
+    year: 2012,
+    age: 59,
+    title: "cholesterol",
+    Percent: 17.3
+  },
+  {
+    year: 2012,
+    age: 59,
+    title: "hypertension",
+    Percent: 55.5
+  },
+  {
+    year: 2012,
+    age: 59,
+    title: "obesity",
+    Percent: 39.4
+  },
+  {
+    year: 2012,
+    age: 99,
+    title: "cholesterol",
+    Percent: 6.8
+  },
+  {
+    year: 2012,
+    age: 99,
+    title: "hypertension",
+    Percent: 75.2
+  },
+  {
+    year: 2012,
+    age: 99,
+    title: "obesity",
+    Percent: 32
+  },
+  {
+    year: "2013-2014",
+    age: 39,
+    title: "cholesterol",
+    Percent: 8.7
+  },
+  {
+    year: "2013-2014",
+    age: 39,
+    title: "hypertension",
+    Percent: 24.6
+  },
+  {
+    year: "2013-2014",
+    age: 39,
+    title: "obesity",
+    Percent: 31.6
+  },
+  {
+    year: "2013-2014",
+    age: 59,
+    title: "cholesterol",
+    Percent: 13.2
+  },
+  {
+    year: "2013-2014",
+    age: 59,
+    title: "hypertension",
+    Percent: 52
+  },
+  {
+    year: "2013-2014",
+    age: 59,
+    title: "obesity",
+    Percent: 37.2
+  },
+  {
+    year: "2013-2014",
+    age: 99,
+    title: "cholesterol",
+    Percent: 7.6
+  },
+  {
+    year: "2013-2014",
+    age: 99,
+    title: "hypertension",
+    Percent: 75.4
+  },
+  {
+    year: "2013-2014",
+    age: 99,
+    title: "obesity",
+    Percent: 37.5
+  },
+  {
+    year: 2016,
+    age: 39,
+    title: "cholesterol",
+    Percent: 9.1
+  },
+  {
+    year: 2016,
+    age: 39,
+    title: "hypertension",
+    Percent: 29.3
+  },
+  {
+    year: 2016,
+    age: 39,
+    title: "obesity",
+    Percent: 34.8
+  },
+  {
+    year: 2016,
+    age: 59,
+    title: "cholesterol",
+    Percent: 16.5
+  },
+  {
+    year: 2016,
+    age: 59,
+    title: "hypertension",
+    Percent: 56.5
+  },
+  {
+    year: 2016,
+    age: 59,
+    title: "obesity",
+    Percent: 40.8
+  },
+  {
+    year: 2016,
+    age: 99,
+    title: "cholesterol",
+    Percent: 6.9
+  },
+  {
+    year: 2016,
+    age: 99,
+    title: "hypertension",
+    Percent: 68.7
+  },
+  {
+    year: 2016,
+    age: 99,
+    title: "obesity",
+    Percent: 38.5
+  },
+  {
+    year: 2018,
+    age: 39,
+    title: "cholesterol",
+    Percent: 10
+  },
+  {
+    year: 2018,
+    age: 39,
+    title: "hypertension",
+    Percent: 33.5
+  },
+  {
+    year: 2018,
+    age: 39,
+    title: "obesity",
+    Percent: 40.3
+  },
+  {
+    year: 2018,
+    age: 59,
+    title: "cholesterol",
+    Percent: 12.3
+  },
+  {
+    year: 2018,
+    age: 59,
+    title: "hypertension",
+    Percent: 59.4
+  },
+  {
+    year: 2018,
+    age: 59,
+    title: "obesity",
+    Percent: 46.4
+  },
+  {
+    year: 2018,
+    age: 99,
+    title: "cholesterol",
+    Percent: 5.1
+  },
+  {
+    year: 2018,
+    age: 99,
+    title: "hypertension",
+    Percent: 75.2
+  },
+  {
+    year: 2018,
+    age: 99,
+    title: "obesity",
+    Percent: 42.2
+  }
+];
 export default class Rapid extends React.Component {
   constructor(props) {
     super(props);
@@ -2292,7 +3913,37 @@ export default class Rapid extends React.Component {
       highDate = Math.max(...dates),
       lowDate = Math.min(...dates);
     console.log(highDeaths);
+    let cholesterol = [];
+    let cholesterolData = [];
+    let hypertension = [];
+    let hypertensionData = [];
+    let obesity = [];
+    let obesityData = [];
+    const chosenAge = 39;
+    allobese.forEach((x) => {
+      if (x.age !== chosenAge) return null;
+      if (x.title === "cholesterol") {
+        cholesterol.push(x.Percent);
+        cholesterolData.push([x.year, x.Percent]);
+      } else if (x.title === "hypertension") {
+        hypertension.push(x.Percent);
+        hypertensionData.push([x.year, x.Percent]);
+      } else if (x.title === "obesity") {
+        obesity.push(x.Percent);
+        obesityData.push([x.year, x.Percent]);
+      }
+    });
+    const obese = [...cholesterol, ...hypertension, ...obesity];
+    var highObese = Math.max(...obese),
+      lowObese = Math.min(...obese);
     this.state = {
+      sex: "all",
+      yAxisObese: highObese - lowObese,
+      obesityData,
+      hypertensionData,
+      cholesterolData,
+      lowObese,
+      highObese,
       noData: [],
       deathsData: [],
       deathData,
@@ -2315,10 +3966,12 @@ export default class Rapid extends React.Component {
     }*/
     if (
       this.state.minAge !== this.state.lastMinAge ||
-      this.state.maxAge !== this.state.lastMaxAge
+      this.state.maxAge !== this.state.lastMaxAge ||
+      this.state.sex !== this.state.lastSex
     ) {
       this.setState(
         {
+          lastSex: this.state.sex,
           lastMaxAge: this.state.maxAge,
           lastMinAge: this.state.minAge
         },
@@ -2371,7 +4024,42 @@ export default class Rapid extends React.Component {
             highDate = Math.max(...dates),
             lowDate = Math.min(...dates);
           console.log(highDeaths);
+          let cholesterol = [];
+          let cholesterolData = [];
+          let hypertension = [];
+          let hypertensionData = [];
+          let obesity = [];
+          let obesityData = [];
+          const chosenAge =
+            this.state.maxAge > 59 ? 99 : this.state.maxAge > 39 ? 59 : 39;
+          (this.state.sex === "male"
+            ? maleobese
+            : this.state.sex === "female"
+            ? femaleobese
+            : allobese
+          ).forEach((x) => {
+            if (x.age !== chosenAge) return null;
+            if (x.title === "cholesterol") {
+              cholesterol.push(x.Percent);
+              cholesterolData.push([x.year, x.Percent]);
+            } else if (x.title === "hypertension") {
+              hypertension.push(x.Percent);
+              hypertensionData.push([x.year, x.Percent]);
+            } else if (x.title === "obesity") {
+              obesity.push(x.Percent);
+              obesityData.push([x.year, x.Percent]);
+            }
+          });
+          const obese = [...cholesterol, ...hypertension, ...obesity];
+          var highObese = Math.max(...obese),
+            lowObese = Math.min(...obese);
           this.setState({
+            yAxisObese: highObese - lowObese,
+            obesityData,
+            hypertensionData,
+            cholesterolData,
+            lowObese,
+            highObese,
             noData: [],
             deathsData: [],
             deathData,
@@ -2401,6 +4089,18 @@ export default class Rapid extends React.Component {
         ((y - this.state.lowDeaths) / yaxis) * 150
       ]);
     });
+    const obesityData = this.state.obesityData.map(([x, y]) => [
+      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
+      ((y - this.state.lowObese) / this.state.yAxisObese) * 150
+    ]);
+    const cholesterolData = this.state.cholesterolData.map(([x, y]) => [
+      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
+      ((y - this.state.lowObese) / this.state.yAxisObese) * 150
+    ]);
+    const hypertensionData = this.state.hypertensionData.map(([x, y]) => [
+      ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
+      ((y - this.state.lowObese) / this.state.yAxisObese) * 150
+    ]);
     const labelstyle = {
       backgroundColor: "rgba(50,120,200,.6)",
       top: "0px",
@@ -2472,6 +4172,54 @@ export default class Rapid extends React.Component {
                     )
                 );
               })}
+              {obesityData.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={2}
+                      height={2}
+                      stroke={"white"}
+                      fill="blue"
+                      strokeWidth={3}
+                      key={i}
+                    />
+                  )
+              )}
+              {cholesterolData.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={2}
+                      height={2}
+                      stroke={"green"}
+                      fill="blue"
+                      strokeWidth={3}
+                      key={i}
+                    />
+                  )
+              )}
+              {hypertensionData.map(
+                ([x, y], i) =>
+                  !isNaN(x) &&
+                  !isNaN(y) && (
+                    <rect
+                      x={x}
+                      y={y}
+                      width={2}
+                      height={2}
+                      stroke={"orange"}
+                      fill="blue"
+                      strokeWidth={3}
+                      key={i}
+                    />
+                  )
+              )}
             </svg>
           </div>
         </div>
@@ -2555,6 +4303,49 @@ export default class Rapid extends React.Component {
             }}
           />
           single
+        </div>
+        <div
+          style={{
+            cursor: "pointer",
+            display: "flex",
+            position: "absolute",
+            bottom: "20px"
+          }}
+        >
+          <a
+            style={{ color: "dodgerblue" }}
+            href="https://www.cdc.gov/nchs/nhanes/visualization/index.htm#data-tables"
+          >
+            NHANES
+          </a>
+          {space}
+          <div style={{ color: "green" }}>cholesterol</div>
+          <div style={{ color: "orange" }}>hypertension</div>
+          <div style={{ color: "white" }}>obesity</div>
+          {space}
+          <input
+            type="checkbox"
+            checked={["all", "male"].includes(this.state.sex)}
+            onChange={(e) => {
+              const sex = e.target.checked;
+              this.setState({
+                sex: this.state.sex === "female" ? "all" : "male"
+              });
+            }}
+          />
+          Male
+          <input
+            type="checkbox"
+            checked={["all", "female"].includes(this.state.sex)}
+            onChange={(e) => {
+              const sex = e.target.checked;
+              //console.log(sex);
+              this.setState({
+                sex: this.state.sex === "male" ? "all" : "female"
+              });
+            }}
+          />
+          Female
         </div>
       </div>
     );
