@@ -259,11 +259,21 @@ export default class App extends React.Component {
             <a href="https://www.quora.com/Why-are-developmental-disabilities-called-retardation-if-the-condition-doesn-t-degrade-over-time">
               retard
             </a>
-            : Do you like the government spending as a percentage of GDP in line
-            with its takeover of private values for pennywise degrowth or would
-            you prefer banning labor contracts for wholesale degrowth?
+            :{space}
+            <span style={{ fontSize: "12px" }}>
+              Do you like the government spending as a percentage of GDP in line
+              with its takeover of private values for pennywise degrowth or
+              would you prefer banning labor contracts for wholesale degrowth?
+            </span>
           </h1>
-          <h2>
+          Is the expected value variance of sample size or sectionals larger?
+          <h3>jester.com.co</h3>
+          <i>
+            Is an increase of a worker's real take-home pay and thereafter with
+            stable prices more often a shareholder loss or shrinkflation?
+          </i>
+          {space}
+          <b style={{ color: "lightgrey" }}>
             Who has seen monopoly and competition, except by their effects, that
             is, by their signs? Who has felt credit and property? What is
             collective force, division of labour and value? And yet, what is
@@ -298,7 +308,7 @@ export default class App extends React.Component {
             patient or doctor financially? Are the Democrats, Libertarians, Ron
             DeSantis, and the rest of the Republicans happy that Trump tripled
             checking?
-          </h2>
+          </b>
           <h3>
             Isn't income and growth loss the opposite of the cost of living
             inflation?
@@ -334,7 +344,7 @@ export default class App extends React.Component {
             <h3>arguments</h3>
           </button>
           <br />
-          <div style={setting(this.state.arguments)}>
+          <div style={{ ...setting(this.state.arguments), color: "lightgrey" }}>
             "Jewish Survivors relenting in poverty," but that is{space}
             <a href="https://courttechnology.quora.coms">equality</a>,
             competition, tech advancement (-GDP/p), Expected earlier retirement,
@@ -2352,9 +2362,7 @@ export default class App extends React.Component {
               .
             </div>
             <div
-              style={{
-                backgroundColor: "rgb(32, 22, 11)"
-              }}
+              style={{ color: "lightgrey", backgroundColor: "rgb(32, 22, 11)" }}
             >
               <h1>
                 I don't care what you do with your money or time. you cannot
