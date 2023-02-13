@@ -267,6 +267,8 @@ export default class App extends React.Component {
             </span>
           </h1>
           Is the expected value variance of sample size or sectionals larger?
+          Does an incremental random observation change the expected value in
+          proportion to its null covalence?
           <h3>jester.com.co</h3>
           <i>
             Is an increase of a worker's real take-home pay and thereafter with
@@ -12657,3 +12659,4 @@ export default class App extends React.Component {
     );
   }
 }
+
