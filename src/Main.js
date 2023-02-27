@@ -106,6 +106,15 @@ export default class Main extends React.Component {
           fontFamily: "'Kanit', sans-serif"
         }}
       >
+        <h2
+          style={{
+            float: "right",
+            cursor: "pointer"
+            //ceo manager jester.com.co (pr?)
+          }}
+        >
+          <a href="https://epiology.quora.com">epiology</a>
+        </h2>
         <div
           onClick={this.props.toggle}
           style={{
@@ -1092,3 +1101,4 @@ export default class Main extends React.Component {
     );
   }
 }
+
