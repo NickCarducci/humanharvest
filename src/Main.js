@@ -141,6 +141,8 @@ export default class Main extends React.Component {
         >
           Tripling checking was NOT constitutional that is dollar vote
         </div>
+        Mitosis or{space}
+        <a href="https://saverparty.xyz/jesus">Heaven after Earth</a>
         {/*gotta make the money although it WASN'T significant humanharvest.info*/}
         <div
           style={{
@@ -1101,4 +1103,3 @@ export default class Main extends React.Component {
     );
   }
 }
-
