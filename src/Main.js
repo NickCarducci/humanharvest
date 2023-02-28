@@ -1099,6 +1099,23 @@ export default class Main extends React.Component {
           3. not voting == budget reconciliation, 4. thetax.party.
           {/**goes to watch an old pink floyd video seeing the guy there for julian assange AGAIN */}
         </div>
+        100 allows significance confirmation
+        <br />
+        Don’t leave the cdc to do stats
+        <br />
+        If you read reports they can only show mitosis. How is that likely; What
+        function does the FBI and the Energy Department think the Wuhan Lab
+        gained in covid mitosis?
+        <br />
+        How might the lab have played a role if their only spreading function is
+        1/cell a day through mitosis?
+        <h2>
+          The collusion is Paul saying vaccines work: "it got out of control."
+          they couldn't do it in the lab but "found it outside" covalently.
+        </h2>
+        Aristocrats lived longer with baths; Indians need sewage (ability makes
+        price but need takes it); virus is in the spectre of cardiologists
+        <h3>Save the rats: ban NSF</h3>
       </div>
     );
   }
