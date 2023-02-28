@@ -1107,15 +1107,44 @@ export default class Main extends React.Component {
         function does the FBI and the Energy Department think the Wuhan Lab
         gained in covid mitosis?
         <br />
-        How might the lab have played a role if their only spreading function is
-        1/cell a day through mitosis?
+        How might the lab have played a role{space}
+        <span style={{ color: "firebrick" }}>
+          if their only spreading function is 1/cell a day through mitosis
+        </span>
+        ?
         <h2>
           The collusion is Paul saying vaccines work: "it got out of control."
           they couldn't do it in the lab but "found it outside" covalently.
         </h2>
-        Aristocrats lived longer with baths; Indians need sewage (ability makes
-        price but need takes it); virus is in the spectre of cardiologists
+        <span style={{ color: "forestgreen" }}>
+          Aristocrats lived longer with baths
+        </span>
+        ; Indians need sewage (ability makes price but need takes it); virus is
+        in the spectre of cardiologists
         <h3>Save the rats: ban NSF</h3>
+        Democrats don't affiliate themselves with Marxists why do you keep
+        taking about him. Why does marx still bother you guys.{space}
+        <span style={{ color: "dodgerblue" }}>
+          How can I do that centuries after I pass.
+        </span>
+        <br />
+        Every kid should have a tax advantaged account by 22 (
+        <span style={{ textDecoration: "underline" }}>vau.money/login</span>)
+        <br />
+        Marx says kids should work by 9 y.o. (
+        {/* Just read my summary I studied all 
+        political theory at JHU and all of Marx after 2015 */}
+        <span style={{ textDecoration: "underline" }}>
+          commie.dev; "science" site:www.marxists.org/archive/marx
+        </span>
+        )
+        <br />
+        If you swipe make sure you hit (
+        <span style={{ textDecoration: "underline" }}>jester.com.co</span>)
+        {/* Gary Johnson tok the fall for the third way */}
+        <br />I can organize your{/* fucking */ space}rec teams.
+        <h2>Save Taiwan and the elderly without USPTO</h2>
+        multi level intractable capital{/**ll banks are insolvent */}
       </div>
     );
   }
