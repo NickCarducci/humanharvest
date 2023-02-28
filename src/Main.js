@@ -1099,52 +1099,122 @@ export default class Main extends React.Component {
           3. not voting == budget reconciliation, 4. thetax.party.
           {/**goes to watch an old pink floyd video seeing the guy there for julian assange AGAIN */}
         </div>
-        100 allows significance confirmation
-        <br />
-        Don’t leave the cdc to do stats
-        <br />
-        If you read reports they can only show mitosis. How is that likely; What
-        function does the FBI and the Energy Department think the Wuhan Lab
-        gained in covid mitosis?
-        <br />
-        How might the lab have played a role{space}
-        <span style={{ color: "firebrick" }}>
-          if their only spreading function is 1/cell a day through mitosis
-        </span>
-        ?
-        <h2>
-          The collusion is Paul saying vaccines work: "it got out of control."
-          they couldn't do it in the lab but "found it outside" covalently.
-        </h2>
-        <span style={{ color: "forestgreen" }}>
-          Aristocrats lived longer with baths
-        </span>
-        ; Indians need sewage (ability makes price but need takes it); virus is
-        in the spectre of cardiologists
-        <h3>Save the rats: ban NSF</h3>
-        Democrats don't affiliate themselves with Marxists why do you keep
-        taking about him. Why does marx still bother you guys.{space}
-        <span style={{ color: "dodgerblue" }}>
-          How can I do that centuries after I pass.
-        </span>
-        <br />
-        Every kid should have a tax advantaged account by 22 (
-        <span style={{ textDecoration: "underline" }}>vau.money/login</span>)
-        <br />
-        Marx says kids should work by 9 y.o. (
-        {/* Just read my summary I studied all 
+        <div style={{ color: "grey" }}>
+          100 allows significance confirmation
+          <br />
+          Don’t leave the cdc to do stats
+          <br />
+          If you read reports they can only show mitosis. How is that likely;
+          What function does the FBI and the Energy Department think the Wuhan
+          Lab gained in covid mitosis?
+          <br />
+          How might the lab have played a role{space}
+          <span style={{ color: "firebrick" }}>
+            if their only spreading function is 1/cell a day through mitosis
+          </span>
+          ?
+          <h2>
+            The collusion is Paul saying vaccines work:{space}
+            <span style={{ fontSize: "16px" }}>
+              "it got out of control." they couldn't do it in the lab but "found
+              it outside" covalently.
+            </span>
+          </h2>
+          <span style={{ color: "forestgreen" }}>
+            Aristocrats lived longer with baths
+          </span>
+          ; Indians need sewage (ability makes price but need takes it); virus
+          is in the spectre of cardiologists
+          <h3>Save the rats: ban NSF</h3>
+          Democrats don't affiliate themselves with Marxists why do you keep
+          taking about him. Why does marx still bother you guys.{space}
+          <span style={{ color: "dodgerblue" }}>
+            How can I do that centuries after I pass.
+          </span>
+          <br />
+          Every kid should have a tax advantaged account by 22 (
+          <span style={{ textDecoration: "underline" }}>vau.money/login</span>)
+          <br />
+          Marx says kids should work by 9 y.o. (
+          {/* Just read my summary I studied all 
         political theory at JHU and all of Marx after 2015 */}
-        <span style={{ textDecoration: "underline" }}>
-          commie.dev; "science" site:www.marxists.org/archive/marx
-        </span>
-        )
-        <br />
-        If you swipe make sure you hit (
-        <span style={{ textDecoration: "underline" }}>jester.com.co</span>)
-        {/* Gary Johnson tok the fall for the third way */}
-        <br />I can organize your{/* fucking */ space}rec teams.
-        <h2>Save Taiwan and the elderly without USPTO</h2>
-        multi level intractable capital{/**ll banks are insolvent */}
+          <span style={{ textDecoration: "underline" }}>
+            commie.dev; "science" site:www.marxists.org/archive/marx
+          </span>
+          )
+          <br />
+          If you swipe make sure you hit (
+          <span style={{ textDecoration: "underline" }}>jester.com.co</span>)
+          {/* Gary Johnson tok the fall for the third way */}
+          <br />I can organize your{/* fucking */ space}rec teams.
+          <h2>Save Taiwan and the elderly without USPTO</h2>
+          multi level intractable capital{/**ll banks are insolvent */}
+          <br />
+          <br />
+          "Apple is privacy" but Ask App not to Track is a WebView function... (
+          <span style={{ textDecoration: "underline" }}>thumbprint.us</span>;
+          what non-advertising purpose is minimal viable duress? Product
+          developer or
+          {space}
+          <i>Third party donee beneficiary for cash</i>
+          {space}EULA)
+          <h1>
+            Wait for probate?{space}
+            <i style={{ fontSize: "16px" }}>
+              Is a bailout really the only way? Isnt this money laundering by
+              the Supreme Court
+            </i>
+          </h1>
+          <span style={{ color: "darkorchid" }}>
+            I’m stuck on cops being unable to say convenience yields
+          </span>
+          <br />
+          I can only afford YouTube plaintiff
+          <br />
+          Statutes enumerate classes of people
+          <br />
+          Uniform purpose certainly infringed Uniquely affected;{space}
+          <span style={{ color: "chocolate" }}>
+            inflation by layoffs is marginal, except for finance itself
+          </span>
+          .{space}
+          <i>
+            Collateral has no usury laws, neither does industry payday.
+            <br />
+            Based in finance, not the risk of retirement by technologists nor
+            vacations
+            <br />
+            The only problem with default is bad credit? That’s to restart the
+            problem.
+          </i>
+          {space}Attenuated by third party donee beneficiary right to own is at
+          least a permit for war.
+          <h2>
+            Needs take price: they only want to forgive personal debt,{space}
+            <span style={{ color: "black", fontSize: "16px" }}>
+              not foresclosure and debt service game-game{space}
+              <span style={{ textDecoration: "underline" }}>
+                bankingisnot.biz
+              </span>
+            </span>
+            .
+          </h2>
+          <br />
+          I will allow past loitering for mediating debt inflation (Plaintiff
+          payable taxsecurityfirst.com)
+          <br />
+          Dollars are reserve and interior stock.
+          <br />
+          Degree is merchant category context. Contractor receipts too.
+          <br />
+          I will allow past loitering for debt inflation mediation.
+          <br />
+          Warranty overtime.
+          <br />
+          Don’t leave the cdc to do a statistician’s work humanharvest.info
+          <br />
+          Industry variance confirms.
+        </div>
       </div>
     );
   }
