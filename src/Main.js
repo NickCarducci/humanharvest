@@ -194,6 +194,7 @@ export default class Main extends React.Component {
             generally prevalent?
           </b>
         </div>
+        Did atherosclerosis or algae come first?
         <br />
         <Rapid
           lastWidth={Math.min(600, this.state.lastWidth - 40)}
