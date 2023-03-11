@@ -126,6 +126,11 @@ export default class Main extends React.Component {
         >
           more
         </div>
+        Is significance that's{space}
+        <a href="https://twitter.com/Nickcarducci/status/1633600624314011648">
+          either usual or not
+        </a>
+        {space}meaningful?
         <h3
           style={{ textDecoration: "underline", cursor: "pointer" }}
           onClick={() => this.setState({ openZombie: !this.state.openZombie })}
