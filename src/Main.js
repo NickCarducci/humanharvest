@@ -1,4 +1,5 @@
 import React from "react";
+import TwitterTweetEmbed from "./TwitterTweetEmbed";
 import Cable from "./Dropwire"; //"react-dropwire";
 //import Cable from "./Dropwire"; //"react-dropwire";
 import { UAParser } from "ua-parser-js";
@@ -310,6 +311,10 @@ export default class Main extends React.Component {
               significance is a problem and/or test viruses one at a time?
             </i>
           </h2>
+          <h3 style={{ fontSize: "16px", color: "darksalmon" }}>
+            Has anyone demonstrated viral spread without mitosis with
+            immunofluorescent and electron microscopy?
+          </h3>
           Wouldn’t you need to test for all comparable causes of sickness to
           assess how exogenous covid is to outcomes are, first? Even if you are
           capturing prevalence, isn’t the test useless without testing for all
@@ -1134,6 +1139,7 @@ export default class Main extends React.Component {
           </h2>
           <span style={{ color: "forestgreen" }}>
             Aristocrats lived longer with baths
+            ([sewageisamatterofdomesticviolence,treesdebindCarbon,bacterium,epiology,actuaries,phyletic].quora.com)
           </span>
           ; Indians need sewage (ability makes price but need takes it); virus
           is in the spectre of cardiologists
@@ -1161,8 +1167,14 @@ export default class Main extends React.Component {
           <br />I can organize your{/* fucking */ space}rec teams.
           <h2>Save Taiwan and the elderly without USPTO</h2>
           multi level intractable capital{/**ll banks are insolvent */}
-          <br />
-          <br />
+          <TwitterTweetEmbed
+            style={{
+              overflowX: "auto"
+            }}
+            key="1635127386890203138"
+            tweetId="1635127386890203138"
+          />
+          <h3 style={{ float: "right" }}>browserglass.com</h3>
           "Apple is privacy" but Ask App not to Track is a WebView function... (
           <span style={{ textDecoration: "underline" }}>thumbprint.us</span>;
           what non-advertising purpose is minimal viable duress? Product
@@ -1170,6 +1182,7 @@ export default class Main extends React.Component {
           {space}
           <i>Third party donee beneficiary for cash</i>
           {space}EULA)
+          <h3 style={{ float: "left", padding: "10px" }}>vau.money</h3>
           <h1>
             Wait for probate?{space}
             <i style={{ fontSize: "16px" }}>
@@ -1183,7 +1196,8 @@ export default class Main extends React.Component {
           <br />
           I can only afford YouTube plaintiff
           <br />
-          Statutes enumerate classes of people
+          Statutes enumerate classes of people{space}
+          <span style={{ color: "black" }}>(saverparty.xyz)</span>
           <br />
           Uniform purpose certainly infringed Uniquely affected;{space}
           <span style={{ color: "chocolate" }}>
@@ -1213,7 +1227,7 @@ export default class Main extends React.Component {
           </h2>
           <br />
           I will allow past loitering for mediating debt inflation (Plaintiff
-          payable taxsecurityfirst.com)
+          payable taxsecurityfirst.com, 2024nj.com)
           <br />
           Dollars are reserve and interior stock.
           <br />
