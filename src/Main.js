@@ -822,6 +822,10 @@ export default class Main extends React.Component {
             lives? Don’t virologists have regard for more positive correlation
             with sewage and/or negative with bivariate, polyphyletic symptoms?
           </div>
+          <a href="https://vaults.biz/money" style={{ fontSize: "12px" }}>
+            If inflation is only certain products, isn’t non-inflationary growth
+            material benefit shrinkflation?
+          </a>
           <div
             style={{
               wordBreak: "break-word",
