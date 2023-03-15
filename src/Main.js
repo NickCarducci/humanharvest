@@ -126,7 +126,8 @@ export default class Main extends React.Component {
         >
           more
         </div>
-        Is significance that's{space}
+        Isn’t a significant occurrence declared secondarily to a sufficient
+        sample size? Is significance that's{space}
         <a href="https://twitter.com/Nickcarducci/status/1633600624314011648">
           either usual or not
         </a>
@@ -228,7 +229,8 @@ export default class Main extends React.Component {
         obesity nhanes way up 39
         <br />
         <br />
-        need 100 years for significance. Lies of cdc
+        need 100 years for significance. Lies of cdc (Isn’t a significant
+        occurrence declared secondarily to a sufficient sample size?)
         <br />
         <br />
         plandemic $7t (“
