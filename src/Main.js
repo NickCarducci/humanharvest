@@ -162,6 +162,10 @@ export default class Main extends React.Component {
         Mitosis or{space}
         <a href="https://saverparty.xyz/jesus">Heaven after Earth</a>
         {/*gotta make the money although it WASN'T significant humanharvest.info*/}
+        <br />
+        <br />
+        If a virus infects cells at the same rate as mitosis, is viral infection
+        contagious or atherosclerotic plaque?
         <div
           style={{
             transition: ".3s ease-in",
