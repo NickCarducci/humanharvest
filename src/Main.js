@@ -165,7 +165,13 @@ export default class Main extends React.Component {
         <br />
         <br />
         If a virus infects cells at the same rate as mitosis, is viral infection
-        contagious or atherosclerotic plaque?
+        contagious or atherosclerotic plaque?{space}
+        <span style={{ color: "grey" }}>
+          Can viruses directly induce atherosclerosis via their “direct
+          interactions” by infecting vascular cells and “multiplying in the
+          atherosclerotic plaque to accelerate infection”, or is
+          Multidisciplinary Digital Publishing Institute fake news?
+        </span>
         <div
           style={{
             transition: ".3s ease-in",
