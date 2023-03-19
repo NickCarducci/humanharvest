@@ -127,6 +127,17 @@ export default class Main extends React.Component {
         >
           more
         </div>
+        Has a virus been proven to spread without mitosis?
+        <br />
+        <br />
+        Has anyone demonstrated viral spread without mitosis with
+        immunofluorescent and electron microscopy?
+        <br />
+        <br />
+        Has anyone made a virus multiply faster than the mitosis of the cell
+        that's used?
+        <br />
+        <br />
         Isn’t a significant occurrence declared secondarily to a sufficient
         sample size? Is significance that's{space}
         <a href="https://twitter.com/Nickcarducci/status/1633600624314011648">
