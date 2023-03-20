@@ -735,6 +735,10 @@ export default class Main extends React.Component {
               confirmable placebo test measures vivo?
             </span>
           </h4>
+          <h3 style={{ fontSize: "12px" }}>
+            primary (truancy), plaintiff (workers' compensation), suture
+            (involuntary commitment)
+          </h3>
           <h3>Aren't significances expected to happen every 20-40 times?</h3>
           Significance of single-year will always have 1/20 significant
           single-year mortality. why is the government lying? should they{space}
@@ -809,7 +813,9 @@ export default class Main extends React.Component {
             <a href="https://www.reddit.com/r/Virology/comments/wr05mg/hightech_images_show_how_viruses_infect_cells/">
               weaponry
             </a>
-            {/*outside of their*/}.
+            {/*outside of their
+            
+            */}.
           </i>
           <br />
           What do you think caused infectious disease mortality to decline
@@ -821,9 +827,10 @@ export default class Main extends React.Component {
           ? toilet{">"}vaxx.{space}
           <i style={{ color: "grey" }}>garbage self dealing</i>
           <h3 style={{ fontSize: "12px" }}>
-            Can you volunteer into debt and pay it back at the same time? Why is
-            interest tax deductible while paying back debt is tax-free? (Profit
-            expended as net operating losses are 80% deductible){space}
+            Do you need to pay market price or can you volunteer into debt and
+            pay it back at the same time? Why is interest tax deductible while
+            paying back debt is tax-free? (Profit expended as net operating
+            losses are 80% deductible){space}
             <a
               href="https://www.quora.com/Could-the-United-States-legalise-healthcare/answer/Nick-Carducci"
               style={{ color: "navy" }}
@@ -1308,4 +1315,3 @@ export default class Main extends React.Component {
     );
   }
 }
-
