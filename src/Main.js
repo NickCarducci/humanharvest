@@ -578,6 +578,12 @@ export default class Main extends React.Component {
           account transfers only? Assume everyone can have their own FedCash
           account and be their own bank, if you would.
           <br />
+          <span style={{ fontSize: "12px" }}>
+            Are generous public policies unemployment benefits, NSF, and
+            employee retention credits or plaintiffs for usual product fraud,
+            suture compulsion for medical field practitioners, moving to learn
+            to code work camps, and either injury or trauma welfare?
+          </span>
           {this.state.openPoint && (
             <a href="https://www.nestseekers.com/agent/erin-sykes">
               <Cable
@@ -616,28 +622,27 @@ export default class Main extends React.Component {
                 I don't think the government here is who needs to learn
                 statistics. Best of luck to you. – Jeff Lambert
               </div>
-              {this.state.openPoint && (
-                <a href="https://politics.stackexchange.com/questions/77373/why-do-governments-and-institutions-claim-expected-significant-mortality-is-a-pa">
-                  <Cable
-                    style={{ maxWidth: "300px", width: "100%" }}
-                    onError={handleScollImgError}
-                    img={true}
-                    src={
-                      this.state.noyoutube
-                        ? ""
-                        : "https://www.dropbox.com/s/qnh743niv413496/Screen%20Shot%202022-12-29%20at%2012.08.17%20PM.png?raw=1"
-                    }
-                    float={null}
-                    title="https://politics.stackexchange.com/questions/77373/why-do-governments-and-institutions-claim-expected-significant-mortality-is-a-pa"
-                    scrolling={this.state.scrolling}
-                    fwd={this["scrollImg" + scrollnum()]}
-                    scrollTopAndHeight={
-                      this.state.scrollTop + window.innerHeight
-                    }
-                    scrollTop={!this.state.oldecon ? 0 : this.state.scrollTop}
-                  />
-                </a>
-              )}
+              <a href="https://politics.stackexchange.com/questions/77373/why-do-governments-and-institutions-claim-expected-significant-mortality-is-a-pa">
+                <Cable
+                  style={{
+                    maxWidth: "300px",
+                    width: this.state.openPoint ? "100%" : "0%"
+                  }}
+                  onError={handleScollImgError}
+                  img={true}
+                  src={
+                    this.state.noyoutube
+                      ? ""
+                      : "https://www.dropbox.com/s/qnh743niv413496/Screen%20Shot%202022-12-29%20at%2012.08.17%20PM.png?raw=1"
+                  }
+                  float={null}
+                  title="https://politics.stackexchange.com/questions/77373/why-do-governments-and-institutions-claim-expected-significant-mortality-is-a-pa"
+                  scrolling={this.state.scrolling}
+                  fwd={this["scrollImg" + scrollnum()]}
+                  scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+                  scrollTop={!this.state.oldecon ? 0 : this.state.scrollTop}
+                />
+              </a>
             </div>
           </h3>
           <h2>Are viruses a matter of epidemiology or cardiology?</h2>
