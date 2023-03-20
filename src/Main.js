@@ -578,32 +578,56 @@ export default class Main extends React.Component {
           account transfers only? Assume everyone can have their own FedCash
           account and be their own bank, if you would.
           <br />
-          <span style={{ fontSize: "12px" }}>
+          <span
+            style={{ fontSize: "12px" }}
+            //
+          >
             Are generous public policies unemployment benefits, NSF, and
             employee retention credits or plaintiffs for usual product fraud,
             suture compulsion for medical field practitioners, moving to learn
-            to code work camps, and either injury or trauma welfare?
+            to code work camps, and either injury or trauma welfare? (Does the
+            custody or dependency age rise with inflation? Do parents try to
+            take custody of their children’s works of art when they are
+            successful or in financial ruin?{space}
+            <i>
+              Are final goods or non disclosure agreements and studio labeled
+              instead of personally licensed works of art exclusionary to other
+              people?
+            </i>
+            {space}Can a parent sell their children’s works of art with custody
+            or are they protected by a limited family testamentary partnership?
+            Are inventories of final goods or medical care networks
+            exclusionary? Is illegal immigration by birthright fair or racist
+            and exclusionary? Why do banks invest in assets that may go
+            bankrupt? Should the government continue to tax mostly every
+            industry the same or should tax rates exactly reconcile with outlays
+            by merchant category code already? Should youth continue to go to
+            school and be homeschooled or save up for a primary residence
+            tax-free already?)
           </span>
-          {this.state.openPoint && (
-            <a href="https://www.nestseekers.com/agent/erin-sykes">
-              <Cable
-                style={{ maxWidth: "100px", width: "100%" }}
-                onError={handleScollImgError}
-                img={true}
-                src={
-                  this.state.noyoutube
-                    ? ""
-                    : "https://www.dropbox.com/s/sciszo40vrcp45x/erin%20sykes.jpeg?raw=1"
-                }
-                float="left"
-                title="https://www.nestseekers.com/agent/erin-sykes"
-                scrolling={this.state.scrolling}
-                fwd={this["scrollImg" + scrollnum()]}
-                scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-                scrollTop={!this.state.oldecon ? 0 : this.state.scrollTop}
-              />
-            </a>
-          )}
+          {space}
+          <a href="https://www.nestseekers.com/agent/erin-sykes">
+            <Cable
+              style={{
+                maxWidth: "100px",
+                width: this.state.openPoint ? "100%" : "0%",
+                transition: ".3s ease-in"
+              }}
+              onError={handleScollImgError}
+              img={true}
+              src={
+                this.state.noyoutube
+                  ? ""
+                  : "https://www.dropbox.com/s/sciszo40vrcp45x/erin%20sykes.jpeg?raw=1"
+              }
+              float="left"
+              title="https://www.nestseekers.com/agent/erin-sykes"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + scrollnum()]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={!this.state.oldecon ? 0 : this.state.scrollTop}
+            />
+          </a>
           close down{space}
           <a href="https://revenuedata.doi.gov">bureau of land management</a>
           {space}is that a threat, housing is how to gain? Plausible use lease
