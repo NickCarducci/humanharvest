@@ -736,8 +736,13 @@ export default class Main extends React.Component {
             </span>
           </h4>
           <h3 style={{ fontSize: "12px" }}>
-            primary (truancy), plaintiff (workers' compensation), suture
-            (involuntary commitment)
+            primary (truancy),{space}
+            <span style={{ color: "firebrick" }}>
+              plaintiff (workers' compensation)
+            </span>
+            , suture (involuntary commitment)
+            <br />
+            <span style={{ color: "firebrick" }}>recession tax</span>
           </h3>
           <h3>Aren't significances expected to happen every 20-40 times?</h3>
           Significance of single-year will always have 1/20 significant
@@ -1315,3 +1320,4 @@ export default class Main extends React.Component {
     );
   }
 }
+
