@@ -224,7 +224,16 @@ export default class Main extends React.Component {
             generally prevalent?
           </b>
         </div>
-        Did atherosclerosis or algae come first?
+        Did atherosclerosis or algae come first?{space}
+        <i>
+          Were laymen let to find the evidence that nobody has accelerated viral
+          infection by cell faster than the testing cell’s covalent cellular
+          division to stop epidemiology retirement or save face for
+          intentionally defrauding the public customers’ safety? Personal credit
+          lfp, collateral just realty. Although wanting people dead for
+          prejudicial matters and threats is legal, should these Americans be
+          able to own guns and operate businesses?
+        </i>
         <br />
         <Rapid
           lastWidth={Math.min(600, this.state.lastWidth - 40)}
