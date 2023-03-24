@@ -145,12 +145,23 @@ export default class Main extends React.Component {
         <a href="https://twitter.com/Nickcarducci/status/1633600624314011648">
           either usual or not
         </a>
-        {space}meaningful?
+        {space}meaningful?{space}
+        <i style={{ color: "grey" }}>
+          Does standardized guarantee insurance, pro-rated warranty, surety
+          advance, and merchant category codifiable invoice or immediate
+          collective wholesale bargain and become cheaper to pay the more it's
+          used? (socialtreaty.ru)
+        </i>
         <h3
-          style={{ textDecoration: "underline", cursor: "pointer" }}
           onClick={() => this.setState({ openZombie: !this.state.openZombie })}
         >
-          zombie physiological nonsense
+          <span style={{ textDecoration: "underline", cursor: "pointer" }}>
+            zombie
+          </span>
+          {space}physiological{space}
+          <a href="https://www.quora.com/What-is-the-difference-between-poverty-and-inequality-How-can-we-overcome-both-of-them-at-the-same-time/answer/Nick-Carducci">
+            nonsense
+          </a>
         </h3>
         <br />
         <div
