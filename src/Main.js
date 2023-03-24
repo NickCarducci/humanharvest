@@ -137,7 +137,7 @@ export default class Main extends React.Component {
         <br />
         <br />
         Has anyone made a virus multiply faster than the mitosis of the cell
-        that's used?
+        that's used? Do musculoskeletal or epidermal scars heal?
         <br />
         <br />
         Isn’t a significant occurrence declared secondarily to a sufficient
@@ -1329,4 +1329,3 @@ export default class Main extends React.Component {
     );
   }
 }
-
