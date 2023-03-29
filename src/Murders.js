@@ -422,6 +422,7 @@ export default class Murders extends React.Component {
     const labelstyle = {
       backgroundColor: "rgba(50,120,200,.6)",
       top: "0px",
+      justifyContent: "space-between",
       height: "min-content",
       display: "flex",
       maxWidth: "100%",
@@ -443,12 +444,17 @@ export default class Murders extends React.Component {
       <div style={{ ...this.props.style, position: "relative" }}>
         <div style={{ width: "100%", minHeight: "230px" }}>
           <div style={labelstyle}>
-            most annual homicides offending{" "}
-            {shortNumber(Math.round(this.state.highestDeaths /*/5 */))}:{space}
-            {lowDate}
-            {space}-{space}
-            {this.state.highDate}
+            <span>most annual homicides offending:</span>
+            <span>
+              <a href="https://nida.nih.gov/research-topics/trends-statistics/monitoring-future">
+                {lowDate}
+                {space}-{space}
+                {this.state.highDate}
+              </a>
+            </span>
           </div>
+          {shortNumber(Math.round(this.state.highDeaths /*/5 */)) + space}per
+          100,000
           <div style={{ transform: "translate(0px,200px)" }}>
             <svg
               className="all"
@@ -579,6 +585,13 @@ export default class Murders extends React.Component {
             bottom: "0px"
           }}
         >
+          <div
+            style={{
+              backgroundColor: "firebrick",
+              height: "10px",
+              width: "10px"
+            }}
+          />
           arson
           <input
             type="checkbox"
@@ -591,6 +604,46 @@ export default class Murders extends React.Component {
               });
             }}
           />
+          {space}
+          <div
+            style={{
+              backgroundColor: "white",
+              height: "10px",
+              width: "10px"
+            }}
+          />
+          vengence{space}
+          <div
+            style={{
+              backgroundColor: "orange",
+              height: "10px",
+              width: "10px"
+            }}
+          />
+          marijuana
+          {space}
+          <div
+            style={{
+              backgroundColor: "tan",
+              height: "10px",
+              width: "10px"
+            }}
+          />
+          <div
+            style={{
+              backgroundColor: "blue",
+              height: "10px",
+              width: "10px"
+            }}
+          />
+          <div
+            style={{
+              backgroundColor: "green",
+              height: "10px",
+              width: "10px"
+            }}
+          />
+          money
         </div>
         <div
           style={{
