@@ -444,7 +444,13 @@ export default class Murders extends React.Component {
       <div style={{ ...this.props.style, position: "relative" }}>
         <div style={{ width: "100%", minHeight: "230px" }}>
           <div style={labelstyle}>
-            <span>most annual homicides offending:</span>
+            <span>
+              most annual arsons{space}
+              <a href="https://time.com/6216504/fbi-crime-report-2021/">
+                offending
+              </a>
+              :
+            </span>
             <span>
               <a href="https://nida.nih.gov/research-topics/trends-statistics/monitoring-future">
                 {lowDate}
@@ -453,8 +459,13 @@ export default class Murders extends React.Component {
               </a>
             </span>
           </div>
-          {shortNumber(Math.round(this.state.highDeaths /*/5 */)) + space}per
-          100,000
+          <a
+            style={{ color: "darkviolet" }}
+            href="https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/home"
+          >
+            {shortNumber(Math.round(this.state.highDeaths /*/5 */)) + space}per
+            100,000
+          </a>
           <div style={{ transform: "translate(0px,200px)" }}>
             <svg
               className="all"
