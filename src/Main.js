@@ -6,6 +6,7 @@ import { UAParser } from "ua-parser-js";
 import Retro from "./retro";
 import Youth from "./Youth";
 import Rapid from "./rapid";
+import Murders from "./Murders";
 
 export default class Main extends React.Component {
   constructor(props) {
@@ -129,8 +130,16 @@ export default class Main extends React.Component {
         </div>
         Why would reasoning ever acquit a crime? Why are people who have done
         nothing wrong involuntarily committed to mental institutions? Should
-        Australians or gun rights activists decide who has guns in America?
-        <br />
+        Australians or gun rights activists decide who has guns in America? Can
+        any 8099 store purchase marijuana for a medical discount in New Jersey?
+        <Murders
+          lastWidth={Math.min(600, this.state.lastWidth - 40)}
+          style={{
+            marginTop: "20px",
+            paddingBottom: "50px",
+            backgroundColor: "rgb(190,150,180)"
+          }}
+        />
         <br />
         License usufruct lease
         <h2>Suture usual subpar product license duty!</h2>
@@ -1345,3 +1354,4 @@ export default class Main extends React.Component {
     );
   }
 }
+
