@@ -422,7 +422,8 @@ export default class Murders extends React.Component {
     const labelstyle = {
       backgroundColor: "rgba(50,120,200,.6)",
       top: "0px",
-      justifyContent: "space-between",
+      justifyContent:
+        this.props.lastWidth < 700 ? "space-between" : "flex-start",
       height: "min-content",
       display: "flex",
       maxWidth: "100%",
