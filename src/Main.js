@@ -141,6 +141,13 @@ export default class Main extends React.Component {
           }}
         />
         <br />
+        Does weed cause{space}
+        <a href="https://www.cdc.gov/nchs/nhis/nhis_2018_data_release.htm">
+          schizophrenia
+        </a>
+        ?
+        <br />
+        <br />
         License usufruct lease
         <h2>Suture usual subpar product license duty!</h2>
         Has a virus been proven to spread without mitosis?
@@ -1354,4 +1361,3 @@ export default class Main extends React.Component {
     );
   }
 }
-
