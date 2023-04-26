@@ -136,10 +136,12 @@ export default class Main extends React.Component {
         <br />
         Whom gets cosigned by expiry?
         <br />
-        <br />
-        Can slander instead of libel be used before evidence is reproducible?
-        <br />
-        <br />
+        <br /> inflation good for institutionalization
+        <h3 style={{ margin: "4px 0px" }}>
+          Labor can deflate: change.org/nickcarducci
+          <br />
+          Can slander instead of libel be used before evidence is reproducible?
+        </h3>
         Is actual reproducible evidence as liquid is good or capital?
         <br />
         <br />
