@@ -861,7 +861,7 @@ export default class Murders extends React.Component {
     });
     Object.keys(accidentsAge).forEach((key) => {
       let yearSet = [];
-      if (key !== "Population") return null;
+      if (key !== "Number") return null;
       var ages = accidentsAge[key];
       /*var age = 0,
         nineteens = yearSet.find((obj) => {
@@ -883,10 +883,8 @@ export default class Murders extends React.Component {
       });
     });
     console.log(allaccidents);
-    var highDeaths = Math.max(...all),
-      lowDeaths = Math.min(...all),
-      highAccidents = Math.max(...allaccidents),
-      lowAccidents = Math.min(...allaccidents),
+    var highDeaths = Math.max(...all, ...allaccidents),
+      lowDeaths = Math.min(...all, ...allaccidents),
       highDate = Math.max(...dates),
       lowDate = Math.min(...dates),
       highMoney = Math.max(...money),
@@ -904,10 +902,7 @@ export default class Murders extends React.Component {
       m2,
       lowMoney,
       highMoney,
-      lowAccidents,
       allAccidents,
-      highAccidents,
-      yAxisAccidents: highAccidents - lowAccidents,
       yAxisMoney: highMoney - lowMoney,
       yAxis: highDeaths - lowDeaths,
       xAxis: highDate - lowDate,
@@ -927,7 +922,7 @@ export default class Murders extends React.Component {
     ]);
     const allaccidents = this.state.allAccidents.map(([x, y]) => [
       ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
-      ((y - this.state.lowAccidents) / this.state.yAxisAccidents) * 150
+      ((y - this.state.lowDeaths) / this.state.yAxis) * 150
     ]);
     const alldeaths = this.state.alldeaths.map(([x, y]) => [
       ((x - lowDate) / this.state.xAxis) * this.props.lastWidth * 0.9,
