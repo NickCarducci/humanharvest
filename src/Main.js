@@ -128,42 +128,54 @@ export default class Main extends React.Component {
         >
           more
         </div>
-        Is extra appraisal responsible or is Zurich insurance grandiose?
-        <br />
-        <br />
-        Does insurance reduce or appraise hazard cost?
-        <br />
-        <br />
-        Whom gets cosigned by expiry?
-        <br />
-        <br /> inflation good for institutionalization
-        <h3 style={{ margin: "4px 0px" }}>
-          Labor can deflate: change.org/nickcarducci
-          <br />
-          Can slander instead of libel be used before evidence is reproducible?
-        </h3>
-        Is actual reproducible evidence as liquid is good or capital?
-        <br />
-        <br />
-        https://security.stackexchange.com/questions/269901/was-the-2020-u-s-election-unsusceptible-to-election-fraud
-        <div style={{ color: "white", backgroundColor: "grey" }}>
-          <h2 style={{ margin: "4px 0px" }}>shouldn't have settled fox...</h2>
-          Array Arrays with private and way with public id size jeez cron my
-          traffic correlation
+        <div
+          style={{
+            fontSize: "10px"
+          }}
+        >
+          Is extra appraisal responsible or is Zurich insurance grandiose?
           <br />
           <br />
-          Advisors quality assurance, meaning from evidence”
+          Does insurance reduce or appraise hazard cost?
           <br />
           <br />
-          Slander instead of libel can be used before evidence is reproducible!
-          I, Say!
+          Whom gets cosigned by expiry?
+          <br />
+          <br /> inflation good for institutionalization
+          <h3 style={{ margin: "4px 0px" }}>
+            Labor can deflate: change.org/nickcarducci
+            <br />
+            Can slander instead of libel be used before evidence is
+            reproducible?
+          </h3>
+          Is actual reproducible evidence as liquid is good or capital?
           <br />
           <br />
-          no history with cursing
-          <br />
-          <br />A commie.dev/police state
+          https://security.stackexchange.com/questions/269901/was-the-2020-u-s-election-unsusceptible-to-election-fraud
+          <div style={{ color: "white", backgroundColor: "grey" }}>
+            <h2 style={{ margin: "4px 0px" }}>shouldn't have settled fox...</h2>
+            Array Arrays with private and way with public id size jeez cron my
+            traffic correlation
+            <br />
+            <br />
+            Advisors quality assurance, meaning from evidence”
+            <br />
+            <br />
+            Slander instead of libel can be used before evidence is
+            reproducible! I, Say!
+            <br />
+            <br />
+            no history with cursing
+            <br />
+            <br />A commie.dev/police state
+          </div>
         </div>
-        <br />
+        <h3>
+          Is there an economic interest in failing the prisoners' dilemma in
+          cost-benefit analysis?
+          <br />
+          Is eating or smoking while driving more dangerous?
+        </h3>
         <br />
         Does labor expire the costs of living save for liquid goods or capital?
         <br />
@@ -1418,3 +1430,4 @@ export default class Main extends React.Component {
     );
   }
 }
+
