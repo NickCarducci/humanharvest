@@ -129,8 +129,26 @@ export default class Main extends React.Component {
           more
         </div>
         <div
+          style={{ border: "1px dashed", cursor: "pointer" }}
+          onClick={() => {
+            this.setState({
+              openabortion: !this.state.openabortion
+            });
+          }}
+        >
+          Are crime and punishment tool revocations criminal torture of
+          convicted prisoners? Are mental health facilities better than homeless
+          shelters with computer labs? Shouldn’t there be a jail instead of
+          prison just for abortion unit limit breaches?
+        </div>
+        <br />
+        <div
           style={{
-            fontSize: "10px"
+            display: "flex",
+            height: this.state.openabortion ? "" : "0px",
+            flexDirection: this.state.openabortion ? "column" : "",
+            fontSize: this.state.openabortion ? "10px" : "0px",
+            transition: ".3s ease-in"
           }}
         >
           Is extra appraisal responsible or is Zurich insurance grandiose?
@@ -169,38 +187,40 @@ export default class Main extends React.Component {
             <br />
             <br />A commie.dev/police state
           </div>
-        </div>
-        <h3>
-          Is there an economic interest in failing the prisoners' dilemma in
-          cost-benefit analysis?
+          <h3>
+            Is there an economic interest in failing the prisoners' dilemma in
+            cost-benefit analysis?
+            <br />
+            Is eating or smoking while driving more dangerous?
+          </h3>
           <br />
-          Is eating or smoking while driving more dangerous?
-        </h3>
-        <br />
-        Does labor expire the costs of living save for liquid goods or capital?
-        <br />
-        <br />
-        Can I sue my mom as payee toward housing my disability insurance
-        payments as reward of my helping them with their e-mail migration in the
-        amount of monthly income I saved their business?
-        <br />
-        <br />
-        Quora suits
-        <br />
-        <br />
-        Is institutionalization good for inflation
-        <br />
-        <br />
-        payday loans after the cost of living mortgage
-        <br />
-        <br />
-        home sale SSA sunset then truncated wholesale tax :)
-        <br />
-        <br />
-        Why would reasoning ever acquit a crime? Why are people who have done
-        nothing wrong involuntarily committed to mental institutions? Should
-        Australians or gun rights activists decide who has guns in America? Can
-        any 8099 store purchase marijuana for a medical discount in New Jersey?
+          Does labor expire the costs of living save for liquid goods or
+          capital?
+          <br />
+          <br />
+          Can I sue my mom as payee toward housing my disability insurance
+          payments as reward of my helping them with their e-mail migration in
+          the amount of monthly income I saved their business?
+          <br />
+          <br />
+          Quora suits
+          <br />
+          <br />
+          Is institutionalization good for inflation
+          <br />
+          <br />
+          payday loans after the cost of living mortgage
+          <br />
+          <br />
+          home sale SSA sunset then truncated wholesale tax :)
+          <br />
+          <br />
+          Why would reasoning ever acquit a crime? Why are people who have done
+          nothing wrong involuntarily committed to mental institutions? Should
+          Australians or gun rights activists decide who has guns in America?
+          Can any 8099 store purchase marijuana for a medical discount in New
+          Jersey?
+        </div>
         <Murders
           lastWidth={Math.min(600, this.state.lastWidth - 40)}
           style={{
@@ -1430,4 +1450,3 @@ export default class Main extends React.Component {
     );
   }
 }
-
