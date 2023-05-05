@@ -1526,7 +1526,7 @@ export default class Homeowners extends React.Component {
         <div style={{ width: "100%", minHeight: "230px" }}>
           <div style={labelstyle}>
             <span>
-              homeowners{space}
+              living-at-home/homeowners{space}
               <a href="https://www.census.gov/housing/hvs/data/histtabs.html">
                 census
               </a>
