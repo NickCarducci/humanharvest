@@ -7,6 +7,7 @@ import Retro from "./retro";
 import Youth from "./Youth";
 import Rapid from "./rapid";
 import Murders from "./Murders";
+import Homeowners from "./homeowners";
 
 export default class Main extends React.Component {
   constructor(props) {
@@ -287,6 +288,14 @@ export default class Main extends React.Component {
         {/*gotta make the money although it WASN'T significant humanharvest.info*/}
         <br />
         <br />
+        <Homeowners
+          lastWidth={Math.min(600, this.state.lastWidth - 40)}
+          style={{
+            marginTop: "20px",
+            paddingBottom: "50px",
+            backgroundColor: "rgb(190,150,180)"
+          }}
+        />
         If a virus infects cells at the same rate as mitosis, is viral infection
         contagious or atherosclerotic plaque?{space}
         <span style={{ color: "grey" }}>
