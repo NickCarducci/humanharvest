@@ -1438,46 +1438,78 @@ export default class Homeowners extends React.Component {
     };
   }
   componentDidUpdate = () => {
-    if (this.state.show80 !== this.state.lastShow80) {
-      this.setState({ lastShow80: this.state.show80 }, () => {
-        const minAge = 20,
-          maxAge = 34;
-        let dates = [];
-        let all = [];
-        let money = [];
-        let ages = {};
-        homeowners.forEach((arr) => {
-          const yr = arr[0];
-          dates.push(yr);
-          const name = arr[1];
-          //if (name === "Total") return null;
+    if (
+      this.state.show80 !== this.state.lastShow80 ||
+      this.state.byPopulation !== this.state.lastByPopulation
+    ) {
+      this.setState(
+        {
+          lastShow80: this.state.show80,
+          lastByPopulation: this.state.byPopulation
+        },
+        () => {
+          const minAge = 20,
+            maxAge = 34;
+          let dates = [];
+          let all = [];
+          let money = [];
+          let ages = {};
 
-          [22, 34, 39, 44, 49, 54, 59, 64, 69, 74, 80].forEach((x, i) => {
-            if (this.state.show80 && x > 70) return null;
-            if (!ages[x]) ages[x] = [];
-            all.push(arr[3 + i]);
-            ages[x].push([yr, arr[3 + i]]);
+          homeowners.forEach((arr) => {
+            const yr = arr[0];
+            dates.push(yr);
+            const name = arr[1];
+            //if (name === "Total") return null;
+
+            /*const Ages = Object.keys(yearlypop)
+              .map((year) => {
+                if (year === yr) {
+                  console.log(yr);
+                  return yearlypop[year];
+                } else return null;
+              })
+              .filter((x) => x);*/
+            [22, 34, 39, 44, 49, 54, 59, 64, 69, 74, 80].forEach((x, i) => {
+              if (this.state.show80 && x > 70) return null;
+              if (!ages[x]) ages[x] = [];
+              const pop = null; /*Object.keys(Ages)
+                .map((age) => {
+                  if (age === x) {
+                    return Ages[age];
+                  } else return null;
+                })
+                .filter((x) => x)[0];*/
+
+              var population = !this.state.byPopulation
+                ? 1
+                : pop && pop.constructor === Number
+                ? pop
+                : 1;
+              //console.log(yr, x, pop);
+              all.push(arr[3 + i] / population);
+              ages[x].push([yr, arr[3 + i] / population]);
+            });
           });
-        });
 
-        var highHomeownership = Math.max(...all),
-          lowHomeownership = Math.min(...all),
-          highDate = Math.max(...dates),
-          lowDate = Math.min(...dates);
+          var highHomeownership = Math.max(...all),
+            lowHomeownership = Math.min(...all),
+            highDate = Math.max(...dates),
+            lowDate = Math.min(...dates);
 
-        this.setState({
-          ages,
-          noData: [],
-          yAxis: highHomeownership - lowHomeownership,
-          xAxis: highDate - lowDate,
-          highHomeownership,
-          lowHomeownership,
-          highDate,
-          lowDate,
-          minAge,
-          maxAge
-        });
-      });
+          this.setState({
+            ages,
+            noData: [],
+            yAxis: highHomeownership - lowHomeownership,
+            xAxis: highDate - lowDate,
+            highHomeownership,
+            lowHomeownership,
+            highDate,
+            lowDate,
+            minAge,
+            maxAge
+          });
+        }
+      );
     }
   };
   render() {
@@ -1516,7 +1548,7 @@ export default class Homeowners extends React.Component {
     const space = " ";
     //console.log(deathsData);
     const Ages = [22, 34, 39, 44, 49, 54, 59, 64, 69, 74, 80];
-    console.log(this.state.selectedAge);
+    //console.log(this.state.selectedAge);
     var thisoneselected = null;
     Ages.forEach((x, i) => {
       if (x === this.state.selectedAge) thisoneselected = i;
@@ -1526,7 +1558,7 @@ export default class Homeowners extends React.Component {
         <div style={{ width: "100%", minHeight: "230px" }}>
           <div style={labelstyle}>
             <span>
-              living-at-home/homeowners{space}
+              homeowners{space}
               <a href="https://www.census.gov/housing/hvs/data/histtabs.html">
                 census
               </a>
@@ -1538,14 +1570,18 @@ export default class Homeowners extends React.Component {
               {this.state.highDate}
             </span>
           </div>
-          <a
-            style={{ color: "darkviolet" }}
-            href="https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/home"
+          <div
+            onClick={() => {
+              this.setState({
+                byPopulation: !this.state.byPopulation
+              });
+            }}
+            style={{ color: "darkviolet", cursor: "pointer" }}
           >
             {shortNumber(
               Math.round(this.state.highHomeownership * 1000 /*/5 */)
             ) + space}
-          </a>
+          </div>
           <div style={{ transform: "translate(0px,200px)" }}>
             <svg
               className="all"
@@ -1625,6 +1661,7 @@ export default class Homeowners extends React.Component {
           <input
             type="checkbox"
             checked={this.state.show80}
+            value={this.state.show80}
             onChange={(e) => {
               const show80 = e.target.checked;
               console.log(show80);
@@ -1637,7 +1674,7 @@ export default class Homeowners extends React.Component {
           <select
             value={this.state.selectedAge}
             onChange={(e) => {
-              this.setState({ selectedAge: e.target.value });
+              this.setState({ selectedAge: Number(e.target.value) });
             }}
           >
             {Ages.map((x) => {
@@ -1685,3 +1722,4 @@ export default class Homeowners extends React.Component {
     );
   }
 }
+
