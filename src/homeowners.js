@@ -1412,6 +1412,7 @@ export default class Homeowners extends React.Component {
       const yr = arr[0];
       dates.push(yr);
       const name = arr[1];
+      if (name === "Total") return null;
       [22, 34, 39, 44, 49, 54, 59, 64, 69, 74, 80].forEach((x, i) => {
         if (!ages[x]) ages[x] = [];
         all.push(arr[3 + i]);
@@ -1440,10 +1441,12 @@ export default class Homeowners extends React.Component {
   componentDidUpdate = () => {
     if (
       this.state.show80 !== this.state.lastShow80 ||
-      this.state.byPopulation !== this.state.lastByPopulation
+      this.state.byPopulation !== this.state.lastByPopulation ||
+      this.state.alloccupancy !== this.state.lastalloccpuancy
     ) {
       this.setState(
         {
+          lastalloccpuancy: this.state.alloccupancy,
           lastShow80: this.state.show80,
           lastByPopulation: this.state.byPopulation
         },
@@ -1458,8 +1461,9 @@ export default class Homeowners extends React.Component {
           homeowners.forEach((arr) => {
             const yr = arr[0];
             dates.push(yr);
-            const name = arr[1];
-            //if (name === "Total") return null;
+            const name = arr[1],
+              title = this.state.alloccupancy ? "Total" : "Owner";
+            if (name === title) return null;
 
             const Ages = Object.keys(yearlypop)
               .map((year) => {
@@ -1469,7 +1473,7 @@ export default class Homeowners extends React.Component {
                 } else return {};
               })
               .filter((x) => Object.keys(x).length > 0);
-            [].forEach((x, i) => {
+            [22, 34, 39, 44, 49, 54, 59, 64, 69, 74, 80].forEach((x, i) => {
               if (this.state.show80 && x > 70) return null;
               if (!ages[x]) ages[x] = [];
               const pop =
@@ -1663,14 +1667,28 @@ export default class Homeowners extends React.Component {
             bottom: "0px"
           }}
         >
-          <div
-            style={{
-              backgroundColor: "firebrick",
-              height: "10px",
-              width: "10px"
+          <span
+            onClick={() => {
+              this.setState({ alloccupancy: !this.state.alloccupancy });
             }}
-          />
-          living-at-home/homeownership
+          >
+            <div
+              style={{
+                backgroundColor: "firebrick",
+                height: "10px",
+                width: "10px"
+              }}
+            />
+            living-at-home/
+            <span
+              style={{
+                transition: ".3s ease-in",
+                color: this.state.alloccupancy ? "firebrick" : "black"
+              }}
+            >
+              homeownership
+            </span>
+          </span>
           {space}
           <input
             type="checkbox"
@@ -1736,3 +1754,4 @@ export default class Homeowners extends React.Component {
     );
   }
 }
+
