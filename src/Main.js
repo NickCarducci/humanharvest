@@ -304,6 +304,115 @@ export default class Main extends React.Component {
           atherosclerotic plaque to accelerate infection”, or is
           Multidisciplinary Digital Publishing Institute fake news?
         </span>
+        <br />
+        <table>
+          <thead>
+            <tr>
+              <th>
+                <span>Indeed</span>
+              </th>
+              <th>
+                <span>Letter Grade</span>
+              </th>
+              <th>
+                <span>Standards-Based grade</span>
+              </th>
+              <th>
+                <span>Percentage GPA</span>
+              </th>
+              <th>
+                <span>Standard GPA</span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <span>Expert</span>
+              </td>
+              <td>
+                <span>A to A+</span>
+              </td>
+              <td>
+                <span>Mastery</span>
+              </td>
+              <td>
+                <span>93-100</span>
+              </td>
+              <td>
+                <span>4.0</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span>Highly Proficient</span>
+              </td>
+              <td>
+                <span>A- to B</span>
+              </td>
+              <td>
+                <span>Proficient</span>
+              </td>
+              <td>
+                <span>90-83</span>
+              </td>
+              <td>
+                <span>3.0 to 3.7</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span>Proficient</span>
+              </td>
+              <td>
+                <span>C to B-</span>
+              </td>
+              <td>
+                <span>Approaching proficiency</span>
+              </td>
+              <td>
+                <span>73-82</span>
+              </td>
+              <td>
+                <span>2.0-2.7</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span>Familiar</span>
+              </td>
+              <td>
+                <span>D to C-</span>
+              </td>
+              <td>
+                <span>Below Proficiency</span>
+              </td>
+              <td>
+                <span>65-72</span>
+              </td>
+              <td>
+                <span>1.0-1.7</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span>Completed</span>
+              </td>
+              <td>
+                <span>F</span>
+              </td>
+              <td>
+                <span>Below Proficiency</span>
+              </td>
+              <td>
+                <span>Below 65</span>
+              </td>
+              <td>
+                <span>0.0</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
         <div
           style={{
             transition: ".3s ease-in",
