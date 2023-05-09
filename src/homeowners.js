@@ -1461,33 +1461,42 @@ export default class Homeowners extends React.Component {
             const name = arr[1];
             //if (name === "Total") return null;
 
-            /*const Ages = Object.keys(yearlypop)
+            const Ages = Object.keys(yearlypop)
               .map((year) => {
-                if (year === yr) {
-                  console.log(yr);
+                if (Number(year) === Number(yr)) {
+                  //console.log(yr);
                   return yearlypop[year];
-                } else return null;
+                } else return {};
               })
-              .filter((x) => x);*/
-            [22, 34, 39, 44, 49, 54, 59, 64, 69, 74, 80].forEach((x, i) => {
+              .filter((x) => Object.keys(x).length > 0);
+            [].forEach((x, i) => {
               if (this.state.show80 && x > 70) return null;
               if (!ages[x]) ages[x] = [];
-              const pop = null; /*Object.keys(Ages)
-                .map((age) => {
-                  if (age === x) {
-                    return Ages[age];
-                  } else return null;
-                })
-                .filter((x) => x)[0];*/
-
+              const pop =
+                Ages[0] &&
+                Object.keys(Ages[0])
+                  .map((age) => {
+                    if (age < 85 && age > 19 && Number(age) === Number(x)) {
+                      return Ages[0][age];
+                    } else return "";
+                  })
+                  .filter((x) => x.constructor === Number)[0];
+              //console.log(pop);
               var population = !this.state.byPopulation
                 ? 1
                 : pop && pop.constructor === Number
-                ? pop
-                : 1;
-              //console.log(yr, x, pop);
-              all.push(arr[3 + i] / population);
-              ages[x].push([yr, arr[3 + i] / population]);
+                ? pop / 1000
+                : 0;
+              //console.log(yr, x, arr[3 + i], pop);
+              population !== 0 &&
+                all.push(
+                  population !== 1 ? population / arr[3 + i] : arr[3 + i]
+                );
+              population !== 0 &&
+                ages[x].push([
+                  yr,
+                  population !== 1 ? population / arr[3 + i] : arr[3 + i]
+                ]);
             });
           });
 
@@ -1578,9 +1587,14 @@ export default class Homeowners extends React.Component {
             }}
             style={{ color: "darkviolet", cursor: "pointer" }}
           >
-            {shortNumber(
-              Math.round(this.state.highHomeownership * 1000 /*/5 */)
+            {(!this.state.byPopulation ? shortNumber : (x) => x)(
+              Math.round(
+                this.state.highHomeownership *
+                  (!this.state.byPopulation ? 1000 : 1) /*/5 */
+              )
             ) + space}
+            {!this.state.byPopulation ? " " : "-to-one group home "}
+            22, 34, 39, 44, 49, 54, 59, 64, 69, 74, 80
           </div>
           <div style={{ transform: "translate(0px,200px)" }}>
             <svg
@@ -1722,4 +1736,3 @@ export default class Homeowners extends React.Component {
     );
   }
 }
-
