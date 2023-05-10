@@ -1462,7 +1462,12 @@ export default class Homeowners extends React.Component {
             const yr = arr[0];
             dates.push(yr);
             const name = arr[1],
-              title = this.state.alloccupancy ? "Total" : "Owner";
+              title =
+                this.state.alloccupancy === 1
+                  ? ""
+                  : this.state.alloccupancy
+                  ? "Total"
+                  : "Owner";
             if (name === title) return null;
 
             const Ages = Object.keys(yearlypop)
@@ -1669,7 +1674,12 @@ export default class Homeowners extends React.Component {
         >
           <span
             onClick={() => {
-              this.setState({ alloccupancy: !this.state.alloccupancy });
+              this.setState({
+                alloccupancy:
+                  this.state.alloccupancy && this.state.alloccupancy !== 1
+                    ? 1
+                    : !this.state.alloccupancy
+              });
             }}
           >
             <div
@@ -1679,7 +1689,15 @@ export default class Homeowners extends React.Component {
                 width: "10px"
               }}
             />
-            living-at-home/
+            <span
+              style={{
+                transition: ".3s ease-in",
+                color: this.state.alloccupancy === 1 ? "firebrick" : "black"
+              }}
+            >
+              living-at-home
+            </span>
+            {this.state.alloccupancy === 1 ? "+" : "/"}
             <span
               style={{
                 transition: ".3s ease-in",
