@@ -4226,13 +4226,26 @@ export default class Rapid extends React.Component {
         </div>
         <div
           style={{
+            height: "20px",
             cursor: "pointer",
             display: "flex",
             position: "absolute",
             bottom: "0px"
           }}
         >
+          <div
+            style={{ padding: "10px" }}
+            onClick={() => {
+              const maxAge = this.state.maxAge - 1;
+              this.setState({
+                maxAge: maxAge > -1 ? maxAge : this.state.maxAge
+              });
+            }}
+          >
+            {"<"}
+          </div>
           <input
+            style={{ height: "20px", width: "40px" }}
             type="number"
             onChange={(e) => {
               const minAge = e.target.value;
@@ -4241,6 +4254,7 @@ export default class Rapid extends React.Component {
             value={this.state.minAge}
           />
           <input
+            style={{ height: "20px", width: "40px" }}
             type="number"
             onChange={(e) => {
               const maxAge = e.target.value;
@@ -4251,6 +4265,17 @@ export default class Rapid extends React.Component {
             }}
             value={this.state.maxAge}
           />
+          <div
+            style={{ padding: "10px" }}
+            onClick={() => {
+              const maxAge = this.state.maxAge + 1;
+              this.setState({
+                maxAge: maxAge < 101 ? maxAge : this.state.maxAge
+              });
+            }}
+          >
+            {">"}
+          </div>
           <div
             onClick={() => {
               this.setState({ maxAge: 84, minAge: 72 });
@@ -4352,3 +4377,4 @@ export default class Rapid extends React.Component {
     );
   }
 }
+
