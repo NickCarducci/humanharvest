@@ -8,6 +8,7 @@ import Youth from "./Youth";
 import Rapid from "./rapid";
 import Murders from "./Murders";
 import Homeowners from "./homeowners";
+import MotorDeaths from "./motordeaths";
 
 export default class Main extends React.Component {
   constructor(props) {
@@ -237,6 +238,14 @@ export default class Main extends React.Component {
         </a>
         ?
         <br />
+        <MotorDeaths
+          lastWidth={Math.min(600, this.state.lastWidth - 40)}
+          style={{
+            marginTop: "20px",
+            paddingBottom: "50px",
+            backgroundColor: "rgb(190,150,180)"
+          }}
+        />
         <br />
         <a href="https://www.dhs.gov/immigration-statistics/population-estimates/unauthorized-resident">
           <Cable
