@@ -2722,6 +2722,11 @@ export default class MotorDeaths extends React.Component {
                 fatalities
               </a>
             </span>
+            <span>
+              {lowDate}
+              {space}-{space}
+              {this.state.highDate}
+            </span>
           </div>
           <a
             style={{ color: "darkviolet" }}
@@ -2804,3 +2809,4 @@ export default class MotorDeaths extends React.Component {
     );
   }
 }
+
