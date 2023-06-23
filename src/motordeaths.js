@@ -2,2604 +2,2604 @@ import React from "react";
 import { linecss, shortNumber } from "./vaxx";
 
 const motordeaths = {
-  "United States": [
-    {
-      year: 2015,
-      rate: 1.5
-    },
-    {
-      year: 2014,
-      rate: 11.1
-    },
-    {
-      year: 2013,
-      rate: 11.2
-    },
-    {
-      year: 2011,
-      rate: 11.3
-    },
-    {
-      year: 2010,
-      rate: 11.4
-    },
-    {
-      year: 2012,
-      rate: 11.6
-    },
-    {
-      year: 2019,
-      rate: 11.9
-    },
-    {
-      year: 2018,
-      rate: 12
-    },
-    {
-      year: 2017,
-      rate: 12.3
-    },
-    {
-      year: 2016,
-      rate: 12.5
-    },
-    {
-      year: 2020,
-      rate: 12.9
-    },
-    {
-      year: 2021,
-      rate: 14.2
-    }
-  ],
-  "District of Columbia": [
-    {
-      year: 2012,
-      rate: 3
-    },
-    {
-      year: 2013,
-      rate: 4.6
-    },
-    {
-      year: 2017,
-      rate: 4.8
-    },
-    {
-      year: 2016,
-      rate: 5
-    },
-    {
-      year: 2014,
-      rate: 5.6
-    },
-    {
-      year: 2018,
-      rate: 6
-    },
-    {
-      year: 2011,
-      rate: 6.1
-    },
-    {
-      year: 2019,
-      rate: 6.2
-    },
-    {
-      year: 2020,
-      rate: 6.2
-    },
-    {
-      year: 2010,
-      rate: 6.3
-    },
-    {
-      year: 2015,
-      rate: 6.4
-    },
-    {
-      year: 2021,
-      rate: 8.8
-    }
-  ],
-  "Rhode Island": [
-    {
-      year: 2015,
-      rate: 5.2
-    },
-    {
-      year: 2016,
-      rate: 5.5
-    },
-    {
-      year: 2014,
-      rate: 5.9
-    },
-    {
-      year: 2012,
-      rate: 6.1
-    },
-    {
-      year: 2018,
-      rate: 6.5
-    },
-    {
-      year: 2019,
-      rate: 7
-    },
-    {
-      year: 2020,
-      rate: 7
-    },
-    {
-      year: 2011,
-      rate: 7.2
-    },
-    {
-      year: 2013,
-      rate: 7.3
-    },
-    {
-      year: 2021,
-      rate: 7.4
-    },
-    {
-      year: 2010,
-      rate: 8.6
-    },
-    {
-      year: 2017,
-      rate: 9.9
-    }
-  ],
-  "New York": [
-    {
-      year: 2018,
-      rate: 5.4
-    },
-    {
-      year: 2014,
-      rate: 5.8
-    },
-    {
-      year: 2016,
-      rate: 5.8
-    },
-    {
-      year: 2017,
-      rate: 5.8
-    },
-    {
-      year: 2019,
-      rate: 5.8
-    },
-    {
-      year: 2012,
-      rate: 5.9
-    },
-    {
-      year: 2015,
-      rate: 6
-    },
-    {
-      year: 2020,
-      rate: 6.2
-    },
-    {
-      year: 2013,
-      rate: 6.7
-    },
-    {
-      year: 2010,
-      rate: 6.8
-    },
-    {
-      year: 2011,
-      rate: 6.9
-    },
-    {
-      year: 2021,
-      rate: 7
-    }
-  ],
-  Massachusetts: [
-    {
-      year: 2013,
-      rate: 5.6
-    },
-    {
-      year: 2020,
-      rate: 5.6
-    },
-    {
-      year: 2012,
-      rate: 5.7
-    },
-    {
-      year: 2019,
-      rate: 5.7
-    },
-    {
-      year: 2015,
-      rate: 5.8
-    },
-    {
-      year: 2018,
-      rate: 5.8
-    },
-    {
-      year: 2010,
-      rate: 5.9
-    },
-    {
-      year: 2011,
-      rate: 6
-    },
-    {
-      year: 2014,
-      rate: 6.1
-    },
-    {
-      year: 2017,
-      rate: 6.1
-    },
-    {
-      year: 2021,
-      rate: 6.6
-    },
-    {
-      year: 2016,
-      rate: 6.8
-    }
-  ],
-  Washington: [
-    {
-      year: 2012,
-      rate: 6.3
-    },
-    {
-      year: 2013,
-      rate: 7.7
-    },
-    {
-      year: 2011,
-      rate: 8.1
-    },
-    {
-      year: 2010,
-      rate: 8.2
-    },
-    {
-      year: 2014,
-      rate: 8.2
-    },
-    {
-      year: 2019,
-      rate: 8.3
-    },
-    {
-      year: 2016,
-      rate: 8.5
-    },
-    {
-      year: 2015,
-      rate: 8.9
-    },
-    {
-      year: 2018,
-      rate: 8.9
-    },
-    {
-      year: 2020,
-      rate: 8.9
-    },
-    {
-      year: 2017,
-      rate: 9
-    },
-    {
-      year: 2021,
-      rate: 9.9
-    }
-  ],
-  "New Jersey": [
-    {
-      year: 2013,
-      rate: 6.3
-    },
-    {
-      year: 2014,
-      rate: 6.4
-    },
-    {
-      year: 2010,
-      rate: 6.6
-    },
-    {
-      year: 2012,
-      rate: 6.6
-    },
-    {
-      year: 2015,
-      rate: 6.6
-    },
-    {
-      year: 2018,
-      rate: 6.7
-    },
-    {
-      year: 2019,
-      rate: 6.7
-    },
-    {
-      year: 2016,
-      rate: 7
-    },
-    {
-      year: 2020,
-      rate: 7
-    },
-    {
-      year: 2017,
-      rate: 7.2
-    },
-    {
-      year: 2011,
-      rate: 7.6
-    },
-    {
-      year: 2021,
-      rate: 7.7
-    }
-  ],
-  Hawaii: [
-    {
-      year: 2020,
-      rate: 6.3
-    },
-    {
-      year: 2021,
-      rate: 6.6
-    },
-    {
-      year: 2015,
-      rate: 7.3
-    },
-    {
-      year: 2017,
-      rate: 7.4
-    },
-    {
-      year: 2014,
-      rate: 7.6
-    },
-    {
-      year: 2011,
-      rate: 7.8
-    },
-    {
-      year: 2013,
-      rate: 8
-    },
-    {
-      year: 2018,
-      rate: 8.1
-    },
-    {
-      year: 2019,
-      rate: 8.5
-    },
-    {
-      year: 2012,
-      rate: 9
-    },
-    {
-      year: 2010,
-      rate: 9.1
-    },
-    {
-      year: 2016,
-      rate: 9.5
-    }
-  ],
-  Connecticut: [
-    {
-      year: 2011,
-      rate: 6.5
-    },
-    {
-      year: 2012,
-      rate: 7.4
-    },
-    {
-      year: 2019,
-      rate: 7.5
-    },
-    {
-      year: 2014,
-      rate: 7.6
-    },
-    {
-      year: 2015,
-      rate: 8
-    },
-    {
-      year: 2017,
-      rate: 8.2
-    },
-    {
-      year: 2013,
-      rate: 8.3
-    },
-    {
-      year: 2016,
-      rate: 8.5
-    },
-    {
-      year: 2018,
-      rate: 8.5
-    },
-    {
-      year: 2020,
-      rate: 9.1
-    },
-    {
-      year: 2021,
-      rate: 9.2
-    },
-    {
-      year: 2010,
-      rate: 9.3
-    }
-  ],
-  Minnesota: [
-    {
-      year: 2012,
-      rate: 7.3
-    },
-    {
-      year: 2014,
-      rate: 7.9
-    },
-    {
-      year: 2019,
-      rate: 8
-    },
-    {
-      year: 2017,
-      rate: 8.1
-    },
-    {
-      year: 2011,
-      rate: 8.6
-    },
-    {
-      year: 2013,
-      rate: 8.6
-    },
-    {
-      year: 2016,
-      rate: 8.6
-    },
-    {
-      year: 2015,
-      rate: 8.7
-    },
-    {
-      year: 2018,
-      rate: 8.7
-    },
-    {
-      year: 2020,
-      rate: 8.8
-    },
-    {
-      year: 2010,
-      rate: 9.7
-    },
-    {
-      year: 2021,
-      rate: 10.6
-    }
-  ],
-  Vermont: [
-    {
-      year: 2014,
-      rate: 7.3
-    },
-    {
-      year: 2015,
-      rate: 8.6
-    },
-    {
-      year: 2019,
-      rate: 9.1
-    },
-    {
-      year: 2011,
-      rate: 9.9
-    },
-    {
-      year: 2016,
-      rate: 10.7
-    },
-    {
-      year: 2020,
-      rate: 10.9
-    },
-    {
-      year: 2021,
-      rate: 11.2
-    },
-    {
-      year: 2013,
-      rate: 11.8
-    },
-    {
-      year: 2018,
-      rate: 12
-    },
-    {
-      year: 2010,
-      rate: 12.2
-    },
-    {
-      year: 2012,
-      rate: 12.3
-    },
-    {
-      year: 2017,
-      rate: 13
-    }
-  ],
-  Illinois: [
-    {
-      year: 2012,
-      rate: 7.4
-    },
-    {
-      year: 2010,
-      rate: 8.1
-    },
-    {
-      year: 2011,
-      rate: 8.3
-    },
-    {
-      year: 2014,
-      rate: 8.3
-    },
-    {
-      year: 2015,
-      rate: 8.6
-    },
-    {
-      year: 2013,
-      rate: 8.7
-    },
-    {
-      year: 2019,
-      rate: 9.1
-    },
-    {
-      year: 2016,
-      rate: 9.2
-    },
-    {
-      year: 2018,
-      rate: 9.4
-    },
-    {
-      year: 2017,
-      rate: 9.6
-    },
-    {
-      year: 2020,
-      rate: 10.5
-    },
-    {
-      year: 2021,
-      rate: 11.6
-    }
-  ],
-  Utah: [
-    {
-      year: 2012,
-      rate: 7.6
-    },
-    {
-      year: 2019,
-      rate: 7.7
-    },
-    {
-      year: 2013,
-      rate: 7.9
-    },
-    {
-      year: 2018,
-      rate: 8.2
-    },
-    {
-      year: 2014,
-      rate: 8.8
-    },
-    {
-      year: 2016,
-      rate: 9.3
-    },
-    {
-      year: 2015,
-      rate: 9.4
-    },
-    {
-      year: 2017,
-      rate: 9.4
-    },
-    {
-      year: 2010,
-      rate: 9.8
-    },
-    {
-      year: 2011,
-      rate: 9.8
-    },
-    {
-      year: 2020,
-      rate: 9.9
-    },
-    {
-      year: 2021,
-      rate: 10.6
-    }
-  ],
-  California: [
-    {
-      year: 2010,
-      rate: 7.8
-    },
-    {
-      year: 2012,
-      rate: 8
-    },
-    {
-      year: 2011,
-      rate: 8.1
-    },
-    {
-      year: 2013,
-      rate: 8.8
-    },
-    {
-      year: 2014,
-      rate: 8.9
-    },
-    {
-      year: 2015,
-      rate: 9.5
-    },
-    {
-      year: 2019,
-      rate: 10.2
-    },
-    {
-      year: 2018,
-      rate: 10.5
-    },
-    {
-      year: 2016,
-      rate: 10.6
-    },
-    {
-      year: 2017,
-      rate: 10.6
-    },
-    {
-      year: 2020,
-      rate: 11.3
-    },
-    {
-      year: 2021,
-      rate: 12.7
-    }
-  ],
-  Maryland: [
-    {
-      year: 2014,
-      rate: 7.9
-    },
-    {
-      year: 2018,
-      rate: 8.5
-    },
-    {
-      year: 2012,
-      rate: 8.6
-    },
-    {
-      year: 2015,
-      rate: 8.6
-    },
-    {
-      year: 2011,
-      rate: 8.8
-    },
-    {
-      year: 2010,
-      rate: 8.9
-    },
-    {
-      year: 2013,
-      rate: 9
-    },
-    {
-      year: 2019,
-      rate: 9.2
-    },
-    {
-      year: 2016,
-      rate: 9.4
-    },
-    {
-      year: 2017,
-      rate: 9.5
-    },
-    {
-      year: 2020,
-      rate: 10.4
-    },
-    {
-      year: 2021,
-      rate: 10.7
-    }
-  ],
-  "New Hampshire": [
-    {
-      year: 2019,
-      rate: 7.9
-    },
-    {
-      year: 2012,
-      rate: 8
-    },
-    {
-      year: 2015,
-      rate: 8
-    },
-    {
-      year: 2017,
-      rate: 8
-    },
-    {
-      year: 2014,
-      rate: 8.1
-    },
-    {
-      year: 2011,
-      rate: 8.9
-    },
-    {
-      year: 2020,
-      rate: 8.9
-    },
-    {
-      year: 2016,
-      rate: 9.9
-    },
-    {
-      year: 2010,
-      rate: 10.3
-    },
-    {
-      year: 2013,
-      rate: 10.4
-    },
-    {
-      year: 2021,
-      rate: 10.4
-    },
-    {
-      year: 2018,
-      rate: 11.1
-    }
-  ],
-  Alaska: [
-    {
-      year: 2012,
-      rate: 8.1
-    },
-    {
-      year: 2013,
-      rate: 9
-    },
-    {
-      year: 2010,
-      rate: 10
-    },
-    {
-      year: 2015,
-      rate: 10
-    },
-    {
-      year: 2020,
-      rate: 11.1
-    },
-    {
-      year: 2014,
-      rate: 11.8
-    },
-    {
-      year: 2011,
-      rate: 12.1
-    },
-    {
-      year: 2019,
-      rate: 12.7
-    },
-    {
-      year: 2018,
-      rate: 12.9
-    },
-    {
-      year: 2016,
-      rate: 13.1
-    },
-    {
-      year: 2021,
-      rate: 13.2
-    },
-    {
-      year: 2017,
-      rate: 13.7
-    }
-  ],
-  Oregon: [
-    {
-      year: 2010,
-      rate: 8.5
-    },
-    {
-      year: 2012,
-      rate: 8.6
-    },
-    {
-      year: 2013,
-      rate: 9.2
-    },
-    {
-      year: 2014,
-      rate: 9.5
-    },
-    {
-      year: 2011,
-      rate: 9.6
-    },
-    {
-      year: 2018,
-      rate: 11.8
-    },
-    {
-      year: 2017,
-      rate: 12.3
-    },
-    {
-      year: 2015,
-      rate: 12.4
-    },
-    {
-      year: 2020,
-      rate: 12.4
-    },
-    {
-      year: 2019,
-      rate: 12.7
-    },
-    {
-      year: 2016,
-      rate: 12.8
-    },
-    {
-      year: 2021,
-      rate: 14.3
-    }
-  ],
-  Pennsylvania: [
-    {
-      year: 2019,
-      rate: 8.8
-    },
-    {
-      year: 2020,
-      rate: 9.7
-    },
-    {
-      year: 2017,
-      rate: 9.9
-    },
-    {
-      year: 2014,
-      rate: 10
-    },
-    {
-      year: 2016,
-      rate: 10
-    },
-    {
-      year: 2015,
-      rate: 10.1
-    },
-    {
-      year: 2018,
-      rate: 10.1
-    },
-    {
-      year: 2012,
-      rate: 10.3
-    },
-    {
-      year: 2013,
-      rate: 10.4
-    },
-    {
-      year: 2021,
-      rate: 10.6
-    },
-    {
-      year: 2010,
-      rate: 11.3
-    },
-    {
-      year: 2011,
-      rate: 11.7
-    }
-  ],
-  Michigan: [
-    {
-      year: 2015,
-      rate: 8.9
-    },
-    {
-      year: 2012,
-      rate: 9.5
-    },
-    {
-      year: 2016,
-      rate: 9.9
-    },
-    {
-      year: 2011,
-      rate: 10.2
-    },
-    {
-      year: 2014,
-      rate: 10.2
-    },
-    {
-      year: 2018,
-      rate: 10.3
-    },
-    {
-      year: 2010,
-      rate: 10.6
-    },
-    {
-      year: 2013,
-      rate: 10.6
-    },
-    {
-      year: 2017,
-      rate: 10.6
-    },
-    {
-      year: 2019,
-      rate: 10.7
-    },
-    {
-      year: 2020,
-      rate: 12.2
-    },
-    {
-      year: 2021,
-      rate: 13.3
-    }
-  ],
-  Virginia: [
-    {
-      year: 2010,
-      rate: 9.1
-    },
-    {
-      year: 2013,
-      rate: 9.4
-    },
-    {
-      year: 2015,
-      rate: 9.4
-    },
-    {
-      year: 2012,
-      rate: 9.5
-    },
-    {
-      year: 2014,
-      rate: 9.5
-    },
-    {
-      year: 2016,
-      rate: 9.9
-    },
-    {
-      year: 2011,
-      rate: 10
-    },
-    {
-      year: 2019,
-      rate: 10.5
-    },
-    {
-      year: 2017,
-      rate: 10.6
-    },
-    {
-      year: 2018,
-      rate: 10.7
-    },
-    {
-      year: 2020,
-      rate: 10.8
-    },
-    {
-      year: 2021,
-      rate: 11.8
-    }
-  ],
-  Colorado: [
-    {
-      year: 2012,
-      rate: 9.1
-    },
-    {
-      year: 2010,
-      rate: 9.6
-    },
-    {
-      year: 2013,
-      rate: 9.7
-    },
-    {
-      year: 2011,
-      rate: 9.8
-    },
-    {
-      year: 2014,
-      rate: 10
-    },
-    {
-      year: 2015,
-      rate: 10.8
-    },
-    {
-      year: 2019,
-      rate: 11.1
-    },
-    {
-      year: 2016,
-      rate: 11.5
-    },
-    {
-      year: 2020,
-      rate: 11.6
-    },
-    {
-      year: 2018,
-      rate: 11.8
-    },
-    {
-      year: 2017,
-      rate: 12.1
-    },
-    {
-      year: 2021,
-      rate: 13
-    }
-  ],
-  Nevada: [
-    {
-      year: 2012,
-      rate: 9.4
-    },
-    {
-      year: 2019,
-      rate: 9.9
-    },
-    {
-      year: 2013,
-      rate: 10
-    },
-    {
-      year: 2011,
-      rate: 10.3
-    },
-    {
-      year: 2010,
-      rate: 10.6
-    },
-    {
-      year: 2014,
-      rate: 11.1
-    },
-    {
-      year: 2020,
-      rate: 11.5
-    },
-    {
-      year: 2017,
-      rate: 11.8
-    },
-    {
-      year: 2018,
-      rate: 12.1
-    },
-    {
-      year: 2016,
-      rate: 12.2
-    },
-    {
-      year: 2015,
-      rate: 12.6
-    },
-    {
-      year: 2021,
-      rate: 13
-    }
-  ],
-  Ohio: [
-    {
-      year: 2012,
-      rate: 9.7
-    },
-    {
-      year: 2014,
-      rate: 9.7
-    },
-    {
-      year: 2013,
-      rate: 9.8
-    },
-    {
-      year: 2011,
-      rate: 10.1
-    },
-    {
-      year: 2018,
-      rate: 10.4
-    },
-    {
-      year: 2010,
-      rate: 10.8
-    },
-    {
-      year: 2015,
-      rate: 10.8
-    },
-    {
-      year: 2019,
-      rate: 11
-    },
-    {
-      year: 2017,
-      rate: 11.3
-    },
-    {
-      year: 2016,
-      rate: 11.4
-    },
-    {
-      year: 2020,
-      rate: 11.7
-    },
-    {
-      year: 2021,
-      rate: 12.8
-    }
-  ],
-  Wisconsin: [
-    {
-      year: 2014,
-      rate: 9.8
-    },
-    {
-      year: 2013,
-      rate: 10.4
-    },
-    {
-      year: 2012,
-      rate: 10.5
-    },
-    {
-      year: 2015,
-      rate: 10.6
-    },
-    {
-      year: 2019,
-      rate: 10.6
-    },
-    {
-      year: 2010,
-      rate: 10.9
-    },
-    {
-      year: 2011,
-      rate: 10.9
-    },
-    {
-      year: 2018,
-      rate: 11
-    },
-    {
-      year: 2016,
-      rate: 11.3
-    },
-    {
-      year: 2017,
-      rate: 11.3
-    },
-    {
-      year: 2021,
-      rate: 11.7
-    },
-    {
-      year: 2020,
-      rate: 12.1
-    }
-  ],
-  Nebraska: [
-    {
-      year: 2011,
-      rate: 10.3
-    },
-    {
-      year: 2016,
-      rate: 11.3
-    },
-    {
-      year: 2012,
-      rate: 11.4
-    },
-    {
-      year: 2010,
-      rate: 11.6
-    },
-    {
-      year: 2020,
-      rate: 12.3
-    },
-    {
-      year: 2013,
-      rate: 12.7
-    },
-    {
-      year: 2021,
-      rate: 12.9
-    },
-    {
-      year: 2018,
-      rate: 13.1
-    },
-    {
-      year: 2014,
-      rate: 13.4
-    },
-    {
-      year: 2017,
-      rate: 13.5
-    },
-    {
-      year: 2019,
-      rate: 13.6
-    },
-    {
-      year: 2015,
-      rate: 14.1
-    }
-  ],
-  Delaware: [
-    {
-      year: 2011,
-      rate: 10.8
-    },
-    {
-      year: 2016,
-      rate: 12.3
-    },
-    {
-      year: 2010,
-      rate: 12.4
-    },
-    {
-      year: 2013,
-      rate: 12.4
-    },
-    {
-      year: 2018,
-      rate: 12.4
-    },
-    {
-      year: 2012,
-      rate: 12.6
-    },
-    {
-      year: 2020,
-      rate: 12.6
-    },
-    {
-      year: 2017,
-      rate: 13.2
-    },
-    {
-      year: 2014,
-      rate: 13.5
-    },
-    {
-      year: 2015,
-      rate: 13.6
-    },
-    {
-      year: 2019,
-      rate: 13.7
-    },
-    {
-      year: 2021,
-      rate: 14.7
-    }
-  ],
-  Maine: [
-    {
-      year: 2014,
-      rate: 10.8
-    },
-    {
-      year: 2015,
-      rate: 11.4
-    },
-    {
-      year: 2011,
-      rate: 11.5
-    },
-    {
-      year: 2018,
-      rate: 11.7
-    },
-    {
-      year: 2012,
-      rate: 12.3
-    },
-    {
-      year: 2013,
-      rate: 12.6
-    },
-    {
-      year: 2019,
-      rate: 12.7
-    },
-    {
-      year: 2010,
-      rate: 12.9
-    },
-    {
-      year: 2016,
-      rate: 13.2
-    },
-    {
-      year: 2021,
-      rate: 13.4
-    },
-    {
-      year: 2020,
-      rate: 13.9
-    },
-    {
-      year: 2017,
-      rate: 14.2
-    }
-  ],
-  Iowa: [
-    {
-      year: 2014,
-      rate: 10.9
-    },
-    {
-      year: 2013,
-      rate: 11.2
-    },
-    {
-      year: 2015,
-      rate: 11.3
-    },
-    {
-      year: 2018,
-      rate: 11.4
-    },
-    {
-      year: 2019,
-      rate: 11.6
-    },
-    {
-      year: 2020,
-      rate: 11.6
-    },
-    {
-      year: 2021,
-      rate: 11.7
-    },
-    {
-      year: 2012,
-      rate: 11.9
-    },
-    {
-      year: 2017,
-      rate: 12.6
-    },
-    {
-      year: 2010,
-      rate: 13.1
-    },
-    {
-      year: 2011,
-      rate: 13.1
-    },
-    {
-      year: 2016,
-      rate: 13.7
-    }
-  ],
-  Idaho: [
-    {
-      year: 2012,
-      rate: 11.5
-    },
-    {
-      year: 2014,
-      rate: 13
-    },
-    {
-      year: 2020,
-      rate: 13.3
-    },
-    {
-      year: 2011,
-      rate: 13.4
-    },
-    {
-      year: 2010,
-      rate: 13.7
-    },
-    {
-      year: 2018,
-      rate: 14.3
-    },
-    {
-      year: 2019,
-      rate: 14.3
-    },
-    {
-      year: 2015,
-      rate: 14.7
-    },
-    {
-      year: 2017,
-      rate: 15.8
-    },
-    {
-      year: 2016,
-      rate: 16.1
-    },
-    {
-      year: 2013,
-      rate: 16.2
-    },
-    {
-      year: 2021,
-      rate: 16.6
-    }
-  ],
-  Indiana: [
-    {
-      year: 2014,
-      rate: 11.6
-    },
-    {
-      year: 2011,
-      rate: 11.7
-    },
-    {
-      year: 2010,
-      rate: 11.8
-    },
-    {
-      year: 2012,
-      rate: 11.9
-    },
-    {
-      year: 2013,
-      rate: 12.6
-    },
-    {
-      year: 2016,
-      rate: 12.8
-    },
-    {
-      year: 2015,
-      rate: 12.9
-    },
-    {
-      year: 2018,
-      rate: 13
-    },
-    {
-      year: 2019,
-      rate: 13
-    },
-    {
-      year: 2017,
-      rate: 13.8
-    },
-    {
-      year: 2020,
-      rate: 14.1
-    },
-    {
-      year: 2021,
-      rate: 14.7
-    }
-  ],
-  Georgia: [
-    {
-      year: 2012,
-      rate: 12.1
-    },
-    {
-      year: 2013,
-      rate: 12.7
-    },
-    {
-      year: 2014,
-      rate: 12.7
-    },
-    {
-      year: 2011,
-      rate: 13.1
-    },
-    {
-      year: 2010,
-      rate: 13.7
-    },
-    {
-      year: 2015,
-      rate: 14.4
-    },
-    {
-      year: 2018,
-      rate: 14.5
-    },
-    {
-      year: 2019,
-      rate: 14.5
-    },
-    {
-      year: 2017,
-      rate: 14.9
-    },
-    {
-      year: 2016,
-      rate: 15.8
-    },
-    {
-      year: 2020,
-      rate: 16.7
-    },
-    {
-      year: 2021,
-      rate: 18.3
-    }
-  ],
-  Arizona: [
-    {
-      year: 2010,
-      rate: 12.4
-    },
-    {
-      year: 2012,
-      rate: 12.5
-    },
-    {
-      year: 2014,
-      rate: 12.7
-    },
-    {
-      year: 2013,
-      rate: 13
-    },
-    {
-      year: 2011,
-      rate: 13.4
-    },
-    {
-      year: 2019,
-      rate: 13.4
-    },
-    {
-      year: 2015,
-      rate: 13.5
-    },
-    {
-      year: 2020,
-      rate: 14
-    },
-    {
-      year: 2016,
-      rate: 14.3
-    },
-    {
-      year: 2017,
-      rate: 14.5
-    },
-    {
-      year: 2018,
-      rate: 14.5
-    },
-    {
-      year: 2021,
-      rate: 18.8
-    }
-  ],
-  "South Dakota": [
-    {
-      year: 2011,
-      rate: 12.5
-    },
-    {
-      year: 2019,
-      rate: 15.1
-    },
-    {
-      year: 2016,
-      rate: 15.8
-    },
-    {
-      year: 2012,
-      rate: 16
-    },
-    {
-      year: 2015,
-      rate: 16.7
-    },
-    {
-      year: 2020,
-      rate: 17.1
-    },
-    {
-      year: 2013,
-      rate: 17.2
-    },
-    {
-      year: 2010,
-      rate: 17.7
-    },
-    {
-      year: 2018,
-      rate: 17.7
-    },
-    {
-      year: 2014,
-      rate: 18.5
-    },
-    {
-      year: 2017,
-      rate: 19
-    },
-    {
-      year: 2021,
-      rate: 19.3
-    }
-  ],
-  Florida: [
-    {
-      year: 2013,
-      rate: 12.5
-    },
-    {
-      year: 2012,
-      rate: 12.6
-    },
-    {
-      year: 2014,
-      rate: 13
-    },
-    {
-      year: 2011,
-      rate: 13.2
-    },
-    {
-      year: 2010,
-      rate: 13.5
-    },
-    {
-      year: 2015,
-      rate: 14.7
-    },
-    {
-      year: 2018,
-      rate: 15.2
-    },
-    {
-      year: 2017,
-      rate: 15.4
-    },
-    {
-      year: 2019,
-      rate: 15.4
-    },
-    {
-      year: 2016,
-      rate: 15.7
-    },
-    {
-      year: 2020,
-      rate: 16.2
-    },
-    {
-      year: 2021,
-      rate: 17.9
-    }
-  ],
-  Texas: [
-    {
-      year: 2011,
-      rate: 12.9
-    },
-    {
-      year: 2012,
-      rate: 13
-    },
-    {
-      year: 2018,
-      rate: 13.2
-    },
-    {
-      year: 2010,
-      rate: 13.3
-    },
-    {
-      year: 2019,
-      rate: 13.3
-    },
-    {
-      year: 2015,
-      rate: 13.5
-    },
-    {
-      year: 2013,
-      rate: 13.7
-    },
-    {
-      year: 2014,
-      rate: 13.8
-    },
-    {
-      year: 2017,
-      rate: 13.8
-    },
-    {
-      year: 2020,
-      rate: 13.9
-    },
-    {
-      year: 2016,
-      rate: 14.4
-    },
-    {
-      year: 2021,
-      rate: 15.5
-    }
-  ],
-  "North Carolina": [
-    {
-      year: 2012,
-      rate: 12.9
-    },
-    {
-      year: 2011,
-      rate: 13.1
-    },
-    {
-      year: 2013,
-      rate: 13.8
-    },
-    {
-      year: 2014,
-      rate: 14
-    },
-    {
-      year: 2010,
-      rate: 14.5
-    },
-    {
-      year: 2017,
-      rate: 14.8
-    },
-    {
-      year: 2015,
-      rate: 15.1
-    },
-    {
-      year: 2016,
-      rate: 15.2
-    },
-    {
-      year: 2018,
-      rate: 15.3
-    },
-    {
-      year: 2019,
-      rate: 15.3
-    },
-    {
-      year: 2020,
-      rate: 16.7
-    },
-    {
-      year: 2021,
-      rate: 18.2
-    }
-  ],
-  Missouri: [
-    {
-      year: 2013,
-      rate: 12.9
-    },
-    {
-      year: 2014,
-      rate: 13.2
-    },
-    {
-      year: 2012,
-      rate: 13.7
-    },
-    {
-      year: 2011,
-      rate: 14.1
-    },
-    {
-      year: 2010,
-      rate: 14.5
-    },
-    {
-      year: 2015,
-      rate: 15.3
-    },
-    {
-      year: 2018,
-      rate: 15.6
-    },
-    {
-      year: 2019,
-      rate: 15.7
-    },
-    {
-      year: 2017,
-      rate: 16.3
-    },
-    {
-      year: 2016,
-      rate: 16.5
-    },
-    {
-      year: 2020,
-      rate: 16.8
-    },
-    {
-      year: 2021,
-      rate: 17.2
-    }
-  ],
-  Kansas: [
-    {
-      year: 2013,
-      rate: 13.1
-    },
-    {
-      year: 2014,
-      rate: 13.1
-    },
-    {
-      year: 2015,
-      rate: 13.7
-    },
-    {
-      year: 2019,
-      rate: 13.9
-    },
-    {
-      year: 2012,
-      rate: 14
-    },
-    {
-      year: 2018,
-      rate: 14
-    },
-    {
-      year: 2011,
-      rate: 14.6
-    },
-    {
-      year: 2020,
-      rate: 14.7
-    },
-    {
-      year: 2016,
-      rate: 14.9
-    },
-    {
-      year: 2017,
-      rate: 15.8
-    },
-    {
-      year: 2021,
-      rate: 16
-    },
-    {
-      year: 2010,
-      rate: 16.9
-    }
-  ],
-  "North Dakota": [
-    {
-      year: 2019,
-      rate: 13.4
-    },
-    {
-      year: 2020,
-      rate: 13.6
-    },
-    {
-      year: 2014,
-      rate: 13.9
-    },
-    {
-      year: 2018,
-      rate: 13.9
-    },
-    {
-      year: 2010,
-      rate: 14.4
-    },
-    {
-      year: 2021,
-      rate: 15.4
-    },
-    {
-      year: 2017,
-      rate: 15.6
-    },
-    {
-      year: 2016,
-      rate: 16.6
-    },
-    {
-      year: 2013,
-      rate: 17.1
-    },
-    {
-      year: 2015,
-      rate: 18.1
-    },
-    {
-      year: 2011,
-      rate: 20.3
-    },
-    {
-      year: 2012,
-      rate: 24.3
-    }
-  ],
-  Tennessee: [
-    {
-      year: 2015,
-      rate: 15
-    },
-    {
-      year: 2014,
-      rate: 15.2
-    },
-    {
-      year: 2012,
-      rate: 15.7
-    },
-    {
-      year: 2013,
-      rate: 15.7
-    },
-    {
-      year: 2017,
-      rate: 16.2
-    },
-    {
-      year: 2011,
-      rate: 16.3
-    },
-    {
-      year: 2018,
-      rate: 16.4
-    },
-    {
-      year: 2016,
-      rate: 16.5
-    },
-    {
-      year: 2010,
-      rate: 17.3
-    },
-    {
-      year: 2019,
-      rate: 17.3
-    },
-    {
-      year: 2020,
-      rate: 18.4
-    },
-    {
-      year: 2021,
-      rate: 20.5
-    }
-  ],
-  "New Mexico": [
-    {
-      year: 2011,
-      rate: 15.3
-    },
-    {
-      year: 2013,
-      rate: 15.6
-    },
-    {
-      year: 2010,
-      rate: 16.1
-    },
-    {
-      year: 2015,
-      rate: 16.4
-    },
-    {
-      year: 2012,
-      rate: 17.8
-    },
-    {
-      year: 2014,
-      rate: 18.9
-    },
-    {
-      year: 2018,
-      rate: 18.9
-    },
-    {
-      year: 2017,
-      rate: 19.1
-    },
-    {
-      year: 2019,
-      rate: 19.1
-    },
-    {
-      year: 2016,
-      rate: 20
-    },
-    {
-      year: 2020,
-      rate: 20
-    },
-    {
-      year: 2021,
-      rate: 22.3
-    }
-  ],
-  Wyoming: [
-    {
-      year: 2013,
-      rate: 15.6
-    },
-    {
-      year: 2018,
-      rate: 16.6
-    },
-    {
-      year: 2021,
-      rate: 17.3
-    },
-    {
-      year: 2016,
-      rate: 18.1
-    },
-    {
-      year: 2017,
-      rate: 19
-    },
-    {
-      year: 2011,
-      rate: 19.4
-    },
-    {
-      year: 2019,
-      rate: 19.4
-    },
-    {
-      year: 2020,
-      rate: 19.7
-    },
-    {
-      year: 2012,
-      rate: 20.8
-    },
-    {
-      year: 2014,
-      rate: 21.2
-    },
-    {
-      year: 2015,
-      rate: 22.9
-    },
-    {
-      year: 2010,
-      rate: 24.5
-    }
-  ],
-  Louisiana: [
-    {
-      year: 2012,
-      rate: 15.7
-    },
-    {
-      year: 2010,
-      rate: 15.8
-    },
-    {
-      year: 2011,
-      rate: 16.3
-    },
-    {
-      year: 2019,
-      rate: 16.4
-    },
-    {
-      year: 2013,
-      rate: 16.5
-    },
-    {
-      year: 2015,
-      rate: 17.2
-    },
-    {
-      year: 2014,
-      rate: 17.3
-    },
-    {
-      year: 2018,
-      rate: 17.4
-    },
-    {
-      year: 2017,
-      rate: 17.6
-    },
-    {
-      year: 2016,
-      rate: 17.8
-    },
-    {
-      year: 2020,
-      rate: 18.4
-    },
-    {
-      year: 2021,
-      rate: 22.2
-    }
-  ],
-  Kentucky: [
-    {
-      year: 2013,
-      rate: 15.8
-    },
-    {
-      year: 2014,
-      rate: 16.2
-    },
-    {
-      year: 2012,
-      rate: 17
-    },
-    {
-      year: 2019,
-      rate: 17.1
-    },
-    {
-      year: 2011,
-      rate: 17.3
-    },
-    {
-      year: 2018,
-      rate: 17.3
-    },
-    {
-      year: 2021,
-      rate: 18.2
-    },
-    {
-      year: 2017,
-      rate: 18.7
-    },
-    {
-      year: 2015,
-      rate: 18.8
-    },
-    {
-      year: 2010,
-      rate: 18.9
-    },
-    {
-      year: 2020,
-      rate: 19.2
-    },
-    {
-      year: 2016,
-      rate: 19.7
-    }
-  ],
-  "West Virginia": [
-    {
-      year: 2016,
-      rate: 16.3
-    },
-    {
-      year: 2015,
-      rate: 16.5
-    },
-    {
-      year: 2010,
-      rate: 16.7
-    },
-    {
-      year: 2021,
-      rate: 16.8
-    },
-    {
-      year: 2020,
-      rate: 17
-    },
-    {
-      year: 2014,
-      rate: 17.5
-    },
-    {
-      year: 2013,
-      rate: 17.8
-    },
-    {
-      year: 2012,
-      rate: 18.3
-    },
-    {
-      year: 2018,
-      rate: 18.4
-    },
-    {
-      year: 2019,
-      rate: 18.4
-    },
-    {
-      year: 2017,
-      rate: 18.6
-    },
-    {
-      year: 2011,
-      rate: 20.3
-    }
-  ],
-  "South Carolina": [
-    {
-      year: 2013,
-      rate: 16.5
-    },
-    {
-      year: 2014,
-      rate: 16.7
-    },
-    {
-      year: 2010,
-      rate: 17.6
-    },
-    {
-      year: 2012,
-      rate: 18.3
-    },
-    {
-      year: 2011,
-      rate: 18.5
-    },
-    {
-      year: 2019,
-      rate: 19.7
-    },
-    {
-      year: 2015,
-      rate: 20.1
-    },
-    {
-      year: 2018,
-      rate: 20.3
-    },
-    {
-      year: 2017,
-      rate: 21.1
-    },
-    {
-      year: 2020,
-      rate: 21.4
-    },
-    {
-      year: 2016,
-      rate: 21.6
-    },
-    {
-      year: 2021,
-      rate: 23.7
-    }
-  ],
-  Montana: [
-    {
-      year: 2018,
-      rate: 16.8
-    },
-    {
-      year: 2017,
-      rate: 17
-    },
-    {
-      year: 2019,
-      rate: 18.1
-    },
-    {
-      year: 2016,
-      rate: 19.1
-    },
-    {
-      year: 2020,
-      rate: 19.2
-    },
-    {
-      year: 2010,
-      rate: 19.4
-    },
-    {
-      year: 2014,
-      rate: 19.9
-    },
-    {
-      year: 2012,
-      rate: 20.4
-    },
-    {
-      year: 2011,
-      rate: 20.7
-    },
-    {
-      year: 2015,
-      rate: 21.3
-    },
-    {
-      year: 2013,
-      rate: 23.3
-    },
-    {
-      year: 2021,
-      rate: 24.4
-    }
-  ],
-  Oklahoma: [
-    {
-      year: 2015,
-      rate: 17.2
-    },
-    {
-      year: 2019,
-      rate: 17.4
-    },
-    {
-      year: 2018,
-      rate: 17.9
-    },
-    {
-      year: 2020,
-      rate: 18
-    },
-    {
-      year: 2016,
-      rate: 18.4
-    },
-    {
-      year: 2017,
-      rate: 18.4
-    },
-    {
-      year: 2012,
-      rate: 18.6
-    },
-    {
-      year: 2014,
-      rate: 18.8
-    },
-    {
-      year: 2013,
-      rate: 18.9
-    },
-    {
-      year: 2010,
-      rate: 19.1
-    },
-    {
-      year: 2011,
-      rate: 19.7
-    },
-    {
-      year: 2021,
-      rate: 20.7
-    }
-  ],
-  Alabama: [
-    {
-      year: 2012,
-      rate: 17.9
-    },
-    {
-      year: 2014,
-      rate: 18.5
-    },
-    {
-      year: 2013,
-      rate: 18.8
-    },
-    {
-      year: 2010,
-      rate: 19.5
-    },
-    {
-      year: 2015,
-      rate: 19.8
-    },
-    {
-      year: 2011,
-      rate: 19.9
-    },
-    {
-      year: 2020,
-      rate: 20
-    },
-    {
-      year: 2019,
-      rate: 20.6
-    },
-    {
-      year: 2021,
-      rate: 21
-    },
-    {
-      year: 2017,
-      rate: 21.2
-    },
-    {
-      year: 2018,
-      rate: 21.8
-    },
-    {
-      year: 2016,
-      rate: 23.8
-    }
-  ],
-  Arkansas: [
-    {
-      year: 2014,
-      rate: 17.9
-    },
-    {
-      year: 2013,
-      rate: 18.1
-    },
-    {
-      year: 2018,
-      rate: 18.3
-    },
-    {
-      year: 2019,
-      rate: 18.4
-    },
-    {
-      year: 2012,
-      rate: 18.7
-    },
-    {
-      year: 2017,
-      rate: 19.3
-    },
-    {
-      year: 2015,
-      rate: 19.9
-    },
-    {
-      year: 2011,
-      rate: 20.3
-    },
-    {
-      year: 2010,
-      rate: 20.9
-    },
-    {
-      year: 2016,
-      rate: 21.2
-    },
-    {
-      year: 2020,
-      rate: 22.5
-    },
-    {
-      year: 2021,
-      rate: 24.2
-    }
-  ],
   Mississippi: [
     {
-      year: 2012,
-      rate: 19.5
-    },
-    {
-      year: 2014,
-      rate: 22.5
-    },
-    {
-      year: 2013,
-      rate: 22.8
-    },
-    {
-      year: 2010,
-      rate: 23
-    },
-    {
-      year: 2018,
-      rate: 23.6
-    },
-    {
-      year: 2011,
-      rate: 24.4
-    },
-    {
-      year: 2019,
-      rate: 25.2
-    },
-    {
-      year: 2015,
-      rate: 25.7
-    },
-    {
-      year: 2017,
-      rate: 25.8
-    },
-    {
-      year: 2016,
-      rate: 26.3
+      year: 2021,
+      rate: 29.4
     },
     {
       year: 2020,
       rate: 28.4
     },
     {
+      year: 2016,
+      rate: 26.3
+    },
+    {
+      year: 2017,
+      rate: 25.8
+    },
+    {
+      year: 2015,
+      rate: 25.7
+    },
+    {
+      year: 2019,
+      rate: 25.2
+    },
+    {
+      year: 2011,
+      rate: 24.4
+    },
+    {
+      year: 2018,
+      rate: 23.6
+    },
+    {
+      year: 2010,
+      rate: 23
+    },
+    {
+      year: 2013,
+      rate: 22.8
+    },
+    {
+      year: 2014,
+      rate: 22.5
+    },
+    {
+      year: 2012,
+      rate: 19.5
+    }
+  ],
+  Wyoming: [
+    {
+      year: 2010,
+      rate: 24.5
+    },
+    {
+      year: 2015,
+      rate: 22.9
+    },
+    {
+      year: 2014,
+      rate: 21.2
+    },
+    {
+      year: 2012,
+      rate: 20.8
+    },
+    {
+      year: 2020,
+      rate: 19.7
+    },
+    {
+      year: 2011,
+      rate: 19.4
+    },
+    {
+      year: 2019,
+      rate: 19.4
+    },
+    {
+      year: 2017,
+      rate: 19
+    },
+    {
+      year: 2016,
+      rate: 18.1
+    },
+    {
       year: 2021,
-      rate: 29.4
+      rate: 17.3
+    },
+    {
+      year: 2018,
+      rate: 16.6
+    },
+    {
+      year: 2013,
+      rate: 15.6
+    }
+  ],
+  Montana: [
+    {
+      year: 2021,
+      rate: 24.4
+    },
+    {
+      year: 2013,
+      rate: 23.3
+    },
+    {
+      year: 2015,
+      rate: 21.3
+    },
+    {
+      year: 2011,
+      rate: 20.7
+    },
+    {
+      year: 2012,
+      rate: 20.4
+    },
+    {
+      year: 2014,
+      rate: 19.9
+    },
+    {
+      year: 2010,
+      rate: 19.4
+    },
+    {
+      year: 2020,
+      rate: 19.2
+    },
+    {
+      year: 2016,
+      rate: 19.1
+    },
+    {
+      year: 2019,
+      rate: 18.1
+    },
+    {
+      year: 2017,
+      rate: 17
+    },
+    {
+      year: 2018,
+      rate: 16.8
+    }
+  ],
+  "North Dakota": [
+    {
+      year: 2012,
+      rate: 24.3
+    },
+    {
+      year: 2011,
+      rate: 20.3
+    },
+    {
+      year: 2015,
+      rate: 18.1
+    },
+    {
+      year: 2013,
+      rate: 17.1
+    },
+    {
+      year: 2016,
+      rate: 16.6
+    },
+    {
+      year: 2017,
+      rate: 15.6
+    },
+    {
+      year: 2021,
+      rate: 15.4
+    },
+    {
+      year: 2010,
+      rate: 14.4
+    },
+    {
+      year: 2014,
+      rate: 13.9
+    },
+    {
+      year: 2018,
+      rate: 13.9
+    },
+    {
+      year: 2020,
+      rate: 13.6
+    },
+    {
+      year: 2019,
+      rate: 13.4
+    }
+  ],
+  Arkansas: [
+    {
+      year: 2021,
+      rate: 24.2
+    },
+    {
+      year: 2020,
+      rate: 22.5
+    },
+    {
+      year: 2016,
+      rate: 21.2
+    },
+    {
+      year: 2010,
+      rate: 20.9
+    },
+    {
+      year: 2011,
+      rate: 20.3
+    },
+    {
+      year: 2015,
+      rate: 19.9
+    },
+    {
+      year: 2017,
+      rate: 19.3
+    },
+    {
+      year: 2012,
+      rate: 18.7
+    },
+    {
+      year: 2019,
+      rate: 18.4
+    },
+    {
+      year: 2018,
+      rate: 18.3
+    },
+    {
+      year: 2013,
+      rate: 18.1
+    },
+    {
+      year: 2014,
+      rate: 17.9
+    }
+  ],
+  Alabama: [
+    {
+      year: 2016,
+      rate: 23.8
+    },
+    {
+      year: 2018,
+      rate: 21.8
+    },
+    {
+      year: 2017,
+      rate: 21.2
+    },
+    {
+      year: 2021,
+      rate: 21
+    },
+    {
+      year: 2019,
+      rate: 20.6
+    },
+    {
+      year: 2020,
+      rate: 20
+    },
+    {
+      year: 2011,
+      rate: 19.9
+    },
+    {
+      year: 2015,
+      rate: 19.8
+    },
+    {
+      year: 2010,
+      rate: 19.5
+    },
+    {
+      year: 2013,
+      rate: 18.8
+    },
+    {
+      year: 2014,
+      rate: 18.5
+    },
+    {
+      year: 2012,
+      rate: 17.9
+    }
+  ],
+  "South Carolina": [
+    {
+      year: 2021,
+      rate: 23.7
+    },
+    {
+      year: 2016,
+      rate: 21.6
+    },
+    {
+      year: 2020,
+      rate: 21.4
+    },
+    {
+      year: 2017,
+      rate: 21.1
+    },
+    {
+      year: 2018,
+      rate: 20.3
+    },
+    {
+      year: 2015,
+      rate: 20.1
+    },
+    {
+      year: 2019,
+      rate: 19.7
+    },
+    {
+      year: 2011,
+      rate: 18.5
+    },
+    {
+      year: 2012,
+      rate: 18.3
+    },
+    {
+      year: 2010,
+      rate: 17.6
+    },
+    {
+      year: 2014,
+      rate: 16.7
+    },
+    {
+      year: 2013,
+      rate: 16.5
+    }
+  ],
+  "New Mexico": [
+    {
+      year: 2021,
+      rate: 22.3
+    },
+    {
+      year: 2016,
+      rate: 20
+    },
+    {
+      year: 2020,
+      rate: 20
+    },
+    {
+      year: 2017,
+      rate: 19.1
+    },
+    {
+      year: 2019,
+      rate: 19.1
+    },
+    {
+      year: 2014,
+      rate: 18.9
+    },
+    {
+      year: 2018,
+      rate: 18.9
+    },
+    {
+      year: 2012,
+      rate: 17.8
+    },
+    {
+      year: 2015,
+      rate: 16.4
+    },
+    {
+      year: 2010,
+      rate: 16.1
+    },
+    {
+      year: 2013,
+      rate: 15.6
+    },
+    {
+      year: 2011,
+      rate: 15.3
+    }
+  ],
+  Louisiana: [
+    {
+      year: 2021,
+      rate: 22.2
+    },
+    {
+      year: 2020,
+      rate: 18.4
+    },
+    {
+      year: 2016,
+      rate: 17.8
+    },
+    {
+      year: 2017,
+      rate: 17.6
+    },
+    {
+      year: 2018,
+      rate: 17.4
+    },
+    {
+      year: 2014,
+      rate: 17.3
+    },
+    {
+      year: 2015,
+      rate: 17.2
+    },
+    {
+      year: 2013,
+      rate: 16.5
+    },
+    {
+      year: 2019,
+      rate: 16.4
+    },
+    {
+      year: 2011,
+      rate: 16.3
+    },
+    {
+      year: 2010,
+      rate: 15.8
+    },
+    {
+      year: 2012,
+      rate: 15.7
+    }
+  ],
+  Oklahoma: [
+    {
+      year: 2021,
+      rate: 20.7
+    },
+    {
+      year: 2011,
+      rate: 19.7
+    },
+    {
+      year: 2010,
+      rate: 19.1
+    },
+    {
+      year: 2013,
+      rate: 18.9
+    },
+    {
+      year: 2014,
+      rate: 18.8
+    },
+    {
+      year: 2012,
+      rate: 18.6
+    },
+    {
+      year: 2016,
+      rate: 18.4
+    },
+    {
+      year: 2017,
+      rate: 18.4
+    },
+    {
+      year: 2020,
+      rate: 18
+    },
+    {
+      year: 2018,
+      rate: 17.9
+    },
+    {
+      year: 2019,
+      rate: 17.4
+    },
+    {
+      year: 2015,
+      rate: 17.2
+    }
+  ],
+  Tennessee: [
+    {
+      year: 2021,
+      rate: 20.5
+    },
+    {
+      year: 2020,
+      rate: 18.4
+    },
+    {
+      year: 2010,
+      rate: 17.3
+    },
+    {
+      year: 2019,
+      rate: 17.3
+    },
+    {
+      year: 2016,
+      rate: 16.5
+    },
+    {
+      year: 2018,
+      rate: 16.4
+    },
+    {
+      year: 2011,
+      rate: 16.3
+    },
+    {
+      year: 2017,
+      rate: 16.2
+    },
+    {
+      year: 2012,
+      rate: 15.7
+    },
+    {
+      year: 2013,
+      rate: 15.7
+    },
+    {
+      year: 2014,
+      rate: 15.2
+    },
+    {
+      year: 2015,
+      rate: 15
+    }
+  ],
+  "West Virginia": [
+    {
+      year: 2011,
+      rate: 20.3
+    },
+    {
+      year: 2017,
+      rate: 18.6
+    },
+    {
+      year: 2018,
+      rate: 18.4
+    },
+    {
+      year: 2019,
+      rate: 18.4
+    },
+    {
+      year: 2012,
+      rate: 18.3
+    },
+    {
+      year: 2013,
+      rate: 17.8
+    },
+    {
+      year: 2014,
+      rate: 17.5
+    },
+    {
+      year: 2020,
+      rate: 17
+    },
+    {
+      year: 2021,
+      rate: 16.8
+    },
+    {
+      year: 2010,
+      rate: 16.7
+    },
+    {
+      year: 2015,
+      rate: 16.5
+    },
+    {
+      year: 2016,
+      rate: 16.3
+    }
+  ],
+  Kentucky: [
+    {
+      year: 2016,
+      rate: 19.7
+    },
+    {
+      year: 2020,
+      rate: 19.2
+    },
+    {
+      year: 2010,
+      rate: 18.9
+    },
+    {
+      year: 2015,
+      rate: 18.8
+    },
+    {
+      year: 2017,
+      rate: 18.7
+    },
+    {
+      year: 2021,
+      rate: 18.2
+    },
+    {
+      year: 2011,
+      rate: 17.3
+    },
+    {
+      year: 2018,
+      rate: 17.3
+    },
+    {
+      year: 2019,
+      rate: 17.1
+    },
+    {
+      year: 2012,
+      rate: 17
+    },
+    {
+      year: 2014,
+      rate: 16.2
+    },
+    {
+      year: 2013,
+      rate: 15.8
+    }
+  ],
+  "South Dakota": [
+    {
+      year: 2021,
+      rate: 19.3
+    },
+    {
+      year: 2017,
+      rate: 19
+    },
+    {
+      year: 2014,
+      rate: 18.5
+    },
+    {
+      year: 2010,
+      rate: 17.7
+    },
+    {
+      year: 2018,
+      rate: 17.7
+    },
+    {
+      year: 2013,
+      rate: 17.2
+    },
+    {
+      year: 2020,
+      rate: 17.1
+    },
+    {
+      year: 2015,
+      rate: 16.7
+    },
+    {
+      year: 2012,
+      rate: 16
+    },
+    {
+      year: 2016,
+      rate: 15.8
+    },
+    {
+      year: 2019,
+      rate: 15.1
+    },
+    {
+      year: 2011,
+      rate: 12.5
+    }
+  ],
+  Arizona: [
+    {
+      year: 2021,
+      rate: 18.8
+    },
+    {
+      year: 2017,
+      rate: 14.5
+    },
+    {
+      year: 2018,
+      rate: 14.5
+    },
+    {
+      year: 2016,
+      rate: 14.3
+    },
+    {
+      year: 2020,
+      rate: 14
+    },
+    {
+      year: 2015,
+      rate: 13.5
+    },
+    {
+      year: 2011,
+      rate: 13.4
+    },
+    {
+      year: 2019,
+      rate: 13.4
+    },
+    {
+      year: 2013,
+      rate: 13
+    },
+    {
+      year: 2014,
+      rate: 12.7
+    },
+    {
+      year: 2012,
+      rate: 12.5
+    },
+    {
+      year: 2010,
+      rate: 12.4
+    }
+  ],
+  Georgia: [
+    {
+      year: 2021,
+      rate: 18.3
+    },
+    {
+      year: 2020,
+      rate: 16.7
+    },
+    {
+      year: 2016,
+      rate: 15.8
+    },
+    {
+      year: 2017,
+      rate: 14.9
+    },
+    {
+      year: 2018,
+      rate: 14.5
+    },
+    {
+      year: 2019,
+      rate: 14.5
+    },
+    {
+      year: 2015,
+      rate: 14.4
+    },
+    {
+      year: 2010,
+      rate: 13.7
+    },
+    {
+      year: 2011,
+      rate: 13.1
+    },
+    {
+      year: 2013,
+      rate: 12.7
+    },
+    {
+      year: 2014,
+      rate: 12.7
+    },
+    {
+      year: 2012,
+      rate: 12.1
+    }
+  ],
+  "North Carolina": [
+    {
+      year: 2021,
+      rate: 18.2
+    },
+    {
+      year: 2020,
+      rate: 16.7
+    },
+    {
+      year: 2018,
+      rate: 15.3
+    },
+    {
+      year: 2019,
+      rate: 15.3
+    },
+    {
+      year: 2016,
+      rate: 15.2
+    },
+    {
+      year: 2015,
+      rate: 15.1
+    },
+    {
+      year: 2017,
+      rate: 14.8
+    },
+    {
+      year: 2010,
+      rate: 14.5
+    },
+    {
+      year: 2014,
+      rate: 14
+    },
+    {
+      year: 2013,
+      rate: 13.8
+    },
+    {
+      year: 2011,
+      rate: 13.1
+    },
+    {
+      year: 2012,
+      rate: 12.9
+    }
+  ],
+  Florida: [
+    {
+      year: 2021,
+      rate: 17.9
+    },
+    {
+      year: 2020,
+      rate: 16.2
+    },
+    {
+      year: 2016,
+      rate: 15.7
+    },
+    {
+      year: 2017,
+      rate: 15.4
+    },
+    {
+      year: 2019,
+      rate: 15.4
+    },
+    {
+      year: 2018,
+      rate: 15.2
+    },
+    {
+      year: 2015,
+      rate: 14.7
+    },
+    {
+      year: 2010,
+      rate: 13.5
+    },
+    {
+      year: 2011,
+      rate: 13.2
+    },
+    {
+      year: 2014,
+      rate: 13
+    },
+    {
+      year: 2012,
+      rate: 12.6
+    },
+    {
+      year: 2013,
+      rate: 12.5
+    }
+  ],
+  Missouri: [
+    {
+      year: 2021,
+      rate: 17.2
+    },
+    {
+      year: 2020,
+      rate: 16.8
+    },
+    {
+      year: 2016,
+      rate: 16.5
+    },
+    {
+      year: 2017,
+      rate: 16.3
+    },
+    {
+      year: 2019,
+      rate: 15.7
+    },
+    {
+      year: 2018,
+      rate: 15.6
+    },
+    {
+      year: 2015,
+      rate: 15.3
+    },
+    {
+      year: 2010,
+      rate: 14.5
+    },
+    {
+      year: 2011,
+      rate: 14.1
+    },
+    {
+      year: 2012,
+      rate: 13.7
+    },
+    {
+      year: 2014,
+      rate: 13.2
+    },
+    {
+      year: 2013,
+      rate: 12.9
+    }
+  ],
+  Kansas: [
+    {
+      year: 2010,
+      rate: 16.9
+    },
+    {
+      year: 2021,
+      rate: 16
+    },
+    {
+      year: 2017,
+      rate: 15.8
+    },
+    {
+      year: 2016,
+      rate: 14.9
+    },
+    {
+      year: 2020,
+      rate: 14.7
+    },
+    {
+      year: 2011,
+      rate: 14.6
+    },
+    {
+      year: 2012,
+      rate: 14
+    },
+    {
+      year: 2018,
+      rate: 14
+    },
+    {
+      year: 2019,
+      rate: 13.9
+    },
+    {
+      year: 2015,
+      rate: 13.7
+    },
+    {
+      year: 2013,
+      rate: 13.1
+    },
+    {
+      year: 2014,
+      rate: 13.1
+    }
+  ],
+  Idaho: [
+    {
+      year: 2021,
+      rate: 16.6
+    },
+    {
+      year: 2013,
+      rate: 16.2
+    },
+    {
+      year: 2016,
+      rate: 16.1
+    },
+    {
+      year: 2017,
+      rate: 15.8
+    },
+    {
+      year: 2015,
+      rate: 14.7
+    },
+    {
+      year: 2018,
+      rate: 14.3
+    },
+    {
+      year: 2019,
+      rate: 14.3
+    },
+    {
+      year: 2010,
+      rate: 13.7
+    },
+    {
+      year: 2011,
+      rate: 13.4
+    },
+    {
+      year: 2020,
+      rate: 13.3
+    },
+    {
+      year: 2014,
+      rate: 13
+    },
+    {
+      year: 2012,
+      rate: 11.5
+    }
+  ],
+  Texas: [
+    {
+      year: 2021,
+      rate: 15.5
+    },
+    {
+      year: 2016,
+      rate: 14.4
+    },
+    {
+      year: 2020,
+      rate: 13.9
+    },
+    {
+      year: 2014,
+      rate: 13.8
+    },
+    {
+      year: 2017,
+      rate: 13.8
+    },
+    {
+      year: 2013,
+      rate: 13.7
+    },
+    {
+      year: 2015,
+      rate: 13.5
+    },
+    {
+      year: 2010,
+      rate: 13.3
+    },
+    {
+      year: 2019,
+      rate: 13.3
+    },
+    {
+      year: 2018,
+      rate: 13.2
+    },
+    {
+      year: 2012,
+      rate: 13
+    },
+    {
+      year: 2011,
+      rate: 12.9
+    }
+  ],
+  Delaware: [
+    {
+      year: 2021,
+      rate: 14.7
+    },
+    {
+      year: 2019,
+      rate: 13.7
+    },
+    {
+      year: 2015,
+      rate: 13.6
+    },
+    {
+      year: 2014,
+      rate: 13.5
+    },
+    {
+      year: 2017,
+      rate: 13.2
+    },
+    {
+      year: 2012,
+      rate: 12.6
+    },
+    {
+      year: 2020,
+      rate: 12.6
+    },
+    {
+      year: 2010,
+      rate: 12.4
+    },
+    {
+      year: 2013,
+      rate: 12.4
+    },
+    {
+      year: 2018,
+      rate: 12.4
+    },
+    {
+      year: 2016,
+      rate: 12.3
+    },
+    {
+      year: 2011,
+      rate: 10.8
+    }
+  ],
+  Indiana: [
+    {
+      year: 2021,
+      rate: 14.7
+    },
+    {
+      year: 2020,
+      rate: 14.1
+    },
+    {
+      year: 2017,
+      rate: 13.8
+    },
+    {
+      year: 2018,
+      rate: 13
+    },
+    {
+      year: 2019,
+      rate: 13
+    },
+    {
+      year: 2015,
+      rate: 12.9
+    },
+    {
+      year: 2016,
+      rate: 12.8
+    },
+    {
+      year: 2013,
+      rate: 12.6
+    },
+    {
+      year: 2012,
+      rate: 11.9
+    },
+    {
+      year: 2010,
+      rate: 11.8
+    },
+    {
+      year: 2011,
+      rate: 11.7
+    },
+    {
+      year: 2014,
+      rate: 11.6
+    }
+  ],
+  Oregon: [
+    {
+      year: 2021,
+      rate: 14.3
+    },
+    {
+      year: 2016,
+      rate: 12.8
+    },
+    {
+      year: 2019,
+      rate: 12.7
+    },
+    {
+      year: 2015,
+      rate: 12.4
+    },
+    {
+      year: 2020,
+      rate: 12.4
+    },
+    {
+      year: 2017,
+      rate: 12.3
+    },
+    {
+      year: 2018,
+      rate: 11.8
+    },
+    {
+      year: 2011,
+      rate: 9.6
+    },
+    {
+      year: 2014,
+      rate: 9.5
+    },
+    {
+      year: 2013,
+      rate: 9.2
+    },
+    {
+      year: 2012,
+      rate: 8.6
+    },
+    {
+      year: 2010,
+      rate: 8.5
+    }
+  ],
+  Maine: [
+    {
+      year: 2017,
+      rate: 14.2
+    },
+    {
+      year: 2020,
+      rate: 13.9
+    },
+    {
+      year: 2021,
+      rate: 13.4
+    },
+    {
+      year: 2016,
+      rate: 13.2
+    },
+    {
+      year: 2010,
+      rate: 12.9
+    },
+    {
+      year: 2019,
+      rate: 12.7
+    },
+    {
+      year: 2013,
+      rate: 12.6
+    },
+    {
+      year: 2012,
+      rate: 12.3
+    },
+    {
+      year: 2018,
+      rate: 11.7
+    },
+    {
+      year: 2011,
+      rate: 11.5
+    },
+    {
+      year: 2015,
+      rate: 11.4
+    },
+    {
+      year: 2014,
+      rate: 10.8
+    }
+  ],
+  "United States": [
+    {
+      year: 2021,
+      rate: 14.2
+    },
+    {
+      year: 2020,
+      rate: 12.9
+    },
+    {
+      year: 2016,
+      rate: 12.5
+    },
+    {
+      year: 2017,
+      rate: 12.3
+    },
+    {
+      year: 2018,
+      rate: 12
+    },
+    {
+      year: 2019,
+      rate: 11.9
+    },
+    {
+      year: 2012,
+      rate: 11.6
+    },
+    {
+      year: 2010,
+      rate: 11.4
+    },
+    {
+      year: 2011,
+      rate: 11.3
+    },
+    {
+      year: 2013,
+      rate: 11.2
+    },
+    {
+      year: 2014,
+      rate: 11.1
+    },
+    {
+      year: 2015,
+      rate: 1.5
+    }
+  ],
+  Nebraska: [
+    {
+      year: 2015,
+      rate: 14.1
+    },
+    {
+      year: 2019,
+      rate: 13.6
+    },
+    {
+      year: 2017,
+      rate: 13.5
+    },
+    {
+      year: 2014,
+      rate: 13.4
+    },
+    {
+      year: 2018,
+      rate: 13.1
+    },
+    {
+      year: 2021,
+      rate: 12.9
+    },
+    {
+      year: 2013,
+      rate: 12.7
+    },
+    {
+      year: 2020,
+      rate: 12.3
+    },
+    {
+      year: 2010,
+      rate: 11.6
+    },
+    {
+      year: 2012,
+      rate: 11.4
+    },
+    {
+      year: 2016,
+      rate: 11.3
+    },
+    {
+      year: 2011,
+      rate: 10.3
+    }
+  ],
+  Iowa: [
+    {
+      year: 2016,
+      rate: 13.7
+    },
+    {
+      year: 2010,
+      rate: 13.1
+    },
+    {
+      year: 2011,
+      rate: 13.1
+    },
+    {
+      year: 2017,
+      rate: 12.6
+    },
+    {
+      year: 2012,
+      rate: 11.9
+    },
+    {
+      year: 2021,
+      rate: 11.7
+    },
+    {
+      year: 2019,
+      rate: 11.6
+    },
+    {
+      year: 2020,
+      rate: 11.6
+    },
+    {
+      year: 2018,
+      rate: 11.4
+    },
+    {
+      year: 2015,
+      rate: 11.3
+    },
+    {
+      year: 2013,
+      rate: 11.2
+    },
+    {
+      year: 2014,
+      rate: 10.9
+    }
+  ],
+  Alaska: [
+    {
+      year: 2017,
+      rate: 13.7
+    },
+    {
+      year: 2021,
+      rate: 13.2
+    },
+    {
+      year: 2016,
+      rate: 13.1
+    },
+    {
+      year: 2018,
+      rate: 12.9
+    },
+    {
+      year: 2019,
+      rate: 12.7
+    },
+    {
+      year: 2011,
+      rate: 12.1
+    },
+    {
+      year: 2014,
+      rate: 11.8
+    },
+    {
+      year: 2020,
+      rate: 11.1
+    },
+    {
+      year: 2010,
+      rate: 10
+    },
+    {
+      year: 2015,
+      rate: 10
+    },
+    {
+      year: 2013,
+      rate: 9
+    },
+    {
+      year: 2012,
+      rate: 8.1
+    }
+  ],
+  Michigan: [
+    {
+      year: 2021,
+      rate: 13.3
+    },
+    {
+      year: 2020,
+      rate: 12.2
+    },
+    {
+      year: 2019,
+      rate: 10.7
+    },
+    {
+      year: 2010,
+      rate: 10.6
+    },
+    {
+      year: 2013,
+      rate: 10.6
+    },
+    {
+      year: 2017,
+      rate: 10.6
+    },
+    {
+      year: 2018,
+      rate: 10.3
+    },
+    {
+      year: 2011,
+      rate: 10.2
+    },
+    {
+      year: 2014,
+      rate: 10.2
+    },
+    {
+      year: 2016,
+      rate: 9.9
+    },
+    {
+      year: 2012,
+      rate: 9.5
+    },
+    {
+      year: 2015,
+      rate: 8.9
+    }
+  ],
+  Vermont: [
+    {
+      year: 2017,
+      rate: 13
+    },
+    {
+      year: 2012,
+      rate: 12.3
+    },
+    {
+      year: 2010,
+      rate: 12.2
+    },
+    {
+      year: 2018,
+      rate: 12
+    },
+    {
+      year: 2013,
+      rate: 11.8
+    },
+    {
+      year: 2021,
+      rate: 11.2
+    },
+    {
+      year: 2020,
+      rate: 10.9
+    },
+    {
+      year: 2016,
+      rate: 10.7
+    },
+    {
+      year: 2011,
+      rate: 9.9
+    },
+    {
+      year: 2019,
+      rate: 9.1
+    },
+    {
+      year: 2015,
+      rate: 8.6
+    },
+    {
+      year: 2014,
+      rate: 7.3
+    }
+  ],
+  Colorado: [
+    {
+      year: 2021,
+      rate: 13
+    },
+    {
+      year: 2017,
+      rate: 12.1
+    },
+    {
+      year: 2018,
+      rate: 11.8
+    },
+    {
+      year: 2020,
+      rate: 11.6
+    },
+    {
+      year: 2016,
+      rate: 11.5
+    },
+    {
+      year: 2019,
+      rate: 11.1
+    },
+    {
+      year: 2015,
+      rate: 10.8
+    },
+    {
+      year: 2014,
+      rate: 10
+    },
+    {
+      year: 2011,
+      rate: 9.8
+    },
+    {
+      year: 2013,
+      rate: 9.7
+    },
+    {
+      year: 2010,
+      rate: 9.6
+    },
+    {
+      year: 2012,
+      rate: 9.1
+    }
+  ],
+  Nevada: [
+    {
+      year: 2021,
+      rate: 13
+    },
+    {
+      year: 2015,
+      rate: 12.6
+    },
+    {
+      year: 2016,
+      rate: 12.2
+    },
+    {
+      year: 2018,
+      rate: 12.1
+    },
+    {
+      year: 2017,
+      rate: 11.8
+    },
+    {
+      year: 2020,
+      rate: 11.5
+    },
+    {
+      year: 2014,
+      rate: 11.1
+    },
+    {
+      year: 2010,
+      rate: 10.6
+    },
+    {
+      year: 2011,
+      rate: 10.3
+    },
+    {
+      year: 2013,
+      rate: 10
+    },
+    {
+      year: 2019,
+      rate: 9.9
+    },
+    {
+      year: 2012,
+      rate: 9.4
+    }
+  ],
+  Ohio: [
+    {
+      year: 2021,
+      rate: 12.8
+    },
+    {
+      year: 2020,
+      rate: 11.7
+    },
+    {
+      year: 2016,
+      rate: 11.4
+    },
+    {
+      year: 2017,
+      rate: 11.3
+    },
+    {
+      year: 2019,
+      rate: 11
+    },
+    {
+      year: 2010,
+      rate: 10.8
+    },
+    {
+      year: 2015,
+      rate: 10.8
+    },
+    {
+      year: 2018,
+      rate: 10.4
+    },
+    {
+      year: 2011,
+      rate: 10.1
+    },
+    {
+      year: 2013,
+      rate: 9.8
+    },
+    {
+      year: 2012,
+      rate: 9.7
+    },
+    {
+      year: 2014,
+      rate: 9.7
+    }
+  ],
+  California: [
+    {
+      year: 2021,
+      rate: 12.7
+    },
+    {
+      year: 2020,
+      rate: 11.3
+    },
+    {
+      year: 2016,
+      rate: 10.6
+    },
+    {
+      year: 2017,
+      rate: 10.6
+    },
+    {
+      year: 2018,
+      rate: 10.5
+    },
+    {
+      year: 2019,
+      rate: 10.2
+    },
+    {
+      year: 2015,
+      rate: 9.5
+    },
+    {
+      year: 2014,
+      rate: 8.9
+    },
+    {
+      year: 2013,
+      rate: 8.8
+    },
+    {
+      year: 2011,
+      rate: 8.1
+    },
+    {
+      year: 2012,
+      rate: 8
+    },
+    {
+      year: 2010,
+      rate: 7.8
+    }
+  ],
+  Wisconsin: [
+    {
+      year: 2020,
+      rate: 12.1
+    },
+    {
+      year: 2021,
+      rate: 11.7
+    },
+    {
+      year: 2016,
+      rate: 11.3
+    },
+    {
+      year: 2017,
+      rate: 11.3
+    },
+    {
+      year: 2018,
+      rate: 11
+    },
+    {
+      year: 2010,
+      rate: 10.9
+    },
+    {
+      year: 2011,
+      rate: 10.9
+    },
+    {
+      year: 2015,
+      rate: 10.6
+    },
+    {
+      year: 2019,
+      rate: 10.6
+    },
+    {
+      year: 2012,
+      rate: 10.5
+    },
+    {
+      year: 2013,
+      rate: 10.4
+    },
+    {
+      year: 2014,
+      rate: 9.8
+    }
+  ],
+  Virginia: [
+    {
+      year: 2021,
+      rate: 11.8
+    },
+    {
+      year: 2020,
+      rate: 10.8
+    },
+    {
+      year: 2018,
+      rate: 10.7
+    },
+    {
+      year: 2017,
+      rate: 10.6
+    },
+    {
+      year: 2019,
+      rate: 10.5
+    },
+    {
+      year: 2011,
+      rate: 10
+    },
+    {
+      year: 2016,
+      rate: 9.9
+    },
+    {
+      year: 2012,
+      rate: 9.5
+    },
+    {
+      year: 2014,
+      rate: 9.5
+    },
+    {
+      year: 2013,
+      rate: 9.4
+    },
+    {
+      year: 2015,
+      rate: 9.4
+    },
+    {
+      year: 2010,
+      rate: 9.1
+    }
+  ],
+  Pennsylvania: [
+    {
+      year: 2011,
+      rate: 11.7
+    },
+    {
+      year: 2010,
+      rate: 11.3
+    },
+    {
+      year: 2021,
+      rate: 10.6
+    },
+    {
+      year: 2013,
+      rate: 10.4
+    },
+    {
+      year: 2012,
+      rate: 10.3
+    },
+    {
+      year: 2015,
+      rate: 10.1
+    },
+    {
+      year: 2018,
+      rate: 10.1
+    },
+    {
+      year: 2014,
+      rate: 10
+    },
+    {
+      year: 2016,
+      rate: 10
+    },
+    {
+      year: 2017,
+      rate: 9.9
+    },
+    {
+      year: 2020,
+      rate: 9.7
+    },
+    {
+      year: 2019,
+      rate: 8.8
+    }
+  ],
+  Illinois: [
+    {
+      year: 2021,
+      rate: 11.6
+    },
+    {
+      year: 2020,
+      rate: 10.5
+    },
+    {
+      year: 2017,
+      rate: 9.6
+    },
+    {
+      year: 2018,
+      rate: 9.4
+    },
+    {
+      year: 2016,
+      rate: 9.2
+    },
+    {
+      year: 2019,
+      rate: 9.1
+    },
+    {
+      year: 2013,
+      rate: 8.7
+    },
+    {
+      year: 2015,
+      rate: 8.6
+    },
+    {
+      year: 2011,
+      rate: 8.3
+    },
+    {
+      year: 2014,
+      rate: 8.3
+    },
+    {
+      year: 2010,
+      rate: 8.1
+    },
+    {
+      year: 2012,
+      rate: 7.4
+    }
+  ],
+  "New Hampshire": [
+    {
+      year: 2018,
+      rate: 11.1
+    },
+    {
+      year: 2013,
+      rate: 10.4
+    },
+    {
+      year: 2021,
+      rate: 10.4
+    },
+    {
+      year: 2010,
+      rate: 10.3
+    },
+    {
+      year: 2016,
+      rate: 9.9
+    },
+    {
+      year: 2011,
+      rate: 8.9
+    },
+    {
+      year: 2020,
+      rate: 8.9
+    },
+    {
+      year: 2014,
+      rate: 8.1
+    },
+    {
+      year: 2012,
+      rate: 8
+    },
+    {
+      year: 2015,
+      rate: 8
+    },
+    {
+      year: 2017,
+      rate: 8
+    },
+    {
+      year: 2019,
+      rate: 7.9
+    }
+  ],
+  Maryland: [
+    {
+      year: 2021,
+      rate: 10.7
+    },
+    {
+      year: 2020,
+      rate: 10.4
+    },
+    {
+      year: 2017,
+      rate: 9.5
+    },
+    {
+      year: 2016,
+      rate: 9.4
+    },
+    {
+      year: 2019,
+      rate: 9.2
+    },
+    {
+      year: 2013,
+      rate: 9
+    },
+    {
+      year: 2010,
+      rate: 8.9
+    },
+    {
+      year: 2011,
+      rate: 8.8
+    },
+    {
+      year: 2012,
+      rate: 8.6
+    },
+    {
+      year: 2015,
+      rate: 8.6
+    },
+    {
+      year: 2018,
+      rate: 8.5
+    },
+    {
+      year: 2014,
+      rate: 7.9
+    }
+  ],
+  Minnesota: [
+    {
+      year: 2021,
+      rate: 10.6
+    },
+    {
+      year: 2010,
+      rate: 9.7
+    },
+    {
+      year: 2020,
+      rate: 8.8
+    },
+    {
+      year: 2015,
+      rate: 8.7
+    },
+    {
+      year: 2018,
+      rate: 8.7
+    },
+    {
+      year: 2011,
+      rate: 8.6
+    },
+    {
+      year: 2013,
+      rate: 8.6
+    },
+    {
+      year: 2016,
+      rate: 8.6
+    },
+    {
+      year: 2017,
+      rate: 8.1
+    },
+    {
+      year: 2019,
+      rate: 8
+    },
+    {
+      year: 2014,
+      rate: 7.9
+    },
+    {
+      year: 2012,
+      rate: 7.3
+    }
+  ],
+  Utah: [
+    {
+      year: 2021,
+      rate: 10.6
+    },
+    {
+      year: 2020,
+      rate: 9.9
+    },
+    {
+      year: 2010,
+      rate: 9.8
+    },
+    {
+      year: 2011,
+      rate: 9.8
+    },
+    {
+      year: 2015,
+      rate: 9.4
+    },
+    {
+      year: 2017,
+      rate: 9.4
+    },
+    {
+      year: 2016,
+      rate: 9.3
+    },
+    {
+      year: 2014,
+      rate: 8.8
+    },
+    {
+      year: 2018,
+      rate: 8.2
+    },
+    {
+      year: 2013,
+      rate: 7.9
+    },
+    {
+      year: 2019,
+      rate: 7.7
+    },
+    {
+      year: 2012,
+      rate: 7.6
+    }
+  ],
+  "Rhode Island": [
+    {
+      year: 2017,
+      rate: 9.9
+    },
+    {
+      year: 2010,
+      rate: 8.6
+    },
+    {
+      year: 2021,
+      rate: 7.4
+    },
+    {
+      year: 2013,
+      rate: 7.3
+    },
+    {
+      year: 2011,
+      rate: 7.2
+    },
+    {
+      year: 2019,
+      rate: 7
+    },
+    {
+      year: 2020,
+      rate: 7
+    },
+    {
+      year: 2018,
+      rate: 6.5
+    },
+    {
+      year: 2012,
+      rate: 6.1
+    },
+    {
+      year: 2014,
+      rate: 5.9
+    },
+    {
+      year: 2016,
+      rate: 5.5
+    },
+    {
+      year: 2015,
+      rate: 5.2
+    }
+  ],
+  Washington: [
+    {
+      year: 2021,
+      rate: 9.9
+    },
+    {
+      year: 2017,
+      rate: 9
+    },
+    {
+      year: 2015,
+      rate: 8.9
+    },
+    {
+      year: 2018,
+      rate: 8.9
+    },
+    {
+      year: 2020,
+      rate: 8.9
+    },
+    {
+      year: 2016,
+      rate: 8.5
+    },
+    {
+      year: 2019,
+      rate: 8.3
+    },
+    {
+      year: 2010,
+      rate: 8.2
+    },
+    {
+      year: 2014,
+      rate: 8.2
+    },
+    {
+      year: 2011,
+      rate: 8.1
+    },
+    {
+      year: 2013,
+      rate: 7.7
+    },
+    {
+      year: 2012,
+      rate: 6.3
+    }
+  ],
+  Hawaii: [
+    {
+      year: 2016,
+      rate: 9.5
+    },
+    {
+      year: 2010,
+      rate: 9.1
+    },
+    {
+      year: 2012,
+      rate: 9
+    },
+    {
+      year: 2019,
+      rate: 8.5
+    },
+    {
+      year: 2018,
+      rate: 8.1
+    },
+    {
+      year: 2013,
+      rate: 8
+    },
+    {
+      year: 2011,
+      rate: 7.8
+    },
+    {
+      year: 2014,
+      rate: 7.6
+    },
+    {
+      year: 2017,
+      rate: 7.4
+    },
+    {
+      year: 2015,
+      rate: 7.3
+    },
+    {
+      year: 2021,
+      rate: 6.6
+    },
+    {
+      year: 2020,
+      rate: 6.3
+    }
+  ],
+  Connecticut: [
+    {
+      year: 2010,
+      rate: 9.3
+    },
+    {
+      year: 2021,
+      rate: 9.2
+    },
+    {
+      year: 2020,
+      rate: 9.1
+    },
+    {
+      year: 2016,
+      rate: 8.5
+    },
+    {
+      year: 2018,
+      rate: 8.5
+    },
+    {
+      year: 2013,
+      rate: 8.3
+    },
+    {
+      year: 2017,
+      rate: 8.2
+    },
+    {
+      year: 2015,
+      rate: 8
+    },
+    {
+      year: 2014,
+      rate: 7.6
+    },
+    {
+      year: 2019,
+      rate: 7.5
+    },
+    {
+      year: 2012,
+      rate: 7.4
+    },
+    {
+      year: 2011,
+      rate: 6.5
+    }
+  ],
+  "District of Columbia": [
+    {
+      year: 2021,
+      rate: 8.8
+    },
+    {
+      year: 2015,
+      rate: 6.4
+    },
+    {
+      year: 2010,
+      rate: 6.3
+    },
+    {
+      year: 2019,
+      rate: 6.2
+    },
+    {
+      year: 2020,
+      rate: 6.2
+    },
+    {
+      year: 2011,
+      rate: 6.1
+    },
+    {
+      year: 2018,
+      rate: 6
+    },
+    {
+      year: 2014,
+      rate: 5.6
+    },
+    {
+      year: 2016,
+      rate: 5
+    },
+    {
+      year: 2017,
+      rate: 4.8
+    },
+    {
+      year: 2013,
+      rate: 4.6
+    },
+    {
+      year: 2012,
+      rate: 3
+    }
+  ],
+  "New Jersey": [
+    {
+      year: 2021,
+      rate: 7.7
+    },
+    {
+      year: 2011,
+      rate: 7.6
+    },
+    {
+      year: 2017,
+      rate: 7.2
+    },
+    {
+      year: 2016,
+      rate: 7
+    },
+    {
+      year: 2020,
+      rate: 7
+    },
+    {
+      year: 2018,
+      rate: 6.7
+    },
+    {
+      year: 2019,
+      rate: 6.7
+    },
+    {
+      year: 2010,
+      rate: 6.6
+    },
+    {
+      year: 2012,
+      rate: 6.6
+    },
+    {
+      year: 2015,
+      rate: 6.6
+    },
+    {
+      year: 2014,
+      rate: 6.4
+    },
+    {
+      year: 2013,
+      rate: 6.3
+    }
+  ],
+  "New York": [
+    {
+      year: 2021,
+      rate: 7
+    },
+    {
+      year: 2011,
+      rate: 6.9
+    },
+    {
+      year: 2010,
+      rate: 6.8
+    },
+    {
+      year: 2013,
+      rate: 6.7
+    },
+    {
+      year: 2020,
+      rate: 6.2
+    },
+    {
+      year: 2015,
+      rate: 6
+    },
+    {
+      year: 2012,
+      rate: 5.9
+    },
+    {
+      year: 2014,
+      rate: 5.8
+    },
+    {
+      year: 2016,
+      rate: 5.8
+    },
+    {
+      year: 2017,
+      rate: 5.8
+    },
+    {
+      year: 2019,
+      rate: 5.8
+    },
+    {
+      year: 2018,
+      rate: 5.4
+    }
+  ],
+  Massachusetts: [
+    {
+      year: 2016,
+      rate: 6.8
+    },
+    {
+      year: 2021,
+      rate: 6.6
+    },
+    {
+      year: 2014,
+      rate: 6.1
+    },
+    {
+      year: 2017,
+      rate: 6.1
+    },
+    {
+      year: 2011,
+      rate: 6
+    },
+    {
+      year: 2010,
+      rate: 5.9
+    },
+    {
+      year: 2015,
+      rate: 5.8
+    },
+    {
+      year: 2018,
+      rate: 5.8
+    },
+    {
+      year: 2012,
+      rate: 5.7
+    },
+    {
+      year: 2019,
+      rate: 5.7
+    },
+    {
+      year: 2013,
+      rate: 5.6
+    },
+    {
+      year: 2020,
+      rate: 5.6
     }
   ]
 };
@@ -2614,9 +2614,10 @@ export default class MotorDeaths extends React.Component {
     let allaccidents = [];
     let allAccidents = [];
 
-    Object.keys(motordeaths).forEach((state) => {
+    Object.keys(motordeaths).forEach((state, i) => {
       states.push(state);
       motordeaths[state].forEach(({ rate, year }) => {
+        if (i === 0) dates.push(year);
         allaccidents.push(rate);
         allAccidents.push([year, rate]);
         dates.push(year);
@@ -2664,19 +2665,14 @@ export default class MotorDeaths extends React.Component {
           });
         });
         console.log(allaccidents);
-        var highAccidents = Math.max(...all, ...allaccidents),
-          lowAccidents = Math.min(...all, ...allaccidents),
-          highDate = Math.max(...dates),
+        var highDate = Math.max(...dates),
           lowDate = Math.min(...dates);
 
         this.setState({
           showarson: true,
           noData: [],
           allaccidents,
-          lowAccidents,
           allAccidents,
-          highAccidents,
-          yAxisAccidents: highAccidents - lowAccidents,
           xAxis: highDate - lowDate,
           highDate,
           lowDate
@@ -2794,12 +2790,7 @@ export default class MotorDeaths extends React.Component {
               );
             })}
           </select>
-          <a
-            style={{ color: "black" }}
-            href="https://www.iihs.org/topics/fatality-statistics/detail/yearly-snapshot"
-          >
-            accidents
-          </a>
+          state
         </div>
         <div
           style={{
