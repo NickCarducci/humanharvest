@@ -17341,7 +17341,6 @@ class Vaxx extends React.Component {
         <div
           style={{
             right: "10px",
-            position: "absolute",
             height: "100%"
           }}
         >
