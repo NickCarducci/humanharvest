@@ -9,6 +9,13 @@ import Rapid from "./rapid";
 import Murders from "./Murders";
 import Homeowners from "./homeowners";
 import MotorDeaths from "./motordeaths";
+import Spanish from "./spanish";
+import Vaxx from "./vaxx";
+import Epiology from "./epiology";
+import Polio from "./polio";
+import Dies from "./dies";
+import Mortal from "./mortal";
+import Worldwide from "./worldwide";
 
 export default class Main extends React.Component {
   constructor(props) {
@@ -223,6 +230,51 @@ export default class Main extends React.Component {
           Can any 8099 store purchase marijuana for a medical discount in New
           Jersey?
         </div>
+        <Worldwide
+          lastWidth={Math.min(600, this.state.lastWidth)}
+          style={{
+            fontSize: "12px",
+            paddingBottom: "15px",
+            backgroundColor: "rgb(190,150,180)"
+          }}
+        />
+        <Mortal
+          lastWidth={Math.min(600, this.state.lastWidth)}
+          style={{
+            fontSize: "12px",
+            marginTop: "20px",
+            paddingBottom: "50px",
+            backgroundColor: "rgb(190,150,180)"
+          }}
+        />
+        <Spanish
+          lastWidth={Math.min(600, this.state.lastWidth)}
+          style={{
+            fontSize: "12px",
+            height: "230px",
+            paddingBottom: "15px",
+            backgroundColor: "rgb(190,150,180)"
+          }}
+        />
+        <Vaxx
+          lastWidth={Math.min(600, this.state.lastWidth)}
+          style={{
+            fontSize: "12px",
+            transform: "translate(0,0)",
+            backgroundColor: "rgb(190,150,180)",
+            height: "200px"
+          }}
+        />
+        <br />
+        <br />
+        <Epiology
+          lastWidth={Math.min(600, this.state.lastWidth)}
+          style={{
+            fontSize: "12px",
+            paddingBottom: "15px",
+            backgroundColor: "rgb(190,150,180)"
+          }}
+        />
         <Murders
           lastWidth={Math.min(600, this.state.lastWidth - 40)}
           style={{
@@ -1599,4 +1651,5 @@ export default class Main extends React.Component {
     );
   }
 }
+
 
