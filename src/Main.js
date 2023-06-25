@@ -265,6 +265,13 @@ export default class Main extends React.Component {
             height: "200px"
           }}
         />
+        ms literally, "matches paralytic polio" in&nbsp;
+        <a href="https://www.christopherreeve.org/living-with-paralysis/stats-about-paralysis">
+          US numbers
+        </a>
+        {this.state.lastWidth && this.state.openpandemic && (
+          <Polio lastWidth={Math.min(600, this.state.lastWidth)} />
+        )}
         <br />
         <br />
         <Epiology
