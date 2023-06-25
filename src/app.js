@@ -5371,7 +5371,7 @@ export default class App extends React.Component {
               Self-guided assumes infinite competition or at least
               non-laborless-demand and trade, not spending.
               <br />
-              <Cable
+              {/* <Cable
                 style={{ height: "700px" }}
                 onError={handleScollImgError}
                 //img={true}
@@ -5386,7 +5386,7 @@ export default class App extends React.Component {
                 fwd={this["scrollImg" + scrollnum()]}
                 scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
                 scrollTop={!this.state.economy ? 0 : this.state.scrollTop}
-              />
+              />*/}
               <h1>
                 i deserve my alcholohic lesions in my head, or 10 speedballs a
                 day.
@@ -5498,7 +5498,7 @@ export default class App extends React.Component {
               find out on your own." *click*
               <br />
               <br />
-              <Cable
+              {/* <Cable
                 style={{ width: "300px", height: "330px" }}
                 onError={handleScollImgError}
                 //img={true}
@@ -5513,7 +5513,7 @@ export default class App extends React.Component {
                 fwd={this["scrollImg" + scrollnum()]}
                 scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
                 scrollTop={!this.state.economy ? 0 : this.state.scrollTop}
-              />
+              />*/}
               "If you are looking for tax function sanity, you are wasting your
               time. Most people don’t and most-modicum pay 40%." Those poor
               bastard billionaires who actually pay. They should have paid the
@@ -5798,11 +5798,13 @@ export default class App extends React.Component {
               <a href="https://vaults.biz">currency competitor</a>.
             </h3>
           </div>
-          <TwitterTweetEmbed
-            style={{ float: "right", width: "300px" }}
-            key="1428050191094095878"
-            tweetId="1428050191094095878"
-          />
+          {this.state.openpandemic && (
+            <TwitterTweetEmbed
+              style={{ float: "right", width: "300px" }}
+              key="1428050191094095878"
+              tweetId="1428050191094095878"
+            />
+          )}
           <div
             style={{
               backgroundColor: "black",
@@ -5893,61 +5895,62 @@ export default class App extends React.Component {
               <Spanish
                 lastWidth={Math.min(600, this.state.lastWidth)}
                 style={{
+                  height: "230px",
                   paddingBottom: "15px",
                   backgroundColor: "rgb(190,150,180)"
                 }}
               />
+              <br />
+              Etymologist of baby boomer{" "}
+              <a href="https://www.cdc.gov/nchs/data/vsus/vsus_1950_1.pdf#page=104">
+                predicted Covid
+              </a>
+              .<br />
+              <Cable
+                style={{ height: "200px", width: "100%" }}
+                onError={handleScollImgError}
+                //img={true}
+                src={
+                  this.state.noyoutube
+                    ? ""
+                    : "https://drive.google.com/file/d/1BGJag8pW3KxZTbimfp0Nvc3rNf0tgsY2/preview"
+                }
+                float="right"
+                title="1: https://www.cdc.gov/nchs/data/lifetables/life1890-1910.pdf or 2: https://www.cdc.gov/nchs/data/vsus/vsus_1950_1.pdf#page=104"
+                scrolling={this.state.scrolling}
+                fwd={this["scrollImg" + scrollnum()]}
+                scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+                scrollTop={this.state.scrollTop}
+              />
+              "How would you and your family survive if the US government
+              collapsed or was taken over and dollars became totally worthless
+              in 2022?"
+              <br />
+              You are asking for two different scenarios, as the dollar v
+              government (bonds), until parity, by further third party donee
+              beneficiary claimable surrendered freedom (EULA) and beyond
+              Article 4 outlay and receipt scope, when there are apparent
+              alternatives for free rider immutable (sewage, police, lawsuits)
+              truncated production tax, after reverse-amortize
+              (cash/debt)*income every year back. 1-level-board
+              max-royalty-profit-contracts for future debt “investment.”
+              <h3>
+                Exogenous factors aren’t not mentioned but fixed for in
+                regressions.
+              </h3>
+              A vaccine to stop all variants, leave it to the military, they
+              always do it right." They 10% debt service you tool.
+              <br />
+              <br />
+              The military comes out with a vaccine just before expected excess
+              deaths to level from population growth growth that was called a
+              pandemic at their end of life.
+              <h3>3.5m deaths, .5m excess at end of life</h3>
+              "The employer has a right to keep you from work with their own
+              mandate." Not naturally, they need to get a permit like
+              desistations. If the "biden vaccine mandate cannot be upheld,"
+              because pandemic is from population growth, business cannot either
             </div>
-            <br />
-            Etymologist of baby boomer{" "}
-            <a href="https://www.cdc.gov/nchs/data/vsus/vsus_1950_1.pdf#page=104">
-              predicted Covid
-            </a>
-            .<br />
-            <Cable
-              style={{ height: "200px", width: "100%" }}
-              onError={handleScollImgError}
-              //img={true}
-              src={
-                this.state.noyoutube
-                  ? ""
-                  : "https://drive.google.com/file/d/1BGJag8pW3KxZTbimfp0Nvc3rNf0tgsY2/preview"
-              }
-              float="right"
-              title="1: https://www.cdc.gov/nchs/data/lifetables/life1890-1910.pdf or 2: https://www.cdc.gov/nchs/data/vsus/vsus_1950_1.pdf#page=104"
-              scrolling={this.state.scrolling}
-              fwd={this["scrollImg" + scrollnum()]}
-              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
-            />
-            "How would you and your family survive if the US government
-            collapsed or was taken over and dollars became totally worthless in
-            2022?"
-            <br />
-            You are asking for two different scenarios, as the dollar v
-            government (bonds), until parity, by further third party donee
-            beneficiary claimable surrendered freedom (EULA) and beyond Article
-            4 outlay and receipt scope, when there are apparent alternatives for
-            free rider immutable (sewage, police, lawsuits) truncated production
-            tax, after reverse-amortize (cash/debt)*income every year back.
-            1-level-board max-royalty-profit-contracts for future debt
-            “investment.”
-            <h3>
-              Exogenous factors aren’t not mentioned but fixed for in
-              regressions.
-            </h3>
-            A vaccine to stop all variants, leave it to the military, they
-            always do it right." They 10% debt service you tool.
-            <br />
-            <br />
-            The military comes out with a vaccine just before expected excess
-            deaths to level from population growth growth that was called a
-            pandemic at their end of life.
-            <h3>3.5m deaths, .5m excess at end of life</h3>
-            "The employer has a right to keep you from work with their own
-            mandate." Not naturally, they need to get a permit like
-            desistations. If the "biden vaccine mandate cannot be upheld,"
-            because pandemic is from population growth, business cannot either
             <br />
             "Right of any reason to remove from restaurant except racial stuff."
             Get a permit, goomba
@@ -6520,6 +6523,7 @@ export default class App extends React.Component {
             <Mortal
               lastWidth={Math.min(600, this.state.lastWidth)}
               style={{
+                fontSize:"12px",
                 marginTop: "20px",
                 paddingBottom: "50px",
                 backgroundColor: "rgb(190,150,180)"
@@ -6528,6 +6532,7 @@ export default class App extends React.Component {
             <Worldwide
               lastWidth={Math.min(600, this.state.lastWidth)}
               style={{
+                fontSize:"12px",
                 paddingBottom: "15px",
                 backgroundColor: "rgb(190,150,180)"
               }}
@@ -10301,21 +10306,23 @@ export default class App extends React.Component {
               </span>
             )}
             <br />
-            <Cable
-              style={{ width: "300px", height: "350px" }}
-              onError={handleScollImgError}
-              src={
-                this.state.noyoutube
-                  ? ""
-                  : "https://www.youtube.com/embed/IPQIsodwMwY"
-              }
-              float="left"
-              title="Stephen Moore June 13th, 2021 Moore Money, Population Growth, Epiology & GDP/population - https://youtu.be/IPQIsodwMwY"
-              scrolling={this.state.scrolling}
-              fwd={this["scrollImg" + scrollnum()]}
-              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={this.state.scrollTop}
-            />
+            {this.state.openpandemic && (
+              <Cable
+                style={{ width: "300px", height: "350px" }}
+                onError={handleScollImgError}
+                src={
+                  this.state.noyoutube
+                    ? ""
+                    : "https://www.youtube.com/embed/IPQIsodwMwY"
+                }
+                float="left"
+                title="Stephen Moore June 13th, 2021 Moore Money, Population Growth, Epiology & GDP/population - https://youtu.be/IPQIsodwMwY"
+                scrolling={this.state.scrolling}
+                fwd={this["scrollImg" + scrollnum()]}
+                scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+                scrollTop={this.state.scrollTop}
+              />
+            )}
             <h2
               style={{
                 backgroundColor: "rgba(200,100,150,.5)"
@@ -12693,3 +12700,4 @@ export default class App extends React.Component {
     );
   }
 }
+
