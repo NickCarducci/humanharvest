@@ -163,6 +163,8 @@ export default class App extends React.Component {
       >
         <div
           style={{
+            transition: ".3s ease-in",
+            fontSize: this.state.openpandemic ? "" : "0px",
             fontFamily: "'Anonymous Pro', monospace",
             backgroundColor: "rgb(32, 22, 11)",
             width: "calc(100% - 20px)",
@@ -230,26 +232,28 @@ export default class App extends React.Component {
           </div>
           <a href="https://jester.com.co">propaganda research</a>
           <br />
-          <a href="https://stats.stackexchange.com/questions/581479/should-excess-deaths-not-measure-against-the-population-expected-as-opposed-to-s">
-            <Cable
-              style={{
-                width: "100%"
-              }}
-              onError={handleScollImgError}
-              img={true}
-              src={
-                this.state.noyoutube
-                  ? ""
-                  : "https://www.dropbox.com/s/5hq07n284kerxi6/1918%201919%20flu%20%281%29.png?raw=1"
-              }
-              float="left"
-              title="https://stats.stackexchange.com/questions/581479/should-excess-deaths-not-measure-against-the-population-expected-as-opposed-to-s"
-              scrolling={this.state.scrolling}
-              fwd={this["scrollImg" + scrollnum()]}
-              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
-              scrollTop={!this.state.oldecon ? 0 : this.state.scrollTop}
-            />
-          </a>
+          {this.state.openpandemic && (
+            <a href="https://stats.stackexchange.com/questions/581479/should-excess-deaths-not-measure-against-the-population-expected-as-opposed-to-s">
+              <Cable
+                style={{
+                  width: "100%"
+                }}
+                onError={handleScollImgError}
+                img={true}
+                src={
+                  this.state.noyoutube
+                    ? ""
+                    : "https://www.dropbox.com/s/5hq07n284kerxi6/1918%201919%20flu%20%281%29.png?raw=1"
+                }
+                float="left"
+                title="https://stats.stackexchange.com/questions/581479/should-excess-deaths-not-measure-against-the-population-expected-as-opposed-to-s"
+                scrolling={this.state.scrolling}
+                fwd={this["scrollImg" + scrollnum()]}
+                scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+                scrollTop={!this.state.oldecon ? 0 : this.state.scrollTop}
+              />
+            </a>
+          )}
           <h1>
             Larry Kudlow is{space}
             <a href="https://www.quora.com/Why-does-Larry-Kudlow-say-2-inflation-is-desirable-when-zero-is-historically-possible">
@@ -261,9 +265,21 @@ export default class App extends React.Component {
             </a>
             :{space}
             <span style={{ fontSize: "12px" }}>
-              Do you like the government spending as a percentage of GDP in line
-              with its takeover of private values for pennywise degrowth or
-              would you prefer banning labor contracts for wholesale degrowth?
+              <span
+                style={{
+                  textDecoration: "underline"
+                }}
+                onClick={() =>
+                  this.setState({
+                    openpandemic: !this.state.openpandemic
+                  })
+                }
+              >
+                Do you like
+              </span>
+              {space}the government spending as a percentage of GDP in line with
+              its takeover of private values for pennywise degrowth or would you
+              prefer banning labor contracts for wholesale degrowth?
             </span>
           </h1>
           Is the expected value variance of sample size or sectionals larger?
@@ -5782,6 +5798,11 @@ export default class App extends React.Component {
               <a href="https://vaults.biz">currency competitor</a>.
             </h3>
           </div>
+          <TwitterTweetEmbed
+            style={{ float: "right", width: "300px" }}
+            key="1428050191094095878"
+            tweetId="1428050191094095878"
+          />
           <div
             style={{
               backgroundColor: "black",
@@ -5822,11 +5843,6 @@ export default class App extends React.Component {
             death rates, the 5 year cohorts can hide the
             end-(and-beginning-heavy lifetime expectation.
             <br />
-            <TwitterTweetEmbed
-              style={{ float: "right", width: "300px" }}
-              key="1428050191094095878"
-              tweetId="1428050191094095878"
-            />
             <h1>
               A pandemic measured by growth without any basis rate exogenous
               fixations
@@ -5869,13 +5885,19 @@ export default class App extends React.Component {
               pe
             </a>
             <br />
-            <Spanish
-              lastWidth={Math.min(600, this.state.lastWidth)}
+            <div
               style={{
-                paddingBottom: "15px",
-                backgroundColor: "rgb(190,150,180)"
+                fontSize: "12px"
               }}
-            />
+            >
+              <Spanish
+                lastWidth={Math.min(600, this.state.lastWidth)}
+                style={{
+                  paddingBottom: "15px",
+                  backgroundColor: "rgb(190,150,180)"
+                }}
+              />
+            </div>
             <br />
             Etymologist of baby boomer{" "}
             <a href="https://www.cdc.gov/nchs/data/vsus/vsus_1950_1.pdf#page=104">
@@ -6372,21 +6394,27 @@ export default class App extends React.Component {
             Non-exclusive serious cases from those unvaccinated is mistaking the
             forest for the trees (warning mechanism of ingested bacteri, virion
             debris)
-            {this.state.lastWidth && (
-              <a
-                style={{ color: "rgb(230,230,255)" }}
-                href="https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html"
-              >
-                <Vaxx
-                  lastWidth={Math.min(600, this.state.lastWidth)}
-                  style={{
-                    transform: "translate(0,0)",
-                    backgroundColor: "rgb(190,150,180)",
-                    height: "200px"
-                  }}
-                />
-              </a>
-            )}
+            <div
+              style={{
+                fontSize: "12px"
+              }}
+            >
+              {this.state.lastWidth && (
+                <a
+                  style={{ color: "rgb(230,230,255)" }}
+                  href="https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html"
+                >
+                  <Vaxx
+                    lastWidth={Math.min(600, this.state.lastWidth)}
+                    style={{
+                      transform: "translate(0,0)",
+                      backgroundColor: "rgb(190,150,180)",
+                      height: "200px"
+                    }}
+                  />
+                </a>
+              )}
+            </div>
             "COVID-19 coded deaths[ and&nbsp;
             <a href="https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=GB">
               hospitalizations
@@ -6401,15 +6429,21 @@ export default class App extends React.Component {
             </a>
             &nbsp;(pneumonia, influenza, and/or COVID-19) classification."
             <br />
-            {this.state.lastWidth && (
-              <Epiology
-                lastWidth={Math.min(600, this.state.lastWidth)}
-                style={{
-                  paddingBottom: "15px",
-                  backgroundColor: "rgb(190,150,180)"
-                }}
-              />
-            )}
+            <div
+              style={{
+                fontSize: "12px"
+              }}
+            >
+              {this.state.lastWidth && (
+                <Epiology
+                  lastWidth={Math.min(600, this.state.lastWidth)}
+                  style={{
+                    paddingBottom: "15px",
+                    backgroundColor: "rgb(190,150,180)"
+                  }}
+                />
+              )}
+            </div>
             <a href="https://youtu.be/Weqb9KrQ-TU?t=21">electron microscope</a>
             &nbsp;snapshot, cartoon in vivo virus insemination. I think it only
             comes out, & is&nbsp;
@@ -12659,4 +12693,3 @@ export default class App extends React.Component {
     );
   }
 }
-
