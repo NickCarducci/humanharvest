@@ -230,6 +230,11 @@ export default class Main extends React.Component {
           Can any 8099 store purchase marijuana for a medical discount in New
           Jersey?
         </div>
+        <img
+          alt="https://www.cdc.gov/nchs/data/vsus/vsus_1950_1.pdf#page=104"
+          style={{ width: "100%" }}
+          src="https://www.dropbox.com/scl/fi/wk8u3370prglvpcimjjvm/Screen-Shot-2023-06-25-at-5.33.44-PM.png?raw=1&rlkey=a7g6481tn0qmkqkr0b8ze0ut6"
+        />
         <Worldwide
           lastWidth={Math.min(600, this.state.lastWidth)}
           style={{
@@ -265,11 +270,13 @@ export default class Main extends React.Component {
             height: "200px"
           }}
         />
+        <br />
+        <br />
         ms literally, "matches paralytic polio" in&nbsp;
         <a href="https://www.christopherreeve.org/living-with-paralysis/stats-about-paralysis">
           US numbers
         </a>
-        {this.state.lastWidth && this.state.openpandemic && (
+        {this.state.lastWidth && (
           <Polio lastWidth={Math.min(600, this.state.lastWidth)} />
         )}
         <br />
@@ -1658,5 +1665,4 @@ export default class Main extends React.Component {
     );
   }
 }
-
 
