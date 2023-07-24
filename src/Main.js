@@ -147,8 +147,8 @@ export default class Main extends React.Component {
         >
           Are crime and punishment tool revocations criminal torture of
           convicted prisoners? Are mental health facilities better than homeless
-          shelters with computer labs? Shouldn’t there be a jail instead of
-          prison just for abortion unit limit breaches?
+          shelters with computer labs? Should there not be a jail instead of
+          prison just for abortion unit limit breaches? ?????
         </div>
         <br />
         <div
@@ -1665,4 +1665,3 @@ export default class Main extends React.Component {
     );
   }
 }
-
