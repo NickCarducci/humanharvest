@@ -138,7 +138,7 @@ export default class Main extends React.Component {
           more
         </div>
         <div
-          style={{ border: "1px dashed", cursor: "pointer" }}
+          style={{ border: "1px dashed", cursor: "pointer", display: "none" }}
           onClick={() => {
             this.setState({
               openabortion: !this.state.openabortion
@@ -1665,3 +1665,4 @@ export default class Main extends React.Component {
     );
   }
 }
+
