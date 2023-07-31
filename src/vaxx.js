@@ -17444,8 +17444,6 @@ class Vaxx extends React.Component {
                 />
               )
           )}
-        </svg>
-        <svg style={linecss} xmlns="http://www.w3.org/2000/svg">
           {popuData.map(
             ([x, y], i) =>
               !isNaN(x) &&
@@ -17462,8 +17460,6 @@ class Vaxx extends React.Component {
                 />
               )
           )}
-        </svg>
-        <svg style={linecss} xmlns="http://www.w3.org/2000/svg">
           {ilikeiData.map(
             ([x, y], i) =>
               !isNaN(x) &&
@@ -17480,8 +17476,6 @@ class Vaxx extends React.Component {
                 />
               )
           )}
-        </svg>
-        <svg style={linecss} xmlns="http://www.w3.org/2000/svg">
           {ilipropData.map(
             ([x, y], i) =>
               !isNaN(x) &&
@@ -17498,8 +17492,6 @@ class Vaxx extends React.Component {
                 />
               )
           )}
-        </svg>
-        <svg style={linecss} xmlns="http://www.w3.org/2000/svg">
           {uscovidhospDat.map(
             ([x, y], i) =>
               !isNaN(x) &&
@@ -17516,8 +17508,6 @@ class Vaxx extends React.Component {
                 />
               )
           )}
-        </svg>
-        <svg style={linecss} xmlns="http://www.w3.org/2000/svg">
           {vaxxedData.map(
             ([x, y], i) =>
               !isNaN(x) &&
@@ -17527,16 +17517,14 @@ class Vaxx extends React.Component {
                   y={y}
                   width={2}
                   height={2}
-                  stroke="rgb(100,140,200)"
+                  stroke="cornflowerblue"
                   fill="transparent"
                   strokeWidth={1}
                   key={i}
                 />
               )
           )}
-        </svg>
-        <svg style={linecss} xmlns="http://www.w3.org/2000/svg">
-          {vaxxedDataVax.map(
+          {/*vaxxedDataVax.map(
             ([x, y], i) =>
               !isNaN(x) &&
               !isNaN(y) && (
@@ -17545,15 +17533,13 @@ class Vaxx extends React.Component {
                   y={y}
                   width={2}
                   height={2}
-                  stroke="rgb(100,140,200)"
+                  stroke="cornflowerblue"
                   fill="transparent"
                   strokeWidth={1}
                   key={i}
                 />
               )
-          )}
-        </svg>
-        <svg style={linecss} xmlns="http://www.w3.org/2000/svg">
+              )*/}
           {vaxpropData.map(
             ([x, y], i) =>
               !isNaN(x) &&
@@ -17570,8 +17556,6 @@ class Vaxx extends React.Component {
                 />
               )
           )}
-        </svg>
-        <svg style={linecss} xmlns="http://www.w3.org/2000/svg">
           {ilikeiCohortData.map(
             ([x, y], i) =>
               !isNaN(x) &&
@@ -17667,9 +17651,9 @@ class Vaxx extends React.Component {
                   backgroundColor: "rgb(220,150,150)"
                 }}
               />
-              influenza-like-illness&nbsp;
+              flu-covid (ILI)&nbsp;
             </div>
-            <div style={{ width: "max-content" }}>
+            <div style={{ width: "max-content", display: "none" }}>
               <div
                 style={{
                   width: "5px",
@@ -17697,7 +17681,7 @@ class Vaxx extends React.Component {
               </div>
               vaxxed&nbsp;
             </div>
-            <div style={{ width: "max-content" }}>
+            <div style={{ width: "max-content", display: "none" }}>
               <div
                 style={{
                   width: "5px",
@@ -17715,7 +17699,7 @@ class Vaxx extends React.Component {
                   backgroundColor: "orange"
                 }}
               />
-              iliHosp/pop rate of change
+              hospitalized
             </div>
             {/*<div style={{ width: "min-content", marginLeft: "3px" }}>
               <div
