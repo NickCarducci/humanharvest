@@ -230,11 +230,17 @@ export default class Main extends React.Component {
           Can any 8099 store purchase marijuana for a medical discount in New
           Jersey?
         </div>
+        <iframe
+          style={{ width: "100%" }}
+          src="https://www.youtube.com/embed/WnK_f8i7AQE"
+          title="Greg Kelly"
+        />
         <img
           alt="https://www.cdc.gov/nchs/data/vsus/vsus_1950_1.pdf#page=104"
           style={{ width: "100%" }}
           src="https://www.dropbox.com/scl/fi/wk8u3370prglvpcimjjvm/Screen-Shot-2023-06-25-at-5.33.44-PM.png?raw=1&rlkey=a7g6481tn0qmkqkr0b8ze0ut6"
         />
+        <h4>Did covid happen worldwide?</h4>
         <Worldwide
           lastWidth={Math.min(600, this.state.lastWidth)}
           style={{
@@ -243,6 +249,7 @@ export default class Main extends React.Component {
             backgroundColor: "rgb(190,150,180)"
           }}
         />
+        <h4>Did covid happen nationally?</h4>
         <Mortal
           lastWidth={Math.min(600, this.state.lastWidth)}
           style={{
@@ -252,6 +259,7 @@ export default class Main extends React.Component {
             backgroundColor: "rgb(190,150,180)"
           }}
         />
+        <h4>Did the 1918 flu happen for 25-39?</h4>
         <Spanish
           lastWidth={Math.min(600, this.state.lastWidth)}
           style={{
@@ -261,12 +269,13 @@ export default class Main extends React.Component {
             backgroundColor: "rgb(190,150,180)"
           }}
         />
+        <h4>Do vaccines cause hospitalization, let alone prevent it?</h4>
         <Vaxx
           lastWidth={Math.min(600, this.state.lastWidth)}
           style={{
             fontSize: "12px",
             transform: "translate(0,0)",
-            backgroundColor: "rgb(190,150,180)",
+            backgroundColor: "rgb(130,80,110)",
             height: "200px"
           }}
         />
@@ -1665,4 +1674,5 @@ export default class Main extends React.Component {
     );
   }
 }
+
 
