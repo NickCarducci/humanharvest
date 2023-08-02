@@ -249,7 +249,7 @@ export default class Main extends React.Component {
             backgroundColor: "rgb(190,150,180)"
           }}
         />
-        <h4>Did covid happen nationally?</h4>
+        <h4>Did covid happen nationally (_: population)?</h4>
         <Mortal
           lastWidth={Math.min(600, this.state.lastWidth)}
           style={{
