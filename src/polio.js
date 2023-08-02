@@ -105,24 +105,25 @@ class Polio extends React.Component {
       true
     );
     const noData = this.state.noData.map(([x, y]) => [
-      ((x - this.state.lowDate) / width) * 0.9,
+      ((x - this.state.lowDate) / width) * 0.8,
       "0"
     ]);
     const mortTrend = this.state.mortTrend.map(([x, y]) => [
-      ((x - this.state.lowDate) / this.state.xAxis) * width * 0.9,
+      ((x - this.state.lowDate) / this.state.xAxis) * width * 0.8,
       ((y - 0) / this.state.highmort) * 150
     ]);
     const polioSclerosisData = this.state.polioSclerosisData.map(([x, y]) => [
-      ((x - this.state.lowDate) / this.state.xAxis) * width * 0.9,
+      ((x - this.state.lowDate) / this.state.xAxis) * width * 0.8,
       ((y - 0) / this.state.yAxis) * 150
     ]);
     return (
       <div
         style={{
+          width: "80%",
           backgroundColor: "white",
           transform: "translate(0,0)",
           height: "200px",
-          margin: "10px 50px"
+          margin: "10px 20px"
         }}
       >
         <div
@@ -184,8 +185,6 @@ class Polio extends React.Component {
                 />
               )
           )}
-        </svg>
-        <svg className="all" style={linecss} xmlns="http://www.w3.org/2000/svg">
           {mortTrend.map(
             ([x, y], i) =>
               !isNaN(x) &&
@@ -208,8 +207,6 @@ class Polio extends React.Component {
             stroke="purple"
             data={mortTrend}
           />*/}
-        </svg>
-        <svg className="all" style={linecss} xmlns="http://www.w3.org/2000/svg">
           <path
             /** <path d="M150 0 L75 200 L225 200 Z" /> */
             d={`${polioSclerosisData
@@ -244,3 +241,4 @@ class Polio extends React.Component {
   }
 }
 export default Polio;
+
