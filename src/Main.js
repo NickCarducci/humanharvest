@@ -110,6 +110,7 @@ export default class Main extends React.Component {
     return (
       <div
         style={{
+          maxWidth: "600px",
           display: "block",
           lineHeight: "14px",
           padding: "20px",
@@ -1674,5 +1675,4 @@ export default class Main extends React.Component {
     );
   }
 }
-
 
