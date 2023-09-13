@@ -10,10 +10,23 @@ class Path extends React.Component {
   //water nationwide air
   render() {
     return this.state.more ? (
-      <App
+      <div>
+        <div
+          onClick={() => {
+            this.setState({ more: !this.state.more });
+          }}
+        >
+          less
+        </div>
+        <iframe
+          style={{ width: "100%", height: "calc(100% - 20px)" }}
+          src="https://41sze.csb.app"
+          title="froth.quora.com"
+        />
+      </div> /*<App
         pathname={this.props.pathname}
         toggle={() => this.setState({ more: !this.state.more })}
-      />
+      />*/
     ) : (
       <Main
         pathname={this.props.pathname}
@@ -77,3 +90,4 @@ ReactDOM.render(
   </BrowserRouter>,
   rootElement
 );
+
