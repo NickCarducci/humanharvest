@@ -19,8 +19,8 @@ class Path extends React.Component {
           less
         </div>
         <iframe
-          style={{ width: "100%", height: "calc(100% - 20px)" }}
-          src="https://41sze.csb.app"
+          style={{ width: "calc(100% - 20px)", height: "calc(100vh - 60px)" }}
+          src="https://froth.netlify.app"
           title="froth.quora.com"
         />
       </div> /*<App
@@ -90,4 +90,5 @@ ReactDOM.render(
   </BrowserRouter>,
   rootElement
 );
+
 
